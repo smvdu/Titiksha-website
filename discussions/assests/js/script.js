@@ -2,7 +2,7 @@
    Last Modified: Feb 20, 2012
 ****************************/
 
-var debug = true;
+var debug = false;
 
 $(document).ready(function(){
 
@@ -17,8 +17,18 @@ $(document).ready(function(){
 	$(window).resize(resizeIframe); 
 
 	function resizeIframe() {
-    	var h = $(window).height();
-    	var w = $(window).width();
+    	var w, h;   	
+    	
+ 		if($.browser.mozilla){
+  			h = $(window).height();
+    		w = $(window).width();
+  			log("firefox");	
+  		}else{
+  			h = $(document).height();
+    		w = $(document).width();
+    		log("non-firefox");
+  		}
+
     	frame.height(h);
     	frame.width(w);
 	}
