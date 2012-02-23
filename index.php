@@ -4,20 +4,24 @@
 
 	
 	include ('php/functions.php');
+  define("SITE_TITLE", "Titiksha | Annual tech-fest of Shri Mata Vaishno Devi University", true);
 ?>
 
 
 <!doctype html>
-<html itemscope itemtype="http://schema.org/<?php print(site_type); ?>" class=no-js>
+<html itemscope itemtype="http://schema.org/<?php echo SITE_TYPE; ?>" class=no-js>
 <head>
 <head>
 	<meta charset="utf-8">
 	
-	<title>	<?php print(site_title); ?> </title>
+	
+  <title>	<?php echo SITE_TITLE; ?> </title>
 		
-	<meta name="viewport" content="width=device-width,initial-scale=1">	
+	
+  <meta name="viewport" content="width=device-width,initial-scale=1">	
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	
+  <?php /*
 	<meta itemprop="name" content="<?php print(site_title)?>">
 	<meta name="description" content="<?php print(site_description);?>">
 	<meta itemprop="description" content="<?php print(site_description);?>">
@@ -26,7 +30,7 @@
 	<meta name="author" content="<?php print(site_author);?>">
 	
 	<?php get_fb_meta() ;?>
-	
+	*/ ?>
 	<link rel="stylesheet" href="assests/css/style.css">	
 
 	  
@@ -70,19 +74,21 @@
       <!-- Main hero unit for a primary marketing message or call to action -->
       <div class="hero-unit">
         <h1>Welcome to Titiksha</h1>
-        <p><?php print(site_title)?></p>
-        <!-- <p><a class="btn primary large" href="register.php">Register. It's Free!! &raquo;</a></p> -->
+        
+        <p>Annual tech-fest of Shri Mata Vaishno Devi University University</p>
+        <p><a class="btn primary large" href="#">Learn more &raquo;</a></p>
       </div>
 
-<?php /*
+
       <!-- Example row of columns -->
       <div class="row">
         <div class="span-one-third">
           <h2>About</h2>
-          <p>Will be updated soon. </p>
+          <p>The website is in a rapid development mode. It is being updated continuously so expect the things to change here. If you like to suggest or participate in it's development, you are most welcome. Just follow this <a href="https://github.com/SaurabhKumar/titiksha-website">link</a> or raise an issue <a href="https://github.com/SaurabhKumar/titiksha-website"></a>here.</p>
           <p><a class="btn" href="#">View details &raquo;</a></p>
           
         </div>
+<?php /*
         <div class="span-one-third">
   			<h2>Register</h2>
 			<ul>
@@ -105,7 +111,7 @@
 
    <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="assests/js/libs/jquery-1.7.1.min.js"></script>')</script> 
+  <script>window.jQuery || document.write('<script src="assests/js/libs/jquery-1.7.1.min.js"><\/script>')</script> 
 
 
   <!-- scripts concatenated and minified via build script -->
