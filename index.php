@@ -77,7 +77,7 @@
         <h1>Welcome to Titiksha</h1>
         
         <p>Annual tech-fest of Shri Mata Vaishno Devi University</p>
-        <p><a class="btn success" href="#">Learn more &raquo;</a></p>
+        <p><a class="btn success" href="discussions/">View Latest Updates &raquo;</a></p>
 
 
       </div>
