@@ -87,7 +87,7 @@
       <div class="row">
         <div class="span-one-third">
           <h2>About</h2>
-          <p>The website is in a rapid development mode. It is being updated continuously so expect the things to change here. If you like to suggest or participate in it's development, you are most welcome. Just follow this <a href="https://github.com/SaurabhKumar/titiksha-website">link</a> or raise an issue <a href="https://github.com/SaurabhKumar/titiksha-website/issues">here.</a></p>
+          <p>The website is in a rapid development mode. It is being updated continuously so expect the things to change here. If you like to suggest or participate in it's development, you are most welcome. Just follow this <a href="https://github.com/smvdu/titiksha-website">link</a> or raise an issue <a href="https://github.com/smvdu/titiksha-website/issues">here.</a></p>
           <!-- <p><a class="btn" href="#">View details &raquo;</a></p> -->
           
         </div>
