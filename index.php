@@ -31,7 +31,8 @@
 	
 	<?php get_fb_meta() ;?>
 	*/ ?>
-	<link rel="stylesheet" href="assests/css/style.css">	
+	<link rel="stylesheet" href="assests/css/style.css"> 
+  <link rel="stylesheet" href="assests/css/style.homepage.css">	
 
 	  
   <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
@@ -76,7 +77,7 @@
         <h1>Welcome to Titiksha</h1>
         
         <p>Annual tech-fest of Shri Mata Vaishno Devi University University</p>
-        <p><a class="btn primary large" href="#">Learn more &raquo;</a></p>
+        <p><a class="btn success" href="#">Learn more &raquo;</a></p>
       </div>
 
 
@@ -84,8 +85,8 @@
       <div class="row">
         <div class="span-one-third">
           <h2>About</h2>
-          <p>The website is in a rapid development mode. It is being updated continuously so expect the things to change here. If you like to suggest or participate in it's development, you are most welcome. Just follow this <a href="https://github.com/SaurabhKumar/titiksha-website">link</a> or raise an issue <a href="https://github.com/SaurabhKumar/titiksha-website"></a>here.</p>
-          <p><a class="btn" href="#">View details &raquo;</a></p>
+          <p>The website is in a rapid development mode. It is being updated continuously so expect the things to change here. If you like to suggest or participate in it's development, you are most welcome. Just follow this <a href="https://github.com/SaurabhKumar/titiksha-website">link</a> or raise an issue <a href="https://github.com/SaurabhKumar/titiksha-website/issues">here.</a></p>
+          <!-- <p><a class="btn" href="#">View details &raquo;</a></p> -->
           
         </div>
 <?php /*
@@ -99,8 +100,9 @@
           <h2>Udates</h2>
           <p id="lifestream"></p>          
         </div>
-      </div>
 */?>
+      </div>
+
       <footer>
         <p>&copy; Titiksha 2012</p>
       </footer>

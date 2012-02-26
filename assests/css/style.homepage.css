@@ -1,0 +1,16 @@
+.hero-unit{
+	padding-top: 50px;
+	background: url('../img/banner-top.jpg') #000 ;
+	color: #fff;
+}
+
+.hero-unit h1 {
+	color: #fff;
+	font-size: 42px;
+	font-weight: normal;
+
+}
+
+.hero-unit p {
+	font-size: 13px;	
+}
