@@ -2,7 +2,8 @@
 	/* Local configurations/ overrides
 	***********************************************/	
 
-	
+	header("location: 2012b/");
+  exit(0);
 	include ('php/functions.php');
   define("SITE_TITLE", "Titiksha | Annual tech-fest of Shri Mata Vaishno Devi University", true);
 ?>
@@ -91,18 +92,30 @@
           <!-- <p><a class="btn" href="#">View details &raquo;</a></p> -->
           
         </div>
-<?php /*
+
         <div class="span-one-third">
   			<h2>Register</h2>
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+        
+            
 			<ul>
   				<li><a href="#">Rules and Regulations</a></li>
   				<li><a href="#">Rules and Regulations</a></li>
        </div>
         <div class="span-one-third">
-          <h2>Udates</h2>
-          <p id="lifestream"></p>          
+          <h2>Updates</h2>
+          <p id="lifestream">
+
+          <ul>
+            <li>Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.</li>
+            <li>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</li>
+            <li>Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi.</li>
+            <li>Pellentesque fermentum dolor. Aliquam quam lectus, facilisis auctor, ultrices ut, elementum vulputate, nunc.</li>
+          </ul>
+          
+          </p>          
         </div>
-*/?>
+
       </div>
 
       <footer>
