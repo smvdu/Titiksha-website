@@ -9,8 +9,6 @@
 	/* Local configurations/ overrides
 	***********************************************/	
 
-	// header("location: 2012b/");
- //  exit(0);
 	include ('php/functions.php');
   
 ?>
@@ -101,15 +99,15 @@
         </div>
 
         <div class="span-one-third">
-  			<h2>Quick Links</h2>
-        <p>Some quick links to help you understand and participate in Titiksha better. Best of luck!.</p>
-        <ul class="quick-link">
-          <li><a href="<?php echo site_twitter_url; ?>" class="external link twitter">Twitter Updates</a></li>
-          <li><a href="<?php echo site_forum_url; ?>" class="external link forum">Mailing list/ Discussion Forum</a></li>
-          <li><a href="<?php echo site_titiksha2012_url; ?>" class="external link events">Events and Rules</a></li>
-          <li><a href="<?php echo site_register_url; ?>" class="external link register">Registration Form</a></li>          
-        </ul>
-       </div>
+    			<h2>Quick Links</h2>
+          <p>Some quick links to help you understand and participate in Titiksha better. Best of luck!.</p>
+          <ul class="quick-link">
+            <li><a href="<?php echo site_twitter_url; ?>" class="external link twitter">Twitter Updates</a></li>
+            <li><a href="<?php echo site_forum_url; ?>" class="external link forum">Mailing list/ Discussion Forum</a></li>
+            <li><a href="<?php echo site_titiksha2012_url; ?>" class="external link events">Events and Rules</a></li>
+            <li><a href="<?php echo site_register_url; ?>" class="external link register">Registration Form</a> <span class="label success">New</span></li>          
+          </ul>
+        </div>
         <div class="span-one-third">
           <h2>Updates</h2>
           <p id="lifestream">
@@ -123,8 +121,22 @@
           
           </p>          
         </div>
+      </div> <!--first row (end) -->
 
-      </div>
+      <section id="sponsors">
+        <div class="page-header">
+          <h1 class="heading">Our previous Sponsors<small> </h1>
+          
+        </div>
+
+        <div class="row">
+          <div class="span16 icons sponsor-list">
+              <?php get_sponsors_list(); ?>
+          </div>
+        </div>
+
+      </section>
+
 
       <footer>
         <p>&copy; Titiksha 2012</p>
