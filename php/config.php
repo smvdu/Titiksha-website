@@ -14,6 +14,9 @@
 	define('site_twitter_url', "https://twitter.com/titikshasmvdu",1);	
 	define('site_url',"http://titiksha.smvdu.net.in",1);
 	define('site_forum_url', "http://titiksha.smvdu.net.in/discussions",1);
+	define('site_titiksha2012_url', site_url."/2012",1);
+	define('site_register_url', site_titiksha2012_url."/register",1);
+
 	
 
 	define('site_fb_appid','',1);	
