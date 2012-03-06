@@ -36,7 +36,8 @@
 	
   <?php // include site css here ?>	
   <link rel="stylesheet" href="assests/css/style.css"> 
-  <link rel="stylesheet" href="assests/css/style.homepage.css">	
+  <link rel="stylesheet" href="assests/css/style.homepage.css">
+  <link rel="stylesheet" href="assests/css/lifestream.css">  
 
 	  
   <?php // More ideas for your <head> here: h5bp.com/d/head-Tips ?>
@@ -117,16 +118,7 @@
         </div>
         <div class="span-one-third">
           <h2>Updates</h2>
-          <p id="lifestream">
-
-          <ul>
-            <li>Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.</li>
-            <li>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</li>
-            <li>Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi.</li>
-            <li>Pellentesque fermentum dolor. Aliquam quam lectus, facilisis auctor, ultrices ut, elementum vulputate, nunc.</li>
-          </ul>
-          
-          </p>          
+          <p id="lifestream"> Loading... </p>
         </div>
       </div> <!--first row (end) -->
 

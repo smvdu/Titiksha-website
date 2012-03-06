@@ -24,8 +24,6 @@ body{
   top: 30px;
   right: 150px;
   width: 200px;
-  
-  
 }
 
 /* jQuery Countdown styles 1.5.11. */
@@ -79,4 +77,43 @@ body{
   padding-top: 10px;
   display: block;
   width: 100%;
+}
+
+
+/******************************/
+/* Latest updates ************/
+/****************************/
+p#lifestream {
+  height: 300px;
+  overflow: scroll;
+}
+
+#lifestream ul{
+  margin-left: 0px;
+}
+
+#lifestream a {
+  color: #f6dd97;
+  text-decoration: none;
+}
+
+#lifestream a:hover {
+  color: #fff5d8;
+  text-decoration: underline;
+}
+
+#lifestream ul {
+ 
+}
+#lifestream li {
+  padding: 5px 3px 5px 25px;
+  background-repeat: no-repeat;
+  background-position: left center;
+  list-style: none;
+}
+#lifestream li:hover {
+  color: #e9e9e9;
+}
+#lifestream .timeago {
+  opacity: .5;
 }
