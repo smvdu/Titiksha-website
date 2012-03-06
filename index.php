@@ -101,8 +101,14 @@
         </div>
 
         <div class="span-one-third">
-  			<h2>Register</h2>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+  			<h2>Quick Links</h2>
+        Some quick links to help you understand and participate in Titiksha better. Best of luck!.
+        <ul class="quick-link">
+          <li><a href="<?php echo site_twitter_url; ?>" class="external link twitter">Twitter Updates</a></li>
+          <li><a href="<?php echo site_forum_url; ?>" class="external link forum">Mailing list/ Discussion Forum</a></li>
+          <li><a href="<?php echo site_forum_url; ?>" class="external link"></a></li>
+          <li><a href="" class="external link"></a></li>
+        </ul>
         
             
 			<ul>
