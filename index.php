@@ -82,7 +82,10 @@
         <h1>Welcome to Titiksha</h1>
         
         <p>Annual tech-fest of Shri Mata Vaishno Devi University</p>
-        <p><a class="btn success" href="<?php echo site_forum_url; ?>">View Latest Updates &raquo;</a></p>
+        <p>
+          <a class="btn success" href="<?php echo site_titiksha2012_url; ?>">View Events</a>
+          <a class="btn success" href="<?php echo site_register_url; ?>">Register &raquo;</a>
+        </p>
 
         <?php //countdown genetrated using jQuery ref: script.js ?>
         <section id="countdown-header" class="countdown"></section>
@@ -125,7 +128,7 @@
 
       <section id="sponsors">
         <div class="page-header">
-          <h1 class="heading">Our previous Sponsors<small> </h1>
+          <h1>Our previous Sponsors</h1>
           
         </div>
 
