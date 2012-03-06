@@ -91,6 +91,10 @@
         <section id="countdown-header" class="countdown"></section>
       </div>
 
+      <div class="alert-message warning" data-alert>
+        <a class="close" href="#">×</a>
+        <p><strong>Attention!</strong> This website is underconstruction. Expect the thing to change here. No need to worry..!! You can bookmark this site to visit again. :)</p>
+      </div>
 
       <!-- Example row of columns -->
       <div class="row">
