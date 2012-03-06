@@ -84,7 +84,7 @@
         <h1>Welcome to Titiksha</h1>
         
         <p>Annual tech-fest of Shri Mata Vaishno Devi University</p>
-        <p><a class="btn success" href="http://titiksha.smvdu.net.in/discussions/">View Latest Updates &raquo;</a></p>
+        <p><a class="btn success" href="<?php echo site_forum_url; ?>">View Latest Updates &raquo;</a></p>
 
         <?php //countdown genetrated using jQuery ref: script.js ?>
         <section id="countdown-header" class="countdown"></section>
@@ -102,18 +102,13 @@
 
         <div class="span-one-third">
   			<h2>Quick Links</h2>
-        Some quick links to help you understand and participate in Titiksha better. Best of luck!.
+        <p>Some quick links to help you understand and participate in Titiksha better. Best of luck!.</p>
         <ul class="quick-link">
           <li><a href="<?php echo site_twitter_url; ?>" class="external link twitter">Twitter Updates</a></li>
           <li><a href="<?php echo site_forum_url; ?>" class="external link forum">Mailing list/ Discussion Forum</a></li>
-          <li><a href="<?php echo site_forum_url; ?>" class="external link"></a></li>
-          <li><a href="" class="external link"></a></li>
+          <li><a href="<?php echo site_titiksha2012_url; ?>" class="external link events">Events and Rules</a></li>
+          <li><a href="<?php echo site_register_url; ?>" class="external link register">Registration Form</a></li>          
         </ul>
-        
-            
-			<ul>
-  				<li><a href="#">Rules and Regulations</a></li>
-  				<li><a href="#">Rules and Regulations</a></li>
        </div>
         <div class="span-one-third">
           <h2>Updates</h2>
