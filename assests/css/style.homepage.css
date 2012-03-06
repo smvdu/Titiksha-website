@@ -14,3 +14,7 @@
 .hero-unit p {
 	font-size: 13px;	
 }
+
+body{
+	background: #181818 url(../img/bg_body_black.horiz.line.jpg) repeat;
+}
