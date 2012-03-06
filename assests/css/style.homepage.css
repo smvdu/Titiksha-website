@@ -108,7 +108,7 @@ p#lifestream {
 #lifestream li {
   padding: 5px 3px 5px 25px;
   background-repeat: no-repeat;
-  background-position: left center;
+  background-position: left 9px;
   list-style: none;
 }
 #lifestream li:hover {

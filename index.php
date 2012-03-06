@@ -118,6 +118,7 @@
         </div>
         <div class="span-one-third">
           <h2>Updates</h2>
+          <?php // dependency: lifestream.css uses lifestream plugin ?>
           <p id="lifestream"> Loading... </p>
         </div>
       </div> <!--first row (end) -->
