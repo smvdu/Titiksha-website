@@ -84,7 +84,7 @@
         
         <p>Annual tech-fest of Shri Mata Vaishno Devi University</p>
         <p>
-          <a class="btn success" href="<?php echo site_titiksha2012_url; ?>">View Events</a>
+          <a class="btn success" href="<?php echo site_event_url; ?>">View Events</a>
           <a class="btn success" href="<?php echo site_register_url; ?>">Register &raquo;</a>
         </p>
 
