@@ -16,8 +16,9 @@
 }
 
 body{
-	background: #181818 url(../img/bg_body_black.horiz.line.jpg) repeat;
+	background: #181818 url(../img/bg-light.jpg) repeat;
 }
+
 
 #countdown-header {
   position: absolute;
@@ -84,8 +85,8 @@ body{
 /* Latest updates ************/
 /****************************/
 p#lifestream {
-  height: 300px;
-  overflow: scroll;
+  height: 250px;
+  overflow: auto;
 }
 
 #lifestream ul{
@@ -93,12 +94,12 @@ p#lifestream {
 }
 
 #lifestream a {
-  color: #f6dd97;
+  /*color: #f6dd97;*/
   text-decoration: none;
 }
 
 #lifestream a:hover {
-  color: #fff5d8;
+  /*color: #fff5d8;*/
   text-decoration: underline;
 }
 
@@ -112,7 +113,7 @@ p#lifestream {
   list-style: none;
 }
 #lifestream li:hover {
-  color: #e9e9e9;
+  color: #000;
 }
 #lifestream .timeago {
   opacity: .5;
