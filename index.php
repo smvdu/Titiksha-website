@@ -102,8 +102,8 @@
         <div class="row">
           <div class="span-one-third">
             <h2>About</h2>
-            <p>The website is in a rapid development mode. It is being updated continuously so expect the things to change here. If you like to suggest or participate in it's development, you are most welcome. Just follow this <a href="https://github.com/smvdu/titiksha-website">link</a> or raise an issue <a href="https://github.com/smvdu/titiksha-website/issues">here.</a></p>
-            <!-- <p><a class="btn" href="#">View details &raquo;</a></p> -->
+            <div id="p-about"><?php get_about(); ?></div>
+            
             
           </div>
         
@@ -113,7 +113,7 @@
             <ul class="quick-link">
               <li><a href="<?php echo site_twitter_url; ?>" class="external link twitter">Twitter Updates</a></li>
               <li><a href="<?php echo site_forum_url; ?>" class="external link forum">Mailing list/ Discussion Forum</a></li>
-              <li><a href="<?php echo site_titiksha2012_url; ?>" class="external link events">Events and Rules</a></li>
+              <li><a href="<?php echo site_event_url; ?>" class="external link events">Events and Rules</a></li>
               <li><a href="<?php echo site_register_url; ?>" class="external link register">Registration Form</a> <span class="label success">New</span></li>          
             </ul>
           </div>
