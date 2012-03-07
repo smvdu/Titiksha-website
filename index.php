@@ -35,9 +35,10 @@
   <?php get_fb_meta(); ?>
 	
   <?php // include site css here ?>	
-  <link rel="stylesheet" href="assests/css/style.css"> 
-  <link rel="stylesheet" href="assests/css/style.homepage.css">
-  <link rel="stylesheet" href="assests/css/lifestream.css">  
+  <link href="assests/css/style.css" rel="stylesheet"> 
+  <link href="assests/css/style.homepage.css" rel="stylesheet">
+  <link href="assests/css/lifestream.css" rel="stylesheet">  
+  <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:200' rel='stylesheet'>
 
 	  
   <?php // More ideas for your <head> here: h5bp.com/d/head-Tips ?>
