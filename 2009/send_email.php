@@ -12,7 +12,7 @@ $register_comments = $_POST['query'];
 if( $register_univ_name == true )
 {
 	$sender = $register_email;
-	$receiver = "titiksha@smvdu.ac.in";
+	$receiver = "titiksha.smvdu@gmail.com";
 	$client_ip = $_SERVER['REMOTE_ADDR'];
 //***********************************************************	
 	$email_body = 
