@@ -21,10 +21,10 @@ body{
 
 
 #countdown-header {
-  position: absolute;
-  top: 30px;
-  right: 150px;
-  width: 200px;
+    float: right;
+    margin-right: 70px;
+    margin-top: -143px;
+    width: 200px;
 }
 
 /* jQuery Countdown styles 1.5.11. */
