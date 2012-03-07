@@ -16,19 +16,14 @@
 }
 
 body{
-	background: #EEEEEE url(../img/bg-light.jpg) repeat;
-}
-
-h1, h2 {
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  text-shadow: #DDD 0px 2px 2px;
+	background: #181818 url(background.jpg) repeat;
 }
 
 #countdown-header {
-    float: right;
-    margin-right: 70px;
-    margin-top: -143px;
-    width: 200px;
+  position: absolute;
+  top: 30px;
+  right: 150px;
+  width: 200px;
 }
 
 /* jQuery Countdown styles 1.5.11. */
@@ -84,13 +79,12 @@ h1, h2 {
   width: 100%;
 }
 
-
 /******************************/
 /* Latest updates ************/
 /****************************/
 p#lifestream {
-  height: 250px;
-  overflow: auto;
+  height: 300px;
+  overflow: scroll;
 }
 
 #lifestream ul{
@@ -98,12 +92,14 @@ p#lifestream {
 }
 
 #lifestream a {
-  /*color: #f6dd97;*/
+  /* color: #f6dd97;*/
+  colour: #1E90FF; 
   text-decoration: none;
 }
 
 #lifestream a:hover {
-  /*color: #fff5d8;*/
+ /* color: #fff5d8; */
+    colour: #D3D3D3;
   text-decoration: underline;
 }
 
@@ -117,8 +113,10 @@ p#lifestream {
   list-style: none;
 }
 #lifestream li:hover {
-  color: #000;
+  /*color: #e9e9e9; */
+  color:  #696969;
 }
 #lifestream .timeago {
-  opacity: .5;
+  /* opacity: .5; */
+  opacity: 25;
 }
