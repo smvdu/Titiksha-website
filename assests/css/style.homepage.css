@@ -19,7 +19,10 @@ body{
 	background: #EEEEEE url(../img/bg-light.jpg) repeat;
 }
 
-h1, h2 {font-family: 'Yanone Kaffeesatz', sans-serif;}
+h1, h2 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  text-shadow: #DDD 0px 2px 2px;
+}
 
 #countdown-header {
     float: right;

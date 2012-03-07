@@ -95,7 +95,7 @@
 
       <div class="alert-message warning" data-alert>
         <a class="close" href="#">×</a>
-        <p><strong>Attention!</strong> This website is underconstruction. Expect the thing to change here. No need to worry..!! You can bookmark this site to visit again. :)</p>
+        <p><strong>Attention!</strong> We are still working. Expect things to change here. No need to worry..!! You can bookmark this site to visit again. :)</p>
       </div>
 
       <section id="introduction"><!-- Example row of columns -->
