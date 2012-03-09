@@ -60,6 +60,7 @@
             <li class="active"><a href="">Home</a></li>
             <li><a href="<?php echo site_event_url; ?>">Events</a></li>
             <li><a href="<?php echo site_forum_url; ?>">Forum</a></li>
+            <li><a href="#sponsors">Sponsors</a></li>
             <li><a href="<?php echo site_contact_url; ?>">Contact</a></li>
           </ul>
         </div>
