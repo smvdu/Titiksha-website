@@ -82,11 +82,10 @@
         <section id="countdown-header" class="countdown"></section>
       </div>
 
-      <div class="alert-message warning" data-alert>
+<!--       <div class="alert-message success" data-alert>
         <a class="close" href="#">×</a>
         <p><strong>Attention!</strong> The scheduled dated for Titksha 2012 is <strong>25th - 26th</strong> March. Checkout the events <a href="<?php echo site_register_url; ?>">here.</a></p>
-
-      </div>
+      </div> -->
     
       <section id="introduction"><!-- Example row of columns -->
         <div class="row">
