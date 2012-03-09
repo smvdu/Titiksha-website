@@ -95,7 +95,7 @@
 
       <div class="alert-message warning" data-alert>
         <a class="close" href="#">×</a>
-        <p><strong>Attention!</strong> We are still working. Expect things to change here. No need to worry..!! You can bookmark this site to visit again. :)</p>
+        <p><strong>Attention!</strong> The scheduled dated for Titksha 2012 is <strong>25th - 26th</strong>March. </p>
       </div>
 
       <section id="introduction"><!-- Example row of columns -->
