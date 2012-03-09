@@ -22,6 +22,8 @@ body{
 	background: #181818 url(../img/background.jpg) repeat;
 }
 
+h1, h2 {font-family: 'Yanone Kaffeesatz', sans-serif;}
+
 #countdown-header {
   position: absolute;
   top: 78px;
