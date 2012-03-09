@@ -122,3 +122,12 @@ p#lifestream {
 #lifestream .timeago {
   opacity: .5;
 }
+
+/***************************/
+footer {
+  margin: 20px 0 30px 0px;
+}
+
+footer #left {
+  text-align: right;
+}

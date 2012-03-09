@@ -141,7 +141,17 @@
 
 
       <footer>
-        <p>&copy; Titiksha 2012</p>
+        <div class="row">
+          <div class="span6">&copy; Titiksha 2012</div>
+          <div class="span10" id="left">
+            <a href="#">Home</a> | 
+            <a href="https://github.com/smvdu/Titiksha-website">Develop</a> | 
+            <a href="https://www.facebook.com/Titiksha2k12/">Facebook</a> |
+            <a href="2012/">Events</a> |
+            <a href="2012/contacts">Contacts</a> 
+          </div>
+        </div>
+        
       </footer>
 
     </div> <!-- /container -->
