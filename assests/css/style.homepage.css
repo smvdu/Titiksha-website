@@ -1,5 +1,5 @@
 .hero-unit{
-  margin-top: 30px;
+  margin-top: 51px;
 	padding-top: 50px;
 	/*background: url('../img/banner-top.jpg') #000 ;
 	color: #fff;*/
@@ -19,22 +19,28 @@
 }
 
 body{
-	background: #181818 url(../img/background.jpg) repeat;
+  /*background: #181818 url(../img/background.jpg) repeat;*/
+	background: #181818 url(../img/homepage-src.jpg) repeat;
+  color: #E2EFDE;
+
 }
 
 h1, h2 {font-family: 'Yanone Kaffeesatz', sans-serif;}
 
-p{
-  color: #000;
-}
 
-#p-about a{
-  color: blue;
+a {
+  color: pink;
+}
+a:visited {
+  color: pink;
+}
+a:hover {
+  color: pink;
 }
 
 #countdown-header {
   position: absolute;
-  top: 78px;
+  top: 127px;
   right: 150px;
   width: 200px;
 }

@@ -437,7 +437,7 @@ h4,
 h5,
 h6 {
   font-weight: bold;
-  color: #404040;
+  /*color: #404040;*/
 }
 h1 small,
 h2 small,
