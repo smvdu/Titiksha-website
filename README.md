@@ -23,7 +23,7 @@ Anyone and everyone is welcome to contribute. Many developers have helped make t
 ## Project information
 
 * Source: http://github.com/smvdu/titiksha.git
-* Web: http://xpark.smvdu.net.in
+* Web: http://titiksha.smvdu.net.in
 * Docs: https://github.com/smvdu/titiksha/wiki
 * Mailing list: http://titiksha.smvdu.net.in/discussions
 * Twitter: http://twitter.com/titikshasmvdu
