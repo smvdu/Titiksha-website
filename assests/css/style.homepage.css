@@ -97,7 +97,7 @@ p{
 /****************************/
 p#lifestream {
   height: 300px;
-  overflow: scroll;
+  overflow: auto;
 }
 
 #lifestream ul{
