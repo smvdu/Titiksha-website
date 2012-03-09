@@ -24,6 +24,14 @@ body{
 
 h1, h2 {font-family: 'Yanone Kaffeesatz', sans-serif;}
 
+p{
+  color: #000;
+}
+
+#p-about a{
+  color: blue;
+}
+
 #countdown-header {
   position: absolute;
   top: 78px;

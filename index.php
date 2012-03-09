@@ -87,32 +87,31 @@
         <p><strong>Attention!</strong> The scheduled dated for Titksha 2012 is <strong>25th - 26th</strong> March. Checkout the events <a href="<?php echo site_register_url; ?>">here.</a></p>
 
       </div>
-
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="span-one-third">
-          <h2>About</h2>
-          <p  style="color:#000000">The website is in a rapid development mode. It is being updated continuously so expect the things to change here. If you like to suggest or participate in it's development, you are most welcome. Just follow this <a href="https://github.com/smvdu/titiksha-website">link</a> or raise an issue <a href="https://github.com/smvdu/titiksha-website/issues">here.</a></p>
-          <!-- <p><a class="btn" href="#">View details &raquo;</a></p> -->
-          
-        </div>
-
-        <div class="span-one-third">
-    			<h2>Quick Links</h2>
-          <p style="color:#000000">Some quick links to help you understand and participate in Titiksha better. Best of luck!.</p>
-          <ul class="quick-link">
-            <li><a href="<?php echo site_twitter_url; ?>" class="external link twitter">Twitter Updates</a></li>
-            <li><a href="<?php echo site_forum_url; ?>" class="external link forum">Mailing list/ Discussion Forum</a></li>
-            <li><a href="<?php echo site_titiksha2012_url; ?>" class="external link events">Events and Rules</a></li>
-            <li><a href="<?php echo site_register_url; ?>" class="external link register">Registration Form</a> <span class="label success">New</span></li>          
-          </ul>
-        </div>
-        <div class="span-one-third">
-          <h2>Updates</h2>
-          <?php // dependency: lifestream.css uses lifestream plugin ?>
-          <p id="lifestream"> Loading... </p>
-        </div>
-      </div> <!--first row (end) -->
+    
+      <section id="introduction"><!-- Example row of columns -->
+        <div class="row">
+          <div class="span-one-third">
+            <h2>About</h2>
+            <div id="p-about"><?php get_about(); ?></div>            
+            
+          </div>
+        
+          <div class="span-one-third">
+                  <h2>Quick Links</h2>
+            <p>Some quick links to help you understand and participate in Titiksha better. Best of luck!.</p>
+            <ul class="quick-link">
+              <li><a href="<?php echo site_twitter_url; ?>" class="external link twitter">Twitter Updates</a></li>
+              <li><a href="<?php echo site_forum_url; ?>" class="external link forum">Mailing list/ Discussion Forum</a></li>
+              <li><a href="<?php echo site_titiksha2012_url; ?>" class="external link events">Events and Rules</a></li>
+              <li><a href="<?php echo site_register_url; ?>" class="external link register">Registration Form</a> <span class="label success">New</span></li>          
+            </ul>
+          </div>
+          <div class="span-one-third">
+            <h2>Updates</h2>
+            <?php // dependency: lifestream.css uses lifestream plugin ?>
+            <p id="lifestream"> Loading... </p>
+          </div>
+        </div> <!--first row (end) --></section>
 
       <section id="sponsors">
         <div class="page-header">
