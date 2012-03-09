@@ -1,5 +1,6 @@
 .hero-unit{
-	padding-top: 50px;
+	margin-top: 30px;
+  padding-top: 50px;
 	background: url('../img/banner-top.jpg') #000 ;
 	color: #fff;
 }

@@ -50,33 +50,22 @@
 </head>
 
 <body>
-<?php /*
+
   <?php // top fixed navigation ?>  
-	<div class="topbar">
+	<div class="topbar" data-scrollspy="scrollspy">
       <div class="fill">
         <div class="container">
-          <a class="brand" href="#">Titiksha</a>
+          <a class="brand" href="#">Titiksha 2K12</a>
           <ul class="nav pull-right">
             <li class="active"><a href="">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Forum</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <ul class="nav secondary-nav">
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle">Login</a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Secondary link</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li class="divider"></li>
-                <li><a href="#">Another link</a></li>
-              </ul>
-            </li>
-          </ul>
+            <li><a href="<?php echo site_event_url; ?>">Events</a></li>
+            <li><a href="<?php echo site_forum_url; ?>">Forum</a></li>
+            <li><a href="<?php echo site_contact_url; ?>">Contact</a></li>
           </ul>
         </div>
       </div>
     </div>
-*/ ?>
+
     <div class="container">
 
       <?php //Main hero unit for a primary marketing message or call to action ?>
