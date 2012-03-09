@@ -55,7 +55,7 @@
 	<div class="topbar" data-scrollspy="scrollspy">
       <div class="fill">
         <div class="container">
-          <a class="brand" href="#">Titiksha 2K12</a>
+          <a class="brand" href="#">Titiksha <?php echo date('Y')?></a>
           <ul class="nav pull-right">
             <li class="active"><a href="">Home</a></li>
             <li><a href="<?php echo site_event_url; ?>">Events</a></li>
@@ -130,7 +130,7 @@
 
       <footer>
         <div class="row">
-          <div class="span6">&copy; Titiksha 2012</div>
+          <div class="span6">&copy; Titiksha 2012 | Shri Mata Vaishno Devi University</div>
           <div class="span10" id="left">
             <a href="#">Home</a> | 
             <a href="https://github.com/smvdu/Titiksha-website">Develop</a> | 
