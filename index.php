@@ -63,6 +63,10 @@
             <li><a href="#sponsors">Sponsors</a></li>
             <li><a href="<?php echo site_contact_url; ?>">Contact</a></li>
           </ul>
+          <form class="pull-right" action="<?php echo site_titiksha2012_url; ?>" method="get">
+              <input type="text" placeholder="Search" name="s">
+          </form>
+
         </div>
       </div>
     </div>
