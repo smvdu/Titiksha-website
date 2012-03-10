@@ -43,6 +43,9 @@ a:hover {
   top: 127px;
   right: 150px;
   width: 200px;
+  text-shadow: 0 0 11px #fff;
+  font-family: "Georgia";
+
 }
 
 /* jQuery Countdown styles 1.5.11. */
