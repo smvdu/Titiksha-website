@@ -29,7 +29,7 @@ h1, h2 {font-family: 'Yanone Kaffeesatz', sans-serif;}
 
 
 a {
-  color: pink;
+  color: #d44a9b;
 }
 a:visited {
   color: pink;
@@ -136,6 +136,7 @@ p#lifestream {
   background-repeat: no-repeat;
   background-position: left 9px;
   list-style: none;
+  color: #000000;
 }
 #lifestream li:hover {
   /*color: #e9e9e9; */
