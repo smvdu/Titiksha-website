@@ -4,7 +4,7 @@
 	define("site_title", "Titiksha | Annual tech-fest of Shri Mata Vaishno Devi University", 1);
 	define("site_type", "Organisation",1);
 	
-	define('site_description', "Titiksha is annual tech-fest of Shri Mata Vaishno Devi Unviersity.",1);
+	define('site_description', "Titiksha is annual tech-fest of Shri Mata Vaishno Devi University.",1);
 	
 	define('site_keywords', "titiksha 2012, social coding, open-source, competition, programming, coding, annual, smvdu, tech-fest, festival, smvd university, events, discussion",1);
 	define('site_photo_url', "https://fbcdn-sphotos-a.akamaihd.net/hphotos-ak-ash4/402688_174079946039316_174073632706614_273744_622817716_n.jpg");
