@@ -37,7 +37,8 @@
   <?php // include site css here ?>	
   <link rel="stylesheet" href="assests/css/style.css"> 
   <link rel="stylesheet" href="assests/css/style.homepage.css">
-  <link rel="stylesheet" href="assests/css/lifestream.css">  
+  <link rel="stylesheet" href="assests/css/lifestream.css"> 
+  <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:200' rel='stylesheet'> 
 
 	  
   <?php // More ideas for your <head> here: h5bp.com/d/head-Tips ?>
@@ -54,13 +55,18 @@
   <div class="topbar" data-scrollspy="scrollspy">
       <div class="fill">
         <div class="container">
-          <a class="brand" href="#">Titiksha 2K12</a>
+          <a class="brand" href="#">Titiksha <?php echo date('Y')?></a>
           <ul class="nav pull-right">
             <li class="active"><a href="">Home</a></li>
             <li><a href="<?php echo site_event_url; ?>">Events</a></li>
             <li><a href="<?php echo site_forum_url; ?>">Forum</a></li>
+            <li><a href="#sponsors">Sponsors</a></li>
             <li><a href="<?php echo site_contact_url; ?>">Contact</a></li>
           </ul>
+          <form class="pull-right" action="<?php echo site_titiksha2012_url; ?>" method="get">
+              <input type="text" placeholder="Search" name="s">
+          </form>
+
         </div>
       </div>
     </div>
@@ -81,40 +87,35 @@
         <section id="countdown-header" class="countdown"></section>
       </div>
 
-      <div class="alert-message warning" data-alert>
+<!--       <div class="alert-message success" data-alert>
         <a class="close" href="#">×</a>
-<<<<<<< HEAD
-        <p><strong>Attention!</strong> This website is underconstruction. Expect the thing to change here. No need to worry..!! You can bookmark this site to visit again. :)</p>
-=======
-        <p><strong>Attention!</strong> The scheduled dated for Titksha 2012 is <strong>25th - 26th</strong>March. </p>
->>>>>>> fe39b6cad10bbb3f99e4d490e8b36af5d1f73c41
-      </div>
-
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="span-one-third">
-          <h2>About</h2>
-          <p  style="color: #e2efde">The website is in a rapid development mode. It is being updated continuously so expect the things to change here. If you like to suggest or participate in it's development, you are most welcome. Just follow this <a href="https://github.com/smvdu/titiksha-website">link</a> or raise an issue <a href="https://github.com/smvdu/titiksha-website/issues">here.</a></p>
-          <!-- <p><a class="btn" href="#">View details &raquo;</a></p> -->
-          
-        </div>
-
-        <div class="span-one-third">
-    			<h2>Quick Links</h2>
-          <p style="color: #e2efde">Some quick links to help you understand and participate in Titiksha better. Best of luck!.</p>
-          <ul class="quick-link">
-            <li><a href="<?php echo site_twitter_url; ?>" class="external link twitter">Twitter Updates</a></li>
-            <li><a href="<?php echo site_forum_url; ?>" class="external link forum">Mailing list/ Discussion Forum</a></li>
-            <li><a href="<?php echo site_titiksha2012_url; ?>" class="external link events">Events and Rules</a></li>
-            <li><a href="<?php echo site_register_url; ?>" class="external link register">Registration Form</a> <span class="label success">New</span></li>          
-          </ul>
-        </div>
-        <div class="span-one-third">
-          <h2>Updates</h2>
-          <?php // dependency: lifestream.css uses lifestream plugin ?>
-          <p id="lifestream"> Loading... </p>
-        </div>
-      </div> <!--first row (end) -->
+        <p><strong>Attention!</strong> The scheduled dated for Titksha 2012 is <strong>25th - 26th</strong> March. Checkout the events <a href="<?php echo site_register_url; ?>">here.</a></p>
+      </div> -->
+    
+      <section id="introduction"><!-- Example row of columns -->
+        <div class="row">
+          <div class="span-one-third">
+            <h2>About</h2>
+            <div id="p-about"><?php get_about(); ?></div>            
+            
+          </div>
+        
+          <div class="span-one-third">
+                  <h2>Quick Links</h2>
+            <p>Some quick links to help you understand and participate in Titiksha better. Best of luck!.</p>
+            <ul class="quick-link">
+              <li><a href="<?php echo site_twitter_url; ?>" class="external link twitter">Twitter Updates</a></li>
+              <li><a href="<?php echo site_forum_url; ?>" class="external link forum">Mailing list/ Discussion Forum</a></li>
+              <li><a href="<?php echo site_titiksha2012_url; ?>" class="external link events">Events and Rules</a></li>
+              <li><a href="<?php echo site_register_url; ?>" class="external link register">Registration Form</a> <span class="label success">New</span></li>          
+            </ul>
+          </div>
+          <div class="span-one-third">
+            <h2>Updates</h2>
+            <?php // dependency: lifestream.css uses lifestream plugin ?>
+            <p id="lifestream"> Loading... </p>
+          </div>
+        </div> <!--first row (end) --></section>
 
       <section id="sponsors">
         <div class="page-header">
@@ -139,12 +140,23 @@
           </div>
         </div>
 
+        <div class="page-header">
+          <h1>Our Previous Sponsors</h1>
+          
+        </div>
+
+        <div class="row">
+          <div class="span16 icons sponsor-list">
+              <?php get_prev_sponsors_list(); ?>
+          </div>
+        </div>
+
       </section>
 
 
       <footer>
         <div class="row">
-          <div class="span6">&copy; Titiksha 2012</div>
+          <div class="span6">&copy; Titiksha 2012 | Shri Mata Vaishno Devi University</div>
           <div class="span10" id="left">
             <a href="#">Home</a> | 
             <a href="https://github.com/smvdu/Titiksha-website">Develop</a> | 

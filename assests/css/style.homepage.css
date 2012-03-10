@@ -1,10 +1,9 @@
 .hero-unit{
-<<<<<<< HEAD
-	padding-top: 100px;
+  margin-top: 51px;
+	padding-top: 50px;
 	/*background: url('../img/banner-top.jpg') #000 ;
 	color: #fff;*/
   background-color: transparent;
-
 }
 
 .hero-unit h1 {
@@ -20,14 +19,33 @@
 }
 
 body{
+  /*background: #181818 url(../img/background.jpg) repeat;*/
 	background: #181818 url(../img/homepage-src.jpg) repeat;
+  color: #E2EFDE;
+
+}
+
+h1, h2 {font-family: 'Yanone Kaffeesatz', sans-serif;}
+
+
+a {
+  color: pink;
+}
+a:visited {
+  color: pink;
+}
+a:hover {
+  color: pink;
 }
 
 #countdown-header {
   position: absolute;
-  top: 100px;
-  right: 200px;
+  top: 127px;
+  right: 150px;
   width: 200px;
+  text-shadow: 0 0 11px #fff;
+  font-family: "Georgia";
+
 }
 
 /* jQuery Countdown styles 1.5.11. */
@@ -91,7 +109,7 @@ body{
 /****************************/
 p#lifestream {
   height: 300px;
-  overflow: scroll;
+  overflow: auto;
 }
 
 #lifestream ul{
