@@ -117,9 +117,9 @@ p#lifestream {
 }
 
 #lifestream a {
-  /* color: #f6dd97;*/
-  colour: black; 
+  color: #f6dd97;  
   text-decoration: none;
+  text-shadow: 0px 0px 2px #000;
 }
 
 #lifestream a:hover {
@@ -129,19 +129,27 @@ p#lifestream {
 }
 
 #lifestream ul {
- 
+  padding-left: 5px;
 }
 #lifestream li {
   padding: 5px 3px 5px 25px;
   background-repeat: no-repeat;
   background-position: left 9px;
-  list-style: none;
-  color: #000000;
+  list-style: none;  
+  border-bottom: 1px dashed #02293A;
 }
 #lifestream li:hover {
-  /*color: #e9e9e9; */
-  color:  #696969;
+  color: #e9e9e9; 
 }
+
+#lifestream li:nth-child(even) {
+  background-color:rgba(2,76,111,0.6);
+}
+
+#lifestream li:nth-child(odd) {
+  background-color:rgba(1,45,80,0.4);
+}
+
 #lifestream .timeago {
   /* opacity: .5; */
   opacity: 25;
