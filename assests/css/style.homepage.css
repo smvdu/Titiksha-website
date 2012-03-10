@@ -1,15 +1,17 @@
 .hero-unit{
-	padding-top: 50px;
+<<<<<<< HEAD
+	padding-top: 100px;
 	/*background: url('../img/banner-top.jpg') #000 ;
 	color: #fff;*/
   background-color: transparent;
+
 }
 
 .hero-unit h1 {
 	color: #fff;
 	font-size: 42px;
 	font-weight: normal;
-  text-shadow: #000 1px 2px 9px;
+  text-shadow: #000 1px 18px 9px;
 
 }
 
@@ -18,13 +20,13 @@
 }
 
 body{
-	background: #181818 url(../img/background.jpg) repeat;
+	background: #181818 url(../img/homepage-src.jpg) repeat;
 }
 
 #countdown-header {
   position: absolute;
-  top: 30px;
-  right: 150px;
+  top: 100px;
+  right: 200px;
   width: 200px;
 }
 
@@ -71,6 +73,8 @@ body{
   float: left;
   font-size: 75%;
   text-align: center;
+  color: white;
+  text-shadow: 2px 15px 9px black;
 }
 .countdown_amount {
   font-size: 200%;
@@ -79,6 +83,7 @@ body{
   padding-top: 10px;
   display: block;
   width: 100%;
+  color: white;
 }
 
 /******************************/
@@ -95,7 +100,7 @@ p#lifestream {
 
 #lifestream a {
   /* color: #f6dd97;*/
-  colour: #1E90FF; 
+  colour: black; 
   text-decoration: none;
 }
 
@@ -121,4 +126,13 @@ p#lifestream {
 #lifestream .timeago {
   /* opacity: .5; */
   opacity: 25;
+}
+
+/***************************/
+footer {
+  margin: 20px 0 30px 0px;
+}
+
+footer #left {
+  text-align: right;
 }

@@ -17,6 +17,7 @@
 	define('site_titiksha2012_url', "http://2012.titiksha.smvdu.net.in",1);
 	define('site_register_url', site_titiksha2012_url."/register",1);
 	define('site_event_url', site_titiksha2012_url."/category/all-events",1);
+	define('site_contact_url', site_titiksha2012_url."/contacts",1);
 
 	
 
