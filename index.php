@@ -177,7 +177,7 @@
 
       <footer>
         <div class="row">
-          <div class="span6">&copy; Titiksha 2012 | Shri Mata Vaishno Devi University</div>
+          <div class="span6">&copy; Titiksha 2012 | <a href="http://smvdu.net.in" class=external>Shri Mata Vaishno Devi University</a></div>
           <div class="span10" id="left">
             <a href="#">Home</a> | 
             <a href="https://github.com/smvdu/Titiksha-website">Develop</a> | 
