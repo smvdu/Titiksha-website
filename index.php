@@ -58,7 +58,39 @@
           <a class="brand" href="#">Titiksha <?php echo date('Y')?></a>
           <ul class="nav pull-right">
             <li class="active"><a href="">Home</a></li>
-            <li><a href="<?php echo site_event_url; ?>">Events</a></li>
+            <li class="dropdown" data-dropdown="dropdown" >
+              <!-- <a href="<?php echo site_event_url; ?>">Events</a> -->
+
+              <a href="#" class="dropdown-toggle">Events</a>
+              <ul class="dropdown-menu">
+                <li><a href="<?php echo site_titiksha2012_url; ?>/category/all-events/mega-event">
+                  Mega Events</a></li>
+                
+                <li class="divider"></li>
+                
+                <li><a href="<?php echo site_titiksha2012_url; ?>/category/all-events/computer-science-events">
+                  Computer Science</a></li>
+                <li><a href="<?php echo site_titiksha2012_url; ?>/category/all-events/electronics-n-communication-events">
+                  Electronics</a></li>
+                <li><a href="<?php echo site_titiksha2012_url; ?>/category/all-events/mechanical-events">
+                  Mechnical</a></li>
+                <li><a href="<?php echo site_titiksha2012_url; ?>/category/all-events/bio-technology-events">
+                  Industrial Bio-Tech.</a></li>
+                <li><a href="<?php echo site_titiksha2012_url; ?>/category/all-events/architecture">
+                  Architecture</a></li>
+                
+                <li class="divider"></li>
+                
+                <li><a href="<?php echo site_titiksha2012_url; ?>/category/all-events/gaming">
+                  Gaming</a></li>
+                <li><a href="<?php echo site_titiksha2012_url; ?>/category/all-events/non-core-events">
+                  Misc. Events</a></li>
+                
+                <li class="divider"></li>
+                <li><a href="<?php echo site_titiksha2012_url; ?>">All Events</a></li>
+              </ul>
+
+            </li>
             <li><a href="<?php echo site_forum_url; ?>">Forum</a></li>
             <li><a href="#sponsors">Sponsors</a></li>
             <li><a href="<?php echo site_contact_url; ?>">Contact</a></li>
