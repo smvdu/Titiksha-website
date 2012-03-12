@@ -18,6 +18,8 @@
 	define('site_register_url', site_titiksha2012_url."/register",1);
 	define('site_event_url', site_titiksha2012_url."/category/all-events",1);
 	define('site_contact_url', site_titiksha2012_url."/contact",1);
+	define('fest_poster_url', "https://fbcdn-sphotos-a.akamaihd.net/hphotos-ak-ash4/424803_184351345012176_174073632706614_300682_1582544221_n.jpg",1);
+
 
 	
 

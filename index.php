@@ -149,6 +149,10 @@
           </div>
         </div> <!--first row (end) --></section>
 
+      <section id="fest-poster">
+        <div class="span16"><img class="poster" src="<?php echo fest_poster_url; ?>" alt=""></div>
+      </section>
+
       <section id="sponsors">
         <div class="page-header">
           <h1>Our Sponsors</h1>
