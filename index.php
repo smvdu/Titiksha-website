@@ -103,10 +103,19 @@
       </div>
     </div>
 
+  
+  <div class="banner-holder">
+    <div class="banner-top">
+      <h1>Welcome to Titiksha</h1>
+    </div>
+  </div>
+
+
     <div class="container">
 
       <?php //Main hero unit for a primary marketing message or call to action ?>
-      <div class="hero-unit">
+      <?php /*
+      <div class="hero-top">
         <h1>Welcome to Titiksha</h1>
         
         <p>Annual tech-fest of Shri Mata Vaishno Devi University</p>
@@ -118,6 +127,7 @@
         <?php //countdown genetrated using jQuery ref: script.js ?>
         <section id="countdown-header" class="countdown"></section>
       </div>
+      */ ?>
 
 <!--       <div class="alert-message success" data-alert>
         <a class="close" href="#">×</a>
@@ -197,7 +207,7 @@
 
   <!-- JavaScript at the bottom for fast page loading -->
    <?php // Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline ?>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <?php // <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> ?>
   <script>window.jQuery || document.write('<script src="assests/js/libs/jquery-1.7.1.min.js"><\/script>')</script> 
 
 

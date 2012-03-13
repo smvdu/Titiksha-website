@@ -20,7 +20,7 @@
 
 body{
   /*background: #181818 url(../img/background.jpg) repeat;*/
-	background: #181818 url(../img/homepage-src.jpg) repeat;
+	background: #131c2f url(../img/homepage-src.jpg) repeat;
   color: #E2EFDE;
 
 }
@@ -165,6 +165,29 @@ section #fest-poster{
   -moz-opacity: 0.4;
   filter:alpha(opacity=4);
 }
+
+/**************************/
+
+.banner-holder{
+  background: url(../img/bg-banner-holder.png) repeat-x;   
+}
+
+.banner-top{
+  margin:0 auto;
+  margin-top: 40px;
+  height: 250px;
+  clear: both;  
+  background: url(../img/bg-banner-top.png) no-repeat;
+  background-position: center top;
+  text-align: center;  
+}
+
+.banner-top h1 {
+  margin-top: 30px;  
+  padding-left: 40px;
+}
+
+
 
 /***************************/
 footer {
