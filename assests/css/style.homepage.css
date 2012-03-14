@@ -20,7 +20,7 @@
 
 body{
   /*background: #181818 url(../img/background.jpg) repeat;*/
-	background: #131c2f url(../img/homepage-src.jpg) repeat;
+	background: #131c2f url(../img/homepage-src.jpg) no-repeat;
   color: #E2EFDE;
 
 }
