@@ -20,8 +20,9 @@
 
 body{
   /*background: #181818 url(../img/background.jpg) repeat;*/
-	background: #131c2f url(../img/homepage-src.jpg) repeat;
+	background: #131c2f url(../img/homepage-src.jpg) no-repeat;
   color: #E2EFDE;
+  background-color: #081d30;
 
 }
 
@@ -164,7 +165,7 @@ section #fest-poster{
   opacity: 0.4;
   -moz-opacity: 0.4;
   filter:alpha(opacity=4);
-}
+ }
 
 /**************************/
 
