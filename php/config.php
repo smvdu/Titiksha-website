@@ -8,7 +8,8 @@
 	
 	define('site_keywords', "titiksha 2012, social coding, open-source, competition, programming, coding, annual, smvdu, tech-fest, festival, smvd university, events, discussion",1);
 	define('site_photo_url', "https://fbcdn-sphotos-a.akamaihd.net/hphotos-ak-ash4/402688_174079946039316_174073632706614_273744_622817716_n.jpg");
-	define('site_author', 'Saurabh Kumar and contributors (https://github.com/SaurabhKumar/titiksha-website',1);
+	define('site_author', 'Saurabh Kumar and contributors (https://github.com/smvdu/titiksha-website',1);
+	define('site_contributors_url', 'https://github.com/smvdu/Titiksha-website/contributors',1);
 	
 	//add links here
 	define('site_twitter_url', "https://twitter.com/titikshasmvdu",1);	
@@ -18,7 +19,7 @@
 	define('site_register_url', site_titiksha2012_url."/register",1);
 	define('site_event_url', site_titiksha2012_url."/category/all-events",1);
 	define('site_contact_url', site_titiksha2012_url."/contact",1);
-	define('fest_poster_url', "https://fbcdn-sphotos-a.akamaihd.net/hphotos-ak-ash4/424803_184351345012176_174073632706614_300682_1582544221_n.jpg",1);
+	define('fest_poster_url', "https://fbcdn-sphotos-a.akamaihd.net/hphotos-ak-ash4/424803_184351345012176_174073632706614_300682_1582544221_n.jpg",1);	
 
 
 	
