@@ -129,10 +129,13 @@
       </div>
       */ ?>
 
-<!--       <div class="alert-message success" data-alert>
+      <div class="alert-message warning" data-alert>
         <a class="close" href="#">×</a>
-        <p><strong>Attention!</strong> The scheduled dated for Titksha 2012 is <strong>25th - 26th</strong> March. Checkout the events <a href="<?php echo site_register_url; ?>">here.</a></p>
-      </div> -->
+        <p>
+          <strong>Important Notice:</strong> Accomodation will be available if you register before <strong>24<sup>th</sup> March, 5pm</strong> After that no accomodation will be provied. 
+          Register <a href="<?php echo site_register_url; ?>">here</a>.
+        </p>
+      </div> 
     
       <section id="introduction"><!-- Example row of columns -->
         <div class="row">
