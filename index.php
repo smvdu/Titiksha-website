@@ -107,6 +107,8 @@
   <div class="banner-holder">
     <div class="banner-top">
       <h1>Welcome to Titiksha</h1>
+      
+      <section id="countdown-header" class="countdown"></section>
     </div>
   </div>
 
