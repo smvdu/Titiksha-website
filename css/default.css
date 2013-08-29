@@ -3,7 +3,7 @@
 
 @font-face {
     font-family: "Oxygen";
-    src: url("..font/Oxygen.otf") ;
+    src: url("font/Oxygen.otf") ;
 }
 
 
@@ -15,7 +15,6 @@ body, html { font-size: 70%; padding: 0; margin: 0; height: 100%;}
 .clearfix:after { clear: both; }
 
 body {
-	font-family: 'Lato', Calibri, Arial, sans-serif;
 	color: #fff;
 	background: #000;
 }
@@ -28,10 +27,28 @@ a {
 a:hover {
 	color: #fff;
 }
-#rit{
+
+.container{
+	position: relative;
+	margin: 0px;
+	min-height: 100%;
+}
+#right-part{
 	font-family: Oxygen;
 	width: 300px;
 	height: 500px;
 	float: right;
-	font-size: 200%
+	font-size: 150%
+}
+#right-header{
+	position: relative;
+	border-bottom: 1px solid #727272;
+}
+#header-text{
+	margin-left: 210px;
+	font-size: 75%;
+	font-weight: bold;
+}
+#mid-text{
+	margin-top: 210px;
 }

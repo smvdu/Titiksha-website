@@ -11,9 +11,16 @@
 		<link rel="shortcut icon" href="../favicon.ico"> 
 		<link rel="stylesheet" type="text/css" href="css/default.css" />
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 		<script src="js/modernizr.custom.js"></script>
 	</head>
 	<body>
+	<!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
 		<div class="container">	
 			
 			<div class="os-phrases" id="os-phrases">
@@ -28,13 +35,12 @@
 				<h3>Refresh to replay</h3>
 			</div>
 			<!-- right division -->
-			<div id="rit">
-				<div id="logo">
-                    <img src="img/smvd.jpg"/>
-                    <h1>SMVDU</h1></br></br>
-                </div>
+			<div id="right-part">
+				<div id="right-header">
+					<span id="header-text">Smvdu</span>
+				</div>
                 
-                <div id="text">
+                <div id="mid-text">
                     <h2>TITIKSHA 2K13</h2>
                     <p>4th - 6th October 2013</p>
                 </div>
@@ -43,11 +49,23 @@
 
 		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
 		<script src="js/jquery.lettering.js"></script>
 		<script>
 			$(document).ready(function() {
 				$("#os-phrases > h3").lettering('words').children("span").lettering().children("span").lettering(); 
 			})
 		</script>
+
+
+		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src='//www.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
 	</body>
 </html>
