@@ -94,7 +94,73 @@ textarea {
    ========================================================================== */
 
 
+/* General Demo Style */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700|Dosis:200,600);
 
+@font-face {
+    font-family: "Oxygen";
+    src: url("font/Oxygen.otf") ;
+}
+
+
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+body, html { font-size: 70%; padding: 0; margin: 0; height: 100%;}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before, .clearfix:after { content: " "; display: table; }
+.clearfix:after { clear: both; }
+
+body {
+    color: #fff;
+    background: #000;
+    min-width: 1000px;
+    min-height: 500px;
+}
+
+a {
+    color: #f0f0f0;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff;
+}
+
+.container{
+    position: relative;
+    margin: 0px;
+    min-height: 100%;
+}
+#right-part{
+    font-family: Oxygen;
+    float: right;
+    font-size: 3em;
+    padding: 15px;
+}
+
+#right-header{
+    position: relative;
+}
+
+#header-text{
+    font-size: 1.5vw;
+    font-weight: bold;
+    float: right;
+}
+#mid-text{
+    
+}
+
+#mid-text h2{
+   clear: both;
+   font-size: 3vw;
+   margin: 0
+}
+
+#mid-text p{
+    font-size: 1.4vw;
+    margin-top: 0;
+}
 
 
 
