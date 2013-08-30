@@ -45,23 +45,23 @@
 			
 			<div class="os-phrases" id="os-phrases">
 			<!-- temporary keywords , development in progress-->
-				<h3>Sometimes it's better</h3>
-				<h3>to hide</h3>
-				<h3>in order to</h3>
-				<h3>survive evil</h3>
-				<h3>Thanatos</h3>
-				<h3>This fall</h3>
-				<h3>Prepare</h3>
-				<h3>Refresh to replay</h3>
+				<h3>Get Ready</h3>
+				<h3>To Witness</h3>
+				<h3>The Most Innovative</h3>
+				<h3>Exciting</h3>
+				<h3>And Creative</h3>
+				<h3>Technical Festival</h3>
+				<h3>Of North India</h3>
+				<h3>TITIKSHA</h3>
 			</div>
 			<!-- right division -->
 			<div id="right-part">
 				<div id="right-header">
-					<span id="header-text">Smvdu</span>
+					<span id="header-text">SMVDU</span>
 				</div>
                 
                 <div id="mid-text">
-                    <h2>TITIKSHA 2K13</h2>
+                    <h2>Titiksha 2k13</h2>
                     <p>4th - 6th October 2013</p>
                 </div>
 			</div>
