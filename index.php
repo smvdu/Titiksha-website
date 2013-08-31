@@ -34,7 +34,7 @@
 		<link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-		<script src="js/modernizr.custom.js"></script>
+		
 	</head>
 	<body>
 	<!--[if lt IE 7]>
