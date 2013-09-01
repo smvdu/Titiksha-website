@@ -28,7 +28,7 @@
 		
 	  	<?php get_fb_meta(); ?>
 		
-			<link rel="shortcut icon" href="../favicon.ico"> 
+		<link rel="shortcut icon" href="../favicon.ico"> 
 		<link rel="stylesheet" type="text/css" href="css/default.css" />
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
 		<link rel="stylesheet" href="css/normalize.css">
@@ -64,6 +64,8 @@
                     <h2>Titiksha 2k13</h2>
                     <p>4th - 6th October 2013</p>
                 </div>
+
+
 			</div>
 		</div><!-- /container -->
 

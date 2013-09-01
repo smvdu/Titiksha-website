@@ -141,6 +141,10 @@ a:hover {
     right: -5%;
     font-family: Oxygen;     
     background-color: #474747;
+    background-image: url('../img/Keyboard.jpg');
+    background-position: right 0 bottom 145px;
+    background-repeat: no-repeat;
+    background-size: 102% 85%;
     -webkit-transform: rotate(14deg);
     -moz-transform: rotate(14deg);
     -ms-transform: rotate(14deg);
@@ -151,7 +155,7 @@ a:hover {
 #right-header{
     position: relative;
     width: 60%;
-    margin-top: 10%;
+    margin: 10% 0% 5% 5%;
     -webkit-transform: rotate(-14deg);
     -moz-transform: rotate(-14deg);
     -ms-transform: rotate(-14deg);
@@ -166,6 +170,7 @@ a:hover {
 }
 #mid-text{
     width: 60%;
+    margin: 3% 0% 0% 5%;
     -webkit-transform: rotate(-14deg);
     -moz-transform: rotate(-14deg);
     -ms-transform: rotate(-14deg);
@@ -183,16 +188,6 @@ a:hover {
     font-size: 1.4vw;
     margin-top: 0;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
