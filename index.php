@@ -28,7 +28,7 @@
 		
 	  	<?php get_fb_meta(); ?>
 		
-		<link rel="shortcut icon" href="../favicon.ico"> 
+		<link rel="shortcut icon" href="intersection.ico"> 
 		<link rel="stylesheet" type="text/css" href="css/default.css" />
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
 		<link rel="stylesheet" href="css/normalize.css">
