@@ -197,7 +197,22 @@ a:hover {
     margin-top: 0;
 }
 
+/* menu css ======================================================*/
+#contain-menu{
+    width: 100%;
+}
 
+.main-menu{
+    background-color: #86969F;
+    border: 1px solid;
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+    height: 150%;
+    margin-top: -10%;
+    -moz-transform: rotate(28deg);
+    width: 20%;
+}
 
 
 /* ==========================================================================
