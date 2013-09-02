@@ -56,6 +56,7 @@
 			</div>
 			<!-- right division -->
 			<div id="right-part">
+				<img src="img/Technical-Arabic-Translation-Services-in-Dubai-UAE.png" />
 				<div id="right-header">
 					<span id="header-text">SMVDU</span>
 				</div>

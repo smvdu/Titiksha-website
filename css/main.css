@@ -133,24 +133,31 @@ a:hover {
     height: 100%;
     overflow: hidden;
 }
+
 #right-part{
     position: absolute;   
     height: 135%;
     width: 30%;
     top: -5%;
     right: -5%;
-    font-family: Oxygen;     
+    font-family: "Oxygen";   
+    color: #000;  
     background-color: #474747;
-    background-image: url('../img/Keyboard.jpg');
-    background-position: right 0 bottom 145px;
-    background-repeat: no-repeat;
-    background-size: 102% 85%;
-    opacity: 0.8;
     -webkit-transform: rotate(14deg);
     -moz-transform: rotate(14deg);
     -ms-transform: rotate(14deg);
     -o-transform: rotate(14deg);
     -transform: rotate(14deg);
+     overflow: hidden;
+}
+
+#right-part img{
+    -webkit-filter: blur(4px);
+    position: absolute;
+    -webkit-transform: rotate(-14deg);
+    margin-top: -30%;
+    margin-left: -25%;
+
 }
 
 #right-header{
