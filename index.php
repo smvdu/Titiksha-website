@@ -56,7 +56,16 @@
 			</div>
 			<!-- right division -->
 			<div id="right-part">
-				<img src="img/Technical-Arabic-Translation-Services-in-Dubai-UAE.png" />
+				<div class="transformed" id="trans1"></div>
+				<div class="transformed" id="trans2"></div>
+				<div class="transformed" id="trans3"></div>
+				<div class="transformed" id="trans4"></div>
+				<div class="transformed" id="trans5"></div>
+				<div class="transformed" id="trans6"></div>
+				<div class="transformed" id="trans7"></div>
+				<div class="transformed" id="trans8"></div>
+				<div class="transformed" id="trans9"></div>
+				
 				<div id="right-header">
 					<span id="header-text">SMVDU</span>
 				</div>
