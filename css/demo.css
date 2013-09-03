@@ -30,26 +30,24 @@ a{
 }
 .content{
 	position:relative;
-	margin-top: 5%;
+	margin-top: 15%;
 }
 
 /* Header Style */
 .header{
-	font-family:'Arial Narrow', Arial, sans-serif;
-	margin-top: 0px;
-	height: 20%;
+	font-family: 'Arial Narrow', Arial, sans-serif;
 	text-align: center;
-	line-height: 120px;
 	background-color: rgba(45,42,42, 0.6);
-	z-index: 9999;
-	position: relative;
+	position: fixed;
+	width: 100%;
+	font-size: 3vw;
 	
 }
 
 #h-text{
 	color: #ffffff;
 	font-weight: bold;
-	font-size: 500%;
+	
 }
 .footer{
 	font-family:'Arial Narrow', Arial, sans-serif;
