@@ -32,6 +32,12 @@
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
 		<link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+
+        <!--  Timer css scripts   !-->
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" />
+        <link rel="stylesheet" href="assets/css/styles.css" />
+        <link rel="stylesheet" href="assets/countdown/jquery.countdown.css" />
+        <!-- --------------------------- ------>
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 
 
@@ -95,6 +101,9 @@
                         </a>
                     </li>
                 </ul>
+                <div id="countdown"></div>
+                <p id="note"></p>
+                
             </div><!-- content -->
             <div class="footer">
                 <a target="_blank" href="https://www.facebook.com/titiksha2k13"><img src="img/fb.png"></a> 
@@ -104,12 +113,18 @@
         </div>
 
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
-    
+        
 
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 		
 		<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+
+
+        <!-- JavaScript includes -->
+        <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+        <script src="assets/countdown/jquery.countdown.js"></script>
+        <script src="assets/js/script.js"></script>
 
 		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
