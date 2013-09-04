@@ -65,6 +65,14 @@
 				<div class="transformed" id="trans7"></div>
 				<div class="transformed" id="trans8"></div>
 				<div class="transformed" id="trans9"></div>
+				<div class="transformed" id="trans10"></div>
+				<div class="transformed" id="trans11"></div>
+				<div class="transformed" id="trans12"></div>
+				<div class="transformed" id="trans13"></div>
+				<div class="transformed" id="trans14"></div>
+				<div class="transformed" id="trans15"></div>
+				<div class="transformed" id="trans16"></div>
+
 				
 				<div id="right-header">
 					<span id="header-text">SMVDU</span>
