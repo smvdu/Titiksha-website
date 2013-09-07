@@ -23,11 +23,11 @@
 	    <meta name="author" content="<?php print(site_author);?>">
 
 	    <?php get_fb_meta(); ?>
-	    <!-- css for menu.php -->
+	    <!-- css for menu in menu.php -->
 	    <link rel="stylesheet" type="text/css" href="css/demo.css" />
         <link rel="stylesheet" type="text/css" href="css/style.css" />
         <link href='http://fonts.googleapis.com/css?family=Terminal+Dosis' rel='stylesheet' type='text/css' />
-	    <!-- ======================== -->
+	    <!-- =========================================== -->
 	    <link rel="stylesheet" type="text/css" href="css/default.css" />
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
 		<link rel="stylesheet" href="css/normalize.css">
@@ -35,8 +35,8 @@
 
         <!--  Timer css scripts   !-->
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" />
-        <link rel="stylesheet" href="assets/css/styles.css" />
-        <link rel="stylesheet" href="assets/countdown/jquery.countdown.css" />
+        <link rel="stylesheet" href="css/style_time.css" />
+        <link rel="stylesheet" href="css/jquery.countdown.css" />
         <!-- --------------------------- ------>
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 
@@ -75,7 +75,7 @@
                     </li>
                     <li>
                         <a href="#">
-                            <span class="ca-icon" id="heart">N</span>
+                            <span class="ca-icon">N</span>
                             <div class="ca-content">
                                 <h2 class="ca-main">Competitions</h2>
                                 <h3 class="ca-sub">Understanding visually</h3>

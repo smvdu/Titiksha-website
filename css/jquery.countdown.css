@@ -1,7 +1,10 @@
+#countdown{
+	height: 50px;
+}
 .countdownHolder{
 	position: relative;
-	width:450px;
-	top: 65px;
+	width: 410px;
+	top: 70px;
 	margin:0 auto;
 	font: 40px/1.5 'Open Sans Condensed',sans-serif;
 	text-align:center;
