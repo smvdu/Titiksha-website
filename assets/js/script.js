@@ -17,16 +17,16 @@ $(function(){
 			
 			var message = "";
 			
-			message += days + " day" + ( days==1 ? '':'s' ) + ", ";
+			/*message += days + " day" + ( days==1 ? '':'s' ) + ", ";
 			message += hours + " hour" + ( hours==1 ? '':'s' ) + ", ";
 			message += minutes + " minute" + ( minutes==1 ? '':'s' ) + " and ";
-			message += seconds + " second" + ( seconds==1 ? '':'s' ) + " <br />";
+			message += seconds + " second" + ( seconds==1 ? '':'s' ) + " <br />";*/
 			
 			if(newYear){
-				message += "left until the Titiksha 2k13 !";
+				message += "Time left until the Titiksha 2k13 !";
 			}
 			else {
-				message += "left until the Titiksha 2k13 !";
+				message += "Time left until the Titiksha 2k13 !";
 			}
 			
 			note.html(message);
