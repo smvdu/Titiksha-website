@@ -61,7 +61,7 @@
                             <span class="ca-icon">F</span>
                             <div class="ca-content">
                                 <h2 class="ca-main">Events</h2>
-                                <h3 class="ca-sub">Personalized to your needs</h3>
+                                
                             </div>
                         </a>
                     </li>
