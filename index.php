@@ -34,6 +34,8 @@
 		<link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script type="text/javascript" src="js/PxLoader.js"></script>
+        <script type="text/javascript" src="js/PxLoaderImage.js"></script>
 		
 	</head>
 	<body>
@@ -83,6 +85,15 @@
                     <p>4th - 6th October 2013</p>
                 </div>
 
+                <div id="loaderWrapper">
+                	<div id="loaderIndicator">
+                		<p id="progress"></p>
+                	</div>
+                	<div id="enter">
+                		Enter 
+                	</div>
+                </div>
+
 
 			</div>
 		</div><!-- /container -->
@@ -98,7 +109,31 @@
 				$("#os-phrases > h3").lettering('words').children("span").lettering().children("span").lettering(); 
 			})
 		</script>
+		<script type="text/javascript">
+			
+			$(document).ready(function(){
 
+
+				var loader = new PxLoader();
+
+				for(var i= 1; i < 19; i++)
+					loader.addImage("../img/"+i+".jpg");
+				
+
+	        	loader.addCompletionListener(function() {
+	        		$("#enter").fadeIn();
+	        		$("#progress").fadeOut();
+	        	});
+
+	        	loader.addProgressListener(function(e) {
+	        		var percent = Math.round(e.completedCount / e.totalCount * 100);
+	        		$("#progress").html(percent+"% Loaded");
+
+	           	});
+
+	        	loader.start();
+	        });
+		</script>
 
 		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
