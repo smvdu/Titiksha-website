@@ -11,7 +11,7 @@ body{
 	font-family: 'Terminal Dosis', Arial, sans-serif;
 	font-size: 20px;
 }
-.container{
+.container_menu{
 	background-repeat: no-repeat;
 	background-size: 100%;
 	position: relative;
@@ -21,7 +21,7 @@ body{
     overflow: hidden;
 }
 
-.container #bg{
+.container_menu #bg{
 	height: 100%;
 	width: 100%;
 	position: fixed;

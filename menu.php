@@ -35,8 +35,8 @@
 
         <!--  Timer css scripts   !-->
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" />
-        <link rel="stylesheet" href="assets/css/styles.css" />
-        <link rel="stylesheet" href="assets/countdown/jquery.countdown.css" />
+        <link rel="stylesheet" href="css/styles_time.css" />
+        <link rel="stylesheet" href="css/jquery.countdown.css" />
         <!-- --------------------------- ------>
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 
@@ -46,7 +46,7 @@
 	<!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
-        <div class="container">
+        <div class="container_menu">
             <img src="img/3.jpg" id="bg"/>
             <div class="header">
                 <div id="h-text">
@@ -124,8 +124,8 @@
 
         <!-- JavaScript includes -->
         <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
-        <script src="assets/countdown/jquery.countdown.js"></script>
-        <script src="assets/js/script.js"></script>
+        <script src="js/jquery.countdown.js"></script>
+        <script src="js/script.js"></script>
 
 		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
