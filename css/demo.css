@@ -12,15 +12,22 @@ body{
 	font-size: 20px;
 }
 .container{
-	background: url(../img/12.jpg) ;
 	background-repeat: no-repeat;
 	background-size: 100%;
-	 position: relative;
+	position: relative;
     margin: 0px;
     min-height: 100%;
     height: 100%;
     overflow: hidden;
 }
+
+.container #bg{
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	-webkit-filter: blur(5px);
+}
+
 a{
 	color: #fff;
 	text-decoration: none;
@@ -36,9 +43,8 @@ a{
 
 /* Header Style */
 .header{
-	font-family: 'Arial Narrow', Arial, sans-serif;
+	font-family: 'Terminal Dosis', Arial, sans-serif;
 	text-align: center;
-	background-color: rgba(45,42,42, 0.6);
 	position: fixed;
 	width: 100%;
 	font-size: 3vw;
@@ -48,8 +54,14 @@ a{
 #h-text{
 	color: #ffffff;
 	font-weight: bold;
-	
 }
+
+#h-text p{
+	font-size: 6vw;
+	margin: 0;
+	text-shadow: 3px 3px 2px #fff;
+}
+
 .footer{
 	font-family:'Arial Narrow', Arial, sans-serif;
 	background-color: rgba(45,42,42, 1);
@@ -61,5 +73,6 @@ a{
 	height: 6%;
 	bottom: 0px;
 	right: 0px;
+	display: none;
 }
 
