@@ -107,6 +107,11 @@
 		<script>
 			$(document).ready(function() {
 				$("#os-phrases > h3").lettering('words').children("span").lettering().children("span").lettering(); 
+				
+				//removes the loader page
+				$("#enter").click(function(){
+					$(".container").addClass("open");
+				});
 			})
 		</script>
 		<script type="text/javascript">
