@@ -134,6 +134,12 @@ a:hover {
     overflow: hidden;
 }
 
+.open{
+    -webkit-transform: translateY(-100%);
+    -webkit-transition: 1s;
+}
+
+
 #right-part{
     position: absolute;   
     height: 135%;
@@ -690,7 +696,14 @@ a:hover {
     color: #fff;
     border-radius: 4px;
     padding: 1%;
+    -webkit-transition: all 1s;
 }
+
+#enter:hover{
+    background-color: #119273;;
+    -webkit-transition: all 1s;
+}
+
 
 #progress{
     height: 100%;
