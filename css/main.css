@@ -665,6 +665,38 @@ a:hover {
     margin-top: 0;
 }
 
+
+/* Loader css */
+
+#loaderWrapper{
+    height: 20%;
+    -webkit-transform: rotate(-14deg);
+    margin-top: 70%;
+    width: 50%;
+    margin-left: 20%;
+
+}
+
+#loaderIndicator{
+    height: 65%;
+    text-align: center;
+}
+
+#enter{
+    background-color: #6fb118;
+    display: none;
+    text-align: center;
+    font-size: 1.8vw;
+    color: #fff;
+    border-radius: 4px;
+    padding: 1%;
+}
+
+#progress{
+    height: 100%;
+    font-size: 1.5vw;
+}
+
 /* menu css ======================================================*/
 #contain-menu{
     width: 100%;
