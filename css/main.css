@@ -581,6 +581,8 @@ a{
 .open{
     -webkit-transform: translateY(-100%);
     -webkit-transition: 1s;
+    transform: translateY(-100%);
+    transition: 1s;
 }
 
 
@@ -1209,6 +1211,7 @@ margin-left: 42%;
 #loaderWrapper{
     height: 20%;
     -webkit-transform: rotate(-14deg);
+    transform: rotate(-14deg);
     margin-top: 70%;
     width: 50%;
     margin-left: 20%;
@@ -1269,7 +1272,7 @@ margin-left: 42%;
     top: -20%;
     height: 60%;
     width: 30%;
-    background-color: #bbb2b2;
+    background-color: #000000;
     float: left;
     z-index: 6;
     -webkit-transform: rotate(30deg);
@@ -1279,7 +1282,7 @@ margin-left: 42%;
     font-family: "Oxygen", arial, sans-serif;
     line-height: 10px;
     font-weight: normal;
-    font-size: 100%;
+    font-size: 110%;
     margin-left: 10%;
     margin-top: 30%;
     padding: 4px;
@@ -1293,16 +1296,17 @@ margin-left: 42%;
     top: -34%;
     height: 60%;
     width: 40%;
-    background-color: #7a9672;
+    background-color: #000000;
     float: left;
     z-index: 2;
     -webkit-transform: rotate(20deg);
     transform: rotate(20deg);
 }
 #chief{
+    color: #AFCAC9;
     line-height: 10px;
     font-weight: normal;
-    font-size: 100%;
+    font-size: 110%;
     margin-left: 38%;
     margin-top: 34%;
     padding: 4px;
@@ -1314,8 +1318,8 @@ margin-left: 42%;
     position: absolute;
     margin: 0px;
     left: 70%;
-    top: 22%;
-    background-color: #a0905c;
+    top: 23%;
+    background-color: #010202 ;
     height: 82%;
     width: 70%;
     float: left;
@@ -1324,10 +1328,10 @@ margin-left: 42%;
     transform: rotate(-39deg);
 }
 #web{
-    color: #030A20;
-    line-height: 0px;
+    color: #A0A0A0;
+    line-height: 5px;
     font-weight: normal;
-    font-size: 100%;
+    font-size: 1.6vw;
     margin-top: 27%;
     margin-left: 5%;
     padding: 4px;
@@ -1365,7 +1369,7 @@ margin-left: 42%;
     bottom: 52%;
     right: 6%;
     margin: 0px;
-    background-color: #8c6872;
+    background-color: #CACACA;
     height: 69%;
     width: 44%;
     float: left;
@@ -1374,10 +1378,10 @@ margin-left: 42%;
     transform: rotate(48deg);
 }
 #design{
-     color: #010018;
+     color: #000000;
     line-height: 10px;
     font-weight: normal;
-    font-size: 100%;
+    font-size: 1.8vw;
     margin-left: 47%;
     margin-top: 32%;
     padding: 4px;
@@ -1389,7 +1393,7 @@ margin-left: 42%;
     bottom: -26%;
     right: 72%;
     margin: 0px;
-    background-color: #333c4d;
+    background-color: #000000;
     height: 60%;
     width: 40%;
     float: left;
@@ -1398,12 +1402,12 @@ margin-left: 42%;
     transform: rotate(-25deg);
 }
 #media{
-    color: #010018;
-    line-height: 0px;
+    color: #BBBBDA;
+    line-height: 5px;
     font-weight: normal;
-    font-size: 100%;
-    margin-left: 42%;
-    margin-top: 10%;
+    font-size: 1.7vw;
+    margin-left: 46%;
+    margin-top: 20%;
     padding: 4px;
     -webkit-transform: rotate(25deg);
     transform: rotate(25deg);
@@ -1414,7 +1418,7 @@ margin-left: 42%;
     bottom: 5%;
     right: 29%;
     margin: 0px;
-    background-color: #067248;
+    background-color: #C9C9C9;
     height: 80%;
     width: 74%;
     float: left;
@@ -1424,9 +1428,11 @@ margin-left: 42%;
 }
 #c7{
     color: #000000;
-    font-size: 120%;
-    margin: 183px 0px 0px 70px;
-    padding: 2px;
+    font-size: 2.5vw;
+    margin-top: 18%;
+    margin-left: 6%;
+
+    padding: 1px;
     -webkit-transform: rotate(10deg);
     transform: rotate(10deg);
 }
@@ -1435,9 +1441,9 @@ margin-left: 42%;
     color: hsl(0, 0%, 0%);
     line-height: 4px;
     font-weight: normal;
-    font-size: 1.5vw;
-    margin-left: 41%;
-    margin-top: -18%;
+    font-size: 1.6vw;
+    margin-left: 40%;
+    margin-top: -21%;
     padding: 4px;
     -webkit-transform: rotate(10deg);
     transform: rotate(10deg);
@@ -1448,7 +1454,7 @@ margin-left: 42%;
     bottom: -48%;
     right: 21%;
     margin: 0px;
-    background-color: #4ce391;
+    background-color: #000000;
     height: 60%;
     width: 74%;
     float: left;
@@ -1457,8 +1463,8 @@ margin-left: 42%;
     transform: rotate(-14deg);
 }
 #discipline{
-    color: #010018;
-    line-height: 2px;
+    color: #A8BCCA;
+    line-height: 5px;
     font-weight: normal;
     font-size: 100%;
     margin-left: 68%;

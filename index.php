@@ -171,11 +171,7 @@
                 <p id="note"></p>
                 
             </div><!-- content -->
-            <div class="footer">
-                <a target="_blank" href="https://www.facebook.com/titiksha2k13"><img src="img/fb.png"></a> 
-                <span>&nbsp &nbsp</span>
-                <img src="img/twi.png"></span>
-            </div>
+            
         </section><!-- container_menu -->
 
 
