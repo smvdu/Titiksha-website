@@ -62,13 +62,13 @@
 						<h4>Web Development</h4>
 						<pre>###########</pre>
 						<pre>+91-127312</pre>
-						<pre style="color: #000000">******@gmail.com</pre>
+						<pre style="color: #fff">******@gmail.com</pre>
 						<pre>###########</pre>
 						<pre>+91-127312</pre>
-						<pre style="color: #000000">******@gmail.com</pre>
+						<pre style="color: #fff">******@gmail.com</pre>
 						<pre>###########</pre>
 						<pre>+91-127312</pre>
-						<pre style="color: #000000">******@gmail.com</pre>
+						<pre style="color: #fff">******@gmail.com</pre>
 					</div>
 
 					
@@ -78,7 +78,7 @@
 						<h4>Technical Coordinators</h4>
 						<pre>Rishabh Shukla</pre>
 						<pre>+91-9086250987</pre>
-						<pre style="color: #2B3752">rishy.s13@gmail.com</pre>
+						<pre style="color: #337899">rishy.s13@gmail.com</pre>
 					</div>
 					
 				</div>
@@ -87,7 +87,7 @@
 						<h4>Designer</h4>
 						<pre>##########</pre>
 						<pre>+91-1217219823</pre>
-						<pre style="color: #120F18">#####@gmail.com</pre>
+						<pre style="color: #1C008B">#####@gmail.com</pre>
 					</div>
 					
 				</div>
@@ -96,7 +96,7 @@
 						<h4>Media & Publications</h4>
 						<pre>##########</pre>
 						<pre>+91-1217219823</pre>
-						<pre style="color: #120F18">#####@gmail.com</pre>
+						<pre style="color: #337899">#####@gmail.com</pre>
 					</div>
 				</div>
 				<div id="cont7">
@@ -127,7 +127,7 @@
 						<h4>Discipline</h4>
 						<pre>##########</pre>
 						<pre>+91-1217219823</pre>
-						<pre style="color: #120F18">#####@gmail.com</pre>
+						<pre style="color: #5EA89F">#####@gmail.com</pre>
 					</div>
 					
 				</div>
