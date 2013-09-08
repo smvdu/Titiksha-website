@@ -126,7 +126,7 @@ a:hover {
     color: #fff;
 }
 
-.container{
+#container{
     position: relative;
     margin: 0px;
     min-height: 100%;
