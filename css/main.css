@@ -100,8 +100,9 @@ textarea {
 @import url('reset.css');
 
 @font-face {
+
     font-family: "Oxygen";
-    src: url("font/Oxygen.otf") ;
+    src: url("../font/Oxygen.otf") ;
 }
 
 
@@ -136,6 +137,7 @@ a:hover {
     min-height: 100%;
     height: 100%;
     overflow: hidden;
+    border-bottom: 1px solid #ccc;
 }
 /*  css for loader transition  */
 .os-phrases h3 {
