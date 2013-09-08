@@ -579,6 +579,8 @@ a{
 .open{
     -webkit-transform: translateY(-100%);
     -webkit-transition: 1s;
+    transform: translateY(-100%);
+    transition: 1s;
 }
 
 
@@ -1207,6 +1209,7 @@ margin-left: 42%;
 #loaderWrapper{
     height: 20%;
     -webkit-transform: rotate(-14deg);
+    transform: rotate(-14deg);
     margin-top: 70%;
     width: 50%;
     margin-left: 20%;
