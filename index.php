@@ -28,19 +28,17 @@
 		
 	  	<?php get_fb_meta(); ?>
 	  	<!-- css for menu.php -->
-	  	<link rel="stylesheet" type="text/css" href="css/demo.css" />
-        <link rel="stylesheet" type="text/css" href="css/style.css" />
+	  	
         <link href='http://fonts.googleapis.com/css?family=Terminal+Dosis' rel='stylesheet' type='text/css' />
 		<!-- ======================== -->
 		<link rel="shortcut icon" href="intersection.ico"> 
-		<link rel="stylesheet" type="text/css" href="css/default.css" />
-		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		
+		
 		<link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
 
         <!--  Timer css scripts   !-->
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" />
-        <link rel="stylesheet" href="css/styles.css" />
         <link rel="stylesheet" href="css/jquery.countdown.css" />
 
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>

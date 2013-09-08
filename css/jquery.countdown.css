@@ -1,3 +1,16 @@
+#note{
+	position: relative;
+	bottom: -170px;
+	color: #FFFFFF;
+	font-size: 16px;
+	margin: 0 auto;
+	padding: 4px;
+	text-align: center;
+	width: 400px;
+}
+
+
+
 #countdown{
 	height: 50px;
 }
