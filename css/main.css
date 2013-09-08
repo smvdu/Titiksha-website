@@ -714,6 +714,14 @@ a:hover {
 }
 
 /* ========= css for contact ======   */
+
+.container_contact{
+    position: relative;
+    margin: 0px;
+    min-height: 100%;
+    height: 100%;
+    overflow: hidden;
+}
 .contact{
     font-family: "Oxygen";
     color: hsl(0, 15%, 19%);
@@ -736,6 +744,7 @@ a:hover {
     float: left;
     z-index: 6;
     -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
 }
 #online{
     font-family: "Oxygen", arial, sans-serif;
@@ -746,6 +755,7 @@ a:hover {
     margin-top: 30%;
     padding: 4px;
     -webkit-transform: rotate(-30deg);
+    transform: rotate(-30deg);
 }
 #cont2{
    position: relative;
@@ -758,6 +768,7 @@ a:hover {
     float: left;
     z-index: 2;
     -webkit-transform: rotate(20deg);
+    transform: rotate(20deg);
 }
 #chief{
     line-height: 10px;
@@ -767,6 +778,7 @@ a:hover {
     margin-top: 34%;
     padding: 4px;
     -webkit-transform: rotate(-20deg);
+    transform: rotate(-20deg);
 }
 
 #cont3{
@@ -774,12 +786,24 @@ a:hover {
     margin: 0px;
     left: 70%;
     top: 22%;
-    background-color: #725e38;
+    background-color: #a0905c;
     height: 82%;
     width: 70%;
     float: left;
-    z-index: 5;
+    z-index: 6;
     -webkit-transform: rotate(-39deg);
+    transform: rotate(-39deg);
+}
+#web{
+    color: #030A20;
+    line-height: 0px;
+    font-weight: normal;
+    font-size: 100%;
+    margin-top: 27%;
+    margin-left: 5%;
+    padding: 4px;
+    -webkit-transform: rotate(39deg);
+    transform: rotate(39deg);
 }
 #cont4{
     position: absolute;
@@ -791,6 +815,7 @@ a:hover {
     width: 47%;
     float: left;
     -webkit-transform: rotate(-144deg);
+    transform: rotate(-144deg);
     z-index: 4;
 }
 #tech{
@@ -802,6 +827,7 @@ a:hover {
     margin-top: 22%;
     padding: 4px;
     -webkit-transform: rotate(144deg);
+    transform: rotate(144deg);
 
 }
 
@@ -810,24 +836,49 @@ a:hover {
     bottom: 52%;
     right: 6%;
     margin: 0px;
-    background-color: #bcaee8;
+    background-color: #8c6872;
     height: 69%;
     width: 44%;
     float: left;
     z-index: 1;
     -webkit-transform: rotate(48deg);
+    transform: rotate(48deg);
+}
+#design{
+     color: #010018;
+    line-height: 10px;
+    font-weight: normal;
+    font-size: 100%;
+    margin-left: 47%;
+    margin-top: 32%;
+    padding: 4px;
+    -webkit-transform: rotate(-48deg);
+    transform: rotate(-48deg);
 }
 #cont6{
     position: absolute;
     bottom: -26%;
     right: 72%;
     margin: 0px;
-    background-color: #2f5130;
+    background-color: #333c4d;
     height: 60%;
     width: 40%;
     float: left;
     z-index: 6;
     -webkit-transform: rotate(-25deg);
+    transform: rotate(-25deg);
+}
+#media{
+    color: #010018;
+    line-height: 0px;
+    font-weight: normal;
+    font-size: 100%;
+    margin-left: 42%;
+    margin-top: 10%;
+    padding: 4px;
+    -webkit-transform: rotate(25deg);
+    transform: rotate(25deg);
+
 }
 #cont7{
     position: absolute;
@@ -840,6 +891,7 @@ a:hover {
     float: left;
     z-index: 0;
     -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
 }
 #c7{
     color: #000000;
@@ -847,19 +899,44 @@ a:hover {
     margin: 183px 0px 0px 70px;
     padding: 2px;
     -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
+}
+#faculty{
+    
+    color: hsl(0, 0%, 0%);
+    line-height: 4px;
+    font-weight: normal;
+    font-size: 1.5vw;
+    margin-left: 41%;
+    margin-top: -18%;
+    padding: 4px;
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
 }
 #cont8{
     box-shadow: 6px 2px 5px #2f5130;
     position: absolute;
-    bottom: -36%;
-    right: 25%;
+    bottom: -48%;
+    right: 21%;
     margin: 0px;
-    background-color: #e09000;
+    background-color: #4ce391;
     height: 60%;
     width: 74%;
     float: left;
     z-index: 5;
-    -webkit-transform: rotate(-10deg);
+    -webkit-transform: rotate(-14deg);
+    transform: rotate(-14deg);
+}
+#discipline{
+    color: #010018;
+    line-height: 2px;
+    font-weight: normal;
+    font-size: 100%;
+    margin-left: 68%;
+    margin-top: 2%;
+    padding: 4px;
+    -webkit-transform: rotate(14deg);
+    transform: rotate(14deg);
 }
 
 
