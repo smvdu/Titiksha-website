@@ -84,6 +84,9 @@
 				<div class="transformed" id="trans14"></div>
 				<div class="transformed" id="trans15"></div>
 				<div class="transformed" id="trans16"></div>
+				<div class="transformed" id="trans17"></div>
+				<div class="transformed" id="trans18"></div>
+				<div class="transformed" id="trans19"></div>
 
 				
 				<div id="right-header">
