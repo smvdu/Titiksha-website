@@ -40,7 +40,7 @@
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
 
-		<div class="container">	
+		<div class="container_contact">	
 			<div class="contact">
 				<div id="cont1">
 					<div id="online">
@@ -59,23 +59,46 @@
 					</div>
 				</div>
 				<div id="cont3">
-					
+					<div id="web">
+						<h4>Web Development</h4>
+						<pre>###########</pre>
+						<pre>+91-127312</pre>
+						<pre style="color: #000000">******@gmail.com</pre>
+						<pre>###########</pre>
+						<pre>+91-127312</pre>
+						<pre style="color: #000000">******@gmail.com</pre>
+						<pre>###########</pre>
+						<pre>+91-127312</pre>
+						<pre style="color: #000000">******@gmail.com</pre>
+					</div>
+
 					
 				</div>
 				<div id="cont4">
 					<div id="tech">
 						<h4>Technical Coordinators</h4>
-						<pre>##########</pre>
-						<pre>+91-1217219823</pre>
-						<pre style="color: #2B3752">#####@gmail.com</pre>
+						<pre>Rishabh Shukla</pre>
+						<pre>+91-9086250987</pre>
+						<pre style="color: #2B3752">rishy.s13@gmail.com</pre>
 					</div>
 					
 				</div>
 				<div id="cont5">
+					<div id="design">
+						<h4>Designer</h4>
+						<pre>##########</pre>
+						<pre>+91-1217219823</pre>
+						<pre style="color: #120F18">#####@gmail.com</pre>
+					</div>
 					
 				</div>
 				<div id="cont6">
-					
+					<div id="media">
+						<h4>Media & Publications</h4>
+						<pre>##########</pre>
+						<pre>+91-1217219823</pre>
+						<pre style="color: #120F18">#####@gmail.com</pre>
+					</div>
 				</div>
 				<div id="cont7">
 					<div id="c7">
@@ -84,23 +107,29 @@
 					<div id="faculty">
 						<h4>Chief Faculty</h4>
 						<pre>Dr. Ankush Anand</pre>
-						<pre style="color: #2B3752">ankush.anand@smvdu.ac.in</pre>
-						<h3>Branch Faculty</h3>
-						<pre>Mr. Irfan-ul-Haq</pre>
-						<pre style="color: #2B3752">haqmechanical@gmail.com</pre>
-						<pre>Mr. Abhimanyu Sharma </pre>
-						<pre style="color: #2B3752">abhimanyu.sharma@smvdu.ac.in </pre>
-						<pre>Mr. Sudesh Kumar</pre>
-						<pre style="color: #2B3752">sudesh.Bhadu@smvdu.ac.in  </pre>
-						<pre>Mr. R.K. Jha</pre>
-						<pre style="color: #2B3752">rakesh.jha@smvdu.ac.in</pre>
-						<pre>Dr. Swarkar Sharma</pre>
-						<pre style="color: #2B3752">ankush.anand@smvdu.ac.in</pre>
+						<pre style="color: #120041">  *ankush.anand@smvdu.ac.in</pre><br/>
+						<h4>Branch Faculty</h4>
+						<pre>- Mr. Irfan-ul-Haq</pre>
+						<pre style="color: #120041">  *haqmechanical@gmail.com</pre>
+						<pre>- Mr. Abhimanyu Sharma </pre>
+						<pre style="color: #120041">  *abhimanyu.sharma@smvdu.ac.in </pre>
+						<pre>- Mr. Sudesh Kumar</pre>
+						<pre style="color: #120041">  *sudesh.Bhadu@smvdu.ac.in  </pre>
+						<pre>- Mr. R.K. Jha</pre>
+						<pre style="color: #120041">  *rakesh.jha@smvdu.ac.in</pre>
+						<pre>- Dr. Swarkar Sharma</pre>
+						<pre style="color: #120041"></pre>
 						
 
 					</div>
 				</div>
 				<div id="cont8">
+					<div id="discipline">
+						<h4>Discipline</h4>
+						<pre>##########</pre>
+						<pre>+91-1217219823</pre>
+						<pre style="color: #120F18">#####@gmail.com</pre>
+					</div>
 					
 				</div>
 				

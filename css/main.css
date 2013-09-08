@@ -316,6 +316,33 @@ a:hover {
         -webkit-transform: rotateX(127deg) rotateY(-75deg) rotateZ(-20deg);
     }
 }
+@-webkit-keyframes rot17 {
+    from {
+        -webkit-transform: rotateX(1deg) rotateY(-80deg) rotateZ(-52deg);
+    }
+
+    to {
+        -webkit-transform: rotateX(127deg) rotateY(-75deg) rotateZ(-20deg);
+    }
+}
+@-webkit-keyframes rot18 {
+    from {
+        -webkit-transform: rotateX(73deg) rotateY(-80deg) rotateZ(-2deg);
+    }
+
+    to {
+        -webkit-transform: rotateX(27deg) rotateY(-5deg) rotateZ(-20deg);
+    }
+}
+@-webkit-keyframes rot19 {
+    from {
+        -webkit-transform: rotateX(3deg) rotateY(-0deg) rotateZ(-22deg);
+    }
+
+    to {
+        -webkit-transform: rotateX(-12deg) rotateY(-75deg) rotateZ(-120deg);
+    }
+}
 /* mozilla transform */
 
 @keyframes rot_m1
@@ -477,7 +504,33 @@ a:hover {
         transform: rotateX(127deg) rotateY(-75deg) rotateZ(-20deg);
     }
 }
+@keyframes rot_m17 {
+    from {
+        transform: rotateX(1deg) rotateY(-80deg) rotateZ(-52deg);
+    }
 
+    to {
+        transform: rotateX(127deg) rotateY(-75deg) rotateZ(-20deg);
+    }
+}
+@keyframes rot_m18 {
+    from {
+        transform: rotateX(73deg) rotateY(-80deg) rotateZ(-2deg);
+    }
+
+    to {
+        transform: rotateX(27deg) rotateY(-5deg) rotateZ(-20deg);
+    }
+}
+@keyframes rot_m19 {
+    from {
+        transform: rotateX(3deg) rotateY(-0deg) rotateZ(-22deg);
+    }
+
+    to {
+        transform: rotateX(-12deg) rotateY(-75deg) rotateZ(-120deg);
+    }
+}
 
 .transformed{
     height: 28%;
@@ -507,13 +560,15 @@ a:hover {
     -webkit-transform: rotateX(45deg) rotateY(45deg) rotateZ(45deg);
     -webkit-animation-name: rot2;
     margin-top: 10%;
+    margin-left: 2%;
     animation-name: rot_m2;
     transform: rotateX(45deg) rotateY(45deg) rotateZ(45deg);
 }
 
 #trans3{
     -webkit-transform: rotateX(70deg) rotateY(55deg) rotateZ(53deg);
-    margin-top: 35%;
+    margin-top: 0%;
+    margin-left: -44%;
     -webkit-animation-name: rot3;
     animation-name: rot_m3;
     transform: rotateX(70deg) rotateY(55deg) rotateZ(53deg);
@@ -547,8 +602,8 @@ a:hover {
 
 #trans7{
     -webkit-transform: rotateX(39deg) rotateY(69deg) rotateZ(111deg);
-    margin-top: 90%;
-    margin-left: -46%;
+    margin-top: 38%;
+margin-left: -40%;
     -webkit-animation-name: rot7;
     transform: rotateX(39deg) rotateY(69deg) rotateZ(111deg);
     animation-name: rot_m7;
@@ -565,8 +620,8 @@ a:hover {
 
 #trans9{
     -webkit-transform: rotateX(63deg) rotateY(-20deg) rotateZ(-80deg);
-    margin-top: 159%;
-    margin-right: 1%;
+    margin-top: 100%;
+margin-right: 40%;
     -webkit-animation-name: rot9;
     transform: rotateX(63deg) rotateY(-20deg) rotateZ(-80deg);
     animation-name: rot_m9;
@@ -602,7 +657,7 @@ a:hover {
 #trans13{
      -webkit-transform: rotateX(156deg) rotateY(-170deg) rotateZ(67deg);
     margin-top: 86%;
-    margin-left: -16%;
+margin-left: -30%;
     -webkit-animation-name: rot13;
     transform: rotateX(156deg) rotateY(-170deg) rotateZ(67deg);
     animation-name: rot_m13;
@@ -628,11 +683,41 @@ a:hover {
 }
 #trans16{
     -webkit-transform: rotateX(173deg) rotateY(-80deg) rotateZ(90deg);
-    margin-top: 175%;
-    margin-left: 5%;
+    margin-top: 63%;
+margin-left: 42%;
     -webkit-animation-name: rot16;
     transform: rotateX(173deg) rotateY(-80deg) rotateZ(90deg);
-    animation-name: rot16;
+    animation-name: rot_m16;
+    
+}
+
+
+
+#trans17{
+    -webkit-transform: rotateX(1deg) rotateY(-80deg) rotateZ(-52deg);
+    margin-top: 5%;
+    margin-left: -40%;
+    -webkit-animation-name: rot17;
+    transform: rotateX(1deg) rotateY(-80deg) rotateZ(-52deg);
+    animation-name: rot_m17;
+    
+}
+#trans18{
+    -webkit-transform: rotateX(73deg) rotateY(-80deg) rotateZ(-2deg);
+    margin-top: 165%;
+    margin-right: 5%;
+    -webkit-animation-name: rot18;
+    transform: rotateX(73deg) rotateY(-80deg) rotateZ(-2deg);
+    animation-name: rot_m18;
+    
+}
+#trans19{
+    -webkit-transform: rotateX(173deg) rotateY(-80deg) rotateZ(90deg);
+    margin-top: 100%;
+    margin-right: 270%;
+    -webkit-animation-name: rot19;
+    transform: rotateX(3deg) rotateY(-0deg) rotateZ(-22deg);
+    animation-name: rot_m19;
     
 }
 
@@ -714,6 +799,14 @@ a:hover {
 }
 
 /* ========= css for contact ======   */
+
+.container_contact{
+    position: relative;
+    margin: 0px;
+    min-height: 100%;
+    height: 100%;
+    overflow: hidden;
+}
 .contact{
     font-family: "Oxygen";
     color: hsl(0, 15%, 19%);
@@ -736,6 +829,7 @@ a:hover {
     float: left;
     z-index: 6;
     -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
 }
 #online{
     font-family: "Oxygen", arial, sans-serif;
@@ -746,6 +840,7 @@ a:hover {
     margin-top: 30%;
     padding: 4px;
     -webkit-transform: rotate(-30deg);
+    transform: rotate(-30deg);
 }
 #cont2{
    position: relative;
@@ -758,6 +853,7 @@ a:hover {
     float: left;
     z-index: 2;
     -webkit-transform: rotate(20deg);
+    transform: rotate(20deg);
 }
 #chief{
     line-height: 10px;
@@ -767,6 +863,7 @@ a:hover {
     margin-top: 34%;
     padding: 4px;
     -webkit-transform: rotate(-20deg);
+    transform: rotate(-20deg);
 }
 
 #cont3{
@@ -774,12 +871,24 @@ a:hover {
     margin: 0px;
     left: 70%;
     top: 22%;
-    background-color: #725e38;
+    background-color: #a0905c;
     height: 82%;
     width: 70%;
     float: left;
-    z-index: 5;
+    z-index: 6;
     -webkit-transform: rotate(-39deg);
+    transform: rotate(-39deg);
+}
+#web{
+    color: #030A20;
+    line-height: 0px;
+    font-weight: normal;
+    font-size: 100%;
+    margin-top: 27%;
+    margin-left: 5%;
+    padding: 4px;
+    -webkit-transform: rotate(39deg);
+    transform: rotate(39deg);
 }
 #cont4{
     position: absolute;
@@ -791,6 +900,7 @@ a:hover {
     width: 47%;
     float: left;
     -webkit-transform: rotate(-144deg);
+    transform: rotate(-144deg);
     z-index: 4;
 }
 #tech{
@@ -802,6 +912,7 @@ a:hover {
     margin-top: 22%;
     padding: 4px;
     -webkit-transform: rotate(144deg);
+    transform: rotate(144deg);
 
 }
 
@@ -810,24 +921,49 @@ a:hover {
     bottom: 52%;
     right: 6%;
     margin: 0px;
-    background-color: #bcaee8;
+    background-color: #8c6872;
     height: 69%;
     width: 44%;
     float: left;
     z-index: 1;
     -webkit-transform: rotate(48deg);
+    transform: rotate(48deg);
+}
+#design{
+     color: #010018;
+    line-height: 10px;
+    font-weight: normal;
+    font-size: 100%;
+    margin-left: 47%;
+    margin-top: 32%;
+    padding: 4px;
+    -webkit-transform: rotate(-48deg);
+    transform: rotate(-48deg);
 }
 #cont6{
     position: absolute;
     bottom: -26%;
     right: 72%;
     margin: 0px;
-    background-color: #2f5130;
+    background-color: #333c4d;
     height: 60%;
     width: 40%;
     float: left;
     z-index: 6;
     -webkit-transform: rotate(-25deg);
+    transform: rotate(-25deg);
+}
+#media{
+    color: #010018;
+    line-height: 0px;
+    font-weight: normal;
+    font-size: 100%;
+    margin-left: 42%;
+    margin-top: 10%;
+    padding: 4px;
+    -webkit-transform: rotate(25deg);
+    transform: rotate(25deg);
+
 }
 #cont7{
     position: absolute;
@@ -840,6 +976,7 @@ a:hover {
     float: left;
     z-index: 0;
     -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
 }
 #c7{
     color: #000000;
@@ -847,19 +984,44 @@ a:hover {
     margin: 183px 0px 0px 70px;
     padding: 2px;
     -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
+}
+#faculty{
+    
+    color: hsl(0, 0%, 0%);
+    line-height: 4px;
+    font-weight: normal;
+    font-size: 1.5vw;
+    margin-left: 41%;
+    margin-top: -18%;
+    padding: 4px;
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
 }
 #cont8{
     box-shadow: 6px 2px 5px #2f5130;
     position: absolute;
-    bottom: -36%;
-    right: 25%;
+    bottom: -48%;
+    right: 21%;
     margin: 0px;
-    background-color: #e09000;
+    background-color: #4ce391;
     height: 60%;
     width: 74%;
     float: left;
     z-index: 5;
-    -webkit-transform: rotate(-10deg);
+    -webkit-transform: rotate(-14deg);
+    transform: rotate(-14deg);
+}
+#discipline{
+    color: #010018;
+    line-height: 2px;
+    font-weight: normal;
+    font-size: 100%;
+    margin-left: 68%;
+    margin-top: 2%;
+    padding: 4px;
+    -webkit-transform: rotate(14deg);
+    transform: rotate(14deg);
 }
 
 
