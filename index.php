@@ -107,6 +107,8 @@
 
 			</div>
 		</div><!-- /container of loader -->
+
+        
 		<!-- added menu here -->
 		<div class="container_menu">
             <img src="img/3.jpg" id="bg"/>
@@ -197,6 +199,7 @@
 				//removes the loader page
 				$("#enter").click(function(){
 					$(".container").addClass("open");
+                    $(".container_menu").addClass("open");
 				});
 			})
 		</script>
