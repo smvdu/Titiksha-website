@@ -53,7 +53,7 @@
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
 
-		<div class="container">	
+		<section id="container">	
 			
 			<div class="os-phrases" id="os-phrases">
 			<!-- temporary keywords , development in progress-->
@@ -106,11 +106,11 @@
 
 
 			</div>
-		</div><!-- /container of loader -->
+		</section><!-- /container of loader -->
 
         
 		<!-- added menu here -->
-		<div class="container_menu">
+		<section id="container_menu">
             <img src="img/3.jpg" id="bg"/>
             <div class="header">
                 <div id="h-text">
@@ -175,7 +175,7 @@
                 <span>&nbsp &nbsp</span>
                 <img src="img/twi.png"></span>
             </div>
-        </div><!-- container_menu -->
+        </section><!-- container_menu -->
 
 
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
@@ -198,8 +198,8 @@
 				
 				//removes the loader page
 				$("#enter").click(function(){
-					$(".container").addClass("open");
-                    $(".container_menu").addClass("open");
+					$("#container").addClass("open");
+                    $("#container_menu").addClass("open").fadeIn(500);
 				});
 			})
 		</script>
