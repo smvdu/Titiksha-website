@@ -397,6 +397,7 @@ a:hover {
     background-image: url('../img/bg.jpg');
     background-size: 100px;
     background-repeat: repeat;
+    background-attachment: fixed;
 }
 
 a{
