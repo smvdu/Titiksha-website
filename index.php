@@ -64,6 +64,29 @@
 				<h3>Of North India</h3>
 				<h3>TITIKSHA</h3>
 			</div>
+
+			<div id="progress"></div>
+
+        	<div class="loader">
+			  <span>L</span>
+			  <span>O</span>
+			  <span>A</span>
+			  <span>D</span>
+			  <span>I</span>
+			  <span>N</span>
+			  <span>G</span>
+			  
+			  <div class="covers">
+			    <span></span>
+			    <span></span>
+			    <span></span>
+			    <span></span>
+			    <span></span>
+			    <span></span>
+			    <span></span>
+			  </div>
+			</div>
+
 			<!-- right division -->
 			<div id="right-part">
 				<div class="transformed" id="trans1"></div>
@@ -97,16 +120,13 @@
                 </div>
 
                 <div id="loaderWrapper">
-                	<div id="loaderIndicator">
-                		<p id="progress"></p>
-                	</div>
-                	<div id="enter">
-                		Enter 
-                	</div>
+                	
+                	<div id="enter">Enter Site</div>
+
                 </div>
 
-
 			</div>
+
 		</section><!-- /container of loader -->
 
         
@@ -216,13 +236,13 @@
 				
 
 	        	loader.addCompletionListener(function() {
+	        		$("#progress , .loader").fadeOut();
 	        		$("#enter").fadeIn();
-	        		$("#progress").fadeOut();
 	        	});
 
 	        	loader.addProgressListener(function(e) {
 	        		var percent = Math.round(e.completedCount / e.totalCount * 100);
-	        		$("#progress").html(percent+"% Loaded");
+	        		$("#progress").html(percent+"%");
 
 	           	});
 
