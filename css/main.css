@@ -1289,6 +1289,7 @@ margin-left: 42%;
 /* ================================== css for contact ===================================   */
 
 .container_contact{
+
     position: relative;
     margin: 0px;
     min-height: 100%;
@@ -1316,10 +1317,37 @@ margin-left: 42%;
     -webkit-filter: blur(0px);
     -webkit-transition: 0.25s;
 }
+#cont0{
+    position: absolute;
+    margin: 0px;
+    left: -12%;
+    top: 28%;
+    height: 48%;
+    width: 30%;
+    background-color: #233124;
+    float: left;
+    z-index: 6;
+    -webkit-transform: rotate(38deg);
+    transform: rotate(38deg);
+}
+
+#c7{
+
+    color: #000000;
+    font-size: 2.5vw;
+    margin-top: 10%;
+    margin-left: 40%;
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    padding: 1px;
+    -webkit-transform: rotate(-38deg);
+    transform: rotate(-38deg);
+}
+
 
 #cont1{
     box-shadow: 2px 5px 10px #888888;
-    position: relative;
+    position: absolute;
     margin: 0px;
     left: -1%;
     top: -20%;
@@ -1343,9 +1371,9 @@ margin-left: 42%;
     transform: rotate(-30deg);
 }
 #cont2{
-   position: relative;
+   position: absolute;
     margin: 0px;
-    left: -4%;
+    left: 27%;
     top: -34%;
     height: 60%;
     width: 40%;
@@ -1469,34 +1497,25 @@ margin-left: 42%;
 #cont7{
     position: absolute;
     bottom: 5%;
-    right: 29%;
+    right: 24%;
     margin: 0px;
     background-color: #C9C9C9;
-    height: 80%;
-    width: 74%;
+    height: 90%;
+    width: 66%;
     float: left;
     z-index: 0;
     -webkit-transform: rotate(-10deg);
     transform: rotate(-10deg);
 }
-#c7{
-    color: #000000;
-    font-size: 2.5vw;
-    margin-top: 18%;
-    margin-left: 6%;
-    -webkit-filter: blur(0px);
-    padding: 1px;
-    -webkit-transform: rotate(10deg);
-    transform: rotate(10deg);
-}
+
 #faculty{
     
     color: hsl(0, 0%, 0%);
     line-height: 4px;
     font-weight: normal;
     font-size: 1.6vw;
-    margin-left: 40%;
-    margin-top: -21%;
+    margin-left: 26%;
+    margin-top: 14%;
     padding: 4px;
     -webkit-transform: rotate(10deg);
     transform: rotate(10deg);

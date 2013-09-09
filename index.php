@@ -197,6 +197,13 @@
         <div class="container_contact" id="container_contact">	
 			<div class="contact">
 
+				<div id="cont0">
+					<div id="c7">
+						<pre>CONTACTS</pre>
+					</div>
+				</div>
+
+
 				<div class="assym" id="cont1">
 					<div id="online">
 						<h3>Online Contacts</h3>
@@ -256,11 +263,8 @@
 						<pre style="color: #337899">#####@gmail.com</pre>
 					</div>
 				</div>
-
 				<div class="assym" id="cont7">
-					<div id="c7">
-						<pre>CONTACTS</pre>
-					</div>
+					
 					<div id="faculty">
 						<h4>Chief Faculty</h4>
 						<pre>Dr. Ankush Anand</pre>
