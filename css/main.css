@@ -1305,6 +1305,18 @@ margin-left: 42%;
     overflow: hidden;
     font-size: 100%;
 }
+
+.assym{
+    -webkit-filter: blur(2px);
+    -webkit-transition: 0.25s;
+
+}
+
+.assym:hover {
+    -webkit-filter: blur(0px);
+    -webkit-transition: 0.25s;
+}
+
 #cont1{
     box-shadow: 2px 5px 10px #888888;
     position: relative;
@@ -1472,7 +1484,7 @@ margin-left: 42%;
     font-size: 2.5vw;
     margin-top: 18%;
     margin-left: 6%;
-
+    -webkit-filter: blur(0px);
     padding: 1px;
     -webkit-transform: rotate(10deg);
     transform: rotate(10deg);
