@@ -204,7 +204,7 @@
 				</div>
 
 
-				<div class="assym" id="cont1">
+				<div class="assym black" id="cont1">
 					<div id="online">
 						<h3>Online Contacts</h3>
 						<a href="https://www.facebook.com/titiksha2k13" target="_blank" style="color: #3b5998; text-decoration: none;"><img src="img/fb_black.png">Facebook Page</a>
@@ -213,7 +213,7 @@
 					</div>
 				</div>
 
-				<div class="assym" id="cont2">
+				<div class="assym black" id="cont2">
 					<div id="chief">
 						<h4>Titiksha Coordinator</h4>
 						<pre>Dhananjay Singh</pre>
@@ -222,7 +222,7 @@
 					</div>
 				</div>
 
-				<div class="assym" id="cont3">
+				<div class="assym black" id="cont3">
 					<div id="web">
 						<h4>Web Development</h4>
 						<pre>###########</pre>
@@ -237,9 +237,9 @@
 					</div>					
 				</div>
 
-				<div class="assym" id="cont4">
+				<div class="assym black" id="cont4">
 					<div id="tech">
-						<h4>Technical Coordinators</h4>
+						<h4>Event Coordinator</h4>
 						<pre>Rishabh Shukla</pre>
 						<pre>+91-9086250987</pre>
 						<pre style="color: #337899">rishy.s13@gmail.com</pre>
@@ -255,7 +255,7 @@
 					</div>					
 				</div>
 
-				<div class="assym" id="cont6">
+				<div class="assym black" id="cont6">
 					<div id="media">
 						<h4>Media & Publications</h4>
 						<pre>##########</pre>
@@ -263,6 +263,7 @@
 						<pre style="color: #337899">#####@gmail.com</pre>
 					</div>
 				</div>
+
 				<div class="assym" id="cont7">
 					
 					<div id="faculty">
@@ -285,7 +286,7 @@
 					</div>
 				</div>
 
-				<div class="assym" id="cont8">
+				<div class="assym black" id="cont8">
 					<div id="discipline">
 						<h4>Discipline</h4>
 						<pre>##########</pre>

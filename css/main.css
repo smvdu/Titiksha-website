@@ -1321,10 +1321,10 @@ margin-left: 42%;
 
 }
 
-.assym:hover {
-    -webkit-filter: blur(0px);
-    -webkit-transition: 0.20s;
+.black {
+    box-shadow: 2px 5px 6px #000 , 2px -5px 6px #000;
 }
+
 #cont0{
     position: absolute;
     margin: 0px;
@@ -1354,7 +1354,6 @@ margin-left: 42%;
 
 
 #cont1{
-    box-shadow: 2px 5px 10px #888888;
     position: absolute;
     margin: 0px;
     left: -1%;
@@ -1527,7 +1526,7 @@ margin-left: 42%;
     transform: rotate(10deg);
 }
 #cont8{
-    box-shadow: 6px 2px 5px #2f5130;
+    
     position: absolute;
     bottom: -48%;
     right: 21%;
