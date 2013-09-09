@@ -178,10 +178,10 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="#container_contact">
                             <span class="ca-icon">L</span>
                             <div class="ca-content">
-                                <h2 class="ca-main">About Us</h2>
+                                <h2 class="ca-main">Contact Us</h2>
                                 <h3 class="ca-sub">24/7 for you needs</h3>
                             </div>
                         </a>
@@ -191,12 +191,105 @@
                 <p id="note"></p>
                 
             </div><!-- content -->
-            <div class="footer">
-                <a target="_blank" href="https://www.facebook.com/titiksha2k13"><img src="img/fb.png"></a> 
-                <span>&nbsp &nbsp</span>
-                <img src="img/twi.png"></span>
-            </div>
+            
         </section><!-- container_menu -->
+
+        <div class="container_contact" id="container_contact">	
+			<div class="contact">
+				<div id="cont1">
+					<div id="online">
+						<h3>Online Contacts</h3>
+						<a href="https://www.facebook.com/titiksha2k13" target="_blank" style="color: #3b5998; text-decoration: none;"><img src="img/fb_black.png">Facebook Page</a>
+						<pre>Or Drop us a mail on :</pre>
+						<i style="color: #2B3752">titiksha2k13@gmail.com</i>
+					</div>
+				</div>
+				<div id="cont2">
+					<div id="chief">
+						<h4>Titiksha Coordinator</h4>
+						<pre>Dhananjay Singh</pre>
+						<pre>+91-9796405080</pre>
+						<pre style="color: #2B3752">djsanj99@gmail.com</pre>
+					</div>
+				</div>
+				<div id="cont3">
+					<div id="web">
+						<h4>Web Development</h4>
+						<pre>###########</pre>
+						<pre>+91-127312</pre>
+						<pre style="color: #fff">******@gmail.com</pre>
+						<pre>###########</pre>
+						<pre>+91-127312</pre>
+						<pre style="color: #fff">******@gmail.com</pre>
+						<pre>###########</pre>
+						<pre>+91-127312</pre>
+						<pre style="color: #fff">******@gmail.com</pre>
+					</div>
+
+					
+				</div>
+				<div id="cont4">
+					<div id="tech">
+						<h4>Technical Coordinators</h4>
+						<pre>Rishabh Shukla</pre>
+						<pre>+91-9086250987</pre>
+						<pre style="color: #337899">rishy.s13@gmail.com</pre>
+					</div>
+					
+				</div>
+				<div id="cont5">
+					<div id="design">
+						<h4>Designer</h4>
+						<pre>##########</pre>
+						<pre>+91-1217219823</pre>
+						<pre style="color: #1C008B">#####@gmail.com</pre>
+					</div>
+					
+				</div>
+				<div id="cont6">
+					<div id="media">
+						<h4>Media & Publications</h4>
+						<pre>##########</pre>
+						<pre>+91-1217219823</pre>
+						<pre style="color: #337899">#####@gmail.com</pre>
+					</div>
+				</div>
+				<div id="cont7">
+					<div id="c7">
+						<pre>CONTACTS</pre>
+					</div>
+					<div id="faculty">
+						<h4>Chief Faculty</h4>
+						<pre>Dr. Ankush Anand</pre>
+						<pre style="color: #120041">  *ankush.anand@smvdu.ac.in</pre><br/>
+						<h4>Branch Faculty</h4>
+						<pre>- Mr. Irfan-ul-Haq</pre>
+						<pre style="color: #120041">  *haqmechanical@gmail.com</pre>
+						<pre>- Mr. Abhimanyu Sharma </pre>
+						<pre style="color: #120041">  *abhimanyu.sharma@smvdu.ac.in </pre>
+						<pre>- Mr. Sudesh Kumar</pre>
+						<pre style="color: #120041">  *sudesh.Bhadu@smvdu.ac.in  </pre>
+						<pre>- Mr. R.K. Jha</pre>
+						<pre style="color: #120041">  *rakesh.jha@smvdu.ac.in</pre>
+						<pre>- Dr. Swarkar Sharma</pre>
+						<pre style="color: #120041"></pre>
+						
+
+					</div>
+				</div>
+				<div id="cont8">
+					<div id="discipline">
+						<h4>Discipline</h4>
+						<pre>##########</pre>
+						<pre>+91-1217219823</pre>
+						<pre style="color: #5EA89F">#####@gmail.com</pre>
+					</div>
+					
+				</div>
+				
+				</div>
+		</div><!-- /container -->
+
 
 
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
