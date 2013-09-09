@@ -327,7 +327,7 @@
 					$("#container").addClass("open", function(){
 						$(this).remove();
 					});
-					
+
                     $("#container_menu , .container_contact").fadeIn(500).addClass("open");
 				});
 			})

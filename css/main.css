@@ -1222,7 +1222,12 @@ margin-left: 42%;
 }
 
 #progress{
-
+    width: 100px;
+    position: absolute;
+    top: 75%;
+    left: 33%;
+    font-family: "Oxygen";
+    font-size: 1.3vw;
 }
 
 #enter{
@@ -1271,8 +1276,8 @@ margin-left: 42%;
 }
 
 .covers span {
-  background: linear-gradient(180deg, white 0, #ddd 100%);
-  -webkit-animation: up 2s infinite;
+  background: linear-gradient(180deg, rgb(190, 190, 190) 0, #8A8A8A 100%);
+    -webkit-animation: up 2s infinite;
 }
 
 @-webkit-keyframes up {
