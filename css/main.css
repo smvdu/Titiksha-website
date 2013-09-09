@@ -434,18 +434,125 @@ a{
     color: #242424;
 }
 
-.footer{
-    font-family:'Arial Narrow', Arial, sans-serif;
-    background-color: rgba(45,42,42, 1);
-    padding: 1px;
+.bub{
+    height: 100px;
+    width: 100px;
+  
     position: absolute;
-    text-align: center;
-    color: #ffffff;
-    width: 100%;
-    height: 6%;
-    bottom: 0px;
-    right: 0px;
-    display: none;
+    border-radius: 100%;
+}
+#bub1{
+    height: 150px;
+    width: 150px;
+    background-color: rgba(18,77,133,0.4);
+    top: -5%;
+    left: 0%;
+}
+#bub2{
+    height: 500px;
+    width: 500px;
+    background-color: rgba(41,145,67,0.5);
+    top: -4%;
+    right: 2%;
+}
+#bub3{
+    height: 150px;
+    width: 150px;
+     background-color: rgba(210,119,116,0.6);
+    top: 20%;
+    left: 4%;
+}
+#bub4{
+    height: 400px;
+    width: 400px;
+    top: 10%;
+    left: -2%;
+    background-color: rgba(210,119,116,0.4);
+}
+#bub5{
+     height: 150px;
+    width: 150px;
+     background-color: rgba(51,60,77,0.6);
+    top: 79%;
+    left: 8%;
+}
+#bub6{
+    height: 750px;
+    width: 750px;
+    background-color: rgba(51,60,77,0.2);
+    top: 12%;
+    left: -11%;
+}
+#bub7{
+     height: 200px;
+    width: 200px;
+    background-color: rgba(8, 30, 73, 0.6);
+    top: 13%;
+    left: 23%;
+    
+}
+#bub8{
+   height: 200px;
+    width: 200px;
+    background-color: rgba(60, 197, 157, 0.6);
+    top: 50%;
+    left: 85%;
+}
+#bub9{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(91,92,92,0.6);
+    top: 79%;
+    left: 83%;
+}
+#bub10{
+    height: 150px;
+    width: 150px;
+    background-color: rgba(56,102,147,0.6);
+    top: 6%;
+    left: 34%;
+}
+#bub11{
+     height: 150px;
+    width: 150px;
+    background-color: rgba(206,233,114,0.6);
+    top: 60%;
+    left: 74%;
+}
+#bub12{
+     height: 650px;
+    width: 650px;
+    background-color: rgba(105,169,178,0.4);
+    top: -20%;
+    left: 25%;
+}
+#bub13{
+     height: 350px;
+    width: 350px;
+    background-color: rgba(206,233,114,0.4);
+    top: 20%;
+    left: 10%;
+}
+#bub14{
+     height: 350px;
+    width: 350px;
+    background-color: rgba(172, 228, 167, 0.4);
+    top: 12%;
+    left: 72%;
+}
+#bub15{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(0, 0, 0, 0.4);
+    top: 0%;
+    left: 67%;
+}
+#bub16{
+    height: 90px;
+    width: 90px;
+    background-color: rgba(24, 55, 122, 0.6);
+    top: 85%;
+    left: 51%;
 }
 
 @font-face {
