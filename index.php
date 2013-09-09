@@ -131,7 +131,10 @@
 
         
 		<!-- added menu here -->
-		<section id="container_menu">
+
+		<section id="container_menu" data-stellar-background-ratio="0.5">
+            
+
             <div class="bub" id="bub1"></div>
             <div class="bub" id="bub2"></div>
             <div class="bub" id="bub3"></div>
@@ -147,6 +150,7 @@
             <div class="bub" id="bub14"></div>
             <div class="bub" id="bub15"></div>
             <div class="bub" id="bub16"></div>
+            
 
             <div class="header">
                 <div id="h-text">
@@ -158,7 +162,7 @@
             
             <div class="content">
                 <ul class="ca-menu">
-                    <li>
+                    <li> 
                         <a href="#">
                             <span class="ca-icon">F</span>
                             <div class="ca-content">
@@ -211,9 +215,9 @@
             
         </section><!-- container_menu -->
 
-        <div class="container_contact" id="container_contact">	
-			<div class="contact">
+        <section class="container_contact" id="container_contact">	
 
+			<div class="contact">
 				<div id="cont0">
 					<div id="c7">
 						<pre>CONTACTS</pre>
@@ -314,21 +318,21 @@
 				</div>
 				
 			</div>
-		</div><!-- /container -->
+		</section><!-- /container -->
 
 
 
 		
 
 
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
-        
+		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 		
 		<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
         
+        <script type="text/javascript" src="js/stellar.js" ></script>
 		 <!-- JavaScript includes -->
-        <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+        
         <script src="js/jquery.countdown.js"></script>
         <script src="js/script.js"></script>
 
@@ -341,8 +345,11 @@
 				
 				//removes the loader page
 				$("#enter").click(function(){
-					$("#container").addClass("open");
-                    $("#container_menu").addClass("open").fadeIn(500);
+					$("#container").addClass("open", function(){
+						$(this).remove();
+					});
+
+                    $("#container_menu , .container_contact").fadeIn(500).addClass("open");
 				});
 			})
 		</script>
@@ -353,7 +360,7 @@
 
 				var loader = new PxLoader();
 
-				for(var i= 1; i < 19; i++)
+				for(var i= 1; i < 12; i++)
 					loader.addImage("../img/"+i+".jpg");
 				
 
