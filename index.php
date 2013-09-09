@@ -300,6 +300,9 @@
 
 
 
+		
+
+
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
         
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
@@ -321,7 +324,7 @@
 				//removes the loader page
 				$("#enter").click(function(){
 					$("#container").addClass("open");
-                    $("#container_menu").addClass("open").fadeIn(500);
+                    $("#container_menu").addClass("open").fadeIn(10);
 				});
 			})
 		</script>
