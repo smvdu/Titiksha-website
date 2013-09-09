@@ -324,7 +324,7 @@
 				//removes the loader page
 				$("#enter").click(function(){
 					$("#container").addClass("open");
-                    $("#container_menu").addClass("open").fadeIn(10);
+                    $("#container_menu").addClass("open").fadeIn(500);
 				});
 			})
 		</script>
