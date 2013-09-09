@@ -103,9 +103,12 @@ textarea {
 @import url('reset.css');
 
 @font-face {
-
     font-family: "Oxygen";
     src: url("../font/Oxygen.otf") ;
+}
+@font-face {
+    font-family: "Ubuntu-L";
+    src: url("../font/Ubuntu-L.ttf") ;
 }
 
 
@@ -394,7 +397,7 @@ a:hover {
     height: 100%;
     width: 100%;
     position: fixed;
-    -webkit-filter: blur(5px);
+    -webkit-filter: blur(2px);
 }
 
 a{
@@ -412,7 +415,7 @@ a{
 
 /* Header Style */
 .header{
-    font-family: 'Terminal Dosis', Arial, sans-serif;
+   font-family: "Ubuntu-L";
     text-align: center;
     position: fixed;
     width: 100%;
@@ -428,7 +431,7 @@ a{
 #h-text p{
     font-size: 6vw;
     margin: 0;
-    text-shadow: 3px 3px 2px #fff;
+    text-shadow: 3px 3px 2px #000;
 }
 
 .footer{
@@ -1297,6 +1300,7 @@ margin-left: 42%;
     overflow: hidden;
 }
 .contact{
+    font-size: 1.4vw;
     font-family: "Oxygen";
     color: hsl(0, 15%, 19%);
     position: relative;
@@ -1308,14 +1312,14 @@ margin-left: 42%;
 }
 
 .assym{
-    -webkit-filter: blur(2px);
-    -webkit-transition: 0.25s;
+    -webkit-filter: blur(1px);
+    -webkit-transition: 0.20s;
 
 }
 
 .assym:hover {
     -webkit-filter: blur(0px);
-    -webkit-transition: 0.25s;
+    -webkit-transition: 0.20s;
 }
 #cont0{
     position: absolute;
@@ -1324,7 +1328,7 @@ margin-left: 42%;
     top: 28%;
     height: 48%;
     width: 30%;
-    background-color: #233124;
+    background-color: #C9C9C9;
     float: left;
     z-index: 6;
     -webkit-transform: rotate(38deg);
@@ -1360,13 +1364,13 @@ margin-left: 42%;
     transform: rotate(30deg);
 }
 #online{
+    font-size: 1.8vw;
     font-family: "Oxygen", arial, sans-serif;
     line-height: 10px;
     font-weight: normal;
-    font-size: 110%;
     margin-left: 10%;
     margin-top: 30%;
-    padding: 4px;
+    padding: 20px;
     -webkit-transform: rotate(-30deg);
     transform: rotate(-30deg);
 }
@@ -1387,10 +1391,10 @@ margin-left: 42%;
     color: #AFCAC9;
     line-height: 10px;
     font-weight: normal;
-    font-size: 110%;
-    margin-left: 38%;
+    
+    margin-left: 43%;
     margin-top: 34%;
-    padding: 4px;
+    padding: 15px;
     -webkit-transform: rotate(-20deg);
     transform: rotate(-20deg);
 }
@@ -1412,10 +1416,10 @@ margin-left: 42%;
     color: #A0A0A0;
     line-height: 5px;
     font-weight: normal;
-    font-size: 1.6vw;
+    
     margin-top: 27%;
     margin-left: 5%;
-    padding: 4px;
+    padding: 10px;
     -webkit-transform: rotate(39deg);
     transform: rotate(39deg);
 }
@@ -1436,10 +1440,9 @@ margin-left: 42%;
     color: #C2C1D1;
     line-height: 0px;
     font-weight: normal;
-    font-size: 100%;
-    margin-right: 24%;
-    margin-top: 22%;
-    padding: 4px;
+    margin-right: 33%;
+    margin-top: 20%;
+    padding: 14px;
     -webkit-transform: rotate(144deg);
     transform: rotate(144deg);
 
@@ -1447,12 +1450,12 @@ margin-left: 42%;
 
 #cont5{
    position: absolute;
-    bottom: 52%;
+    bottom: 55%;
     right: 6%;
     margin: 0px;
-    background-color: #CACACA;
-    height: 69%;
-    width: 44%;
+    background-color: #C9C9C9;
+    height: 60%;
+    width: 40%;
     float: left;
     z-index: 1;
     -webkit-transform: rotate(48deg);
@@ -1462,10 +1465,10 @@ margin-left: 42%;
      color: #000000;
     line-height: 10px;
     font-weight: normal;
-    font-size: 1.8vw;
+    
     margin-left: 47%;
     margin-top: 32%;
-    padding: 4px;
+    padding: 10px;
     -webkit-transform: rotate(-48deg);
     transform: rotate(-48deg);
 }
@@ -1486,10 +1489,10 @@ margin-left: 42%;
     color: #BBBBDA;
     line-height: 5px;
     font-weight: normal;
-    font-size: 1.7vw;
+    
     margin-left: 46%;
     margin-top: 20%;
-    padding: 4px;
+    padding: 10px;
     -webkit-transform: rotate(25deg);
     transform: rotate(25deg);
 
@@ -1510,13 +1513,12 @@ margin-left: 42%;
 
 #faculty{
     
-    color: hsl(0, 0%, 0%);
+        color: hsl(0, 0%, 0%);
     line-height: 4px;
     font-weight: normal;
-    font-size: 1.6vw;
-    margin-left: 26%;
-    margin-top: 14%;
-    padding: 4px;
+    margin-left: 29%;
+    margin-top: 17%;
+    padding: 10px;
     -webkit-transform: rotate(10deg);
     transform: rotate(10deg);
 }
@@ -1538,10 +1540,9 @@ margin-left: 42%;
     color: #A8BCCA;
     line-height: 5px;
     font-weight: normal;
-    font-size: 100%;
-    margin-left: 68%;
-    margin-top: 2%;
-    padding: 4px;
+    margin-left: 70%;
+    margin-top: 1%;
+    padding: 15px;
     -webkit-transform: rotate(14deg);
     transform: rotate(14deg);
 }
