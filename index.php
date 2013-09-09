@@ -132,7 +132,7 @@
         
 		<!-- added menu here -->
 		<section id="container_menu">
-            <img src="img/7.jpg" id="bg"/>
+            
             <div class="header">
                 <div id="h-text">
                     <p>Titiksha 2k13</p>
