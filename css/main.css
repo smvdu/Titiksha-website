@@ -435,6 +435,10 @@ a{
     color: #242424;
 }
 
+#bubble_area{
+    position: relative;
+}
+
 .bub{
     height: 100px;
     width: 100px;
@@ -446,15 +450,15 @@ a{
     height: 150px;
     width: 150px;
     background-color: rgba(18,77,133,0.4);
-    top: -5%;
-    left: 0%;
+    top: 50px;
+    left: 0px;
 }
 #bub2{
     height: 500px;
     width: 500px;
     background-color: rgba(41,145,67,0.5);
-    top: -4%;
-    right: 2%;
+    top: -4%; 
+    right: 2%; 
 }
 #bub3{
     height: 150px;
