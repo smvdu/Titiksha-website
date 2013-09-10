@@ -135,21 +135,23 @@
 		<section id="container_menu" data-stellar-background-ratio="0.5">
             
 
-            <div class="bub" id="bub1"></div>
-            <div class="bub" id="bub2"></div>
-            <div class="bub" id="bub3"></div>
-            <div class="bub" id="bub4"></div>
-            <div class="bub" id="bub6"></div>
-            <div class="bub" id="bub7"></div>
-            <div class="bub" id="bub8"></div>
-            <div class="bub" id="bub9"></div>
-            <div class="bub" id="bub10"></div>
-            <div class="bub" id="bub11"></div>
-            <div class="bub" id="bub12"></div>
-            <div class="bub" id="bub13"></div>
-            <div class="bub" id="bub14"></div>
-            <div class="bub" id="bub15"></div>
-            <div class="bub" id="bub16"></div>
+			<div id="bubble_area">
+	            <div class="bub" id="bub1" data-stellar-ratio="2" data-stellar-vertical-offset="-40"></div>
+	            <div class="bub" id="bub2" data-stellar-ratio="1.2" data-stellar-horizontal-offset="-600" data-stellar-vertical-offset="0"></div>
+	            <div class="bub" id="bub3"></div>
+	            <div class="bub" id="bub4"></div>
+	            <div class="bub" id="bub6"></div>
+	            <div class="bub" id="bub7"></div>
+	            <div class="bub" id="bub8"></div>
+	            <div class="bub" id="bub9"></div>
+	            <div class="bub" id="bub10"></div>
+	            <div class="bub" id="bub11"></div>
+	            <div class="bub" id="bub12"></div>
+	            <div class="bub" id="bub13"></div>
+	            <div class="bub" id="bub14" data-stellar-ratio="1.5" data-stellar-horizontal-offset="-600" data-stellar-vertical-offset="0"></div>
+	            <div class="bub" id="bub15"></div>
+	            <div class="bub" id="bub16"></div>
+	        </div>
             
 
             <div class="header">
