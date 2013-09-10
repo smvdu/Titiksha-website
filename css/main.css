@@ -110,6 +110,10 @@ textarea {
     font-family: "Ubuntu-L";
     src: url("../font/Ubuntu-L.ttf") ;
 }
+@font-face {
+    font-family: "Cyberverse";
+    src: url("../font/Cyberverse.ttf") ;
+}
 
 
 *, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
@@ -415,7 +419,7 @@ a{
 
 /* Header Style */
 .header{
-   font-family: "Ubuntu-L";
+   font-family: "Cyberverse";
     text-align: center;
     position: fixed;
     width: 100%;
@@ -429,9 +433,10 @@ a{
 }
 
 #h-text p{
-    font-size: 6vw;
+    font-size: 5vw;
     margin: 0;
-    text-shadow: 3px 3px 2px #000;
+    text-shadow: 2px 2px 2px #000;
+    color: #A71A1A;
 }
 
 .footer{
@@ -1312,8 +1317,7 @@ margin-left: 42%;
 }
 
 .assym{
-    -webkit-filter: blur(1px);
-    -webkit-transition: 0.20s;
+    
 
 }
 
