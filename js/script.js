@@ -23,10 +23,10 @@ $(function(){
 			message += seconds + " second" + ( seconds==1 ? '':'s' ) + " <br />";*/
 			
 			if(newYear){
-				message += "Time left until the Titiksha 2k13 !";
+				message += "Time left for Titiksha 2k13 !";
 			}
 			else {
-				message += "Time left until the Titiksha 2k13 !";
+				message += "Time left for Titiksha 2k13 !";
 			}
 			
 			note.html(message);
