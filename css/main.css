@@ -475,16 +475,16 @@ a{
     background-color: rgba(210,119,116,0.4);
 }
 #bub5{
-     height: 150px;
-    width: 150px;
+     height: 40px;
+    width: 40px;
      background-color: rgba(51,60,77,0.6);
     top: 79%;
     left: 8%;
 }
 #bub6{
-    height: 750px;
-    width: 750px;
-    background-color: rgba(51,60,77,0.2);
+    height: 550px;
+    width: 550px;
+    background-color:  rgba(36, 121, 248, 0.2);
     top: 12%;
     left: -11%;
 }
@@ -525,8 +525,8 @@ a{
     left: 74%;
 }
 #bub12{
-     height: 650px;
-    width: 650px;
+     height: 450px;
+    width: 450px;
     background-color: rgba(105,169,178,0.4);
     top: -20%;
     left: 25%;
@@ -541,14 +541,15 @@ a{
 #bub14{
      height: 350px;
     width: 350px;
-    background-color: rgba(172, 228, 167, 0.4);
+    background-color: rgba(27, 156, 162, 0.4);
     top: 12%;
     left: 72%;
 }
 #bub15{
-    height: 100px;
-    width: 100px;
-    background-color: rgba(0, 0, 0, 0.4);
+    
+    height: 1000px;
+    width: 1000px;
+    background-color: rgba(128, 87, 95, 0.4);
     top: 0%;
     left: 72%;%;
 }

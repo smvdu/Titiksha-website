@@ -132,25 +132,26 @@
         
 		<!-- added menu here -->
 
-		<section id="container_menu" data-stellar-background-ratio="0.5">
+		<section id="container_menu" data-stellar-background-ratio="0.8">
             
 
 			<div id="bubble_area">
-	            <div class="bub" id="bub1" data-stellar-ratio="2" data-stellar-vertical-offset="-40"></div>
-	            <div class="bub" id="bub2" data-stellar-ratio="1.2" data-stellar-horizontal-offset="-600" data-stellar-vertical-offset="0"></div>
-	            <div class="bub" id="bub3"></div>
-	            <div class="bub" id="bub4"></div>
-	            <div class="bub" id="bub6"></div>
-	            <div class="bub" id="bub7"></div>
-	            <div class="bub" id="bub8"></div>
-	            <div class="bub" id="bub9"></div>
-	            <div class="bub" id="bub10"></div>
-	            <div class="bub" id="bub11"></div>
-	            <div class="bub" id="bub12"></div>
-	            <div class="bub" id="bub13"></div>
-	            <div class="bub" id="bub14" data-stellar-ratio="1.5" data-stellar-horizontal-offset="-600" data-stellar-vertical-offset="0"></div>
-	            <div class="bub" id="bub15"></div>
-	            <div class="bub" id="bub16"></div>
+	            <div class="bub" id="bub1" data-stellar-ratio="0.6" data-stellar-horizontal-offset="1750" data-stellar-vertical-offset="1040"></div>
+	            <div class="bub" id="bub2" data-stellar-ratio="1.8" data-stellar-horizontal-offset="-1000" data-stellar-vertical-offset="-450"></div>
+	            <div class="bub" id="bub3" data-stellar-ratio="0.4" data-stellar-horizontal-offset="900" data-stellar-vertical-offset="450"></div>
+	            <div class="bub" id="bub4" data-stellar-ratio="2.0" data-stellar-horizontal-offset="-300" data-stellar-vertical-offset="-350"></div>
+	            <div class="bub" id="bub5" data-stellar-ratio="0.1" data-stellar-horizontal-offset="1200" data-stellar-vertical-offset="70"></div>
+	            <div class="bub" id="bub6" data-stellar-ratio="1.3" data-stellar-horizontal-offset="-1200" data-stellar-vertical-offset="-270"></div>
+	            <div class="bub" id="bub7" data-stellar-ratio="1.8" data-stellar-horizontal-offset="-1360" data-stellar-vertical-offset="-350"></div>
+	            <div class="bub" id="bub8" data-stellar-ratio="0.7" data-stellar-horizontal-offset="-160" data-stellar-vertical-offset="550"></div>
+	            <div class="bub" id="bub9" data-stellar-ratio="0.2" data-stellar-horizontal-offset="600" data-stellar-vertical-offset="650"></div>
+	            <div class="bub" id="bub10" data-stellar-ratio="0.3" data-stellar-horizontal-offset="1700" data-stellar-vertical-offset="-40"></div>
+	            <div class="bub" id="bub11" data-stellar-ratio="2.0" data-stellar-horizontal-offset="-90" data-stellar-vertical-offset="-550"></div>
+	            <div class="bub" id="bub12" data-stellar-ratio="2.2" data-stellar-horizontal-offset="600" data-stellar-vertical-offset="-50"></div>
+	            <div class="bub" id="bub13" data-stellar-ratio="0.1" data-stellar-horizontal-offset="250" data-stellar-vertical-offset="50"></div>
+	            <div class="bub" id="bub14" data-stellar-ratio="1.5" data-stellar-horizontal-offset="-200" data-stellar-vertical-offset="-450"></div>
+	            <div class="bub" id="bub15" data-stellar-ratio="1.1" data-stellar-horizontal-offset="-150" data-stellar-vertical-offset="9000"></div>
+	            <div class="bub" id="bub16" data-stellar-ratio="1.8" data-stellar-horizontal-offset="-900" data-stellar-vertical-offset="-10"></div>
 	        </div>
             
 
