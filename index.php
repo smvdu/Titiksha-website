@@ -162,8 +162,8 @@
 
                 <div id="social_wrapper">
 	                <ul>
-	                	<li><a href="https://www.facebook.com/titiksha2k13"><img src="img/facebook.png"></a></li>   
-	                	<li><a href="https://twitter.com/titiksha2k13"><img src="img/twitter.png"></a></li>  
+	                	<li><a href="https://www.facebook.com/titiksha2k13" target="_blank"><img src="img/facebook.png"></a></li>   
+	                	<li><a href="https://twitter.com/titiksha2k13" target="_blank"><img src="img/twitter.png"></a></li>  
 	                	<!--<li><a href=""><img src="img/google+.png"></a></li>      -->         
 	                </ul>
                 </div>
