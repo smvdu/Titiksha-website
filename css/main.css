@@ -423,6 +423,28 @@ a{
     
 }
 
+#social_wrapper{
+    position: absolute;
+    top: -20px;
+    right: 20px;
+
+}
+
+#social_wrapper ul{
+    list-style-type: none;
+}
+
+#social_wrapper ul li{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+}
+
+#social_wrapper ul li img{
+    height: 100%;
+    width: 100%;
+}
+
 #h-text{
     color: #ffffff;
     font-weight: bold;

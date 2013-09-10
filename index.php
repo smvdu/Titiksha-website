@@ -158,10 +158,17 @@
                 <div id="h-text">
                     <p>Titiksha 2k13</p>
                 </div>
+
+                <div id="social_wrapper">
+	                <ul>
+	                	<li><a href="https://www.facebook.com/titiksha2k13"><img src="img/facebook.png"></a></li>   
+	                	<li><a href="https://twitter.com/titiksha2k13"><img src="img/twitter.png"></a></li>  
+	                	<!--<li><a href=""><img src="img/google+.png"></a></li>      -->         
+	                </ul>
+                </div>
             </div>
            
-           
-            
+
             <div class="content">
                 <ul class="ca-menu">
                     <li> 
