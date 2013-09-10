@@ -166,10 +166,10 @@
                 <ul class="ca-menu">
                     <li> 
                         <a href="#">
-                            <span class="ca-icon">F</span>
+                            <span class="ca-icon">X</span>
                             <div class="ca-content">
-                                <h2 class="ca-main">Events</h2>
-                                <h3 class="ca-sub">Personalized to your needs</h3>
+                                <h2 class="ca-main">About</h2>
+                                <h3 class="ca-sub">An OverView of Titiksha</h3>
                             </div>
                         </a>
                     </li>
@@ -177,8 +177,8 @@
                         <a href="#">
                             <span class="ca-icon">H</span>
                             <div class="ca-content">
-                                <h2 class="ca-main">Workshop</h2>
-                                <h3 class="ca-sub">Advanced use of technology</h3>
+                                <h2 class="ca-main">Events</h2>
+                                <h3 class="ca-sub">Test yourself against the technology</h3>
                             </div>
                         </a>
                     </li>
@@ -186,8 +186,8 @@
                         <a href="#">
                             <span class="ca-icon" id="heart">N</span>
                             <div class="ca-content">
-                                <h2 class="ca-main">Competitions</h2>
-                                <h3 class="ca-sub">Understanding visually</h3>
+                                <h2 class="ca-main">Schedule</h2>
+                                <h3 class="ca-sub">Timings of Events</h3>
                             </div>
                         </a>
                     </li>
@@ -196,7 +196,7 @@
                             <span class="ca-icon">K</span>
                             <div class="ca-content">
                                 <h2 class="ca-main">Register Now</h2>
-                                <h3 class="ca-sub">Professionals in action</h3>
+                                <h3 class="ca-sub">Register and get started</h3>
                             </div>
                         </a>
                     </li>
@@ -205,7 +205,7 @@
                             <span class="ca-icon">L</span>
                             <div class="ca-content">
                                 <h2 class="ca-main">Contact Us</h2>
-                                <h3 class="ca-sub">24/7 for you needs</h3>
+                                <h3 class="ca-sub">24/7 for your support</h3>
                             </div>
                         </a>
                     </li>
