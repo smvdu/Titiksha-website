@@ -271,7 +271,7 @@
 					 SMVDU located  on the foothills of  holy shrine of Mata Vaishno  Devi  is
 				     surrounded  by  the  nature’s  scenic  beauty  which enthralls  all the
 				     students and visitors. 
-				     </div> 
+				     </div>
 		
 					<div id="bottom"><p> Titiksha, J&k’s largest annual  technical festival , this time is on it’s way to boggle
 					 the minds of young  tech savvies around the nation. We , at SMVDU, for 
@@ -479,7 +479,7 @@
 				</div>
 				
 			</div>
-		</section><!-- /container_contact -->
+		</section><!-- /container -->
 
 		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
