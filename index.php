@@ -42,8 +42,7 @@
         <link rel="stylesheet" href="css/jquery.countdown.css" />
 
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-        <script type="text/javascript" src="js/PxLoader.js"></script>
-        <script type="text/javascript" src="js/PxLoaderImage.js"></script>
+        
 		
 	</head>
 	<body>
@@ -65,9 +64,7 @@
 				<h3>TITIKSHA</h3>
 			</div>
 
-			<div id="progress"></div>
-
-        	<div class="loader">
+			<div class="loader">
 			  <span>L</span>
 			  <span>O</span>
 			  <span>A</span>
@@ -120,7 +117,13 @@
                 </div>
 
                 <div id="loaderWrapper">
-                	
+
+                	<div id="progress"></div>
+                	<div id="loaderCircle">
+                		<div class="circle"></div>   
+                		<div class="circle"></div>                   		
+                	</div>
+
                 	<div id="enter">Enter Site</div>
 
                 </div>
@@ -479,7 +482,7 @@
 				</div>
 				
 			</div>
-		</section><!-- /container -->
+		</section><!-- /container -->		
 
 		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
@@ -491,14 +494,16 @@
         
         <script src="js/jquery.countdown.js"></script>
         <script src="js/script.js"></script>
-
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
-		<script src="js/jquery.lettering.js"></script>
-		<script>
-			$(document).ready(function() {
-				$("#os-phrases > h3").lettering('words').children("span").lettering().children("span").lettering(); 
-				
+        <script type="text/javascript" src="js/PxLoader.js"></script>
+        <script type="text/javascript" src="js/PxLoaderImage.js"></script>
+
+		<script type="text/javascript">
+			
+			$(document).ready(function(){
+
+
 				//removes the loader page
 				$("#enter").click(function(){
 					$("#container").addClass("open", function(){
@@ -507,12 +512,15 @@
 
                     $(".page").fadeIn(500).addClass("open");
 				});
-			})
-		</script>
-		<script type="text/javascript">
-			
-			$(document).ready(function(){
 
+
+				//requests javascript files using AJAX
+				$.getScript("js/jquery.lettering.js", function(){
+							$(".os-phrases, .loader, .covers").fadeIn();
+							$("#os-phrases > h3").lettering('words').children("span").lettering().children("span").lettering(); 
+				});				
+
+							
 
 				var loader = new PxLoader();
 
