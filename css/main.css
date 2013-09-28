@@ -149,6 +149,12 @@ a:hover {
     overflow: hidden;
     box-shadow: 0px 5px 7px #000;
 }
+
+.os-phrases, .loader, .covers
+{
+    display: none;
+}
+
 /*  css for loader transition  */
 .os-phrases h3 {
     font-family: 'Dosis', 'Lato', sans-serif;
@@ -1365,6 +1371,10 @@ margin-left: 42%;
     font-size: 1.3vw;
 }
 
+#loaderCircle{
+    
+}
+
 #enter{
     background-color: #6fb118;
     border-radius: 3px;
@@ -1375,6 +1385,7 @@ margin-left: 42%;
 }
 
 .loader {
+    display: none;
     position: relative;
     margin: 40% 27%;
     width: 196px;
@@ -1405,6 +1416,7 @@ margin-left: 42%;
 }
 
 .covers {
+  display: none;
   position: absolute;
   height: 100%;
   width: 100%;
