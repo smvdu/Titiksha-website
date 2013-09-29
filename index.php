@@ -234,6 +234,7 @@
 			<div class="about_us" id="about">
 				<img src="pics/1.jpg">
 				<img src="pics/2.jpg">
+				<img src="pics/3.jpg">
 				<img src="pics/4.jpg">
 				<img src="pics/5.jpg">
 				<img src="pics/6.jpg">
@@ -257,11 +258,14 @@
 				<img src="pics/24.jpg">
 				<img src="pics/25.jpg">
 				<img src="pics/26.jpg">
+				<img src="pics/27.jpg">
 				<img src="pics/28.jpg">
 				<img src="pics/29.jpg">
 				<img src="pics/30.jpg">
 				<img src="pics/31.jpg">
 				<img src="pics/32.jpg">
+				<img src="pics/33.jpg">
+				<img src="pics/34.jpg">
 				
 				<div id="left_about">
 					<span>Effect of earth</span>
