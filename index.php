@@ -264,7 +264,7 @@
 				<img src="pics/32.jpg">
 				
 				<div id="left_about">
-					<span>Effect</span>
+					<span>Effect of earth</span>
 				</div>
 
 				<div id="right_about">
