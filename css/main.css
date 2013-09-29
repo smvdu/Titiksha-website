@@ -1773,7 +1773,7 @@ margin-left: 42%;
     padding: 20px;
     height: 83%;
     width: 30%;
-    background-color: rgba(0, 0, 0, 0.69);
+    background-color: rgba(155, 155, 155, 0.21);
     position: absolute;
     top: 2%;
     left: 1%;
@@ -1786,10 +1786,20 @@ margin-left: 42%;
     padding: 5px 25px 0px 25px;
     height: 83%;
     width: 64%;
-    background-color: rgba(211, 252, 255, 0.62);
+    background-color: rgba(211, 252, 255, 0.10);
     position: absolute;
-    right: 5%;
+    right: 4%;
     top: 2%;
+}
+
+#top{
+    background-color: rgba(211, 252, 255, 0.62);
+
+}
+
+#bottom{
+    background-color: rgba(211, 252, 255, 0.62);
+
 }
 /*================ REGISTER PAGE CSS ==================================== */
 .register_form{
