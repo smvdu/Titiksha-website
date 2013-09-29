@@ -21,10 +21,6 @@ textarea {
     color: #222;
 }
 
-body {
-    font-size: 1em;
-    line-height: 1.4;
-}
 
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
@@ -124,6 +120,9 @@ body, html { font-size: 70%; padding: 0; margin: 0; height: 100%;}
 .clearfix:after { clear: both; }
 
 body {
+  
+
+    line-height: 1.4;
     color: #fff;
     background: #000;
     min-width: 1200px;
@@ -388,17 +387,22 @@ a:hover {
 .os-phrases h3:nth-child(4) .word2 {
     font-weight: 400;
 }
+/*================== class PAGE ============== */
+
+.page{
+    
+    min-height: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: none;  
+}
+
 
 /* ============================   */
 /* css for menu */
 
 #container_menu{
-    position: relative;
-    margin: 0px;
-    min-height: 100%;
-    height: 100%;
-    overflow: hidden;
-    display: none;
+
     background-color: #ccc;
     background-image: url('../img/bg.jpg');
     background-size: 100px;
@@ -413,6 +417,14 @@ a{
 .clr{
     clear: both;
 }
+ 
+ /*  ==== fixed menu css */
+
+
+
+
+
+/* ============================== */
 .content{
     position:relative;
     margin-top: 15%;
@@ -1441,17 +1453,10 @@ margin-left: 42%;
 .covers span:nth-child(6) { -webkit-animation-delay: .714285s; }
 .covers span:nth-child(7) { -webkit-animation-delay: .857142s; }
 
+
 /* ================================== css for contact ===================================   */
 
-.container_contact{
 
-    position: relative;
-    margin: 0px;
-    min-height: 100%;
-    height: 100%;
-    overflow: hidden;
-    display: none;
-}
 .contact{
     font-size: 1.4vw;
     font-family: "Oxygen";
@@ -1461,7 +1466,7 @@ margin-left: 42%;
     min-height: 100%;
     height: 100%;
     overflow: hidden;
-    font-size: 100%;
+    font-size: 80%;
 }
 
 .assym{
@@ -1591,8 +1596,8 @@ margin-left: 42%;
     color: #C2C1D1;
     line-height: 0px;
     font-weight: normal;
-    margin-right: 33%;
-    margin-top: 20%;
+    margin-right: 38%;
+    margin-top: 15%;
     padding: 14px;
     -webkit-transform: rotate(144deg);
     transform: rotate(144deg);
@@ -1698,7 +1703,147 @@ margin-left: 42%;
     transform: rotate(14deg);
 }
 
+/* ================== about_us =========================*/
 
+.about_us{
+    font-size: 137%;
+    width: 100%;
+    background-color: #000000;
+    font-family: "Oxygen";
+    color: hsl(0, 15%, 19%);
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    min-height: 100%;
+    height: 115%;
+    line-height: 1.2;   
+   
+   -webkit-column-count: 6;
+   -webkit-column-gap:   0px;
+   -moz-column-count:    6;
+   -moz-column-gap:      0px;
+   column-count:         6;
+   column-gap:           0px;
+   
+   overflow: hidden;
+
+   -webkit-filter: sepia(75%);
+   -moz-filter: sepia(75%);
+   -o-filter: sepia(75%);
+   -ms-filter: sepia(75%);
+   filter: sepia(75%);
+
+}
+
+.about_us img{
+    width: 100% !important;
+    height: auto !important;
+}
+@media (max-width: 1200px) {
+  .about_us {
+  -moz-column-count:    7;
+  -webkit-column-count: 7;
+  column-count:         7;
+  }
+}
+@media (max-width: 1000px) {
+  .about_us {
+  -moz-column-count:    6;
+  -webkit-column-count: 6;
+  column-count:         6;
+  }
+}
+@media (max-width: 800px) {
+  .about_us {
+  -moz-column-count:    5;
+  -webkit-column-count: 5;
+  column-count:         5;
+  }
+}
+@media (max-width: 400px) {
+  .about_us {
+  -moz-column-count:    4;
+  -webkit-column-count: 4;
+  column-count:         4;
+  }
+}
+
+#left_about{
+    color: #BDDA4C;
+    padding: 20px;
+    height: 83%;
+    width: 30%;
+    background-color: rgba(0, 0, 0, 0.69);
+    position: absolute;
+    top: 2%;
+    left: 1%;
+
+}
+#right_about{
+   text-align: center;
+    word-spacing: 5px;
+    color: #000000;
+    padding: 5px 25px 0px 25px;
+    height: 83%;
+    width: 64%;
+    background-color: rgba(211, 252, 255, 0.62);
+    position: absolute;
+    right: 5%;
+    top: 2%;
+}
+/*================ REGISTER PAGE CSS ==================================== */
+.register_form{
+    font-size: 85%;
+    width: 100%;
+    background-color: #000000;
+    font-family: "Oxygen";
+    color: hsl(0, 15%, 19%);
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    min-height: 100%;
+    height: 100%;
+
+    line-height: 2;  
+    overflow: hidden;
+}
+#form{
+
+    color: hsl(166, 13%, 59%);
+    word-spacing: 5px;
+    text-align: left;
+    position: relative;
+
+}
+
+#reg_head{
+    padding: 30px;
+    margin-left: 10%;
+    text-align: center;
+    font-size: 250%;
+    position: relative;
+    font-family: "Cyberverse";
+}
+
+#reg_form{
+    line-height: 2.4;
+    margin-left: 10%;
+    width: 60%;
+    padding: 10px;
+    background: rgba(38, 44, 46, 0.27);
+    
+}
+
+#join{
+    padding: 10px;
+    position: relative;
+    font-size: 130%;
+    margin-left: 22%;
+}
+#join button{
+    font-family: "Ubuntu-L";
+    color: #000000;
+}
 
 /* ==========================================================================
    Helper classes

@@ -135,7 +135,7 @@
         
 		<!-- added menu here -->
 
-		<section id="container_menu" data-stellar-background-ratio="0.8">
+		<section class="page" id="container_menu" data-stellar-background-ratio="0.8">
             
 
 			<div id="bubble_area">
@@ -173,10 +173,11 @@
             </div>
            
 
+
             <div class="content">
                 <ul class="ca-menu">
                     <li> 
-                        <a href="#">
+                        <a href="#container_about">
                             <span class="ca-icon">T</span>
                             <div class="ca-content">
                                 <h2 class="ca-main">About</h2>
@@ -203,7 +204,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="#register">
                             <span class="ca-icon">U</span>
                             <div class="ca-content">
                                 <h2 class="ca-main">Register Now</h2>
@@ -228,7 +229,161 @@
             
         </section><!-- container_menu -->
 
-        <section class="container_contact" id="container_contact">	
+
+		<section class="page" id="container_about" >
+			<div class="about_us" id="about">
+				<img src="pics/1.jpg">
+				<img src="pics/2.jpg">
+				<img src="pics/3.jpg">
+				<img src="pics/4.jpg">
+				<img src="pics/5.jpg">
+				<img src="pics/6.jpg">
+				<img src="pics/7.jpg">
+				<img src="pics/8.jpg">
+				<img src="pics/9.jpg">
+				<img src="pics/10.jpg">
+				<img src="pics/11.jpg">
+				<img src="pics/12.jpg">
+				<img src="pics/13.jpg">
+				<img src="pics/14.jpg">
+				<img src="pics/15.jpg">
+				<img src="pics/16.jpg">
+				<img src="pics/17.jpg">
+				<img src="pics/18.jpg">
+				<img src="pics/19.jpg">
+				<img src="pics/20.jpg">
+				<img src="pics/21.jpg">
+				<img src="pics/22.jpg">
+				<img src="pics/23.jpg">
+				<img src="pics/24.jpg">
+				<img src="pics/25.jpg">
+				<img src="pics/26.jpg">
+				<img src="pics/27.jpg">
+				<img src="pics/28.jpg">
+				<img src="pics/29.jpg">
+				<img src="pics/30.jpg">
+				<img src="pics/31.jpg">
+				<img src="pics/32.jpg">
+				<img src="pics/33.jpg">
+				<img src="pics/34.jpg">
+				
+				<div id="left_about">
+					<span>Effect of earth</span>
+				</div>
+
+				<div id="right_about">
+					<div id="top"><p>
+					 Shri Mata Vaishno  Devi University, India’s  one of the  top ranking  technical university,
+					 proudly announces  the  embarkment of Titiksha 2013.
+					 SMVDU located  on the foothills of  holy shrine of Mata Vaishno  Devi  is
+				     surrounded  by  the  nature’s  scenic  beauty  which enthralls  all the
+				     students and visitors. 
+				     </div>
+		
+					<div id="bottom"><p> Titiksha, J&k’s largest annual  technical festival , this time is on it’s way to boggle
+					 the minds of young  tech savvies around the nation. We , at SMVDU, for 
+					 technical excellence, invite more than 100 of colleges /universities  from the
+					 nation to participate in this  fiesta. Different events  will be held by the different
+				     branches of the university for three  exuberant days.  Mechanical, electroics and
+		     	     communication, computer science , biotechnology and architectural events will
+				     emit their aura in this fest and this time TItiksha is going to be a huge  </br>
+				     success than ever.
+					</p> </div>
+				</div>
+				
+				
+			</div>
+			
+		</section>
+
+		<!-- script for images -->
+		
+
+		<!-- REGITRATION PAGE -->
+
+		<section class="page" id="register">
+		<div class="register_form">
+			
+			<div id="form">
+				<div id="reg_head">
+					<span>REGISTRATIONS</span`>
+				</div>	
+				<form id="reg_form" action=" " method=" ">
+					<table>
+						<tbody>
+							<tr>
+								<th>Name :</th>
+								<td>
+									<input name="name" type="text" size="30" maxlength="25" />
+								</td>
+							</tr>
+							<tr>
+								<th>Email :</th>
+								<td>
+									<input name="email" type="text" size="30" maxlength="25" />
+								</td>
+							</tr>
+							<tr>
+								<th>College :</th>
+								<td>
+									<input name="college" type="text" placeholder="Your College Name" size="40" maxlength="35" />
+								</td>
+							</tr>
+							
+							<tr>
+								<th>Year of Study : </th>
+								<td><select name="year">
+									<option selected="selected" name="1st" value="1st year">1st year</option>
+									<option name="2nd" value="2nd year">2nd year</option>
+									<option name="3rd" value="3rd year">3rd year</option>
+									<option name="4th" value="4th year">4th year</option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<th>Contact :</th>
+								<td>
+									<input name="contact" type="text" size="14" placeholder="+91-9012345678" />
+								</td>
+							</tr>
+							<tr>
+								<th>Gender :</th>
+								<td>
+									<input name="gender" type="radio" value="male" />Male </br>
+									<input name="gender" type="radio" value="female" />Female
+								</td>
+							</tr>
+							<tr>
+								<th>Password : </th>
+								<td>
+									<input name="password" type="password" />
+								</td>
+							</tr>
+							<tr>
+								<th>Repeat Password : </th>
+								<td>
+									<input name="rep-password" type="password" />
+								</td>
+							</tr>
+
+
+						</tbody>
+					</table>
+
+				</form>
+
+				<div id="join">
+					<button>Join Titiksha</button>
+				</div>
+		    </div>	
+		</div>
+			
+			
+		</section>
+		
+		<!-- container Contact -->
+
+        <section class="page" id="container_contact" >	
 
 			<div class="contact">
 				<div id="cont0">
@@ -333,7 +488,6 @@
 			</div>
 		</section><!-- /container -->		
 
-
 		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 		
@@ -360,7 +514,7 @@
 						$(this).remove();
 					});
 
-                    $("#container_menu , .container_contact").fadeIn(500).addClass("open");
+                    $(".page").fadeIn(500).addClass("open");
 				});
 
 
