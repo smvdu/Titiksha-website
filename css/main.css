@@ -1226,10 +1226,10 @@ a{
     background-color: rgba(255, 255, 255, 0.1);
     -webkit-animation-duration: 25s;
     -webkit-animation-iteration-count: infinite;
-    -webkit-animation-timing-function: linear;
+    -webkit-animation-timing-function: ease-in-out;
     animation-duration: 30s;
     animation-iteration-count: infinite;
-    animation-timing-function: linear;
+    animation-timing-function: ease-in-out;
 
     
 
