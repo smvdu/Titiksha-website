@@ -302,11 +302,11 @@
 
 		<section class="page" id="contain_event">
 			<div id="event">
-				<div class="branch">
+				<div class="branch" id="mega">
 					<span>Mega Events</span>
 				</div>
 
-				<div class="branch">
+				<div class="branch" id="mech">
 					<span>cse events</span>
 				</div>
 				
