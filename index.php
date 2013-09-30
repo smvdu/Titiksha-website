@@ -162,7 +162,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="#contain_event">
                             <span class="ca-icon">D</span>
                             <div class="ca-content">
                                 <h2 class="ca-main">Events</h2>
@@ -274,6 +274,36 @@
 
 		<!-- script for images -->
 		
+		<!-- Container Events -->
+
+		<section class="page" id="contain_event">
+			<div id="event">
+				<div class="branch" id="mega">
+					<span>Mega Events</span>
+				</div>
+
+				<div class="branch" id="mech">
+					<span>cse events</span>
+				</div>
+				
+				<div class="branch">
+					<span>mech events</span>
+				</div>
+				
+				<div class="branch">
+					<span>ece events</span>
+				</div>
+
+				<div class="branch">
+					<span>arch events</span>
+				</div>
+
+				<div class="branch">
+					<span>ibt events</span>
+				</div>	
+			</div>
+			
+		</section> <!-- events END -->
 
 		<!-- REGITRATION PAGE -->
 

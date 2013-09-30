@@ -422,8 +422,24 @@ a:hover {
     overflow: hidden;
     display: none;  
 }
+.branch{
+    padding-left: 2%;
+    padding-top: 20%;
+    height: 100%;
+    float: left;
+    width: 15%;
+}
 
+#mega{
+    background-color: #ffffff;
+}
 
+#mech{
+
+    font-weight: bold;
+    color: #BEE2E7;
+    background-color: #3D1818;
+}
 /* ============================   */
 /* css for menu */
 
@@ -1877,6 +1893,23 @@ margin-left: 42%;
     background-color: rgba(211, 252, 255, 0.62);
 
 }
+/* ======================== EVENTS PAGE CSS ======  */
+
+#event{
+    font-size: 137%;
+    width: 100%;
+    background-color: #000000;
+    font-family: "Oxygen";
+    color: hsl(0, 15%, 19%);
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    min-height: 100%;
+    height: 115%;
+    line-height: 1.2;   
+}
+
+
 /*================ REGISTER PAGE CSS ==================================== */
 .register_form{
     font-size: 85%;
