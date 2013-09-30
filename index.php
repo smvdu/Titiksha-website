@@ -51,7 +51,9 @@
         <![endif]-->
 
 		<section id="container">	
+
 			
+            	
 			<div class="os-phrases" id="os-phrases">
 			<!-- temporary keywords , development in progress-->
 				<h3>Get Ready</h3>
@@ -62,26 +64,6 @@
 				<h3>Technical Festival</h3>
 				<h3>Of North India</h3>
 				<h3>TITIKSHA</h3>
-			</div>
-
-			<div class="loader">
-			  <span>L</span>
-			  <span>O</span>
-			  <span>A</span>
-			  <span>D</span>
-			  <span>I</span>
-			  <span>N</span>
-			  <span>G</span>
-			  
-			  <div class="covers">
-			    <span></span>
-			    <span></span>
-			    <span></span>
-			    <span></span>
-			    <span></span>
-			    <span></span>
-			    <span></span>
-			  </div>
 			</div>
 
 			<!-- right division -->
@@ -117,16 +99,10 @@
                 </div>
 
                 <div id="loaderWrapper">
-
-                	<div id="progress"></div>
-                	<div id="loaderCircle">
-                		<div class="circle"></div>   
-                		<div class="circle"></div>                   		
-                	</div>
-
-                	<div id="enter">Enter Site</div>
-
-                </div>
+	            	<div id="loading">LOADING</div>
+	            	<div id="progress"></div>
+	            	<div id="enter">Enter</div>
+            	</div>
 
 			</div>
 
@@ -533,8 +509,8 @@
 				
 
 	        	loader.addCompletionListener(function() {
-	        		$("#progress , .loader").fadeOut();
-	        		$("#enter").fadeIn();
+	        		$("#progress , #loading").fadeOut();
+	        		$("#enter").fadeIn(1500);
 	        	});
 
 	        	loader.addProgressListener(function(e) {
