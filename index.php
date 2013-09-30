@@ -101,7 +101,7 @@
                 <div id="loaderWrapper">
 	            	<div id="loading">LOADING</div>
 	            	<div id="progress"></div>
-	            	<div id="enter">Enter</div>
+	            	<div id="enter"><a>ENTER</a></div>
             	</div>
 
 			</div>
