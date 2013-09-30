@@ -51,7 +51,9 @@
         <![endif]-->
 
 		<section id="container">	
+
 			
+            	
 			<div class="os-phrases" id="os-phrases">
 			<!-- temporary keywords , development in progress-->
 				<h3>Get Ready</h3>
@@ -62,26 +64,6 @@
 				<h3>Technical Festival</h3>
 				<h3>Of North India</h3>
 				<h3>TITIKSHA</h3>
-			</div>
-
-			<div class="loader">
-			  <span>L</span>
-			  <span>O</span>
-			  <span>A</span>
-			  <span>D</span>
-			  <span>I</span>
-			  <span>N</span>
-			  <span>G</span>
-			  
-			  <div class="covers">
-			    <span></span>
-			    <span></span>
-			    <span></span>
-			    <span></span>
-			    <span></span>
-			    <span></span>
-			    <span></span>
-			  </div>
 			</div>
 
 			<!-- right division -->
@@ -113,20 +95,14 @@
                 
                 <div id="mid-text">
                     <h2>Titiksha 2k13</h2>
-                    <p>4th - 6th October 2013</p>
+                    <p>25th - 27th October 2013</p>
                 </div>
 
                 <div id="loaderWrapper">
-
-                	<div id="progress"></div>
-                	<div id="loaderCircle">
-                		<div class="circle"></div>   
-                		<div class="circle"></div>                   		
-                	</div>
-
-                	<div id="enter">Enter Site</div>
-
-                </div>
+	            	<div id="loading">LOADING</div>
+	            	<div id="progress"></div>
+	            	<div id="enter">Enter</div>
+            	</div>
 
 			</div>
 
@@ -444,13 +420,13 @@
 				<div class="assym black" id="cont3">
 					<div id="web">
 						<h4>Web Development</h4>
-						<pre>###########</pre>
+						<pre>Sunny Gupta</pre>
 						<pre>+91-127312</pre>
 						<pre style="color: #fff">******@gmail.com</pre>
-						<pre>###########</pre>
+						<pre>Rishabh Shukla</pre>
 						<pre>+91-127312</pre>
 						<pre style="color: #fff">******@gmail.com</pre>
-						<pre>###########</pre>
+						<pre>Parth Pankaj Tiwary</pre>
 						<pre>+91-127312</pre>
 						<pre style="color: #fff">******@gmail.com</pre>
 					</div>					
@@ -468,7 +444,7 @@
 				<div class="assym" id="cont5">
 					<div id="design">
 						<h4>Designer</h4>
-						<pre>##########</pre>
+						<pre>Akash Maurya</pre>
 						<pre>+91-1217219823</pre>
 						<pre style="color: #1C008B">#####@gmail.com</pre>
 					</div>					
@@ -477,7 +453,7 @@
 				<div class="assym black" id="cont6">
 					<div id="media">
 						<h4>Media & Publications</h4>
-						<pre>##########</pre>
+						<pre>Megha Sharma</pre>
 						<pre>+91-1217219823</pre>
 						<pre style="color: #337899">#####@gmail.com</pre>
 					</div>
@@ -563,8 +539,8 @@
 				
 
 	        	loader.addCompletionListener(function() {
-	        		$("#progress , .loader").fadeOut();
-	        		$("#enter").fadeIn();
+	        		$("#progress , #loading").fadeOut();
+	        		$("#enter").fadeIn(1500);
 	        	});
 
 	        	loader.addProgressListener(function(e) {
