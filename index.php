@@ -95,7 +95,7 @@
                 
                 <div id="mid-text">
                     <h2>Titiksha 2k13</h2>
-                    <p>4th - 6th October 2013</p>
+                    <p>25th - 27th October 2013</p>
                 </div>
 
                 <div id="loaderWrapper">
