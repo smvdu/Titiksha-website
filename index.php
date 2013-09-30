@@ -414,13 +414,13 @@
 				<div class="assym black" id="cont3">
 					<div id="web">
 						<h4>Web Development</h4>
-						<pre>###########</pre>
+						<pre>Sunny Gupta</pre>
 						<pre>+91-127312</pre>
 						<pre style="color: #fff">******@gmail.com</pre>
-						<pre>###########</pre>
+						<pre>Rishabh Shukla</pre>
 						<pre>+91-127312</pre>
 						<pre style="color: #fff">******@gmail.com</pre>
-						<pre>###########</pre>
+						<pre>Parth Pankaj Tiwary</pre>
 						<pre>+91-127312</pre>
 						<pre style="color: #fff">******@gmail.com</pre>
 					</div>					
@@ -438,7 +438,7 @@
 				<div class="assym" id="cont5">
 					<div id="design">
 						<h4>Designer</h4>
-						<pre>##########</pre>
+						<pre>Akash Maurya</pre>
 						<pre>+91-1217219823</pre>
 						<pre style="color: #1C008B">#####@gmail.com</pre>
 					</div>					
@@ -447,7 +447,7 @@
 				<div class="assym black" id="cont6">
 					<div id="media">
 						<h4>Media & Publications</h4>
-						<pre>##########</pre>
+						<pre>Megha Sharma</pre>
 						<pre>+91-1217219823</pre>
 						<pre style="color: #337899">#####@gmail.com</pre>
 					</div>
