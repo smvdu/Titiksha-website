@@ -52,18 +52,18 @@
 
 		<section id="container">	
 
-			
-            	
-			<div class="os-phrases" id="os-phrases">
-			<!-- temporary keywords , development in progress-->
-				<h3>Get Ready</h3>
-				<h3>To Witness</h3>
-				<h3>The Most Innovative</h3>
-				<h3>Exciting</h3>
-				<h3>And Creative</h3>
-				<h3>Technical Festival</h3>
-				<h3>Of North India</h3>
-				<h3>TITIKSHA</h3>
+			<div id="letters">            	
+				<div class="os-phrases" id="os-phrases">
+				<!-- temporary keywords , development in progress-->
+					<h3>Get Ready</h3>
+					<h3>To Witness</h3>
+					<h3>The Most Innovative</h3>
+					<h3>Exciting</h3>
+					<h3>And Creative</h3>
+					<h3>Technical Festival</h3>
+					<h3>Of North India</h3>
+					<h3>TITIKSHA</h3>
+				</div>
 			</div>
 
 			<!-- right division -->
@@ -486,11 +486,14 @@
 
 				//removes the loader page
 				$("#enter").click(function(){
-					$("#container").addClass("open", function(){
+					/*$("#container").addClass("open", function(){
 						$(this).remove();
-					});
+					});*/
 
-                    $(".page").fadeIn(500).addClass("open");
+					$("#letters").addClass("moveLeft");
+					$("#right-part").addClass("moveRight");
+
+					$(".page").fadeIn(1000);
 				});
 
 
