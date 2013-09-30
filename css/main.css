@@ -137,7 +137,7 @@ a {
 }
 
 a:hover {
-    color: #fff;
+    color: #130B1B;
 }
 
 #container{
@@ -427,8 +427,9 @@ a:hover {
 }
 
 a{
-    color: #fff;
+    color: #040A16;
     text-decoration: none;
+    opacity: 0.7;
 }
 .clr{
     clear: both;
@@ -1516,8 +1517,9 @@ margin-left: 42%;
 }
 
 #enter{
+    font-family: "Cyberverse";
     text-align: center;
-    font-size: 2.5vw;
+    font-size: 2.1vw;
     color: #000;
     display: none;
     top: 40px;
