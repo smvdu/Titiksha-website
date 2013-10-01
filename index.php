@@ -206,7 +206,8 @@
         </section><!-- container_menu -->
 
 
-		<section class="page" id="container_about" >
+		<section class="page" id="container_about" data-stellar-background-ratio="0.8" >
+
 			<div class="about_us" id="about">
 				<img src="img/1.jpg">
 				<img src="img/2.jpg">
@@ -247,13 +248,15 @@
 					<span>Effect of earth</span>
 				</div>
 
-				<div id="right_about">
-					<div id="top"><p>
+				<div id="right_about" >
+					<div id="top" >
+					<p>
 					 Shri Mata Vaishno  Devi University, India’s  one of the  top ranking  technical university,
 					 proudly announces  the  embarkment of Titiksha 2013.
 					 SMVDU located  on the foothills of  holy shrine of Mata Vaishno  Devi  is
 				     surrounded  by  the  nature’s  scenic  beauty  which enthralls  all the
 				     students and visitors. 
+				     </p>
 				     </div>
 		
 					<div id="bottom"><p> Titiksha, J&k’s largest annual  technical festival , this time is on it’s way to boggle
@@ -264,7 +267,8 @@
 		     	     communication, Computer science , Biotechnology and Architectural events will
 				     emit their aura in this fest and this time TItiksha is going to be a huge  </br>
 				     success than ever.
-					</p> </div>
+					</p> 
+					</div>
 				</div>
 				
 				
