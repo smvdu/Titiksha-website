@@ -413,34 +413,7 @@ a:hover {
 .os-phrases h3:nth-child(4) .word2 {
     font-weight: 400;
 }
-/*================== class PAGE ============== */
 
-.page{
-    
-    min-height: 100%;
-    height: 100%;
-    overflow: hidden;
-    display: none;  
-}
-.branch{
-    padding-left: 2%;
-    padding-top: 20%;
-    height: 100%;
-    float: left;
-    width: 15%;
-}
-
-#mega{
-    background-color: #ffffff;
-}
-
-#mech{
-
-    font-weight: bold;
-    color: #BEE2E7;
-    background-color: #3D1818;
-}
-/* ============================   */
 /* css for menu */
 
 #container_menu{
@@ -1552,6 +1525,7 @@ margin-left: 42%;
 
 
 .contact{
+    line-height: 1;
     font-size: 1.4vw;
     font-family: "Oxygen";
     color: hsl(0, 15%, 19%);
@@ -1569,34 +1543,34 @@ margin-left: 42%;
 }
 
 .black {
-    box-shadow: 2px 5px 6px #000 , 2px -5px 6px #000;
+   /* box-shadow: 2px 5px 6px #000 , 2px -5px 6px #000;
+ */
 }
-
 #cont0{
     position: absolute;
     margin: 0px;
-    left: -12%;
-    top: 28%;
-    height: 48%;
+    left: -13%;
+    top: 26%;
+    height: 50%;
     width: 30%;
-    background-color: #C9C9C9;
+    background-color: #727272;
     float: left;
     z-index: 6;
-    -webkit-transform: rotate(38deg);
-    transform: rotate(38deg);
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
 }
 
 #c7{
 
     color: #000000;
     font-size: 2.5vw;
-    margin-top: 10%;
-    margin-left: 40%;
+    margin-top: 18%;
+    margin-left: 44%;
     -webkit-filter: blur(0px);
     filter: blur(0px);
     padding: 1px;
-    -webkit-transform: rotate(-38deg);
-    transform: rotate(-38deg);
+    -webkit-transform: rotate(-30deg);
+    transform: rotate(-30deg);
 }
 
 
@@ -1607,7 +1581,7 @@ margin-left: 42%;
     top: -20%;
     height: 60%;
     width: 30%;
-    background-color: #000000;
+    background-color: #B4B4B4;
     float: left;
     z-index: 6;
     -webkit-transform: rotate(30deg);
@@ -1627,11 +1601,11 @@ margin-left: 42%;
 #cont2{
    position: absolute;
     margin: 0px;
-    left: 27%;
-    top: -34%;
+    left: 20%;
+    top: -41%;
     height: 60%;
     width: 40%;
-    background-color: #000000;
+    background-color: #555557;
     float: left;
     z-index: 2;
     -webkit-transform: rotate(20deg);
@@ -1642,8 +1616,8 @@ margin-left: 42%;
     line-height: 10px;
     font-weight: normal;
     
-    margin-left: 43%;
-    margin-top: 34%;
+    margin-left: 51%;
+    margin-top: 41%;
     padding: 15px;
     -webkit-transform: rotate(-20deg);
     transform: rotate(-20deg);
@@ -1652,33 +1626,33 @@ margin-left: 42%;
 #cont3{
     position: absolute;
     margin: 0px;
-    left: 70%;
-    top: 23%;
-    background-color: #010202 ;
+    left: 69%;
+    top: 14%;
+    background-color: #131212;
     height: 82%;
     width: 70%;
     float: left;
     z-index: 6;
-    -webkit-transform: rotate(-39deg);
-    transform: rotate(-39deg);
+    -webkit-transform: rotate(-46deg);
+    transform: rotate(-46deg);
 }
 #web{
-    color: #A0A0A0;
-    line-height: 5px;
+    line-height: 0.5;
+    color: #A0A0A0; 
     font-weight: normal;
     
-    margin-top: 27%;
-    margin-left: 5%;
+    margin-top: 30%;
+    margin-left: -2%;
     padding: 10px;
-    -webkit-transform: rotate(39deg);
-    transform: rotate(39deg);
+    -webkit-transform: rotate(46deg);
+    transform: rotate(46deg);
 }
 #cont4{
     position: absolute;
     margin: 0px;
     left: 65%;
     top: -34%;
-    background-color: #000000;
+    background-color:  #222224;
     height: 67%;
     width: 47%;
     float: left;
@@ -1690,8 +1664,8 @@ margin-left: 42%;
     color: #C2C1D1;
     line-height: 0px;
     font-weight: normal;
-    margin-right: 38%;
-    margin-top: 15%;
+    margin-right: 27%;
+    margin-top: 19%;
     padding: 14px;
     -webkit-transform: rotate(144deg);
     transform: rotate(144deg);
@@ -1700,41 +1674,42 @@ margin-left: 42%;
 
 #cont5{
    position: absolute;
-    bottom: 55%;
-    right: 6%;
+    bottom: 38%;
+    right: 9%;
     margin: 0px;
-    background-color: #C9C9C9;
+    background-color:#3F3F41;
     height: 60%;
     width: 40%;
     float: left;
     z-index: 1;
-    -webkit-transform: rotate(48deg);
-    transform: rotate(48deg);
+    -webkit-transform: rotate(64deg);
+    transform: rotate(64deg);
 }
 #design{
      color: #000000;
     line-height: 10px;
     font-weight: normal;
     
-    margin-left: 47%;
-    margin-top: 32%;
+    margin-left: 14%;
+    margin-top: 14%;
     padding: 10px;
-    -webkit-transform: rotate(-48deg);
-    transform: rotate(-48deg);
+    -webkit-transform: rotate(-64deg);
+    transform: rotate(-64deg);
 }
 #cont6{
     position: absolute;
-    bottom: -26%;
-    right: 72%;
-    margin: 0px;
-    background-color: #000000;
-    height: 60%;
-    width: 40%;
-    float: left;
-    z-index: 6;
-    -webkit-transform: rotate(-25deg);
-    transform: rotate(-25deg);
+bottom: -24%;
+right: 73%;
+margin: 0px;
+background-color: #444346;
+height: 60%;
+width: 40%;
+float: left;
+z-index: 6;
+-webkit-transform: rotate(-23deg);
+transform: rotate(-23deg);
 }
+
 #media{
     color: #BBBBDA;
     line-height: 5px;
@@ -1752,7 +1727,7 @@ margin-left: 42%;
     bottom: 5%;
     right: 24%;
     margin: 0px;
-    background-color: #C9C9C9;
+    background-color: #2B2B31;
     height: 90%;
     width: 66%;
     float: left;
@@ -1762,9 +1737,8 @@ margin-left: 42%;
 }
 
 #faculty{
-    
-        color: hsl(0, 0%, 0%);
-    line-height: 4px;
+    line-height: 0.5;
+    color: hsl(182, 43%, 83%);
     font-weight: normal;
     margin-left: 29%;
     margin-top: 17%;
@@ -1778,7 +1752,7 @@ margin-left: 42%;
     bottom: -48%;
     right: 21%;
     margin: 0px;
-    background-color: #000000;
+    background-color: #1D1D1D;
     height: 60%;
     width: 74%;
     float: left;
@@ -1887,12 +1861,12 @@ margin-left: 42%;
 }
 
 #top{
-    background-color: rgba(211, 252, 255, 0.62);
+    background-color: rgba(211, 252, 255, 0.72);
 
 }
 
 #bottom{
-    background-color: rgba(211, 252, 255, 0.62);
+    background-color: rgba(211, 252, 255, 0.72);
 
 }
 /* ======================== EVENTS PAGE CSS ======  */
@@ -1909,6 +1883,51 @@ margin-left: 42%;
     min-height: 100%;
     height: 115%;
     line-height: 1.2;   
+}
+.branch{
+     font-weight: bold;
+    padding-left: 2%;
+    padding-top: 20%;
+    height: 100%;
+    float: left;
+    width: 15%;
+}
+
+#mega{
+    background-color: rgb(246,129,52);
+}
+
+#cse{
+   
+    color: #BEE2E7;
+    background-color: rgb(26,188,156);
+}
+
+#mech{
+    background-color: rgb(94,120,164);
+}
+
+#ece{
+    background-color: rgb(33,32,48) ;
+}
+
+#arch{
+    background-color: rgb(155,89,182);
+}
+
+#ibt{
+    background-color: rgb(76,227,145);
+}
+
+/* ============================   */
+
+/* ============ Class PAGE =========== */
+.page{
+    
+    min-height: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: none;  
 }
 
 

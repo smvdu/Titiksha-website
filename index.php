@@ -279,27 +279,27 @@
 		<section class="page" id="contain_event">
 			<div id="event">
 				<div class="branch" id="mega">
-					<span>Mega Events</span>
+					<span>MEGA</span>
 				</div>
 
+				<div class="branch" id="cse">
+					<span>Computer</span>
+				</div>
+				
 				<div class="branch" id="mech">
-					<span>cse events</span>
+					<span>Mechanical</span>
 				</div>
 				
-				<div class="branch">
-					<span>mech events</span>
-				</div>
-				
-				<div class="branch">
-					<span>ece events</span>
+				<div class="branch" id="ece">
+					<span>Electronics</span>
 				</div>
 
-				<div class="branch">
-					<span>arch events</span>
+				<div class="branch" id="arch">
+					<span>Architecture's</span>
 				</div>
 
-				<div class="branch">
-					<span>ibt events</span>
+				<div class="branch" id="ibt">
+					<span>Bio-Tech</span>
 				</div>	
 			</div>
 			
@@ -413,22 +413,23 @@
 						<h4>Titiksha Coordinator</h4>
 						<pre>Dhananjay Singh</pre>
 						<pre>+91-9796405080</pre>
-						<pre style="color: #2B3752">djsanj99@gmail.com</pre>
+						<pre style="color: #D6F8CE">djsanj99@gmail.com</pre>
 					</div>
 				</div>
 
 				<div class="assym black" id="cont3">
 					<div id="web">
 						<h4>Web Development</h4>
-						<pre>Sunny Gupta</pre>
-						<pre>+91-127312</pre>
-						<pre style="color: #fff">******@gmail.com</pre>
-						<pre>Rishabh Shukla</pre>
-						<pre>+91-127312</pre>
-						<pre style="color: #fff">******@gmail.com</pre>
-						<pre>Parth Pankaj Tiwary</pre>
-						<pre>+91-127312</pre>
-						<pre style="color: #fff">******@gmail.com</pre>
+						<pre>* Sunny Gupta</pre>
+						<pre>+91-9086724946</pre>
+						<pre style="color: #D6F8CE">sunnylautner4@gmail.com</pre>
+						<pre>* Rishabh Shukla</pre>
+						<pre>+91-9086250987</pre>
+						<pre style="color: #D6F8CE">rishy.s13@gmail.com</pre>
+						<pre>* Akshay Pratap Singh</pre>
+						<pre style="color: #D6F8CE">pratapakshay0@gmail.com</pre>
+						<pre>* Parth Pankaj Tiwary</pre>
+						<pre style="color: #D6F8CE">pankajparthtiwary@gmail.com</pre>
 					</div>					
 				</div>
 
@@ -437,7 +438,7 @@
 						<h4>Event Coordinator</h4>
 						<pre>Rishabh Shukla</pre>
 						<pre>+91-9086250987</pre>
-						<pre style="color: #337899">rishy.s13@gmail.com</pre>
+						<pre style="color: #D6F8CE">rishy.s13@gmail.com</pre>
 					</div>					
 				</div>
 
@@ -445,8 +446,8 @@
 					<div id="design">
 						<h4>Designer</h4>
 						<pre>Akash Maurya</pre>
-						<pre>+91-1217219823</pre>
-						<pre style="color: #1C008B">#####@gmail.com</pre>
+						<pre>+91-9797602140</pre>
+						<pre style="color: #D6F8CE">maurya.aakash1@gmail.com</pre>
 					</div>					
 				</div>
 
@@ -454,8 +455,8 @@
 					<div id="media">
 						<h4>Media & Publications</h4>
 						<pre>Megha Sharma</pre>
-						<pre>+91-1217219823</pre>
-						<pre style="color: #337899">#####@gmail.com</pre>
+						<pre>+91-9086118089</pre>
+						<pre style="color: #D6F8CE">meghas19@yahoo.co.in</pre>
 					</div>
 				</div>
 
@@ -463,19 +464,19 @@
 					
 					<div id="faculty">
 						<h4>Chief Faculty</h4>
-						<pre>Dr. Ankush Anand</pre>
-						<pre style="color: #120041">  *ankush.anand@smvdu.ac.in</pre><br/>
+						<pre>* Dr. Ankush Anand</pre>
+						<pre style="color: rgba(255, 255, 255, 0.9)">ankush.anand@smvdu.ac.in</pre><br/>
 						<h4>Branch Faculty</h4>
 						<pre>- Mr. Irfan-ul-Haq</pre>
-						<pre style="color: #120041">  *haqmechanical@gmail.com</pre>
+						<pre style="color: rgba(255, 255, 255, 0.9)">haqmechanical@gmail.com</pre>
 						<pre>- Mr. Abhimanyu Sharma </pre>
-						<pre style="color: #120041">  *abhimanyu.sharma@smvdu.ac.in </pre>
+						<pre style="color: rgba(255, 255, 255, 0.9)">abhimanyu.sharma@smvdu.ac.in </pre>
 						<pre>- Mr. Sudesh Kumar</pre>
-						<pre style="color: #120041">  *sudesh.Bhadu@smvdu.ac.in  </pre>
+						<pre style="color: rgba(255, 255, 255, 0.9)">sudesh.Bhadu@smvdu.ac.in  </pre>
 						<pre>- Mr. R.K. Jha</pre>
-						<pre style="color: #120041">  *rakesh.jha@smvdu.ac.in</pre>
+						<pre style="color: rgba(255, 255, 255, 0.9)">rakesh.jha@smvdu.ac.in</pre>
 						<pre>- Dr. Swarkar Sharma</pre>
-						<pre style="color: #120041"></pre>
+						<pre style="color: rgba(255, 255, 255, 0.9)"></pre>
 						
 
 					</div>
@@ -483,10 +484,10 @@
 
 				<div class="assym black" id="cont8">
 					<div id="discipline">
-						<h4>Discipline</h4>
+						<h4></h4>
 						<pre>##########</pre>
 						<pre>+91-1217219823</pre>
-						<pre style="color: #5EA89F">#####@gmail.com</pre>
+						<pre style="color: #D6F8CE">#####@gmail.com</pre>
 					</div>
 					
 				</div>
