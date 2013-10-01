@@ -413,34 +413,7 @@ a:hover {
 .os-phrases h3:nth-child(4) .word2 {
     font-weight: 400;
 }
-/*================== class PAGE ============== */
 
-.page{
-    
-    min-height: 100%;
-    height: 100%;
-    overflow: hidden;
-    display: none;  
-}
-.branch{
-    padding-left: 2%;
-    padding-top: 20%;
-    height: 100%;
-    float: left;
-    width: 15%;
-}
-
-#mega{
-    background-color: #ffffff;
-}
-
-#mech{
-
-    font-weight: bold;
-    color: #BEE2E7;
-    background-color: #3D1818;
-}
-/* ============================   */
 /* css for menu */
 
 #container_menu{
@@ -1577,10 +1550,10 @@ margin-left: 42%;
     position: absolute;
     margin: 0px;
     left: -13%;
-    top: 17%;
+    top: 26%;
     height: 50%;
     width: 30%;
-    background-color: #2C2A35;
+    background-color: #727272;
     float: left;
     z-index: 6;
     -webkit-transform: rotate(30deg);
@@ -1591,8 +1564,8 @@ margin-left: 42%;
 
     color: #000000;
     font-size: 2.5vw;
-    margin-top: 29%;
-    margin-left: 50%;
+    margin-top: 18%;
+    margin-left: 44%;
     -webkit-filter: blur(0px);
     filter: blur(0px);
     padding: 1px;
@@ -1608,7 +1581,7 @@ margin-left: 42%;
     top: -20%;
     height: 60%;
     width: 30%;
-    background-color: #C7C7C7;
+    background-color: #B4B4B4;
     float: left;
     z-index: 6;
     -webkit-transform: rotate(30deg);
@@ -1629,10 +1602,10 @@ margin-left: 42%;
    position: absolute;
     margin: 0px;
     left: 20%;
-top: -41%;
-height: 60%;
-width: 40%;
-background-color: #414146;
+    top: -41%;
+    height: 60%;
+    width: 40%;
+    background-color: #555557;
     float: left;
     z-index: 2;
     -webkit-transform: rotate(20deg);
@@ -1644,7 +1617,7 @@ background-color: #414146;
     font-weight: normal;
     
     margin-left: 51%;
-margin-top: 41%;
+    margin-top: 41%;
     padding: 15px;
     -webkit-transform: rotate(-20deg);
     transform: rotate(-20deg);
@@ -1653,33 +1626,33 @@ margin-top: 41%;
 #cont3{
     position: absolute;
     margin: 0px;
-    left: 70%;
-    top: 23%;
-    background-color:#121A1A ;
+    left: 69%;
+    top: 14%;
+    background-color: #131212;
     height: 82%;
     width: 70%;
     float: left;
     z-index: 6;
-    -webkit-transform: rotate(-39deg);
-    transform: rotate(-39deg);
+    -webkit-transform: rotate(-46deg);
+    transform: rotate(-46deg);
 }
 #web{
-    color: #A0A0A0;
-    line-height: 5px;
+    line-height: 0.5;
+    color: #A0A0A0; 
     font-weight: normal;
     
-    margin-top: 27%;
-    margin-left: 5%;
+    margin-top: 30%;
+    margin-left: -2%;
     padding: 10px;
-    -webkit-transform: rotate(39deg);
-    transform: rotate(39deg);
+    -webkit-transform: rotate(46deg);
+    transform: rotate(46deg);
 }
 #cont4{
     position: absolute;
     margin: 0px;
     left: 65%;
     top: -34%;
-    background-color: #30303D;
+    background-color:  #222224;
     height: 67%;
     width: 47%;
     float: left;
@@ -1691,8 +1664,8 @@ margin-top: 41%;
     color: #C2C1D1;
     line-height: 0px;
     font-weight: normal;
-    margin-right: 38%;
-    margin-top: 15%;
+    margin-right: 27%;
+    margin-top: 19%;
     padding: 14px;
     -webkit-transform: rotate(144deg);
     transform: rotate(144deg);
@@ -1702,14 +1675,14 @@ margin-top: 41%;
 #cont5{
    position: absolute;
     bottom: 38%;
-right: 9%;
-margin: 0px;
-background-color:#7B7B7E;
-height: 60%;
-width: 40%;
-float: left;
-z-index: 1;
--webkit-transform: rotate(64deg);
+    right: 9%;
+    margin: 0px;
+    background-color:#3F3F41;
+    height: 60%;
+    width: 40%;
+    float: left;
+    z-index: 1;
+    -webkit-transform: rotate(64deg);
     transform: rotate(64deg);
 }
 #design{
@@ -1717,8 +1690,8 @@ z-index: 1;
     line-height: 10px;
     font-weight: normal;
     
-    margin-left: 28%;
-    margin-top: 17%;
+    margin-left: 14%;
+    margin-top: 14%;
     padding: 10px;
     -webkit-transform: rotate(-64deg);
     transform: rotate(-64deg);
@@ -1728,7 +1701,7 @@ z-index: 1;
 bottom: -24%;
 right: 73%;
 margin: 0px;
-background-color: #131318;
+background-color: #444346;
 height: 60%;
 width: 40%;
 float: left;
@@ -1779,7 +1752,7 @@ transform: rotate(-23deg);
     bottom: -48%;
     right: 21%;
     margin: 0px;
-    background-color: #000000;
+    background-color: #1D1D1D;
     height: 60%;
     width: 74%;
     float: left;
@@ -1910,6 +1883,51 @@ transform: rotate(-23deg);
     min-height: 100%;
     height: 115%;
     line-height: 1.2;   
+}
+.branch{
+     font-weight: bold;
+    padding-left: 2%;
+    padding-top: 20%;
+    height: 100%;
+    float: left;
+    width: 15%;
+}
+
+#mega{
+    background-color: rgb(246,129,52);
+}
+
+#cse{
+   
+    color: #BEE2E7;
+    background-color: rgb(26,188,156);
+}
+
+#mech{
+    background-color: rgb(94,120,164);
+}
+
+#ece{
+    background-color: rgb(33,32,48) ;
+}
+
+#arch{
+    background-color: rgb(155,89,182);
+}
+
+#ibt{
+    background-color: rgb(76,227,145);
+}
+
+/* ============================   */
+
+/* ============ Class PAGE =========== */
+.page{
+    
+    min-height: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: none;  
 }
 
 

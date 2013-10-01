@@ -279,27 +279,27 @@
 		<section class="page" id="contain_event">
 			<div id="event">
 				<div class="branch" id="mega">
-					<span>Mega Events</span>
+					<span>MEGA</span>
 				</div>
 
+				<div class="branch" id="cse">
+					<span>Computer</span>
+				</div>
+				
 				<div class="branch" id="mech">
-					<span>cse events</span>
+					<span>Mechanical</span>
 				</div>
 				
-				<div class="branch">
-					<span>mech events</span>
-				</div>
-				
-				<div class="branch">
-					<span>ece events</span>
+				<div class="branch" id="ece">
+					<span>Electronics</span>
 				</div>
 
-				<div class="branch">
-					<span>arch events</span>
+				<div class="branch" id="arch">
+					<span>Architecture's</span>
 				</div>
 
-				<div class="branch">
-					<span>ibt events</span>
+				<div class="branch" id="ibt">
+					<span>Bio-Tech</span>
 				</div>	
 			</div>
 			
@@ -420,15 +420,16 @@
 				<div class="assym black" id="cont3">
 					<div id="web">
 						<h4>Web Development</h4>
-						<pre>Sunny Gupta</pre>
-						<pre>+91-127312</pre>
-						<pre style="color: #D6F8CE">******@gmail.com</pre>
-						<pre>Rishabh Shukla</pre>
-						<pre>+91-127312</pre>
-						<pre style="color: #D6F8CE">******@gmail.com</pre>
-						<pre>Parth Pankaj Tiwary</pre>
-						<pre>+91-127312</pre>
-						<pre style="color: #D6F8CE">******@gmail.com</pre>
+						<pre>* Sunny Gupta</pre>
+						<pre>+91-9086724946</pre>
+						<pre style="color: #D6F8CE">sunnylautner4@gmail.com</pre>
+						<pre>* Rishabh Shukla</pre>
+						<pre>+91-9086250987</pre>
+						<pre style="color: #D6F8CE">rishy.s13@gmail.com</pre>
+						<pre>* Akshay Pratap Singh</pre>
+						<pre style="color: #D6F8CE">pratapakshay0@gmail.com</pre>
+						<pre>* Parth Pankaj Tiwary</pre>
+						<pre style="color: #D6F8CE">pankajparthtiwary@gmail.com</pre>
 					</div>					
 				</div>
 
@@ -445,8 +446,8 @@
 					<div id="design">
 						<h4>Designer</h4>
 						<pre>Akash Maurya</pre>
-						<pre>+91-1217219823</pre>
-						<pre style="color: #D6F8CE">#####@gmail.com</pre>
+						<pre>+91-9797602140</pre>
+						<pre style="color: #D6F8CE">maurya.aakash1@gmail.com</pre>
 					</div>					
 				</div>
 
@@ -454,8 +455,8 @@
 					<div id="media">
 						<h4>Media & Publications</h4>
 						<pre>Megha Sharma</pre>
-						<pre>+91-1217219823</pre>
-						<pre style="color: #D6F8CE">#####@gmail.com</pre>
+						<pre>+91-9086118089</pre>
+						<pre style="color: #D6F8CE">meghas19@yahoo.co.in</pre>
 					</div>
 				</div>
 
@@ -483,7 +484,7 @@
 
 				<div class="assym black" id="cont8">
 					<div id="discipline">
-						<h4>Discipline</h4>
+						<h4></h4>
 						<pre>##########</pre>
 						<pre>+91-1217219823</pre>
 						<pre style="color: #D6F8CE">#####@gmail.com</pre>
