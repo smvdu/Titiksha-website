@@ -1826,14 +1826,15 @@ transform: rotate(-23deg);
 }
 
 #right_about{
-   text-align: center;
+    text-align: center;
     word-spacing: 5px;
-    color: #ccc;
+    color: #E9E9E9;
     padding: 5px 25px 0px 25px;
     width: 64%;
     position: absolute;
     right: 4%;
     top: 2%;
+    text-shadow: 4px 9px 10px #000;
 }
 
 /* ======================== EVENTS PAGE CSS ======  */
