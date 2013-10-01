@@ -260,8 +260,8 @@
 					 the minds of young  tech savvies around the nation. We , at SMVDU, for 
 					 technical excellence, invite more than 100 of colleges /universities  from the
 					 nation to participate in this  fiesta. Different events  will be held by the different
-				     branches of the university for three  exuberant days.  Mechanical, electroics and
-		     	     communication, computer science , biotechnology and architectural events will
+				     branches of the university for three  exuberant days.  Mechanical, Electronics and
+		     	     communication, Computer science , Biotechnology and Architectural events will
 				     emit their aura in this fest and this time TItiksha is going to be a huge  </br>
 				     success than ever.
 					</p> </div>
@@ -399,16 +399,16 @@
 				</div>
 
 
-				<div class="assym black" id="cont1">
+				<div class="assym_black" id="cont1">
 					<div id="online">
 						<h3>Online Contacts</h3>
-						<a href="https://www.facebook.com/titiksha2k13" target="_blank" style="color: #3b5998; text-decoration: none;"><img src="img/fb_black.png">Facebook Page</a>
+						<a href="https://www.facebook.com/titiksha2k13" target="_blank" style="color: #092241; text-decoration: none;"><img src="img/fb_black.png">Facebook Page</a>
 						<pre>Or Drop us a mail on :</pre>
 						<i style="color: #2B3752">titiksha2k13@gmail.com</i>
 					</div>
 				</div>
 
-				<div class="assym black" id="cont2">
+				<div class="assym_black" id="cont2">
 					<div id="chief">
 						<h4>Titiksha Coordinator</h4>
 						<pre>Dhananjay Singh</pre>
@@ -417,7 +417,7 @@
 					</div>
 				</div>
 
-				<div class="assym black" id="cont3">
+				<div class="assym_black" id="cont3">
 					<div id="web">
 						<h4>Web Development</h4>
 						<pre>* Sunny Gupta</pre>
@@ -433,7 +433,7 @@
 					</div>					
 				</div>
 
-				<div class="assym black" id="cont4">
+				<div class="assym_black" id="cont4">
 					<div id="tech">
 						<h4>Event Coordinator</h4>
 						<pre>Rishabh Shukla</pre>
@@ -442,7 +442,7 @@
 					</div>					
 				</div>
 
-				<div class="assym" id="cont5">
+				<div class="assym_black" id="cont5">
 					<div id="design">
 						<h4>Designer</h4>
 						<pre>Akash Maurya</pre>
@@ -451,7 +451,7 @@
 					</div>					
 				</div>
 
-				<div class="assym black" id="cont6">
+				<div class="assym_black" id="cont6">
 					<div id="media">
 						<h4>Media & Publications</h4>
 						<pre>Megha Sharma</pre>
@@ -460,7 +460,7 @@
 					</div>
 				</div>
 
-				<div class="assym" id="cont7">
+				<div class="assym_black" id="cont7">
 					
 					<div id="faculty">
 						<h4>Chief Faculty</h4>
@@ -482,7 +482,7 @@
 					</div>
 				</div>
 
-				<div class="assym black" id="cont8">
+				<div class="assym_black" id="cont8">
 					<div id="discipline">
 						<h4></h4>
 						<pre>##########</pre>
