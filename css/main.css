@@ -1528,7 +1528,7 @@ margin-left: 42%;
     line-height: 1;
     font-size: 1.4vw;
     font-family: "Oxygen";
-    color: hsl(0, 15%, 19%);
+    color: hsla(175, 78%, 60%, 0.74);
     position: relative;
     margin: 0px;
     min-height: 100%;
@@ -1537,11 +1537,6 @@ margin-left: 42%;
     font-size: 80%;
 }
 
-.assym_black{
-
-    color: #000000;
-
-}
 
 #cont0{
     position: absolute;
@@ -1572,6 +1567,7 @@ margin-left: 42%;
 
 
 #cont1{
+    color: hsl(0, 15%, 19%);
     position: absolute;
     margin: 0px;
     left: -1%;
@@ -1710,8 +1706,8 @@ transform: rotate(-23deg);
     margin-left: 46%;
     margin-top: 20%;
     padding: 10px;
-    -webkit-transform: rotate(25deg);
-    transform: rotate(25deg);
+    -webkit-transform: rotate(23deg);
+    transform: rotate(23deg);
 
 }
 #cont7{
