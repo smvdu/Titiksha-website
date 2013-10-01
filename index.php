@@ -442,7 +442,7 @@
 					</div>					
 				</div>
 
-				<div class="assym" id="cont5">
+				<div class="assym black" id="cont5">
 					<div id="design">
 						<h4>Designer</h4>
 						<pre>Akash Maurya</pre>
@@ -460,7 +460,7 @@
 					</div>
 				</div>
 
-				<div class="assym" id="cont7">
+				<div class="assym black" id="cont7">
 					
 					<div id="faculty">
 						<h4>Chief Faculty</h4>

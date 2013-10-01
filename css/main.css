@@ -1537,15 +1537,12 @@ margin-left: 42%;
     font-size: 80%;
 }
 
-.assym{
-    
+.assym_black{
+
+    color: #000000;
 
 }
 
-.black {
-   /* box-shadow: 2px 5px 6px #000 , 2px -5px 6px #000;
- */
-}
 #cont0{
     position: absolute;
     margin: 0px;
@@ -1581,7 +1578,7 @@ margin-left: 42%;
     top: -20%;
     height: 60%;
     width: 30%;
-    background-color: #B4B4B4;
+    background-color: #A0A0A0;
     float: left;
     z-index: 6;
     -webkit-transform: rotate(30deg);
@@ -1605,14 +1602,13 @@ margin-left: 42%;
     top: -41%;
     height: 60%;
     width: 40%;
-    background-color: #555557;
+    background-color:#7A7979;
     float: left;
     z-index: 2;
     -webkit-transform: rotate(20deg);
     transform: rotate(20deg);
 }
 #chief{
-    color: #AFCAC9;
     line-height: 10px;
     font-weight: normal;
     
@@ -1628,31 +1624,30 @@ margin-left: 42%;
     margin: 0px;
     left: 69%;
     top: 14%;
-    background-color: #131212;
+    background-color: #413A3A;
     height: 82%;
     width: 70%;
     float: left;
     z-index: 6;
-    -webkit-transform: rotate(-46deg);
-    transform: rotate(-46deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
 }
 #web{
     line-height: 0.5;
-    color: #A0A0A0; 
     font-weight: normal;
     
     margin-top: 30%;
     margin-left: -2%;
     padding: 10px;
-    -webkit-transform: rotate(46deg);
-    transform: rotate(46deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
 }
 #cont4{
     position: absolute;
     margin: 0px;
     left: 65%;
     top: -34%;
-    background-color:  #222224;
+    background-color: #8B8B8B;
     height: 67%;
     width: 47%;
     float: left;
@@ -1661,7 +1656,6 @@ margin-left: 42%;
     z-index: 4;
 }
 #tech{
-    color: #C2C1D1;
     line-height: 0px;
     font-weight: normal;
     margin-right: 27%;
@@ -1677,7 +1671,7 @@ margin-left: 42%;
     bottom: 38%;
     right: 9%;
     margin: 0px;
-    background-color:#3F3F41;
+    background-color: #4D4D4D;
     height: 60%;
     width: 40%;
     float: left;
@@ -1686,7 +1680,6 @@ margin-left: 42%;
     transform: rotate(64deg);
 }
 #design{
-     color: #000000;
     line-height: 10px;
     font-weight: normal;
     
@@ -1701,7 +1694,7 @@ margin-left: 42%;
 bottom: -24%;
 right: 73%;
 margin: 0px;
-background-color: #444346;
+background-color:  #515152;
 height: 60%;
 width: 40%;
 float: left;
@@ -1711,7 +1704,6 @@ transform: rotate(-23deg);
 }
 
 #media{
-    color: #BBBBDA;
     line-height: 5px;
     font-weight: normal;
     
@@ -1727,7 +1719,7 @@ transform: rotate(-23deg);
     bottom: 5%;
     right: 24%;
     margin: 0px;
-    background-color: #2B2B31;
+    background-color:#444444;
     height: 90%;
     width: 66%;
     float: left;
@@ -1738,7 +1730,6 @@ transform: rotate(-23deg);
 
 #faculty{
     line-height: 0.5;
-    color: hsl(182, 43%, 83%);
     font-weight: normal;
     margin-left: 29%;
     margin-top: 17%;
@@ -1752,7 +1743,7 @@ transform: rotate(-23deg);
     bottom: -48%;
     right: 21%;
     margin: 0px;
-    background-color: #1D1D1D;
+    background-color: #292525;
     height: 60%;
     width: 74%;
     float: left;
@@ -1761,7 +1752,6 @@ transform: rotate(-23deg);
     transform: rotate(-14deg);
 }
 #discipline{
-    color: #A8BCCA;
     line-height: 5px;
     font-weight: normal;
     margin-left: 70%;
