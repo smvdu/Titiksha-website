@@ -1872,33 +1872,39 @@ transform: rotate(-23deg);
     padding-top: 20%;
     height: 100%;
     float: left;
-    width: 15%;
+    width: 16.667%;
 }
 
 #mega{
-    background-color: rgb(246,129,52);
+    background-color: #C9C9C9;  
+    color: #3D3D3D;
 }
 
 #cse{
    
-    color: #BEE2E7;
-    background-color: rgb(26,188,156);
+    color: #FFFFFF;
+    background-color: rgb(167, 167, 167);
+
 }
 
 #mech{
-    background-color: rgb(94,120,164);
+    background-color: rgb(138, 138, 138);
+    color: #186EB1;
 }
 
 #ece{
-    background-color: rgb(33,32,48) ;
+    background-color: rgb(104, 104, 104);
+    color: #E05700;
 }
 
 #arch{
-    background-color: rgb(155,89,182);
+    background-color: rgb(71, 71, 71);
+    color: #9B59B6;
 }
 
 #ibt{
-    background-color: rgb(76,227,145);
+    background-color: rgb(56, 56, 56);
+    color: #6fb118;
 }
 
 /* ============================   */
