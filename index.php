@@ -508,26 +508,11 @@
         <script src="js/main.js"></script>
         <script type="text/javascript" src="js/PxLoader.js"></script>
         <script type="text/javascript" src="js/PxLoaderImage.js"></script>
+        <script type="text/javascript" src="js/jquery.parallax.min.js"></script>
 
 		<script type="text/javascript">
 			
 			$(document).ready(function(){
-
-
-				//removes the loader page
-				$("#enter").click(function(){
-					/*$("#container").addClass("open", function(){
-						$(this).remove();
-					});*/
-
-					$("#letters").addClass("moveLeft");
-					$("#right-part").addClass("moveRight", function(){
-						$("#container").remove();
-					});
-
-					$(".page").fadeIn(1000);
-				});
-
 
 				//requests javascript files using AJAX
 				$.getScript("js/jquery.lettering.js", function(){
@@ -537,10 +522,11 @@
 
 							
 
+				//preloader for images
 				var loader = new PxLoader();
 
-				for(var i= 1; i < 12; i++)
-					loader.addImage("../img/"+i+".jpg");
+				for(var i= 1; i < 34; i++)
+					loader.addImage("img/"+i+".jpg");
 				
 
 	        	loader.addCompletionListener(function() {
@@ -555,6 +541,28 @@
 	           	});
 
 	        	loader.start();
+
+
+				//removes the loader page
+				$("#enter").click(function(){
+					/*$("#container").addClass("open", function(){
+						$(this).remove();
+					});*/
+
+					$("#letters").addClass("moveLeft");
+					$("#right-part").addClass("moveRight");	
+
+					$(".page").fadeIn(1200, function(){
+						$("#container").remove();
+					});
+				});
+
+
+				//jparallax on menu page
+				$(".bub").parallax({
+					mouseport: $("#bubble_area")
+				});
+
 	        });
 		</script>
 
