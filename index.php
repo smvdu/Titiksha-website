@@ -413,7 +413,7 @@
 						<h4>Titiksha Coordinator</h4>
 						<pre>Dhananjay Singh</pre>
 						<pre>+91-9796405080</pre>
-						<pre style="color: #2B3752">djsanj99@gmail.com</pre>
+						<pre style="color: #D6F8CE">djsanj99@gmail.com</pre>
 					</div>
 				</div>
 
@@ -422,13 +422,13 @@
 						<h4>Web Development</h4>
 						<pre>Sunny Gupta</pre>
 						<pre>+91-127312</pre>
-						<pre style="color: #fff">******@gmail.com</pre>
+						<pre style="color: #D6F8CE">******@gmail.com</pre>
 						<pre>Rishabh Shukla</pre>
 						<pre>+91-127312</pre>
-						<pre style="color: #fff">******@gmail.com</pre>
+						<pre style="color: #D6F8CE">******@gmail.com</pre>
 						<pre>Parth Pankaj Tiwary</pre>
 						<pre>+91-127312</pre>
-						<pre style="color: #fff">******@gmail.com</pre>
+						<pre style="color: #D6F8CE">******@gmail.com</pre>
 					</div>					
 				</div>
 
@@ -437,7 +437,7 @@
 						<h4>Event Coordinator</h4>
 						<pre>Rishabh Shukla</pre>
 						<pre>+91-9086250987</pre>
-						<pre style="color: #337899">rishy.s13@gmail.com</pre>
+						<pre style="color: #D6F8CE">rishy.s13@gmail.com</pre>
 					</div>					
 				</div>
 
@@ -446,7 +446,7 @@
 						<h4>Designer</h4>
 						<pre>Akash Maurya</pre>
 						<pre>+91-1217219823</pre>
-						<pre style="color: #1C008B">#####@gmail.com</pre>
+						<pre style="color: #D6F8CE">#####@gmail.com</pre>
 					</div>					
 				</div>
 
@@ -455,7 +455,7 @@
 						<h4>Media & Publications</h4>
 						<pre>Megha Sharma</pre>
 						<pre>+91-1217219823</pre>
-						<pre style="color: #337899">#####@gmail.com</pre>
+						<pre style="color: #D6F8CE">#####@gmail.com</pre>
 					</div>
 				</div>
 
@@ -463,19 +463,19 @@
 					
 					<div id="faculty">
 						<h4>Chief Faculty</h4>
-						<pre>Dr. Ankush Anand</pre>
-						<pre style="color: #120041">  *ankush.anand@smvdu.ac.in</pre><br/>
+						<pre>* Dr. Ankush Anand</pre>
+						<pre style="color: rgba(255, 255, 255, 0.9)">ankush.anand@smvdu.ac.in</pre><br/>
 						<h4>Branch Faculty</h4>
 						<pre>- Mr. Irfan-ul-Haq</pre>
-						<pre style="color: #120041">  *haqmechanical@gmail.com</pre>
+						<pre style="color: rgba(255, 255, 255, 0.9)">haqmechanical@gmail.com</pre>
 						<pre>- Mr. Abhimanyu Sharma </pre>
-						<pre style="color: #120041">  *abhimanyu.sharma@smvdu.ac.in </pre>
+						<pre style="color: rgba(255, 255, 255, 0.9)">abhimanyu.sharma@smvdu.ac.in </pre>
 						<pre>- Mr. Sudesh Kumar</pre>
-						<pre style="color: #120041">  *sudesh.Bhadu@smvdu.ac.in  </pre>
+						<pre style="color: rgba(255, 255, 255, 0.9)">sudesh.Bhadu@smvdu.ac.in  </pre>
 						<pre>- Mr. R.K. Jha</pre>
-						<pre style="color: #120041">  *rakesh.jha@smvdu.ac.in</pre>
+						<pre style="color: rgba(255, 255, 255, 0.9)">rakesh.jha@smvdu.ac.in</pre>
 						<pre>- Dr. Swarkar Sharma</pre>
-						<pre style="color: #120041"></pre>
+						<pre style="color: rgba(255, 255, 255, 0.9)"></pre>
 						
 
 					</div>
@@ -486,7 +486,7 @@
 						<h4>Discipline</h4>
 						<pre>##########</pre>
 						<pre>+91-1217219823</pre>
-						<pre style="color: #5EA89F">#####@gmail.com</pre>
+						<pre style="color: #D6F8CE">#####@gmail.com</pre>
 					</div>
 					
 				</div>
@@ -539,8 +539,8 @@
 
 				var loader = new PxLoader();
 
-				for(var i= 1; i < 12; i++)
-					loader.addImage("../img/"+i+".jpg");
+				for(var i= 1; i < 34; i++)
+					loader.addImage("img/"+i+".jpg");
 				
 
 	        	loader.addCompletionListener(function() {
