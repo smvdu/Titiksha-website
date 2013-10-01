@@ -491,7 +491,9 @@
 					});*/
 
 					$("#letters").addClass("moveLeft");
-					$("#right-part").addClass("moveRight");
+					$("#right-part").addClass("moveRight", function(){
+						$("#container").remove();
+					});
 
 					$(".page").fadeIn(1000);
 				});
