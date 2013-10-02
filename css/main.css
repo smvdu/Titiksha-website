@@ -500,8 +500,7 @@ a{
 
 .bub{
     height: 100px;
-    width: 100px;
-  
+    width: 100px;  
     position: absolute;
     border-radius: 100%;
 }
@@ -1764,7 +1763,7 @@ transform: rotate(-23deg);
 
 .about_us{
     font-size: 137%;
-    background-color: #000000;
+    background-color: #fff;
     color: hsl(0, 15%, 19%);
     position: relative;
     -webkit-column-count: 6;
@@ -1777,15 +1776,16 @@ transform: rotate(-23deg);
     
 }
 
-.about_us img{
+.about_us > img{
     width: 100% !important;
     height: auto !important;
-    -webkit-filter: grayscale(90%) brightness(25%);
-    -moz-filter: grayscale(90%) brightness(25%);
-    -o-filter: grayscale(90%) brightness(25%);
-    -ms-filter: grayscale(90%) brightness(25%);
-     filter: grayscale(90%) brightness(25%);
+    -webkit-filter: opacity(75%) blur(1.5px) grayscale(90%) brightness(60%);
+    -moz-filter: opacity(75%) blur(1.5px) grayscale(90%) brightness(60%);
+    -o-filter: opacity(75%) blur(1.5px) grayscale(90%) brightness(60%);
+    -ms-filter: opacity(75%) blur(1.5px) grayscale(90%) brightness(60%);
+     filter: opacity(75%) blur(1.5px) grayscale(90%) brightness(60%);
 }
+
 @media (max-width: 1200px) {
   .about_us {
   -moz-column-count:    7;
@@ -1820,26 +1820,51 @@ transform: rotate(-23deg);
     padding: 20px;
     height: 83%;
     width: 30%;
-    background-color: rgba(155, 155, 155, 0.21);
     position: absolute;
     top: 2%;
     left: 1%;
-    display: none;
+    
+}
 
+#left_about div {
+    position: absolute;
+      
+    background-repeat: no-repeat;
+}
+
+#rocket{       
+    height: 1300px;
+    margin-top: 75%;
+    background-image: url("../img/1.png");
+    width: 30%;
+    background-size: 100%;   
+   
+}
+
+#earth{    
+    top: 85%;
+    height: 1300px; 
+    background-image: url("../img/2.png");   
+    background-size: 100%;
+    width: 100%;
+    
 }
 
 #right_about{
    
     text-align: center;
     word-spacing: 5px;
-    color: #E9E9E9;
+    color: #fff;
     padding: 5px 25px 0px 25px;
-    width: 64%;
+    width: 850px;
+    height: 1300px;
     position: absolute;
-    right: 4%;
-    top: 2%;
     text-shadow: 4px 9px 10px #000;
+    top: 4%;
+    right: 2%;    
 }
+
+
 
 /* ======================== EVENTS PAGE CSS ======  */
 
@@ -1867,34 +1892,34 @@ transform: rotate(-23deg);
 
 #mega{
     background-color: #C9C9C9;  
-    color: #3D3D3D;
+    color: #4B4B4B;
 }
 
 #cse{
    
-    color: #FFFFFF;
+    color: #2B2B2B;
     background-color: rgb(167, 167, 167);
 
 }
 
 #mech{
     background-color: rgb(138, 138, 138);
-    color: #186EB1;
+    color: #000000;
 }
 
 #ece{
     background-color: rgb(104, 104, 104);
-    color: #E05700;
+    color: #C4C4C4;
 }
 
 #arch{
     background-color: rgb(71, 71, 71);
-    color: #9B59B6;
+    color: #D5D5D5; 
 }
 
 #ibt{
     background-color: rgb(56, 56, 56);
-    color: #6fb118;
+    color: #E7E7E7;
 }
 
 /* ============================   */

@@ -206,7 +206,8 @@
         </section><!-- container_menu -->
 
 
-		<section class="page" id="container_about" data-stellar-background-ratio="0.8" >
+
+		<section class="page" id="container_about">
 
 			<div class="about_us" id="about">
 				<img src="img/1.jpg">
@@ -245,12 +246,13 @@
 				<img src="img/34.jpg">
 				
 				<div id="left_about">
-					<span>Effect of earth</span>
+					<div id="rocket" data-stellar-ratio="2.2" data-stellar-horizontal-offset="-100" data-stellar-vertical-offset="-700" ></div>
+					<div id="earth"  data-stellar-ratio="0.8" data-stellar-horizontal-offset="-150" data-stellar-vertical-offset="1500" ></div>
 				</div>
 
-				<div id="right_about" >
-					<div id="top" >
-					<p>
+				<div id="right_about" data-stellar-ratio="2.0" data-stellar-horizontal-offset="-440" data-stellar-vertical-offset="-720">
+					<div id="top"><p>
+
 					 Shri Mata Vaishno  Devi University, India’s  one of the  top ranking  technical university,
 					 proudly announces  the  embarkment of Titiksha 2013.
 					 SMVDU located  on the foothills of  holy shrine of Mata Vaishno  Devi  is
@@ -265,10 +267,10 @@
 					 nation to participate in this  fiesta. Different events  will be held by the different
 				     branches of the university for three  exuberant days.  Mechanical, Electronics and
 		     	     communication, Computer science , Biotechnology and Architectural events will
-				     emit their aura in this fest and this time TItiksha is going to be a huge  </br>
-				     success than ever.
-					</p> 
-					</div>
+
+				     emit their aura in this fest and this time TItiksha is going to be bigger than ever.
+					</p> </div>
+
 				</div>
 				
 				
@@ -283,27 +285,27 @@
 		<section class="page" id="contain_event">
 			<div id="event">
 				<div class="branch" id="mega">
-					<span>MEGA</span>
+					<span>MEGA Events</span>
 				</div>
 
 				<div class="branch" id="cse">
-					<span>Computer</span>
+					<span>Computer Events</span>
 				</div>
 				
 				<div class="branch" id="mech">
-					<span>Mechanical</span>
+					<span>Mechanical Events</span>
 				</div>
 				
 				<div class="branch" id="ece">
-					<span>Electronics</span>
+					<span>Electronics Events</span>
 				</div>
 
 				<div class="branch" id="arch">
-					<span>Architecture's</span>
+					<span>Architecture Events</span>
 				</div>
 
 				<div class="branch" id="ibt">
-					<span>Bio-Tech</span>
+					<span>Bio-Tech Events</span>
 				</div>	
 			</div>
 			
@@ -530,9 +532,11 @@
 				//preloader for images
 				var loader = new PxLoader();
 
-				for(var i= 1; i < 34; i++)
+				for(var i= 1; i < 35; i++)
 					loader.addImage("img/"+i+".jpg");
 				
+				for(var i = 1; i < 3; i++)
+					loader.addImage("img/"+i+".png");
 
 	        	loader.addCompletionListener(function() {
 	        		$("#progress , #loading").fadeOut();
