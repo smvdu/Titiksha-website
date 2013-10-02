@@ -432,7 +432,7 @@
 			<div class="contact">
 				<div id="cont0">
 					<div id="c7">
-						<pre>CONTACTS</pre>
+						CONTACTS
 					</div>
 				</div>
 
@@ -441,7 +441,7 @@
 					<div id="online">
 						<h3>Online Contacts</h3>
 						<a href="https://www.facebook.com/titiksha2k13" target="_blank" style="color: #092241; text-decoration: none;"><img src="img/fb_black.png">Facebook Page</a>
-						<pre>Or Drop us a mail on :</pre>
+						<p>Or Drop us a mail on :</p>
 						<i style="color: #2B3752">titiksha2k13@gmail.com</i>
 					</div>
 				</div>
@@ -449,17 +449,17 @@
 				<div class="assym_black" id="cont2">
 					<div id="chief">
 						<h4>Titiksha Coordinator</h4>
-						<pre>Dhananjay Singh</pre>
-						<pre>+91-9796405080</pre>
-						<pre style="color: #D6F8CE">djsanj99@gmail.com</pre>
+						<p class="name">Dhananjay Singh</p>
+						<p class="tel">+91-9796405080</p>
+						<p clas="mail" style="color: #D6F8CE">djsanj99@gmail.com</p>
 					</div>
 				</div>
 
 				<div class="assym_black" id="cont3">
 					<div id="web">
 						<h4>Web Development</h4>
-						<pre>* Sunny Gupta</pre>
-						<pre>+91-9086724946</pre>
+						<p class="name">* Sunny Gupta</p>
+						<p class="name">+91-9086724946</p>
 						<pre>* Rishabh Shukla</pre>
 						<pre>+91-9086250987</pre>
 
