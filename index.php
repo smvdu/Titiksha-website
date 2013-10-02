@@ -285,31 +285,63 @@
 		<section class="page" id="contain_event">
 			<div id="event">
 				<div class="branch" id="mega">
-					<span>MEGA Events</span>
+					<div class="event_heading">
+						<span class="heading_text">MEGA Events</span>
+					</div>
+					<div class="event_content" style="display:none;">
+						<p>djsddofsdlguidhgjkdh<p>
+					</div>
 				</div>
 
 				<div class="branch" id="cse">
-					<span>Computer Events</span>
+					<div class="event_heading">
+						<span class="heading_text">Computer</span>
+					</div>
+					<div class="event_content" style="display:none;">
+						<p>djsddofsdlguidhgjkdh<p>
+					</div>
 				</div>
 				
 				<div class="branch" id="mech">
-					<span>Mechanical Events</span>
+					<div class="event_heading">
+						<span class="heading_text">Mechanical</span>
+					</div>
+					<div class="event_content" style="display:none;">
+						<p>djsddofsdlguidhgjkdh<p>
+					</div>
 				</div>
 				
 				<div class="branch" id="ece">
-					<span>Electronics Events</span>
+					<div class="event_heading">
+						<span class="heading_text">Electronics</span>
+					</div>
+					<div class="event_content" style="display:none;">
+						<p>djsddofsdlguidhgjkdh<p>
+					</div>
 				</div>
 
 				<div class="branch" id="arch">
-					<span>Architecture Events</span>
+					<div class="event_heading">
+						<span class="heading_text">Architecture</span>
+					</div>
+					<div class="event_content" style="display:none;">
+						<p>djsddofsdlguidhgjkdh<p>
+					</div>
 				</div>
 
 				<div class="branch" id="ibt">
-					<span>Bio-Tech Events</span>
+					<div class="event_heading">
+						<span class="heading_text">Bio-Tech</span>
+					</div>
+					<div class="event_content" style="display:none;">
+						<p>djsddofsdlguidhgjkdh<p>
+					</div>
 				</div>	
 			</div>
 			
 		</section> <!-- events END -->
+
+
 
 		<!-- REGITRATION PAGE -->
 
@@ -428,14 +460,14 @@
 						<h4>Web Development</h4>
 						<pre>* Sunny Gupta</pre>
 						<pre>+91-9086724946</pre>
-						<pre style="color: #D6F8CE">sunnylautner4@gmail.com</pre>
 						<pre>* Rishabh Shukla</pre>
 						<pre>+91-9086250987</pre>
-						<pre style="color: #D6F8CE">rishy.s13@gmail.com</pre>
+
 						<pre>* Akshay Pratap Singh</pre>
-						<pre style="color: #D6F8CE">pratapakshay0@gmail.com</pre>
+						<pre>+91-9086260656</pre>
 						<pre>* Parth Pankaj Tiwary</pre>
-						<pre style="color: #D6F8CE">pankajparthtiwary@gmail.com</pre>
+						<pre>+91-9797521874</pre>
+						
 					</div>					
 				</div>
 
