@@ -1538,12 +1538,19 @@ margin-left: 42%;
     color: #EBE000;
 }
 
+.tel{
+    color: #16D2DA;
+}
+
+.mail{
+    color: #D6F8CE;
+}
 
 #cont0{
     position: absolute;
     margin: 0px;
-    left: -13%;
-    top: 26%;
+    left: -12.95%;
+    top: 26.2%;
     height: 50%;
     width: 30%;
     background-color:  #4D4D4D;
@@ -1557,7 +1564,7 @@ margin-left: 42%;
 
     color: #ccc;
     font-size: 2.5vw;
-    margin-top: 18%;
+    margin-top: 24%;
     margin-left: 44%;
     -webkit-filter: blur(0px);
     filter: blur(0px);
@@ -1601,7 +1608,7 @@ margin-left: 42%;
    position: absolute;
     margin: 0px;
     left: 20%;
-    top: -41%;
+    top: -42%;
     height: 60%;
     width: 40%;
     background-color:#5C5C5C;
@@ -1624,8 +1631,8 @@ margin-left: 42%;
 #cont3{
     position: absolute;
     margin: 0px;
-    left: 69%;
-    top: 14%;
+    left: 69.3%;
+    top: 14.5%;
     background-color: #474747;
     height: 82%;
     width: 70%;
@@ -1637,9 +1644,8 @@ margin-left: 42%;
 #web{
     line-height: 0.5;
     font-weight: normal;
-    
-    margin-top: 30%;
-    margin-left: -2%;
+    margin-top: 32%;
+    margin-left: 7%;
     padding: 10px;
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -1660,8 +1666,8 @@ margin-left: 42%;
 #tech{
     line-height: 0px;
     font-weight: normal;
-    margin-right: 27%;
-    margin-top: 19%;
+    margin-right: 31%;
+    margin-top: 22%;
     padding: 14px;
     -webkit-transform: rotate(144deg);
     transform: rotate(144deg);
@@ -1684,9 +1690,8 @@ margin-left: 42%;
 #design{
     line-height: 10px;
     font-weight: normal;
-    
-    margin-left: 14%;
-    margin-top: 14%;
+    margin-left: 16%;
+    margin-top: 11%;
     padding: 10px;
     -webkit-transform: rotate(-64deg);
     transform: rotate(-64deg);
@@ -1708,9 +1713,8 @@ transform: rotate(-23deg);
 #media{
     line-height: 5px;
     font-weight: normal;
-    
-    margin-left: 46%;
-    margin-top: 20%;
+    margin-left: 55%;
+    margin-top: 13%;
     padding: 10px;
     -webkit-transform: rotate(23deg);
     transform: rotate(23deg);
