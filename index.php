@@ -448,25 +448,25 @@
 
 				<div class="assym_black" id="cont2">
 					<div id="chief">
-						<h4>Titiksha Coordinator</h4>
+						<h4>Chief Student Coordinator</h4>
 						<p class="name">Dhananjay Singh</p>
 						<p class="tel">+91-9796405080</p>
-						<p clas="mail" style="color: #D6F8CE">djsanj99@gmail.com</p>
+						<p clas="mail" >djsanj99@gmail.com</p>
 					</div>
 				</div>
 
 				<div class="assym_black" id="cont3">
 					<div id="web">
-						<h4>Web Development</h4>
+						<h4>Web Development Team</h4>
 						<p class="name">* Sunny Gupta</p>
-						<p class="name">+91-9086724946</p>
-						<pre>* Rishabh Shukla</pre>
-						<pre>+91-9086250987</pre>
+						<p class="tel">+91-9086724946</p>
+						<p class="name">* Rishabh Shukla</p>
+						<p class="tel">+91-9086250987</p>
 
-						<pre>* Akshay Pratap Singh</pre>
-						<pre>+91-9086260656</pre>
-						<pre>* Parth Pankaj Tiwary</pre>
-						<pre>+91-9797521874</pre>
+						<p class="name">* Akshay Pratap Singh</p>
+						<p class="tel">+91-9086260656</p>
+						<p class="name">* Parth Pankaj Tiwary</p>
+						<p class="tel">+91-9797521874</p>
 						
 					</div>					
 				</div>
@@ -474,27 +474,27 @@
 				<div class="assym_black" id="cont4">
 					<div id="tech">
 						<h4>Event Coordinator</h4>
-						<pre>Rishabh Shukla</pre>
-						<pre>+91-9086250987</pre>
-						<pre style="color: #D6F8CE">rishy.s13@gmail.com</pre>
+						<p class="name">Rishabh Shukla</p>
+						<p class="tel">+91-9086250987</p>
+						<p class="mail" >rishy.s13@gmail.com</pre>
 					</div>					
 				</div>
 
 				<div class="assym_black" id="cont5">
 					<div id="design">
 						<h4>Designer</h4>
-						<pre>Akash Maurya</pre>
-						<pre>+91-9797602140</pre>
-						<pre style="color: #D6F8CE">maurya.aakash1@gmail.com</pre>
+						<p class="name">Akash Maurya</p>
+						<p class="tel">+91-9797602140</p>
+						<p class="mail" >maurya.aakash1@gmail.com</p>
 					</div>					
 				</div>
 
 				<div class="assym_black" id="cont6">
 					<div id="media">
 						<h4>Media & Publications</h4>
-						<pre>Megha Sharma</pre>
-						<pre>+91-9086118089</pre>
-						<pre style="color: #D6F8CE">meghas19@yahoo.co.in</pre>
+						<p class="name">Megha Sharma</p>
+						<p class="tel">+91-9086118089</p>
+						<p class="mail">meghas19@yahoo.co.in</p>
 					</div>
 				</div>
 
@@ -502,19 +502,19 @@
 					
 					<div id="faculty">
 						<h4>Chief Faculty</h4>
-						<pre>* Dr. Ankush Anand</pre>
-						<pre style="color: rgba(255, 255, 255, 0.9)">ankush.anand@smvdu.ac.in</pre><br/>
+						<p class="name">* Dr. Ankush Anand</p>
+						<p class="mail">ankush.anand@smvdu.ac.in</p>
 						<h4>Branch Faculty</h4>
-						<pre>- Mr. Irfan-ul-Haq</pre>
-						<pre style="color: rgba(255, 255, 255, 0.9)">haqmechanical@gmail.com</pre>
-						<pre>- Mr. Abhimanyu Sharma </pre>
-						<pre style="color: rgba(255, 255, 255, 0.9)">abhimanyu.sharma@smvdu.ac.in </pre>
-						<pre>- Mr. Sudesh Kumar</pre>
-						<pre style="color: rgba(255, 255, 255, 0.9)">sudesh.Bhadu@smvdu.ac.in  </pre>
-						<pre>- Mr. R.K. Jha</pre>
-						<pre style="color: rgba(255, 255, 255, 0.9)">rakesh.jha@smvdu.ac.in</pre>
-						<pre>- Dr. Swarkar Sharma</pre>
-						<pre style="color: rgba(255, 255, 255, 0.9)"></pre>
+						<p class="name">- Mr. Irfan-ul-Haq</p>
+						<p class="mail" >haqmechanical@gmail.com</p>
+						<p class="name">- Mr. Abhimanyu Sharma </p>
+						<p class="mail" >abhimanyu.sharma@smvdu.ac.in </p>
+						<p class="name">- Mr. Sudesh Kumar</p>
+						<p class="mail" >sudesh.Bhadu@smvdu.ac.in  </p>
+						<p class="name">- Mr. R.K. Jha</p>
+						<p class="mail" >rakesh.jha@smvdu.ac.in</p>
+						<p class="name">- Dr. Swarkar Sharma</p>
+						<p class="mail" ></p>
 						
 
 					</div>
@@ -522,10 +522,9 @@
 
 				<div class="assym_black" id="cont8">
 					<div id="discipline">
-						<h4></h4>
-						<pre>##########</pre>
-						<pre>+91-1217219823</pre>
-						<pre style="color: #D6F8CE">#####@gmail.com</pre>
+						<h4>Discipline</h4>
+						<p class="name">Sahil Khuslani</p>
+						<p class="tel">+91-9622356797</p>
 					</div>
 					
 				</div>
