@@ -352,25 +352,25 @@
 				<div id="reg_head">
 					<span>REGISTRATIONS</span`>
 				</div>	
-				<form id="reg_form" action=" " method=" ">
+				<form id="reg_form" action="" method="POST" autocomplete="off">
 					<table>
 						<tbody>
 							<tr>
 								<th>Name :</th>
 								<td>
-									<input name="name" type="text" size="30" maxlength="25" />
+									<input name="name" type="text" size="30" maxlength="35" autocomplete="off"/>
 								</td>
 							</tr>
 							<tr>
 								<th>Email :</th>
 								<td>
-									<input name="email" type="text" size="30" maxlength="25" />
+									<input name="email" type="text" size="30" maxlength="35" autocomplete="off"/>
 								</td>
 							</tr>
 							<tr>
 								<th>College :</th>
 								<td>
-									<input name="college" type="text" placeholder="Your College Name" size="40" maxlength="35" />
+									<input name="college" type="text" placeholder="Your College Name" size="40" maxlength="35" autocomplete="off"/>
 								</td>
 							</tr>
 							
@@ -387,26 +387,26 @@
 							<tr>
 								<th>Contact :</th>
 								<td>
-									<input name="contact" type="tel" size="14" placeholder="+91-9012345678" />
+									<input name="contact" type="tel" size="14" placeholder="+91-9012345678" autocomplete="off" />
 								</td>
 							</tr>
 							<tr>
 								<th>Gender :</th>
 								<td>
-									<input name="gender" type="radio" value="male" />Male </br>
-									<input name="gender" type="radio" value="female" />Female
+									<input name="gender" type="radio" value="male" /><label for="gender">Male</label> 
+									<input name="gender" type="radio" value="female" /><label for="gender">Female</label> 
 								</td>
 							</tr>
 							<tr>
 								<th>Password : </th>
 								<td>
-									<input name="password" type="password" />
+									<input name="password" type="password" autocomplete="off"/>
 								</td>
 							</tr>
 							<tr>
 								<th>Repeat Password : </th>
 								<td>
-									<input name="rep-password" type="password" />
+									<input name="rep-password" type="password" autocomplete="off"/>
 								</td>
 							</tr>
 

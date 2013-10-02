@@ -132,6 +132,7 @@ body {
 
 a {
     color: #f0f0f0;
+    cursor: pointer;
     text-decoration: none;
 }
 
@@ -1916,6 +1917,7 @@ transform: rotate(-23deg);
     top: -225px;
     position: relative;
 }
+
 .heading_text{
     
 }
@@ -1929,13 +1931,16 @@ transform: rotate(-23deg);
 
     
 }
+
+.expand, .squeeze{
+     -webkit-transition: all 500ms ease-in;
+    -moz-transition: all 500ms ease-in;
+    -o-transition: all 500ms ease-in;
+    -ms-transition: all 500ms ease-in;
+    transition: all 500ms ease-in;
+}
 .expand{
     width: 65%;
-    -webkit-transition: all 500ms ease;
-    -moz-transition: all 1000ms ease;
-    -o-transition: all 400ms ease;
-    -ms-transition: all 400ms ease;
-    transition: all 400ms ease;
 }
 
 .squeeze{
@@ -1991,7 +1996,7 @@ transform: rotate(-23deg);
 .register_form{
     font-size: 85%;
     width: 100%;
-    background-color: #000000;
+    background:#000 url('../img/cs-bg.jpg') repeat right top;
     font-family: "Oxygen";
     color: hsl(0, 15%, 19%);
     position: relative;
@@ -2030,6 +2035,17 @@ transform: rotate(-23deg);
     
 }
 
+input,select{
+    border: 1px solid #2F3133;
+    border-radius: 4px;
+    height: 95%;
+}
+input[name="gender"]{
+    margin-left: 15px;
+}
+label[for="gender"]{
+    margin-left: 10px;
+}
 #join{
     padding: 10px;
     position: relative;
