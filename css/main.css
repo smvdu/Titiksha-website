@@ -1878,12 +1878,12 @@ transform: rotate(-23deg);
 /* ======================== EVENTS PAGE CSS ======  */
 
 #event{
+    position: relative;
     font-size: 137%;
     width: 100%;
     background-color: #000000;
     font-family: "Oxygen";
-    color: hsl(0, 15%, 19%);
-    position: relative;
+    color: hsl(0, 15%, 19%); 
     margin: 0px;
     padding: 0px;
     min-height: 100%;
@@ -1901,15 +1901,20 @@ transform: rotate(-23deg);
 }
 
 .event_heading{
-
+    width: 100%;
+    height: 10%;
+    position: relative;
 }
 
 .current_heading{
-    width: 100%;
-    height: 10%;
-    top: -225px;
-    position: relative;
+    text-align: center;
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
 }
+
 .heading_text{
     
 }
@@ -1920,16 +1925,14 @@ transform: rotate(-23deg);
     text-align: center;
     margin: 22px;
     top: -240px;
-
-    
 }
 .expand{
     width: 65%;
     -webkit-transition: all 500ms ease;
-    -moz-transition: all 1000ms ease;
-    -o-transition: all 400ms ease;
-    -ms-transition: all 400ms ease;
-    transition: all 400ms ease;
+    -moz-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    transition: all 500ms ease;
 }
 
 .squeeze{
