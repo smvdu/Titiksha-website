@@ -343,7 +343,7 @@
 							<tr>
 								<th>Contact :</th>
 								<td>
-									<input name="contact" type="text" size="14" placeholder="+91-9012345678" />
+									<input name="contact" type="tel" size="14" placeholder="+91-9012345678" />
 								</td>
 							</tr>
 							<tr>
