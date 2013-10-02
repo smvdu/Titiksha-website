@@ -1909,6 +1909,7 @@ transform: rotate(-23deg);
     top: -225px;
     position: relative;
 }
+
 .heading_text{
     
 }
@@ -1922,13 +1923,16 @@ transform: rotate(-23deg);
 
     
 }
+
+.expand, .squeeze{
+     -webkit-transition: all 500ms ease-in;
+    -moz-transition: all 500ms ease-in;
+    -o-transition: all 500ms ease-in;
+    -ms-transition: all 500ms ease-in;
+    transition: all 500ms ease-in;
+}
 .expand{
     width: 65%;
-    -webkit-transition: all 500ms ease;
-    -moz-transition: all 1000ms ease;
-    -o-transition: all 400ms ease;
-    -ms-transition: all 400ms ease;
-    transition: all 400ms ease;
 }
 
 .squeeze{
