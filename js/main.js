@@ -18,3 +18,4 @@ $(document).ready(function(){
 		$('#event>div').not(this).addClass("squeeze");
 	})
 });
+

@@ -132,6 +132,7 @@ body {
 
 a {
     color: #f0f0f0;
+    cursor: pointer;
     text-decoration: none;
 }
 
@@ -1988,7 +1989,7 @@ transform: rotate(-23deg);
 .register_form{
     font-size: 85%;
     width: 100%;
-    background-color: #000000;
+    background:#000 url('../img/cs-bg.jpg') repeat right top;
     font-family: "Oxygen";
     color: hsl(0, 15%, 19%);
     position: relative;
@@ -2027,6 +2028,17 @@ transform: rotate(-23deg);
     
 }
 
+input,select{
+    border: 1px solid #2F3133;
+    border-radius: 4px;
+    height: 95%;
+}
+input[name="gender"]{
+    margin-left: 15px;
+}
+label[for="gender"]{
+    margin-left: 10px;
+}
 #join{
     padding: 10px;
     position: relative;
