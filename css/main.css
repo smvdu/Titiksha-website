@@ -1826,6 +1826,11 @@ transform: rotate(-23deg);
     position: absolute;
     top: 2%;
     left: 1%;
+    -webkit-filter: saturate(50%);
+    -moz-filter: saturate(50%);
+    -ms-filter: saturate(50%);
+    -o-filter: saturate(50%);
+    filter: saturate(50%);
     
 }
 
