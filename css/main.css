@@ -1901,14 +1901,14 @@ transform: rotate(-23deg);
 }
 
 .event_heading{
-
+    width: 100%;
+    height: 10%;
+    position: relative;
 }
 
 .current_heading{
-    width: 100%;
-    height: 10%;
-    top: -225px;
-    position: relative;
+    text-align: center;
+    
 }
 
 .heading_text{
@@ -1921,19 +1921,14 @@ transform: rotate(-23deg);
     text-align: center;
     margin: 22px;
     top: -240px;
-
-    
-}
-
-.expand, .squeeze{
-     -webkit-transition: all 500ms ease-in;
-    -moz-transition: all 500ms ease-in;
-    -o-transition: all 500ms ease-in;
-    -ms-transition: all 500ms ease-in;
-    transition: all 500ms ease-in;
 }
 .expand{
     width: 65%;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    transition: all 500ms ease;
 }
 
 .squeeze{
