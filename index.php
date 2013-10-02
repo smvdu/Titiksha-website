@@ -533,8 +533,12 @@
 			</div>
 		</section><!-- /container -->	
 
+		<!-- sponsers page === -->
+		
 		<section class="page" id="container_sponser">
-			<p>sponser page</p>
+			<div id="sponser_page">
+				
+			</div>
 		</section>	
 
 		
