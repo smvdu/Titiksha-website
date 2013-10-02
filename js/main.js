@@ -17,5 +17,7 @@ $(document).ready(function(){
 		$("."+thisClass[1]+">.event_content").css("display","block");
 		$('#event>div').not(this).addClass("squeeze");
 	})
+
+	
 });
 

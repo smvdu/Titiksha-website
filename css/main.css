@@ -2008,6 +2008,7 @@ transform: rotate(-23deg);
     line-height: 2;  
     overflow: hidden;
 }
+
 #form{
 
     color: hsl(166, 13%, 59%);
@@ -2059,10 +2060,143 @@ label[for="gender"]{
 
 /* ===============  Sponser's Page Css -======= */
 
-#sponser_page{
-    
+#sponsor_page{
+    z-index: 4;
+    font-size: 100%;
+    width: 100%;
+    background-image: url('../img/background.jpg');
+   
+    background-color: #e4e6e5 ;
+    font-family: "Oxygen";
+    color:#4e4e4e;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    min-height: 100%;
+    height: 100%;
+    line-height: 1; 
+    overflow: hidden; 
 }
 
+.sponsorListHolder{
+    font-size: 100%;
+    position: relative;
+    height: 100%;
+    width: 80%;
+    margin: 5% 10% 0% 16%;
+}
+#spon_head{
+    font-family: "Cyberverse";
+    text-align: center;
+margin-top: 3%;
+position: relative;
+font-size: 180%;
+
+}
+.thumb {
+    border-radius: 20px;
+    background-color: #CFD3BD;
+    display:block;
+    width:200px;
+    height:140px;
+    position:relative;
+    margin-bottom:20px;
+    margin-right:20px;
+    float:left;
+}
+.thumb-wrapper {
+    display:block;
+    width:100%;
+    height:100%;
+}
+.thumb img {
+    width:100%;
+    height:100%;
+    position:absolute;
+    display:block;            
+            
+}
+
+.thumb .thumb-detail {
+    display:block;
+    text-decoration: none;
+    padding: 5%;
+    width:100%;
+    height:100%;
+    position:absolute;            
+    border-radius: 20px;
+    background-color: #CFD3BD;
+    
+}
+        
+
+/*
+* Without CSS3
+*/
+.thumb.scroll {
+    overflow: hidden;
+}   
+
+    .thumb.scroll .thumb-detail {
+        bottom:-280px;
+    }
+
+
+/*
+* CSS3 Flip
+*/  
+.thumb.flip {
+    -webkit-perspective:800px;      
+       -moz-perspective:800px;
+        -ms-perspective:800px;              
+         -o-perspective:800px;
+            perspective:800px;
+}
+
+.thumb.flip .thumb-wrapper {
+    -webkit-transition: -webkit-transform 1s;
+       -moz-transition: -moz-transform 1s;
+        -ms-transition: -moz-transform 1s;
+         -o-transition: -moz-transform 1s;
+            transition: -moz-transform 1s;
+    -webkit-transform-style: preserve-3d;
+       -moz-transform-style: preserve-3d;           
+        -ms-transform-style: preserve-3d;           
+         -o-transform-style: preserve-3d;           
+              transform-style: preserve-3d;         
+}
+
+.thumb.flip .thumb-detail {
+    -webkit-transform: rotateY(-180deg);
+       -moz-transform: rotateY(-180deg);
+        -ms-transform: rotateY(-180deg);
+         -o-transform: rotateY(-180deg);
+            transform: rotateY(-180deg);                        
+}
+
+.thumb.flip img,
+.thumb.flip .thumb-detail {
+    -webkit-backface-visibility: hidden;
+       -moz-backface-visibility: hidden;
+        -ms-backface-visibility: hidden;
+         -o-backface-visibility: hidden;
+            backface-visibility: hidden;
+}
+
+.thumb.flip .flipIt {
+    -webkit-transform: rotateY(-180deg);
+       -moz-transform: rotateY(-180deg);            
+        -ms-transform: rotateY(-180deg);            
+         -o-transform: rotateY(-180deg);            
+            transform: rotateY(-180deg);            
+}
+/* The styles below are only necessary for the styling of the demo page: */
+
+a, a:visited {
+    color: #131038;
+    text-decoration:none;
+    outline:none;
+}
 
 
 
