@@ -206,7 +206,9 @@
         </section><!-- container_menu -->
 
 
+
 		<section class="page" id="container_about">
+
 			<div class="about_us" id="about">
 				<img src="img/1.jpg">
 				<img src="img/2.jpg">
@@ -250,11 +252,13 @@
 
 				<div id="right_about" data-stellar-ratio="2.0" data-stellar-horizontal-offset="-440" data-stellar-vertical-offset="-720">
 					<div id="top"><p>
+
 					 Shri Mata Vaishno  Devi University, India’s  one of the  top ranking  technical university,
 					 proudly announces  the  embarkment of Titiksha 2013.
 					 SMVDU located  on the foothills of  holy shrine of Mata Vaishno  Devi  is
 				     surrounded  by  the  nature’s  scenic  beauty  which enthralls  all the
 				     students and visitors. 
+				     </p>
 				     </div>
 		
 					<div id="bottom"><p> Titiksha, J&k’s largest annual  technical festival , this time is on it’s way to boggle
@@ -263,8 +267,10 @@
 					 nation to participate in this  fiesta. Different events  will be held by the different
 				     branches of the university for three  exuberant days.  Mechanical, Electronics and
 		     	     communication, Computer science , Biotechnology and Architectural events will
+
 				     emit their aura in this fest and this time TItiksha is going to be bigger than ever.
 					</p> </div>
+
 				</div>
 				
 				
@@ -279,31 +285,63 @@
 		<section class="page" id="contain_event">
 			<div id="event">
 				<div class="branch" id="mega">
-					<span>MEGA Events</span>
+					<div class="event_heading">
+						<span class="heading_text">MEGA Events</span>
+					</div>
+					<div class="event_content" style="display:none;">
+						<p>djsddofsdlguidhgjkdh<p>
+					</div>
 				</div>
 
 				<div class="branch" id="cse">
-					<span>Computer Events</span>
+					<div class="event_heading">
+						<span class="heading_text">Computer</span>
+					</div>
+					<div class="event_content" style="display:none;">
+						<p>djsddofsdlguidhgjkdh<p>
+					</div>
 				</div>
 				
 				<div class="branch" id="mech">
-					<span>Mechanical Events</span>
+					<div class="event_heading">
+						<span class="heading_text">Mechanical</span>
+					</div>
+					<div class="event_content" style="display:none;">
+						<p>djsddofsdlguidhgjkdh<p>
+					</div>
 				</div>
 				
 				<div class="branch" id="ece">
-					<span>Electronics Events</span>
+					<div class="event_heading">
+						<span class="heading_text">Electronics</span>
+					</div>
+					<div class="event_content" style="display:none;">
+						<p>djsddofsdlguidhgjkdh<p>
+					</div>
 				</div>
 
 				<div class="branch" id="arch">
-					<span>Architecture Events</span>
+					<div class="event_heading">
+						<span class="heading_text">Architecture</span>
+					</div>
+					<div class="event_content" style="display:none;">
+						<p>djsddofsdlguidhgjkdh<p>
+					</div>
 				</div>
 
 				<div class="branch" id="ibt">
-					<span>Bio-Tech Events</span>
+					<div class="event_heading">
+						<span class="heading_text">Bio-Tech</span>
+					</div>
+					<div class="event_content" style="display:none;">
+						<p>djsddofsdlguidhgjkdh<p>
+					</div>
 				</div>	
 			</div>
 			
 		</section> <!-- events END -->
+
+
 
 		<!-- REGITRATION PAGE -->
 
@@ -422,14 +460,14 @@
 						<h4>Web Development</h4>
 						<pre>* Sunny Gupta</pre>
 						<pre>+91-9086724946</pre>
-						<pre style="color: #D6F8CE">sunnylautner4@gmail.com</pre>
 						<pre>* Rishabh Shukla</pre>
 						<pre>+91-9086250987</pre>
-						<pre style="color: #D6F8CE">rishy.s13@gmail.com</pre>
+
 						<pre>* Akshay Pratap Singh</pre>
-						<pre style="color: #D6F8CE">pratapakshay0@gmail.com</pre>
+						<pre>+91-9086260656</pre>
 						<pre>* Parth Pankaj Tiwary</pre>
-						<pre style="color: #D6F8CE">pankajparthtiwary@gmail.com</pre>
+						<pre>+91-9797521874</pre>
+						
 					</div>					
 				</div>
 

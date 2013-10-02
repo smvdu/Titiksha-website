@@ -176,7 +176,10 @@ a:hover {
     display: none;
     height: 100%;
     width: 110%;
+    
+    transform: rotate(-14deg);
     -webkit-transform: rotate(-14deg);
+    -ms-transform: rotate(-14deg);
     margin-left: 17%;
 }
 
@@ -1851,6 +1854,7 @@ transform: rotate(-23deg);
 }
 
 #right_about{
+   
     text-align: center;
     word-spacing: 5px;
     color: #fff;
@@ -1880,14 +1884,49 @@ transform: rotate(-23deg);
     height: 115%;
     line-height: 1.2;   
 }
+
 .branch{
-     font-weight: bold;
-    padding-left: 2%;
+    text-align: center;
+    font-weight: bold;
     padding-top: 20%;
     height: 100%;
     float: left;
     width: 16.667%;
 }
+
+.event_heading{
+
+}
+
+.current_heading{
+    width: 100%;
+    height: 10%;
+    top: -225px;
+    position: relative;
+}
+.heading_text{
+    
+}
+.event_content{
+    position: relative;
+    width: 800px;
+    height: 545px;
+    border: 1px solid red;
+    background-color: #fff;
+    text-align: center;
+    margin: 22px;
+    top: -240px;
+    
+}
+.expand{
+    width: 65%;
+}
+
+.squeeze{
+    width: 7%;
+    font-size: 60%;
+}
+
 
 #mega{
     background-color: #C9C9C9;  
@@ -1898,7 +1937,6 @@ transform: rotate(-23deg);
    
     color: #2B2B2B;
     background-color: rgb(167, 167, 167);
-
 }
 
 #mech{
