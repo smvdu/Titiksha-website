@@ -176,7 +176,10 @@ a:hover {
     display: none;
     height: 100%;
     width: 110%;
+    
+    transform: rotate(-14deg);
     -webkit-transform: rotate(-14deg);
+    -ms-transform: rotate(-14deg);
     margin-left: 17%;
 }
 
