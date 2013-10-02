@@ -1515,6 +1515,7 @@ margin-left: 42%;
     display: none;
     top: 40px;
     position: relative;
+    transform: rotate(-14deg);
 
 }
 
@@ -1773,6 +1774,7 @@ transform: rotate(-23deg);
     
 }
 
+
 .about_us > img{
     width: 100% !important;
     height: auto !important;
@@ -1781,6 +1783,7 @@ transform: rotate(-23deg);
     -o-filter: opacity(75%) blur(1.5px) grayscale(90%) brightness(60%);
     -ms-filter: opacity(75%) blur(1.5px) grayscale(90%) brightness(60%);
      filter: opacity(75%) blur(1.5px) grayscale(90%) brightness(60%);
+     opacity: 0.75;
 }
 
 @media (max-width: 1200px) {
