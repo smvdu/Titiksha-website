@@ -131,7 +131,6 @@ body {
 }
 
 a {
-    color: #f0f0f0;
     cursor: pointer;
     text-decoration: none;
 }
@@ -429,11 +428,6 @@ a:hover {
     background-attachment: fixed;
 }
 
-a{
-    color: #040A16;
-    text-decoration: none;
-    opacity: 0.7;
-}
 .clr{
     clear: both;
 }
@@ -1532,13 +1526,16 @@ margin-left: 42%;
     line-height: 1;
     font-size: 1.4vw;
     font-family: "Oxygen";
-    color: hsla(175, 78%, 60%, 0.74);
     position: relative;
     margin: 0px;
     min-height: 100%;
     height: 100%;
     overflow: hidden;
     font-size: 80%;
+}
+
+.contact h4{
+    color: #EBE000;
 }
 
 
@@ -1549,7 +1546,7 @@ margin-left: 42%;
     top: 26%;
     height: 50%;
     width: 30%;
-    background-color: #727272;
+    background-color:  #4D4D4D;
     float: left;
     z-index: 6;
     -webkit-transform: rotate(30deg);
@@ -1558,7 +1555,7 @@ margin-left: 42%;
 
 #c7{
 
-    color: #000000;
+    color: #ccc;
     font-size: 2.5vw;
     margin-top: 18%;
     margin-left: 44%;
@@ -1571,19 +1568,24 @@ margin-left: 42%;
 
 
 #cont1{
-    color: hsl(0, 15%, 19%);
+    color: #6fb118;
     position: absolute;
     margin: 0px;
     left: -1%;
     top: -20%;
     height: 60%;
     width: 30%;
-    background-color: #A0A0A0;
+    background-color: #555555;
     float: left;
     z-index: 6;
     -webkit-transform: rotate(30deg);
     transform: rotate(30deg);
 }
+
+#cont1 a, #cont1 i{
+    color: #E6E6E6 !important;
+}
+
 #online{
     font-size: 1.8vw;
     font-family: "Oxygen", arial, sans-serif;
@@ -1602,7 +1604,7 @@ margin-left: 42%;
     top: -41%;
     height: 60%;
     width: 40%;
-    background-color:#7A7979;
+    background-color:#5C5C5C;
     float: left;
     z-index: 2;
     -webkit-transform: rotate(20deg);
@@ -1624,7 +1626,7 @@ margin-left: 42%;
     margin: 0px;
     left: 69%;
     top: 14%;
-    background-color: #413A3A;
+    background-color: #474747;
     height: 82%;
     width: 70%;
     float: left;
@@ -1694,7 +1696,7 @@ margin-left: 42%;
 bottom: -24%;
 right: 73%;
 margin: 0px;
-background-color:  #515152;
+background-color:  #5E5E5E;
 height: 60%;
 width: 40%;
 float: left;
@@ -1719,7 +1721,7 @@ transform: rotate(-23deg);
     bottom: 5%;
     right: 24%;
     margin: 0px;
-    background-color:#444444;
+    background-color:#777777;
     height: 90%;
     width: 66%;
     float: left;
@@ -1743,7 +1745,7 @@ transform: rotate(-23deg);
     bottom: -48%;
     right: 21%;
     margin: 0px;
-    background-color: #292525;
+    background-color: #535353;
     height: 60%;
     width: 74%;
     float: left;
