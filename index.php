@@ -111,7 +111,7 @@
         
 		<!-- added menu here -->
 
-		<section class="page" id="container_menu" data-stellar-background-ratio="0.8">
+		<section class="page" id="container_menu" data-slide="1" data-stellar-background-ratio="0.8">
             
 
 			<div id="bubble_area">
@@ -152,7 +152,7 @@
 
             <div class="content">
                 <ul class="ca-menu">
-                    <li> 
+                    <li data-slide="2"> 
                         <a href="#container_about">
                             <span class="ca-icon">T</span>
                             <div class="ca-content">
@@ -161,7 +161,7 @@
                             </div>
                         </a>
                     </li>
-                    <li>
+                    <li data-slide="3">
                         <a href="#contain_event">
                             <span class="ca-icon">D</span>
                             <div class="ca-content">
@@ -170,7 +170,7 @@
                             </div>
                         </a>
                     </li>
-                    <li>
+                    <li data-slide="">
                         <a href="#">
                             <span class="ca-icon" id="heart">P</span>
                             <div class="ca-content">
@@ -179,7 +179,7 @@
                             </div>
                         </a>
                     </li>
-                    <li>
+                    <li data-slide="4">
                         <a href="#register">
                             <span class="ca-icon">U</span>
                             <div class="ca-content">
@@ -188,7 +188,7 @@
                             </div>
                         </a>
                     </li>
-                    <li>
+                    <li data-slide="5">
                         <a href="#container_contact">
                             <span class="ca-icon">B</span>
                             <div class="ca-content">
@@ -207,7 +207,7 @@
 
 
 
-		<section class="page" id="container_about">
+		<section class="page" id="container_about" data-slide="2">
 
 			<div class="about_us" id="about">
 				<img src="img/1.jpg">
@@ -282,7 +282,7 @@
 		
 		<!-- Container Events -->
 
-		<section class="page" id="contain_event">
+		<section class="page" id="contain_event" data-slide="3">
 			<div id="event">
 				<div class="branch" id="mega">
 					<div class="event_heading">
@@ -345,12 +345,12 @@
 
 		<!-- REGITRATION PAGE -->
 
-		<section class="page" id="register">
+		<section class="page" id="register" data-slide="4">
 		<div class="register_form">
 			
 			<div id="form">
 				<div id="reg_head">
-					<span>REGISTRATIONS</span`>
+					<span>JOIN TITIKSHA</span`>
 				</div>	
 				<form id="reg_form" action="" method="POST" autocomplete="off">
 					<table>
@@ -427,7 +427,7 @@
 		
 		<!-- container Contact -->
 
-        <section class="page" id="container_contact" >	
+        <section class="page" id="container_contact" data-slide="5">	
 
 			<div class="contact">
 				<div id="cont0">
@@ -501,10 +501,10 @@
 				<div class="assym_black" id="cont7">
 					
 					<div id="faculty">
-						<h4>Chief Faculty</h4>
+						<h4>Chief Faculty Coordinator</h4>
 						<p class="name">* Dr. Ankush Anand</p>
-						<p class="mail">ankush.anand@smvdu.ac.in</p>
-						<h4>Branch Faculty</h4>
+						<p class="mail">ankush.anand@smvdu.ac.in</p><br/>
+						<h4>Branch Faculty Coordinators</h4>
 						<p class="name">- Mr. Irfan-ul-Haq</p>
 						<p class="mail" >haqmechanical@gmail.com</p>
 						<p class="name">- Mr. Abhimanyu Sharma </p>
@@ -532,7 +532,7 @@
 			</div>
 		</section><!-- /container -->	
 
-		<section class="page" id="container_sponser">
+		<section class="page" id="container_sponser" data-slide="6">
 			<p>sponser page</p>
 		</section>	
 
@@ -542,6 +542,7 @@
 		<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
         
         <script type="text/javascript" src="js/stellar.js" ></script>
+        <script type="text/javascript" src="js/waypoints.min.js"></script>
 		 <!-- JavaScript includes -->
         
         <script src="js/jquery.countdown.js"></script>
