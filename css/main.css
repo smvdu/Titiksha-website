@@ -1924,13 +1924,18 @@ transform: rotate(-23deg);
     margin: 22px;
     top: -240px;
 }
-.expand{
-    width: 65%;
-    -webkit-transition: all 500ms ease;
+
+.expand, .squeeze{
+     -webkit-transition: all 500ms ease;
     -moz-transition: all 500ms ease;
     -o-transition: all 500ms ease;
     -ms-transition: all 500ms ease;
     transition: all 500ms ease;
+}
+
+.expand{
+    width: 65%;
+   
 }
 
 .squeeze{
