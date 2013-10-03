@@ -173,12 +173,12 @@
                             </div>
                         </a>
                     </li>
-                    <li data-slide="">
-                        <a href="#">
+                    <li data-slide="6">
+                        <a href="#container_sponser">
                             <span class="ca-icon" id="heart">P</span>
                             <div class="ca-content">
-                                <h2 class="ca-main">Schedule</h2>
-                                <h3 class="ca-sub">Timings of Events</h3>
+                                <h2 class="ca-main">Sponsors</h2>
+                                <h3 class="ca-sub">Our Trusty Believer's</h3>
                             </div>
                         </a>
                     </li>
@@ -537,10 +537,10 @@
 
 		<!-- sponsers page === -->
 		
-		<section class="page" id="container_sponser">
+		<section class="page" id="container_sponser" data-slide="6">
 			<div id="sponsor_page">
 				<div id="spon_head">
-					<span>Our Previous Sponson</span>
+					<span>Our Previous Sponsor</span>
 				</div>				
 
 				<?php
