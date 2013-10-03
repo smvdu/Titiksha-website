@@ -12,7 +12,7 @@ $(document).ready(function(){
     function goToByScroll(dataslide) {
         htmlbody.animate({
             scrollTop: $('.page[data-slide="' + dataslide + '"]').offset().top
-        }, dataslide * 1300);
+        }, dataslide * 1000);
     }
 
 
