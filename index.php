@@ -349,7 +349,7 @@
 							<tr>
 								<th>Contact :</th>
 								<td>
-									<input name="contact" type="text" size="14" placeholder="+91-9012345678" />
+									<input name="contact" type="text" size="14" placeholder="" />
 								</td>
 							</tr>
 							<tr>
@@ -413,7 +413,6 @@
 						<h4>Titiksha Coordinator</h4>
 						<pre>Dhananjay Singh</pre>
 						<pre>+91-9796405080</pre>
-						<pre style="color: #D6F8CE">djsanj99@gmail.com</pre>
 					</div>
 				</div>
 
@@ -422,14 +421,12 @@
 						<h4>Web Development</h4>
 						<pre>* Sunny Gupta</pre>
 						<pre>+91-9086724946</pre>
-						<pre style="color: #D6F8CE">sunnylautner4@gmail.com</pre>
 						<pre>* Rishabh Shukla</pre>
 						<pre>+91-9086250987</pre>
-						<pre style="color: #D6F8CE">rishy.s13@gmail.com</pre>
 						<pre>* Akshay Pratap Singh</pre>
-						<pre style="color: #D6F8CE">pratapakshay0@gmail.com</pre>
+						<pre>+91-1234567890</pre>
 						<pre>* Parth Pankaj Tiwary</pre>
-						<pre style="color: #D6F8CE">pankajparthtiwary@gmail.com</pre>
+						<pre>+91-9797521874</pre>
 					</div>					
 				</div>
 
@@ -438,7 +435,6 @@
 						<h4>Event Coordinator</h4>
 						<pre>Rishabh Shukla</pre>
 						<pre>+91-9086250987</pre>
-						<pre style="color: #D6F8CE">rishy.s13@gmail.com</pre>
 					</div>					
 				</div>
 
@@ -447,7 +443,6 @@
 						<h4>Designer</h4>
 						<pre>Akash Maurya</pre>
 						<pre>+91-9797602140</pre>
-						<pre style="color: #D6F8CE">maurya.aakash1@gmail.com</pre>
 					</div>					
 				</div>
 
@@ -456,7 +451,6 @@
 						<h4>Media & Publications</h4>
 						<pre>Megha Sharma</pre>
 						<pre>+91-9086118089</pre>
-						<pre style="color: #D6F8CE">meghas19@yahoo.co.in</pre>
 					</div>
 				</div>
 
