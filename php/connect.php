@@ -1,9 +1,9 @@
 <?php
 	
 	$mysql_host = "localhost";
-	$mysql_user = "smvdunet_rishy13";
-	$mysql_password = "#rishy13**";
-	$mysql_database = "smvdunet_res2013";
+	$mysql_user = "smvdunet_titik13";
+	$mysql_password = "titiksh*2013";
+	$mysql_database = "smvdunet_titiksha2013";
 
 	/*$mysql_host = "localhost";
 	$mysql_user = "root";
