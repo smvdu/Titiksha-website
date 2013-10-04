@@ -1934,6 +1934,7 @@ transform: rotate(-23deg);
     text-align: center;
     margin: 22px;
     top: -240px;
+
 }
 
 .expand, .squeeze{
@@ -2423,18 +2424,19 @@ label[for="gender"]{
     position: relative;
     height: 100%;
     width: 80%;
-    margin: 5% 10% 0% 16%;
+    margin: 6% 10% 0% 16%;
 }
 #spon_head{
-    font-family: "Cyberverse";
+    font-family: "Ubuntu-L";
     text-align: center;
 margin-top: 3%;
 position: relative;
-font-size: 180%;
+font-size: 4vw;
+font-weight: bold;
 
 }
 .thumb {
-    border-radius: 20px;
+    border-radius: 4px;
     background-color: #CFD3BD;
     display:block;
     width:200px;
@@ -2464,7 +2466,7 @@ font-size: 180%;
     width:100%;
     height:100%;
     position:absolute;            
-    border-radius: 20px;
+    border-radius: 4px;
     background-color: #CFD3BD;
     
 }

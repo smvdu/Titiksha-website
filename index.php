@@ -413,7 +413,63 @@
 		</section> <!-- events END -->
 
 		
+		<!-- sponsers page === -->
+		
+		<section class="page" id="container_sponser" data-slide="6">
+			<div id="sponsor_page">
+				<div id="spon_head">
+					<span>Our Previous Sponsors</span>
+				</div>				
 
+				<?php
+
+// Each sponsor is an element of the $sponsors array:
+
+
+$sponsors = array(
+	array('qou','The Biggest Qouttion and Answer Forum.','http://www.quora.com/'),
+	array('adobe','The leading software developer targeted at web designers and developers.','http://www.adobe.com/'),
+	array('microsoft','One of the top software companies of the world.','http://www.microsoft.com/'),
+	array('sony','A global multibillion electronics and entertainment company ','http://www.sony.com/'),
+	array('dell','One of the biggest computer developers and assemblers.','http://www.dell.com/'),
+	array('ubuntu','Free Operating System.','http://www.ubuntu.com/'),
+	array('mysql','The most popular open source database engine.','http://www.mysql.com/'),
+	array('hp','One of the biggest computer manufacturers.','http://www.hp.com/'),
+);
+
+?>
+
+					<div class="sponsorListHolder">
+
+						
+				        <?php
+							
+							// Looping through the array:
+							
+						foreach($sponsors as $company)
+						{
+							echo'
+							<div class="thumb scroll">
+								<div class="thumb-wrapper">
+									<img src="img/sponsors/'.$company[0].'.png" alt="More about '.$company[0].'" />
+								</div>
+								
+								<div class="thumb-detail">
+										<a href="'.$company[2].'">'.$company[1].'</a>
+								</div>
+							</div>
+							
+							';
+						}
+						
+						?>
+
+				       
+				    </div>
+
+				</div>
+
+		</section>	
 		<!-- REGITRATION PAGE -->
 
 		<section class="page" id="register" data-slide="4">
@@ -603,67 +659,7 @@
 			</div>
 		</section><!-- /container -->	
 
-		<!-- sponsers page === -->
 		
-		<section class="page" id="container_sponser" data-slide="6">
-			<div id="sponsor_page">
-				<div id="spon_head">
-					<span>Our Previous Sponsor</span>
-				</div>				
-
-				<?php
-
-// Each sponsor is an element of the $sponsors array:
-
-
-$sponsors = array(
-	array('qou','The Biggest Qouttion and Answer Forum.','http://www.quora.com/'),
-	array('adobe','The leading software developer targeted at web designers and developers.','http://www.adobe.com/'),
-	array('microsoft','One of the top software companies of the world.','http://www.microsoft.com/'),
-	array('sony','A global multibillion electronics and entertainment company ','http://www.sony.com/'),
-	array('dell','One of the biggest computer developers and assemblers.','http://www.dell.com/'),
-	array('ubuntu','Free Operating System.','http://www.ubuntu.com/'),
-	array('mysql','The most popular open source database engine.','http://www.mysql.com/'),
-	array('hp','One of the biggest computer manufacturers.','http://www.hp.com/'),
-	array('yahoo','The most popular network of social media portals and services.','http://www.yahoo.com/'),
-	array('cisco','The biggest networking and communications technology manufacturer.','http://www.cisco.com/'),
-	array('vimeo','A popular video-centric social networking site.','http://www.vimeo.com/'),
-	array('canon','Imaging and optical technology manufacturer.','http://www.canon.com/')
-);
-
-?>
-
-					<div class="sponsorListHolder">
-
-						
-				        <?php
-							
-							// Looping through the array:
-							
-						foreach($sponsors as $company)
-						{
-							echo'
-							<div class="thumb scroll">
-								<div class="thumb-wrapper">
-									<img src="img/sponsors/'.$company[0].'.png" alt="More about '.$company[0].'" />
-								</div>
-								
-								<div class="thumb-detail">
-										<a href="'.$company[2].'">'.$company[1].'</a>
-								</div>
-							</div>
-							
-							';
-						}
-						
-						?>
-
-				       
-				    </div>
-
-				</div>
-
-		</section>	
 
 		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
