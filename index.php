@@ -815,21 +815,22 @@ $sponsors = array(
 							<tr>
 								<th>Name :</th>
 								<td>
-									<span><img src="img/icomoon/user.png" /></span><input name="name" type="text" size="30" maxlength="35" autocomplete="off"/>
+									<span><img src="img/icomoon/user.png" /></span><input name="name" type="text" size="30" maxlength="35" autocomplete="off" placeholder="Full Name"/>
 								</td>
 							</tr>
 							<tr>
 								<th>Email :</th>
 								<td>
-									<input name="email" type="text" size="30" maxlength="35" onchange="checkEmail()" autocomplete="off"/>
+
+									<span><img src="img/icomoon/mail.png" /></span><input name="email" type="email" size="30" maxlength="35" onchange="checkEmail()" autocomplete="off" placeholder="Email Address"/>
 									<div class="email warning"></div>
-									<span><img src="img/icomoon/mail.png" /></span><input name="email" type="email" size="30" maxlength="35" autocomplete="off"/>
+									
 								</td>
 							</tr>
 							<tr>
 								<th>College :</th>
 								<td>
-									<span><img src="img/icomoon/briefcase.png" /></span><input name="college" type="text" placeholder="Your College Name" size="40" maxlength="35" autocomplete="off"/>
+									<span><img src="img/icomoon/briefcase.png" /></span><input name="college" type="text" size="40" maxlength="35" autocomplete="off" placeholder="University/College"/>
 								</td>
 							</tr>
 							
@@ -848,7 +849,7 @@ $sponsors = array(
 							<tr>
 								<th>Contact :</th>
 								<td>
-									<span><img src="img/icomoon/phone.png" /></span><input name="contact" type="tel" size="14" placeholder="+91-9012345678" autocomplete="off" />
+									<span><img src="img/icomoon/phone.png" /></span><input name="contact" type="tel" size="14" placeholder="+91-**********" autocomplete="off" />
 								</td>
 							</tr>
 							<tr>
@@ -861,13 +862,13 @@ $sponsors = array(
 							<tr>
 								<th>Password : </th>
 								<td>
-									<span><img src="img/icomoon/key.png" /></span><input name="password" type="password" autocomplete="off"/>
+									<span><img src="img/icomoon/key.png" /></span><input name="password" type="password" autocomplete="off" placeholder="Desired Password"/>
 								</td>
 							</tr>
 							<tr>
 								<th>Repeat Password : </th>
 								<td>
-									<span><img src="img/icomoon/key2.png" /></span><input name="rep-password" type="password" autocomplete="off"/>
+									<span><img src="img/icomoon/key2.png" /></span><input name="rep-password" type="password" autocomplete="off" placeholder="Re-enter Password"/>
 								</td>
 							</tr>
 
