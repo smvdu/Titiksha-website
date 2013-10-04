@@ -12,7 +12,7 @@ $(document).ready(function(){
     function goToByScroll(dataslide) {
         htmlbody.animate({
             scrollTop: $('.page[data-slide="' + dataslide + '"]').offset().top
-        }, dataslide * 1000);
+        }, dataslide * 700);
     }
 
 
@@ -51,7 +51,7 @@ $(document).ready(function(){
 		$("."+thisClass[1]+">.event_heading").removeClass("expand").css("top","-230px",function(){
 			$("."+thisClass[1]+">.event_heading").addClass("current_heading");
 		});
-		$("."+thisClass[1]+">.event_content").fadeIn(3000).css("display","block");
+		$("."+thisClass[1]+">.event_content").css("display","block");
 		
 		
 	});
