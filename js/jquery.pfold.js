@@ -333,8 +333,8 @@
 			}
 
 			return {
-				width : this.initialDim.width * Math.pow( 2, horizTimes ),
-				height : this.initialDim.height * Math.pow( 2, vertTimes )
+				width : this.initialDim.width * Math.pow( 3, horizTimes ),
+				height : this.initialDim.height * Math.pow( 3, vertTimes )
 			};
 
 		},
