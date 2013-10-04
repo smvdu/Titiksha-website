@@ -361,25 +361,27 @@
 							<tr>
 								<th>Name :</th>
 								<td>
-									<input name="name" type="text" size="30" maxlength="35" autocomplete="off"/>
+									<span><img src="img/icomoon/user.png" /></span><input name="name" type="text" size="30" maxlength="35" autocomplete="off"/>
 								</td>
 							</tr>
 							<tr>
 								<th>Email :</th>
 								<td>
-									<input name="email" type="text" size="30" maxlength="35" autocomplete="off"/>
+									<span><img src="img/icomoon/mail.png" /></span><input name="email" type="email" size="30" maxlength="35" autocomplete="off"/>
 								</td>
 							</tr>
 							<tr>
 								<th>College :</th>
 								<td>
-									<input name="college" type="text" placeholder="Your College Name" size="40" maxlength="35" autocomplete="off"/>
+									<span><img src="img/icomoon/briefcase.png" /></span><input name="college" type="text" placeholder="Your College Name" size="40" maxlength="35" autocomplete="off"/>
 								</td>
 							</tr>
 							
 							<tr>
 								<th>Year of Study : </th>
-								<td><select name="year">
+								<td>
+									<span><img src="img/icomoon/bars2.png" /></span>
+									<select name="year">
 									<option selected="selected" name="1st" value="1st year">1st year</option>
 									<option name="2nd" value="2nd year">2nd year</option>
 									<option name="3rd" value="3rd year">3rd year</option>
@@ -390,26 +392,26 @@
 							<tr>
 								<th>Contact :</th>
 								<td>
-									<input name="contact" type="tel" size="14" placeholder="+91-9012345678" autocomplete="off" />
+									<span><img src="img/icomoon/phone.png" /></span><input name="contact" type="tel" size="14" placeholder="+91-9012345678" autocomplete="off" />
 								</td>
 							</tr>
 							<tr>
 								<th>Gender :</th>
 								<td>
-									<input name="gender" type="radio" value="male" /><label for="gender">Male</label> 
+									<span><img src="img/icomoon/users.png" /></span><input name="gender" type="radio" value="male" /><label for="gender">Male</label> 
 									<input name="gender" type="radio" value="female" /><label for="gender">Female</label> 
 								</td>
 							</tr>
 							<tr>
 								<th>Password : </th>
 								<td>
-									<input name="password" type="password" autocomplete="off"/>
+									<span><img src="img/icomoon/key.png" /></span><input name="password" type="password" autocomplete="off"/>
 								</td>
 							</tr>
 							<tr>
 								<th>Repeat Password : </th>
 								<td>
-									<input name="rep-password" type="password" autocomplete="off"/>
+									<span><img src="img/icomoon/key2.png" /></span><input name="rep-password" type="password" autocomplete="off"/>
 								</td>
 							</tr>
 
@@ -540,7 +542,7 @@
 		<section class="page" id="container_sponser" data-slide="6">
 			<div id="sponsor_page">
 				<div id="spon_head">
-					<span>Our Previous Sponsor</span>
+					<span>Our Previous Sponsors</span>
 				</div>				
 
 				<?php
@@ -556,11 +558,7 @@ $sponsors = array(
 	array('dell','One of the biggest computer developers and assemblers.','http://www.dell.com/'),
 	array('ubuntu','Free Operating System.','http://www.ubuntu.com/'),
 	array('mysql','The most popular open source database engine.','http://www.mysql.com/'),
-	array('hp','One of the biggest computer manufacturers.','http://www.hp.com/'),
-	array('yahoo','The most popular network of social media portals and services.','http://www.yahoo.com/'),
-	array('cisco','The biggest networking and communications technology manufacturer.','http://www.cisco.com/'),
-	array('vimeo','A popular video-centric social networking site.','http://www.vimeo.com/'),
-	array('canon','Imaging and optical technology manufacturer.','http://www.canon.com/')
+	array('hp','One of the biggest computer manufacturers.','http://www.hp.com/')
 );
 
 ?>

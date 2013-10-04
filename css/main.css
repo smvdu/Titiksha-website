@@ -1725,7 +1725,7 @@ transform: rotate(-23deg);
     bottom: 5%;
     right: 24%;
     margin: 0px;
-    background-color:#777777;
+    background-color:#7E7E7E;
     height: 90%;
     width: 66%;
     float: left;
@@ -2035,17 +2035,47 @@ transform: rotate(-23deg);
 #reg_form{
     line-height: 2.4;
     margin-left: 10%;
-    width: 60%;
+    width: 413px;
     padding: 10px;
-    background: rgba(38, 44, 46, 0.27);
-    
+    background: rgba(128, 128, 128, 0.27);
+    margin: 0 auto;
 }
 
-input,select{
-    border: 1px solid #2F3133;
-    border-radius: 4px;
-    height: 95%;
+#reg_form tr{
+    height: 50px;
 }
+
+#reg_form th{
+    display: none;
+}
+
+#reg_form  input{
+    border: 0px;
+    height: 40px;
+    width: 350px;
+}
+
+#reg_form input[type="radio"]
+{
+    width: 5%;
+}
+
+#reg_form span{
+    float: left;
+    height: 40px;
+    width: 40px;
+    margin-top: 1px;
+    background-color: #E9E9E9;
+    margin-right: 2px solid #ccc;
+}
+
+#reg_form span img{
+    height: 60%;
+    width: 60%;
+    margin: 8px auto;
+    display: block;
+}
+
 input[name="gender"]{
     margin-left: 15px;
 }
