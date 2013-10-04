@@ -2002,7 +2002,7 @@ transform: rotate(-23deg);
 .uc-initial-content,
 .uc-back,
 .uc-front {
-    background: #fff;
+    background:rgb(0,51,51);
 }
 
 .uc-final,
@@ -2182,16 +2182,21 @@ transform: rotate(-23deg);
     z-index: 9999;
 }
 
+@import url(http://fonts.googleapis.com/css?family=Satisfy|Open+Sans+Condensed:700,300);
+
 /* paper css */
 @font-face {
-
+  font-family: 'entypo-selected';
+  src: url("../font/entypo-selected.eot");
+  src: url("../font/entypo-selected.eot?#iefix") format('embedded-opentype'), url("../font/entypo-selected.woff") format('woff'), url("../font/entypo-selected.ttf") format('truetype'), url("../font/entypo-selected.svg#entypo-selected") format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 [class^="icon-"]:before,
 [class*=" icon-"]:before {
-  
+    font-family: 'entypo-selected';
+
   font-style: normal;
   font-weight: normal;
   speak: none;
@@ -2227,7 +2232,6 @@ transform: rotate(-23deg);
 .demo-2 .uc-initial-content,
 .demo-2 .uc-back,
 .demo-2 .uc-front {
-  
   }
 
 .demo-2 .icon-eye {
