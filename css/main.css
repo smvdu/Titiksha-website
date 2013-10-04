@@ -102,13 +102,35 @@ textarea {
     font-family: "Oxygen";
     src: url("../font/Oxygen.otf") ;
 }
+
 @font-face {
     font-family: "Ubuntu-L";
     src: url("../font/Ubuntu-L.ttf") ;
 }
+
 @font-face {
-    font-family: "Cyberverse";
-    src: url("../font/Cyberverse.ttf") ;
+    font-family: "Aliens";
+    src: url("../font/aliens.ttf") ;
+}
+
+@font-face {
+    font-family: "Capture it";
+    src: url("../font/capture it.ttf") ;
+}
+
+@font-face {
+    font-family: "Superhero";
+    src: url("../font/superhero.ttf") ;
+}   
+
+@font-face {
+    font-family: "Zerohour";
+    src: url("../font/zerohour.ttf") ;
+}
+
+@font-face {
+    font-family: "Jupiter";
+    src: url("../font/jupiter.ttf") ;
 }
 
 
@@ -447,11 +469,12 @@ a:hover {
 
 /* Header Style */
 .header{
-   font-family: "Cyberverse";
+   font-family: "Ubuntu-L";
     text-align: center;
     position: fixed;
     width: 100%;
     font-size: 3vw;
+    letter-spacing: 5px;
     
 }
 
@@ -483,7 +506,7 @@ a:hover {
 }
 
 #h-text p{
-    font-size: 5vw;
+    font-size: 6vw;
     margin: 0;
     text-shadow: 2px 2px 2px #000;
     color: #242424;
@@ -2402,7 +2425,7 @@ transform: rotate(-23deg);
     float: left;
     height: 40px;
     width: 40px;
-    margin-top: 1px;
+    margin-top: 2px;
     background-color: #E9E9E9;
     margin-right: 2px solid #ccc;
 }
