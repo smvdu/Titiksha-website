@@ -822,10 +822,9 @@ $sponsors = array(
 								<th>Email :</th>
 								<td>
 
-									<input name="email" type="text" size="30" maxlength="35" onchange="checkEmail()" autocomplete="off"/>
+									<span><img src="img/icomoon/mail.png" /></span><input name="email" type="email" size="30" maxlength="35" onchange="checkEmail()" autocomplete="off" placeholder="Email Address"/>
 									<div class="email warning"></div>
-									<span><img src="img/icomoon/mail.png" /></span><input name="email" type="email" size="30" maxlength="35" autocomplete="off"/>
-
+									
 								</td>
 							</tr>
 							<tr>
