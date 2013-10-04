@@ -45,13 +45,9 @@
         <script type="text/javascript" src="js/sponsor.js"></script>
         <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>	
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-<<<<<<< HEAD
         <script src="js/functions.js"></script>
-=======
         <script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
->>>>>>> 9a733e87b8de4511cb1e2895f90d4f49ff265da6
-        
-		
+        	
 	</head>
 	<body>
 	<!--[if lt IE 7]>
@@ -260,7 +256,6 @@
 
 				<div id="right_about" data-stellar-ratio="2.0" data-stellar-horizontal-offset="-440" data-stellar-vertical-offset="-720">
 					<div id="top"><p>
-
 					 Shri Mata Vaishno  Devi University, India’s  one of the  top ranking  technical university,
 					 proudly announces  the  embarkment of Titiksha 2013.
 					 SMVDU located  on the foothills of  holy shrine of Mata Vaishno  Devi  is
@@ -827,12 +822,9 @@ $sponsors = array(
 							<tr>
 								<th>Email :</th>
 								<td>
-<<<<<<< HEAD
 									<input name="email" type="text" size="30" maxlength="35" onchange="checkEmail()" autocomplete="off"/>
 									<div class="email warning"></div>
-=======
 									<span><img src="img/icomoon/mail.png" /></span><input name="email" type="email" size="30" maxlength="35" autocomplete="off"/>
->>>>>>> 9a733e87b8de4511cb1e2895f90d4f49ff265da6
 								</td>
 							</tr>
 							<tr>
