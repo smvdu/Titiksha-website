@@ -45,6 +45,7 @@
         <script type="text/javascript" src="js/sponsor.js"></script>
         <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>	
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
         
 		
 	</head>
@@ -291,10 +292,77 @@
 					<div class="event_heading">
 						<span class="heading_text">MEGA Events</span>
 					</div>
+
 					<div class="event_content" style="display:none;">
-						<p>djsddofsdlguidhgjkdh<p>
-					</div>
+						<section class="main demo-2">
+						
+						<div id="grid" class="grid clearfix">
+						
+							<div class="uc-container">
+								<div class="uc-initial-content">
+									<span class="icon-eye">mega one</span>
+								</div>
+								<div class="uc-final-content">
+									<p>sfajkshfaslkgsaflgsjf;gjasjflg;sfjgjsf;gas
+									sglsjfgjas;fjgals;fjg;lsflgs;fljgsf</p>
+									<div class="title"><h4>The Professor</h4> by Dan Matutina <a href="http://drbl.in/dMLS" class="icon-link"></a></div>
+									<span class="icon-cancel"></span>
+								</div>
+							</div><!-- / uc-container -->
+
+							<div class="uc-container">
+								<div class="uc-initial-content">
+									<img src="images/thumbs/2.jpg" alt="image02" />
+									<span class="icon-eye"></span>
+								</div>
+								<div class="uc-final-content">
+									<img src="images/large/2.jpg" alt="image02-large" />
+									<div class="title"><h4>Planet</h4> by Dan Matutina <a href="http://drbl.in/eZoL" class="icon-link"></a></div>
+									<span class="icon-cancel"></span>
+								</div>
+							</div><!-- / uc-container -->
+
+							<div class="uc-container">
+								<div class="uc-initial-content">
+									<img src="images/thumbs/3.jpg" alt="image03" />
+									<span class="icon-eye"></span>
+								</div>
+								<div class="uc-final-content">
+									<img src="images/large/3.jpg" alt="image03-large" />
+									<div class="title"><h4>Angry Nerd Blofeld</h4> by Dan Matutina <a href="http://drbl.in/eLEa" class="icon-link"></a></div>
+									<span class="icon-cancel"></span>
+								</div>
+							</div><!-- / uc-container -->
+
+							<div class="uc-container">
+								<div class="uc-initial-content">
+									<img src="images/thumbs/4.jpg" alt="image04" />
+									<span class="icon-eye"></span>
+								</div>
+								<div class="uc-final-content">
+									<img src="images/large/4.jpg" alt="image04-large" />
+									<div class="title"><h4>Ero Senin</h4> by Dan Matutina <a href="http://drbl.in/dJfK" class="icon-link"></a></div>
+									<span class="icon-cancel"></span>
+								</div>
+							</div><!-- / uc-container -->
+
+							<div class="uc-container">
+								<div class="uc-initial-content">
+									<img src="images/thumbs/4.jpg" alt="image04" />
+									<span class="icon-eye"></span>
+								</div>
+								<div class="uc-final-content">
+									<img src="images/large/4.jpg" alt="image04-large" />
+									<div class="title"><h4>Ero Senin</h4> by Dan Matutina <a href="http://drbl.in/dJfK" class="icon-link"></a></div>
+									<span class="icon-cancel"></span>
+								</div>
+							</div><!-- / uc-container -->
+
+						</div><!-- / grid -->
+						
+					</section>
 				</div>
+			</div>
 
 				<div class="branch" id="cse">
 					<div class="event_heading">
@@ -344,8 +412,64 @@
 			
 		</section> <!-- events END -->
 
+		
+		<!-- sponsers page === -->
+		
+		<section class="page" id="container_sponser" data-slide="6">
+			<div id="sponsor_page">
+				<div id="spon_head">
+					<span>Our Previous Sponsors</span>
+				</div>				
+
+				<?php
+
+// Each sponsor is an element of the $sponsors array:
 
 
+$sponsors = array(
+	array('qou','The Biggest Qouttion and Answer Forum.','http://www.quora.com/'),
+	array('adobe','The leading software developer targeted at web designers and developers.','http://www.adobe.com/'),
+	array('microsoft','One of the top software companies of the world.','http://www.microsoft.com/'),
+	array('sony','A global multibillion electronics and entertainment company ','http://www.sony.com/'),
+	array('dell','One of the biggest computer developers and assemblers.','http://www.dell.com/'),
+	array('ubuntu','Free Operating System.','http://www.ubuntu.com/'),
+	array('mysql','The most popular open source database engine.','http://www.mysql.com/'),
+	array('hp','One of the biggest computer manufacturers.','http://www.hp.com/'),
+);
+
+?>
+
+					<div class="sponsorListHolder">
+
+						
+				        <?php
+							
+							// Looping through the array:
+							
+						foreach($sponsors as $company)
+						{
+							echo'
+							<div class="thumb scroll">
+								<div class="thumb-wrapper">
+									<img src="img/sponsors/'.$company[0].'.png" alt="More about '.$company[0].'" />
+								</div>
+								
+								<div class="thumb-detail">
+										<a href="'.$company[2].'">'.$company[1].'</a>
+								</div>
+							</div>
+							
+							';
+						}
+						
+						?>
+
+				       
+				    </div>
+
+				</div>
+
+		</section>	
 		<!-- REGITRATION PAGE -->
 
 		<section class="page" id="register" data-slide="4">
@@ -535,67 +659,7 @@
 			</div>
 		</section><!-- /container -->	
 
-		<!-- sponsers page === -->
 		
-		<section class="page" id="container_sponser" data-slide="6">
-			<div id="sponsor_page">
-				<div id="spon_head">
-					<span>Our Previous Sponsor</span>
-				</div>				
-
-				<?php
-
-// Each sponsor is an element of the $sponsors array:
-
-
-$sponsors = array(
-	array('qou','The Biggest Qouttion and Answer Forum.','http://www.quora.com/'),
-	array('adobe','The leading software developer targeted at web designers and developers.','http://www.adobe.com/'),
-	array('microsoft','One of the top software companies of the world.','http://www.microsoft.com/'),
-	array('sony','A global multibillion electronics and entertainment company ','http://www.sony.com/'),
-	array('dell','One of the biggest computer developers and assemblers.','http://www.dell.com/'),
-	array('ubuntu','Free Operating System.','http://www.ubuntu.com/'),
-	array('mysql','The most popular open source database engine.','http://www.mysql.com/'),
-	array('hp','One of the biggest computer manufacturers.','http://www.hp.com/'),
-	array('yahoo','The most popular network of social media portals and services.','http://www.yahoo.com/'),
-	array('cisco','The biggest networking and communications technology manufacturer.','http://www.cisco.com/'),
-	array('vimeo','A popular video-centric social networking site.','http://www.vimeo.com/'),
-	array('canon','Imaging and optical technology manufacturer.','http://www.canon.com/')
-);
-
-?>
-
-					<div class="sponsorListHolder">
-
-						
-				        <?php
-							
-							// Looping through the array:
-							
-						foreach($sponsors as $company)
-						{
-							echo'
-							<div class="thumb scroll">
-								<div class="thumb-wrapper">
-									<img src="img/sponsors/'.$company[0].'.png" alt="More about '.$company[0].'" />
-								</div>
-								
-								<div class="thumb-detail">
-										<a href="'.$company[2].'">'.$company[1].'</a>
-								</div>
-							</div>
-							
-							';
-						}
-						
-						?>
-
-				       
-				    </div>
-
-				</div>
-
-		</section>	
 
 		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
@@ -670,8 +734,52 @@ $sponsors = array(
 				});
 
 	        });
+
+			$(function() {
+
+				// say we want to have only one item opened at one moment
+				var opened = false;
+
+				$( '#grid > div.uc-container' ).each( function( i ) {
+
+					var $item = $( this ), direction;
+
+					switch( i ) {
+						case 0 : direction = ['right','bottom']; break;
+						case 1 : direction = ['left','bottom']; break;
+						case 2 : direction = ['right','top']; break;
+						case 3 : direction = ['left','top']; break;
+						case 4 : direction = ['left','bottom']; break;
+					
+					}
+					
+					var pfold = $item.pfold( {
+						folddirection : direction,
+						speed : 300,
+						onEndFolding : function() { opened = false; },
+					} );
+
+					$item.find( 'span.icon-eye' ).on( 'click', function() {
+
+						if( !opened ) {
+							opened = true;
+							pfold.unfold();
+						}
+
+
+					} ).end().find( 'span.icon-cancel' ).on( 'click', function() {
+
+						pfold.fold();
+
+					} );
+
+				} );
+				
+			});
 		</script>
 
+		<script type="text/javascript" src="js/jquery.pfold.js"></script>
+		
 		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
             var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
