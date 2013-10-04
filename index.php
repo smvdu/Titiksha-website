@@ -45,6 +45,7 @@
         <script type="text/javascript" src="js/sponsor.js"></script>
         <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>	
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="js/functions.js"></script>
         
 		
 	</head>
@@ -355,7 +356,9 @@
 				<div id="reg_head">
 					<span>JOIN TITIKSHA</span`>
 				</div>	
-				<form id="reg_form" action="" method="POST" autocomplete="off">
+				<div class="warning"></div>
+				<div class="confirmMessage"></div>
+				<form id="reg_form" name="reg_form" action="" method="post" onsubmit="return validateForm()"  autocomplete="off">
 					<table>
 						<tbody>
 							<tr>
@@ -367,7 +370,8 @@
 							<tr>
 								<th>Email :</th>
 								<td>
-									<input name="email" type="text" size="30" maxlength="35" autocomplete="off"/>
+									<input name="email" type="text" size="30" maxlength="35" onchange="checkEmail()" autocomplete="off"/>
+									<div class="email warning"></div>
 								</td>
 							</tr>
 							<tr>
@@ -420,7 +424,7 @@
 				</form>
 
 				<div id="join">
-					<button>Join Titiksha</button>
+					<button id="submit_form">Join Titiksha</button>
 				</div>
 		    </div>	
 		</div>
