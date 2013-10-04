@@ -2184,16 +2184,14 @@ transform: rotate(-23deg);
 
 /* paper css */
 @font-face {
-  font-family: 'entypo-selected';
-  src: url("../font/entypo-selected.eot");
-  src: url("../font/entypo-selected.eot?#iefix") format('embedded-opentype'), url("../font/entypo-selected.woff") format('woff'), url("../font/entypo-selected.ttf") format('truetype'), url("../font/entypo-selected.svg#entypo-selected") format('svg');
+
   font-weight: normal;
   font-style: normal;
 }
 
 [class^="icon-"]:before,
 [class*=" icon-"]:before {
-  font-family: 'entypo-selected';
+  
   font-style: normal;
   font-weight: normal;
   speak: none;
@@ -2229,8 +2227,8 @@ transform: rotate(-23deg);
 .demo-2 .uc-initial-content,
 .demo-2 .uc-back,
 .demo-2 .uc-front {
-    background: #29a6aa url(../images/noise.png) repeat top left;
-}
+  
+  }
 
 .demo-2 .icon-eye {
     position: absolute;
