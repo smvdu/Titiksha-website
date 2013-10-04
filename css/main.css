@@ -2414,6 +2414,8 @@ transform: rotate(-23deg);
     border: 0px;
     height: 40px;
     width: 350px;
+    text-indent: 20px;
+    font-family: "Ubuntu-L";
 }
 
 #reg_form input[type="radio"]
@@ -2425,9 +2427,7 @@ transform: rotate(-23deg);
     float: left;
     height: 40px;
     width: 40px;
-    margin-top: 2px;
     background-color: #E9E9E9;
-    margin-right: 2px solid #ccc;
 }
 
 #reg_form span img{
@@ -2435,6 +2435,11 @@ transform: rotate(-23deg);
     width: 60%;
     margin: 8px auto;
     display: block;
+    -webkit-filter: opacity(70%);
+    -moz-filter: opacity(70%);
+    -o-filter: opacity(70%);
+    -ms-filter: opacity(70%);
+     filter: opacity(70%);
 }
 
 input[name="gender"]{
