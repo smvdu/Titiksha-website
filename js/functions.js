@@ -23,4 +23,16 @@ if (!xmlhttp && typeof XMLHttpRequest != 'undefined') {
 }
 
 
-function 
+function  checkEmail(){
+	var x=document.forms["reg_form"]["email"].value;
+	var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/; 
+	if( !(x.match(mailformat)) )
+    {
+   		$('.email').html("Not a valid e-mail address");
+    	return false;
+    }
+}
+
+function validateForm(){
+
+}

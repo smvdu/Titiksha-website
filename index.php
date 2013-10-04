@@ -45,7 +45,11 @@
         <script type="text/javascript" src="js/sponsor.js"></script>
         <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>	
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+<<<<<<< HEAD
+        <script src="js/functions.js"></script>
+=======
         <script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
+>>>>>>> 9a733e87b8de4511cb1e2895f90d4f49ff265da6
         
 		
 	</head>
@@ -809,7 +813,9 @@ $sponsors = array(
 				<div id="reg_head">
 					<span>JOIN TITIKSHA</span`>
 				</div>	
-				<form id="reg_form" action="" method="POST" autocomplete="off">
+				<div class="warning"></div>
+				<div class="confirmMessage"></div>
+				<form id="reg_form" name="reg_form" action="" method="post" onsubmit="return validateForm()"  autocomplete="off">
 					<table>
 						<tbody>
 							<tr>
@@ -821,7 +827,12 @@ $sponsors = array(
 							<tr>
 								<th>Email :</th>
 								<td>
+<<<<<<< HEAD
+									<input name="email" type="text" size="30" maxlength="35" onchange="checkEmail()" autocomplete="off"/>
+									<div class="email warning"></div>
+=======
 									<span><img src="img/icomoon/mail.png" /></span><input name="email" type="email" size="30" maxlength="35" autocomplete="off"/>
+>>>>>>> 9a733e87b8de4511cb1e2895f90d4f49ff265da6
 								</td>
 							</tr>
 							<tr>
@@ -876,7 +887,7 @@ $sponsors = array(
 				</form>
 
 				<div id="join">
-					<button>Join Titiksha</button>
+					<button id="submit_form">Join Titiksha</button>
 				</div>
 		    </div>	
 		</div>
