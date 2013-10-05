@@ -849,7 +849,9 @@ $sponsors = array(
 							<tr>
 								<th>Contact :</th>
 								<td>
+
 									<span><img src="img/icomoon/phone.png" /></span><input name="contact" type="tel" size="14" placeholder="+91-**********" autocomplete="off" />
+
 								</td>
 							</tr>
 							<tr>
@@ -910,15 +912,18 @@ $sponsors = array(
 
 				<div class="assym_black" id="cont2">
 					<div id="chief">
+
 						<h4>Chief Student Coordinator</h4>
 						<p class="name">Dhananjay Singh</p>
 						<p class="tel">+91-9796405080</p>
 						<p clas="mail" >djsanj99@gmail.com</p>
+
 					</div>
 				</div>
 
 				<div class="assym_black" id="cont3">
 					<div id="web">
+
 						<h4>Web Development Team</h4>
 						<p class="name">* Sunny Gupta</p>
 						<p class="tel">+91-9086724946</p>
@@ -930,33 +935,40 @@ $sponsors = array(
 						<p class="name">* Parth Pankaj Tiwary</p>
 						<p class="tel">+91-9797521874</p>
 						
+
 					</div>					
 				</div>
 
 				<div class="assym_black" id="cont4">
 					<div id="tech">
 						<h4>Event Coordinator</h4>
+
 						<p class="name">Rishabh Shukla</p>
 						<p class="tel">+91-9086250987</p>
 						<p class="mail" >rishy.s13@gmail.com</pre>
+
 					</div>					
 				</div>
 
 				<div class="assym_black" id="cont5">
 					<div id="design">
 						<h4>Designer</h4>
+
 						<p class="name">Akash Maurya</p>
 						<p class="tel">+91-9797602140</p>
 						<p class="mail" >maurya.aakash1@gmail.com</p>
+
 					</div>					
 				</div>
 
 				<div class="assym_black" id="cont6">
 					<div id="media">
 						<h4>Media & Publications</h4>
+
 						<p class="name">Megha Sharma</p>
 						<p class="tel">+91-9086118089</p>
 						<p class="mail">meghas19@yahoo.co.in</p>
+
 					</div>
 				</div>
 
