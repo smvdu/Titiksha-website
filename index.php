@@ -819,6 +819,20 @@ $sponsors = array(
 				       
 				    </div>
 
+				    <div id="spon_cord">
+				    	<h3>Sponsorship Co-ordinator</h3>
+				    	<div id="co_left">
+					    	<p>Navjot Sasan</p>
+					    	<p>*********@gmail.com</p>
+					    	<span style="color: #000;">+91-1413245252</span>
+				    	</div>
+				    	<div id="co_right">
+					    	<p>Gaurav Singh</p>
+					    	<p>abc#gmail.com</p>
+					    	<span style="color: #000;">+91-9796-446317</span>
+				    	</div>
+				    </div>
+
 				</div>
 
 		</section>	
@@ -906,6 +920,16 @@ $sponsors = array(
 
 				<div id="join">
 					<button id="submit_form">Join Titiksha</button>
+				</div>
+				<div id="reg_query">
+					<span>For any queries : Contact</span>
+					<h4>Megha Sharma</h4>
+					<p>+91-9086-118089</p>
+					<p>meghas19@yahoo.co.in</p><br>
+
+					<h4>Sahil Khuslani</h4>
+					<p>+91-9622-356797</p>
+					<p>***********@gmail.com</p>
 				</div>
 		    </div>	
 		</div>
