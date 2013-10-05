@@ -299,7 +299,7 @@
 						
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-1">
-									<span class="icon-eye">Event one</span>
+									<span class="icon-eye">All IZZ NOT WELL</span>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-1">
 									<div class="md-content">
@@ -307,13 +307,24 @@
 											<button class="md-register register">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
-										<h3>Tech Roadies</h3>
+										<h3>All Izz NOT Well</h3>
 										<div>
-											<p>This is a modal window. You can do the following things with it:</p>
+											<p>The  event  aims  to  gather diverse perspectives from participants around
+											the  country  regarding  the  problems  being  faced  in  their  states  and  to
+											come  up  to  solutions  to  these  problems  through  a  rigorous  mutual
+											discussion  among the representatives of different 28 states. "All izz not
+											well" will be held in two rounds. </p>
+											<p><em>ROUND 1­</em> : A short essay is given to all the participated candidates.
+											(Topic ­ define at­least five problems of your state with their
+											feasible solutions if u are the chief minister of your state).
+											</p>
+											<p><em>ROUND 2</em> :­Candidates  qualified  in round 1 are eligible to present their
+											state’  problems  with  feasible  solutions  in  front  of  the  jury,  which  will
+											decide the winner.</p>
+											
 											<ul>
-												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
-												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
-												<li><strong>Close:</strong> click on the button below to close the modal.</li>
+												<li><strong>Event Co-ordinator :</strong> Alpha Beta</li>
+												<li><strong>Contact :</strong> +91-1251354713</li>
 											</ul>
 											
 										</div>
