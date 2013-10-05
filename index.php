@@ -298,12 +298,16 @@
 						<div id="grid">
 						
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-11">
-									<span class="icon-eye">mega one</span>
+								<div class="md-trigger" data-modal="modal-1">
+									<span class="icon-eye">Event one</span>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-11">
+								<div class="md-modal md-effect-11" id="modal-1">
 									<div class="md-content">
-										<h3>Modal Dialog</h3>
+										<div class="md-header">
+											<button class="md-register register">Register</button>
+											<button class="md-close close">Close!</button>
+										</div>
+										<h3>Tech Roadies</h3>
 										<div>
 											<p>This is a modal window. You can do the following things with it:</p>
 											<ul>
@@ -311,19 +315,23 @@
 												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
 												<li><strong>Close:</strong> click on the button below to close the modal.</li>
 											</ul>
-											<button class="md-close">Close me!</button>
+											
 										</div>
 									</div>
 								</div>
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
-														<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-11">
-									<span class="icon-eye">mega one</span>
+							<div class="uc-container">
+								<div class="md-trigger" data-modal="modal-2">
+									<span class="icon-eye">second Events</span>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-11">
+								<div class="md-modal md-effect-11" id="modal-2">
 									<div class="md-content">
-										<h3>Modal Dialog</h3>
+										<div class="md-header">
+											<button class="md-register register">Register</button>
+											<button class="md-close close">Close!</button>
+										</div>
+										<h3>second events</h3>
 										<div>
 											<p>This is a modal window. You can do the following things with it:</p>
 											<ul>
@@ -331,7 +339,103 @@
 												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
 												<li><strong>Close:</strong> click on the button below to close the modal.</li>
 											</ul>
-											<button class="md-close">Close me!</button>
+											
+										</div>
+									</div>
+								</div>
+								<div class="md-overlay"></div><!-- the overlay element -->
+							</div><!-- / uc-container -->
+							<div class="uc-container">
+								<div class="md-trigger" data-modal="modal-3">
+									<span class="icon-eye">Third Events</span>
+								</div>
+								<div class="md-modal md-effect-11" id="modal-3">
+									<div class="md-content">
+										<div class="md-header">
+											<button class="md-register register">Register</button>
+											<button class="md-close close">Close!</button>
+										</div>
+										<h3>second events</h3>
+										<div>
+											<p>This is a modal window. You can do the following things with it:</p>
+											<ul>
+												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+												<li><strong>Close:</strong> click on the button below to close the modal.</li>
+											</ul>
+											
+										</div>
+									</div>
+								</div>
+								<div class="md-overlay"></div><!-- the overlay element -->
+							</div><!-- / uc-container -->
+							<div class="uc-container">
+								<div class="md-trigger" data-modal="modal-4">
+									<span class="icon-eye">Fourth Events</span>
+								</div>
+								<div class="md-modal md-effect-11" id="modal-4">
+									<div class="md-content">
+										<div class="md-header">
+											<button class="md-register register">Register</button>
+											<button class="md-close close">Close!</button>
+										</div>
+										<h3>second events</h3>
+										<div>
+											<p>This is a modal window. You can do the following things with it:</p>
+											<ul>
+												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+												<li><strong>Close:</strong> click on the button below to close the modal.</li>
+											</ul>
+											
+										</div>
+									</div>
+								</div>
+								<div class="md-overlay"></div><!-- the overlay element -->
+							</div><!-- / uc-container -->
+							<div class="uc-container">
+								<div class="md-trigger" data-modal="modal-5">
+									<span class="icon-eye">Fifth Events</span>
+								</div>
+								<div class="md-modal md-effect-11" id="modal-5">
+									<div class="md-content">
+										<div class="md-header">
+											<button class="md-register register">Register</button>
+											<button class="md-close close">Close!</button>
+										</div>
+										<h3>second events</h3>
+										<div>
+											<p>This is a modal window. You can do the following things with it:</p>
+											<ul>
+												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+												<li><strong>Close:</strong> click on the button below to close the modal.</li>
+											</ul>
+											
+										</div>
+									</div>
+								</div>
+								<div class="md-overlay"></div><!-- the overlay element -->
+							</div><!-- / uc-container -->
+							<div class="uc-container">
+								<div class="md-trigger" data-modal="modal-6">
+									<span class="icon-eye">sixth Events</span>
+								</div>
+								<div class="md-modal md-effect-11" id="modal-6">
+									<div class="md-content">
+										<div class="md-header">
+											<button class="md-register register">Register</button>
+											<button class="md-close close">Close!</button>
+										</div>
+										<h3>second events</h3>
+										<div>
+											<p>This is a modal window. You can do the following things with it:</p>
+											<ul>
+												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+												<li><strong>heuya:</strong> click on the button below to close the modal.</li>
+											</ul>
+											
 										</div>
 									</div>
 								</div>
@@ -341,93 +445,163 @@
 							
 						</div><!-- / grid -->
 						
+					</div>
 				</div>
-			</div>
 
 				<div class="branch" id="cse">
 					<div class="event_heading">
 						<span class="heading_text">Computer</span>
 					</div>
 					<div class="event_content" style="display:none;">
-						<section class="main demo-2">
-						
-						<div id="grid" class="grid clearfix">
+						<div id="grid">
 						
 							<div class="uc-container">
-								<div class="uc-initial-content">
-									<span class="icon-eye">mega one</span>
+								<div class="md-trigger" data-modal="modal-7">
+									<span class="icon-eye">Event one</span>
 								</div>
-								<div class="uc-final-content">
-									<p>This event is Really exciting and Fun. Participate and Grab bunch of Prizes</p>
-									<div class="title"><h4>The Professor</h4> by Dan Matutina <a href="http://drbl.in/dMLS" class="icon-link"></a></div>
-									<span class="icon-cancel"></span>
+								<div class="md-modal md-effect-11" id="modal-7">
+									<div class="md-content">
+										<div class="md-header">
+											<button class="md-register register">Register</button>
+											<button class="md-close close">Close!</button>
+										</div>
+										<h3>Tech Roadies</h3>
+										<div>
+											<p>This is a modal window. You can do the following things with it:</p>
+											<ul>
+												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+												<li><strong>Close:</strong> click on the button below to close the modal.</li>
+											</ul>
+											
+										</div>
+									</div>
 								</div>
+								<div class="md-overlay"></div><!-- the overlay element -->
+							</div><!-- / uc-container -->
+							<div class="uc-container">
+								<div class="md-trigger" data-modal="modal-8">
+									<span class="icon-eye">second Events</span>
+								</div>
+								<div class="md-modal md-effect-11" id="modal-8">
+									<div class="md-content">
+										<div class="md-header">
+											<button class="md-register register">Register</button>
+											<button class="md-close close">Close!</button>
+										</div>
+										<h3>second events</h3>
+										<div>
+											<p>This is a modal window. You can do the following things with it:</p>
+											<ul>
+												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+												<li><strong>Close:</strong> click on the button below to close the modal.</li>
+											</ul>
+											
+										</div>
+									</div>
+								</div>
+								<div class="md-overlay"></div><!-- the overlay element -->
+							</div><!-- / uc-container -->
+							<div class="uc-container">
+								<div class="md-trigger" data-modal="modal-9">
+									<span class="icon-eye">Third Events</span>
+								</div>
+								<div class="md-modal md-effect-11" id="modal-9">
+									<div class="md-content">
+										<div class="md-header">
+											<button class="md-register register">Register</button>
+											<button class="md-close close">Close!</button>
+										</div>
+										<h3>second events</h3>
+										<div>
+											<p>This is a modal window. You can do the following things with it:</p>
+											<ul>
+												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+												<li><strong>Close:</strong> click on the button below to close the modal.</li>
+											</ul>
+											
+										</div>
+									</div>
+								</div>
+								<div class="md-overlay"></div><!-- the overlay element -->
+							</div><!-- / uc-container -->
+							<div class="uc-container">
+								<div class="md-trigger" data-modal="modal-10">
+									<span class="icon-eye">Fourth Events</span>
+								</div>
+								<div class="md-modal md-effect-11" id="modal-10">
+									<div class="md-content">
+										<div class="md-header">
+											<button class="md-register register">Register</button>
+											<button class="md-close close">Close!</button>
+										</div>
+										<h3>second events</h3>
+										<div>
+											<p>This is a modal window. You can do the following things with it:</p>
+											<ul>
+												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+												<li><strong>Close:</strong> click on the button below to close the modal.</li>
+											</ul>
+											
+										</div>
+									</div>
+								</div>
+								<div class="md-overlay"></div><!-- the overlay element -->
+							</div><!-- / uc-container -->
+							<div class="uc-container">
+								<div class="md-trigger" data-modal="modal-11">
+									<span class="icon-eye">Fifth Events</span>
+								</div>
+								<div class="md-modal md-effect-11" id="modal-11">
+									<div class="md-content">
+										<div class="md-header">
+											<button class="md-register register">Register</button>
+											<button class="md-close close">Close!</button>
+										</div>
+										<h3>second events</h3>
+										<div>
+											<p>This is a modal window. You can do the following things with it:</p>
+											<ul>
+												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+												<li><strong>Close:</strong> click on the button below to close the modal.</li>
+											</ul>
+											
+										</div>
+									</div>
+								</div>
+								<div class="md-overlay"></div><!-- the overlay element -->
+							</div><!-- / uc-container -->
+							<div class="uc-container">
+								<div class="md-trigger" data-modal="modal-12">
+									<span class="icon-eye">sixth Events</span>
+								</div>
+								<div class="md-modal md-effect-11" id="modal-12">
+									<div class="md-content">
+										<div class="md-header">
+											<button class="md-register register">Register</button>
+											<button class="md-close close">Close!</button>
+										</div>
+										<h3>second events</h3>
+										<div>
+											<p>This is a modal window. You can do the following things with it:</p>
+											<ul>
+												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+												<li><strong>heuya:</strong> click on the button below to close the modal.</li>
+											</ul>
+											
+										</div>
+									</div>
+								</div>
+								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
 							
-							<div class="uc-container">
-								<div class="uc-initial-content">
-									<span class="icon-eye">mega one</span>
-								</div>
-								<div class="uc-final-content">
-									<p>This event is Really exciting and Fun. Participate and Grab bunch of Prizes</p>
-									<div class="title"><h4>The Professor</h4> by Dan Matutina <a href="http://drbl.in/dMLS" class="icon-link"></a></div>
-									<span class="icon-cancel"></span>
-								</div>
-							</div><!-- / uc-container -->
-
-							<div class="uc-container">
-								<div class="uc-initial-content">
-									<span class="icon-eye">mega one</span>
-								</div>
-								<div class="uc-final-content">
-									<p>This event is Really exciting and Fun. Participate and Grab bunch of Prizes</p>
-									<div class="title"><h4>The Professor</h4> by Dan Matutina <a href="http://drbl.in/dMLS" class="icon-link"></a></div>
-									<span class="icon-cancel"></span>
-								</div>
-							</div><!-- / uc-container -->
-
-							<div class="uc-container">
-								<div class="uc-initial-content">
-									<img src="" alt="image02" />
-									<span class="icon-eye"></span>
-								</div>
-								<div class="uc-final-content">
-									<img src="" alt="image02-large" />
-									<div class="title"><h4>Planet</h4> by Dan Matutina <a href="http://drbl.in/eZoL" class="icon-link"></a></div>
-									<span class="icon-cancel"></span>
-								</div>
-							</div><!-- / uc-container -->
-
 							
-
-							<div class="uc-container">
-								<div class="uc-initial-content">
-									<img src="" alt="image04" />
-									<span class="icon-eye"></span>
-								</div>
-								<div class="uc-final-content">
-									<img src="" alt="image04-large" />
-									<div class="title"><h4>Ero Senin</h4> by Dan Matutina <a href="http://drbl.in/dJfK" class="icon-link"></a></div>
-									<span class="icon-cancel"></span>
-								</div>
-							</div><!-- / uc-container -->
-
-							<div class="uc-container">
-								<div class="uc-initial-content">
-									<img src="" alt="image04" />
-									<span class="icon-eye"></span>
-								</div>
-								<div class="uc-final-content">
-									<img src="" alt="image04-large" />
-									<div class="title"><h4>Ero Senin</h4> by Dan Matutina <a href="http://drbl.in/dJfK" class="icon-link"></a></div>
-									<span class="icon-cancel"></span>
-								</div>
-							</div><!-- / uc-container -->
-
-
 						</div><!-- / grid -->
-						
-					</section>
 					</div>
 				</div>
 				
@@ -436,73 +610,155 @@
 						<span class="heading_text">Mechanical</span>
 					</div>
 					<div class="event_content" style="display:none;">
-						<section class="main demo-2">
-						
-						<div id="grid" class="grid clearfix">
+						<div id="grid">
 						
 							<div class="uc-container">
-								<div class="uc-initial-content">
-									<span class="icon-eye">mega one</span>
+								<div class="md-trigger" data-modal="modal-13">
+									<span class="icon-eye">Event one</span>
 								</div>
-								<div class="uc-final-content">
-									<p>sfajkshfaslkgsaflgsjf;gjasjflg;sfjgjsf;gas
-									sglsjfgjas;fjgals;fjg;lsflgs;fljgsf</p>
-									<div class="title"><h4>The Professor</h4> by Dan Matutina <a href="http://drbl.in/dMLS" class="icon-link"></a></div>
-									<span class="icon-cancel"></span>
+								<div class="md-modal md-effect-11" id="modal-13">
+									<div class="md-content">
+										<div class="md-header">
+											<button class="md-register register">Register</button>
+											<button class="md-close close">Close!</button>
+										</div>
+										<h3>Tech Roadies</h3>
+										<div>
+											<p>This is a modal window. You can do the following things with it:</p>
+											<ul>
+												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+												<li><strong>Close:</strong> click on the button below to close the modal.</li>
+											</ul>
+											
+										</div>
+									</div>
 								</div>
+								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
-
 							<div class="uc-container">
-								<div class="uc-initial-content">
-									<img src="" alt="image02" />
-									<span class="icon-eye"></span>
+								<div class="md-trigger" data-modal="modal-14">
+									<span class="icon-eye">second Events</span>
 								</div>
-								<div class="uc-final-content">
-									<img src="" alt="image02-large" />
-									<div class="title"><h4>Planet</h4> by Dan Matutina <a href="http://drbl.in/eZoL" class="icon-link"></a></div>
-									<span class="icon-cancel"></span>
+								<div class="md-modal md-effect-11" id="modal-14">
+									<div class="md-content">
+										<div class="md-header">
+											<button class="md-register register">Register</button>
+											<button class="md-close close">Close!</button>
+										</div>
+										<h3>second events</h3>
+										<div>
+											<p>This is a modal window. You can do the following things with it:</p>
+											<ul>
+												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+												<li><strong>Close:</strong> click on the button below to close the modal.</li>
+											</ul>
+											
+										</div>
+									</div>
 								</div>
+								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
-
 							<div class="uc-container">
-								<div class="uc-initial-content">
-									<img src="" alt="image03" />
-									<span class="icon-eye"></span>
+								<div class="md-trigger" data-modal="modal-15">
+									<span class="icon-eye">Third Events</span>
 								</div>
-								<div class="uc-final-content">
-									<img src="" alt="image03-large" />
-									<div class="title"><h4>Angry Nerd Blofeld</h4> by Dan Matutina <a href="http://drbl.in/eLEa" class="icon-link"></a></div>
-									<span class="icon-cancel"></span>
+								<div class="md-modal md-effect-11" id="modal-15">
+									<div class="md-content">
+										<div class="md-header">
+											<button class="md-register register">Register</button>
+											<button class="md-close close">Close!</button>
+										</div>
+										<h3>second events</h3>
+										<div>
+											<p>This is a modal window. You can do the following things with it:</p>
+											<ul>
+												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+												<li><strong>Close:</strong> click on the button below to close the modal.</li>
+											</ul>
+											
+										</div>
+									</div>
 								</div>
+								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
-
 							<div class="uc-container">
-								<div class="uc-initial-content">
-									<img src="" alt="image04" />
-									<span class="icon-eye"></span>
+								<div class="md-trigger" data-modal="modal-16">
+									<span class="icon-eye">Fourth Events</span>
 								</div>
-								<div class="uc-final-content">
-									<img src="" alt="image04-large" />
-									<div class="title"><h4>Ero Senin</h4> by Dan Matutina <a href="http://drbl.in/dJfK" class="icon-link"></a></div>
-									<span class="icon-cancel"></span>
+								<div class="md-modal md-effect-11" id="modal-16">
+									<div class="md-content">
+										<div class="md-header">
+											<button class="md-register register">Register</button>
+											<button class="md-close close">Close!</button>
+										</div>
+										<h3>second events</h3>
+										<div>
+											<p>This is a modal window. You can do the following things with it:</p>
+											<ul>
+												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+												<li><strong>Close:</strong> click on the button below to close the modal.</li>
+											</ul>
+											
+										</div>
+									</div>
 								</div>
+								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
-
 							<div class="uc-container">
-								<div class="uc-initial-content">
-									<img src="" alt="image04" />
-									<span class="icon-eye"></span>
+								<div class="md-trigger" data-modal="modal-17">
+									<span class="icon-eye">Fifth Events</span>
 								</div>
-								<div class="uc-final-content">
-									<img src="" alt="image04-large" />
-									<div class="title"><h4>Ero Senin</h4> by Dan Matutina <a href="http://drbl.in/dJfK" class="icon-link"></a></div>
-									<span class="icon-cancel"></span>
+								<div class="md-modal md-effect-11" id="modal-17">
+									<div class="md-content">
+										<div class="md-header">
+											<button class="md-register register">Register</button>
+											<button class="md-close close">Close!</button>
+										</div>
+										<h3>second events</h3>
+										<div>
+											<p>This is a modal window. You can do the following things with it:</p>
+											<ul>
+												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+												<li><strong>Close:</strong> click on the button below to close the modal.</li>
+											</ul>
+											
+										</div>
+									</div>
 								</div>
+								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
-
+							<div class="uc-container">
+								<div class="md-trigger" data-modal="modal-18">
+									<span class="icon-eye">sixth Events</span>
+								</div>
+								<div class="md-modal md-effect-11" id="modal-18">
+									<div class="md-content">
+										<div class="md-header">
+											<button class="md-register register">Register</button>
+											<button class="md-close close">Close!</button>
+										</div>
+										<h3>second events</h3>
+										<div>
+											<p>This is a modal window. You can do the following things with it:</p>
+											<ul>
+												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+												<li><strong>heuya:</strong> click on the button below to close the modal.</li>
+											</ul>
+											
+										</div>
+									</div>
+								</div>
+								<div class="md-overlay"></div><!-- the overlay element -->
+							</div><!-- / uc-container -->
+							
+							
 						</div><!-- / grid -->
-						
-					</section>
 					</div>
 				</div>
 				
@@ -511,73 +767,155 @@
 						<span class="heading_text">Electronics</span>
 					</div>
 					<div class="event_content" style="display:none;">
-						<section class="main demo-2">
-						
-						<div id="grid" class="grid clearfix">
+						<div id="grid">
 						
 							<div class="uc-container">
-								<div class="uc-initial-content">
-									<span class="icon-eye">mega one</span>
+								<div class="md-trigger" data-modal="modal-19">
+									<span class="icon-eye">Event one</span>
 								</div>
-								<div class="uc-final-content">
-									<p>sfajkshfaslkgsaflgsjf;gjasjflg;sfjgjsf;gas
-									sglsjfgjas;fjgals;fjg;lsflgs;fljgsf</p>
-									<div class="title"><h4>The Professor</h4> by Dan Matutina <a href="http://drbl.in/dMLS" class="icon-link"></a></div>
-									<span class="icon-cancel"></span>
+								<div class="md-modal md-effect-11" id="modal-19">
+									<div class="md-content">
+										<div class="md-header">
+											<button class="md-register register">Register</button>
+											<button class="md-close close">Close!</button>
+										</div>
+										<h3>Tech Roadies</h3>
+										<div>
+											<p>This is a modal window. You can do the following things with it:</p>
+											<ul>
+												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+												<li><strong>Close:</strong> click on the button below to close the modal.</li>
+											</ul>
+											
+										</div>
+									</div>
 								</div>
+								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
-
 							<div class="uc-container">
-								<div class="uc-initial-content">
-									<img src="" alt="image02" />
-									<span class="icon-eye"></span>
+								<div class="md-trigger" data-modal="modal-20">
+									<span class="icon-eye">second Events</span>
 								</div>
-								<div class="uc-final-content">
-									<img src="" alt="image02-large" />
-									<div class="title"><h4>Planet</h4> by Dan Matutina <a href="http://drbl.in/eZoL" class="icon-link"></a></div>
-									<span class="icon-cancel"></span>
+								<div class="md-modal md-effect-11" id="modal-20">
+									<div class="md-content">
+										<div class="md-header">
+											<button class="md-register register">Register</button>
+											<button class="md-close close">Close!</button>
+										</div>
+										<h3>second events</h3>
+										<div>
+											<p>This is a modal window. You can do the following things with it:</p>
+											<ul>
+												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+												<li><strong>Close:</strong> click on the button below to close the modal.</li>
+											</ul>
+											
+										</div>
+									</div>
 								</div>
+								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
-
 							<div class="uc-container">
-								<div class="uc-initial-content">
-									<img src="" alt="image03" />
-									<span class="icon-eye"></span>
+								<div class="md-trigger" data-modal="modal-21">
+									<span class="icon-eye">Third Events</span>
 								</div>
-								<div class="uc-final-content">
-									<img src="" alt="image03-large" />
-									<div class="title"><h4>Angry Nerd Blofeld</h4> by Dan Matutina <a href="http://drbl.in/eLEa" class="icon-link"></a></div>
-									<span class="icon-cancel"></span>
+								<div class="md-modal md-effect-11" id="modal-21">
+									<div class="md-content">
+										<div class="md-header">
+											<button class="md-register register">Register</button>
+											<button class="md-close close">Close!</button>
+										</div>
+										<h3>second events</h3>
+										<div>
+											<p>This is a modal window. You can do the following things with it:</p>
+											<ul>
+												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+												<li><strong>Close:</strong> click on the button below to close the modal.</li>
+											</ul>
+											
+										</div>
+									</div>
 								</div>
+								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
-
 							<div class="uc-container">
-								<div class="uc-initial-content">
-									<img src="" alt="image04" />
-									<span class="icon-eye"></span>
+								<div class="md-trigger" data-modal="modal-22">
+									<span class="icon-eye">Fourth Events</span>
 								</div>
-								<div class="uc-final-content">
-									<img src="" alt="image04-large" />
-									<div class="title"><h4>Ero Senin</h4> by Dan Matutina <a href="http://drbl.in/dJfK" class="icon-link"></a></div>
-									<span class="icon-cancel"></span>
+								<div class="md-modal md-effect-11" id="modal-22">
+									<div class="md-content">
+										<div class="md-header">
+											<button class="md-register register">Register</button>
+											<button class="md-close close">Close!</button>
+										</div>
+										<h3>second events</h3>
+										<div>
+											<p>This is a modal window. You can do the following things with it:</p>
+											<ul>
+												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+												<li><strong>Close:</strong> click on the button below to close the modal.</li>
+											</ul>
+											
+										</div>
+									</div>
 								</div>
+								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
-
 							<div class="uc-container">
-								<div class="uc-initial-content">
-									<img src="" alt="image04" />
-									<span class="icon-eye"></span>
+								<div class="md-trigger" data-modal="modal-23">
+									<span class="icon-eye">Fifth Events</span>
 								</div>
-								<div class="uc-final-content">
-									<img src="" alt="image04-large" />
-									<div class="title"><h4>Ero Senin</h4> by Dan Matutina <a href="http://drbl.in/dJfK" class="icon-link"></a></div>
-									<span class="icon-cancel"></span>
+								<div class="md-modal md-effect-11" id="modal-23">
+									<div class="md-content">
+										<div class="md-header">
+											<button class="md-register register">Register</button>
+											<button class="md-close close">Close!</button>
+										</div>
+										<h3>second events</h3>
+										<div>
+											<p>This is a modal window. You can do the following things with it:</p>
+											<ul>
+												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+												<li><strong>Close:</strong> click on the button below to close the modal.</li>
+											</ul>
+											
+										</div>
+									</div>
 								</div>
+								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
-
+							<div class="uc-container">
+								<div class="md-trigger" data-modal="modal-24">
+									<span class="icon-eye">sixth Events</span>
+								</div>
+								<div class="md-modal md-effect-11" id="modal-24">
+									<div class="md-content">
+										<div class="md-header">
+											<button class="md-register register">Register</button>
+											<button class="md-close close">Close!</button>
+										</div>
+										<h3>second events</h3>
+										<div>
+											<p>This is a modal window. You can do the following things with it:</p>
+											<ul>
+												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+												<li><strong>heuya:</strong> click on the button below to close the modal.</li>
+											</ul>
+											
+										</div>
+									</div>
+								</div>
+								<div class="md-overlay"></div><!-- the overlay element -->
+							</div><!-- / uc-container -->
+							
+							
 						</div><!-- / grid -->
-						
-					</section>
 					</div>
 				</div>
 
@@ -586,73 +924,155 @@
 						<span class="heading_text">Architecture</span>
 					</div>
 					<div class="event_content" style="display:none;">
-						<section class="main demo-2">
-						
-						<div id="grid" class="grid clearfix">
+						<div id="grid">
 						
 							<div class="uc-container">
-								<div class="uc-initial-content">
-									<span class="icon-eye">mega one</span>
+								<div class="md-trigger" data-modal="modal-25">
+									<span class="icon-eye">Event one</span>
 								</div>
-								<div class="uc-final-content">
-									<p>sfajkshfaslkgsaflgsjf;gjasjflg;sfjgjsf;gas
-									sglsjfgjas;fjgals;fjg;lsflgs;fljgsf</p>
-									<div class="title"><h4>The Professor</h4> by Dan Matutina <a href="http://drbl.in/dMLS" class="icon-link"></a></div>
-									<span class="icon-cancel"></span>
+								<div class="md-modal md-effect-11" id="modal-25">
+									<div class="md-content">
+										<div class="md-header">
+											<button class="md-register register">Register</button>
+											<button class="md-close close">Close!</button>
+										</div>
+										<h3>Tech Roadies</h3>
+										<div>
+											<p>This is a modal window. You can do the following things with it:</p>
+											<ul>
+												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+												<li><strong>Close:</strong> click on the button below to close the modal.</li>
+											</ul>
+											
+										</div>
+									</div>
 								</div>
+								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
-
 							<div class="uc-container">
-								<div class="uc-initial-content">
-									<img src="" alt="image02" />
-									<span class="icon-eye"></span>
+								<div class="md-trigger" data-modal="modal-26">
+									<span class="icon-eye">second Events</span>
 								</div>
-								<div class="uc-final-content">
-									<img src="" alt="image02-large" />
-									<div class="title"><h4>Planet</h4> by Dan Matutina <a href="http://drbl.in/eZoL" class="icon-link"></a></div>
-									<span class="icon-cancel"></span>
+								<div class="md-modal md-effect-11" id="modal-26">
+									<div class="md-content">
+										<div class="md-header">
+											<button class="md-register register">Register</button>
+											<button class="md-close close">Close!</button>
+										</div>
+										<h3>second events</h3>
+										<div>
+											<p>This is a modal window. You can do the following things with it:</p>
+											<ul>
+												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+												<li><strong>Close:</strong> click on the button below to close the modal.</li>
+											</ul>
+											
+										</div>
+									</div>
 								</div>
+								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
-
 							<div class="uc-container">
-								<div class="uc-initial-content">
-									<img src="" alt="image03" />
-									<span class="icon-eye"></span>
+								<div class="md-trigger" data-modal="modal-27">
+									<span class="icon-eye">Third Events</span>
 								</div>
-								<div class="uc-final-content">
-									<img src="" alt="image03-large" />
-									<div class="title"><h4>Angry Nerd Blofeld</h4> by Dan Matutina <a href="http://drbl.in/eLEa" class="icon-link"></a></div>
-									<span class="icon-cancel"></span>
+								<div class="md-modal md-effect-11" id="modal-27">
+									<div class="md-content">
+										<div class="md-header">
+											<button class="md-register register">Register</button>
+											<button class="md-close close">Close!</button>
+										</div>
+										<h3>second events</h3>
+										<div>
+											<p>This is a modal window. You can do the following things with it:</p>
+											<ul>
+												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+												<li><strong>Close:</strong> click on the button below to close the modal.</li>
+											</ul>
+											
+										</div>
+									</div>
 								</div>
+								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
-
 							<div class="uc-container">
-								<div class="uc-initial-content">
-									<img src="" alt="image04" />
-									<span class="icon-eye"></span>
+								<div class="md-trigger" data-modal="modal-28">
+									<span class="icon-eye">Fourth Events</span>
 								</div>
-								<div class="uc-final-content">
-									<img src="" alt="image04-large" />
-									<div class="title"><h4>Ero Senin</h4> by Dan Matutina <a href="http://drbl.in/dJfK" class="icon-link"></a></div>
-									<span class="icon-cancel"></span>
+								<div class="md-modal md-effect-11" id="modal-28">
+									<div class="md-content">
+										<div class="md-header">
+											<button class="md-register register">Register</button>
+											<button class="md-close close">Close!</button>
+										</div>
+										<h3>second events</h3>
+										<div>
+											<p>This is a modal window. You can do the following things with it:</p>
+											<ul>
+												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+												<li><strong>Close:</strong> click on the button below to close the modal.</li>
+											</ul>
+											
+										</div>
+									</div>
 								</div>
+								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
-
 							<div class="uc-container">
-								<div class="uc-initial-content">
-									<img src="" alt="image04" />
-									<span class="icon-eye"></span>
+								<div class="md-trigger" data-modal="modal-29">
+									<span class="icon-eye">Fifth Events</span>
 								</div>
-						`		<div class="uc-final-content">
-									<img src="" alt="image04-large" />
-									<div class="title"><h4>Ero Senin</h4> by Dan Matutina <a href="http://drbl.in/dJfK" class="icon-link"></a></div>
-									<span class="icon-cancel"></span>
+								<div class="md-modal md-effect-11" id="modal-29">
+									<div class="md-content">
+										<div class="md-header">
+											<button class="md-register register">Register</button>
+											<button class="md-close close">Close!</button>
+										</div>
+										<h3>second events</h3>
+										<div>
+											<p>This is a modal window. You can do the following things with it:</p>
+											<ul>
+												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+												<li><strong>Close:</strong> click on the button below to close the modal.</li>
+											</ul>
+											
+										</div>
+									</div>
 								</div>
+								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
-
+							<div class="uc-container">
+								<div class="md-trigger" data-modal="modal-30">
+									<span class="icon-eye">sixth Events</span>
+								</div>
+								<div class="md-modal md-effect-11" id="modal-30">
+									<div class="md-content">
+										<div class="md-header">
+											<button class="md-register register">Register</button>
+											<button class="md-close close">Close!</button>
+										</div>
+										<h3>second events</h3>
+										<div>
+											<p>This is a modal window. You can do the following things with it:</p>
+											<ul>
+												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+												<li><strong>heuya:</strong> click on the button below to close the modal.</li>
+											</ul>
+											
+										</div>
+									</div>
+								</div>
+								<div class="md-overlay"></div><!-- the overlay element -->
+							</div><!-- / uc-container -->
+							
+							
 						</div><!-- / grid -->
-						
-					</section>
 					</div>
 				</div>
 
@@ -661,73 +1081,155 @@
 						<span class="heading_text">Bio-Tech</span>
 					</div>
 					<div class="event_content" style="display:none;">
-						<section class="main demo-2">
-						
-						<div id="grid" class="grid clearfix">
+						<div id="grid">
 						
 							<div class="uc-container">
-								<div class="uc-initial-content">
-									<span class="icon-eye">mega one</span>
+								<div class="md-trigger" data-modal="modal-31">
+									<span class="icon-eye">Event one</span>
 								</div>
-								<div class="uc-final-content">
-									<p>sfajkshfaslkgsaflgsjf;gjasjflg;sfjgjsf;gas
-									sglsjfgjas;fjgals;fjg;lsflgs;fljgsf</p>
-									<div class="title"><h4>The Professor</h4> by Dan Matutina <a href="http://drbl.in/dMLS" class="icon-link"></a></div>
-									<span class="icon-cancel"></span>
+								<div class="md-modal md-effect-11" id="modal-31">
+									<div class="md-content">
+										<div class="md-header">
+											<button class="md-register register">Register</button>
+											<button class="md-close close">Close!</button>
+										</div>
+										<h3>Tech Roadies</h3>
+										<div>
+											<p>This is a modal window. You can do the following things with it:</p>
+											<ul>
+												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+												<li><strong>Close:</strong> click on the button below to close the modal.</li>
+											</ul>
+											
+										</div>
+									</div>
 								</div>
+								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
-
 							<div class="uc-container">
-								<div class="uc-initial-content">
-									<img src="" alt="image02" />
-									<span class="icon-eye"></span>
+								<div class="md-trigger" data-modal="modal-32">
+									<span class="icon-eye">second Events</span>
 								</div>
-								<div class="uc-final-content">
-									<img src="" alt="image02-large" />
-									<div class="title"><h4>Planet</h4> by Dan Matutina <a href="http://drbl.in/eZoL" class="icon-link"></a></div>
-									<span class="icon-cancel"></span>
+								<div class="md-modal md-effect-11" id="modal-32">
+									<div class="md-content">
+										<div class="md-header">
+											<button class="md-register register">Register</button>
+											<button class="md-close close">Close!</button>
+										</div>
+										<h3>second events</h3>
+										<div>
+											<p>This is a modal window. You can do the following things with it:</p>
+											<ul>
+												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+												<li><strong>Close:</strong> click on the button below to close the modal.</li>
+											</ul>
+											
+										</div>
+									</div>
 								</div>
+								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
-
 							<div class="uc-container">
-								<div class="uc-initial-content">
-									<img src="" alt="image03" />
-									<span class="icon-eye"></span>
+								<div class="md-trigger" data-modal="modal-33">
+									<span class="icon-eye">Third Events</span>
 								</div>
-								<div class="uc-final-content">
-									<img src="" alt="image03-large" />
-									<div class="title"><h4>Angry Nerd Blofeld</h4> by Dan Matutina <a href="http://drbl.in/eLEa" class="icon-link"></a></div>
-									<span class="icon-cancel"></span>
+								<div class="md-modal md-effect-11" id="modal-33">
+									<div class="md-content">
+										<div class="md-header">
+											<button class="md-register register">Register</button>
+											<button class="md-close close">Close!</button>
+										</div>
+										<h3>second events</h3>
+										<div>
+											<p>This is a modal window. You can do the following things with it:</p>
+											<ul>
+												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+												<li><strong>Close:</strong> click on the button below to close the modal.</li>
+											</ul>
+											
+										</div>
+									</div>
 								</div>
+								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
-
 							<div class="uc-container">
-								<div class="uc-initial-content">
-									<img src="" alt="image04" />
-									<span class="icon-eye"></span>
+								<div class="md-trigger" data-modal="modal-34">
+									<span class="icon-eye">Fourth Events</span>
 								</div>
-								<div class="uc-final-content">
-									<img src="" alt="image04-large" />
-									<div class="title"><h4>Ero Senin</h4> by Dan Matutina <a href="http://drbl.in/dJfK" class="icon-link"></a></div>
-									<span class="icon-cancel"></span>
+								<div class="md-modal md-effect-11" id="modal-34">
+									<div class="md-content">
+										<div class="md-header">
+											<button class="md-register register">Register</button>
+											<button class="md-close close">Close!</button>
+										</div>
+										<h3>second events</h3>
+										<div>
+											<p>This is a modal window. You can do the following things with it:</p>
+											<ul>
+												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+												<li><strong>Close:</strong> click on the button below to close the modal.</li>
+											</ul>
+											
+										</div>
+									</div>
 								</div>
+								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
-
 							<div class="uc-container">
-								<div class="uc-initial-content">
-									<img src="" alt="image04" />
-									<span class="icon-eye"></span>
+								<div class="md-trigger" data-modal="modal-35">
+									<span class="icon-eye">Fifth Events</span>
 								</div>
-								<div class="uc-final-content">
-									<img src="" alt="event 5" />
-									<div class="title"><h4>Ero Senin</h4> by Dan Matutina <a href="http://drbl.in/dJfK" class="icon-link"></a></div>
-									<span class="icon-cancel"></span>
+								<div class="md-modal md-effect-11" id="modal-35">
+									<div class="md-content">
+										<div class="md-header">
+											<button class="md-register register">Register</button>
+											<button class="md-close close">Close!</button>
+										</div>
+										<h3>second events</h3>
+										<div>
+											<p>This is a modal window. You can do the following things with it:</p>
+											<ul>
+												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+												<li><strong>Close:</strong> click on the button below to close the modal.</li>
+											</ul>
+											
+										</div>
+									</div>
 								</div>
+								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
-
+							<div class="uc-container">
+								<div class="md-trigger" data-modal="modal-36">
+									<span class="icon-eye">sixth Events</span>
+								</div>
+								<div class="md-modal md-effect-11" id="modal-36">
+									<div class="md-content">
+										<div class="md-header">
+											<button class="md-register register">Register</button>
+											<button class="md-close close">Close!</button>
+										</div>
+										<h3>second events</h3>
+										<div>
+											<p>This is a modal window. You can do the following things with it:</p>
+											<ul>
+												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+												<li><strong>heuya:</strong> click on the button below to close the modal.</li>
+											</ul>
+											
+										</div>
+									</div>
+								</div>
+								<div class="md-overlay"></div><!-- the overlay element -->
+							</div><!-- / uc-container -->
+							
+							
 						</div><!-- / grid -->
-						
-					</section>
 					</div>
 				</div>	
 			</div>

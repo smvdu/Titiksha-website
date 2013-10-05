@@ -1954,6 +1954,7 @@ transform: rotate(-23deg);
     
 }
 .event_content{
+    font-size: 100%;
     position: relative;
     width: 800px;
     height: 545px;
@@ -2032,7 +2033,7 @@ transform: rotate(-23deg);
 .md-trigger{
     width: 200px;
     height: 200px;
-    background: rgb(0,51,51);
+    background: rgb(0,153,153);
     color: #fff;
 }
 /* General styles for the modal */
@@ -2060,12 +2061,16 @@ perspective effects (not including the modals and the overlay).
     min-height: 100%;
 }
 
+
+
 .md-modal {
+
+    position: fixed;
     position: fixed;
     top: 50%;
     left: 50%;
-    width: 50%;
-    max-width: 630px;
+    width: 80%;
+    max-width: 1000px;
     min-width: 320px;
     height: auto;
     z-index: 2000;
@@ -2127,7 +2132,7 @@ perspective effects (not including the modals and the overlay).
     padding: 15px 40px 30px;
     margin: 0;
     font-weight: 300;
-    font-size: 1.15em;
+    
 }
 
 .md-content > div p {
@@ -2143,11 +2148,24 @@ perspective effects (not including the modals and the overlay).
 .md-content > div ul li {
     padding: 5px 0;
 }
-
+.md-content .md-header{
+    width: 100%;
+    position: relative;
+    height: 45px;
+}
 .md-content button {
     display: block;
-    margin: 0 auto;
-    font-size: 0.8em;
+    font-size: 1.3vw;
+    border: 1px solid #fff;
+    border-radius: 2px ;
+    color: rgb(36,36,36) ;
+    background-color: rgb(113,197,170);
+}
+.md-content .md-header > .register{
+    float: left;
+}
+.md-content .md-header >.close{
+    float:right; 
 }
 
 /* Individual modal styles with animations/transitions */
