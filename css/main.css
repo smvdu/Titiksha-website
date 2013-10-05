@@ -2304,6 +2304,13 @@ transform: rotate(-23deg);
     background: rgb(0,153,102);
     color: #1C1635;
 }
+
+.md-trigger > p {
+    font-weight: normal;
+    text-align: center;
+    font-size: 50%;
+    line-height: 1vw;
+}
 /* General styles for the modal */
 
 /* 
