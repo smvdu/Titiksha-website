@@ -176,11 +176,20 @@ a:hover {
 .moveLeft{
     margin-left: -100% !important;
     -webkit-transition: all 1500ms ease-in-out;
+    -moz-transition: all 1500ms ease-in-out;
+    -ms-transition: all 1500ms ease-in-out;
+    -o-transition: all 1500ms ease-in-out;
+    transition: all 2500ms ease-in-out;
 }
 
 .moveRight{
     right: -100% !important;
     -webkit-transition: all 2500ms ease-in-out;
+    -moz-transition: all 2500ms ease-in-out;
+    -ms-transition: all 2500ms ease-in-out;
+    -o-transition: all 2500ms ease-in-out;
+    -transition: all 2500ms ease-in-out;
+
 }
 
 #letters{
