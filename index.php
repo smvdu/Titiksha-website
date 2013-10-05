@@ -45,9 +45,9 @@
         <script type="text/javascript" src="js/sponsor.js"></script>
         <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>	
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="js/functions.js"></script>
         <script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
-        
-		
+        	
 	</head>
 	<body>
 	<!--[if lt IE 7]>
@@ -256,7 +256,6 @@
 
 				<div id="right_about" data-stellar-ratio="2.0" data-stellar-horizontal-offset="-440" data-stellar-vertical-offset="-720">
 					<div id="top"><p>
-
 					 Shri Mata Vaishno  Devi University, India’s  one of the  top ranking  technical university,
 					 proudly announces  the  embarkment of Titiksha 2013.
 					 SMVDU located  on the foothills of  holy shrine of Mata Vaishno  Devi  is
@@ -832,25 +831,30 @@ $sponsors = array(
 				<div id="reg_head">
 					<span>JOIN TITIKSHA</span`>
 				</div>	
-				<form id="reg_form" action="" method="POST" autocomplete="off">
+				<div class="warning"></div>
+				<div class="confirmMessage"></div>
+				<form id="reg_form" name="reg_form" action="" method="post" onsubmit="return validateForm()"  autocomplete="off">
 					<table>
 						<tbody>
 							<tr>
 								<th>Name :</th>
 								<td>
-									<span><img src="img/icomoon/user.png" /></span><input name="name" type="text" size="30" maxlength="35" autocomplete="off"/>
+									<span><img src="img/icomoon/user.png" /></span><input name="name" type="text" size="30" maxlength="35" autocomplete="off" placeholder="Full Name"/>
 								</td>
 							</tr>
 							<tr>
 								<th>Email :</th>
 								<td>
-									<span><img src="img/icomoon/mail.png" /></span><input name="email" type="email" size="30" maxlength="35" autocomplete="off"/>
+
+									<span><img src="img/icomoon/mail.png" /></span><input name="email" type="email" size="30" maxlength="35" onchange="checkEmail()" autocomplete="off" placeholder="Email Address"/>
+									<div class="email warning"></div>
+									
 								</td>
 							</tr>
 							<tr>
 								<th>College :</th>
 								<td>
-									<span><img src="img/icomoon/briefcase.png" /></span><input name="college" type="text" placeholder="Your College Name" size="40" maxlength="35" autocomplete="off"/>
+									<span><img src="img/icomoon/briefcase.png" /></span><input name="college" type="text" size="40" maxlength="35" autocomplete="off" placeholder="University/College"/>
 								</td>
 							</tr>
 							
@@ -869,7 +873,9 @@ $sponsors = array(
 							<tr>
 								<th>Contact :</th>
 								<td>
-									<span><img src="img/icomoon/phone.png" /></span><input name="contact" type="tel" size="14" placeholder="+91-9012345678" autocomplete="off" />
+
+									<span><img src="img/icomoon/phone.png" /></span><input name="contact" type="tel" size="14" placeholder="+91-**********" autocomplete="off" />
+
 								</td>
 							</tr>
 							<tr>
@@ -882,13 +888,13 @@ $sponsors = array(
 							<tr>
 								<th>Password : </th>
 								<td>
-									<span><img src="img/icomoon/key.png" /></span><input name="password" type="password" autocomplete="off"/>
+									<span><img src="img/icomoon/key.png" /></span><input name="password" type="password" autocomplete="off" placeholder="Desired Password"/>
 								</td>
 							</tr>
 							<tr>
 								<th>Repeat Password : </th>
 								<td>
-									<span><img src="img/icomoon/key2.png" /></span><input name="rep-password" type="password" autocomplete="off"/>
+									<span><img src="img/icomoon/key2.png" /></span><input name="rep-password" type="password" autocomplete="off" placeholder="Re-enter Password"/>
 								</td>
 							</tr>
 
@@ -899,7 +905,7 @@ $sponsors = array(
 				</form>
 
 				<div id="join">
-					<button>Join Titiksha</button>
+					<button id="submit_form">Join Titiksha</button>
 				</div>
 		    </div>	
 		</div>
@@ -930,15 +936,18 @@ $sponsors = array(
 
 				<div class="assym_black" id="cont2">
 					<div id="chief">
+
 						<h4>Chief Student Coordinator</h4>
 						<p class="name">Dhananjay Singh</p>
 						<p class="tel">+91-9796405080</p>
 						<p clas="mail" >djsanj99@gmail.com</p>
+
 					</div>
 				</div>
 
 				<div class="assym_black" id="cont3">
 					<div id="web">
+
 						<h4>Web Development Team</h4>
 						<p class="name">* Sunny Gupta</p>
 						<p class="tel">+91-9086724946</p>
@@ -950,33 +959,40 @@ $sponsors = array(
 						<p class="name">* Parth Pankaj Tiwary</p>
 						<p class="tel">+91-9797521874</p>
 						
+
 					</div>					
 				</div>
 
 				<div class="assym_black" id="cont4">
 					<div id="tech">
 						<h4>Event Coordinator</h4>
+
 						<p class="name">Rishabh Shukla</p>
 						<p class="tel">+91-9086250987</p>
 						<p class="mail" >rishy.s13@gmail.com</pre>
+
 					</div>					
 				</div>
 
 				<div class="assym_black" id="cont5">
 					<div id="design">
 						<h4>Designer</h4>
+
 						<p class="name">Akash Maurya</p>
 						<p class="tel">+91-9797602140</p>
 						<p class="mail" >maurya.aakash1@gmail.com</p>
+
 					</div>					
 				</div>
 
 				<div class="assym_black" id="cont6">
 					<div id="media">
 						<h4>Media & Publications</h4>
+
 						<p class="name">Megha Sharma</p>
 						<p class="tel">+91-9086118089</p>
 						<p class="mail">meghas19@yahoo.co.in</p>
+
 					</div>
 				</div>
 
