@@ -1176,8 +1176,7 @@ $sponsors = array(
 			});
 		</script>
 
-		<script type="text/javascript" src="js/jquery.pfold.js"></script>
-		
+				
 		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
             var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
