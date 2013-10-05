@@ -1927,7 +1927,7 @@ transform: rotate(-23deg);
     padding: 0px;
     min-height: 100%;
     height: 115%;
-    line-height: 1.2;   
+    line-height: 1;   
 }
 
 .branch{
@@ -2031,10 +2031,12 @@ transform: rotate(-23deg);
 }
 
 .md-trigger{
+    line-height: 3vw;
+    padding: 33px;
     width: 200px;
     height: 200px;
-    background: rgb(0,153,153);
-    color: #fff;
+    background: rgb(0,153,102);
+    color: #1C1635;
 }
 /* General styles for the modal */
 
@@ -2110,7 +2112,8 @@ perspective effects (not including the modals and the overlay).
 
 /* Content styles */
 .md-content {
-    color: #fff;
+    font-size: 70%;
+    color: rgba(19, 27, 26, 0.89);
     background: #5D95A0;
     position: relative;
     border-radius: 3px;
@@ -2137,7 +2140,7 @@ perspective effects (not including the modals and the overlay).
 
 .md-content > div p {
     margin: 0;
-    padding: 10px 0;
+    padding: 5px 0;
 }
 
 .md-content > div ul {
@@ -2146,7 +2149,8 @@ perspective effects (not including the modals and the overlay).
 }
 
 .md-content > div ul li {
-    padding: 5px 0;
+    padding: 10px 0;
+    text-align: left;
 }
 .md-content .md-header{
     width: 100%;
