@@ -2516,6 +2516,7 @@ label[for="gender"]{
 }
 
 #spon_cord{
+    display: none;
     font-size: 100%;
     margin-left: 20%;
     line-height: 1vw;
