@@ -299,7 +299,8 @@
 						
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-1">
-									<span class="icon-eye">All IZZ NOT WELL</span>
+									<span class="icon-eye"><em>All IZZ NOT WELL</em></span>
+									<p> Event aims to gather problems around the country and come up with solution.</p>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-1">
 									<div class="md-content">
@@ -323,6 +324,42 @@
 											decide the winner.</p>
 											
 											<ul>
+												<li><strong>Event Co-ordinator :</strong>Shubham Tiwari</li>
+												<li><strong>Contact :</strong> +91-9469-762638</li>
+											</ul>
+											
+										</div>
+									</div>
+								</div>
+								<div class="md-overlay"></div><!-- the overlay element -->
+							</div><!-- / uc-container -->
+							<div class="uc-container">
+								<div class="md-trigger" data-modal="modal-2">
+									<span class="icon-eye"><em>ROBO - MATRIX</em></span>
+									<p>Complete  matrix  of  Robotic  events</p>
+								</div>
+								<div class="md-modal md-effect-11" id="modal-2">
+									<div class="md-content">
+										<div class="md-header">
+											<button class="md-register register">Register</button>
+											<button class="md-close close">Close!</button>
+										</div>
+										<h3>ROBO - MATRIX</h3>
+										<div>
+											<p>There  is  a  complete  matrix  of  Robotic  events,  each  one
+												focusing on introducing a particular trait into the robot.</p>
+											<ul>
+												<li>1. Robot Adventure</li>
+												<li>2. Robot Basketball</li>
+												<li>3. Robot Race</li>
+												<li>4. Robot-Arena/war</li>
+												<li>5. Line-Follower Robot</li>
+												<li>6. Robot Soccer</li>
+											</ul>
+												<p>The  robot  winning  in  max  categories  of  Robo­matrix  will  be  awarded
+													as the “BEST ROBOT”. </p>
+													 <br>
+											<ul>
 												<li><strong>Event Co-ordinator :</strong> Alpha Beta</li>
 												<li><strong>Contact :</strong> +91-1251354713</li>
 											</ul>
@@ -333,32 +370,9 @@
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-2">
-									<span class="icon-eye">second Events</span>
-								</div>
-								<div class="md-modal md-effect-11" id="modal-2">
-									<div class="md-content">
-										<div class="md-header">
-											<button class="md-register register">Register</button>
-											<button class="md-close close">Close!</button>
-										</div>
-										<h3>second events</h3>
-										<div>
-											<p>This is a modal window. You can do the following things with it:</p>
-											<ul>
-												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
-												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
-												<li><strong>Close:</strong> click on the button below to close the modal.</li>
-											</ul>
-											
-										</div>
-									</div>
-								</div>
-								<div class="md-overlay"></div><!-- the overlay element -->
-							</div><!-- / uc-container -->
-							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-3">
-									<span class="icon-eye">Third Events</span>
+									<span class="icon-eye"><em>ELECTRO-AVTAAR</em></span>
+									<p>Event is a blend of science and imagination.</p>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-3">
 									<div class="md-content">
@@ -366,13 +380,27 @@
 											<button class="md-register register">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
-										<h3>second events</h3>
+										<h3>ELECTRO-AVTAAR</h3>
 										<div>
-											<p>This is a modal window. You can do the following things with it:</p>
+											<p>This event is a blend of science and imagination. Design your own
+												super hero and win prizes! It will be organized in three levels.
+												<p><em>Level 1</em> :<strong> The Bull's Eye - </strong>
+												participants  will  form a group (of not more than two), and they have to
+												write  a fictitious  short  story  on  the spot based on the picture shown to
+												them. The story's central character must be a super­hero.
+												The picture would be based on some social problem.</p>
+												<p><em>Level 2</em> :<strong> Avenger - </strong>
+												Selected participants would be grouped together in a team of three.
+												The  teams  would design their own super hero. They have to explain its
+												design  and  technical  details  before  other  teams  and  the  jury,  who
+												would cross question them.</p>
+												<p><em>Level 3</em> :<strong> Video Mania - </strong>
+												The  top  participants  will  make  a  short  movie  on  their  superhero of the
+												TITIKSHA 2013 PROPOSAL Page 2length  of  their  choice  and  the  best  video  would  be  shown  in
+												the valedictory ceremony in auditorium.</p>
 											<ul>
-												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
-												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
-												<li><strong>Close:</strong> click on the button below to close the modal.</li>
+												<li><strong>Event Co-ordinator :</strong> Alpha Beta</li>
+												<li><strong>Contact :</strong> +91-1251354713</li>
 											</ul>
 											
 										</div>
@@ -382,7 +410,8 @@
 							</div><!-- / uc-container -->
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-4">
-									<span class="icon-eye">Fourth Events</span>
+									<span class="icon-eye"><em>INNOVATIA RETURNS</em></span>
+									<p>Project Exhibition</p>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-4">
 									<div class="md-content">
@@ -390,15 +419,23 @@
 											<button class="md-register register">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
-										<h3>second events</h3>
+										<h3>INNOVATIA RETURNS</h3>
 										<div>
-											<p>This is a modal window. You can do the following things with it:</p>
+											<p>Under  this  event  project  related  to  all  branches  will  be  exhibited.
+												Projects  made  by students during their minor project and major project
+												or  made  individually  for  the  event.</p>
+											<p> Projects  can  be  on  hardware  or
+												software environment. Models can be working or non­ working.
+											</p>
+											<p><strong><em>Rules and Regulation:</em></strong>	</p>
+											<p>	 			It would take place under two levels:
+												<br> Level 1 (JUNIOR)­ for 1st and 2nd
+												<br> Level 2 (SENIOR)­for 3 year /4 year/inter university.</p>
+											<br>
 											<ul>
-												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
-												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
-												<li><strong>Close:</strong> click on the button below to close the modal.</li>
+												<li><strong>Event Co-ordinator :</strong> Alpha Beta</li>
+												<li><strong>Contact :</strong> +91-1251354713</li>
 											</ul>
-											
 										</div>
 									</div>
 								</div>
@@ -406,7 +443,9 @@
 							</div><!-- / uc-container -->
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-5">
-									<span class="icon-eye">Fifth Events</span>
+									<span class="icon-eye"><em>TechRoadies Reloaded</em></span>
+									<p>Tech-Roadies is back with new Exciting Stuffs. Enroll and Be a Roadie.</p>
+									<p></p>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-5">
 									<div class="md-content">
@@ -414,13 +453,22 @@
 											<button class="md-register register">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
-										<h3>second events</h3>
+										<h3>TechRoadies Reloaded</h3>
 										<div>
-											<p>This is a modal window. You can do the following things with it:</p>
+											<p>This  event  is  for  TECHNOCRATS  who  think  differently and are truly
+												want to be a real Engineer. The event contains : </p>
 											<ul>
-												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
-												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
-												<li><strong>Close:</strong> click on the button below to close the modal.</li>
+												<li>Aptitude and technical knowledge round (WRITTEN). </li>
+												<li>Group Discussion on technical problems.</li>
+												<li>Personal interview </li>
+												<li><em>Task­-A : </em> Particular  task  would  be  given  to  perform  to  selected
+												contestant.  (Like  think  about  a  technology  which  is  used  or  can
+												be used at different places in university).</li>
+											</ul>
+											<br><br>
+											<ul>
+												<li><strong>Event Co-ordinator :</strong> Alpha Beta</li>
+												<li><strong>Contact :</strong> +91-1251354713</li>
 											</ul>
 											
 										</div>
@@ -430,7 +478,8 @@
 							</div><!-- / uc-container -->
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-6">
-									<span class="icon-eye">sixth Events</span>
+									<span class="icon-eye"><em>SCI-FI</em></span>
+									<p>Show your imagination</p>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-6">
 									<div class="md-content">
@@ -438,15 +487,17 @@
 											<button class="md-register register">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
-										<h3>second events</h3>
+										<h3>SCI-FI</h3>
 										<div>
-											<p>This is a modal window. You can do the following things with it:</p>
+											<p>1. Presentation of Any Latest sci­fi technology which is not present.
+												Technology must be new to all. Presentation is Submitted before the Event.
+												<br>2. Selected top 10 or 5 ppt. will be in next round.
+												<br>3. Presentation of ppt. in front of judges.</p>
+											<br><br>
 											<ul>
-												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
-												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
-												<li><strong>heuya:</strong> click on the button below to close the modal.</li>
+												<li><strong>Event Co-ordinator :</strong> Alpha Beta</li>
+												<li><strong>Contact :</strong> +91-1251354713</li>
 											</ul>
-											
 										</div>
 									</div>
 								</div>
