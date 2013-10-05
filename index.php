@@ -749,11 +749,11 @@
 
 
 $sponsors = array(
-	array('reebok','Reebok International Limited, a subsidiary of the German company Adidas since 2005, is a producer of athletic shoes, clothing, and accessories.','http://www.reebok.com/'),
+	array('reebok','Reebok is a producer of athletic shoes, clothing, and accessories.','http://www.reebok.com/'),
 	array('jkbank','J&K Bank functions as a universal bank in Jammu & Kashmir and as a specialised bank in the rest of the country.','http://www.jkbank.net/'),
 	array('tcs','TCS is a leader in the global marketplace and among the top 10 technology firms in the world.','http://www.tcs.com/'),
 	array('doordarshan','The backbone of Indian entertainment and news industry. ','http://www.ddindia.gov.in/'),
-	array('kcresidency','K.C. Residency is a Landmark in Jammu, the city of temples, located at Residency Road the commercial centre of Jammu in Jammu & Kashmir state.','http://www.kcresidency.com/'),
+	array('kcresidency','K.C. Residency is a Landmark in Jammu,located at Residency Road of Jammu in Jammu & Kashmir state.','http://www.kcresidency.com/'),
 	array('jammulinks','The virtual search engine for Jammu & Kashmir','http://www.jammulinks.com/'),
 	array('mysql','The most popular open source database engine.','http://www.mysql.com/'),
 	array('hp','One of the biggest computer manufacturers.','http://www.hp.com/'),
