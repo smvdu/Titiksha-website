@@ -307,6 +307,28 @@
 									<span class="icon-cancel"></span>
 								</div>
 							</div><!-- / uc-container -->
+							
+							<div class="uc-container">
+								<div class="uc-initial-content">
+									<span class="icon-eye">mega one</span>
+								</div>
+								<div class="uc-final-content">
+									<p>This event is Really exciting and Fun. Participate and Grab bunch of Prizes</p>
+									<div class="title"><h4>The Professor</h4> by Dan Matutina <a href="http://drbl.in/dMLS" class="icon-link"></a></div>
+									<span class="icon-cancel"></span>
+								</div>
+							</div><!-- / uc-container -->
+
+							<div class="uc-container">
+								<div class="uc-initial-content">
+									<span class="icon-eye">mega one</span>
+								</div>
+								<div class="uc-final-content">
+									<p>This event is Really exciting and Fun. Participate and Grab bunch of Prizes</p>
+									<div class="title"><h4>The Professor</h4> by Dan Matutina <a href="http://drbl.in/dMLS" class="icon-link"></a></div>
+									<span class="icon-cancel"></span>
+								</div>
+							</div><!-- / uc-container -->
 
 							<div class="uc-container">
 								<div class="uc-initial-content">
@@ -320,17 +342,7 @@
 								</div>
 							</div><!-- / uc-container -->
 
-							<div class="uc-container">
-								<div class="uc-initial-content">
-									<img src="" alt="image03" />
-									<span class="icon-eye"></span>
-								</div>
-								<div class="uc-final-content">
-									<img src="" alt="image03-large" />
-									<div class="title"><h4>Angry Nerd Blofeld</h4> by Dan Matutina <a href="http://drbl.in/eLEa" class="icon-link"></a></div>
-									<span class="icon-cancel"></span>
-								</div>
-							</div><!-- / uc-container -->
+							
 
 							<div class="uc-container">
 								<div class="uc-initial-content">
@@ -376,8 +388,29 @@
 									<span class="icon-eye">mega one</span>
 								</div>
 								<div class="uc-final-content">
-									<p>sfajkshfaslkgsaflgsjf;gjasjflg;sfjgjsf;gas
-									sglsjfgjas;fjgals;fjg;lsflgs;fljgsf</p>
+									<p>This event is Really exciting and Fun. Participate and Grab bunch of Prizes</p>
+									<div class="title"><h4>The Professor</h4> by Dan Matutina <a href="http://drbl.in/dMLS" class="icon-link"></a></div>
+									<span class="icon-cancel"></span>
+								</div>
+							</div><!-- / uc-container -->
+							
+							<div class="uc-container">
+								<div class="uc-initial-content">
+									<span class="icon-eye">mega one</span>
+								</div>
+								<div class="uc-final-content">
+									<p>This event is Really exciting and Fun. Participate and Grab bunch of Prizes</p>
+									<div class="title"><h4>The Professor</h4> by Dan Matutina <a href="http://drbl.in/dMLS" class="icon-link"></a></div>
+									<span class="icon-cancel"></span>
+								</div>
+							</div><!-- / uc-container -->
+
+							<div class="uc-container">
+								<div class="uc-initial-content">
+									<span class="icon-eye">mega one</span>
+								</div>
+								<div class="uc-final-content">
+									<p>This event is Really exciting and Fun. Participate and Grab bunch of Prizes</p>
 									<div class="title"><h4>The Professor</h4> by Dan Matutina <a href="http://drbl.in/dMLS" class="icon-link"></a></div>
 									<span class="icon-cancel"></span>
 								</div>
@@ -395,17 +428,7 @@
 								</div>
 							</div><!-- / uc-container -->
 
-							<div class="uc-container">
-								<div class="uc-initial-content">
-									<img src="" alt="image03" />
-									<span class="icon-eye"></span>
-								</div>
-								<div class="uc-final-content">
-									<img src="" alt="image03-large" />
-									<div class="title"><h4>Angry Nerd Blofeld</h4> by Dan Matutina <a href="http://drbl.in/eLEa" class="icon-link"></a></div>
-									<span class="icon-cancel"></span>
-								</div>
-							</div><!-- / uc-container -->
+							
 
 							<div class="uc-container">
 								<div class="uc-initial-content">
@@ -430,6 +453,7 @@
 									<span class="icon-cancel"></span>
 								</div>
 							</div><!-- / uc-container -->
+
 
 						</div><!-- / grid -->
 						
@@ -795,6 +819,20 @@ $sponsors = array(
 				       
 				    </div>
 
+				    <div id="spon_cord">
+				    	<h3>Sponsorship Co-ordinator</h3>
+				    	<div id="co_left">
+					    	<p>Navjot Sasan</p>
+					    	<p>*********@gmail.com</p>
+					    	<span style="color: #000;">+91-1413245252</span>
+				    	</div>
+				    	<div id="co_right">
+					    	<p>Gaurav Singh</p>
+					    	<p>abc#gmail.com</p>
+					    	<span style="color: #000;">+91-9796-446317</span>
+				    	</div>
+				    </div>
+
 				</div>
 
 		</section>	
@@ -882,6 +920,16 @@ $sponsors = array(
 
 				<div id="join">
 					<button id="submit_form">Join Titiksha</button>
+				</div>
+				<div id="reg_query">
+					<span>For any queries : Contact</span>
+					<h4>Megha Sharma</h4>
+					<p>+91-9086-118089</p>
+					<p>meghas19@yahoo.co.in</p><br>
+
+					<h4>Sahil Khuslani</h4>
+					<p>+91-9622-356797</p>
+					<p>***********@gmail.com</p>
 				</div>
 		    </div>	
 		</div>
@@ -1096,9 +1144,10 @@ $sponsors = array(
 					switch( i ) {
 						case 0 : direction = ['right','bottom']; break;
 						case 1 : direction = ['left','bottom']; break;
-						case 2 : direction = ['right','top']; break;
-						case 3 : direction = ['left','top']; break;
-						case 4 : direction = ['left','bottom']; break;
+						case 2 : direction = ['left','bottom']; break;
+						case 3 : direction = ['right','top']; break;
+						case 4 : direction = ['right','top']; break;
+						case 5 : direction = ['left','top']; break;
 					
 					}
 					

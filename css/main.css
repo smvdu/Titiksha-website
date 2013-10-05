@@ -176,17 +176,21 @@ a:hover {
 .moveLeft{
     margin-left: -100% !important;
     -webkit-transition: all 1500ms ease-in-out;
+    transition: all 1500ms ease-in-out;
 }
 
 .moveRight{
     right: -100% !important;
     -webkit-transition: all 2500ms ease-in-out;
+    transition: all 2500ms ease-in-out;
 }
 
 #letters{
     height: 140%;
     width: 80.45%;
     -webkit-transform: rotate(14deg);
+    transform: rotate(14deg);
+
     margin: -12% -5%;
     background-color: #000;
 }
@@ -1480,6 +1484,7 @@ margin-left: 42%;
 
 #loaderWrapper{
     -webkit-transform: rotate(-14deg);
+    transform : rotate(-14deg);
     width: 200px;
     margin-left: 20%;
     margin-top: 75%;
@@ -1488,6 +1493,7 @@ margin-left: 42%;
 #loading{
     color: #CECECE;
     -webkit-animation: loading_rotate 2s ease-in-out infinite;
+    animation: loading_rotate 2s ease-in-out infinite;
     text-align: center;
 }
 
@@ -1536,7 +1542,7 @@ margin-left: 42%;
     display: none;
     top: 40px;
     position: relative;
-    transform: rotate(-14deg);
+    
 
 }
 
@@ -1572,8 +1578,8 @@ margin-left: 42%;
 #cont0{
     position: absolute;
     margin: 0px;
-    left: -12.95%;
-    top: 26.2%;
+    left: -167px;
+    top: 171px;
     height: 323px;
     width: 390px;
     background-color:  #4D4D4D;
@@ -1587,8 +1593,8 @@ margin-left: 42%;
 
     color: #ccc;
     font-size: 2.5vw;
-    margin-top: 24%;
-    margin-left: 44%;
+    margin-top: 93px;
+    margin-left: 168px;
     -webkit-filter: blur(0px);
     filter: blur(0px);
     padding: 1px;
@@ -1601,10 +1607,10 @@ margin-left: 42%;
     color: #6fb118;
     position: absolute;
     margin: 0px;
-    left: -1%;
-    top: -20%;
-    height: 60%;
-    width: 30%;
+    left: -13px;
+    top: -128px;
+    height: 393px;
+    width: 390px;
     background-color: #555555;
     float: left;
     z-index: 6;
@@ -1621,8 +1627,8 @@ margin-left: 42%;
     font-family: "Oxygen", arial, sans-serif;
     line-height: 10px;
     font-weight: normal;
-    margin-left: 10%;
-    margin-top: 30%;
+    margin-left: 50px;
+    margin-top: 116px;
     padding: 20px;
     -webkit-transform: rotate(-30deg);
     transform: rotate(-30deg);
@@ -1630,10 +1636,10 @@ margin-left: 42%;
 #cont2{
    position: absolute;
     margin: 0px;
-    left: 20%;
-    top: -42%;
-    height: 60%;
-    width: 40%;
+    left: 261px;
+    top: -272px;
+    height: 394px;
+    width: 520px;
     background-color:#5C5C5C;
     float: left;
     z-index: 2;
@@ -1654,11 +1660,11 @@ margin-left: 42%;
 #cont3{
     position: absolute;
     margin: 0px;
-    left: 69.3%;
-    top: 14.5%;
+    left: 901px;
+    top: 97px;
     background-color: #474747;
-    height: 82%;
-    width: 70%;
+    height: 538px;
+    width: 910px;
     float: left;
     z-index: 6;
     -webkit-transform: rotate(-45deg);
@@ -1667,8 +1673,8 @@ margin-left: 42%;
 #web{
     line-height: 0.5;
     font-weight: normal;
-    margin-top: 32%;
-    margin-left: 7%;
+    margin-top: 308px;
+    margin-left: -9px;
     padding: 10px;
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -1676,11 +1682,11 @@ margin-left: 42%;
 #cont4{
     position: absolute;
     margin: 0px;
-    left: 65%;
-    top: -34%;
+    left: 833px;
+    top: -226px;
     background-color: #8B8B8B;
-    height: 67%;
-    width: 47%;
+    height: 439px;
+    width: 611px;
     float: left;
     -webkit-transform: rotate(-144deg);
     transform: rotate(-144deg);
@@ -1689,8 +1695,8 @@ margin-left: 42%;
 #tech{
     line-height: 0px;
     font-weight: normal;
-    margin-right: 31%;
-    margin-top: 22%;
+    margin-right: 200px;
+    margin-top: 142px;
     padding: 14px;
     -webkit-transform: rotate(144deg);
     transform: rotate(144deg);
@@ -1699,12 +1705,12 @@ margin-left: 42%;
 
 #cont5{
    position: absolute;
-    bottom: 38%;
-    right: 9%;
+    bottom: 250px;
+    right: 118px;
     margin: 0px;
     background-color: #4D4D4D;
-    height: 60%;
-    width: 40%;
+    height: 394px;
+    width: 520px;
     float: left;
     z-index: 1;
     -webkit-transform: rotate(64deg);
@@ -1713,31 +1719,31 @@ margin-left: 42%;
 #design{
     line-height: 10px;
     font-weight: normal;
-    margin-left: 16%;
-    margin-top: 11%;
+    margin-left: 84px;
+    margin-top: 71px;
     padding: 10px;
     -webkit-transform: rotate(-64deg);
     transform: rotate(-64deg);
 }
 #cont6{
-    position: absolute;
-bottom: -24%;
-right: 73%;
-margin: 0px;
-background-color:  #5E5E5E;
-height: 60%;
-width: 40%;
-float: left;
-z-index: 6;
--webkit-transform: rotate(-23deg);
-transform: rotate(-23deg);
+        position: absolute;
+    bottom: -157px;
+    left: -170px;
+    margin: 0px;
+    background-color:  #5E5E5E;
+    height: 393px;
+    width: 520px;
+    float: left;
+    z-index: 6;
+    -webkit-transform: rotate(-23deg);
+    transform: rotate(-23deg);
 }
 
 #media{
     line-height: 5px;
     font-weight: normal;
-    margin-left: 55%;
-    margin-top: 13%;
+    margin-left: 270px;
+    margin-top: 80px;
     padding: 10px;
     -webkit-transform: rotate(23deg);
     transform: rotate(23deg);
@@ -1745,12 +1751,12 @@ transform: rotate(-23deg);
 }
 #cont7{
     position: absolute;
-    bottom: 5%;
-    right: 24%;
+    bottom: 36px;
+    right: 309px;
     margin: 0px;
     background-color:#7E7E7E;
-    height: 90%;
-    width: 66%;
+    height: 590px;
+    width: 858px;
     float: left;
     z-index: 0;
     -webkit-transform: rotate(-10deg);
@@ -1760,8 +1766,8 @@ transform: rotate(-23deg);
 #faculty{
     line-height: 0.5;
     font-weight: normal;
-    margin-left: 29%;
-    margin-top: 17%;
+    margin-left: 234px;
+    margin-top: 145px;
     padding: 10px;
     -webkit-transform: rotate(10deg);
     transform: rotate(10deg);
@@ -1769,12 +1775,12 @@ transform: rotate(-23deg);
 #cont8{
     
     position: absolute;
-    bottom: -48%;
-    right: 21%;
+    bottom: -316px;
+    right: 270px;
     margin: 0px;
     background-color: #535353;
-    height: 60%;
-    width: 74%;
+    height: 394px;
+    width: 962px;
     float: left;
     z-index: 5;
     -webkit-transform: rotate(-14deg);
@@ -1783,8 +1789,8 @@ transform: rotate(-23deg);
 #discipline{
     line-height: 5px;
     font-weight: normal;
-    margin-left: 70%;
-    margin-top: 1%;
+    margin-left: 642px;
+    margin-top: 20px;
     padding: 15px;
     -webkit-transform: rotate(14deg);
     transform: rotate(14deg);
@@ -2033,13 +2039,15 @@ transform: rotate(-23deg);
     width: 100%;
     height: 100%;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: -30px !important;
+    
+    right: 50px !important;
 }
 
 .uc-initial-content,
 .uc-final-content {
     color: rgb(255,248,220);
+
     width: 100%;
     height: 100%;
     position: relative;
@@ -2048,6 +2056,9 @@ transform: rotate(-23deg);
 .uc-final,
 .uc-final-content {
     display: none;
+    background-color: rgb(131,76,36) ;
+    top: 0px;
+    left:0px;
 }
 
 .uc-initial-content {
@@ -2239,8 +2250,9 @@ transform: rotate(-23deg);
 .icon-link:before { content: '\4c'; } /* 'L' */
 
 .demo-2 .grid {
-    width: 460px;
-    margin: 20px auto;
+    position: relative;
+        width: 100%;
+    margin: 0px 10px 0px 45px;
 }
 
 .demo-2 .uc-container {
@@ -2395,11 +2407,10 @@ transform: rotate(-23deg);
 
 #reg_form{
     line-height: 2.4;
-    margin-left: 10%;
+    margin-left: 22%;
     width: 413px;
     padding: 10px;
     background: rgba(128, 128, 128, 0.27);
-    margin: 0 auto;
 }
 
 #reg_form tr{
@@ -2452,11 +2463,19 @@ label[for="gender"]{
     padding: 10px;
     position: relative;
     font-size: 130%;
-    margin-left: 22%;
+    margin-left: 25%;
 }
 #join button{
     font-family: "Ubuntu-L";
     color: #000000;
+}
+
+#reg_query{
+    line-height: 0.5vw;
+    position: absolute;
+    top: 60%;
+    right: 7%;
+    color: #F3CBBF;
 }
 
 /* ===============  Sponser's Page Css -======= */
@@ -2469,7 +2488,7 @@ label[for="gender"]{
    
     background-color: #e4e6e5 ;
     font-family: "Oxygen";
-    color:#4e4e4e;
+    color: rgba(39, 21, 58, 0.96);
     position: relative;
     margin: 0px;
     padding: 0px;
@@ -2482,17 +2501,34 @@ label[for="gender"]{
 .sponsorListHolder{
     font-size: 100%;
     position: relative;
-    height: 100%;
+    height: 50%;
     width: 80%;
-    margin: 6% 10% 0% 16%;
+    margin: 3% 10% 0% 16%;
 }
 #spon_head{
     font-family: "Ubuntu-L";
     text-align: center;
-margin-top: 3%;
-position: relative;
-font-size: 4vw;
-font-weight: bold;
+    margin-top: 3%;
+    position: relative;
+    font-size: 4vw;
+    font-weight: bold;
+
+}
+
+#spon_cord{
+    font-size: 100%;
+    margin-left: 20%;
+    line-height: 1vw;
+}
+
+#co_left{
+    margin-left: -5%;
+    margin-top: -1%;
+    float: left;
+}
+#co_right{
+    margin-top: 3%;
+    margin-left: 18%;
 
 }
 .thumb {
