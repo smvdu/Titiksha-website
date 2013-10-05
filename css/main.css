@@ -180,6 +180,7 @@ a:hover {
     -ms-transition: all 1500ms ease-in-out;
     -o-transition: all 1500ms ease-in-out;
     transition: all 2500ms ease-in-out;
+
 }
 
 .moveRight{
@@ -196,6 +197,8 @@ a:hover {
     height: 140%;
     width: 80.45%;
     -webkit-transform: rotate(14deg);
+    transform: rotate(14deg);
+
     margin: -12% -5%;
     background-color: #000;
 }
@@ -1489,6 +1492,7 @@ margin-left: 42%;
 
 #loaderWrapper{
     -webkit-transform: rotate(-14deg);
+    transform : rotate(-14deg);
     width: 200px;
     margin-left: 20%;
     margin-top: 75%;
@@ -1497,6 +1501,7 @@ margin-left: 42%;
 #loading{
     color: #CECECE;
     -webkit-animation: loading_rotate 2s ease-in-out infinite;
+    animation: loading_rotate 2s ease-in-out infinite;
     text-align: center;
 }
 
@@ -1545,7 +1550,7 @@ margin-left: 42%;
     display: none;
     top: 40px;
     position: relative;
-    transform: rotate(-14deg);
+    
 
 }
 
@@ -1583,8 +1588,8 @@ margin-left: 42%;
     margin: 0px;
     left: -12.95%;
     top: 26.2%;
-    height: 323px;
-    width: 390px;
+    height: 50%;
+    width: 30%;
     background-color:  #4D4D4D;
     float: left;
     z-index: 6;
@@ -1798,7 +1803,6 @@ transform: rotate(-23deg);
     -webkit-transform: rotate(14deg);
     transform: rotate(14deg);
 }
-
 /* ================== about_us =========================*/
 
 .about_us{
@@ -2019,342 +2023,163 @@ transform: rotate(-23deg);
 
 /* pfold style */
 
+.grid{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
 .uc-container {
-    color: ;
+    color: #fff;
     position: relative;
     width: 100px;
     height: 100px;
-    top: 0;
-    left: 0;
-}
-
-.uc-single, 
-.uc-final-wrapper,
-.uc-initial-content,
-.uc-back,
-.uc-front {
-    background:rgb(0,51,51);
-}
-
-.uc-final,
-.uc-initial, 
-.uc-final-wrapper {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.uc-initial-content,
-.uc-final-content {
-    color: rgb(255,248,220);
-    width: 100%;
-    height: 100%;
-    position: relative;
-}
-
-.uc-final,
-.uc-final-content {
-    display: none;
-}
-
-.uc-initial-content {
-    -webkit-backface-visibility: hidden;
-    -moz-backface-visibility: hidden;
-    -o-backface-visibility: hidden;
-    -ms-backface-visibility: hidden;
-    backface-visibility: hidden;
-}
-
-.uc-part {
-    top: 0;
-    left: 0;
-    position: absolute;
-    -webkit-transform-style: preserve-3d;
-    -moz-transform-style: preserve-3d;
-    -o-transform-style: preserve-3d;
-    -ms-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-}
-
-.uc-part > div {
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    -moz-backface-visibility: hidden;
-    -o-backface-visibility: hidden;
-    -ms-backface-visibility: hidden;
-    backface-visibility: hidden;
-}
-
-.uc-part .uc-back {
-    -webkit-transform: rotateY(-180deg);
-    -moz-transform: rotateY(-180deg);
-    -o-transform: rotateY(-180deg);
-    -ms-transform: rotateY(-180deg);
-    transform: rotateY(-180deg);
-}
-
-/* Transformation-origin classes */
-
-.uc-unfold-left {
-    -webkit-transform-origin: 0 50%;
-    -moz-transform-origin: 0 50%;
-    -o-transform-origin: 0 50%;
-    -ms-transform-origin: 0 50%;
-    transform-origin: 0 50%;
-}
-
-.uc-unfold-right {
-    -webkit-transform-origin: 100% 50%;
-    -moz-transform-origin: 100% 50%;
-    -o-transform-origin: 100% 50%;
-    -ms-transform-origin: 100% 50%;
-    transform-origin: 100% 50%;
-}
-
-.uc-unfold-top {
-    -webkit-transform-origin: 50% 0%;
-    -moz-transform-origin: 50% 0%;
-    -o-transform-origin: 50% 0%;
-    -ms-transform-origin: 50% 0%;
-    transform-origin: 50% 0%;
-}
-
-.uc-unfold-bottom {
-    -webkit-transform-origin: 50% 100%;
-    -moz-transform-origin: 50% 100%;
-    -o-transform-origin: 50% 100%;
-    -ms-transform-origin: 50% 100%;
-    transform-origin: 50% 100%;
-}
-
-/* Unfolding classes */
-.uc-unfold-left.uc-unfold {
-    -webkit-transform: rotateY(-180deg);
-    -moz-transform: rotateY(-180deg);
-    -o-transform: rotateY(-180deg);
-    -ms-transform: rotateY(-180deg);
-    transform: rotateY(-180deg);
-}
-
-.uc-unfold-right.uc-unfold {
-    -webkit-transform: rotateY(180deg);
-    -moz-transform: rotateY(180deg);
-    -o-transform: rotateY(180deg);
-    -ms-transform: rotateY(180deg);
-    transform: rotateY(180deg);
-}
-
-.uc-unfold-top.uc-unfold {
-    -webkit-transform: rotateX(180deg);
-    -moz-transform: rotateX(180deg);
-    -o-transform: rotateX(180deg);
-    -ms-transform: rotateX(180deg);
-    transform: rotateX(180deg);
-}
-
-.uc-unfold-bottom.uc-unfold{
-    -webkit-transform: rotateX(-180deg);
-    -moz-transform: rotateX(-180deg);
-    -o-transform: rotateX(-180deg);
-    -ms-transform: rotateX(-180deg);
-    transform: rotateX(-180deg);
-}
-
-.uc-overlay {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.uc-overlay, 
-.uc-flipoverlay {
-    background-color: rgba(100, 100, 100, 0.7);
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    -webkit-backface-visibility: hidden;
-    -moz-backface-visibility: hidden;
-    -o-backface-visibility: hidden;
-    -ms-backface-visibility: hidden;
-    backface-visibility: hidden;
-}
-
-.uc-flipoverlay {
-    background-color: rgba(100, 100, 100, 0.4);
-}
-
-.uc-inner {
-    position: absolute;
-    left: 0;
-    top: 0;
-    overflow: hidden;
-    width: 100%;
-    height: 100%;
-}
-
-.uc-inner-rotate {
-    -webkit-transform: rotateY(180deg) rotateX(180deg);
-    -moz-transform: rotateY(180deg) rotateX(180deg);
-    -o-transform: rotateY(180deg) rotateX(180deg);
-    -ms-transform: rotateY(180deg) rotateX(180deg);
-    transform: rotateY(180deg) rotateX(180deg);
-}
-
-.uc-container.uc-current {
-    z-index: 9999;
-}
-
-@import url(http://fonts.googleapis.com/css?family=Satisfy|Open+Sans+Condensed:700,300);
-
-/* paper css */
-@font-face {
-  font-family: 'entypo-selected';
-  src: url("../font/entypo-selected.eot");
-  src: url("../font/entypo-selected.eot?#iefix") format('embedded-opentype'), url("../font/entypo-selected.woff") format('woff'), url("../font/entypo-selected.ttf") format('truetype'), url("../font/entypo-selected.svg#entypo-selected") format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-[class^="icon-"]:before,
-[class*=" icon-"]:before {
-    font-family: 'entypo-selected';
-
-  font-style: normal;
-  font-weight: normal;
-  speak: none;
-  display: inline-block;
-  text-decoration: inherit;
-  width: 1em;
-  margin-right: 0.2em;
-  text-align: center;
-  line-height: 1em;
-}
-
-.icon-cancel:before { content: '\2715'; } /* '✕' */
-.icon-plus-circle:before { content: '\50'; } /* 'P' */
-.icon-forward:before { content: '\47'; } /* 'G' */
-.icon-eye:before { content: '\56'; } /* 'V' */
-.icon-search:before { content: '\5a'; } /* 'Z' */
-.icon-link:before { content: '\4c'; } /* 'L' */
-
-.demo-2 .grid {
-    width: 460px;
-    margin: 20px auto;
-}
-
-.demo-2 .uc-container {
-    width: 200px;
-    height: 150px;
     float: left;
-    margin: 15px;
+    margin: 57px;
 }
 
-.demo-2 .uc-single, 
-.demo-2 .uc-final,
-.demo-2 .uc-initial-content,
-.demo-2 .uc-back,
-.demo-2 .uc-front {
-  }
+.md-trigger{
+    width: 200px;
+    height: 200px;
+    background: rgb(0,51,51);
+    color: #fff;
+}
+/* General styles for the modal */
 
-.demo-2 .icon-eye {
-    position: absolute;
-    top: 0;
-    left: 0;
-    text-indent: 4px;
-    font-size: 60px;
-    color: transparent;
-    color: rgba(255,255,255,0);
-    width: 100%;
+/* 
+Styles for the html/body for special modal where we want 3d effects
+Note that we need a container wrapping all content on the page for the 
+perspective effects (not including the modals and the overlay).
+*/
+.md-perspective,
+.md-perspective body {
     height: 100%;
-    line-height: 145px;
-    text-align: center;
-    background: rgba(41,166,170,0);
-    cursor: pointer;
+    overflow: hidden;
+}
+
+.md-perspective body  {
+    background: #222;
+    -webkit-perspective: 600px;
+    -moz-perspective: 600px;
+    perspective: 600px;
+}
+
+.container {
+    background: #e74c3c;
+    min-height: 100%;
+}
+
+.md-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    max-width: 630px;
+    min-width: 320px;
+    height: auto;
+    z-index: 2000;
+    visibility: hidden;
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
-    -o-backface-visibility: hidden;
-    -ms-backface-visibility: hidden;
     backface-visibility: hidden;
-    -webkit-transition: all 0.3s linear;
-    -moz-transition: all 0.3s linear;
-    -o-transition: all 0.3s linear;
-    -ms-transition: all 0.3s linear;
-    transition: all 0.3s linear;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
 }
 
-.no-touch .demo-2 .uc-initial-content:hover .icon-eye {
-    color: rgba(255,255,255,0.8);
-    background: rgba(41,166,170,0.7);
+.md-show {
+    visibility: visible;
 }
 
-.demo-2 .uc-initial-content img {
-    display: block;
+.md-overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    opacity: 0;
+    background: rgba(151, 132, 130, 0.8);
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
 }
 
-.demo-2 .title {
-    position: absolute;
-    background: rgba(255,255,255,0.9);
-    bottom: 10px;
-    left: 10px;
-    right: 10px;
-    padding: 10px;
-    font-size: 12px;
-    line-height: 16px;
-    font-weight: bold;
-}
-
-.demo-2 .title h4 {
-    color: #aaa;
-}
-
-.demo-2 .icon-link {
-    width: 30px;
-    height: 30px;
-    background: #ddd;
-    position: absolute;
-    right: 10px;
-    top: 10px;
-    line-height: 26px;
-    text-align: center;
-    font-size: 18px;
-    border-radius: 50%;
-    text-indent: 2px;
-}
-
-.demo-2 .icon-cancel {
-    position: absolute;
-    background: rgba(0,0,0,0.4);
-    text-align: center;
-    line-height: 15px;
-    font-size: 18px;
-    color: #fff;
+.md-show ~ .md-overlay {
     opacity: 1;
-    width: 18px;
-    top: 10px;
-    right: 10px;
-    cursor: pointer;
-    border-radius: 2px;
-    box-shadow: 0 1px 0 rgba(255,255,255,0.4);
+    visibility: visible;
 }
 
-.demo-2 .icon-cancel:hover {
-    background: rgba(0,0,0,1);
+/* Content styles */
+.md-content {
+    color: #fff;
+    background: #5D95A0;
+    position: relative;
+    border-radius: 3px;
+    margin: 0 auto;
 }
 
-.demo-2 .uc-current .uc-container{
-
+.md-content h3 {
+    margin: 0;
+    padding: 0.4em;
+    text-align: center;
+    font-size: 2.4em;
+    font-weight: 300;
+    opacity: 0.8;
+    background: rgba(0,0,0,0.1);
+    border-radius: 3px 3px 0 0;
 }
 
+.md-content > div {
+    padding: 15px 40px 30px;
+    margin: 0;
+    font-weight: 300;
+    font-size: 1.15em;
+}
+
+.md-content > div p {
+    margin: 0;
+    padding: 10px 0;
+}
+
+.md-content > div ul {
+    margin: 0;
+    padding: 0 0 30px 20px;
+}
+
+.md-content > div ul li {
+    padding: 5px 0;
+}
+
+.md-content button {
+    display: block;
+    margin: 0 auto;
+    font-size: 0.8em;
+}
+
+/* Individual modal styles with animations/transitions */
+
+
+/* Effect 11: Super scaled */
+.md-effect-11 .md-content {
+    -webkit-transform: scale(2);
+    -moz-transform: scale(2);
+    -ms-transform: scale(2);
+    transform: scale(2);
+    opacity: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.md-show.md-effect-11 .md-content {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+}
 
 /* ============================   */
 
@@ -2404,11 +2229,10 @@ transform: rotate(-23deg);
 
 #reg_form{
     line-height: 2.4;
-    margin-left: 10%;
+    margin-left: 22%;
     width: 413px;
     padding: 10px;
     background: rgba(128, 128, 128, 0.27);
-    margin: 0 auto;
 }
 
 #reg_form tr{
@@ -2461,11 +2285,19 @@ label[for="gender"]{
     padding: 10px;
     position: relative;
     font-size: 130%;
-    margin-left: 22%;
+    margin-left: 25%;
 }
 #join button{
     font-family: "Ubuntu-L";
     color: #000000;
+}
+
+#reg_query{
+    line-height: 0.5vw;
+    position: absolute;
+    top: 60%;
+    right: 7%;
+    color: #F3CBBF;
 }
 
 /* ===============  Sponser's Page Css -======= */
@@ -2478,7 +2310,7 @@ label[for="gender"]{
    
     background-color: #e4e6e5 ;
     font-family: "Oxygen";
-    color:#4e4e4e;
+    color: rgba(39, 21, 58, 0.96);
     position: relative;
     margin: 0px;
     padding: 0px;
@@ -2491,17 +2323,35 @@ label[for="gender"]{
 .sponsorListHolder{
     font-size: 100%;
     position: relative;
-    height: 100%;
+    height: 50%;
     width: 80%;
-    margin: 6% 10% 0% 16%;
+    margin: 3% 10% 0% 16%;
 }
 #spon_head{
     font-family: "Ubuntu-L";
     text-align: center;
-margin-top: 3%;
-position: relative;
-font-size: 4vw;
-font-weight: bold;
+    margin-top: 3%;
+    position: relative;
+    font-size: 4vw;
+    font-weight: bold;
+
+}
+
+#spon_cord{
+    display: none;
+    font-size: 100%;
+    margin-left: 20%;
+    line-height: 1vw;
+}
+
+#co_left{
+    margin-left: -5%;
+    margin-top: -1%;
+    float: left;
+}
+#co_right{
+    margin-top: 3%;
+    margin-left: 18%;
 
 }
 .thumb {

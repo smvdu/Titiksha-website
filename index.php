@@ -36,6 +36,7 @@
 		
 		<link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/component.css" />
 
         <!--  Timer css scripts   !-->
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" />
@@ -293,10 +294,87 @@
 					</div>
 
 					<div class="event_content" style="display:none;">
+						
+						<div id="grid">
+						
+							<div class="uc-container">
+								<div class="md-trigger" data-modal="modal-11">
+									<span class="icon-eye">mega one</span>
+								</div>
+								<div class="md-modal md-effect-11" id="modal-11">
+									<div class="md-content">
+										<h3>Modal Dialog</h3>
+										<div>
+											<p>This is a modal window. You can do the following things with it:</p>
+											<ul>
+												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+												<li><strong>Close:</strong> click on the button below to close the modal.</li>
+											</ul>
+											<button class="md-close">Close me!</button>
+										</div>
+									</div>
+								</div>
+								<div class="md-overlay"></div><!-- the overlay element -->
+							</div><!-- / uc-container -->
+														<div class="uc-container">
+								<div class="md-trigger" data-modal="modal-11">
+									<span class="icon-eye">mega one</span>
+								</div>
+								<div class="md-modal md-effect-11" id="modal-11">
+									<div class="md-content">
+										<h3>Modal Dialog</h3>
+										<div>
+											<p>This is a modal window. You can do the following things with it:</p>
+											<ul>
+												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+												<li><strong>Close:</strong> click on the button below to close the modal.</li>
+											</ul>
+											<button class="md-close">Close me!</button>
+										</div>
+									</div>
+								</div>
+								<div class="md-overlay"></div><!-- the overlay element -->
+							</div><!-- / uc-container -->
+							
+							
+						</div><!-- / grid -->
+						
+				</div>
+			</div>
+
+				<div class="branch" id="cse">
+					<div class="event_heading">
+						<span class="heading_text">Computer</span>
+					</div>
+					<div class="event_content" style="display:none;">
 						<section class="main demo-2">
 						
 						<div id="grid" class="grid clearfix">
 						
+							<div class="uc-container">
+								<div class="uc-initial-content">
+									<span class="icon-eye">mega one</span>
+								</div>
+								<div class="uc-final-content">
+									<p>This event is Really exciting and Fun. Participate and Grab bunch of Prizes</p>
+									<div class="title"><h4>The Professor</h4> by Dan Matutina <a href="http://drbl.in/dMLS" class="icon-link"></a></div>
+									<span class="icon-cancel"></span>
+								</div>
+							</div><!-- / uc-container -->
+							
+							<div class="uc-container">
+								<div class="uc-initial-content">
+									<span class="icon-eye">mega one</span>
+								</div>
+								<div class="uc-final-content">
+									<p>This event is Really exciting and Fun. Participate and Grab bunch of Prizes</p>
+									<div class="title"><h4>The Professor</h4> by Dan Matutina <a href="http://drbl.in/dMLS" class="icon-link"></a></div>
+									<span class="icon-cancel"></span>
+								</div>
+							</div><!-- / uc-container -->
+
 							<div class="uc-container">
 								<div class="uc-initial-content">
 									<span class="icon-eye">mega one</span>
@@ -320,17 +398,7 @@
 								</div>
 							</div><!-- / uc-container -->
 
-							<div class="uc-container">
-								<div class="uc-initial-content">
-									<img src="" alt="image03" />
-									<span class="icon-eye"></span>
-								</div>
-								<div class="uc-final-content">
-									<img src="" alt="image03-large" />
-									<div class="title"><h4>Angry Nerd Blofeld</h4> by Dan Matutina <a href="http://drbl.in/eLEa" class="icon-link"></a></div>
-									<span class="icon-cancel"></span>
-								</div>
-							</div><!-- / uc-container -->
+							
 
 							<div class="uc-container">
 								<div class="uc-initial-content">
@@ -356,80 +424,6 @@
 								</div>
 							</div><!-- / uc-container -->
 
-						</div><!-- / grid -->
-						
-					</section>
-				</div>
-			</div>
-
-				<div class="branch" id="cse">
-					<div class="event_heading">
-						<span class="heading_text">Computer</span>
-					</div>
-					<div class="event_content" style="display:none;">
-						<section class="main demo-2">
-						
-						<div id="grid" class="grid clearfix">
-						
-							<div class="uc-container">
-								<div class="uc-initial-content">
-									<span class="icon-eye">mega one</span>
-								</div>
-								<div class="uc-final-content">
-									<p>sfajkshfaslkgsaflgsjf;gjasjflg;sfjgjsf;gas
-									sglsjfgjas;fjgals;fjg;lsflgs;fljgsf</p>
-									<div class="title"><h4>The Professor</h4> by Dan Matutina <a href="http://drbl.in/dMLS" class="icon-link"></a></div>
-									<span class="icon-cancel"></span>
-								</div>
-							</div><!-- / uc-container -->
-
-							<div class="uc-container">
-								<div class="uc-initial-content">
-									<img src="" alt="image02" />
-									<span class="icon-eye"></span>
-								</div>
-								<div class="uc-final-content">
-									<img src="" alt="image02-large" />
-									<div class="title"><h4>Planet</h4> by Dan Matutina <a href="http://drbl.in/eZoL" class="icon-link"></a></div>
-									<span class="icon-cancel"></span>
-								</div>
-							</div><!-- / uc-container -->
-
-							<div class="uc-container">
-								<div class="uc-initial-content">
-									<img src="" alt="image03" />
-									<span class="icon-eye"></span>
-								</div>
-								<div class="uc-final-content">
-									<img src="" alt="image03-large" />
-									<div class="title"><h4>Angry Nerd Blofeld</h4> by Dan Matutina <a href="http://drbl.in/eLEa" class="icon-link"></a></div>
-									<span class="icon-cancel"></span>
-								</div>
-							</div><!-- / uc-container -->
-
-							<div class="uc-container">
-								<div class="uc-initial-content">
-									<img src="" alt="image04" />
-									<span class="icon-eye"></span>
-								</div>
-								<div class="uc-final-content">
-									<img src="" alt="image04-large" />
-									<div class="title"><h4>Ero Senin</h4> by Dan Matutina <a href="http://drbl.in/dJfK" class="icon-link"></a></div>
-									<span class="icon-cancel"></span>
-								</div>
-							</div><!-- / uc-container -->
-
-							<div class="uc-container">
-								<div class="uc-initial-content">
-									<img src="" alt="image04" />
-									<span class="icon-eye"></span>
-								</div>
-								<div class="uc-final-content">
-									<img src="" alt="image04-large" />
-									<div class="title"><h4>Ero Senin</h4> by Dan Matutina <a href="http://drbl.in/dJfK" class="icon-link"></a></div>
-									<span class="icon-cancel"></span>
-								</div>
-							</div><!-- / uc-container -->
 
 						</div><!-- / grid -->
 						
@@ -794,6 +788,20 @@ $sponsors = array(
 				       
 				    </div>
 
+				    <div id="spon_cord">
+				    	<h3>Sponsorship Co-ordinator</h3>
+				    	<div id="co_left">
+					    	<p>Navjot Sasan</p>
+					    	<p>*********@gmail.com</p>
+					    	<span style="color: #000;">+91-1413245252</span>
+				    	</div>
+				    	<div id="co_right">
+					    	<p>Gaurav Singh</p>
+					    	<p>abc#gmail.com</p>
+					    	<span style="color: #000;">+91-9796-446317</span>
+				    	</div>
+				    </div>
+
 				</div>
 
 		</section>	
@@ -881,6 +889,16 @@ $sponsors = array(
 
 				<div id="join">
 					<button id="submit_form">Join Titiksha</button>
+				</div>
+				<div id="reg_query">
+					<span>For any queries : Contact</span>
+					<h4>Megha Sharma</h4>
+					<p>+91-9086-118089</p>
+					<p>meghas19@yahoo.co.in</p><br>
+
+					<h4>Sahil Khuslani</h4>
+					<p>+91-9622-356797</p>
+					<p>***********@gmail.com</p>
 				</div>
 		    </div>	
 		</div>
@@ -1095,9 +1113,10 @@ $sponsors = array(
 					switch( i ) {
 						case 0 : direction = ['right','bottom']; break;
 						case 1 : direction = ['left','bottom']; break;
-						case 2 : direction = ['right','top']; break;
-						case 3 : direction = ['left','top']; break;
-						case 4 : direction = ['left','bottom']; break;
+						case 2 : direction = ['left','bottom']; break;
+						case 3 : direction = ['right','top']; break;
+						case 4 : direction = ['right','top']; break;
+						case 5 : direction = ['left','top']; break;
 					
 					}
 					
@@ -1125,9 +1144,10 @@ $sponsors = array(
 				
 			});
 		</script>
-
-		<script type="text/javascript" src="js/jquery.pfold.js"></script>
-		
+		<!-- classie.js by @desandro: https://github.com/desandro/classie -->
+		<script src="js/classie.js"></script>
+		<script src="js/modalEffects.js"></script>
+				
 		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
             var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
