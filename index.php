@@ -749,18 +749,17 @@
 
 
 $sponsors = array(
-	array('qou','The Biggest Qouttion and Answer Forum.','http://www.quora.com/'),
-	array('adobe','The leading software developer targeted at web designers and developers.','http://www.adobe.com/'),
-	array('microsoft','One of the top software companies of the world.','http://www.microsoft.com/'),
-	array('sony','A global multibillion electronics and entertainment company ','http://www.sony.com/'),
-	array('dell','One of the biggest computer developers and assemblers.','http://www.dell.com/'),
-	array('ubuntu','Free Operating System.','http://www.ubuntu.com/'),
+	array('reebok','Reebok International Limited, a subsidiary of the German company Adidas since 2005, is a producer of athletic shoes, clothing, and accessories.','http://www.reebok.com/'),
+	array('jkbank','J&K Bank functions as a universal bank in Jammu & Kashmir and as a specialised bank in the rest of the country.','http://www.jkbank.net/'),
+	array('tcs','TCS is a leader in the global marketplace and among the top 10 technology firms in the world.','http://www.tcs.com/'),
+	array('doordarshan','The backbone of Indian entertainment and news industry. ','http://www.ddindia.gov.in/'),
+	array('kcresidency','K.C. Residency is a Landmark in Jammu, the city of temples, located at Residency Road the commercial centre of Jammu in Jammu & Kashmir state.','http://www.kcresidency.com/'),
+	array('jammulinks','The virtual search engine for Jammu & Kashmir','http://www.jammulinks.com/'),
 	array('mysql','The most popular open source database engine.','http://www.mysql.com/'),
 	array('hp','One of the biggest computer manufacturers.','http://www.hp.com/'),
 );
 
 ?>
-
 					<div class="sponsorListHolder">
 
 						
