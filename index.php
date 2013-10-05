@@ -36,6 +36,7 @@
 		
 		<link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/component.css" />
 
         <!--  Timer css scripts   !-->
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" />
@@ -293,84 +294,53 @@
 					</div>
 
 					<div class="event_content" style="display:none;">
-						<section class="main demo-2">
 						
-						<div id="grid" class="grid clearfix">
+						<div id="grid">
 						
 							<div class="uc-container">
-								<div class="uc-initial-content">
+								<div class="md-trigger" data-modal="modal-11">
 									<span class="icon-eye">mega one</span>
 								</div>
-								<div class="uc-final-content">
-									<p>This event is Really exciting and Fun. Participate and Grab bunch of Prizes</p>
-									<div class="title"><h4>The Professor</h4> by Dan Matutina <a href="http://drbl.in/dMLS" class="icon-link"></a></div>
-									<span class="icon-cancel"></span>
+								<div class="md-modal md-effect-11" id="modal-11">
+									<div class="md-content">
+										<h3>Modal Dialog</h3>
+										<div>
+											<p>This is a modal window. You can do the following things with it:</p>
+											<ul>
+												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+												<li><strong>Close:</strong> click on the button below to close the modal.</li>
+											</ul>
+											<button class="md-close">Close me!</button>
+										</div>
+									</div>
 								</div>
+								<div class="md-overlay"></div><!-- the overlay element -->
+							</div><!-- / uc-container -->
+														<div class="uc-container">
+								<div class="md-trigger" data-modal="modal-11">
+									<span class="icon-eye">mega one</span>
+								</div>
+								<div class="md-modal md-effect-11" id="modal-11">
+									<div class="md-content">
+										<h3>Modal Dialog</h3>
+										<div>
+											<p>This is a modal window. You can do the following things with it:</p>
+											<ul>
+												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+												<li><strong>Close:</strong> click on the button below to close the modal.</li>
+											</ul>
+											<button class="md-close">Close me!</button>
+										</div>
+									</div>
+								</div>
+								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
 							
-							<div class="uc-container">
-								<div class="uc-initial-content">
-									<span class="icon-eye">mega one</span>
-								</div>
-								<div class="uc-final-content">
-									<p>This event is Really exciting and Fun. Participate and Grab bunch of Prizes</p>
-									<div class="title"><h4>The Professor</h4> by Dan Matutina <a href="http://drbl.in/dMLS" class="icon-link"></a></div>
-									<span class="icon-cancel"></span>
-								</div>
-							</div><!-- / uc-container -->
-
-							<div class="uc-container">
-								<div class="uc-initial-content">
-									<span class="icon-eye">mega one</span>
-								</div>
-								<div class="uc-final-content">
-									<p>This event is Really exciting and Fun. Participate and Grab bunch of Prizes</p>
-									<div class="title"><h4>The Professor</h4> by Dan Matutina <a href="http://drbl.in/dMLS" class="icon-link"></a></div>
-									<span class="icon-cancel"></span>
-								</div>
-							</div><!-- / uc-container -->
-
-							<div class="uc-container">
-								<div class="uc-initial-content">
-									<img src="" alt="image02" />
-									<span class="icon-eye"></span>
-								</div>
-								<div class="uc-final-content">
-									<img src="" alt="image02-large" />
-									<div class="title"><h4>Planet</h4> by Dan Matutina <a href="http://drbl.in/eZoL" class="icon-link"></a></div>
-									<span class="icon-cancel"></span>
-								</div>
-							</div><!-- / uc-container -->
-
 							
-
-							<div class="uc-container">
-								<div class="uc-initial-content">
-									<img src="" alt="image04" />
-									<span class="icon-eye"></span>
-								</div>
-								<div class="uc-final-content">
-									<img src="" alt="image04-large" />
-									<div class="title"><h4>Ero Senin</h4> by Dan Matutina <a href="http://drbl.in/dJfK" class="icon-link"></a></div>
-									<span class="icon-cancel"></span>
-								</div>
-							</div><!-- / uc-container -->
-
-							<div class="uc-container">
-								<div class="uc-initial-content">
-									<img src="" alt="image04" />
-									<span class="icon-eye"></span>
-								</div>
-								<div class="uc-final-content">
-									<img src="" alt="image04-large" />
-									<div class="title"><h4>Ero Senin</h4> by Dan Matutina <a href="http://drbl.in/dJfK" class="icon-link"></a></div>
-									<span class="icon-cancel"></span>
-								</div>
-							</div><!-- / uc-container -->
-
 						</div><!-- / grid -->
 						
-					</section>
 				</div>
 			</div>
 
@@ -1175,7 +1145,9 @@ $sponsors = array(
 				
 			});
 		</script>
-
+		<!-- classie.js by @desandro: https://github.com/desandro/classie -->
+		<script src="js/classie.js"></script>
+		<script src="js/modalEffects.js"></script>
 				
 		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
