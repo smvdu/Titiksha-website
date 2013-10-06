@@ -833,7 +833,7 @@
 						
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-19">
-									<span class="icon-eye">Event one</span>
+									<span class="icon-eye">WAVEMANIA</span>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-19">
 									<div class="md-content">
@@ -841,13 +841,17 @@
 											<button class="md-register register">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
-										<h3>Tech Roadies</h3>
+										<h3>WAVEMANIA</h3>
 										<div>
-											<p>This is a modal window. You can do the following things with it:</p>
+											<p>The event consists of 2 <strong>rounds</strong>.
+												<br>The  Prelims  consist  of  a  small  Q/A  session  of  one’s  knowledge  of
+												basic electrical components.
+												The  second  round:  The  participants  will  be  given  electronic
+												components  and  an  oscilloscope  and they have to generate waveforms.
+												The most interesting ones win.</p>
 											<ul>
-												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
-												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
-												<li><strong>Close:</strong> click on the button below to close the modal.</li>
+												<li><strong>Event Co-ordinator : Alpha Beta</strong></li>
+												<li><strong>Contact : +91-1234567890</strong></li>
 											</ul>
 											
 										</div>
@@ -857,7 +861,7 @@
 							</div><!-- / uc-container -->
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-20">
-									<span class="icon-eye">second Events</span>
+									<span class="icon-eye">ELECTRO-QUIZ</span>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-20">
 									<div class="md-content">
@@ -865,14 +869,14 @@
 											<button class="md-register register">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
-										<h3>second events</h3>
+										<h3>ELECTRO-QUIZ</h3>
 										<div>
-											<p>This is a modal window. You can do the following things with it:</p>
+											<p>Questions  will  be  based  on  knowledge  regarding  with  lab  instruments and  related  to  technology.  The  quiz  will  be  held  in  two  <strong>rounds</strong>. Those
+												qualifying  the  preliminary  round  will be permitted to participate in the
+												final.</p>
 											<ul>
-												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
-												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
-												<li><strong>Close:</strong> click on the button below to close the modal.</li>
-											</ul>
+												<li><strong>Event co-ordinator: </strong> Alpha Beta</li>
+												<li><strong>Contact:</strong> +91-1234567890</li> 
 											
 										</div>
 									</div>
@@ -881,7 +885,7 @@
 							</div><!-- / uc-container -->
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-21">
-									<span class="icon-eye">Third Events</span>
+									<span class="icon-eye">ELECTRO-AVATAR</span>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-21">
 									<div class="md-content">
@@ -889,13 +893,18 @@
 											<button class="md-register register">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
-										<h3>second events</h3>
+										<h3>ELECTRO-AVATAR</h3>
 										<div>
-											<p>This is a modal window. You can do the following things with it:</p>
+											<p>This  event  is  a  blend  of  <strong>science</strong>  and  <strong>imagination</strong>.  Design  your  own
+												super  hero  and  win  prizes.  Participants  will  form  pairs,  and  they  have
+												to  write  a fictitious short  story  based  on  the  picture  shown  to  them  at
+												the  event  venue.
+												The  top  participants  will  make  a  short  movie  on  their  superhero of the
+												length  of  their  choice  and  the  best  video  would  be  shown  in  the
+												Matrika Auditorium during the valedictory of Titiksha.</p>
 											<ul>
-												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
-												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
-												<li><strong>Close:</strong> click on the button below to close the modal.</li>
+												<li><strong>Event co-ordinator: </strong> Alpha Beta</li>
+												<li><strong>Contact: </strong> +91-1234567890</li>
 											</ul>
 											
 										</div>
@@ -905,7 +914,7 @@
 							</div><!-- / uc-container -->
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-22">
-									<span class="icon-eye">Fourth Events</span>
+									<span class="icon-eye">CIRCUIT-BUG</span>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-22">
 									<div class="md-content">
@@ -913,13 +922,17 @@
 											<button class="md-register register">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
-										<h3>second events</h3>
+										<h3>CIRCUIT-BUG</h3>
 										<div>
-											<p>This is a modal window. You can do the following things with it:</p>
+											<p>An event for those obsessed with circuits, comprising of two <strong>rounds</strong>.</p>
 											<ul>
-												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
-												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
-												<li><strong>Close:</strong> click on the button below to close the modal.</li>
+												<li><em><strong>Round 1 </strong></em>: a questionnaire for prelims.</li>
+												<li><em><strong>Round 2 </strong></em>:  A  dysfunctional  circuit  will  be  given  to  the  participant.  The
+												one who fixes his/her circuit first will brag the prize.</li>
+											</ul>
+											<ul>
+												<li><strong>Event co-ordinator: </strong> Alpha Beta</li>
+												<li><strong>Contact: </strong> +91-1234567890</li>
 											</ul>
 											
 										</div>
@@ -929,7 +942,7 @@
 							</div><!-- / uc-container -->
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-23">
-									<span class="icon-eye">Fifth Events</span>
+									<span class="icon-eye">MICROCONTROLLER CODING</span>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-23">
 									<div class="md-content">
@@ -937,13 +950,13 @@
 											<button class="md-register register">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
-										<h3>second events</h3>
+										<h3>MICROCONTROLLER CODING</h3>
 										<div>
-											<p>This is a modal window. You can do the following things with it:</p>
+											<p>Using  <strong>microprocessor/microcontroller</strong>  build  a  real  life  application
+											(only software)</p>
 											<ul>
-												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
-												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
-												<li><strong>Close:</strong> click on the button below to close the modal.</li>
+												<li><strong>Event co-ordinator: </strong> Alpha Beta</li>
+												<li><strong>Contact: </strong> +91-1234567890</li>
 											</ul>
 											
 										</div>
@@ -953,7 +966,7 @@
 							</div><!-- / uc-container -->
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-24">
-									<span class="icon-eye">sixth Events</span>
+									<span class="icon-eye">CIRCUIT-ELECTRONIQUE</span>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-24">
 									<div class="md-content">
@@ -961,13 +974,17 @@
 											<button class="md-register register">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
-										<h3>second events</h3>
+										<h3>CIRCUIT-ELECTRONIQUE</h3>
 										<div>
-											<p>This is a modal window. You can do the following things with it:</p>
+											<p>An  event  for  those  who  believe  themselves  to  be  circuit­experts.
+												Participants  can  come  in  
+												<strong>pairs</strong>  and  will  be  shortlisted  through  a
+												preliminary round for the final circuit assembly test. <strong>Final</strong> :  The  circuit  assembling  skills  of  the  participants  will  be  put  to
+												test.  Time  taken  by  the  participants  and  the  quality  of  the  circuit
+												designed will determine the winner.</p>
 											<ul>
-												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
-												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
-												<li><strong>heuya:</strong> click on the button below to close the modal.</li>
+												<li><strong>Event co-ordinator: </strong> Alpha Beta</li>
+												<li><strong>Contact: </strong> +91-1234567890</li>
 											</ul>
 											
 										</div>
@@ -976,6 +993,40 @@
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
 							
+							<div class="uc-container">
+								<div class="md-trigger" data-modal="modal-55">
+									<span class="icon-eye">ELECTRO TRADE</span>
+								</div>
+								<div class="md-modal md-effect-11" id="modal-55">
+									<div class="md-content">
+										<div class="md-header">
+											<button class="md-register register">Register</button>
+											<button class="md-close close">Close!</button>
+										</div>
+										<h3>ELECTRO TRADE</h3>
+										<div>
+											<p>
+												<ul>
+													<li>The first round comprises of a paper, which will have multiple
+														choice type questions  which will be related to TECHNOLOGY. Based
+														on the score of the test, teams will be shortlisted for the next round.</li>
+													<li>15 selected teams will go for second round. This is rapid fire round
+														where POINTS  will be rewarded depending upon no. of correct
+														answer given by the team .</li>	
+													<li>The objective of the third round is to make a circuit. But that's not it.
+                                                        The details about the circuit will be hidden in a hint given to you.</li>
+												</ul>
+											</p>
+											<ul>
+												<li><strong>Event co-ordinator: </strong> Alpha Beta</li>
+												<li><strong>Contact: </strong> +91-1234567890</li>
+											</ul>
+											
+										</div>
+									</div>
+								</div>
+								<div class="md-overlay"></div><!-- the overlay element -->
+							</div><!-- / uc-container -->
 							
 						</div><!-- / grid -->
 					</div>
@@ -990,7 +1041,7 @@
 						
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-25">
-									<span class="icon-eye">Event one</span>
+									<span class="icon-eye">ARCHITECTURAL SYMPOSIUM</span>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-25">
 									<div class="md-content">
@@ -998,13 +1049,18 @@
 											<button class="md-register register">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
-										<h3>Tech Roadies</h3>
+										<h3>ARCHITECTURAL SYMPOSIUM</h3>
 										<div>
-											<p>This is a modal window. You can do the following things with it:</p>
+											<p>In  the  debate  on  public  space,  references  are  still  being  made  to
+												traditional  examples:  coffeehouses  in  which  politics  were  discussed,
+												boulevards  where  vagrants  warily eye the bourgeoisie, old city squares
+												used  by  a  diverse  public.  But  are  these  public  spaces  still the spaces of
+												the  contemporary  city?  Has  the  public  not  become  so  diverse  that  a
+												space with which everyone identifies no longer exists?
+												In  this  event  you  have  to  write  an  article  in  not  more  than  <strong><em>450</em>  words</strong>.</p>
 											<ul>
-												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
-												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
-												<li><strong>Close:</strong> click on the button below to close the modal.</li>
+												<li><strong>Event co-ordinator: </strong> Alpha Beta</li>
+												<li><strong>Contact: </strong> +91-1234567890</li>
 											</ul>
 											
 										</div>
@@ -1014,7 +1070,7 @@
 							</div><!-- / uc-container -->
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-26">
-									<span class="icon-eye">second Events</span>
+									<span class="icon-eye">ART INSTALLATION</span>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-26">
 									<div class="md-content">
@@ -1022,13 +1078,17 @@
 											<button class="md-register register">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
-										<h3>second events</h3>
+										<h3>ART INSTALLATION</h3>
 										<div>
-											<p>This is a modal window. You can do the following things with it:</p>
+											<p>Installation  art  can  be  either  temporary  or  permanent.  Installation
+												artworks  have  been  constructed  in  exhibition  spaces  such  as  museums
+												and  galleries,  as  well as public and private spaces. Here, what you have
+												to  do  is  to  make  an  <strong>art  installation</strong>  using  natural  as  well  as  waste
+												products,  gathering  from  university  campus.  The  theme  will  be
+												provided on the spot.</p>
 											<ul>
-												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
-												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
-												<li><strong>Close:</strong> click on the button below to close the modal.</li>
+												<li><strong>Event co-ordinator: </strong> Alpha Beta</li>
+												<li><strong>Look: </strong> +91-1234567890</li>
 											</ul>
 											
 										</div>
@@ -1038,7 +1098,7 @@
 							</div><!-- / uc-container -->
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-27">
-									<span class="icon-eye">Third Events</span>
+									<span class="icon-eye">DIGI-ART</span>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-27">
 									<div class="md-content">
@@ -1046,13 +1106,18 @@
 											<button class="md-register register">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
-										<h3>second events</h3>
+										<h3>DIGI-ART</h3>
 										<div>
-											<p>This is a modal window. You can do the following things with it:</p>
+											<p><em>Digital</em>  art  is  a  general  term  for  a  range  of  artistic  works  and  practices
+												that  use  digital  technology  as  an  essential  part  of  the  creative  and/or
+												presentation  process.  Since  the  <strong>1970s</strong>,  various  names  have  been  used to  describe  the  process  including  computer  art  and multimedia art, and
+												digital art is itself placed under the larger umbrella term new media art.
+												In  this  event  you  have  to  produce  some  digital  modals  using  simple
+												Google  “sketch­up”  software,  you  can  also  use  v­ray  for  the rendering
+												purpose. Theme will be revealed at the time of event.</p>
 											<ul>
-												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
-												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
-												<li><strong>Close:</strong> click on the button below to close the modal.</li>
+												<li><strong>Event co-ordinator: </strong></li>
+												<li><strong>Contact: </strong></li>
 											</ul>
 											
 										</div>
@@ -1062,7 +1127,7 @@
 							</div><!-- / uc-container -->
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-28">
-									<span class="icon-eye">Fourth Events</span>
+									<span class="icon-eye">FACE-PAINTING</span>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-28">
 									<div class="md-content">
@@ -1070,13 +1135,20 @@
 											<button class="md-register register">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
-										<h3>second events</h3>
+										<h3>FACE-PAINTING</h3>
 										<div>
-											<p>This is a modal window. You can do the following things with it:</p>
+											<p><strong>Body painting</strong>,  or  sometimes  body  painting,  is  a  form  of  body­art.
+												Unlike  tattoo  and  other  forms  of  body art, body painting is temporary,
+												painted  onto  the  human  skin,  and  lasts  for  only  several  hours,  or  at
+												most  (in  the  case  of  Mehndi  or  "henna  tattoo")  a  couple  of  weeks.
+												Body painting that is limited to the face is known as face painting.
+												So  it  is  clear  from  above  description  that  you  have  to  paint  your
+												friends  face. So be ready to have some fun. <strong>Theme will be given before
+												time of the event</strong>.</p>
 											<ul>
-												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
-												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
-												<li><strong>Close:</strong> click on the button below to close the modal.</li>
+												<li><strong>Event co-ordinators: </strong> Alpha Beta</li>
+												<li><strong>Contact: </strong> +91-1234567890</li>
+												
 											</ul>
 											
 										</div>
@@ -1086,7 +1158,7 @@
 							</div><!-- / uc-container -->
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-29">
-									<span class="icon-eye">Fifth Events</span>
+									<span class="icon-eye">CARICATURE-MAKING</span>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-29">
 									<div class="md-content">
@@ -1094,13 +1166,16 @@
 											<button class="md-register register">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
-										<h3>second events</h3>
+										<h3>CARICATURE-MAKING</h3>
 										<div>
-											<p>This is a modal window. You can do the following things with it:</p>
+											<p>A  <strong>caricature</strong>  is  a rendered image showing the features of its subject in a
+												simplified or exaggerated way. Make  a
+												caricature  of your best enemy and have a chance to showcase your rage
+												in public. Have fun and win prize. <strong>Bingo!!</strong></p>
 											<ul>
-												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
-												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
-												<li><strong>Close:</strong> click on the button below to close the modal.</li>
+												<li><strong>Event co-ordinators: </strong> Alpha Beta</li>
+												<li><strong>Contact: </strong> +91-1234567890</li>
+												
 											</ul>
 											
 										</div>
@@ -1110,7 +1185,7 @@
 							</div><!-- / uc-container -->
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-30">
-									<span class="icon-eye">sixth Events</span>
+									<span class="icon-eye">POSTER-MAKING</span>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-30">
 									<div class="md-content">
@@ -1118,13 +1193,47 @@
 											<button class="md-register register">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
-										<h3>second events</h3>
+									<span class="icon-eye">POSTER-MAKING</span>
+										<h3></h3>
 										<div>
-											<p>This is a modal window. You can do the following things with it:</p>
+											<p><strong>Posters</strong>  are  a  great  way  to  present  information  in  a  visual  format.  The poster’s  topic  should  be  clear  at  a  quick  glance  and  appealing  so  that
+												people  will  stop  and  read  more.</p>
 											<ul>
-												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
-												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
-												<li><strong>heuya:</strong> click on the button below to close the modal.</li>
+												<li><strong>Event co-ordinator: </strong> ALpha Beta</li>
+												<li><strong>Contact: </strong> +91-1234567890</li>
+												
+											</ul>
+											
+										</div>
+									</div>
+								</div>
+								<div class="md-overlay"></div><!-- the overlay element -->
+							</div><!-- / uc-container -->
+
+							<div class="uc-container">
+								<div class="md-trigger" data-modal="modal-31">
+									<span class="icon-eye">LOGO-DESIGN</span>
+								</div>
+								<div class="md-modal md-effect-11" id="modal-31">
+									<div class="md-content">
+										<div class="md-header">
+											<button class="md-register register">Register</button>
+											<button class="md-close close">Close!</button>
+										</div>
+										<h3>LOGO-DESIGN</h3>
+										<div>
+											<p>A  logo  is  a  graphic  mark  or  emblem  commonly  used  by  commercial
+												<strong>enterprises</strong>,  <strong>organizations</strong>  and  even  <strong>individuals</strong>  to  aid  and  promote
+												instant  public  recognition.  Logos  are  either  purely  graphic
+												(symbols/icons) or are composed of the name of the organization.
+												Design  a  logo  for  the  world’s  most  economy  booster  company  named
+												“frame­inn”.  Basically  the  company  deals  with  the  global  modeling
+												business,  while  designing  logo  for  the  company  you  should  keep  in
+												mind the <strong>purpose</strong> and <strong>simplicity</strong> of logo.</p>
+											<ul>
+												<li><strong>Event co-ordinators: </strong> Alpha Beta</li>
+												<li><strong>Contact: </strong> +91-1234567890</li>
+												
 											</ul>
 											
 										</div>
@@ -1133,6 +1242,35 @@
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
 							
+							<div class="uc-container">
+								<div class="md-trigger" data-modal="modal-32">
+									<span class="icon-eye">LANDSCAPING</span>
+								</div>
+								<div class="md-modal md-effect-11" id="modal-32">
+									<div class="md-content">
+										<div class="md-header">
+											<button class="md-register register">Register</button>
+											<button class="md-close close">Close!</button>
+										</div>
+										<h3>LANDSCAPING</h3>
+										<div>
+											<p><strong>Landscaping</strong>  refers  to  any  activity  that  modifies  the  visible  features  of
+												an area of land, including:
+												Living  elements,  such  as  flora  or  fauna;  or  what  is  commonly  known
+												to  as  gardening,  the  art  and  craft  of  growing  plants  with  a  goal  of
+												creating a beautiful environment within the landscape. What  you  have  to  do  is  to  landscape  the  <strong>“PMC”</strong>  lawn.  Of  which  the
+												area/plan  will  be  given  before  event. </p>
+											<ul>
+												<li><strong>Event co-ordinators: </strong> Alpha Beta</li>
+												<li><strong>Contact: </strong> +91-1234567890</li>
+												
+											</ul>
+											
+										</div>
+									</div>
+								</div>
+								<div class="md-overlay"></div><!-- the overlay element -->
+							</div><!-- / uc-container -->
 							
 						</div><!-- / grid -->
 					</div>
@@ -1147,7 +1285,7 @@
 						
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-31">
-									<span class="icon-eye">Event one</span>
+									<span class="icon-eye">BIO-TECH QUIZ</span>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-31">
 									<div class="md-content">
@@ -1155,13 +1293,14 @@
 											<button class="md-register register">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
-										<h3>Tech Roadies</h3>
+										<h3>BIO-TECH QUIZ</h3>
 										<div>
-											<p>This is a modal window. You can do the following things with it:</p>
+											<p>Students  will  be  asked  various  questions  related  to  new  inventions  in
+												bio­tech and other aspects of <strong>bio-technology</strong>.</p>
 											<ul>
-												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
-												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
-												<li><strong>Close:</strong> click on the button below to close the modal.</li>
+												<li><strong>Event co-ordinator: </strong> Alpha Beta</li>
+												<li><strong>Contact: </strong> +91-1234567890</li>
+												
 											</ul>
 											
 										</div>
@@ -1171,7 +1310,7 @@
 							</div><!-- / uc-container -->
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-32">
-									<span class="icon-eye">second Events</span>
+									<span class="icon-eye">SPELL-CORRECTLY</span>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-32">
 									<div class="md-content">
@@ -1179,13 +1318,14 @@
 											<button class="md-register register">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
-										<h3>second events</h3>
+										<h3>SPELL-CORRECTLY</h3>
 										<div>
-											<p>This is a modal window. You can do the following things with it:</p>
+											<p>Students  are  asked  to  write  down  names  of  <strong>micro­organism</strong>  the  one
+												who write the most of the name correct wins.</p>
 											<ul>
-												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
-												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
-												<li><strong>Close:</strong> click on the button below to close the modal.</li>
+												<li><strong>Event co-ordinator: </strong> Alpha Beta</li>
+												<li><strong>Contact: </strong> +91-12345678990</li>
+												
 											</ul>
 											
 										</div>
@@ -1195,7 +1335,7 @@
 							</div><!-- / uc-container -->
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-33">
-									<span class="icon-eye">Third Events</span>
+									<span class="icon-eye">JUMBLE-WORDS</span>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-33">
 									<div class="md-content">
@@ -1203,13 +1343,14 @@
 											<button class="md-register register">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
-										<h3>second events</h3>
+										<h3>JUMBLE-WORDS</h3>
 										<div>
-											<p>This is a modal window. You can do the following things with it:</p>
+											<p>Lots  of  name  related  to  bio  tech  will  be  <strong>jumbled</strong>  up  the  one who finds
+the most wins.								</p>
 											<ul>
-												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
-												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
-												<li><strong>Close:</strong> click on the button below to close the modal.</li>
+												<li><strong>Event co-ordinator: </strong> Alpha Beta</li>
+												<li><strong>Contact: </strong> +91-1234567890</li>
+												
 											</ul>
 											
 										</div>
@@ -1219,7 +1360,7 @@
 							</div><!-- / uc-container -->
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-34">
-									<span class="icon-eye">Fourth Events</span>
+									<span class="icon-eye">COMPLEMENTATION</span>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-34">
 									<div class="md-content">
@@ -1227,13 +1368,16 @@
 											<button class="md-register register">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
-										<h3>second events</h3>
+										<h3>COMPLEMENTATION</h3>
 										<div>
-											<p>This is a modal window. You can do the following things with it:</p>
+											<p>You  have  to  complete  the  sequence  of  <strong>DNA</strong>  by  making  their
+												complement of the base pairs <strong>(ATGC)</strong>.
+												You have to make the sequence as fast as possible
+												Those  who  will  finish  it  first  will  be  the  winner.</p>
 											<ul>
-												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
-												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
-												<li><strong>Close:</strong> click on the button below to close the modal.</li>
+												<li><strong>Event co-ordinator: </strong> Alpha Beta</li>
+												<li><strong>Contact: </strong> +91-1234567890</li>
+												
 											</ul>
 											
 										</div>
@@ -1243,7 +1387,7 @@
 							</div><!-- / uc-container -->
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-35">
-									<span class="icon-eye">Fifth Events</span>
+									<span class="icon-eye">SHOW YOUR MEMORY</span>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-35">
 									<div class="md-content">
@@ -1251,13 +1395,15 @@
 											<button class="md-register register">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
-										<h3>second events</h3>
+										<h3>SHOW YOUR MEMORY</h3>
 										<div>
-											<p>This is a modal window. You can do the following things with it:</p>
+											<p><strong>Visuals</strong>  will  be  displayed  for  few  seconds
+												to  the  contestants.  Contestants  have  to  recall  the  different  names  they
+												have seen in the visuals.</p>
 											<ul>
-												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
-												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
-												<li><strong>Close:</strong> click on the button below to close the modal.</li>
+												<li><strong>Event co-ordinator: </strong> Alpha Beta</li>
+												<li><strong>Contact: </strong> +91-1234567890</li>
+												
 											</ul>
 											
 										</div>
@@ -1267,7 +1413,7 @@
 							</div><!-- / uc-container -->
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-36">
-									<span class="icon-eye">sixth Events</span>
+									<span class="icon-eye">STRUCTURE MODELLING</span>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-36">
 									<div class="md-content">
@@ -1275,13 +1421,15 @@
 											<button class="md-register register">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
-										<h3>second events</h3>
+										<h3>STRUCTURE MODELLING</h3>
 										<div>
-											<p>This is a modal window. You can do the following things with it:</p>
+											<p>Different  <strong>compounds</strong>  or  <strong>molecules</strong>
+												structures  will  be  shown  to  the  contestants  for  some  time  they  will  be
+												provided  with  the  tools  to  make  the  <strong>3d</strong>  structure  of  the  shown molecule.</p>
 											<ul>
-												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
-												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
-												<li><strong>heuya:</strong> click on the button below to close the modal.</li>
+												<li><strong>Event co-ordinator: </strong> Alpha Beta</li>
+												<li><strong>Contact: </strong> +91-1234567890</li>
+												
 											</ul>
 											
 										</div>
