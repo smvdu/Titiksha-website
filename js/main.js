@@ -7,6 +7,39 @@ $(document).ready(function(){
 	var links = $(".ca-menu").find('li');
 
 
+   //changes in side menu using waypoints
+
+ 	$(".page").waypoint(function(direction) {   		
+
+       //cache the variable of the data-slide attribute associated with each slide
+        var slide = $(this).attr('data-slide');
+       	
+        //If the user scrolls up change the navigation link that has the same data-slide attribute as the slide to active and
+        //remove the active class from the previous navigation link
+        if (direction === 'down') {
+            $('#main_nav li[data-slide="' + slide + '"]').addClass('active').prev().removeClass('active');
+        }
+        // else If the user scrolls down change the navigation link that has the same data-slide attribute as the slide to active and
+        //remove the active class from the next navigation link
+        else {
+            $('#main_nav li[data-slide="' + (slide - 1) + '"]').addClass('active').next().removeClass('active');
+        }
+
+    });
+
+
+ 	//waypoints doesnt detect the first slide when user scrolls back up to the top so we add this little bit of code, that removes the class
+    //from navigation link slide 2 and adds it to navigation link slide 1.
+    $('#main_nav li[data-slide="1"]').addClass('active');
+    $('#main_nav li').last().removeClass('active');
+    $(window).scroll(function () {
+    	if ($(window).scrollTop() == 0) {
+            $('#main_nav li[data-slide="1"]').addClass('active');
+            $('#main_nav li[data-slide="2"]').removeClass('active');            
+           
+        }
+    });
+
 	//Create a function that will be passed a slide number and then will scroll to that slide using jquerys animate. The Jquery
     //easing plugin is also used, so we passed in the easing method of 'easeInOutQuint' which is available throught the plugin.
     function goToByScroll(dataslide) {
@@ -22,37 +55,6 @@ $(document).ready(function(){
         dataslide = $(this).attr('data-slide');
         goToByScroll(dataslide);
     });
-
-
-
-   //changes in side menu using waypoints
-
-   $(".page").waypoint(function(direction) {
-   		
-       //cache the variable of the data-slide attribute associated with each slide
-        var slide = $(this).attr('data-slide');
-       
-        //If the user scrolls up change the navigation link that has the same data-slide attribute as the slide to active and
-        //remove the active class from the previous navigation link
-        if (direction === 'down') {
-            $('#main_nav li[data-slide="' + slide + '"]').addClass('active').prev().removeClass('active');
-        }
-        // else If the user scrolls down change the navigation link that has the same data-slide attribute as the slide to active and
-        //remove the active class from the next navigation link
-        else {
-            $('#main_nav li[data-slide="' + (slide - 1) + '"]').addClass('active').next().removeClass('active');
-        }
-    });
-
-    //waypoints doesnt detect the first slide when user scrolls back up to the top so we add this little bit of code, that removes the class
-    //from navigation link slide 2 and adds it to navigation link slide 1.
-    $(window).scroll(function () {
-        if ($(window).scrollTop() == 0) {
-            $('#main_nav li[data-slide="1"]').addClass('active');
-            $('#main_nav li[data-slide="2"]').removeClass('active');
-        }
-    });
-
 
 
 	// events squeeze and expand effect
