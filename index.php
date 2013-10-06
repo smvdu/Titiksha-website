@@ -775,7 +775,7 @@
 							</div><!-- / uc-container -->
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-14">
-									<span class="icon-eye">Binary Battles</span>
+									<span class="icon-eye"><em>Binary Battles</em></span>
 									<p>Participate , Do Competitive programming and Prove You are Elite Coder!</p>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-14">
@@ -1075,7 +1075,7 @@
 						
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-22">
-									<span class="icon-eye">WAVEMANIA</span>
+									<span class="icon-eye"><em>WAVEMANIA</em></span>
 									<p>Check whether you have the basic knowledge of electrical components.</p>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-22">
@@ -1106,7 +1106,7 @@
 							</div><!-- / uc-container -->
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-23">
-									<span class="icon-eye">ELECTRO-QUIZ</span>
+									<span class="icon-eye"><em>ELECTRO-QUIZ</em></span>
 									<p>A quiz regarding lab instruments and related to technology.</p>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-23">
@@ -1134,7 +1134,7 @@
 							</div><!-- / uc-container -->
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-24">
-									<span class="icon-eye">ELECTRO-AVATAR</span>
+									<span class="icon-eye"><em>ELECTRO-AVATAR</em></span>
 									<p>This  event  is  a  blend  of  science  and  imagination.  Design  your  own
 										super  hero  and  win  prizes.</p>
 								</div>
@@ -1167,7 +1167,7 @@
 							</div><!-- / uc-container -->
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-25">
-									<span class="icon-eye">CIRCUIT-BUG</span>
+									<span class="icon-eye"><em>CIRCUIT-BUG</em></span>
 									<p>An event for those obsessed with circuits, comprising of two rounds.</p>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-25">
@@ -1198,7 +1198,7 @@
 							</div><!-- / uc-container -->
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-26">
-									<span style="font-size: 90%;" class="icon-eye">MICRO - CONTROLLER CODING</span>
+									<span style="font-size: 90%;" class="icon-eye"><em>MICRO - CONTROLLER CODING</em></span>
 									<p>Using  microprocessor  build  a  real  life  application.</p>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-26">
@@ -1225,7 +1225,7 @@
 							</div><!-- / uc-container -->
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-27">
-									<span style="font-size: 90%;"class="icon-eye">CIRCUIT - ELECTRONIQUE</span>
+									<span style="font-size: 90%;"class="icon-eye"><em>CIRCUIT - ELECTRONIQUE</em></span>
 									<p>An  event  for  those  who  believe  themselves  to  be  circuit­experts.</p>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-27">
@@ -1257,7 +1257,7 @@
 							
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-28">
-									<span class="icon-eye">ELECTRO TRADE</span>
+									<span class="icon-eye"><em>ELECTRO TRADE</em></span>
 									<p>Get your Technology knowledge checked here.</p>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-28">
@@ -1306,7 +1306,7 @@
 						
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-29">
-									<span style="font-size: 90%;" class="icon-eye">ARCHITECTURAL SYMPOSIUM</span>
+									<span style="font-size: 90%;" class="icon-eye"><em>ARCHITECTURAL SYMPOSIUM</em></span>
 									<p>"Has  the  public  not  become  so  diverse  that  a
 										space with which everyone identifies no longer exists?"</p>
 								</div>
@@ -1336,7 +1336,7 @@
 							</div><!-- / uc-container -->
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-30">
-									<span class="icon-eye">ART INSTALLATION</span>
+									<span class="icon-eye"><em>ART INSTALLATION</em></span>
 									<p>Make  an  art  installation  using  natural  as  well  as  waste
 										products,  gathering  from  university  campus.</p>
 								</div>
@@ -1366,7 +1366,7 @@
 							</div><!-- / uc-container -->
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-31">
-									<span class="icon-eye">DIGI-ART</span>
+									<span class="icon-eye"><em>DIGI-ART</em></span>
 									<p>Produce  some  digital  modals  using  simple
 										Google  “sketch­up”  software</p>
 								</div>
@@ -1397,7 +1397,7 @@
 							</div><!-- / uc-container -->
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-32">
-									<span class="icon-eye">FACE-PAINTING</span>
+									<span class="icon-eye"><em>FACE-PAINTING</em></span>
 									<p>Paint your friends face.</p>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-32">
@@ -1428,7 +1428,7 @@
 							</div><!-- / uc-container -->
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-33">
-									<span class="icon-eye">CARICATURE-MAKING</span>
+									<span class="icon-eye"><em>CARICATURE-MAKING</em></span>
 									<p>Make  a
 										caricature  of your best enemy</p>
 								</div>
@@ -1459,7 +1459,7 @@
 							</div><!-- / uc-container -->
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-34">
-									<span class="icon-eye">POSTER-MAKING</span>
+									<span class="icon-eye"><em>POSTER-MAKING</em></span>
 									<p>Make Posters and express yourself.</p>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-34">
@@ -1498,7 +1498,7 @@ Theme provided before event.</p>
 
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-35">
-									<span class="icon-eye">LOGO-DESIGN</span>
+									<span class="icon-eye"><em>LOGO-DESIGN</em></span>
 									<p>Design  a  logo  for  the  world’s  most  economy  booster  company  named
 										“frame­inn”.</p>
 								</div>
@@ -1531,7 +1531,7 @@ Theme provided before event.</p>
 							
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-36">
-									<span class="icon-eye">LANDSCAPING</span>
+									<span class="icon-eye"><em>LANDSCAPING</em></span>
 									<p>What  you  have  to  do  is  to  landscape  the  “PMC”  lawn.  Of  which  the
 										area/plan  will  be  given  before  event. </p>
 								</div>
@@ -1570,7 +1570,7 @@ Theme provided before event.</p>
 
 				<div class="branch" id="ibt">
 					<div class="event_heading">
-						<span class="heading_text">Bio-Tech</span>
+						<span class="heading_text"><em>Bio-Tech</em></span>
 					</div>
 					<div class="event_content" style="display:none;">
 						<div id="grid">
@@ -1606,7 +1606,7 @@ Theme provided before event.</p>
 							</div><!-- / uc-container -->
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-38">
-									<span class="icon-eye">SPELL-CORRECTLY</span>
+									<span class="icon-eye"><em>SPELL-CORRECTLY</em></span>
 									<p>Write the names of micro­-organism correctly.</p>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-38">
@@ -1634,7 +1634,7 @@ Theme provided before event.</p>
 							</div><!-- / uc-container -->
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-39">
-									<span class="icon-eye">JUMBLE-WORDS</span>
+									<span class="icon-eye"><em>JUMBLE-WORDS</em></span>
 									<p>Lots  of  name  related  to  bio  tech  will  be  jumbled  up  the  one who finds
 										the most wins.</p>
 								</div>
@@ -1662,7 +1662,7 @@ Theme provided before event.</p>
 							</div><!-- / uc-container -->
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-40">
-									<span style="font-size: 80%;"class="icon-eye">COMPLEMENTATION</span>
+									<span style="font-size: 80%;"class="icon-eye"><em>COMPLEMENTATION</em></span>
 									<p>Complete  the  sequence  of  DNA  by  making  their
 										complement of the base pairs (ATGC).</p>
 								</div>
@@ -1693,7 +1693,7 @@ Theme provided before event.</p>
 							</div><!-- / uc-container -->
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-41">
-									<span class="icon-eye">SHOW YOUR MEMORY</span>
+									<span class="icon-eye"><em>SHOW YOUR MEMORY</em></span>
 									<p>Put your memory to a test.</p>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-41">
@@ -1721,7 +1721,7 @@ Theme provided before event.</p>
 							</div><!-- / uc-container -->
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-42">
-									<span class="icon-eye">STRUCTURE MODELLING</span>
+									<span class="icon-eye"><em>STRUCTURE MODELLING</em></span>
 									<p>Draw the 3-D structure of different compounds and molecules.</p>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-42">
