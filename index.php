@@ -323,15 +323,23 @@
 											<p>The  event  aims  to  gather diverse perspectives from participants around
 											the  country  regarding  the  problems  being  faced  in  their  states  and  to
 											come  up  to  solutions  to  these  problems  through  a  rigorous  mutual
-											discussion  among the representatives of different 28 states. "All izz not
+											discussion  among the representatives of different 28 states. A quite major question now apparent in the society these days is that
+											have we really tried to bring a change in the system that we always
+											wanted? Instead of just saying that 'Is system ka kuchh nahi ho
+											sakta', have we even tried to bring a positive change in ourselves? "All izz not
 											well" will be held in two rounds. </p>
-											<p><em>ROUND 1­</em> : A short essay is given to all the participated candidates.
-											(Topic ­ define at­least five problems of your state with their
-											feasible solutions if u are the chief minister of your state).
+											<p><em>ROUND 1­</em> :First Round group questionnaire based 
+											 general awareness of the participants .
 											</p>
-											<p><em>ROUND 2</em> :­Candidates  qualified  in round 1 are eligible to present their
-											state’  problems  with  feasible  solutions  in  front  of  the  jury,  which  will
+											<p><em>ROUND 2</em> :­ Simple presentation in which  the participant
+											undertake to deal with the problems persisting in their state if they
+											were the chief minister of their state in  front  of  the  jury,  which  will
 											decide the winner.</p>
+
+											<p>The discussion would be moderated in front of eminent personalities
+												including administrative officers, editors and young leaders and we
+												aim to come upon solutions that could be implemented by the government
+												and have a strong and lasting impact on the society.</p>
 											
 											<ul>
 												<li><strong>Event Co-ordinator :</strong>Shubham Tiwari</li>
@@ -370,8 +378,8 @@
 													as the “BEST ROBOT”. </p>
 													 <br>
 											<ul>
-												<li><strong>Event Co-ordinator :</strong> Alpha Beta</li>
-												<li><strong>Contact :</strong> +91-1251354713</li>
+												<li><strong>Event Co-ordinator :</strong> Vipin Tripathi </li>
+												<li><strong>Contact :</strong> +91-9086-252113</li>
 											</ul>
 											
 										</div>
@@ -390,7 +398,7 @@
 											<button class="md-register register">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
-										<h3>ELECTRO-AVTAAR</h3>
+										<h3>ELECTRO-AVTAAR ( EDGE OF TOMORROW )</h3>
 										<div>
 											<p>This event is a blend of science and imagination. Design your own
 												super hero and win prizes! It will be organized in three levels.
@@ -406,11 +414,11 @@
 												would cross question them.</p>
 												<p><em>Level 3</em> :<strong> Video Mania - </strong>
 												The  top  participants  will  make  a  short  movie  on  their  superhero of the
-												TITIKSHA 2013 PROPOSAL Page 2length  of  their  choice  and  the  best  video  would  be  shown  in
+												length  of  their  choice  and  the  best  video  would  be  shown  in
 												the valedictory ceremony in auditorium.</p>
 											<ul>
-												<li><strong>Event Co-ordinator :</strong> Alpha Beta</li>
-												<li><strong>Contact :</strong> +91-1251354713</li>
+												<li><strong>Event Co-ordinator :</strong>Ashish Singh</li>
+												<li><strong>Contact :</strong> +91-9596-997294</li>
 											</ul>
 											
 										</div>
@@ -443,8 +451,8 @@
 												<br> Level 2 (SENIOR)­for 3 year /4 year/inter university.</p>
 											<br>
 											<ul>
-												<li><strong>Event Co-ordinator :</strong> Alpha Beta</li>
-												<li><strong>Contact :</strong> +91-1251354713</li>
+												<li><strong>Event Co-ordinator :</strong> Ashish Kumar Singh </li>
+												<li><strong>Contact :</strong> +91-9596-997294</li>
 											</ul>
 										</div>
 									</div>
@@ -477,8 +485,8 @@
 											</ul>
 											<br><br>
 											<ul>
-												<li><strong>Event Co-ordinator :</strong> Alpha Beta</li>
-												<li><strong>Contact :</strong> +91-1251354713</li>
+												<li><strong>Event Co-ordinator :</strong> Daud Shareef</li>
+												<li><strong>Contact :</strong> +91-9697-679928</li>
 											</ul>
 											
 										</div>
@@ -580,8 +588,8 @@
 												round one will participate.
 											</p>
 											
-											<p><strong>TIME </strong>- Round 1: 20 min. <br>
-											Round 2: 30 min.</p>
+											<p><strong>TIME </strong>- Round 1 : (20 min.) <br>
+											Round 2 : (30 min.)</p>
 											
 											<br><br>
 											
@@ -1083,11 +1091,11 @@
 												The  second  round:  The  participants  will  be  given  electronic
 												components  and  an  oscilloscope  and they have to generate waveforms.
 												The most interesting ones win.</p>
+											<br><br>
 											<ul>
-												<li><strong>Event Co-ordinator : Alpha Beta</strong></li>
-												<li><strong>Contact : +91-1234567890</strong></li>
+												<li><strong>Event Co-ordinator : </strong></li>
+												<li><strong>Contact :</strong> +91-</li>
 											</ul>
-											
 										</div>
 									</div>
 								</div>
@@ -1108,10 +1116,11 @@
 											<p>Questions  will  be  based  on  knowledge  regarding  with  lab  instruments and  related  to  technology.  The  quiz  will  be  held  in  two  <strong>rounds</strong>. Those
 												qualifying  the  preliminary  round  will be permitted to participate in the
 												final.</p>
+											<br><br>
 											<ul>
-												<li><strong>Event co-ordinator: </strong> Alpha Beta</li>
-												<li><strong>Contact:</strong> +91-1234567890</li> 
-											
+												<li><strong>Event Co-ordinator : </strong></li>
+												<li><strong>Contact :</strong> +91-</li>
+											</ul>
 										</div>
 									</div>
 								</div>
@@ -1136,11 +1145,11 @@
 												The  top  participants  will  make  a  short  movie  on  their  superhero of the
 												length  of  their  choice  and  the  best  video  would  be  shown  in  the
 												Matrika Auditorium during the valedictory of Titiksha.</p>
+											<br><br>
 											<ul>
-												<li><strong>Event co-ordinator: </strong> Alpha Beta</li>
-												<li><strong>Contact: </strong> +91-1234567890</li>
+												<li><strong>Event Co-ordinator : </strong></li>
+												<li><strong>Contact :</strong> +91-</li>
 											</ul>
-											
 										</div>
 									</div>
 								</div>
@@ -1164,11 +1173,11 @@
 												<li><em><strong>Round 2 </strong></em>:  A  dysfunctional  circuit  will  be  given  to  the  participant.  The
 												one who fixes his/her circuit first will brag the prize.</li>
 											</ul>
+											<br><br>
 											<ul>
-												<li><strong>Event co-ordinator: </strong> Alpha Beta</li>
-												<li><strong>Contact: </strong> +91-1234567890</li>
+												<li><strong>Event Co-ordinator : </strong></li>
+												<li><strong>Contact :</strong> +91-</li>
 											</ul>
-											
 										</div>
 									</div>
 								</div>
@@ -1188,11 +1197,11 @@
 										<div>
 											<p>Using  <strong>microprocessor/microcontroller</strong>  build  a  real  life  application
 											(only software)</p>
+											<br><br>
 											<ul>
-												<li><strong>Event co-ordinator: </strong> Alpha Beta</li>
-												<li><strong>Contact: </strong> +91-1234567890</li>
+												<li><strong>Event Co-ordinator : </strong></li>
+												<li><strong>Contact :</strong> +91-</li>
 											</ul>
-											
 										</div>
 									</div>
 								</div>
@@ -1216,11 +1225,11 @@
 												preliminary round for the final circuit assembly test. <strong>Final</strong> :  The  circuit  assembling  skills  of  the  participants  will  be  put  to
 												test.  Time  taken  by  the  participants  and  the  quality  of  the  circuit
 												designed will determine the winner.</p>
+											<br><br>
 											<ul>
-												<li><strong>Event co-ordinator: </strong> Alpha Beta</li>
-												<li><strong>Contact: </strong> +91-1234567890</li>
+												<li><strong>Event Co-ordinator : </strong></li>
+												<li><strong>Contact :</strong> +91-</li>
 											</ul>
-											
 										</div>
 									</div>
 								</div>
@@ -1251,11 +1260,11 @@
                                                         The details about the circuit will be hidden in a hint given to you.</li>
 												</ul>
 											</p>
+											<br><br>
 											<ul>
-												<li><strong>Event co-ordinator: </strong> Alpha Beta</li>
-												<li><strong>Contact: </strong> +91-1234567890</li>
+												<li><strong>Event Co-ordinator : </strong></li>
+												<li><strong>Contact :</strong> +91-</li>
 											</ul>
-											
 										</div>
 									</div>
 								</div>
@@ -1292,11 +1301,11 @@
 												the  contemporary  city?  Has  the  public  not  become  so  diverse  that  a
 												space with which everyone identifies no longer exists?
 												In  this  event  you  have  to  write  an  article  in  not  more  than  <strong><em>450</em>  words</strong>.</p>
+											<br><br>
 											<ul>
-												<li><strong>Event co-ordinator: </strong> Alpha Beta</li>
-												<li><strong>Contact: </strong> +91-1234567890</li>
+												<li><strong>Event Co-ordinator : </strong></li>
+												<li><strong>Contact :</strong> +91-</li>
 											</ul>
-											
 										</div>
 									</div>
 								</div>
@@ -1320,11 +1329,11 @@
 												to  do  is  to  make  an  <strong>art  installation</strong>  using  natural  as  well  as  waste
 												products,  gathering  from  university  campus.  The  theme  will  be
 												provided on the spot.</p>
+											<br><br>
 											<ul>
-												<li><strong>Event co-ordinator: </strong> Alpha Beta</li>
-												<li><strong>Look: </strong> +91-1234567890</li>
+												<li><strong>Event Co-ordinator : </strong></li>
+												<li><strong>Contact :</strong> +91-</li>
 											</ul>
-											
 										</div>
 									</div>
 								</div>
@@ -1349,11 +1358,11 @@
 												In  this  event  you  have  to  produce  some  digital  modals  using  simple
 												Google  “sketch­up”  software,  you  can  also  use  v­ray  for  the rendering
 												purpose. Theme will be revealed at the time of event.</p>
+											<br><br>
 											<ul>
-												<li><strong>Event co-ordinator: </strong></li>
-												<li><strong>Contact: </strong></li>
+												<li><strong>Event Co-ordinator : </strong></li>
+												<li><strong>Contact :</strong> +91-</li>
 											</ul>
-											
 										</div>
 									</div>
 								</div>
@@ -1379,12 +1388,11 @@
 												So  it  is  clear  from  above  description  that  you  have  to  paint  your
 												friends  face. So be ready to have some fun. <strong>Theme will be given before
 												time of the event</strong>.</p>
+											<br><br>
 											<ul>
-												<li><strong>Event co-ordinators: </strong> Alpha Beta</li>
-												<li><strong>Contact: </strong> +91-1234567890</li>
-												
+												<li><strong>Event Co-ordinator : </strong></li>
+												<li><strong>Contact :</strong> +91-</li>
 											</ul>
-											
 										</div>
 									</div>
 								</div>
@@ -1406,12 +1414,11 @@
 												simplified or exaggerated way. Make  a
 												caricature  of your best enemy and have a chance to showcase your rage
 												in public. Have fun and win prize. <strong>Bingo!!</strong></p>
+											<br><br>
 											<ul>
-												<li><strong>Event co-ordinators: </strong> Alpha Beta</li>
-												<li><strong>Contact: </strong> +91-1234567890</li>
-												
+												<li><strong>Event Co-ordinator : </strong></li>
+												<li><strong>Contact :</strong> +91-</li>
 											</ul>
-											
 										</div>
 									</div>
 								</div>
@@ -1432,12 +1439,11 @@
 										<div>
 											<p><strong>Posters</strong>  are  a  great  way  to  present  information  in  a  visual  format.  The poster’s  topic  should  be  clear  at  a  quick  glance  and  appealing  so  that
 												people  will  stop  and  read  more.</p>
+											<br><br>
 											<ul>
-												<li><strong>Event co-ordinator: </strong> ALpha Beta</li>
-												<li><strong>Contact: </strong> +91-1234567890</li>
-												
+												<li><strong>Event Co-ordinator : </strong></li>
+												<li><strong>Contact :</strong> +91-</li>
 											</ul>
-											
 										</div>
 									</div>
 								</div>
@@ -1464,12 +1470,11 @@
 												“frame­inn”.  Basically  the  company  deals  with  the  global  modeling
 												business,  while  designing  logo  for  the  company  you  should  keep  in
 												mind the <strong>purpose</strong> and <strong>simplicity</strong> of logo.</p>
+											<br><br>
 											<ul>
-												<li><strong>Event co-ordinators: </strong> Alpha Beta</li>
-												<li><strong>Contact: </strong> +91-1234567890</li>
-												
+												<li><strong>Event Co-ordinator : </strong></li>
+												<li><strong>Contact :</strong> +91-</li>
 											</ul>
-											
 										</div>
 									</div>
 								</div>
@@ -1495,11 +1500,11 @@
 												creating a beautiful environment within the landscape. What  you  have  to  do  is  to  landscape  the  <strong>“PMC”</strong>  lawn.  Of  which  the
 												area/plan  will  be  given  before  event. </p>
 											<ul>
-												<li><strong>Event co-ordinators: </strong> Alpha Beta</li>
-												<li><strong>Contact: </strong> +91-1234567890</li>
-												
+											<br><br>
+											<ul>
+												<li><strong>Event Co-ordinator : </strong></li>
+												<li><strong>Contact :</strong> +91-</li>
 											</ul>
-											
 										</div>
 									</div>
 								</div>
@@ -1531,12 +1536,11 @@
 										<div>
 											<p>Students  will  be  asked  various  questions  related  to  new  inventions  in
 												bio­tech and other aspects of <strong>bio-technology</strong>.</p>
+											<br><br>
 											<ul>
-												<li><strong>Event co-ordinator: </strong> Alpha Beta</li>
-												<li><strong>Contact: </strong> +91-1234567890</li>
-												
+												<li><strong>Event Co-ordinator : </strong></li>
+												<li><strong>Contact :</strong> +91-</li>
 											</ul>
-											
 										</div>
 									</div>
 								</div>
@@ -1556,12 +1560,11 @@
 										<div>
 											<p>Students  are  asked  to  write  down  names  of  <strong>micro­organism</strong>  the  one
 												who write the most of the name correct wins.</p>
+											<br><br>
 											<ul>
-												<li><strong>Event co-ordinator: </strong> Alpha Beta</li>
-												<li><strong>Contact: </strong> +91-12345678990</li>
-												
+												<li><strong>Event Co-ordinator : </strong></li>
+												<li><strong>Contact :</strong> +91-</li>
 											</ul>
-											
 										</div>
 									</div>
 								</div>
@@ -1581,12 +1584,11 @@
 										<div>
 											<p>Lots  of  name  related  to  bio  tech  will  be  <strong>jumbled</strong>  up  the  one who finds
 the most wins.								</p>
+											<br><br>
 											<ul>
-												<li><strong>Event co-ordinator: </strong> Alpha Beta</li>
-												<li><strong>Contact: </strong> +91-1234567890</li>
-												
+												<li><strong>Event Co-ordinator : </strong></li>
+												<li><strong>Contact :</strong> +91-</li>
 											</ul>
-											
 										</div>
 									</div>
 								</div>
@@ -1608,12 +1610,11 @@ the most wins.								</p>
 												complement of the base pairs <strong>(ATGC)</strong>.
 												You have to make the sequence as fast as possible
 												Those  who  will  finish  it  first  will  be  the  winner.</p>
+											<br><br>
 											<ul>
-												<li><strong>Event co-ordinator: </strong> Alpha Beta</li>
-												<li><strong>Contact: </strong> +91-1234567890</li>
-												
+												<li><strong>Event Co-ordinator : </strong></li>
+												<li><strong>Contact :</strong> +91-</li>
 											</ul>
-											
 										</div>
 									</div>
 								</div>
@@ -1634,12 +1635,11 @@ the most wins.								</p>
 											<p><strong>Visuals</strong>  will  be  displayed  for  few  seconds
 												to  the  contestants.  Contestants  have  to  recall  the  different  names  they
 												have seen in the visuals.</p>
+											<br><br>
 											<ul>
-												<li><strong>Event co-ordinator: </strong> Alpha Beta</li>
-												<li><strong>Contact: </strong> +91-1234567890</li>
-												
+												<li><strong>Event Co-ordinator : </strong></li>
+												<li><strong>Contact :</strong> +91-</li>
 											</ul>
-											
 										</div>
 									</div>
 								</div>
@@ -1660,12 +1660,11 @@ the most wins.								</p>
 											<p>Different  <strong>compounds</strong>  or  <strong>molecules</strong>
 												structures  will  be  shown  to  the  contestants  for  some  time  they  will  be
 												provided  with  the  tools  to  make  the  <strong>3d</strong>  structure  of  the  shown molecule.</p>
+											<br><br>
 											<ul>
-												<li><strong>Event co-ordinator: </strong> Alpha Beta</li>
-												<li><strong>Contact: </strong> +91-1234567890</li>
-												
+												<li><strong>Event Co-ordinator : </strong></li>
+												<li><strong>Contact :</strong> +91-</li>
 											</ul>
-											
 										</div>
 									</div>
 								</div>
