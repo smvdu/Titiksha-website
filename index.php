@@ -505,8 +505,8 @@
 												<br>3. Presentation of ppt. in front of judges.</p>
 											<br><br>
 											<ul>
-												<li><strong>Event Co-ordinator :</strong> Alpha Beta</li>
-												<li><strong>Contact :</strong> +91-1251354713</li>
+												<li><strong>Event Co-ordinator :</strong> Navin Ray </li>
+												<li><strong>Contact :</strong> +91-9086-251103</li>
 											</ul>
 										</div>
 									</div>
@@ -528,8 +528,9 @@
 						<div id="grid">
 						
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-7">
-									<span class="icon-eye">Event one</span>
+								<div class="md-trigger " data-modal="modal-7">
+									<span class="icon-eye"><em>AD-VEB </em></span>
+									<p>Design Ad-Web and Show your wits in Web Designing</p>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-7">
 									<div class="md-content">
@@ -537,23 +538,67 @@
 											<button class="md-register register">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
-										<h3>Tech Roadies</h3>
+										<h3>AD-VEB (WEB-DESIGNING)</h3>
 										<div>
-											<p>This is a modal window. You can do the following things with it:</p>
+											<p>Each  team  is  assigned  to  make  an  advertising  web  page  for  a  product
+												(like  a  laptop,  mobile  etc  ),  which­ever  is  assigned  to  the  participants.
+												The  participants  can  use basic Web Designing Language like HTML, CSS , Java­script  or  whichever  language
+												they  are  comfortable  with  to  develop  their  webpage  and  also  they  can
+												use  useful  attributes  for  it  using  the  internet.  Top  three  webpages  will
+												be  shortlisted  on  the  basis  of  the  attractiveness  of  the  webpage,
+												content, code and language used for it.</p>
+												<p><strong>TEAM MEMBERS</strong> :­ 2 IN EACH TEAM</p>
+												<p><strong>TIME</strong> : ­ 2 DAYS </p>
+											<br><br>
 											<ul>
-												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
-												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
-												<li><strong>Close:</strong> click on the button below to close the modal.</li>
+												<li><strong>Event Co-ordinator :</strong>ADITYA RANJAN</li>
+												<li><strong>Contact :</strong> +91-9796-824820</li>
 											</ul>
-											
 										</div>
 									</div>
 								</div>
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
+
+							<div class="uc-container">
+								<div class="md-trigger " data-modal="modal-51">
+									<span class="icon-eye"><em>DEBUGGAGE</em></span>
+									<p>Debug and Solve Challenging Code</p>
+								</div>
+								<div class="md-modal md-effect-11" id="modal-51">
+									<div class="md-content">
+										<div class="md-header">
+											<button class="md-register register">Register</button>
+											<button class="md-close close">Close!</button>
+										</div>
+										<h3>DEBUGGAGE</h3>
+										<div>
+											<p>The participants will be given errored codes to edit and debug.
+												The event will be in two rounds:­</p>
+											<p>Round one will be the qualifying round.<br>
+												Round  2  will  be  the  final  round  in  which  the  top  10  candidates  of
+												round one will participate.
+											</p>
+											
+											<p><strong>TIME </strong>- Round 1: 20 min. <br>
+											Round 2: 30 min.</p>
+											
+											<br><br>
+											
+											<ul>
+												<li><strong>Event Co-ordinator : </strong>Ravi Prakash Giri</li>
+												<li><strong>Contact :</strong> +91-9469-443-565</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="md-overlay"></div><!-- the overlay element -->
+							</div><!-- / uc-container -->
+
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-8">
-									<span class="icon-eye">second Events</span>
+									<span class="icon-eye"><em>PYTHON-GEEK</em></span>
+									<p>Show your Python skills and Prove you are Future Programmer.
 								</div>
 								<div class="md-modal md-effect-11" id="modal-8">
 									<div class="md-content">
@@ -561,13 +606,20 @@
 											<button class="md-register register">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
-										<h3>second events</h3>
+										<h3>PYTHON-GEEK</h3>
 										<div>
-											<p>This is a modal window. You can do the following things with it:</p>
+											<p>Python  geek  is  a  completion for Python programmers at the campus. It
+												includes three phases­ :
+											<ul><li>1. Written Test</li>
+												<li>2. Debugging</li>
+												<li>3. Coding</li>
+											</ul>
+											<a style="text-decoration: underline;" href="http://goo.gl/QUtO7q" target="_blank" >Follow this link : Python-Geek</a>
+											</p>
+											<br><br>
 											<ul>
-												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
-												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
-												<li><strong>Close:</strong> click on the button below to close the modal.</li>
+												<li><strong>Event Co-ordinator : </strong>Parbhat Puri</li>
+												<li><strong>Contact :</strong> +91-9797-521857</li>
 											</ul>
 											
 										</div>
@@ -575,9 +627,41 @@
 								</div>
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
+
+							<div class="uc-container">
+								<div class="md-trigger" data-modal="modal-50">
+									<span class="icon-eye"><em>KILL-EM</em></span>
+									<p>Troubleshoot PC and Show you are Computer Guy</p>
+								</div>
+								<div class="md-modal md-effect-11" id="modal-50">
+									<div class="md-content">
+										<div class="md-header">
+											<button class="md-register register">Register</button>
+											<button class="md-close close">Close!</button>
+										</div>
+										<h3>KILL-EM</h3>
+										<div>
+											<p>This  event  is  similar  to  the  "Troubleshooting"  event  of  the
+												titiksha 2k12. In  this  event, the  participants  will  be  given  6­8  problems
+												of which 5 will easier and others will be little tough.
+												The  participants  have  to  solve  and  trooubleshoot  all  the  problems  or
+												most of them and they will be ranked accordingly.</p>
+											<br><br>
+										<ul>
+											<li><strong>Event Co-ordinator : </strong>Ravi Prakash Giri</li>
+											<li><strong>Contact :</strong> +91-9469-443565</li>
+										</ul>
+											
+										</div>
+									</div>
+								</div>
+								<div class="md-overlay"></div><!-- the overlay element -->
+							</div><!-- / uc-container -->
+
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-9">
-									<span class="icon-eye">Third Events</span>
+									<span class="icon-eye"><em>LUI-COMMANDO</em></span>
+									<p>Perform some Operation in Terminal and Prove Yourself Linux Lover</p>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-9">
 									<div class="md-content">
@@ -585,13 +669,20 @@
 											<button class="md-register register">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
-										<h3>second events</h3>
+										<h3>LUI-COMMANDO</h3>
 										<div>
-											<p>This is a modal window. You can do the following things with it:</p>
+											<p>The event will be held in two rounds: <br>
+												Round  one  will  be  a  qualification  round.  From  which  10  teams  (1  or
+												two  participants)  will  be  selected.  These  teams  will  compete  in  the
+												round 2 of the event.</p>
+											<p>	Participants  are  required  to  have  a  good  knowledge  of  “Linux
+												Terminal”  commands  and  Scripts  in  Linux  (Workshops  will  be  held
+												to provide some preliminary knowledge about Linux) .</p>
+											
+											<br><br>
 											<ul>
-												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
-												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
-												<li><strong>Close:</strong> click on the button below to close the modal.</li>
+												<li><strong>Event Co-ordinator : </strong>Prateek Sharma</li>
+												<li><strong>Contact :</strong> +91-9086-120891</li>
 											</ul>
 											
 										</div>
@@ -599,9 +690,11 @@
 								</div>
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
+							
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-10">
-									<span class="icon-eye">Fourth Events</span>
+									<span class="icon-eye"><em>JUMBLE-MUMBLE</em></span>
+									<p>Re-arrange code and Grab Prizes</p>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-10">
 									<div class="md-content">
@@ -609,13 +702,21 @@
 											<button class="md-register register">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
-										<h3>second events</h3>
+										<h3>JUMBLE-MUMBLE</h3>
 										<div>
-											<p>This is a modal window. You can do the following things with it:</p>
+											<p>The  jumble  code  and  desired output  will  be  given  to  student.  Student
+												are  proposed  to  swap  the  instruction  such that given output will be the
+												actual output of the code. </p><br>
+											<p><strong>RULES : </strong>	
+												1. There are maximum of two members in a group. <br>
+												2.  No  extra  sources/materials  are  allowed  with  the  student  at  event
+												centre/venues.<br>
+												Eligibility: 1st or 2nd year students</p>
+											
+											<br><br>
 											<ul>
-												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
-												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
-												<li><strong>Close:</strong> click on the button below to close the modal.</li>
+												<li><strong>Event Co-ordinator : </strong>Ritesh Srivastav </li>
+												<li><strong>Contact :</strong> +91-9086-261031</li>
 											</ul>
 											
 										</div>
@@ -625,7 +726,8 @@
 							</div><!-- / uc-container -->
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-11">
-									<span class="icon-eye">Fifth Events</span>
+									<span class="icon-eye"><em>Online Treasure Hunt</em></span>
+									<p></p>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-11">
 									<div class="md-content">
@@ -633,13 +735,29 @@
 											<button class="md-register register">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
-										<h3>second events</h3>
+										<h3>Online Treasure Hunt</h3>
 										<div>
-											<p>This is a modal window. You can do the following things with it:</p>
+											<p>It  will  be  a  unique race  against  time​
+											game  exclusively  devoted  to
+											testing your agility and numerical skills.</p>
+											<p>Question's  Will  Be  based  on  basic  programming,  IQ  and  logical
+											reasoning,and are bound to test the efficiency of your grey cells.</p>
+											<p><em><strong>Details</strong> </em>: <br>
+ 												It  will  have  various  level  of  difficulties  in  the  form  of  various  Puzzles
+												And Multimedia. <br>
+												U  have to Complete First Level to go to the Next Level.Student's From
+												Every Year Can Participate.</p>
+											<p><strong>Rules</strong> :
+												1. You have to register with a unique id and password.<br>
+												2. Only One Chance is allowed for answering a question.<br>
+												3. Each Team Will be allotted a computer.
+											<br>	<strong>Team </strong> : ( 1 - 2 Member )
+											</p>
+
+											<br><br>
 											<ul>
-												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
-												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
-												<li><strong>Close:</strong> click on the button below to close the modal.</li>
+												<li><strong>Event Co-ordinator : </strong>Aditya Agraval</li>
+												<li><strong>Contact :</strong> +91-9797-520203</li>
 											</ul>
 											
 										</div>
@@ -649,7 +767,8 @@
 							</div><!-- / uc-container -->
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-12">
-									<span class="icon-eye">sixth Events</span>
+									<span class="icon-eye">Binary Battles</span>
+									<p>Participate , Do Competitive programming and Prove You are Elite Coder!</p>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-12">
 									<div class="md-content">
@@ -657,13 +776,20 @@
 											<button class="md-register register">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
-										<h3>second events</h3>
+										<h3>Binary Battles</h3>
 										<div>
-											<p>This is a modal window. You can do the following things with it:</p>
+											<p>This  will  be  a  very  straight­forward  programming  event,  wherein
+											certain  algorithmic  challanges  will  be  given  to  participants  and  they
+											can solve it using C/C++ and Java.
+											Event  will  be  divided  into  two  stages  and  after  clearing  the  first  stage
+											participants will be promoted to next one.</p>
+											<br>
+											<p><strong>Team</strong> : 2 Member</p>
+											
+											<br><br>
 											<ul>
-												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
-												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
-												<li><strong>heuya:</strong> click on the button below to close the modal.</li>
+												<li><strong>Event Co-ordinator : </strong>Akshay Pratap Singh</li>
+												<li><strong>Contact :</strong> +91-9086250656</li>
 											</ul>
 											
 										</div>
