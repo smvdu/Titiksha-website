@@ -2331,11 +2331,11 @@ transform: rotate(-23deg);
 }
 
 .md-trigger{
-    line-height: 3vw;
+    line-height: 2.5vw;
     padding: 25px;
     width: 180px;
     height: 180px;
-    background: rgb(0,153,102);
+    background: rgb(212, 240, 232);
     color: #1C1635;
 }
 
