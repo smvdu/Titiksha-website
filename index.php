@@ -63,6 +63,14 @@
         		<li data-slide="5"></li>
         		<li data-slide="6"></li>
         	</ul>
+
+        	<div data-slide="1"></div>
+        	<div data-slide="2"></div>
+        	<div data-slide="3"></div>
+        	<div data-slide="4"></div>
+        	<div data-slide="5"></div>
+        	<div data-slide="6"></div>
+        	
         </nav>
 
 		<section id="container">	
@@ -323,23 +331,15 @@
 											<p>The  event  aims  to  gather diverse perspectives from participants around
 											the  country  regarding  the  problems  being  faced  in  their  states  and  to
 											come  up  to  solutions  to  these  problems  through  a  rigorous  mutual
-											discussion  among the representatives of different 28 states. A quite major question now apparent in the society these days is that
-											have we really tried to bring a change in the system that we always
-											wanted? Instead of just saying that 'Is system ka kuchh nahi ho
-											sakta', have we even tried to bring a positive change in ourselves? "All izz not
+											discussion  among the representatives of different 28 states. "All izz not
 											well" will be held in two rounds. </p>
-											<p><em>ROUND 1­</em> :First Round group questionnaire based 
-											 general awareness of the participants .
+											<p><em>ROUND 1­</em> : A short essay is given to all the participated candidates.
+											(Topic ­ define at­least five problems of your state with their
+											feasible solutions if u are the chief minister of your state).
 											</p>
-											<p><em>ROUND 2</em> :­ Simple presentation in which  the participant
-											undertake to deal with the problems persisting in their state if they
-											were the chief minister of their state in  front  of  the  jury,  which  will
+											<p><em>ROUND 2</em> :­Candidates  qualified  in round 1 are eligible to present their
+											state’  problems  with  feasible  solutions  in  front  of  the  jury,  which  will
 											decide the winner.</p>
-
-											<p>The discussion would be moderated in front of eminent personalities
-												including administrative officers, editors and young leaders and we
-												aim to come upon solutions that could be implemented by the government
-												and have a strong and lasting impact on the society.</p>
 											
 											<ul>
 												<li><strong>Event Co-ordinator :</strong>Shubham Tiwari</li>
@@ -378,8 +378,8 @@
 													as the “BEST ROBOT”. </p>
 													 <br>
 											<ul>
-												<li><strong>Event Co-ordinator :</strong> Vipin Tripathi </li>
-												<li><strong>Contact :</strong> +91-9086-252113</li>
+												<li><strong>Event Co-ordinator :</strong> Alpha Beta</li>
+												<li><strong>Contact :</strong> +91-1251354713</li>
 											</ul>
 											
 										</div>
@@ -398,7 +398,7 @@
 											<button class="md-register register">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
-										<h3>ELECTRO-AVTAAR ( EDGE OF TOMORROW )</h3>
+										<h3>ELECTRO-AVTAAR</h3>
 										<div>
 											<p>This event is a blend of science and imagination. Design your own
 												super hero and win prizes! It will be organized in three levels.
@@ -414,11 +414,11 @@
 												would cross question them.</p>
 												<p><em>Level 3</em> :<strong> Video Mania - </strong>
 												The  top  participants  will  make  a  short  movie  on  their  superhero of the
-												length  of  their  choice  and  the  best  video  would  be  shown  in
+												TITIKSHA 2013 PROPOSAL Page 2length  of  their  choice  and  the  best  video  would  be  shown  in
 												the valedictory ceremony in auditorium.</p>
 											<ul>
-												<li><strong>Event Co-ordinator :</strong>Ashish Singh</li>
-												<li><strong>Contact :</strong> +91-9596-997294</li>
+												<li><strong>Event Co-ordinator :</strong> Alpha Beta</li>
+												<li><strong>Contact :</strong> +91-1251354713</li>
 											</ul>
 											
 										</div>
@@ -451,8 +451,8 @@
 												<br> Level 2 (SENIOR)­for 3 year /4 year/inter university.</p>
 											<br>
 											<ul>
-												<li><strong>Event Co-ordinator :</strong> Ashish Kumar Singh </li>
-												<li><strong>Contact :</strong> +91-9596-997294</li>
+												<li><strong>Event Co-ordinator :</strong> Alpha Beta</li>
+												<li><strong>Contact :</strong> +91-1251354713</li>
 											</ul>
 										</div>
 									</div>
@@ -485,8 +485,8 @@
 											</ul>
 											<br><br>
 											<ul>
-												<li><strong>Event Co-ordinator :</strong> Daud Shareef</li>
-												<li><strong>Contact :</strong> +91-9697-679928</li>
+												<li><strong>Event Co-ordinator :</strong> Alpha Beta</li>
+												<li><strong>Contact :</strong> +91-1251354713</li>
 											</ul>
 											
 										</div>
@@ -569,11 +569,11 @@
 							</div><!-- / uc-container -->
 
 							<div class="uc-container">
-								<div class="md-trigger " data-modal="modal-8">
+								<div class="md-trigger " data-modal="modal-51">
 									<span class="icon-eye"><em>DEBUGGAGE</em></span>
 									<p>Debug and Solve Challenging Code</p>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-8">
+								<div class="md-modal md-effect-11" id="modal-51">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -588,8 +588,8 @@
 												round one will participate.
 											</p>
 											
-											<p><strong>TIME </strong>- Round 1 : (20 min.) <br>
-											Round 2 : (30 min.)</p>
+											<p><strong>TIME </strong>- Round 1: 20 min. <br>
+											Round 2: 30 min.</p>
 											
 											<br><br>
 											
@@ -604,11 +604,11 @@
 							</div><!-- / uc-container -->
 
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-9">
+								<div class="md-trigger" data-modal="modal-8">
 									<span class="icon-eye"><em>PYTHON-GEEK</em></span>
 									<p>Show your Python skills and Prove you are Future Programmer.
 								</div>
-								<div class="md-modal md-effect-11" id="modal-9">
+								<div class="md-modal md-effect-11" id="modal-8">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -637,11 +637,11 @@
 							</div><!-- / uc-container -->
 
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-10">
+								<div class="md-trigger" data-modal="modal-50">
 									<span class="icon-eye"><em>KILL-EM</em></span>
 									<p>Troubleshoot PC and Show you are Computer Guy</p>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-10">
+								<div class="md-modal md-effect-11" id="modal-50">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -667,11 +667,11 @@
 							</div><!-- / uc-container -->
 
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-11">
+								<div class="md-trigger" data-modal="modal-9">
 									<span class="icon-eye"><em>LUI-COMMANDO</em></span>
 									<p>Perform some Operation in Terminal and Prove Yourself Linux Lover</p>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-11">
+								<div class="md-modal md-effect-11" id="modal-9">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -700,11 +700,11 @@
 							</div><!-- / uc-container -->
 							
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-12">
+								<div class="md-trigger" data-modal="modal-10">
 									<span class="icon-eye"><em>JUMBLE-MUMBLE</em></span>
 									<p>Re-arrange code and Grab Prizes</p>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-12">
+								<div class="md-modal md-effect-11" id="modal-10">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -733,11 +733,11 @@
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-13">
+								<div class="md-trigger" data-modal="modal-11">
 									<span class="icon-eye"><em>Online Treasure Hunt</em></span>
 									<p>Search The Treasure Online Using Your Intelligent Brain</p>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-13">
+								<div class="md-modal md-effect-11" id="modal-11">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -774,11 +774,13 @@
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
 							<div class="uc-container">
+
 								<div class="md-trigger" data-modal="modal-14">
 									<span class="icon-eye"><em>Binary Battles</em></span>
+
 									<p>Participate , Do Competitive programming and Prove You are Elite Coder!</p>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-14">
+								<div class="md-modal md-effect-11" id="modal-12">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -819,9 +821,56 @@
 						<div id="grid">
 						
 							<div class="uc-container">
+								<div class="md-trigger" data-modal="modal-13">
+									<span class="icon-eye">Event one</span>
+								</div>
+								<div class="md-modal md-effect-11" id="modal-13">
+									<div class="md-content">
+										<div class="md-header">
+											<button class="md-register register">Register</button>
+											<button class="md-close close">Close!</button>
+										</div>
+										<h3>Tech Roadies</h3>
+										<div>
+											<p>This is a modal window. You can do the following things with it:</p>
+											<ul>
+												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+												<li><strong>Close:</strong> click on the button below to close the modal.</li>
+											</ul>
+											
+										</div>
+									</div>
+								</div>
+								<div class="md-overlay"></div><!-- the overlay element -->
+							</div><!-- / uc-container -->
+							<div class="uc-container">
+								<div class="md-trigger" data-modal="modal-14">
+									<span class="icon-eye">second Events</span>
+								</div>
+								<div class="md-modal md-effect-11" id="modal-14">
+									<div class="md-content">
+										<div class="md-header">
+											<button class="md-register register">Register</button>
+											<button class="md-close close">Close!</button>
+										</div>
+										<h3>second events</h3>
+										<div>
+											<p>This is a modal window. You can do the following things with it:</p>
+											<ul>
+												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+												<li><strong>Close:</strong> click on the button below to close the modal.</li>
+											</ul>
+											
+										</div>
+									</div>
+								</div>
+								<div class="md-overlay"></div><!-- the overlay element -->
+							</div><!-- / uc-container -->
+							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-15">
-									<span class="icon-eye"><em>DESIGN YOUR DREAMS</em></span>
-									<p>Think Creative and Design Dream</p>
+									<span class="icon-eye">Third Events</span>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-15">
 									<div class="md-content">
@@ -829,17 +878,13 @@
 											<button class="md-register register">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
-										<h3>DESIGN YOUR DREAMS</h3>
+										<h3>second events</h3>
 										<div>
-											<p>Do you think about how my dream car should be look like?
-											This  event  can  help  you  to  think  more.  Design  some  crazy  and
-											innovative  automobiles  sketches  like  cycles,  bikes,  cars,  Air  crafts  etc.
-											The most compelling design will be awarded.</p>
-											
-											<br><br>
+											<p>This is a modal window. You can do the following things with it:</p>
 											<ul>
-												<li><strong>Event Co-ordinator : </strong></li>
-												<li><strong>Contact :</strong> +91-</li>
+												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+												<li><strong>Close:</strong> click on the button below to close the modal.</li>
 											</ul>
 											
 										</div>
@@ -849,8 +894,7 @@
 							</div><!-- / uc-container -->
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-16">
-									<span class="icon-eye"><em>CONCLAVE</em></span>
-									<p>Share Your ideas on Topics related to Mechnical Engineering </p>
+									<span class="icon-eye">Fourth Events</span>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-16">
 									<div class="md-content">
@@ -858,28 +902,13 @@
 											<button class="md-register register">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
-										<h3>CONCLAVE</h3>
+										<h3>second events</h3>
 										<div>
-											<p>If  your  mind  could  be  a  cupola  of new ideas and thoughts, then we are
-											providing  you  a  platform  to  express  your  views  on  different  topics
-											related  to  mechanical  engineering.  Your  idea  can  do  technical  reforms
-											which  can  make  this  world  a  better  place  to  live  in.  so  pump  in  your
-											adrenaline,  get ready to “ROAR” and let the whole world see the might
-											of your ideas.</p>
+											<p>This is a modal window. You can do the following things with it:</p>
 											<ul>
-												<li><strong> Round - 1 Abstract  Submission : </strong>  The  abstract  could  be  submitted either
-													in .pdf  or .doc format.</li>
-												
-												<li><strong>Round - 2­  Presentation  Round : </strong>  The  selected  candidates  have  to  give
-												Power­point  presentation.  They  should  also  bring  with  them  a  hard
-												copy  for  explaining  their  presentation  consisting  of  maximum  15
-												pages including various data, diagram etc.</li>
-											</ul>
-
-											<br><br>
-											<ul>
-												<li><strong>Event Co-ordinator : </strong></li>
-												<li><strong>Contact :</strong> +91-</li>
+												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+												<li><strong>Close:</strong> click on the button below to close the modal.</li>
 											</ul>
 											
 										</div>
@@ -889,8 +918,7 @@
 							</div><!-- / uc-container -->
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-17">
-									<span class="icon-eye"><em>THE MACHINIST</em></span>
-									<p>How much you know about Machine, Reveal Your Knowledge here</p>
+									<span class="icon-eye">Fifth Events</span>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-17">
 									<div class="md-content">
@@ -898,24 +926,13 @@
 											<button class="md-register register">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
-										<h3>THE MACHINIST</h3>
+										<h3>second events</h3>
 										<div>
-											<p>Machinist,  the  master  of  operating  machine  tools,  get  ready  to  show
-											yours  mechanical  skills  on  the  machine.  Put  on  your  thinking  cap  and
-											come up to reveal your encyclopaedism on machines</p>
-										<ul>
-											<li><strong>ROUND 1 </strong> ­Written test of around 45 minutes will be conducted.<br>
-												­Participants will give test individually.<br>
-												­Question  will  be  asked  from  basic  Workshop  Practice  and
-												aptitude<br>
-												­10 teams will be selected for the 2nd round.</li>
-											<li><strong>ROUND 2 </strong> ­The selected teams will have to finish a job within a given
-												period of time.</li>
-										</ul>	
-											<br><br>
+											<p>This is a modal window. You can do the following things with it:</p>
 											<ul>
-												<li><strong>Event Co-ordinator : </strong></li>
-												<li><strong>Contact :</strong> +91-</li>
+												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+												<li><strong>Close:</strong> click on the button below to close the modal.</li>
 											</ul>
 											
 										</div>
@@ -925,8 +942,7 @@
 							</div><!-- / uc-container -->
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-18">
-									<span class="icon-eye"><em>RUSH TO ASSEMBLE-ENGINE</em></span>
-									<p>Assemble and build Engine</p>
+									<span class="icon-eye">sixth Events</span>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-18">
 									<div class="md-content">
@@ -934,82 +950,13 @@
 											<button class="md-register register">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
-										<h3>RUSH TO ASSEMBLE-ENGINE</h3>
+										<h3>second events</h3>
 										<div>
-											<p>The  teams  will  be given clues which will act as directions for the teams
-												to gather the parts of engine.</p>
+											<p>This is a modal window. You can do the following things with it:</p>
 											<ul>
-												<li>At each checkpoint‚ the clue for next checkpoint will be provided.</li>
-												<li>­At  each  checkpoint‚  the  teams  will  either  be  given  questions  to  solve
-													or, which have to be solved at that point itself.</li>
-											</ul>
-											<br><br>
-											<ul>
-												<li><strong>Event Co-ordinator : </strong></li>
-												<li><strong>Contact :</strong> +91-</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-								<div class="md-overlay"></div><!-- the overlay element -->
-							</div><!-- / uc-container -->
-							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-19">
-									<span class="icon-eye"><em>CLUEDO</em></span>
-									<p>Participate and competete for "Student of the Fest"</p>
-								</div>
-								<div class="md-modal md-effect-11" id="modal-19">
-									<div class="md-content">
-										<div class="md-header">
-											<button class="md-register register">Register</button>
-											<button class="md-close close">Close!</button>
-										</div>
-										<h3>CLUEDO</h3>
-										<div>
-											<p>This  event  is  like  a  clue  finding  event,  the  participants  are  to  be
-											divided  in  group  of  two.  Each  group  will  be  provided  with  a  clue  the
-											participants  have  to  go  to  the  place  indicated  by  the  clue,  where  they
-											will  be  provided  with  a question paper and clue for the next place. The
-											participants  have  to  submit  the  solved  paper  to  organizers  present  at
-											that  place.  Each  group has to solve such 5 question paper consisting of
-											10  questions  in  limited  time  period  the  groups  will  be  evaluated  on
-											basis of marks and time taken by them to complete the questions .</p>
-											<br><br>
-											<ul>
-												<li><strong>Event Co-ordinator : </strong></li>
-												<li><strong>Contact :</strong> +91-</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-								<div class="md-overlay"></div><!-- the overlay element -->
-							</div><!-- / uc-container -->
-							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-20">
-									<span class="icon-eye"><em>FUTURE-TECH</em></span>
-									<p>Here is your chance to show Real Engineer inside You.</p>
-								</div>
-								<div class="md-modal md-effect-11" id="modal-20">
-									<div class="md-content">
-										<div class="md-header">
-											<button class="md-register register">Register</button>
-											<button class="md-close close">Close!</button>
-										</div>
-										<h3>FUTURE-TECH</h3>
-										<div>
-											<p>The  technology  or  modification  in  technology  that  can  enhance  the
-											existing technology (in any field) or innovation of any new type.</p>
-											<p>Judgment criteria:­</p>
-											<ul>
-												<li>1) Should Have Some Logical Ground</li>
-												<li>2) Economically Feasibility</li>
-												<li>3) Employment Generative</li>
-												<li>4) Environment Friendliness</li>
-											</ul>
-											<br><br>
-											<ul>
-												<li><strong>Event Co-ordinator : </strong></li>
-												<li><strong>Contact :</strong> +91-</li>
+												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+												<li><strong>heuya:</strong> click on the button below to close the modal.</li>
 											</ul>
 											
 										</div>
@@ -1017,49 +964,6 @@
 								</div>
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
-
-							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-21">
-									<span class="icon-eye"><em>BAJA de innovación</em></span>
-									<p>Participate and Contribute your idea in "WILD BAnTENG"</p>
-								</div>
-								<div class="md-modal md-effect-11" id="modal-21">
-									<div class="md-content">
-										<div class="md-header">
-											<button class="md-register register">Register</button>
-											<button class="md-close close">Close!</button>
-										</div>
-										<h3>BAJA de innovación</h3>
-										<div>
-											<p>This  event  is  to  invite  innovative  ideas  for  the  ATV  under  production
-												by  the team "MECHANIX" which will be participating with its vehicle
-												"WILD BAnTENG" in BAJA SAE 2014.</p>
-											<p>The event will be organised in two stages:</p>
-											<ul>
-												<li>stage  1:  Participants  will  be  given  a  questionnaire  about  ideas
-												in different fields.</li>
-												<li>stage  2:  Selected  candidates  will  be  invited  to  submit  a
-												full­length  description  of  their  idea  in  the  form  of  a  ppt.  and
-												winners  will  be  decided  on  the  basis  of  the  practicality  and
-												usefulness of the idea.</li>
-											</ul>
-
-											<p>The  winning  ideas  will  be  implemented  by  the  "MECHANIX"
-												and  if  the  idea  wins  any  prizes  at  the  BAJA  SAE  2014,  the
-												person  will  be  given  10%  of  the  prize  money.  (which  will
-												amount to no less than <strong>15,000 INR</strong> ).</p>
-											<br><br>
-											<ul>
-												<li><strong>Event Co-ordinator : </strong></li>
-												<li><strong>Contact :</strong> +91-</li>
-											</ul>
-											
-										</div>
-									</div>
-								</div>
-								<div class="md-overlay"></div><!-- the overlay element -->
-							</div><!-- / uc-container -->
-							
 							
 							
 						</div><!-- / grid -->
@@ -1074,11 +978,13 @@
 						<div id="grid">
 						
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-22">
-									<span class="icon-eye"><em>WAVEMANIA</em></span>
+
+								<div class="md-trigger" data-modal="modal-19">
+									<span class="icon-eye">WAVEMANIA</span>
+
 									<p>Check whether you have the basic knowledge of electrical components.</p>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-22">
+								<div class="md-modal md-effect-11" id="modal-19">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -1092,24 +998,27 @@
 												The  second  round:  The  participants  will  be  given  electronic
 												components  and  an  oscilloscope  and they have to generate waveforms.
 												The most interesting ones win.</p>
-											<br><br>
 											<ul>
+
 
 												<li><strong>Event Co-ordinator : Suraj Gupta</strong></li>
 												<li><strong>Contact : +91-9596913682</strong></li>
 
+
 											</ul>
+											
 										</div>
 									</div>
 								</div>
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-23">
-									<span class="icon-eye"><em>ELECTRO-QUIZ</em></span>
+
+								<div class="md-trigger" data-modal="modal-20">
+									<span class="icon-eye">ELECTRO-QUIZ</span>
 									<p>A quiz regarding lab instruments and related to technology.</p>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-23">
+								<div class="md-modal md-effect-11" id="modal-20">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -1120,8 +1029,8 @@
 											<p>Questions  will  be  based  on  knowledge  regarding  with  lab  instruments and  related  to  technology.  The  quiz  will  be  held  in  two  <strong>rounds</strong>. Those
 												qualifying  the  preliminary  round  will be permitted to participate in the
 												final.</p>
-											<br><br>
 											<ul>
+
 
 												<li><strong>Event co-ordinator: </strong> Brijesh Kumar</li>
 												<li><strong>Contact:</strong> +91-9086255280</li> 
@@ -1133,12 +1042,14 @@
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-24">
-									<span class="icon-eye"><em>ELECTRO-AVATAR</em></span>
+
+								<div class="md-trigger" data-modal="modal-21">
+									<span class="icon-eye">ELECTRO-AVATAR</span>
+
 									<p>This  event  is  a  blend  of  science  and  imagination.  Design  your  own
 										super  hero  and  win  prizes.</p>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-24">
+								<div class="md-modal md-effect-11" id="modal-21">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -1153,24 +1064,27 @@
 												The  top  participants  will  make  a  short  movie  on  their  superhero of the
 												length  of  their  choice  and  the  best  video  would  be  shown  in  the
 												Matrika Auditorium during the valedictory of Titiksha.</p>
-											<br><br>
 											<ul>
+
 
 												<li><strong>Event co-ordinator: </strong> Ashish Singh</li>
 												<li><strong>Contact: </strong> +91-9596997294</li>
 
 											</ul>
+											
 										</div>
 									</div>
 								</div>
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-25">
-									<span class="icon-eye"><em>CIRCUIT-BUG</em></span>
+
+								<div class="md-trigger" data-modal="modal-22">
+									<span class="icon-eye">CIRCUIT-BUG</span>
+
 									<p>An event for those obsessed with circuits, comprising of two rounds.</p>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-25">
+								<div class="md-modal md-effect-11" id="modal-22">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -1184,24 +1098,27 @@
 												<li><em><strong>Round 2 </strong></em>:  A  dysfunctional  circuit  will  be  given  to  the  participant.  The
 												one who fixes his/her circuit first will brag the prize.</li>
 											</ul>
-											<br><br>
 											<ul>
+
 
 												<li><strong>Event co-ordinator: </strong> Munib Chauhan</li>
 												<li><strong>Contact: </strong> +91-9086260992</li>
 
 											</ul>
+											
 										</div>
 									</div>
 								</div>
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-26">
+
+								<div class="md-trigger" data-modal="modal-23">
 									<span style="font-size: 90%;" class="icon-eye"><em>MICRO - CONTROLLER CODING</em></span>
 									<p>Using  microprocessor  build  a  real  life  application.</p>
+
 								</div>
-								<div class="md-modal md-effect-11" id="modal-26">
+								<div class="md-modal md-effect-11" id="modal-23">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -1211,24 +1128,27 @@
 										<div>
 											<p>Using  <strong>microprocessor/microcontroller</strong>  build  a  real  life  application
 											(only software)</p>
-											<br><br>
 											<ul>
+
 
 												<li><strong>Event co-ordinator: </strong> Munib Chauhan</li>
 												<li><strong>Contact: </strong> +91-9086260992</li>
 
 											</ul>
+											
 										</div>
 									</div>
 								</div>
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-27">
+
+								<div class="md-trigger" data-modal="modal-24">
 									<span style="font-size: 90%;"class="icon-eye"><em>CIRCUIT - ELECTRONIQUE</em></span>
 									<p>An  event  for  those  who  believe  themselves  to  be  circuit­experts.</p>
+
 								</div>
-								<div class="md-modal md-effect-11" id="modal-27">
+								<div class="md-modal md-effect-11" id="modal-24">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -1242,13 +1162,15 @@
 												preliminary round for the final circuit assembly test. <strong>Final</strong> :  The  circuit  assembling  skills  of  the  participants  will  be  put  to
 												test.  Time  taken  by  the  participants  and  the  quality  of  the  circuit
 												designed will determine the winner.</p>
-											<br><br>
 											<ul>
+
 
 												<li><strong>Event co-ordinator: </strong> Danish</li>
 												<li><strong>Contact: </strong> +91-9086255280</li>
 
+
 											</ul>
+											
 										</div>
 									</div>
 								</div>
@@ -1256,11 +1178,13 @@
 							</div><!-- / uc-container -->
 							
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-28">
-									<span class="icon-eye"><em>ELECTRO TRADE</em></span>
+
+								<div class="md-trigger" data-modal="modal-55">
+									<span class="icon-eye">ELECTRO TRADE</span>
+
 									<p>Get your Technology knowledge checked here.</p>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-28">
+								<div class="md-modal md-effect-11" id="modal-55">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -1280,13 +1204,15 @@
                                                         The details about the circuit will be hidden in a hint given to you.</li>
 												</ul>
 											</p>
-											<br><br>
 											<ul>
+
 
 												<li><strong>Event co-ordinator: </strong> Prayag Varshney</li>
 												<li><strong>Contact: </strong> +91-9697992483</li>
 
+
 											</ul>
+											
 										</div>
 									</div>
 								</div>
@@ -1305,12 +1231,14 @@
 						<div id="grid">
 						
 							<div class="uc-container">
+
 								<div class="md-trigger" data-modal="modal-29">
 									<span style="font-size: 90%;" class="icon-eye"><em>ARCHITECTURAL SYMPOSIUM</em></span>
 									<p>"Has  the  public  not  become  so  diverse  that  a
 										space with which everyone identifies no longer exists?"</p>
+
 								</div>
-								<div class="md-modal md-effect-11" id="modal-29">
+								<div class="md-modal md-effect-11" id="modal-25">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -1318,6 +1246,7 @@
 										</div>
 										<h3>ARCHITECTURAL SYMPOSIUM</h3>
 										<div>
+
 											<p>In the debate on public space, references are still being made to traditional examples: coffeehouses in which politics were discussed, boulevards where vagrants warily eye the bourgeoisie, 
 											old city squares used by a diverse public. 
 											But are these public spaces still the spaces of the contemporary city? Has the public not become so diverse that a space with which everyone identifies no longer exists?</p>
@@ -1328,19 +1257,23 @@
 											<ul>
 												<li><strong>Event Co-ordinator : </strong>Anand upadhayay</li>
 												<li><strong>Contact :</strong> +91- 9697-679672</li>
+
 											</ul>
+											
 										</div>
 									</div>
 								</div>
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-30">
-									<span class="icon-eye"><em>ART INSTALLATION</em></span>
+
+								<div class="md-trigger" data-modal="modal-26">
+									<span class="icon-eye">ART INSTALLATION</span>
+
 									<p>Make  an  art  installation  using  natural  as  well  as  waste
 										products,  gathering  from  university  campus.</p>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-30">
+								<div class="md-modal md-effect-11" id="modal-26">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -1354,23 +1287,27 @@
 												to  do  is  to  make  an  <strong>art  installation</strong>  using  natural  as  well  as  waste
 												products,  gathering  from  university  campus.  The  theme  will  be
 												provided on the spot.</p>
-											<br><br>
 											<ul>
+
 												<li><strong>Event Co-ordinator : </strong>Anuksha amla</li>
 												<li><strong>Contact :</strong> +91-9797-517532</li>
+
 											</ul>
+											
 										</div>
 									</div>
 								</div>
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-31">
-									<span class="icon-eye"><em>DIGI-ART</em></span>
+
+								<div class="md-trigger" data-modal="modal-27">
+									<span class="icon-eye">DIGI-ART</span>
+
 									<p>Produce  some  digital  modals  using  simple
 										Google  “sketch­up”  software</p>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-31">
+								<div class="md-modal md-effect-11" id="modal-27">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -1385,22 +1322,25 @@
 												<p>In  this  event  you  have  to  produce  some  digital  modals  using  simple
 												Google  “sketch­up”  software,  you  can  also  use  v­ray  for  the rendering
 												purpose. Theme will be revealed at the time of event.</p>
-											<br><br>
 											<ul>
+
 												<li><strong>Event Co-ordinator : </strong>Shreya</li>
 												<li><strong>Contact :</strong> +91- 9086-120809</li>
+
 											</ul>
+											
 										</div>
 									</div>
 								</div>
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-32">
-									<span class="icon-eye"><em>FACE-PAINTING</em></span>
+
+								<div class="md-trigger" data-modal="modal-28">
+									<span class="icon-eye">FACE-PAINTING</span>
 									<p>Paint your friends face.</p>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-32">
+								<div class="md-modal md-effect-11" id="modal-28">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -1416,23 +1356,26 @@
 												<p>So  it  is  clear  from  above  description  that  you  have  to  paint  your
 												friends  face. So be ready to have some fun. <strong>Theme will be given before
 												time of the event</strong>.</p>
-											<br><br>
 											<ul>
+
 												<li><strong>Event Co-ordinator : </strong>Arpita</li>
 												<li><strong>Contact :</strong> +91- 9018-718271 / 9796-424714</li>
+
 											</ul>
+											
 										</div>
 									</div>
 								</div>
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-33">
-									<span class="icon-eye"><em>CARICATURE-MAKING</em></span>
+
+								<div class="md-trigger" data-modal="modal-29">
+									<span class="icon-eye">CARICATURE-MAKING</span>
 									<p>Make  a
 										caricature  of your best enemy</p>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-33">
+								<div class="md-modal md-effect-11" id="modal-29">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -1447,22 +1390,26 @@
 												 are commonly used in editorial cartoons. While caricatures of movie stars are often found in entertainment magazines. </p>
 												<p>Make  a caricature  of your best enemy and have a chance to showcase your rage
 												in public. Have fun and win prize. <strong>Bingo!!</strong></p>
-											<br><br>
 											<ul>
+
 												<li><strong>Event Co-ordinator : </strong>Arunima Bhowmick </li>
 												<li><strong>Contact :</strong> +91-9596997279 / 9018397409</li>
+
 											</ul>
+											
 										</div>
 									</div>
 								</div>
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-34">
-									<span class="icon-eye"><em>POSTER-MAKING</em></span>
+
+								<div class="md-trigger" data-modal="modal-30">
+									<span class="icon-eye">POSTER-MAKING</span>
+
 									<p>Make Posters and express yourself.</p>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-34">
+								<div class="md-modal md-effect-11" id="modal-30">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -1473,6 +1420,7 @@
 										<div>
 											<p><strong>Posters</strong>  are  a  great  way  to  present  information  in  a  visual  format.  The poster’s  topic  should  be  clear  at  a  quick  glance  and  appealing  so  that
 												people  will  stop  and  read  more.</p>
+
 											<p>Here are some tips to make sure that your poster looks good:  </p>
 											<p>• Make sure your poster is attention getting.  Remember you want people to take 
 											the time to read about what you have done. • Include information that is brief and
@@ -1484,12 +1432,14 @@
 											    distracting.    • Use intense colours. Try dark lettering against a light background.
 											     This is usually easiest for people to read.   </p>
 											     <p>Before you begin designing your poster, think about what the audience needs to know about a single subject or topic. Create a list to help narrow your main points.
-Theme provided before event.</p>
+													Theme provided before event.</p>
 											<br><br>
 											<ul>
 												<li><strong>Event Co-ordinator : </strong>Damanjot Kaur</li>
 												<li><strong>Contact :</strong> +91- 8283-835234</li>
+
 											</ul>
+											
 										</div>
 									</div>
 								</div>
@@ -1497,12 +1447,14 @@ Theme provided before event.</p>
 							</div><!-- / uc-container -->
 
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-35">
-									<span class="icon-eye"><em>LOGO-DESIGN</em></span>
+
+								<div class="md-trigger" data-modal="modal-31">
+									<span class="icon-eye">LOGO-DESIGN</span>
+
 									<p>Design  a  logo  for  the  world’s  most  economy  booster  company  named
 										“frame­inn”.</p>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-35">
+								<div class="md-modal md-effect-11" id="modal-31">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -1518,11 +1470,13 @@ Theme provided before event.</p>
 												“frame­inn”.  Basically  the  company  deals  with  the  global  modeling
 												business,  while  designing  logo  for  the  company  you  should  keep  in
 												mind the <strong>purpose</strong> and <strong>simplicity</strong> of logo.</p>
-											<br><br>
 											<ul>
+
 												<li><strong>Event Co-ordinator : </strong>Puneet Mehta </li>
 												<li><strong>Contact :</strong> +91-9419-351611</li>
+
 											</ul>
+											
 										</div>
 									</div>
 								</div>
@@ -1530,12 +1484,14 @@ Theme provided before event.</p>
 							</div><!-- / uc-container -->
 							
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-36">
-									<span class="icon-eye"><em>LANDSCAPING</em></span>
+
+								<div class="md-trigger" data-modal="modal-32">
+									<span class="icon-eye">LANDSCAPING</span>
+
 									<p>What  you  have  to  do  is  to  landscape  the  “PMC”  lawn.  Of  which  the
 										area/plan  will  be  given  before  event. </p>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-36">
+								<div class="md-modal md-effect-11" id="modal-32">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -1553,11 +1509,14 @@ Theme provided before event.</p>
 											 <li>4. Abstract elements such as the weather and lighting</li>
 											 </ul>
 											<ul>
+
 											<br><br>
 											<ul>
 												<li><strong>Event Co-ordinator : </strong>Himanshu Bharanwal</li>
 												<li><strong>Contact :</strong> +91-- 8716-055931</li>
+
 											</ul>
+											
 										</div>
 									</div>
 								</div>
@@ -1576,12 +1535,12 @@ Theme provided before event.</p>
 						<div id="grid">
 						
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-37">
+								<div class="md-trigger" data-modal="modal-31">
 									<span class="icon-eye">BIO-TECH QUIZ</span>
 									<p>Quiz based on new  inventions  in
 										bio­tech and other aspects of bio technology.</p>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-37">
+								<div class="md-modal md-effect-11" id="modal-31">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -1591,25 +1550,28 @@ Theme provided before event.</p>
 										<div>
 											<p>Students  will  be  asked  various  questions  related  to  new  inventions  in
 												bio­tech and other aspects of <strong>bio-technology</strong>.</p>
-											<br><br>
 											<ul>
+
 
 												<li><strong>Event co-ordinator: </strong> Ishan tiwari  </li>
 												<li><strong>Contact: </strong> +91-9596916580</li>
 												
 
 											</ul>
+											
 										</div>
 									</div>
 								</div>
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-38">
-									<span class="icon-eye"><em>SPELL-CORRECTLY</em></span>
+
+								<div class="md-trigger" data-modal="modal-32">
+									<span class="icon-eye">SPELL-CORRECTLY</span>
+
 									<p>Write the names of micro­-organism correctly.</p>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-38">
+								<div class="md-modal md-effect-11" id="modal-32">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -1619,26 +1581,30 @@ Theme provided before event.</p>
 										<div>
 											<p>Students  are  asked  to  write  down  names  of  <strong>micro­organism</strong>  the  one
 												who write the most of the name correct wins.</p>
-											<br><br>
 											<ul>
+
 
 												<li><strong>Event co-ordinator: </strong> Shamli Shagotra</li>
 												<li><strong>Contact: </strong> +91-946947982</li>
 												
 
+
 											</ul>
+											
 										</div>
 									</div>
 								</div>
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-39">
-									<span class="icon-eye"><em>JUMBLE-WORDS</em></span>
+
+								<div class="md-trigger" data-modal="modal-33">
+									<span class="icon-eye">JUMBLE-WORDS</span>
+
 									<p>Lots  of  name  related  to  bio  tech  will  be  jumbled  up  the  one who finds
 										the most wins.</p>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-39">
+								<div class="md-modal md-effect-11" id="modal-33">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -1655,18 +1621,21 @@ Theme provided before event.</p>
 												
 
 											</ul>
+											
 										</div>
 									</div>
 								</div>
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
 							<div class="uc-container">
+
 								<div class="md-trigger" data-modal="modal-40">
 									<span style="font-size: 80%;"class="icon-eye"><em>COMPLEMENTATION</em></span>
 									<p>Complete  the  sequence  of  DNA  by  making  their
 										complement of the base pairs (ATGC).</p>
+
 								</div>
-								<div class="md-modal md-effect-11" id="modal-40">
+								<div class="md-modal md-effect-11" id="modal-34">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -1678,25 +1647,27 @@ Theme provided before event.</p>
 												complement of the base pairs <strong>(ATGC)</strong>.
 												You have to make the sequence as fast as possible
 												Those  who  will  finish  it  first  will  be  the  winner.</p>
-											<br><br>
 											<ul>
+
 
 												<li><strong>Event co-ordinator: </strong> Aman Sharma</li>
 												<li><strong>Contact: </strong> +91-9469285442</li>
-												
 
 											</ul>
+											
 										</div>
 									</div>
 								</div>
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-41">
-									<span class="icon-eye"><em>SHOW YOUR MEMORY</em></span>
+
+								<div class="md-trigger" data-modal="modal-35">
+									<span class="icon-eye">SHOW YOUR MEMORY</span>
+
 									<p>Put your memory to a test.</p>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-41">
+								<div class="md-modal md-effect-11" id="modal-35">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -1707,24 +1678,28 @@ Theme provided before event.</p>
 											<p><strong>Visuals</strong>  will  be  displayed  for  few  seconds
 												to  the  contestants.  Contestants  have  to  recall  the  different  names  they
 												have seen in the visuals.</p>
-											<br><br>
 											<ul>
+
 
 												<li><strong>Event co-ordinator: </strong> Lav Kush Raj </li>
 												<li><strong>Contact: </strong> +91-9419873842</li>
+
 												
 											</ul>
+											
 										</div>
 									</div>
 								</div>
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-42">
-									<span class="icon-eye"><em>STRUCTURE MODELLING</em></span>
+
+								<div class="md-trigger" data-modal="modal-36">
+									<span class="icon-eye">STRUCTURE MODELLING</span>
+
 									<p>Draw the 3-D structure of different compounds and molecules.</p>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-42">
+								<div class="md-modal md-effect-11" id="modal-36">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -1735,14 +1710,16 @@ Theme provided before event.</p>
 											<p>Different  <strong>compounds</strong>  or  <strong>molecules</strong>
 												structures  will  be  shown  to  the  contestants  for  some  time  they  will  be
 												provided  with  the  tools  to  make  the  <strong>3d</strong>  structure  of  the  shown molecule.</p>
-											<br><br>
 											<ul>
+
 
 												<li><strong>Event co-ordinator: </strong> Poonam Choudhary</li>
 												<li><strong>Contact: </strong> +91-9596855658</li>
 												
 
+
 											</ul>
+											
 										</div>
 									</div>
 								</div>
@@ -2115,60 +2092,15 @@ $sponsors = array(
 					$(".page").fadeIn(1200, function(){
 						$("#container").remove();
 						$("#main_nav").fadeIn();
+						$.waypoints('refresh');
 					});
+
 				});
 
 
-				//jparallax on menu page
-				$(".bub").parallax({
-					mouseport: $("#bubble_area")
-				});
 
 	        });
 
-/*
-			$(function() {
-
-				// say we want to have only one item opened at one moment
-				var opened = false;
-
-				$( '#grid > div.uc-container' ).each( function( i ) {
-
-					var $item = $( this ), direction;
-
-					switch( i ) {
-						case 0 : direction = ['right','bottom']; break;
-						case 1 : direction = ['left','bottom']; break;
-						case 2 : direction = ['left','bottom']; break;
-						case 3 : direction = ['right','top']; break;
-						case 4 : direction = ['right','top']; break;
-						case 5 : direction = ['left','top']; break;
-					
-					}
-					
-					var pfold = $item.pfold( {
-						folddirection : direction,
-						speed : 300,
-						onEndFolding : function() { opened = false; },
-					} );
-
-					$item.find( 'span.icon-eye' ).on( 'click', function() {
-
-						if( !opened ) {
-							opened = true;
-							pfold.unfold();
-						}
-
-
-					} ).end().find( 'span.icon-cancel' ).on( 'click', function() {
-
-						pfold.fold();
-
-					} );
-
-				} );
-				
-			});*/
 		</script>
 		<!-- classie.js by @desandro: https://github.com/desandro/classie -->
 		<script src="js/classie.js"></script>
