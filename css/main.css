@@ -2426,7 +2426,7 @@ perspective effects (not including the modals and the overlay).
 
 /* Content styles */
 .md-content {
-    font-size: 80%;
+    font-size: 90%;
     color: rgba(19, 27, 26, 0.89);
     background: #5D95A0;
     position: relative;
