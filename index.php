@@ -335,7 +335,7 @@
 											
 											<ul>
 												<li><strong>Event Co-ordinator :</strong>Shubham Tiwari</li>
-												<li><strong>Contact :</strong> +91-9469-762638</li>
+												<li><strong>Contact :</strong> +91-9796-289195</li>
 											</ul>
 											
 										</div>
@@ -727,7 +727,7 @@
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-11">
 									<span class="icon-eye"><em>Online Treasure Hunt</em></span>
-									<p></p>
+									<p>Search The Treasure Online Using Your Intelligent Brain</p>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-11">
 									<div class="md-content">
@@ -970,6 +970,7 @@
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-19">
 									<span class="icon-eye">WAVEMANIA</span>
+									<p>Check whether you have the basic knowledge of electrical components.</p>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-19">
 									<div class="md-content">
@@ -986,8 +987,12 @@
 												components  and  an  oscilloscope  and they have to generate waveforms.
 												The most interesting ones win.</p>
 											<ul>
-												<li><strong>Event Co-ordinator : Alpha Beta</strong></li>
-												<li><strong>Contact : +91-1234567890</strong></li>
+
+
+												<li><strong>Event Co-ordinator : Suraj Gupta</strong></li>
+												<li><strong>Contact : +91-9596913682</strong></li>
+
+
 											</ul>
 											
 										</div>
@@ -998,6 +1003,7 @@
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-20">
 									<span class="icon-eye">ELECTRO-QUIZ</span>
+									<p>A quiz regarding lab instruments and related to technology.</p>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-20">
 									<div class="md-content">
@@ -1011,9 +1017,12 @@
 												qualifying  the  preliminary  round  will be permitted to participate in the
 												final.</p>
 											<ul>
-												<li><strong>Event co-ordinator: </strong> Alpha Beta</li>
-												<li><strong>Contact:</strong> +91-1234567890</li> 
+
+
+												<li><strong>Event co-ordinator: </strong> Brijesh Kumar</li>
+												<li><strong>Contact:</strong> +91-9086255280</li> 
 											
+
 										</div>
 									</div>
 								</div>
@@ -1022,6 +1031,8 @@
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-21">
 									<span class="icon-eye">ELECTRO-AVATAR</span>
+									<p>This  event  is  a  blend  of  science  and  imagination.  Design  your  own
+										super  hero  and  win  prizes.</p>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-21">
 									<div class="md-content">
@@ -1039,8 +1050,11 @@
 												length  of  their  choice  and  the  best  video  would  be  shown  in  the
 												Matrika Auditorium during the valedictory of Titiksha.</p>
 											<ul>
-												<li><strong>Event co-ordinator: </strong> Alpha Beta</li>
-												<li><strong>Contact: </strong> +91-1234567890</li>
+
+
+												<li><strong>Event co-ordinator: </strong> Ashish Singh</li>
+												<li><strong>Contact: </strong> +91-9596997294</li>
+
 											</ul>
 											
 										</div>
@@ -1051,6 +1065,7 @@
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-22">
 									<span class="icon-eye">CIRCUIT-BUG</span>
+									<p>An event for those obsessed with circuits, comprising of two rounds.</p>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-22">
 									<div class="md-content">
@@ -1067,8 +1082,11 @@
 												one who fixes his/her circuit first will brag the prize.</li>
 											</ul>
 											<ul>
-												<li><strong>Event co-ordinator: </strong> Alpha Beta</li>
-												<li><strong>Contact: </strong> +91-1234567890</li>
+
+
+												<li><strong>Event co-ordinator: </strong> Munib Chauhan</li>
+												<li><strong>Contact: </strong> +91-9086260992</li>
+
 											</ul>
 											
 										</div>
@@ -1077,8 +1095,11 @@
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-23">
-									<span class="icon-eye">MICROCONTROLLER CODING</span>
+
+								<div class="md-trigger" data-modal="modal-26">
+									<span style="font-size: 90%;" class="icon-eye">MICRO - CONTROLLER CODING</span>
+									<p>Using  microprocessor  build  a  real  life  application.</p>
+
 								</div>
 								<div class="md-modal md-effect-11" id="modal-23">
 									<div class="md-content">
@@ -1091,8 +1112,11 @@
 											<p>Using  <strong>microprocessor/microcontroller</strong>  build  a  real  life  application
 											(only software)</p>
 											<ul>
-												<li><strong>Event co-ordinator: </strong> Alpha Beta</li>
-												<li><strong>Contact: </strong> +91-1234567890</li>
+
+
+												<li><strong>Event co-ordinator: </strong> Munib Chauhan</li>
+												<li><strong>Contact: </strong> +91-9086260992</li>
+
 											</ul>
 											
 										</div>
@@ -1101,8 +1125,11 @@
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-24">
-									<span class="icon-eye">CIRCUIT-ELECTRONIQUE</span>
+
+								<div class="md-trigger" data-modal="modal-27">
+									<span style="font-size: 90%;"class="icon-eye">CIRCUIT - ELECTRONIQUE</span>
+									<p>An  event  for  those  who  believe  themselves  to  be  circuit­experts.</p>
+
 								</div>
 								<div class="md-modal md-effect-11" id="modal-24">
 									<div class="md-content">
@@ -1119,8 +1146,12 @@
 												test.  Time  taken  by  the  participants  and  the  quality  of  the  circuit
 												designed will determine the winner.</p>
 											<ul>
-												<li><strong>Event co-ordinator: </strong> Alpha Beta</li>
-												<li><strong>Contact: </strong> +91-1234567890</li>
+
+
+												<li><strong>Event co-ordinator: </strong> Danish</li>
+												<li><strong>Contact: </strong> +91-9086255280</li>
+
+
 											</ul>
 											
 										</div>
@@ -1132,6 +1163,7 @@
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-55">
 									<span class="icon-eye">ELECTRO TRADE</span>
+									<p>Get your Technology knowledge checked here.</p>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-55">
 									<div class="md-content">
@@ -1154,8 +1186,12 @@
 												</ul>
 											</p>
 											<ul>
-												<li><strong>Event co-ordinator: </strong> Alpha Beta</li>
-												<li><strong>Contact: </strong> +91-1234567890</li>
+
+
+												<li><strong>Event co-ordinator: </strong> Prayag Varshney</li>
+												<li><strong>Contact: </strong> +91-9697992483</li>
+
+
 											</ul>
 											
 										</div>
@@ -1176,8 +1212,12 @@
 						<div id="grid">
 						
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-25">
-									<span class="icon-eye">ARCHITECTURAL SYMPOSIUM</span>
+
+								<div class="md-trigger" data-modal="modal-29">
+									<span style="font-size: 90%;" class="icon-eye">ARCHITECTURAL SYMPOSIUM</span>
+									<p>"Has  the  public  not  become  so  diverse  that  a
+										space with which everyone identifies no longer exists?"</p>
+
 								</div>
 								<div class="md-modal md-effect-11" id="modal-25">
 									<div class="md-content">
@@ -1187,16 +1227,18 @@
 										</div>
 										<h3>ARCHITECTURAL SYMPOSIUM</h3>
 										<div>
-											<p>In  the  debate  on  public  space,  references  are  still  being  made  to
-												traditional  examples:  coffeehouses  in  which  politics  were  discussed,
-												boulevards  where  vagrants  warily eye the bourgeoisie, old city squares
-												used  by  a  diverse  public.  But  are  these  public  spaces  still the spaces of
-												the  contemporary  city?  Has  the  public  not  become  so  diverse  that  a
-												space with which everyone identifies no longer exists?
-												In  this  event  you  have  to  write  an  article  in  not  more  than  <strong><em>450</em>  words</strong>.</p>
+
+											<p>In the debate on public space, references are still being made to traditional examples: coffeehouses in which politics were discussed, boulevards where vagrants warily eye the bourgeoisie, 
+											old city squares used by a diverse public. 
+											But are these public spaces still the spaces of the contemporary city? Has the public not become so diverse that a space with which everyone identifies no longer exists?</p>
+											<p>In this event you have to write an article in not more than 450 words. Six entries will get a chance to read their article in front of our esteemed guest faculty.
+											 There will be a dialogue session, winners will be notified accordingly. </p>
+											<p>Email your entries at pursuingarchitecture@gmail.com </p>
+											<br><br>
 											<ul>
-												<li><strong>Event co-ordinator: </strong> Alpha Beta</li>
-												<li><strong>Contact: </strong> +91-1234567890</li>
+												<li><strong>Event Co-ordinator : </strong>Anand upadhayay</li>
+												<li><strong>Contact :</strong> +91- 9697-679672</li>
+
 											</ul>
 											
 										</div>
@@ -1207,6 +1249,8 @@
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-26">
 									<span class="icon-eye">ART INSTALLATION</span>
+									<p>Make  an  art  installation  using  natural  as  well  as  waste
+										products,  gathering  from  university  campus.</p>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-26">
 									<div class="md-content">
@@ -1223,8 +1267,10 @@
 												products,  gathering  from  university  campus.  The  theme  will  be
 												provided on the spot.</p>
 											<ul>
-												<li><strong>Event co-ordinator: </strong> Alpha Beta</li>
-												<li><strong>Look: </strong> +91-1234567890</li>
+
+												<li><strong>Event Co-ordinator : </strong>Anuksha amla</li>
+												<li><strong>Contact :</strong> +91-9797-517532</li>
+
 											</ul>
 											
 										</div>
@@ -1235,6 +1281,8 @@
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-27">
 									<span class="icon-eye">DIGI-ART</span>
+									<p>Produce  some  digital  modals  using  simple
+										Google  “sketch­up”  software</p>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-27">
 									<div class="md-content">
@@ -1247,13 +1295,15 @@
 											<p><em>Digital</em>  art  is  a  general  term  for  a  range  of  artistic  works  and  practices
 												that  use  digital  technology  as  an  essential  part  of  the  creative  and/or
 												presentation  process.  Since  the  <strong>1970s</strong>,  various  names  have  been  used to  describe  the  process  including  computer  art  and multimedia art, and
-												digital art is itself placed under the larger umbrella term new media art.
-												In  this  event  you  have  to  produce  some  digital  modals  using  simple
+												digital art is itself placed under the larger umbrella term new media art.</p>
+												<p>In  this  event  you  have  to  produce  some  digital  modals  using  simple
 												Google  “sketch­up”  software,  you  can  also  use  v­ray  for  the rendering
 												purpose. Theme will be revealed at the time of event.</p>
 											<ul>
-												<li><strong>Event co-ordinator: </strong></li>
-												<li><strong>Contact: </strong></li>
+
+												<li><strong>Event Co-ordinator : </strong>Shreya</li>
+												<li><strong>Contact :</strong> +91- 9086-120809</li>
+
 											</ul>
 											
 										</div>
@@ -1264,6 +1314,7 @@
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-28">
 									<span class="icon-eye">FACE-PAINTING</span>
+									<p>Paint your friends face.</p>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-28">
 									<div class="md-content">
@@ -1277,14 +1328,15 @@
 												Unlike  tattoo  and  other  forms  of  body art, body painting is temporary,
 												painted  onto  the  human  skin,  and  lasts  for  only  several  hours,  or  at
 												most  (in  the  case  of  Mehndi  or  "henna  tattoo")  a  couple  of  weeks.
-												Body painting that is limited to the face is known as face painting.
-												So  it  is  clear  from  above  description  that  you  have  to  paint  your
+												Body painting that is limited to the face is known as face painting.</p>
+												<p>So  it  is  clear  from  above  description  that  you  have  to  paint  your
 												friends  face. So be ready to have some fun. <strong>Theme will be given before
 												time of the event</strong>.</p>
 											<ul>
-												<li><strong>Event co-ordinators: </strong> Alpha Beta</li>
-												<li><strong>Contact: </strong> +91-1234567890</li>
-												
+
+												<li><strong>Event Co-ordinator : </strong>Arpita</li>
+												<li><strong>Contact :</strong> +91- 9018-718271 / 9796-424714</li>
+
 											</ul>
 											
 										</div>
@@ -1295,6 +1347,8 @@
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-29">
 									<span class="icon-eye">CARICATURE-MAKING</span>
+									<p>Make  a
+										caricature  of your best enemy</p>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-29">
 									<div class="md-content">
@@ -1305,13 +1359,17 @@
 										<h3>CARICATURE-MAKING</h3>
 										<div>
 											<p>A  <strong>caricature</strong>  is  a rendered image showing the features of its subject in a
-												simplified or exaggerated way. Make  a
-												caricature  of your best enemy and have a chance to showcase your rage
+												simplified or exaggerated way.</p>
+												<p>In literature, a caricature is a description of a person using exaggeration of some characteristics and oversimplification of others.</p>
+												<p>Caricatures can be insulting or complimentary and can serve a political purpose or be drawn solely for entertainment. Caricatures of politicians
+												 are commonly used in editorial cartoons. While caricatures of movie stars are often found in entertainment magazines. </p>
+												<p>Make  a caricature  of your best enemy and have a chance to showcase your rage
 												in public. Have fun and win prize. <strong>Bingo!!</strong></p>
 											<ul>
-												<li><strong>Event co-ordinators: </strong> Alpha Beta</li>
-												<li><strong>Contact: </strong> +91-1234567890</li>
-												
+
+												<li><strong>Event Co-ordinator : </strong>Arunima Bhowmick </li>
+												<li><strong>Contact :</strong> +91-9596997279 / 9018397409</li>
+
 											</ul>
 											
 										</div>
@@ -1322,6 +1380,7 @@
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-30">
 									<span class="icon-eye">POSTER-MAKING</span>
+									<p>Make Posters and express yourself.</p>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-30">
 									<div class="md-content">
@@ -1334,10 +1393,24 @@
 										<div>
 											<p><strong>Posters</strong>  are  a  great  way  to  present  information  in  a  visual  format.  The poster’s  topic  should  be  clear  at  a  quick  glance  and  appealing  so  that
 												people  will  stop  and  read  more.</p>
+
+											<p>Here are some tips to make sure that your poster looks good:  </p>
+											<p>• Make sure your poster is attention getting.  Remember you want people to take 
+											the time to read about what you have done. • Include information that is brief and
+											 easy to read. • Make it neat!  Even if you have really great information on your poster, 
+											 no one is going to take time to read it if it is messy! • Watch out for clutter!  
+											 Don’t try to put too much information or graphics on a poster.
+											  • Include pictures or charts if they help explain your project work.
+											   • Check your spelling and then check it again. Misspelled words can be very
+											    distracting.    • Use intense colours. Try dark lettering against a light background.
+											     This is usually easiest for people to read.   </p>
+											     <p>Before you begin designing your poster, think about what the audience needs to know about a single subject or topic. Create a list to help narrow your main points.
+Theme provided before event.</p>
+											<br><br>
 											<ul>
-												<li><strong>Event co-ordinator: </strong> ALpha Beta</li>
-												<li><strong>Contact: </strong> +91-1234567890</li>
-												
+												<li><strong>Event Co-ordinator : </strong>Damanjot Kaur</li>
+												<li><strong>Contact :</strong> +91- 8283-835234</li>
+
 											</ul>
 											
 										</div>
@@ -1349,6 +1422,8 @@
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-31">
 									<span class="icon-eye">LOGO-DESIGN</span>
+									<p>Design  a  logo  for  the  world’s  most  economy  booster  company  named
+										“frame­inn”.</p>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-31">
 									<div class="md-content">
@@ -1361,15 +1436,16 @@
 											<p>A  logo  is  a  graphic  mark  or  emblem  commonly  used  by  commercial
 												<strong>enterprises</strong>,  <strong>organizations</strong>  and  even  <strong>individuals</strong>  to  aid  and  promote
 												instant  public  recognition.  Logos  are  either  purely  graphic
-												(symbols/icons) or are composed of the name of the organization.
-												Design  a  logo  for  the  world’s  most  economy  booster  company  named
+												(symbols/icons) or are composed of the name of the organization.</p>
+											<p>Design  a  logo  for  the  world’s  most  economy  booster  company  named
 												“frame­inn”.  Basically  the  company  deals  with  the  global  modeling
 												business,  while  designing  logo  for  the  company  you  should  keep  in
 												mind the <strong>purpose</strong> and <strong>simplicity</strong> of logo.</p>
 											<ul>
-												<li><strong>Event co-ordinators: </strong> Alpha Beta</li>
-												<li><strong>Contact: </strong> +91-1234567890</li>
-												
+
+												<li><strong>Event Co-ordinator : </strong>Puneet Mehta </li>
+												<li><strong>Contact :</strong> +91-9419-351611</li>
+
 											</ul>
 											
 										</div>
@@ -1381,6 +1457,8 @@
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-32">
 									<span class="icon-eye">LANDSCAPING</span>
+									<p>What  you  have  to  do  is  to  landscape  the  “PMC”  lawn.  Of  which  the
+										area/plan  will  be  given  before  event. </p>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-32">
 									<div class="md-content">
@@ -1391,15 +1469,21 @@
 										<h3>LANDSCAPING</h3>
 										<div>
 											<p><strong>Landscaping</strong>  refers  to  any  activity  that  modifies  the  visible  features  of
-												an area of land, including:
-												Living  elements,  such  as  flora  or  fauna;  or  what  is  commonly  known
-												to  as  gardening,  the  art  and  craft  of  growing  plants  with  a  goal  of
-												creating a beautiful environment within the landscape. What  you  have  to  do  is  to  landscape  the  <strong>“PMC”</strong>  lawn.  Of  which  the
-												area/plan  will  be  given  before  event. </p>
+												an area of land, including: </p>
+											<ul><li>1. Living elements, such as flora or fauna; or what is commonly
+											 known to as gardening, the art and craft of growing
+											 plants with a goal of creating a beautiful environment within the landscape</li>
+											 <li>2. natural elements such as landforms, terrain shape and elevation, or bodies of water;</li>
+											 <li>3. human elements such as structures, buildings, fences or other material objects created and/or installed by humans; and</li>
+											 <li>4. Abstract elements such as the weather and lighting</li>
+											 </ul>
 											<ul>
-												<li><strong>Event co-ordinators: </strong> Alpha Beta</li>
-												<li><strong>Contact: </strong> +91-1234567890</li>
-												
+
+											<br><br>
+											<ul>
+												<li><strong>Event Co-ordinator : </strong>Himanshu Bharanwal</li>
+												<li><strong>Contact :</strong> +91-- 8716-055931</li>
+
 											</ul>
 											
 										</div>
@@ -1422,6 +1506,8 @@
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-31">
 									<span class="icon-eye">BIO-TECH QUIZ</span>
+									<p>Quiz based on new  inventions  in
+										bio­tech and other aspects of bio technology.</p>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-31">
 									<div class="md-content">
@@ -1434,9 +1520,12 @@
 											<p>Students  will  be  asked  various  questions  related  to  new  inventions  in
 												bio­tech and other aspects of <strong>bio-technology</strong>.</p>
 											<ul>
-												<li><strong>Event co-ordinator: </strong> Alpha Beta</li>
-												<li><strong>Contact: </strong> +91-1234567890</li>
+
+
+												<li><strong>Event co-ordinator: </strong> Ishan tiwari  </li>
+												<li><strong>Contact: </strong> +91-9596916580</li>
 												
+
 											</ul>
 											
 										</div>
@@ -1447,6 +1536,7 @@
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-32">
 									<span class="icon-eye">SPELL-CORRECTLY</span>
+									<p>Write the names of micro­-organism correctly.</p>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-32">
 									<div class="md-content">
@@ -1459,9 +1549,13 @@
 											<p>Students  are  asked  to  write  down  names  of  <strong>micro­organism</strong>  the  one
 												who write the most of the name correct wins.</p>
 											<ul>
-												<li><strong>Event co-ordinator: </strong> Alpha Beta</li>
-												<li><strong>Contact: </strong> +91-12345678990</li>
+
+
+												<li><strong>Event co-ordinator: </strong> Shamli Shagotra</li>
+												<li><strong>Contact: </strong> +91-946947982</li>
 												
+
+
 											</ul>
 											
 										</div>
@@ -1472,6 +1566,8 @@
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-33">
 									<span class="icon-eye">JUMBLE-WORDS</span>
+									<p>Lots  of  name  related  to  bio  tech  will  be  jumbled  up  the  one who finds
+										the most wins.</p>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-33">
 									<div class="md-content">
@@ -1482,11 +1578,13 @@
 										<h3>JUMBLE-WORDS</h3>
 										<div>
 											<p>Lots  of  name  related  to  bio  tech  will  be  <strong>jumbled</strong>  up  the  one who finds
-the most wins.								</p>
+
+												the most wins.</p>
 											<ul>
-												<li><strong>Event co-ordinator: </strong> Alpha Beta</li>
-												<li><strong>Contact: </strong> +91-1234567890</li>
+												<li><strong>Event co-ordinator: </strong> Sudhanshu Raj Sagar</li>
+												<li><strong>Contact: </strong> +91-9796858005</li>
 												
+
 											</ul>
 											
 										</div>
@@ -1495,8 +1593,12 @@ the most wins.								</p>
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-34">
-									<span class="icon-eye">COMPLEMENTATION</span>
+
+								<div class="md-trigger" data-modal="modal-40">
+									<span style="font-size: 80%;"class="icon-eye">COMPLEMENTATION</span>
+									<p>Complete  the  sequence  of  DNA  by  making  their
+										complement of the base pairs (ATGC).</p>
+
 								</div>
 								<div class="md-modal md-effect-11" id="modal-34">
 									<div class="md-content">
@@ -1511,9 +1613,11 @@ the most wins.								</p>
 												You have to make the sequence as fast as possible
 												Those  who  will  finish  it  first  will  be  the  winner.</p>
 											<ul>
-												<li><strong>Event co-ordinator: </strong> Alpha Beta</li>
-												<li><strong>Contact: </strong> +91-1234567890</li>
-												
+
+
+												<li><strong>Event co-ordinator: </strong> Aman Sharma</li>
+												<li><strong>Contact: </strong> +91-9469285442</li>
+
 											</ul>
 											
 										</div>
@@ -1524,6 +1628,7 @@ the most wins.								</p>
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-35">
 									<span class="icon-eye">SHOW YOUR MEMORY</span>
+									<p>Put your memory to a test.</p>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-35">
 									<div class="md-content">
@@ -1537,8 +1642,11 @@ the most wins.								</p>
 												to  the  contestants.  Contestants  have  to  recall  the  different  names  they
 												have seen in the visuals.</p>
 											<ul>
-												<li><strong>Event co-ordinator: </strong> Alpha Beta</li>
-												<li><strong>Contact: </strong> +91-1234567890</li>
+
+
+												<li><strong>Event co-ordinator: </strong> Lav Kush Raj </li>
+												<li><strong>Contact: </strong> +91-9419873842</li>
+
 												
 											</ul>
 											
@@ -1550,6 +1658,7 @@ the most wins.								</p>
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-36">
 									<span class="icon-eye">STRUCTURE MODELLING</span>
+									<p>Draw the 3-D structure of different compounds and molecules.</p>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-36">
 									<div class="md-content">
@@ -1563,9 +1672,13 @@ the most wins.								</p>
 												structures  will  be  shown  to  the  contestants  for  some  time  they  will  be
 												provided  with  the  tools  to  make  the  <strong>3d</strong>  structure  of  the  shown molecule.</p>
 											<ul>
-												<li><strong>Event co-ordinator: </strong> Alpha Beta</li>
-												<li><strong>Contact: </strong> +91-1234567890</li>
+
+
+												<li><strong>Event co-ordinator: </strong> Poonam Choudhary</li>
+												<li><strong>Contact: </strong> +91-9596855658</li>
 												
+
+
 											</ul>
 											
 										</div>
