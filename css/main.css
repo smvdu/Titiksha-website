@@ -2484,11 +2484,11 @@ input[name="gender"]{
     z-index: 4;
     font-size: 100%;
     width: 100%;
-    background-image: url('../img/background.jpg');
+    background-image: url('../img/int1.jpg');
    
     background-color: #e4e6e5 ;
     font-family: "Oxygen";
-    color: rgba(39, 21, 58, 0.96);
+    color: rgba(228, 221, 235, 0.96);
     position: relative;
     margin: 0px;
     padding: 0px;
@@ -2519,7 +2519,7 @@ input[name="gender"]{
     font-size: 1.3vw;
     line-height: 1vw;
     position: absolute;
-    top: 20%;
+    top: 40%;
     left: 3%;
 
 }
@@ -2529,10 +2529,10 @@ input[name="gender"]{
 #spon_query{
     width: 280px;
     height: 150px;
-    border: 1px solid #000;
+    border: 1px solid #fff;
     margin-top: 20px;
     padding: 6px 4px 0px 4px;
-    background-color: #D5D5D5;
+    background-color: #000;
 }
 
 #spon_cord{

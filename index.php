@@ -1899,12 +1899,12 @@ $sponsors = array(
 				    </div>
 
 				    <div id="spon_brochure">
-				    	<a style="text-decoration : underline;" href=" " >Download the Sponsorship Brochure </a>
+				    	<a style="color: #C6DAD6; text-decoration : underline;" href=" " >Download the Sponsorship Brochure </a>
 				    	<div id="spon_query">
 				    		<p>For Sponshorship Queries Contact :</p>
 				    		<p>Gaurav Singh</p>
 					    	<p>2011eec54@gmail.com</p>
-					    	<span style="color: #000;">+91-9796-446317</span>
+					    	<span style="color: #42DA97;">+91-9796-446317</span>
 				    	</div>
 				    	
 				    </div>
