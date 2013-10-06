@@ -771,7 +771,7 @@
 							</div><!-- / uc-container -->
 							<div class="uc-container">
 
-								<div class="md-trigger" data-modal="modal-14">
+								<div class="md-trigger" data-modal="modal-12">
 									<span class="icon-eye"><em>Binary Battles</em></span>
 
 									<p>Participate , Do Competitive programming and Prove You are Elite Coder!</p>
@@ -1531,12 +1531,12 @@
 						<div id="grid">
 						
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-31">
+								<div class="md-trigger" data-modal="modal-38">
 									<span class="icon-eye">BIO-TECH QUIZ</span>
 									<p>Quiz based on new  inventions  in
 										bio­tech and other aspects of bio technology.</p>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-31">
+								<div class="md-modal md-effect-11" id="modal-38">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -1562,12 +1562,12 @@
 							</div><!-- / uc-container -->
 							<div class="uc-container">
 
-								<div class="md-trigger" data-modal="modal-32">
+								<div class="md-trigger" data-modal="modal-34">
 									<span class="icon-eye">SPELL-CORRECTLY</span>
 
 									<p>Write the names of micro­-organism correctly.</p>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-32">
+								<div class="md-modal md-effect-11" id="modal-34">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -1631,7 +1631,7 @@
 										complement of the base pairs (ATGC).</p>
 
 								</div>
-								<div class="md-modal md-effect-11" id="modal-34">
+								<div class="md-modal md-effect-11" id="modal-40">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
