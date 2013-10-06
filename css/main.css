@@ -1573,7 +1573,7 @@ margin-left: 42%;
 }
 
 #enter{
-    font-family: "Cyberverse";
+    font-family: "Ubuntu-L";
     text-align: center;
     font-size: 2.1vw;
     color: #000;
@@ -2316,7 +2316,7 @@ perspective effects (not including the modals and the overlay).
 }
 
 #form{
-    color: hsl(166, 13%, 59%);
+    color: hsl(0, 0%, 93%);
     word-spacing: 5px;
     text-align: left;
     position: relative;
@@ -2371,13 +2371,12 @@ perspective effects (not including the modals and the overlay).
     text-align: center;
     font-size: 250%;
     position: relative;
-    font-family: "Cyberverse";
+    font-family: "Ubuntu-L";
 }
 
 #reg_form{
     line-height: 2.4;
-    margin-left: 15%;
-    margin-top: -30px;
+    margin: -20px auto;
     width: 440px;
     padding: 10px;
     background: rgba(128, 128, 128, 0.27);
@@ -2453,7 +2452,8 @@ input[name="gender"]{
     padding: 10px;
     position: relative;
     font-size: 130%;
-    margin-left: 25%;
+    margin-left: 44%;
+    margin-top: 2%;
 }
 #join button{
     font-family: "Ubuntu-L";
@@ -2465,7 +2465,7 @@ input[name="gender"]{
     position: absolute;
     top: 60%;
     right: 7%;
-    color: #F3CBBF;
+    color:  #D5D5D5;
 }
 
 

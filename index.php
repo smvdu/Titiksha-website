@@ -1907,14 +1907,11 @@ $sponsors = array(
 					<button id="submit_form">Join Titiksha</button>
 				</div>
 				<div id="reg_query">
-					<span>For any queries : Contact</span>
+					<span>For any queries, Contact</span>
 					<h4>Megha Sharma</h4>
 					<p>+91-9086-118089</p>
 					<p>meghas19@yahoo.co.in</p><br>
 
-					<h4>Sahil Khuslani</h4>
-					<p>+91-9622-356797</p>
-					<p>***********@gmail.com</p>
 				</div>
 		    </div>	
 		</div>
@@ -2083,7 +2080,7 @@ $sponsors = array(
 
 	        	loader.addCompletionListener(function() {
 	        		$("#progress , #loading").fadeOut();
-	        		$("#enter").fadeIn(1500);
+	        		$("#enter").fadeIn(2000);
 	        	});
 
 	        	loader.addProgressListener(function(e) {
