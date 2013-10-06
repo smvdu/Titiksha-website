@@ -5,7 +5,7 @@ $(document).ready(function(){
 	jQuery.easing.def = "easeInOutQuint";
 	var htmlbody = $('html,body');
 	var links = $(".ca-menu").find('li');
-
+	var sideLinks = $("#main_nav li");
 
    //changes in side menu using waypoints
 
@@ -45,7 +45,7 @@ $(document).ready(function(){
     function goToByScroll(dataslide) {
         htmlbody.animate({
             scrollTop: $('.page[data-slide="' + dataslide + '"]').offset().top
-        }, dataslide * 700);
+        },1500);
     }
 
 
@@ -56,6 +56,11 @@ $(document).ready(function(){
         goToByScroll(dataslide);
     });
 
+    sideLinks.click(function (e) {
+        e.preventDefault();
+        dataslide = $(this).attr('data-slide');
+        goToByScroll(dataslide);
+    });
 
 	// events squeeze and expand effect
 
