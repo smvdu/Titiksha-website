@@ -343,7 +343,7 @@
 											
 											<ul>
 												<li><strong>Event Co-ordinator :</strong>Shubham Tiwari</li>
-												<li><strong>Contact :</strong> +91-9469-762638</li>
+												<li><strong>Contact :</strong> +91-9796-289195</li>
 											</ul>
 											
 										</div>
