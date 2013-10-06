@@ -1,5 +1,12 @@
 <?php
-	
+	/**
+ * MYSQL Cerendentials Include Page
+ *
+ * @author Akshay Pratap Singh <pratapakshay0@gmail.com>
+ */
+
+
+
 	/*$mysql_host = "localhost";
 	$mysql_user = "smvdunet_titik13";
 	$mysql_password = "titiksh*2013";

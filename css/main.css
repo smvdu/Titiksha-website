@@ -2316,14 +2316,56 @@ perspective effects (not including the modals and the overlay).
 }
 
 #form{
-
     color: hsl(166, 13%, 59%);
     word-spacing: 5px;
     text-align: left;
     position: relative;
-
 }
 
+#form > .closeMessageBox{
+    position: absolute;
+    cursor: pointer;
+    top: 25%;
+    left: 89%;
+    color: #fff;
+    z-index: 3;
+}
+#form > .warning{
+    position: absolute;
+    top: 25%;
+    left: 56%;
+    width: 35%;
+    height: auto;
+    background-color: #276F75;
+    color: #000;
+    border: 3px solid rgb(103, 167, 167);
+    border-radius: 5px;
+    box-shadow: -2px 3px 2px #81ADB6;
+    padding: 10px;
+    text-align: center;
+}
+#form > .confirmMessage{
+    position: absolute;
+    top: 25%;
+    left: 56%;
+    width: 35%;
+    height: auto;
+    background-color: #276F75;
+    color: #000;
+    border: 3px solid rgb(103, 167, 167);
+    border-radius: 5px;
+    box-shadow: -2px 3px 2px #81ADB6;
+    padding: 10px;
+    text-align: center;
+}
+#email_warning{
+    color: #FF3D3D;
+    margin-left: 55px;
+}
+#password_warning{
+    color: #FF3D3D;
+    margin-left: 55px;
+}
 #reg_head{
     padding: 30px;
     text-align: center;
@@ -2334,8 +2376,9 @@ perspective effects (not including the modals and the overlay).
 
 #reg_form{
     line-height: 2.4;
-    margin-left: 22%;
-    width: 413px;
+    margin-left: 15%;
+    margin-top: -30px;
+    width: 440px;
     padding: 10px;
     background: rgba(128, 128, 128, 0.27);
 }
@@ -2351,7 +2394,7 @@ perspective effects (not including the modals and the overlay).
 #reg_form  input{
     border: 0px;
     height: 40px;
-    width: 350px;
+    width: 375px;
     text-indent: 20px;
     font-family: "Ubuntu-L";
 }
@@ -2383,8 +2426,28 @@ perspective effects (not including the modals and the overlay).
 input[name="gender"]{
     margin-left: 15px;
 }
-label[for="gender"]{
-    margin-left: 10px;
+
+#complexity{
+    width: 200px;
+    color: #000;
+    height: 35px;
+    margin: 5px 0px 4px 110px;
+    text-align: center;
+}
+.default{
+    background-color: #FF5353;
+}
+.weak{
+    background-color: #FF5353;
+}
+.strong{
+    background-color: #FAD054;
+}
+.stronger{
+    background-color: #93C9F4;
+}
+.strongest{
+    background-color: #B6FF6C;
 }
 #join{
     padding: 10px;
@@ -2404,6 +2467,7 @@ label[for="gender"]{
     right: 7%;
     color: #F3CBBF;
 }
+
 
 /* ===============  Sponser's Page Css -======= */
 
