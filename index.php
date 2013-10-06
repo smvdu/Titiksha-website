@@ -770,8 +770,10 @@
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-12">
-									<span class="icon-eye">Binary Battles</span>
+
+								<div class="md-trigger" data-modal="modal-14">
+									<span class="icon-eye"><em>Binary Battles</em></span>
+
 									<p>Participate , Do Competitive programming and Prove You are Elite Coder!</p>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-12">
@@ -972,8 +974,10 @@
 						<div id="grid">
 						
 							<div class="uc-container">
+
 								<div class="md-trigger" data-modal="modal-19">
 									<span class="icon-eye">WAVEMANIA</span>
+
 									<p>Check whether you have the basic knowledge of electrical components.</p>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-19">
@@ -1005,6 +1009,7 @@
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
 							<div class="uc-container">
+
 								<div class="md-trigger" data-modal="modal-20">
 									<span class="icon-eye">ELECTRO-QUIZ</span>
 									<p>A quiz regarding lab instruments and related to technology.</p>
@@ -1033,8 +1038,10 @@
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
 							<div class="uc-container">
+
 								<div class="md-trigger" data-modal="modal-21">
 									<span class="icon-eye">ELECTRO-AVATAR</span>
+
 									<p>This  event  is  a  blend  of  science  and  imagination.  Design  your  own
 										super  hero  and  win  prizes.</p>
 								</div>
@@ -1067,8 +1074,10 @@
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
 							<div class="uc-container">
+
 								<div class="md-trigger" data-modal="modal-22">
 									<span class="icon-eye">CIRCUIT-BUG</span>
+
 									<p>An event for those obsessed with circuits, comprising of two rounds.</p>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-22">
@@ -1100,8 +1109,8 @@
 							</div><!-- / uc-container -->
 							<div class="uc-container">
 
-								<div class="md-trigger" data-modal="modal-26">
-									<span style="font-size: 90%;" class="icon-eye">MICRO - CONTROLLER CODING</span>
+								<div class="md-trigger" data-modal="modal-23">
+									<span style="font-size: 90%;" class="icon-eye"><em>MICRO - CONTROLLER CODING</em></span>
 									<p>Using  microprocessor  build  a  real  life  application.</p>
 
 								</div>
@@ -1130,8 +1139,8 @@
 							</div><!-- / uc-container -->
 							<div class="uc-container">
 
-								<div class="md-trigger" data-modal="modal-27">
-									<span style="font-size: 90%;"class="icon-eye">CIRCUIT - ELECTRONIQUE</span>
+								<div class="md-trigger" data-modal="modal-24">
+									<span style="font-size: 90%;"class="icon-eye"><em>CIRCUIT - ELECTRONIQUE</em></span>
 									<p>An  event  for  those  who  believe  themselves  to  be  circuit­experts.</p>
 
 								</div>
@@ -1165,8 +1174,10 @@
 							</div><!-- / uc-container -->
 							
 							<div class="uc-container">
+
 								<div class="md-trigger" data-modal="modal-55">
 									<span class="icon-eye">ELECTRO TRADE</span>
+
 									<p>Get your Technology knowledge checked here.</p>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-55">
@@ -1218,7 +1229,7 @@
 							<div class="uc-container">
 
 								<div class="md-trigger" data-modal="modal-29">
-									<span style="font-size: 90%;" class="icon-eye">ARCHITECTURAL SYMPOSIUM</span>
+									<span style="font-size: 90%;" class="icon-eye"><em>ARCHITECTURAL SYMPOSIUM</em></span>
 									<p>"Has  the  public  not  become  so  diverse  that  a
 										space with which everyone identifies no longer exists?"</p>
 
@@ -1251,8 +1262,10 @@
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
 							<div class="uc-container">
+
 								<div class="md-trigger" data-modal="modal-26">
 									<span class="icon-eye">ART INSTALLATION</span>
+
 									<p>Make  an  art  installation  using  natural  as  well  as  waste
 										products,  gathering  from  university  campus.</p>
 								</div>
@@ -1283,8 +1296,10 @@
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
 							<div class="uc-container">
+
 								<div class="md-trigger" data-modal="modal-27">
 									<span class="icon-eye">DIGI-ART</span>
+
 									<p>Produce  some  digital  modals  using  simple
 										Google  “sketch­up”  software</p>
 								</div>
@@ -1316,6 +1331,7 @@
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
 							<div class="uc-container">
+
 								<div class="md-trigger" data-modal="modal-28">
 									<span class="icon-eye">FACE-PAINTING</span>
 									<p>Paint your friends face.</p>
@@ -1349,6 +1365,7 @@
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
 							<div class="uc-container">
+
 								<div class="md-trigger" data-modal="modal-29">
 									<span class="icon-eye">CARICATURE-MAKING</span>
 									<p>Make  a
@@ -1382,8 +1399,10 @@
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
 							<div class="uc-container">
+
 								<div class="md-trigger" data-modal="modal-30">
 									<span class="icon-eye">POSTER-MAKING</span>
+
 									<p>Make Posters and express yourself.</p>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-30">
@@ -1409,7 +1428,7 @@
 											    distracting.    • Use intense colours. Try dark lettering against a light background.
 											     This is usually easiest for people to read.   </p>
 											     <p>Before you begin designing your poster, think about what the audience needs to know about a single subject or topic. Create a list to help narrow your main points.
-Theme provided before event.</p>
+													Theme provided before event.</p>
 											<br><br>
 											<ul>
 												<li><strong>Event Co-ordinator : </strong>Damanjot Kaur</li>
@@ -1424,8 +1443,10 @@ Theme provided before event.</p>
 							</div><!-- / uc-container -->
 
 							<div class="uc-container">
+
 								<div class="md-trigger" data-modal="modal-31">
 									<span class="icon-eye">LOGO-DESIGN</span>
+
 									<p>Design  a  logo  for  the  world’s  most  economy  booster  company  named
 										“frame­inn”.</p>
 								</div>
@@ -1459,8 +1480,10 @@ Theme provided before event.</p>
 							</div><!-- / uc-container -->
 							
 							<div class="uc-container">
+
 								<div class="md-trigger" data-modal="modal-32">
 									<span class="icon-eye">LANDSCAPING</span>
+
 									<p>What  you  have  to  do  is  to  landscape  the  “PMC”  lawn.  Of  which  the
 										area/plan  will  be  given  before  event. </p>
 								</div>
@@ -1502,7 +1525,7 @@ Theme provided before event.</p>
 
 				<div class="branch" id="ibt">
 					<div class="event_heading">
-						<span class="heading_text">Bio-Tech</span>
+						<span class="heading_text"><em>Bio-Tech</em></span>
 					</div>
 					<div class="event_content" style="display:none;">
 						<div id="grid">
@@ -1538,8 +1561,10 @@ Theme provided before event.</p>
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
 							<div class="uc-container">
+
 								<div class="md-trigger" data-modal="modal-32">
 									<span class="icon-eye">SPELL-CORRECTLY</span>
+
 									<p>Write the names of micro­-organism correctly.</p>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-32">
@@ -1568,8 +1593,10 @@ Theme provided before event.</p>
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
 							<div class="uc-container">
+
 								<div class="md-trigger" data-modal="modal-33">
 									<span class="icon-eye">JUMBLE-WORDS</span>
+
 									<p>Lots  of  name  related  to  bio  tech  will  be  jumbled  up  the  one who finds
 										the most wins.</p>
 								</div>
@@ -1599,7 +1626,7 @@ Theme provided before event.</p>
 							<div class="uc-container">
 
 								<div class="md-trigger" data-modal="modal-40">
-									<span style="font-size: 80%;"class="icon-eye">COMPLEMENTATION</span>
+									<span style="font-size: 80%;"class="icon-eye"><em>COMPLEMENTATION</em></span>
 									<p>Complete  the  sequence  of  DNA  by  making  their
 										complement of the base pairs (ATGC).</p>
 
@@ -1630,8 +1657,10 @@ Theme provided before event.</p>
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
 							<div class="uc-container">
+
 								<div class="md-trigger" data-modal="modal-35">
 									<span class="icon-eye">SHOW YOUR MEMORY</span>
+
 									<p>Put your memory to a test.</p>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-35">
@@ -1660,8 +1689,10 @@ Theme provided before event.</p>
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
 							<div class="uc-container">
+
 								<div class="md-trigger" data-modal="modal-36">
 									<span class="icon-eye">STRUCTURE MODELLING</span>
+
 									<p>Draw the 3-D structure of different compounds and molecules.</p>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-36">
