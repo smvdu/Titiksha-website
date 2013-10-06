@@ -561,11 +561,11 @@
 							</div><!-- / uc-container -->
 
 							<div class="uc-container">
-								<div class="md-trigger " data-modal="modal-51">
+								<div class="md-trigger " data-modal="modal-8">
 									<span class="icon-eye"><em>DEBUGGAGE</em></span>
 									<p>Debug and Solve Challenging Code</p>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-51">
+								<div class="md-modal md-effect-11" id="modal-8">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -596,11 +596,11 @@
 							</div><!-- / uc-container -->
 
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-8">
+								<div class="md-trigger" data-modal="modal-9">
 									<span class="icon-eye"><em>PYTHON-GEEK</em></span>
 									<p>Show your Python skills and Prove you are Future Programmer.
 								</div>
-								<div class="md-modal md-effect-11" id="modal-8">
+								<div class="md-modal md-effect-11" id="modal-9">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -629,11 +629,11 @@
 							</div><!-- / uc-container -->
 
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-50">
+								<div class="md-trigger" data-modal="modal-10">
 									<span class="icon-eye"><em>KILL-EM</em></span>
 									<p>Troubleshoot PC and Show you are Computer Guy</p>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-50">
+								<div class="md-modal md-effect-11" id="modal-10">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -659,11 +659,11 @@
 							</div><!-- / uc-container -->
 
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-9">
+								<div class="md-trigger" data-modal="modal-11">
 									<span class="icon-eye"><em>LUI-COMMANDO</em></span>
 									<p>Perform some Operation in Terminal and Prove Yourself Linux Lover</p>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-9">
+								<div class="md-modal md-effect-11" id="modal-11">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -692,11 +692,11 @@
 							</div><!-- / uc-container -->
 							
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-10">
+								<div class="md-trigger" data-modal="modal-12">
 									<span class="icon-eye"><em>JUMBLE-MUMBLE</em></span>
 									<p>Re-arrange code and Grab Prizes</p>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-10">
+								<div class="md-modal md-effect-11" id="modal-12">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -725,11 +725,11 @@
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-11">
+								<div class="md-trigger" data-modal="modal-13">
 									<span class="icon-eye"><em>Online Treasure Hunt</em></span>
 									<p></p>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-11">
+								<div class="md-modal md-effect-11" id="modal-13">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -766,11 +766,11 @@
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-12">
+								<div class="md-trigger" data-modal="modal-14">
 									<span class="icon-eye">Binary Battles</span>
 									<p>Participate , Do Competitive programming and Prove You are Elite Coder!</p>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-12">
+								<div class="md-modal md-effect-11" id="modal-14">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -811,11 +811,11 @@
 						<div id="grid">
 						
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-13">
+								<div class="md-trigger" data-modal="modal-15">
 									<span class="icon-eye"><em>DESIGN YOUR DREAMS</em></span>
 									<p>Think Creative and Design Dream</p>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-13">
+								<div class="md-modal md-effect-11" id="modal-15">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -840,11 +840,11 @@
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-14">
+								<div class="md-trigger" data-modal="modal-16">
 									<span class="icon-eye"><em>CONCLAVE</em></span>
 									<p>Share Your ideas on Topics related to Mechnical Engineering </p>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-14">
+								<div class="md-modal md-effect-11" id="modal-16">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -880,11 +880,11 @@
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-15">
+								<div class="md-trigger" data-modal="modal-17">
 									<span class="icon-eye"><em>THE MACHINIST</em></span>
 									<p>How much you know about Machine, Reveal Your Knowledge here</p>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-15">
+								<div class="md-modal md-effect-11" id="modal-17">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -916,11 +916,11 @@
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-16">
+								<div class="md-trigger" data-modal="modal-18">
 									<span class="icon-eye"><em>RUSH TO ASSEMBLE-ENGINE</em></span>
 									<p>Assemble and build Engine</p>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-16">
+								<div class="md-modal md-effect-11" id="modal-18">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -946,11 +946,11 @@
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-17">
+								<div class="md-trigger" data-modal="modal-19">
 									<span class="icon-eye"><em>CLUEDO</em></span>
 									<p>Participate and competete for "Student of the Fest"</p>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-17">
+								<div class="md-modal md-effect-11" id="modal-19">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -977,11 +977,11 @@
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-18">
+								<div class="md-trigger" data-modal="modal-20">
 									<span class="icon-eye"><em>FUTURE-TECH</em></span>
 									<p>Here is your chance to show Real Engineer inside You.</p>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-18">
+								<div class="md-modal md-effect-11" id="modal-20">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -1011,11 +1011,11 @@
 							</div><!-- / uc-container -->
 
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-53">
+								<div class="md-trigger" data-modal="modal-21">
 									<span class="icon-eye"><em>BAJA de innovación</em></span>
 									<p>Participate and Contribute your idea in "WILD BAnTENG"</p>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-53">
+								<div class="md-modal md-effect-11" id="modal-21">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -1066,10 +1066,10 @@
 						<div id="grid">
 						
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-19">
+								<div class="md-trigger" data-modal="modal-22">
 									<span class="icon-eye">WAVEMANIA</span>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-19">
+								<div class="md-modal md-effect-11" id="modal-22">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -1094,10 +1094,10 @@
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-20">
+								<div class="md-trigger" data-modal="modal-23">
 									<span class="icon-eye">ELECTRO-QUIZ</span>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-20">
+								<div class="md-modal md-effect-11" id="modal-23">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -1118,10 +1118,10 @@
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-21">
+								<div class="md-trigger" data-modal="modal-24">
 									<span class="icon-eye">ELECTRO-AVATAR</span>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-21">
+								<div class="md-modal md-effect-11" id="modal-24">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -1147,10 +1147,10 @@
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-22">
+								<div class="md-trigger" data-modal="modal-25">
 									<span class="icon-eye">CIRCUIT-BUG</span>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-22">
+								<div class="md-modal md-effect-11" id="modal-25">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -1175,10 +1175,10 @@
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-23">
-									<span class="icon-eye">MICROCONTROLLER CODING</span>
+								<div class="md-trigger" data-modal="modal-26">
+									<span style="font-size: 90%;" class="icon-eye">MICRO - CONTROLLER CODING</span>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-23">
+								<div class="md-modal md-effect-11" id="modal-26">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -1199,10 +1199,10 @@
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-24">
-									<span class="icon-eye">CIRCUIT-ELECTRONIQUE</span>
+								<div class="md-trigger" data-modal="modal-27">
+									<span style="font-size: 90%;"class="icon-eye">CIRCUIT - ELECTRONIQUE</span>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-24">
+								<div class="md-modal md-effect-11" id="modal-27">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -1228,10 +1228,10 @@
 							</div><!-- / uc-container -->
 							
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-55">
+								<div class="md-trigger" data-modal="modal-28">
 									<span class="icon-eye">ELECTRO TRADE</span>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-55">
+								<div class="md-modal md-effect-11" id="modal-28">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -1274,10 +1274,10 @@
 						<div id="grid">
 						
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-25">
-									<span class="icon-eye">ARCHITECTURAL SYMPOSIUM</span>
+								<div class="md-trigger" data-modal="modal-29">
+									<span style="font-size: 90%;" class="icon-eye">ARCHITECTURAL SYMPOSIUM</span>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-25">
+								<div class="md-modal md-effect-11" id="modal-29">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -1303,10 +1303,10 @@
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-26">
+								<div class="md-trigger" data-modal="modal-30">
 									<span class="icon-eye">ART INSTALLATION</span>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-26">
+								<div class="md-modal md-effect-11" id="modal-30">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -1331,10 +1331,10 @@
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-27">
+								<div class="md-trigger" data-modal="modal-31">
 									<span class="icon-eye">DIGI-ART</span>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-27">
+								<div class="md-modal md-effect-11" id="modal-31">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -1360,10 +1360,10 @@
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-28">
+								<div class="md-trigger" data-modal="modal-32">
 									<span class="icon-eye">FACE-PAINTING</span>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-28">
+								<div class="md-modal md-effect-11" id="modal-32">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -1391,10 +1391,10 @@
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-29">
+								<div class="md-trigger" data-modal="modal-33">
 									<span class="icon-eye">CARICATURE-MAKING</span>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-29">
+								<div class="md-modal md-effect-11" id="modal-33">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -1418,10 +1418,10 @@
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-30">
+								<div class="md-trigger" data-modal="modal-34">
 									<span class="icon-eye">POSTER-MAKING</span>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-30">
+								<div class="md-modal md-effect-11" id="modal-34">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -1445,10 +1445,10 @@
 							</div><!-- / uc-container -->
 
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-31">
+								<div class="md-trigger" data-modal="modal-35">
 									<span class="icon-eye">LOGO-DESIGN</span>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-31">
+								<div class="md-modal md-effect-11" id="modal-35">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -1477,10 +1477,10 @@
 							</div><!-- / uc-container -->
 							
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-32">
+								<div class="md-trigger" data-modal="modal-36">
 									<span class="icon-eye">LANDSCAPING</span>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-32">
+								<div class="md-modal md-effect-11" id="modal-36">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -1518,10 +1518,10 @@
 						<div id="grid">
 						
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-31">
+								<div class="md-trigger" data-modal="modal-37">
 									<span class="icon-eye">BIO-TECH QUIZ</span>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-31">
+								<div class="md-modal md-effect-11" id="modal-37">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -1543,10 +1543,10 @@
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-32">
+								<div class="md-trigger" data-modal="modal-38">
 									<span class="icon-eye">SPELL-CORRECTLY</span>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-32">
+								<div class="md-modal md-effect-11" id="modal-38">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -1568,10 +1568,10 @@
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-33">
+								<div class="md-trigger" data-modal="modal-39">
 									<span class="icon-eye">JUMBLE-WORDS</span>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-33">
+								<div class="md-modal md-effect-11" id="modal-39">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -1593,10 +1593,10 @@ the most wins.								</p>
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-34">
-									<span class="icon-eye">COMPLEMENTATION</span>
+								<div class="md-trigger" data-modal="modal-40">
+									<span style="font-size: 80%;"class="icon-eye">COMPLEMENTATION</span>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-34">
+								<div class="md-modal md-effect-11" id="modal-40">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -1620,10 +1620,10 @@ the most wins.								</p>
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-35">
+								<div class="md-trigger" data-modal="modal-41">
 									<span class="icon-eye">SHOW YOUR MEMORY</span>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-35">
+								<div class="md-modal md-effect-11" id="modal-41">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -1646,10 +1646,10 @@ the most wins.								</p>
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-36">
+								<div class="md-trigger" data-modal="modal-42">
 									<span class="icon-eye">STRUCTURE MODELLING</span>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-36">
+								<div class="md-modal md-effect-11" id="modal-42">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>

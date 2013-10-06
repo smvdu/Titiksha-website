@@ -2254,7 +2254,7 @@ transform: rotate(-23deg);
     
 }
 .event_content{
-    font-size: 100%;
+    font-size: 80%;
     position: relative;
     width: 800px;
     height: 545px;
@@ -2332,7 +2332,7 @@ transform: rotate(-23deg);
 
 .md-trigger{
     line-height: 2.5vw;
-    padding: 25px;
+    padding: 20px 5px 0px 5px;
     width: 180px;
     height: 180px;
     background: rgb(212, 240, 232);
@@ -2342,8 +2342,8 @@ transform: rotate(-23deg);
 .md-trigger > p {
     font-weight: normal;
     text-align: center;
-    font-size: 50%;
-    line-height: 1vw;
+    font-size: 65%;
+    line-height: 1.2vw;
 }
 /* General styles for the modal */
 
@@ -2426,7 +2426,7 @@ perspective effects (not including the modals and the overlay).
 
 /* Content styles */
 .md-content {
-    font-size: 70%;
+    font-size: 80%;
     color: rgba(19, 27, 26, 0.89);
     background: #5D95A0;
     position: relative;
