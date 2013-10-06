@@ -1326,7 +1326,7 @@
 						
 							<div class="uc-container">
 
-								<div class="md-trigger" data-modal="modal-29">
+								<div class="md-trigger" data-modal="modal-25">
 									<span style="font-size: 90%;" class="icon-eye"><em>ARCHITECTURAL SYMPOSIUM</em></span>
 									<p>"Has  the  public  not  become  so  diverse  that  a
 										space with which everyone identifies no longer exists?"</p>

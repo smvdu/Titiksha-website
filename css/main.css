@@ -1616,10 +1616,10 @@ margin-left: 42%;
 #cont0{
     position: absolute;
     margin: 0px;
-    left: -167px;
-    top: 171px;
-    height: 323px;
-    width: 390px;
+    left: -12.95%;
+    top: 26.2%;
+    height: 50%;
+    width: 30%;
     background-color:  #4D4D4D;
     float: left;
     z-index: 6;
@@ -1631,8 +1631,8 @@ margin-left: 42%;
 
     color: #ccc;
     font-size: 2.5vw;
-    margin-top: 93px;
-    margin-left: 168px;
+    margin-top: 24%;
+    margin-left: 44%;
     -webkit-filter: blur(0px);
     filter: blur(0px);
     padding: 1px;
@@ -1645,10 +1645,10 @@ margin-left: 42%;
     color: #6fb118;
     position: absolute;
     margin: 0px;
-    left: -13px;
-    top: -128px;
-    height: 393px;
-    width: 390px;
+    left: -1%;
+    top: -20%;
+    height: 60%;
+    width: 30%;
     background-color: #555555;
     float: left;
     z-index: 6;
@@ -1665,8 +1665,8 @@ margin-left: 42%;
     font-family: "Oxygen", arial, sans-serif;
     line-height: 10px;
     font-weight: normal;
-    margin-left: 50px;
-    margin-top: 116px;
+    margin-left: 10%;
+    margin-top: 30%;
     padding: 20px;
     -webkit-transform: rotate(-30deg);
     transform: rotate(-30deg);
@@ -1674,10 +1674,10 @@ margin-left: 42%;
 #cont2{
    position: absolute;
     margin: 0px;
-    left: 261px;
-    top: -272px;
-    height: 394px;
-    width: 520px;
+    left: 20%;
+    top: -42%;
+    height: 60%;
+    width: 40%;
     background-color:#5C5C5C;
     float: left;
     z-index: 2;
@@ -1698,11 +1698,11 @@ margin-left: 42%;
 #cont3{
     position: absolute;
     margin: 0px;
-    left: 901px;
-    top: 97px;
+    left: 69.3%;
+    top: 14.5%;
     background-color: #474747;
-    height: 538px;
-    width: 910px;
+    height: 82%;
+    width: 70%;
     float: left;
     z-index: 6;
     -webkit-transform: rotate(-45deg);
@@ -1711,8 +1711,8 @@ margin-left: 42%;
 #web{
     line-height: 0.5;
     font-weight: normal;
-    margin-top: 308px;
-    margin-left: -9px;
+    margin-top: 32%;
+    margin-left: 7%;
     padding: 10px;
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -1720,11 +1720,11 @@ margin-left: 42%;
 #cont4{
     position: absolute;
     margin: 0px;
-    left: 833px;
-    top: -226px;
+    left: 65%;
+    top: -34%;
     background-color: #8B8B8B;
-    height: 439px;
-    width: 611px;
+    height: 67%;
+    width: 47%;
     float: left;
     -webkit-transform: rotate(-144deg);
     transform: rotate(-144deg);
@@ -1733,8 +1733,8 @@ margin-left: 42%;
 #tech{
     line-height: 0px;
     font-weight: normal;
-    margin-right: 200px;
-    margin-top: 142px;
+    margin-right: 31%;
+    margin-top: 22%;
     padding: 14px;
     -webkit-transform: rotate(144deg);
     transform: rotate(144deg);
@@ -1743,12 +1743,12 @@ margin-left: 42%;
 
 #cont5{
    position: absolute;
-    bottom: 250px;
-    right: 118px;
+    bottom: 38%;
+    right: 9%;
     margin: 0px;
     background-color: #4D4D4D;
-    height: 394px;
-    width: 520px;
+    height: 60%;
+    width: 40%;
     float: left;
     z-index: 1;
     -webkit-transform: rotate(64deg);
@@ -1757,31 +1757,31 @@ margin-left: 42%;
 #design{
     line-height: 10px;
     font-weight: normal;
-    margin-left: 84px;
-    margin-top: 71px;
+    margin-left: 16%;
+    margin-top: 11%;
     padding: 10px;
     -webkit-transform: rotate(-64deg);
     transform: rotate(-64deg);
 }
 #cont6{
-        position: absolute;
-    bottom: -157px;
-    left: -170px;
-    margin: 0px;
-    background-color:  #5E5E5E;
-    height: 393px;
-    width: 520px;
-    float: left;
-    z-index: 6;
-    -webkit-transform: rotate(-23deg);
-    transform: rotate(-23deg);
+    position: absolute;
+bottom: -24%;
+right: 73%;
+margin: 0px;
+background-color:  #5E5E5E;
+height: 60%;
+width: 40%;
+float: left;
+z-index: 6;
+-webkit-transform: rotate(-23deg);
+transform: rotate(-23deg);
 }
 
 #media{
     line-height: 5px;
     font-weight: normal;
-    margin-left: 270px;
-    margin-top: 80px;
+    margin-left: 55%;
+    margin-top: 13%;
     padding: 10px;
     -webkit-transform: rotate(23deg);
     transform: rotate(23deg);
@@ -1789,12 +1789,12 @@ margin-left: 42%;
 }
 #cont7{
     position: absolute;
-    bottom: 36px;
-    right: 309px;
+    bottom: 5%;
+    right: 24%;
     margin: 0px;
     background-color:#7E7E7E;
-    height: 590px;
-    width: 858px;
+    height: 90%;
+    width: 66%;
     float: left;
     z-index: 0;
     -webkit-transform: rotate(-10deg);
@@ -1804,8 +1804,8 @@ margin-left: 42%;
 #faculty{
     line-height: 0.5;
     font-weight: normal;
-    margin-left: 234px;
-    margin-top: 145px;
+    margin-left: 29%;
+    margin-top: 17%;
     padding: 10px;
     -webkit-transform: rotate(10deg);
     transform: rotate(10deg);
@@ -1813,12 +1813,12 @@ margin-left: 42%;
 #cont8{
     
     position: absolute;
-    bottom: -316px;
-    right: 270px;
+    bottom: -48%;
+    right: 21%;
     margin: 0px;
     background-color: #535353;
-    height: 394px;
-    width: 962px;
+    height: 60%;
+    width: 74%;
     float: left;
     z-index: 5;
     -webkit-transform: rotate(-14deg);
@@ -1827,12 +1827,13 @@ margin-left: 42%;
 #discipline{
     line-height: 5px;
     font-weight: normal;
-    margin-left: 642px;
-    margin-top: 20px;
+    margin-left: 70%;
+    margin-top: 1%;
     padding: 15px;
     -webkit-transform: rotate(14deg);
     transform: rotate(14deg);
 }
+
 
 /* ================== about_us =========================*/
 
