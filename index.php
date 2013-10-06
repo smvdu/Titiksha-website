@@ -1751,8 +1751,11 @@ $sponsors = array(
 	array('doordarshan','The backbone of Indian entertainment and news industry. ','http://www.ddindia.gov.in/'),
 	array('kcresidency','K.C. Residency is a Landmark in Jammu,located at Residency Road of Jammu in Jammu & Kashmir state.','http://www.kcresidency.com/'),
 	array('jammulinks','The virtual search engine for Jammu & Kashmir','http://www.jammulinks.com/'),
-	array('mysql','The most popular open source database engine.','http://www.mysql.com/'),
-	array('hp','One of the biggest computer manufacturers.','http://www.hp.com/'),
+	array('redhat','Red Hat, Inc. is an American software company that is engaged in providing open-source software products.','http://www.redhat.com/'),
+	array('aircel','Aircel group is an Indian mobile network operator headquartered in Chennai, which offers voice & data services.','http://www.aircel.com/'),
+	array('tata','Tata Teleservices Limited is an Indian broadband and telecommunications service provider based in Mumbai, India. .','http://www.tataindicom.com/'),
+	array('wipro','Wipro Ltd. is an Indian information technology consulting and outsourcing service company located in Bangalore, India.','http://www.wipro.com/'),
+
 );
 
 ?>

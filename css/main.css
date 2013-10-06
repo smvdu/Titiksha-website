@@ -2490,7 +2490,7 @@ input[name="gender"]{
 }
 
 .sponsorListHolder{
-    font-size: 100%;
+    font-size: 90%;
     position: relative;
     height: 50%;
     width: 80%;
@@ -2530,8 +2530,8 @@ input[name="gender"]{
     width:200px;
     height:140px;
     position:relative;
-    margin-bottom:20px;
-    margin-right:20px;
+    margin-bottom:15px;
+    margin-right:15px;
     float:left;
 }
 .thumb-wrapper {
