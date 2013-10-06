@@ -735,7 +735,7 @@
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-13">
 									<span class="icon-eye"><em>Online Treasure Hunt</em></span>
-									<p></p>
+									<p>Search The Treasure Online Using Your Intelligent Brain</p>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-13">
 									<div class="md-content">
@@ -1199,7 +1199,7 @@
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-26">
 									<span style="font-size: 90%;" class="icon-eye">MICRO - CONTROLLER CODING</span>
-									<p>Using  microprocessor/microcontroller  build  a  real  life  application.</p>
+									<p>Using  microprocessor  build  a  real  life  application.</p>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-26">
 									<div class="md-content">
@@ -1318,17 +1318,16 @@
 										</div>
 										<h3>ARCHITECTURAL SYMPOSIUM</h3>
 										<div>
-											<p>In  the  debate  on  public  space,  references  are  still  being  made  to
-												traditional  examples:  coffeehouses  in  which  politics  were  discussed,
-												boulevards  where  vagrants  warily eye the bourgeoisie, old city squares
-												used  by  a  diverse  public.  But  are  these  public  spaces  still the spaces of
-												the  contemporary  city?  Has  the  public  not  become  so  diverse  that  a
-												space with which everyone identifies no longer exists?
-												In  this  event  you  have  to  write  an  article  in  not  more  than  <strong><em>450</em>  words</strong>.</p>
+											<p>In the debate on public space, references are still being made to traditional examples: coffeehouses in which politics were discussed, boulevards where vagrants warily eye the bourgeoisie, 
+											old city squares used by a diverse public. 
+											But are these public spaces still the spaces of the contemporary city? Has the public not become so diverse that a space with which everyone identifies no longer exists?</p>
+											<p>In this event you have to write an article in not more than 450 words. Six entries will get a chance to read their article in front of our esteemed guest faculty.
+											 There will be a dialogue session, winners will be notified accordingly. </p>
+											<p>Email your entries at pursuingarchitecture@gmail.com </p>
 											<br><br>
 											<ul>
-												<li><strong>Event Co-ordinator : </strong></li>
-												<li><strong>Contact :</strong> +91-</li>
+												<li><strong>Event Co-ordinator : </strong>Anand upadhayay</li>
+												<li><strong>Contact :</strong> +91- 9697-679672</li>
 											</ul>
 										</div>
 									</div>
@@ -1357,8 +1356,8 @@
 												provided on the spot.</p>
 											<br><br>
 											<ul>
-												<li><strong>Event Co-ordinator : </strong></li>
-												<li><strong>Contact :</strong> +91-</li>
+												<li><strong>Event Co-ordinator : </strong>Anuksha amla</li>
+												<li><strong>Contact :</strong> +91-9797-517532</li>
 											</ul>
 										</div>
 									</div>
@@ -1382,14 +1381,14 @@
 											<p><em>Digital</em>  art  is  a  general  term  for  a  range  of  artistic  works  and  practices
 												that  use  digital  technology  as  an  essential  part  of  the  creative  and/or
 												presentation  process.  Since  the  <strong>1970s</strong>,  various  names  have  been  used to  describe  the  process  including  computer  art  and multimedia art, and
-												digital art is itself placed under the larger umbrella term new media art.
-												In  this  event  you  have  to  produce  some  digital  modals  using  simple
+												digital art is itself placed under the larger umbrella term new media art.</p>
+												<p>In  this  event  you  have  to  produce  some  digital  modals  using  simple
 												Google  “sketch­up”  software,  you  can  also  use  v­ray  for  the rendering
 												purpose. Theme will be revealed at the time of event.</p>
 											<br><br>
 											<ul>
-												<li><strong>Event Co-ordinator : </strong></li>
-												<li><strong>Contact :</strong> +91-</li>
+												<li><strong>Event Co-ordinator : </strong>Shreya</li>
+												<li><strong>Contact :</strong> +91- 9086-120809</li>
 											</ul>
 										</div>
 									</div>
@@ -1413,14 +1412,14 @@
 												Unlike  tattoo  and  other  forms  of  body art, body painting is temporary,
 												painted  onto  the  human  skin,  and  lasts  for  only  several  hours,  or  at
 												most  (in  the  case  of  Mehndi  or  "henna  tattoo")  a  couple  of  weeks.
-												Body painting that is limited to the face is known as face painting.
-												So  it  is  clear  from  above  description  that  you  have  to  paint  your
+												Body painting that is limited to the face is known as face painting.</p>
+												<p>So  it  is  clear  from  above  description  that  you  have  to  paint  your
 												friends  face. So be ready to have some fun. <strong>Theme will be given before
 												time of the event</strong>.</p>
 											<br><br>
 											<ul>
-												<li><strong>Event Co-ordinator : </strong></li>
-												<li><strong>Contact :</strong> +91-</li>
+												<li><strong>Event Co-ordinator : </strong>Arpita</li>
+												<li><strong>Contact :</strong> +91- 9018-718271 / 9796-424714</li>
 											</ul>
 										</div>
 									</div>
@@ -1442,13 +1441,16 @@
 										<h3>CARICATURE-MAKING</h3>
 										<div>
 											<p>A  <strong>caricature</strong>  is  a rendered image showing the features of its subject in a
-												simplified or exaggerated way. Make  a
-												caricature  of your best enemy and have a chance to showcase your rage
+												simplified or exaggerated way.</p>
+												<p>In literature, a caricature is a description of a person using exaggeration of some characteristics and oversimplification of others.</p>
+												<p>Caricatures can be insulting or complimentary and can serve a political purpose or be drawn solely for entertainment. Caricatures of politicians
+												 are commonly used in editorial cartoons. While caricatures of movie stars are often found in entertainment magazines. </p>
+												<p>Make  a caricature  of your best enemy and have a chance to showcase your rage
 												in public. Have fun and win prize. <strong>Bingo!!</strong></p>
 											<br><br>
 											<ul>
-												<li><strong>Event Co-ordinator : </strong></li>
-												<li><strong>Contact :</strong> +91-</li>
+												<li><strong>Event Co-ordinator : </strong>Arunima Bhowmick </li>
+												<li><strong>Contact :</strong> +91-9596997279 / 9018397409</li>
 											</ul>
 										</div>
 									</div>
@@ -1471,10 +1473,22 @@
 										<div>
 											<p><strong>Posters</strong>  are  a  great  way  to  present  information  in  a  visual  format.  The poster’s  topic  should  be  clear  at  a  quick  glance  and  appealing  so  that
 												people  will  stop  and  read  more.</p>
+											<p>Here are some tips to make sure that your poster looks good:  </p>
+											<p>• Make sure your poster is attention getting.  Remember you want people to take 
+											the time to read about what you have done. • Include information that is brief and
+											 easy to read. • Make it neat!  Even if you have really great information on your poster, 
+											 no one is going to take time to read it if it is messy! • Watch out for clutter!  
+											 Don’t try to put too much information or graphics on a poster.
+											  • Include pictures or charts if they help explain your project work.
+											   • Check your spelling and then check it again. Misspelled words can be very
+											    distracting.    • Use intense colours. Try dark lettering against a light background.
+											     This is usually easiest for people to read.   </p>
+											     <p>Before you begin designing your poster, think about what the audience needs to know about a single subject or topic. Create a list to help narrow your main points.
+Theme provided before event.</p>
 											<br><br>
 											<ul>
-												<li><strong>Event Co-ordinator : </strong></li>
-												<li><strong>Contact :</strong> +91-</li>
+												<li><strong>Event Co-ordinator : </strong>Damanjot Kaur</li>
+												<li><strong>Contact :</strong> +91- 8283-835234</li>
 											</ul>
 										</div>
 									</div>
@@ -1499,15 +1513,15 @@
 											<p>A  logo  is  a  graphic  mark  or  emblem  commonly  used  by  commercial
 												<strong>enterprises</strong>,  <strong>organizations</strong>  and  even  <strong>individuals</strong>  to  aid  and  promote
 												instant  public  recognition.  Logos  are  either  purely  graphic
-												(symbols/icons) or are composed of the name of the organization.
-												Design  a  logo  for  the  world’s  most  economy  booster  company  named
+												(symbols/icons) or are composed of the name of the organization.</p>
+											<p>Design  a  logo  for  the  world’s  most  economy  booster  company  named
 												“frame­inn”.  Basically  the  company  deals  with  the  global  modeling
 												business,  while  designing  logo  for  the  company  you  should  keep  in
 												mind the <strong>purpose</strong> and <strong>simplicity</strong> of logo.</p>
 											<br><br>
 											<ul>
-												<li><strong>Event Co-ordinator : </strong></li>
-												<li><strong>Contact :</strong> +91-</li>
+												<li><strong>Event Co-ordinator : </strong>Puneet Mehta </li>
+												<li><strong>Contact :</strong> +91-9419-351611</li>
 											</ul>
 										</div>
 									</div>
@@ -1530,16 +1544,19 @@
 										<h3>LANDSCAPING</h3>
 										<div>
 											<p><strong>Landscaping</strong>  refers  to  any  activity  that  modifies  the  visible  features  of
-												an area of land, including:
-												Living  elements,  such  as  flora  or  fauna;  or  what  is  commonly  known
-												to  as  gardening,  the  art  and  craft  of  growing  plants  with  a  goal  of
-												creating a beautiful environment within the landscape. What  you  have  to  do  is  to  landscape  the  <strong>“PMC”</strong>  lawn.  Of  which  the
-												area/plan  will  be  given  before  event. </p>
+												an area of land, including: </p>
+											<ul><li>1. Living elements, such as flora or fauna; or what is commonly
+											 known to as gardening, the art and craft of growing
+											 plants with a goal of creating a beautiful environment within the landscape</li>
+											 <li>2. natural elements such as landforms, terrain shape and elevation, or bodies of water;</li>
+											 <li>3. human elements such as structures, buildings, fences or other material objects created and/or installed by humans; and</li>
+											 <li>4. Abstract elements such as the weather and lighting</li>
+											 </ul>
 											<ul>
 											<br><br>
 											<ul>
-												<li><strong>Event Co-ordinator : </strong></li>
-												<li><strong>Contact :</strong> +91-</li>
+												<li><strong>Event Co-ordinator : </strong>Himanshu Bharanwal</li>
+												<li><strong>Contact :</strong> +91-- 8716-055931</li>
 											</ul>
 										</div>
 									</div>
