@@ -1876,7 +1876,7 @@ $sponsors = array(
 
 
 		
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		
 		<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 
@@ -1937,63 +1937,21 @@ $sponsors = array(
 					$("#letters").addClass("moveLeft");
 					$("#right-part").addClass("moveRight");	
 
-					$(".page").fadeIn(1200, function(){
-						$("#container").remove();
-						$("#main_nav").fadeIn();
-					});
+					setTimeout(function(){
+						$(".page").addClass("pageVisible");
+						setTimeout(function(){
+							$("#container").remove();
+							$("#main_nav").fadeIn();
+							$('body').css({"overflow-y":"scroll"});
+						}, 1000);
+					},200);
+					
 				});
 
 
-				//jparallax on menu page
-				$(".bub").parallax({
-					mouseport: $("#bubble_area")
-				});
 
 	        });
 
-/*
-			$(function() {
-
-				// say we want to have only one item opened at one moment
-				var opened = false;
-
-				$( '#grid > div.uc-container' ).each( function( i ) {
-
-					var $item = $( this ), direction;
-
-					switch( i ) {
-						case 0 : direction = ['right','bottom']; break;
-						case 1 : direction = ['left','bottom']; break;
-						case 2 : direction = ['left','bottom']; break;
-						case 3 : direction = ['right','top']; break;
-						case 4 : direction = ['right','top']; break;
-						case 5 : direction = ['left','top']; break;
-					
-					}
-					
-					var pfold = $item.pfold( {
-						folddirection : direction,
-						speed : 300,
-						onEndFolding : function() { opened = false; },
-					} );
-
-					$item.find( 'span.icon-eye' ).on( 'click', function() {
-
-						if( !opened ) {
-							opened = true;
-							pfold.unfold();
-						}
-
-
-					} ).end().find( 'span.icon-cancel' ).on( 'click', function() {
-
-						pfold.fold();
-
-					} );
-
-				} );
-				
-			});*/
 		</script>
 		<!-- classie.js by @desandro: https://github.com/desandro/classie -->
 		<script src="js/classie.js"></script>
