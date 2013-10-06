@@ -1810,9 +1810,11 @@ $sponsors = array(
 				<div id="reg_head">
 					<span>JOIN TITIKSHA</span`>
 				</div>	
-				<div class="closeMessageBox" style="display:none;">X</div>
-				<div class="warning" style="display:none;"></div>
-				<div class="confirmMessage" style="display:none;"></div>
+				<div class="msg-Box" style="display:none;">
+					<div class="msg-close">X</div>
+					<div class="msg-content"></div>
+				</div>
+				<div class="md-overlay"></div><!-- the overlay element -->
 				<form id="reg_form" name="reg_form" action="" method="post"  autocomplete="off">
 					<table>
 						<tbody>

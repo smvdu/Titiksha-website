@@ -2148,8 +2148,6 @@ perspective effects (not including the modals and the overlay).
 
 
 .md-modal {
-
-    position: fixed;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -2321,50 +2319,52 @@ perspective effects (not including the modals and the overlay).
     text-align: left;
     position: relative;
 }
-
-#form > .closeMessageBox{
+.msg-Box{
+    position: fixed;
+    top: 25%;
+    left: 56%;
+    width: 35%;
+    height: auto;
+    color: #000;
+    padding: 10px;
+    text-align: center;
+    z-index: 2000;
+}
+.warning{
+    background-color: #276F75;
+    border: 3px solid rgb(103, 167, 167);
+    border-radius: 5px;
+    box-shadow: -2px 3px 2px #81ADB6;
+}
+.confirmation{
+    background-color: #276F75;
+    border: 3px solid rgb(103, 167, 167);
+    border-radius: 5px;
+    box-shadow: -2px 3px 2px #81ADB6;
+}
+.msg-Box > .msg-close{
     position: absolute;
     cursor: pointer;
-    top: 25%;
-    left: 89%;
+    top: 1%;
+    left: 95%;
     color: #fff;
-    z-index: 3;
+    font-size: 1.2em;
+    z-index: 3000;
+    font-weight: bold;
 }
-#form > .warning{
-    position: absolute;
-    top: 25%;
-    left: 56%;
-    width: 35%;
-    height: auto;
-    background-color: #276F75;
-    color: #000;
-    border: 3px solid rgb(103, 167, 167);
-    border-radius: 5px;
-    box-shadow: -2px 3px 2px #81ADB6;
-    padding: 10px;
-    text-align: center;
+.msg-Box > .msg-content{
+    
 }
-#form > .confirmMessage{
-    position: absolute;
-    top: 25%;
-    left: 56%;
-    width: 35%;
-    height: auto;
-    background-color: #276F75;
-    color: #000;
-    border: 3px solid rgb(103, 167, 167);
-    border-radius: 5px;
-    box-shadow: -2px 3px 2px #81ADB6;
-    padding: 10px;
-    text-align: center;
-}
+
 #email_warning{
     color: #FF3D3D;
     margin-left: 55px;
+    height: 30px;
 }
 #password_warning{
     color: #FF3D3D;
     margin-left: 55px;
+    height: 25px;
 }
 #reg_head{
     padding: 30px;

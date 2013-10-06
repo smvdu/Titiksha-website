@@ -102,9 +102,9 @@ function sendFormDetails() {
 		if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
 			resetFields();
 			var confirmMessage="You successfully registered !.<br> An email has been sent on your registered email-id.";
-            $("#form > .confirmMessage").addClass("activeMessage");
-            $(".activeMessage").css("display","block").html(confirmMessage);
-            $("#form > .closeMessageBox").css("display","block");
+            $(".msg-Box").addClass("md-show confirmation").css("display","block");
+            $(".msg-Box > .msg-content").html(confirmMessage);
+            $(".msg-Box > .msg-close").css("display","block");
 		}
 	}
 	xmlhttp.send(null);
