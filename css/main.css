@@ -176,21 +176,26 @@ a:hover {
     margin: 0;
     width: 100%;
     padding: 0;
+
 }
 
 
-.active{
-    border: 9px solid #414141 !important;
+#main_nav li:hover, .active{
+    border: 9px solid #277EC2 !important;
     -webkit-transition: all 200ms !important;
 }
 
 #main_nav ul li{
     height: 0px;
     width: 0px;
-    border: 5px solid #414141;
+    border: 5px solid #277EC2;
     margin: 50px auto;
     border-radius: 50%;
     -webkit-transition: all 200ms;
+}
+
+#main_nav div{
+    
 }
 
 

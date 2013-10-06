@@ -63,6 +63,14 @@
         		<li data-slide="5"></li>
         		<li data-slide="6"></li>
         	</ul>
+
+        	<div data-slide="1"></div>
+        	<div data-slide="2"></div>
+        	<div data-slide="3"></div>
+        	<div data-slide="4"></div>
+        	<div data-slide="5"></div>
+        	<div data-slide="6"></div>
+        	
         </nav>
 
 		<section id="container">	
