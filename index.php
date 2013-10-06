@@ -1525,7 +1525,7 @@
 
 				<div class="branch" id="ibt">
 					<div class="event_heading">
-						<span class="heading_text"><em>Bio-Tech</em></span>
+						<span class="heading_text">Bio<br/>Tech</span>
 					</div>
 					<div class="event_content" style="display:none;">
 						<div id="grid">
