@@ -43,7 +43,6 @@
 
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script type="text/javascript" src="js/sponsor.js"></script>
-        <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>	
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
         <script src="js/functions.js"></script>
         <script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
@@ -53,6 +52,17 @@
 	<!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
+
+        <nav id="main_nav">
+        	<ul>
+        		<li data-slide="1"></li>
+        		<li data-slide="2"></li>
+        		<li data-slide="3"></li>
+        		<li data-slide="4"></li>
+        		<li data-slide="5"></li>
+        		<li data-slide="6"></li>
+        	</ul>
+        </nav>
 
 		<section id="container">	
 
@@ -174,7 +184,7 @@
                             </div>
                         </a>
                     </li>
-                    <li data-slide="6">
+                    <li data-slide="4">
                         <a href="#container_sponser">
                             <span class="ca-icon" id="heart">P</span>
                             <div class="ca-content">
@@ -183,7 +193,7 @@
                             </div>
                         </a>
                     </li>
-                    <li data-slide="4">
+                    <li data-slide="5">
                         <a href="#register">
                             <span class="ca-icon">U</span>
                             <div class="ca-content">
@@ -192,7 +202,7 @@
                             </div>
                         </a>
                     </li>
-                    <li data-slide="5">
+                    <li data-slide="6">
                         <a href="#container_contact">
                             <span class="ca-icon">B</span>
                             <div class="ca-content">
@@ -767,7 +777,7 @@
 		
 		<!-- sponsers page === -->
 		
-		<section class="page" id="container_sponser" data-slide="6">
+		<section class="page" id="container_sponser" data-slide="4">
 			<div id="sponsor_page">
 				<div id="spon_head">
 					<span>Our Previous Sponsors</span>
@@ -838,7 +848,7 @@ $sponsors = array(
 		</section>	
 		<!-- REGITRATION PAGE -->
 
-		<section class="page" id="register" data-slide="4">
+		<section class="page" id="register" data-slide="5">
 		<div class="register_form">
 			
 			<div id="form">
@@ -939,7 +949,7 @@ $sponsors = array(
 		
 		<!-- container Contact -->
 
-        <section class="page" id="container_contact" data-slide="5">	
+        <section class="page" id="container_contact" data-slide="6">	
 
 			<div class="contact">
 				<div id="cont0">
@@ -1062,15 +1072,16 @@ $sponsors = array(
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 		
 		<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-        
-        <script type="text/javascript" src="js/stellar.js" ></script>
-        <script type="text/javascript" src="js/waypoints.min.js"></script>
+
 		 <!-- JavaScript includes -->
         
         <script src="js/jquery.countdown.js"></script>
         <script src="js/script.js"></script>
         <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+        <script src="js/main.js"></script>        
+        <script type="text/javascript" src="js/stellar.js" ></script>
+        <script type="text/javascript" src="js/waypoints.min.js"></script>
+        <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>	
         <script type="text/javascript" src="js/PxLoader.js"></script>
         <script type="text/javascript" src="js/PxLoaderImage.js"></script>
         <script type="text/javascript" src="js/jquery.parallax.min.js"></script>
@@ -1121,6 +1132,7 @@ $sponsors = array(
 
 					$(".page").fadeIn(1200, function(){
 						$("#container").remove();
+						$("#main_nav").fadeIn();
 					});
 				});
 
@@ -1132,6 +1144,7 @@ $sponsors = array(
 
 	        });
 
+/*
 			$(function() {
 
 				// say we want to have only one item opened at one moment
@@ -1173,7 +1186,7 @@ $sponsors = array(
 
 				} );
 				
-			});
+			});*/
 		</script>
 
 				

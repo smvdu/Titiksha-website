@@ -161,6 +161,40 @@ a:hover {
     color: #130B1B;
 }
 
+#main_nav{
+    position: fixed;
+    width: 40px;
+    right: 0;
+    top: 150px;
+    bottom: 150px;
+    z-index: 100;
+    display: none;
+}
+
+#main_nav ul{
+    list-style-type: none;
+    height: 100%;
+    margin: 0;
+    width: 100%;
+    padding: 0;
+}
+
+
+.active{
+    border: 10px solid #414141 !important;
+    -webkit-transition: all 500ms !important;
+}
+
+#main_nav ul li{
+    height: 0px;
+    width: 0px;
+    border: 6px solid #414141;
+    margin: 50px auto;
+    border-radius: 50%;
+    -webkit-transition: all 500ms;
+}
+
+
 #container{
     position: absolute;
     margin: 0px;
