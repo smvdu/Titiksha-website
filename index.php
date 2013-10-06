@@ -36,16 +36,12 @@
 		
 		<link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" type="text/css" href="css/component.css" />
 
         <!--  Timer css scripts   !-->
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" />
         <link rel="stylesheet" href="css/jquery.countdown.css" />
 
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script type="text/javascript" src="js/sponsor.js"></script>
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-        <script src="js/functions.js"></script>
         <script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
         	
 	</head>
@@ -1721,7 +1717,7 @@ $sponsors = array(
 								</div>
 								
 								<div class="thumb-detail">
-										<a href="'.$company[2].'">'.$company[1].'</a>
+										<a href="'.$company[2].'" target="_blank">'.$company[1].'</a>
 								</div>
 							</div>
 							
@@ -1759,31 +1755,37 @@ $sponsors = array(
 				<div id="reg_head">
 					<span>JOIN TITIKSHA</span`>
 				</div>	
-				<div class="warning"></div>
-				<div class="confirmMessage"></div>
-				<form id="reg_form" name="reg_form" action="" method="post" onsubmit="return validateForm()"  autocomplete="off">
+				<div class="closeMessageBox" style="display:none;">X</div>
+				<div class="warning" style="display:none;"></div>
+				<div class="confirmMessage" style="display:none;"></div>
+				<form id="reg_form" name="reg_form" action="" method="post"  autocomplete="off">
 					<table>
 						<tbody>
 							<tr>
 								<th>Name :</th>
 								<td>
-									<span><img src="img/icomoon/user.png" /></span><input name="name" type="text" size="30" maxlength="35" autocomplete="off" placeholder="Full Name"/>
+									<span><img src="img/icomoon/user.png" /></span>
+									<input name="name" type="text" size="30" maxlength="35" autocomplete="off" placeholder="Full Name"/>
 								</td>
+								<td></td>
 							</tr>
 							<tr>
 								<th>Email :</th>
 								<td>
 
-									<span><img src="img/icomoon/mail.png" /></span><input name="email" type="email" size="30" maxlength="35" onchange="checkEmail()" autocomplete="off" placeholder="Email Address"/>
-									<div class="email warning"></div>
-									
+									<span><img src="img/icomoon/mail.png" /></span>
+									<input name="email" type="email" size="30" maxlength="35"  autocomplete="off" placeholder="Email Address"/>
+									<div id="email_warning" style="display:none"></div>
 								</td>
+								<td></td>
 							</tr>
 							<tr>
 								<th>College :</th>
 								<td>
-									<span><img src="img/icomoon/briefcase.png" /></span><input name="college" type="text" size="40" maxlength="35" autocomplete="off" placeholder="University/College"/>
+									<span><img src="img/icomoon/briefcase.png" /></span>
+									<input name="college" type="text" size="40" maxlength="35" autocomplete="off" placeholder="University/College"/>
 								</td>
+								<td></td>
 							</tr>
 							
 							<tr>
@@ -1797,33 +1799,44 @@ $sponsors = array(
 									<option name="4th" value="4th year">4th year</option>
 									</select>
 								</td>
+								<td></td>
 							</tr>
 							<tr>
 								<th>Contact :</th>
 								<td>
 
-									<span><img src="img/icomoon/phone.png" /></span><input name="contact" type="tel" size="14" placeholder="+91-**********" autocomplete="off" />
+									<span><img src="img/icomoon/phone.png" /></span>
+									<input name="contact" type="tel" size="14" placeholder="+91-**********" autocomplete="off" />
 
 								</td>
+								<td></td>
 							</tr>
 							<tr>
 								<th>Gender :</th>
 								<td>
-									<span><img src="img/icomoon/users.png" /></span><input name="gender" type="radio" value="male" /><label for="gender">Male</label> 
-									<input name="gender" type="radio" value="female" /><label for="gender">Female</label> 
+									<span><img src="img/icomoon/users.png" /></span>
+									<input name="gender" type="radio" value="Male" checked />Male
+									<input name="gender" type="radio" value="Female" />Female 
 								</td>
+								<td></td>
 							</tr>
 							<tr>
 								<th>Password : </th>
 								<td>
-									<span><img src="img/icomoon/key.png" /></span><input name="password" type="password" autocomplete="off" placeholder="Desired Password"/>
+									<span><img src="img/icomoon/key.png" /></span>
+									<input name="password" id="password" type="password" autocomplete="off" placeholder="Desired Password"/>
+									<div id="complexity" style="display: none;"></div>
 								</td>
+								<td></td>
 							</tr>
 							<tr>
 								<th>Repeat Password : </th>
 								<td>
-									<span><img src="img/icomoon/key2.png" /></span><input name="rep-password" type="password" autocomplete="off" placeholder="Re-enter Password"/>
+									<span><img src="img/icomoon/key2.png" /></span>
+									<input name="repassword" id="repassword" type="password" autocomplete="off" placeholder="Re-enter Password"/>
+									<div id="password_warning" style="display: none;"></div>
 								</td>
+								<td></td>
 							</tr>
 
 
@@ -1969,26 +1982,25 @@ $sponsors = array(
 		</section><!-- /container -->	
 
 		
-
-
-
-		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 		
 		<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 
 		 <!-- JavaScript includes -->
         
-        <script src="js/jquery.countdown.js"></script>
-        <script src="js/script.js"></script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>        
+        <script type="text/javascript" src="js/jquery.countdown.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+        <script type="text/javascript" src="js/plugins.js"></script>
+        <script type="text/javascript" src="js/functions.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>   
         <script type="text/javascript" src="js/stellar.js" ></script>
         <script type="text/javascript" src="js/waypoints.min.js"></script>
         <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>	
         <script type="text/javascript" src="js/PxLoader.js"></script>
         <script type="text/javascript" src="js/PxLoaderImage.js"></script>
         <script type="text/javascript" src="js/jquery.parallax.min.js"></script>
+        <script type="text/javascript" src="js/sponsor.js"></script>
+
 
 		<script type="text/javascript">
 			
@@ -2048,49 +2060,6 @@ $sponsors = array(
 
 	        });
 
-/*
-			$(function() {
-
-				// say we want to have only one item opened at one moment
-				var opened = false;
-
-				$( '#grid > div.uc-container' ).each( function( i ) {
-
-					var $item = $( this ), direction;
-
-					switch( i ) {
-						case 0 : direction = ['right','bottom']; break;
-						case 1 : direction = ['left','bottom']; break;
-						case 2 : direction = ['left','bottom']; break;
-						case 3 : direction = ['right','top']; break;
-						case 4 : direction = ['right','top']; break;
-						case 5 : direction = ['left','top']; break;
-					
-					}
-					
-					var pfold = $item.pfold( {
-						folddirection : direction,
-						speed : 300,
-						onEndFolding : function() { opened = false; },
-					} );
-
-					$item.find( 'span.icon-eye' ).on( 'click', function() {
-
-						if( !opened ) {
-							opened = true;
-							pfold.unfold();
-						}
-
-
-					} ).end().find( 'span.icon-cancel' ).on( 'click', function() {
-
-						pfold.fold();
-
-					} );
-
-				} );
-				
-			});*/
 		</script>
 		<!-- classie.js by @desandro: https://github.com/desandro/classie -->
 		<script src="js/classie.js"></script>

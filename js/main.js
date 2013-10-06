@@ -74,7 +74,45 @@ $(document).ready(function(){
 		});
 		$("."+thisClass[1]+">.event_content").css("display","block");
 		
-		
 	});
+
+
+
+
+    /****    Form related js -  Don't dare to touch it otherwise sky fall on you.  *****/
+
+    $("#submit_form").click(function(event){
+        var flag=validateForm();
+        if(flag===1){
+            sendFormDetails();
+        }else{
+            var warningMessage="Please fill all the fields.";
+            $("#form > .warning").addClass("activeMessage");
+            $(".activeMessage").css("display","block").html(warningMessage);
+            $("#form > .closeMessageBox").css("display","block");
+        }
+    });
+
+    $(".closeMessageBox").click(function() {
+        $("#form > .closeMessageBox").css("display","none");
+        $(".activeMessage").css("display","none");
+        $("#form div").removeClass("activeMessage");
+    });
+
+    $("#reg_form input[type='email']").bind("keyup", function() {
+       // $("#complexity").css("display","block");
+        checkEmail();
+    });
+
+    $("#password").bind("keyup", function() {
+        $("#complexity").css("display","block");
+        checkPasswordStrength();
+    });  
+    $("#repassword").bind("keyup", function() {
+        matchPassword();
+    }); 
+
+
+    ////////////////////////////////////////////////////////////////////////////////////
 });
 

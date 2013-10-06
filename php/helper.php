@@ -2,7 +2,7 @@
 /**
  * Standard Helper Functions
  *
- * @author Saurabh Kumar <saurabh@saurabhworld.in>
+ * @author Akshay Pratap Singh <pratapakshay0@gmail.com>
  */
  
  

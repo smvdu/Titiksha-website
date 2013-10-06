@@ -1,4 +1,11 @@
 <?php	
+
+/**
+ * Define Constant Page
+ *
+ * @author Akshay Pratap Singh <pratapakshay0@gmail.com>
+ */
+
 	//site meta datas goes here
 	define("site_name","Titiksha",1);
 	define("site_title", "Titiksha | Annual tech-fest of Shri Mata Vaishno Devi University", 1);
