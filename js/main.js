@@ -9,9 +9,8 @@ $(document).ready(function(){
 
    //changes in side menu using waypoints
 
-   	
- 	$(".page").waypoint(function(direction) {
-   		
+ 	$(".page").waypoint(function(direction) {   		
+
        //cache the variable of the data-slide attribute associated with each slide
         var slide = $(this).attr('data-slide');
        	
@@ -23,16 +22,21 @@ $(document).ready(function(){
         // else If the user scrolls down change the navigation link that has the same data-slide attribute as the slide to active and
         //remove the active class from the next navigation link
         else {
-            $('#main_nav li[data-slide="' + slide + '"]').addClass('active').next().removeClass('active');
+            $('#main_nav li[data-slide="' + (slide - 1) + '"]').addClass('active').next().removeClass('active');
         }
-    }, {offset: "0%"});
 
-    //waypoints doesnt detect the first slide when user scrolls back up to the top so we add this little bit of code, that removes the class
+    });
+
+
+ 	//waypoints doesnt detect the first slide when user scrolls back up to the top so we add this little bit of code, that removes the class
     //from navigation link slide 2 and adds it to navigation link slide 1.
+    $('#main_nav li[data-slide="1"]').addClass('active');
+    $('#main_nav li').last().removeClass('active');
     $(window).scroll(function () {
-        if ($(window).scrollTop() == 0) {
+    	if ($(window).scrollTop() == 0) {
             $('#main_nav li[data-slide="1"]').addClass('active');
-            $('#main_nav li[data-slide="2"]').removeClass('active');
+            $('#main_nav li[data-slide="2"]').removeClass('active');            
+           
         }
     });
 
