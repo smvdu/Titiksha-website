@@ -735,7 +735,7 @@
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-13">
 									<span class="icon-eye"><em>Online Treasure Hunt</em></span>
-									<p></p>
+									<p>Search The Treasure Online Using Your Intelligent Brain</p>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-13">
 									<div class="md-content">

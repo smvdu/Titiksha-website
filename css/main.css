@@ -2240,9 +2240,12 @@ transform: rotate(-23deg);
 }
 
 .event_heading{
-    width: 100%;
-    height: 10%;
+    font-family: "Ubuntu-L";
+    color: ;
+   width: 100%;
+    height: 0%;
     position: relative;
+    margin-top: 40px;
 }
 
 .current_heading{
@@ -2254,12 +2257,14 @@ transform: rotate(-23deg);
     
 }
 .event_content{
+    font-family: "Ubuntu-L";
     font-size: 80%;
     position: relative;
-    width: 800px;
+    width: 900px;
     height: 545px;
     text-align: center;
-    margin: 22px;
+    margin-top: 40px;
+    margin-left: -48px;
     top: -240px;
 
 }
