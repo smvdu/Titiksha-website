@@ -202,7 +202,7 @@
                         <a href="#register">
                             <span class="ca-icon">U</span>
                             <div class="ca-content">
-                                <h2 class="ca-main">Register Now</h2>
+                                <h2 class="ca-main">Register</h2>
                                 <h3 class="ca-sub">Register and get started</h3>
                             </div>
                         </a>
@@ -211,7 +211,7 @@
                         <a href="#container_contact">
                             <span class="ca-icon">B</span>
                             <div class="ca-content">
-                                <h2 class="ca-main">Contact Us</h2>
+                                <h2 class="ca-main">Contacts</h2>
                                 <h3 class="ca-sub">24/7 for your support</h3>
                             </div>
                         </a>
@@ -771,7 +771,7 @@
 							</div><!-- / uc-container -->
 							<div class="uc-container">
 
-								<div class="md-trigger" data-modal="modal-14">
+								<div class="md-trigger" data-modal="modal-12">
 									<span class="icon-eye"><em>Binary Battles</em></span>
 
 									<p>Participate , Do Competitive programming and Prove You are Elite Coder!</p>
@@ -1525,18 +1525,18 @@
 
 				<div class="branch" id="ibt">
 					<div class="event_heading">
-						<span class="heading_text"><em>Bio-Tech</em></span>
+						<span class="heading_text">Bio<br/>Tech</span>
 					</div>
 					<div class="event_content" style="display:none;">
 						<div id="grid">
 						
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-31">
+								<div class="md-trigger" data-modal="modal-38">
 									<span class="icon-eye">BIO-TECH QUIZ</span>
 									<p>Quiz based on new  inventions  in
 										bio­tech and other aspects of bio technology.</p>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-31">
+								<div class="md-modal md-effect-11" id="modal-38">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -1562,12 +1562,12 @@
 							</div><!-- / uc-container -->
 							<div class="uc-container">
 
-								<div class="md-trigger" data-modal="modal-32">
+								<div class="md-trigger" data-modal="modal-34">
 									<span class="icon-eye">SPELL-CORRECTLY</span>
 
 									<p>Write the names of micro­-organism correctly.</p>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-32">
+								<div class="md-modal md-effect-11" id="modal-34">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -1631,7 +1631,7 @@
 										complement of the base pairs (ATGC).</p>
 
 								</div>
-								<div class="md-modal md-effect-11" id="modal-34">
+								<div class="md-modal md-effect-11" id="modal-40">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -1751,8 +1751,11 @@ $sponsors = array(
 	array('doordarshan','The backbone of Indian entertainment and news industry. ','http://www.ddindia.gov.in/'),
 	array('kcresidency','K.C. Residency is a Landmark in Jammu,located at Residency Road of Jammu in Jammu & Kashmir state.','http://www.kcresidency.com/'),
 	array('jammulinks','The virtual search engine for Jammu & Kashmir','http://www.jammulinks.com/'),
-	array('mysql','The most popular open source database engine.','http://www.mysql.com/'),
-	array('hp','One of the biggest computer manufacturers.','http://www.hp.com/'),
+	array('redhat','Red Hat, Inc. is an American software company that is engaged in providing open-source software products.','http://www.redhat.com/'),
+	array('aircel','Aircel group is an Indian mobile network operator headquartered in Chennai, which offers voice & data services.','http://www.aircel.com/'),
+	array('tata','Tata Teleservices Limited is an Indian broadband and telecommunications service provider based in Mumbai, India. .','http://www.tataindicom.com/'),
+	array('wipro','Wipro Ltd. is an Indian information technology consulting and outsourcing service company located in Bangalore, India.','http://www.wipro.com/'),
+
 );
 
 ?>
@@ -1903,17 +1906,14 @@ $sponsors = array(
 				</form>
 
 				<div id="join">
-					<button id="submit_form">Join Titiksha</button>
+					<button id="submit_form">Submit Details</button>
 				</div>
 				<div id="reg_query">
-					<span>For any queries : Contact</span>
+					<span>For any queries, Contact</span>
 					<h4>Megha Sharma</h4>
 					<p>+91-9086-118089</p>
 					<p>meghas19@yahoo.co.in</p><br>
 
-					<h4>Sahil Khuslani</h4>
-					<p>+91-9622-356797</p>
-					<p>***********@gmail.com</p>
 				</div>
 		    </div>	
 		</div>
@@ -2082,7 +2082,7 @@ $sponsors = array(
 
 	        	loader.addCompletionListener(function() {
 	        		$("#progress , #loading").fadeOut();
-	        		$("#enter").fadeIn(1500);
+	        		$("#enter").fadeIn(2000);
 	        	});
 
 	        	loader.addProgressListener(function(e) {

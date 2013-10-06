@@ -162,7 +162,7 @@ a:hover {
 
 #main_nav{
     position: fixed;
-    width: 40px;
+    width: 30px;
     right: 0;
     top: 150px;
     bottom: 150px;
@@ -1573,7 +1573,7 @@ margin-left: 42%;
 }
 
 #enter{
-    font-family: "Cyberverse";
+    font-family: "Ubuntu-L";
     text-align: center;
     font-size: 2.1vw;
     color: #000;
@@ -2314,22 +2314,15 @@ perspective effects (not including the modals and the overlay).
 }
 
 #form{
-    color: hsl(166, 13%, 59%);
+    color: hsl(0, 0%, 93%);
     word-spacing: 5px;
     text-align: left;
     position: relative;
 }
 .msg-Box{
     position: fixed;
-    top: 25%;
-    left: 56%;
-    width: 35%;
-    height: auto;
-    color: #000;
-    padding: 10px;
-    text-align: center;
-    z-index: 2000;
 }
+
 .warning{
     background-color: #276F75;
     border: 3px solid rgb(103, 167, 167);
@@ -2337,11 +2330,14 @@ perspective effects (not including the modals and the overlay).
     box-shadow: -2px 3px 2px #81ADB6;
 }
 .confirmation{
-    background-color: #276F75;
-    border: 3px solid rgb(103, 167, 167);
+    background-color: #C57815;
+    color: #F8F8F8;
     border-radius: 5px;
-    box-shadow: -2px 3px 2px #81ADB6;
+    padding: 10px;
+    text-align: center;
 }
+
+
 .msg-Box > .msg-close{
     position: absolute;
     cursor: pointer;
@@ -2367,17 +2363,16 @@ perspective effects (not including the modals and the overlay).
     height: 25px;
 }
 #reg_head{
-    padding: 30px;
+    padding: 15px;
     text-align: center;
     font-size: 250%;
     position: relative;
-    font-family: "Cyberverse";
+    font-family: "Ubuntu-L";
 }
 
 #reg_form{
     line-height: 2.4;
-    margin-left: 15%;
-    margin-top: -30px;
+    margin: -20px auto;
     width: 440px;
     padding: 10px;
     background: rgba(128, 128, 128, 0.27);
@@ -2448,16 +2443,24 @@ input[name="gender"]{
 }
 .strongest{
     background-color: #B6FF6C;
-}
+}   
 #join{
     padding: 10px;
     position: relative;
     font-size: 130%;
-    margin-left: 25%;
+    margin: 20px auto;
+    width: 350px;
 }
+
 #join button{
     font-family: "Ubuntu-L";
-    color: #000000;
+    color: #fff;
+    margin: 0 auto;
+    display: block;
+    border: 0;
+    width: 100%;
+    height: 40px;
+    background-color: rgba(26, 154, 178, 0.5);
 }
 
 #reg_query{
@@ -2465,7 +2468,7 @@ input[name="gender"]{
     position: absolute;
     top: 60%;
     right: 7%;
-    color: #F3CBBF;
+    color:  #D5D5D5;
 }
 
 
@@ -2490,7 +2493,7 @@ input[name="gender"]{
 }
 
 .sponsorListHolder{
-    font-size: 100%;
+    font-size: 90%;
     position: relative;
     height: 50%;
     width: 80%;
@@ -2530,8 +2533,8 @@ input[name="gender"]{
     width:200px;
     height:140px;
     position:relative;
-    margin-bottom:20px;
-    margin-right:20px;
+    margin-bottom:15px;
+    margin-right:15px;
     float:left;
 }
 .thumb-wrapper {
