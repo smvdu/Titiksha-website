@@ -195,7 +195,7 @@ a:hover {
 }
 
 #main_nav div{
-    
+
 }
 
 
@@ -2003,9 +2003,14 @@ margin-left: 42%;
     height: 545px;
     text-align: center;
     margin-top: 40px;
-    margin-left: -48px;
+    margin-left: -45px;
     top: -240px;
 
+}
+
+.openContent{
+    display: block;
+    -webkit-transition: all 1000ms;
 }
 
 .expand, .squeeze{
@@ -2089,6 +2094,30 @@ margin-left: 42%;
     font-size: 65%;
     line-height: 1.2vw;
 }
+
+#mega .md-trigger{
+    background-color: #17B8A5;
+}
+
+#cse .md-trigger{
+    background-color: rgb(41, 179, 223);
+}
+
+#mech .md-trigger{
+    background-color: rgb(206, 124, 48);
+}
+
+#ece .md-trigger{
+    background-color: rgb(205, 213, 35)
+}
+
+#arch .md-trigger{
+    background-color: rgb(219, 219, 219);
+}
+
+#ibt .md-trigger{
+    background-color: #6fb118;
+}
 /* General styles for the modal */
 
 /* 
@@ -2155,7 +2184,7 @@ perspective effects (not including the modals and the overlay).
     left: 0;
     z-index: 1000;
     opacity: 0;
-    background: rgba(151, 132, 130, 0.8);
+    background: rgba(248, 248, 248, 0.6);
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -2218,9 +2247,9 @@ perspective effects (not including the modals and the overlay).
 .md-content button {
     display: block;
     font-size: 1.3vw;
-    border: 1px solid #fff;
-    border-radius: 2px ;
-    color: rgb(36,36,36) ;
+    border: 1px solid rgb(113,197,170);
+    border-radius: 2px;
+    color: rgb(255, 255, 255);
     background-color: rgb(113,197,170);
 }
 .md-content .md-header > .register{
