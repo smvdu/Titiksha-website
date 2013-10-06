@@ -202,7 +202,7 @@
                         <a href="#register">
                             <span class="ca-icon">U</span>
                             <div class="ca-content">
-                                <h2 class="ca-main">Register Now</h2>
+                                <h2 class="ca-main">Register</h2>
                                 <h3 class="ca-sub">Register and get started</h3>
                             </div>
                         </a>
@@ -211,7 +211,7 @@
                         <a href="#container_contact">
                             <span class="ca-icon">B</span>
                             <div class="ca-content">
-                                <h2 class="ca-main">Contact Us</h2>
+                                <h2 class="ca-main">Contacts</h2>
                                 <h3 class="ca-sub">24/7 for your support</h3>
                             </div>
                         </a>
@@ -1904,7 +1904,7 @@ $sponsors = array(
 				</form>
 
 				<div id="join">
-					<button id="submit_form">Join Titiksha</button>
+					<button id="submit_form">Submit Details</button>
 				</div>
 				<div id="reg_query">
 					<span>For any queries, Contact</span>
