@@ -2148,8 +2148,6 @@ perspective effects (not including the modals and the overlay).
 
 
 .md-modal {
-
-    position: fixed;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -2322,17 +2320,14 @@ perspective effects (not including the modals and the overlay).
     position: relative;
 }
 
-#form > .closeMessageBox{
-    position: absolute;
-    cursor: pointer;
-    top: 25%;
-    left: 95%;
-    color: #fff;
-    z-index: 3;
+.msg-close{
+    float: right;
+    margin-right: 10px;
 }
 
-#form > .warning{
-    position: absolute;
+
+.warning{
+    position: fixed;
     top: 25%;
     left: 72%;
     width: 25%;
@@ -2342,29 +2337,35 @@ perspective effects (not including the modals and the overlay).
     border-radius: 5px;
     padding: 10px;
     text-align: center;
+     z-index: 2000;
 }
 
-#form > .confirmMessage{
-    position: absolute;
-    top: 25%;
-    left: 56%;
-    width: 35%;
-    height: auto;
-    background-color: #276F75;
-    color: #000;
-    border: 3px solid rgb(103, 167, 167);
+.confirmation{
+    background-color: #6fb118;
+    color: #fff;
     border-radius: 5px;
-    box-shadow: -2px 3px 2px #81ADB6;
-    padding: 10px;
-    text-align: center;
+    z-index: 2000;
+    position: fixed;
+    top: 25%;
+    width: 25%;
+    left: 5%;
+    height: auto;
+    text-align: center;    
 }
+
+.msg-Box > .msg-content{
+    
+}
+
 #email_warning{
     color: #FF3D3D;
     margin-left: 55px;
+    height: 30px;
 }
 #password_warning{
     color: #FF3D3D;
     margin-left: 55px;
+    height: 25px;
 }
 #reg_head{
     padding: 15px;

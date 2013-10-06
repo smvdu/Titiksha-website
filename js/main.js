@@ -94,16 +94,15 @@ $(document).ready(function(){
             sendFormDetails();
         }else{
             var warningMessage="Please fill all the fields.";
-            $("#form > .warning").addClass("activeMessage");
-            $(".activeMessage").css("display","block").html(warningMessage);
-            $("#form > .closeMessageBox").css("display","block");
+            $(".msg-Box").addClass("md-show warning").css("display","block");
+            $(".msg-Box > .msg-content").html(warningMessage);
+            $(".msg-Box > .msg-close").css("display","block");
         }
     });
 
-    $(".closeMessageBox").click(function() {
-        $("#form > .closeMessageBox").css("display","none");
-        $(".activeMessage").css("display","none");
-        $("#form div").removeClass("activeMessage");
+    $(".msg-close").click(function() {
+        $(".msg-Box > .msg-content").html("");
+        $(".msg-Box").css("display","none").removeClass("md-show warning confirmation");
     });
 
     $("#reg_form input[type='email']").bind("keyup", function() {
