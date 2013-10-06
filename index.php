@@ -42,8 +42,7 @@
         <link rel="stylesheet" href="css/jquery.countdown.css" />
 
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-        <script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
-        	
+       	
 	</head>
 	<body>
 	<!--[if lt IE 7]>
@@ -1897,6 +1896,17 @@ $sponsors = array(
 					    	<p>abc#gmail.com</p>
 					    	<span style="color: #000;">+91-9796-446317</span>
 				    	</div>
+				    </div>
+
+				    <div id="spon_brochure">
+				    	<a style="text-decoration : underline;" href=" " >Download the Sponsorship Brochure </a>
+				    	<div id="spon_query">
+				    		<p>For Sponshorship Queries Contact :</p>
+				    		<p>Gaurav Singh</p>
+					    	<p>2011eec54@gmail.com</p>
+					    	<span style="color: #000;">+91-9796-446317</span>
+				    	</div>
+				    	
 				    </div>
 
 				</div>
