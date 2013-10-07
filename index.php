@@ -156,7 +156,8 @@
 
             <div class="header">
                 <div id="h-text">
-                    <p>Titiksha 2k13</p>
+                    <p>Titiksha </p>
+                    <div id="h-sub"><span>2k13</span></div>
                 </div>
 
                 <div id="social_wrapper">
