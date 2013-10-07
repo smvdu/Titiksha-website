@@ -167,7 +167,7 @@
             <div class="header">
                 <div id="h-text">
                     <p>Titiksha </p>
-                    <div id="h-sub"><span id="h-date">26<sup>th</sup>-27<sup>th</sup> October 2013</span></div>
+                    <div id="h-sub"><span id="h-date">25<sup>th</sup>-27<sup>th</sup> October 2013</span></div>
                 </div>
 
                 <div id="social_wrapper">
@@ -1883,7 +1883,7 @@ $sponsors = array(
 				    	<div id="spon_query">
 				    		<p>For Sponshorship Queries Contact :</p>
 				    		<p>Gaurav Singh</p>
-					    	<p>2011eec54@gmail.com</p>
+					    	<p>2011eec54@smvdu.ac.in</p>
 					    	<span style="color: #42DA97;">+91-9796-446317</span>
 				    	</div>
 				    	
