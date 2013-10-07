@@ -2168,10 +2168,10 @@ $sponsors = array(
 				//preloader for images
 				var loader = new PxLoader();
 
-				for(var i= 1; i < 38; i++)
+				for(var i= 1; i < 2; i++)
 					loader.addImage("img/"+i+".jpg");
 				
-				for(var i = 1; i < 3; i++)
+				for(var i = 1; i < 4; i++)
 					loader.addImage("img/"+i+".png");
 
 	        	loader.addCompletionListener(function() {
