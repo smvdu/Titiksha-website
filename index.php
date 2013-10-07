@@ -266,7 +266,7 @@
 				     branches of the university for three  exuberant days.  Mechanical, Electronics and
 		     	     communication, Computer science , Biotechnology and Architectural events will
 
-				     emit their aura in this fest and this time TItiksha is going to be bigger than ever.
+				     emit their aura in this fest and this time Titiksha is going to be bigger than ever.
 					</p> </div>
 
 				</div>
