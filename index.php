@@ -8,30 +8,40 @@
 
 	/* Local configurations/ overrides
 	***********************************************/	
+	# set default timezone
+	date_default_timezone_set('Asia/Kolkata');
+	include('php/config.php');
+	ini_set('log_errors', 1);
+	ini_set('error_log', 'errorlog.txt');
 
-	include ('php/functions.php');
+	if (DEBUG) {
+		error_reporting(E_ALL | E_STRICT);
+		ini_set('display_errors', 1);
+	} else {
+		error_reporting(0);
+		@ini_set('display_errors', 0);
+	}
   
 ?>
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:svg="http://www.w3.org/2000/svg" itemscope itemtype="http://schema.org/<?php echo SITE_TYPE; ?>" lang="en" class="no-js">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:svg="http://www.w3.org/2000/svg" itemscope itemtype="http://schema.org/<?php echo site_type; ?>" lang="en" class="no-js">
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 		<title><?php echo site_title; ?></title>
-	    <meta itemprop="name" content="<?php print(site_title)?>">
-	    <meta name="description" content="<?php print(site_description);?>">
-	    <meta itemprop="description" content="<?php print(site_description);?>">
-	    <meta itemprop="image" content="<?php print(site_photo_url);?>">
-	    <meta name="keywords" content="<?php print(site_keywords);?>">
-	    <meta name="author" content="<?php print(site_author);?>">
+	    <meta itemprop="name" content="<?php echo site_title; ?>">
+	    <meta name="description" content="<?php echo site_description; ?>">
+	    <meta itemprop="description" content="<?php echo site_description; ?>">
+	    <meta itemprop="image" content="<?php echo site_photo_url; ?>">
+	    <meta name="keywords" content="<?php echo site_keywords; ?>">
+	    <meta name="author" content="<?php echo site_author; ?>">
 		
-	  	<?php get_fb_meta(); ?>
 	  	<!-- css for menu.php  -->
 	  	
         <link href='http://fonts.googleapis.com/css?family=Terminal+Dosis' rel='stylesheet' type='text/css' />
 		<!-- ======================== -->
-		<link rel="shortcut icon" href="intersection.ico"> 
+		<link rel="icon" type="image/vnd.microsoft.icon" href="intersection.ico"> 
 		
 		
 		<link rel="stylesheet" href="css/normalize.css">
