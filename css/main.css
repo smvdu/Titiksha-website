@@ -150,7 +150,7 @@ body {
     font-family: 'Terminal Dosis', Arial, sans-serif;
     font-size: 20px;
     max-width: 1350px;
-    max-height: 680px;
+    max-height: 700px;
 }
 
 a {
@@ -595,7 +595,7 @@ a:hover {
 }
 #h-sub{
     top: 21px;
-    left: 760px;
+    left: 820px;
     position: absolute;
     width: 330px;
     font-size: 1.5vw;
@@ -1656,6 +1656,7 @@ margin-left: 42%;
     position: relative;    
     -webkit-transition: 400ms;
     transition: 400ms;
+    cursor: pointer;
 
 }
 

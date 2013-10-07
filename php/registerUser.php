@@ -45,13 +45,12 @@
 	  Regards,
 	  Titiksha Organizing Team
 
-	  Please click this link to activate your account:
-	  http://www.yourwebsite.com/verify.php?email='.$form['email'].'&hash='.$form['hash'].'
+
 
 	  '; // Our message above including the link
 	  
 	  $headers = 'From:noreply@titiksha.smvdu.net.in' . "\r\n"; // Set from headers
-	 // mail($to, $subject, $message, $headers); // Send the email
+	 mail($to, $subject, $message, $headers); // Send the email
 
 
 	  mysql_close();
