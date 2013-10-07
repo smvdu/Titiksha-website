@@ -101,7 +101,7 @@ function sendFormDetails() {
 	xmlhttp.onreadystatechange = function() {
 		if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
 			resetFields();
-			var confirmMessage="You successfully registered !.<br> An email has been sent on your registered email-id.";
+			var confirmMessage="You have been successfully registered !.<br> An email has been sent on your registered email-id.";
             $(".msg-Box").addClass("md-show confirmation").css("display","block");
             $(".msg-Box > .msg-content").html(confirmMessage);
             $(".msg-Box > .msg-close").css("display","block");
