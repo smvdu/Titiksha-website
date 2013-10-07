@@ -42,13 +42,14 @@
         <link rel="stylesheet" href="css/jquery.countdown.css" />
 
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-        <script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
-        	
+       	
 	</head>
 	<body>
 	<!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
+
+        <div id="small_screen">Your Screen Size is too small to access this Website.</div>
 
         <nav id="main_nav">
         	<ul>
@@ -281,7 +282,7 @@
 		
 					<div id="bottom"><p> Titiksha, J&k’s largest annual  technical festival , this time is on it’s way to boggle
 					 the minds of young  tech savvies around the nation. We , at SMVDU, for 
-					 technical excellence, invite more than 100 of colleges /universities  from the
+					 technical excellence, invite more than 200 of colleges /universities  from the
 					 nation to participate in this  fiesta. Different events  will be held by the different
 				     branches of the university for three  exuberant days.  Mechanical, Electronics and
 		     	     communication, Computer science , Biotechnology and Architectural events will
@@ -819,7 +820,8 @@
 						
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-13">
-									<span class="icon-eye">Event one</span>
+									<span class="icon-eye"><em>DESIGN YOUR DREAMS</em></span>
+									<p>Think Creative and Design Dream</p>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-13">
 									<div class="md-content">
@@ -827,13 +829,17 @@
 											<button class="md-register register">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
-										<h3>Tech Roadies</h3>
+										<h3>DESIGN YOUR DREAMS</h3>
 										<div>
-											<p>This is a modal window. You can do the following things with it:</p>
+											<p>Do you think about how my dream car should be look like?
+											This  event  can  help  you  to  think  more.  Design  some  crazy  and
+											innovative  automobiles  sketches  like  cycles,  bikes,  cars,  Air  crafts  etc.
+											The most compelling design will be awarded.</p>
+											
+											<br><br>
 											<ul>
-												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
-												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
-												<li><strong>Close:</strong> click on the button below to close the modal.</li>
+												<li><strong>Event Co-ordinator : </strong></li>
+												<li><strong>Contact :</strong> +91-</li>
 											</ul>
 											
 										</div>
@@ -843,7 +849,8 @@
 							</div><!-- / uc-container -->
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-14">
-									<span class="icon-eye">second Events</span>
+									<span class="icon-eye"> <em>CONCLAVE</em></span>
+									<p>Share Your ideas on Topics related to Mechnical Engineering</p>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-14">
 									<div class="md-content">
@@ -851,13 +858,26 @@
 											<button class="md-register register">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
-										<h3>second events</h3>
+										<h3> CONCLAVE</h3>
 										<div>
-											<p>This is a modal window. You can do the following things with it:</p>
+											<p>If  your  mind  could  be  a  cupola  of new ideas and thoughts, then we are
+												providing  you  a  platform  to  express  your  views  on  different  topics
+												related  to  mechanical  engineering.  Your  idea  can  do  technical  reforms
+												which  can  make  this  world  a  better  place  to  live  in.  so  pump  in  your
+												adrenaline,  get ready to “ROAR” and let the whole world see the might
+												of your ideas.</p>
 											<ul>
-												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
-												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
-												<li><strong>Close:</strong> click on the button below to close the modal.</li>
+												<li>Round  1 :  Abstract  Submission.  The  abstract  could  be  submitted either in .pdf  or .doc format.</li>
+												<li>Round  2­ : Presentation  Round:  The  selected  candidates  have  to  give
+												Power­point  presentation.  They  should  also  bring  with  them  a  hard
+												copy  for  explaining  their  presentation  consisting  of  maximum  15
+												pages including various data, diagram etc.</li>
+											</ul>
+											
+											<br><br>
+											<ul>
+												<li><strong>Event Co-ordinator : </strong></li>
+												<li><strong>Contact :</strong> +91-</li>
 											</ul>
 											
 										</div>
@@ -867,7 +887,8 @@
 							</div><!-- / uc-container -->
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-15">
-									<span class="icon-eye">Third Events</span>
+									<span class="icon-eye"><em>THE MACHINIST</em></span>
+									<p>How much you know about Machine, Reveal Your Knowledge here</p>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-15">
 									<div class="md-content">
@@ -875,13 +896,26 @@
 											<button class="md-register register">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
-										<h3>second events</h3>
+										<h3>THE MACHINIST</h3>
 										<div>
-											<p>This is a modal window. You can do the following things with it:</p>
+											<p>Machinist,  the  master  of  operating  machine  tools,  get  ready  to  show
+											yours  mechanical  skills  on  the  machine.  Put  on  your  thinking  cap  and
+											come up to reveal your encyclopaedism on machines</p>
 											<ul>
-												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
-												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
-												<li><strong>Close:</strong> click on the button below to close the modal.</li>
+												ROUND 1 :
+												<li>Written test of around 45 minutes will be conducted.</li>
+												<li>Participants will give test individually.</li>
+												<li>Question  will  be  asked  from  basic  Workshop  Practice  and aptitude.</li>
+												<li>10 teams will be selected for the 2nd round.</li>
+												ROUND 2 :
+												<li>The selected teams will have to finish a job within a given
+												period of time.</li>
+											
+											</ul>
+												<br><br>
+											<ul>
+												<li><strong>Event Co-ordinator : </strong></li>
+												<li><strong>Contact :</strong> +91-</li>
 											</ul>
 											
 										</div>
@@ -891,7 +925,8 @@
 							</div><!-- / uc-container -->
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-16">
-									<span class="icon-eye">Fourth Events</span>
+									<span class="icon-eye"><em>RUSH TO ASSEMBLE-ENGINE</em></span>
+									<p>Assemble and build Engine</p>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-16">
 									<div class="md-content">
@@ -899,13 +934,19 @@
 											<button class="md-register register">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
-										<h3>second events</h3>
+										<h3>RUSH TO ASSEMBLE-ENGINE</h3>
 										<div>
-											<p>This is a modal window. You can do the following things with it:</p>
+											<p>The  teams  will  be given clues which will act as directions for the teams
+											to gather the parts of engine.</p>
 											<ul>
-												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
-												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
-												<li><strong>Close:</strong> click on the button below to close the modal.</li>
+												<li>At each checkpoint‚ the clue for next checkpoint will be provided.</li>
+												<li>At  each  checkpoint‚  the  teams  will  either  be  given  questions  to  solve
+													or, which have to be solved at that point itself.</li>
+											</ul>
+											<br><br>
+											<ul>
+												<li><strong>Event Co-ordinator : </strong></li>
+												<li><strong>Contact :</strong> +91-</li>
 											</ul>
 											
 										</div>
@@ -915,7 +956,8 @@
 							</div><!-- / uc-container -->
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-17">
-									<span class="icon-eye">Fifth Events</span>
+									<span class="icon-eye"><em>CLUEDO</em></span>
+									<p>"Student of the Year" competition is in SMVDU</p>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-17">
 									<div class="md-content">
@@ -923,13 +965,20 @@
 											<button class="md-register register">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
-										<h3>second events</h3>
+										<h3>CLUEDO</h3>
 										<div>
-											<p>This is a modal window. You can do the following things with it:</p>
+											<p>This  event  is  like  a  clue  finding  event,  the  participants  are  to  be
+												divided  in  group  of  two.  Each  group  will  be  provided  with  a  clue  the
+												participants  have  to  go  to  the  place  indicated  by  the  clue,  where  they
+												will  be  provided  with  a question paper and clue for the next place. The
+												participants  have  to  submit  the  solved  paper  to  organizers  present  at
+												that  place.  Each  group has to solve such 5 question paper consisting of
+												10  questions  in  limited  time  period  the  groups  will  be  evaluated  on
+												basis of marks and time taken by them to complete the questions.</p>
+											<br><br>
 											<ul>
-												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
-												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
-												<li><strong>Close:</strong> click on the button below to close the modal.</li>
+												<li><strong>Event Co-ordinator : </strong></li>
+												<li><strong>Contact :</strong> +91-</li>
 											</ul>
 											
 										</div>
@@ -939,7 +988,8 @@
 							</div><!-- / uc-container -->
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-18">
-									<span class="icon-eye">sixth Events</span>
+									<span class="icon-eye"><em>FUTURE-TECH</em></span>
+									<p>Here is your chance to show Real Engineer inside You.</p>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-18">
 									<div class="md-content">
@@ -947,13 +997,21 @@
 											<button class="md-register register">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
-										<h3>second events</h3>
+										<h3>FUTURE-TECH</h3>
 										<div>
-											<p>This is a modal window. You can do the following things with it:</p>
+											<p>The  technology  or  modification  in  technology  that  can  enhance  the
+											existing technology (in any field) or innovation of any new type.</p>
+											<p>Judgment criteria:­</p>
+											<ul> 
+												<li>1) Should Have Some Logical Ground.</li>
+												<li>2) Economically Feasibility.</li>
+												<li>3) Employment Generative.</li>
+												<li>4) Environment Friendliness.</li>
+											</ul>
+											<br><br>
 											<ul>
-												<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
-												<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
-												<li><strong>heuya:</strong> click on the button below to close the modal.</li>
+												<li><strong>Event Co-ordinator : </strong></li>
+												<li><strong>Contact :</strong> +91-</li>
 											</ul>
 											
 										</div>
@@ -961,6 +1019,47 @@
 								</div>
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
+							<div class="uc-container">
+								<div class="md-trigger" data-modal="modal-41">
+									<span class="icon-eye"><em>BAJA de innovación</em></span>
+									<p>Participate and Contribute your idea in "WILD BAnTENG</p>
+								</div>
+								<div class="md-modal md-effect-11" id="modal-41">
+									<div class="md-content">
+										<div class="md-header">
+											<button class="md-register register">Register</button>
+											<button class="md-close close">Close!</button>
+										</div>
+										<h3>BAJA de innovación</h3>
+										<div>
+											<p>This  event  is  to  invite  innovative  ideas  for  the  ATV  under  production
+												by  the team "MECHANIX" which will be participating with its vehicle
+												"WILD BAnTENG" in BAJA SAE 2014.</p>
+
+											<ul> The event will be organised in two stages:
+												<li>Stage  1 :  Participants  will  be  given  a  questionnaire  about  ideas
+													in different fields.</li>
+												<li>Stage  2 :  Selected  candidates  will  be  invited  to  submit  a
+													full­length  description  of  their  idea  in  the  form  of  a  ppt.  and
+													winners  will  be  decided  on  the  basis  of  the  practicality  and
+													usefulness of the idea.</li>
+											</ul>
+											<p>The  winning  ideas  will  be  implemented  by  the  "MECHANIX"
+												and  if  the  idea  wins  any  prizes  at  the  BAJA  SAE  2014,  the
+												person  will  be  given  10%  of  the  prize  money.  (which  will
+												amount to no less than <strong>15,000 INR </strong>).</p>
+											<br><br>
+											<ul>
+												<li><strong>Event Co-ordinator : </strong></li>
+												<li><strong>Contact :</strong> +91-</li>
+											</ul>
+											
+										</div>
+									</div>
+								</div>
+								<div class="md-overlay"></div><!-- the overlay element -->
+							</div><!-- / uc-container -->
+
 							
 							
 						</div><!-- / grid -->
@@ -1229,7 +1328,7 @@
 						
 							<div class="uc-container">
 
-								<div class="md-trigger" data-modal="modal-29">
+								<div class="md-trigger" data-modal="modal-25">
 									<span style="font-size: 90%;" class="icon-eye"><em>ARCHITECTURAL SYMPOSIUM</em></span>
 									<p>"Has  the  public  not  become  so  diverse  that  a
 										space with which everyone identifies no longer exists?"</p>
@@ -1760,7 +1859,7 @@ $sponsors = array(
 );
 
 ?>
-					<div class="sponsorListHolder">
+					<div class="sponsorListHolder" >
 
 						
 				        <?php
@@ -1800,6 +1899,17 @@ $sponsors = array(
 					    	<p>abc#gmail.com</p>
 					    	<span style="color: #000;">+91-9796-446317</span>
 				    	</div>
+				    </div>
+
+				    <div id="spon_brochure">
+				    	<a style="color: #C6DAD6; text-decoration : underline;" target="_blank" href="doc/TITIKSHA13 Sponsor_Brochure.pdf" >Download the Sponsorship Brochure </a>
+				    	<div id="spon_query">
+				    		<p>For Sponshorship Queries Contact :</p>
+				    		<p>Gaurav Singh</p>
+					    	<p>2011eec54@gmail.com</p>
+					    	<span style="color: #42DA97;">+91-9796-446317</span>
+				    	</div>
+				    	
 				    </div>
 
 				</div>
@@ -2082,8 +2192,10 @@ $sponsors = array(
 					loader.addImage("img/"+i+".png");
 
 	        	loader.addCompletionListener(function() {
-	        		$("#progress , #loading").fadeOut();
-	        		$("#enter").fadeIn(2000);
+	        		$("#progress , #loading").fadeOut(500, function(){
+	        			$("#enter").fadeIn(700);
+	        		});
+	        		
 	        	});
 
 	        	loader.addProgressListener(function(e) {
