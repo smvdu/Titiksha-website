@@ -1948,6 +1948,18 @@ transform: rotate(-23deg);
   column-count:         7;
   }
 
+  
+}
+@media (max-width: 1000px) {
+  .about_us {
+  -moz-column-count:    6;
+  -webkit-column-count: 6;
+  -o-column-count: 6;
+  -ms-column-count: 6;
+  column-count:         6;
+  }
+
+
   section{
     display: none;
   }
@@ -1966,15 +1978,6 @@ transform: rotate(-23deg);
     top: 40%;
     display: block;
     position: absolute;
-  }
-}
-@media (max-width: 1000px) {
-  .about_us {
-  -moz-column-count:    6;
-  -webkit-column-count: 6;
-  -o-column-count: 6;
-  -ms-column-count: 6;
-  column-count:         6;
   }
 }
 @media (max-width: 800px) {
