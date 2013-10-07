@@ -579,14 +579,14 @@ a:hover {
     color: #242424;
 }
 #h-sub{
-    top: 10px;
-    right: 380px;
+    top: 21px;
+    left: 760px;
     position: absolute;
-    width: 100px;
-    height: 100px;
-    font-size: 3vw;
-    text-shadow: 2px 2px 2px #000;
+    width: 330px;
+    font-size: 1.5vw;
+    text-shadow: 1px 1px 1px #000;
     color: #242424;
+    letter-spacing: 0.1em;
 }
 
 #bubble_area{
@@ -1913,39 +1913,17 @@ margin-left: 42%;
 
 .about_us{
     font-size: 137%;
-    background-color: #fff;
+    height: 100%;
     color: hsl(0, 15%, 19%);
     position: relative;
-    -webkit-column-count: 6;
-    -webkit-column-gap: 0px;
-    -o-column-count: 6;
-    -o-column-gap: 0px;
-    -ms-column-count: 6;
-    -ms-column-gap: 0px;
-    
-    -moz-column-count: 6;
-    -moz-column-gap: 0px;
-    column-count: 6;
-    column-gap: 0px;
+
     overflow: hidden;
-    
+    background: #fff url("../img/back_about.png") repeat left top;
 }
 
 
 
-.about_us > img{
-    width: 100% !important;
-    height: auto !important;
-   
-    -webkit-filter: opacity(75%) blur(1.5px) grayscale(90%) brightness(60%);
-     filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */
-     filter: gray; /* IE6-9 */
-    -moz-filter: grayscale(90%) opacity(75%) blur(1.5px) brightness(60%);
-    -o-filter: opacity(75%) blur(1.5px) grayscale(90%) brightness(60%);
-    -ms-filter: opacity(75%) blur(1.5px) grayscale(90%) brightness(60%);
-     filter: opacity(75%) blur(1.5px) grayscale(90%) brightness(60%);
-     opacity: 0.75;
-}
+
 
 #small_screen{
     display: none;

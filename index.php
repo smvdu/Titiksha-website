@@ -13,7 +13,7 @@
   
 ?>
 <!DOCTYPE html>
-<html itemscope itemtype="http://schema.org/<?php echo SITE_TYPE; ?>" lang="en" class="no-js">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:svg="http://www.w3.org/2000/svg" itemscope itemtype="http://schema.org/<?php echo SITE_TYPE; ?>" lang="en" class="no-js">
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
@@ -157,7 +157,7 @@
             <div class="header">
                 <div id="h-text">
                     <p>Titiksha </p>
-                    <div id="h-sub"><span>2k13</span></div>
+                    <div id="h-sub"><span id="h-date">26<sup>th</sup>-27<sup>th</sup> October 2013</span></div>
                 </div>
 
                 <div id="social_wrapper">
@@ -231,43 +231,9 @@
 		<section class="page" id="container_about" data-slide="2">
 
 			<div class="about_us" id="about">
-				<img src="img/1.jpg">
-				<img src="img/2.jpg">
-				<img src="img/3.jpg">
-				<img src="img/4.jpg">
-				<img src="img/5.jpg">
-				<img src="img/6.jpg">
-				<img src="img/7.jpg">
-				<img src="img/8.jpg">
-				<img src="img/9.jpg">
-				<img src="img/10.jpg">
-				<img src="img/11.jpg">
-				<img src="img/12.jpg">
-				<img src="img/13.jpg">
-				<img src="img/14.jpg">
-				<img src="img/15.jpg">
-				<img src="img/16.jpg">
-				<img src="img/17.jpg">
-				<img src="img/18.jpg">
-				<img src="img/19.jpg">
-				<img src="img/20.jpg">
-				<img src="img/21.jpg">
-				<img src="img/22.jpg">
-				<img src="img/23.jpg">
-				<img src="img/24.jpg">
-				<img src="img/25.jpg">
-				<img src="img/26.jpg">
-				<img src="img/27.jpg">
-				<img src="img/28.jpg">
-				<img src="img/29.jpg">
-				<img src="img/30.jpg">
-				<img src="img/31.jpg">
-				<img src="img/32.jpg">
-				<img src="img/33.jpg">
-				<img src="img/34.jpg">
+				
 
-				
-				
+
 				<div id="left_about">
 					<div id="rocket" data-stellar-ratio="2.2" data-stellar-horizontal-offset="-100" data-stellar-vertical-offset="-700" ></div>
 					<div id="earth"  data-stellar-ratio="0.8" data-stellar-horizontal-offset="-150" data-stellar-vertical-offset="1500" ></div>
