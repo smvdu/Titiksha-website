@@ -377,10 +377,13 @@
 												<p>The  robot  winning  in  max  categories  of  Robo­matrix  will  be  awarded
 													as the “BEST ROBOT”. </p>
 													 <br>
+
+
 											<ul>
 												<li><strong>Event Co-ordinator :</strong> Vipin Tripathi</li>
 												<li><strong>Contact :</strong> +91-9086-252113</li>
 											</ul>
+
 											
 										</div>
 									</div>
@@ -417,10 +420,12 @@
 												The  top  participants  will  make  a  short  movie  on  their  superhero of the
 												length  of  their  choice  and  the  best  video  would  be  shown  in
 												the valedictory ceremony in auditorium.</p>
+
 											<ul>
 												<li><strong>Event Co-ordinator :</strong> Ashish Singh</li>
 												<li><strong>Contact :</strong> +91-9596-997294</li>
 											</ul>
+
 											
 										</div>
 									</div>
@@ -451,10 +456,12 @@
 												<br> Level 1 (JUNIOR)­ for 1st and 2nd
 												<br> Level 2 (SENIOR)­for 3 year /4 year/inter university.</p>
 											<br>
+
 											<ul>
 												<li><strong>Event Co-ordinator :</strong> Ashish Kumar Singh</li>
 												<li><strong>Contact :</strong> +91-9596-997294</li>
 											</ul>
+
 										</div>
 									</div>
 								</div>
@@ -485,10 +492,12 @@
 												be used at different places in university).</li>
 											</ul>
 											<br><br>
+
 											<ul>
 												<li><strong>Event Co-ordinator :</strong> Daud Shareef</li>
 												<li><strong>Contact :</strong> +91-9697-679928</li>
 											</ul>
+
 											
 										</div>
 									</div>

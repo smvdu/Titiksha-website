@@ -1948,6 +1948,18 @@ transform: rotate(-23deg);
   column-count:         7;
   }
 
+  
+}
+@media (max-width: 1000px) {
+  .about_us {
+  -moz-column-count:    6;
+  -webkit-column-count: 6;
+  -o-column-count: 6;
+  -ms-column-count: 6;
+  column-count:         6;
+  }
+
+
   section{
     display: none;
   }
@@ -1966,15 +1978,6 @@ transform: rotate(-23deg);
     top: 40%;
     display: block;
     position: absolute;
-  }
-}
-@media (max-width: 1000px) {
-  .about_us {
-  -moz-column-count:    6;
-  -webkit-column-count: 6;
-  -o-column-count: 6;
-  -ms-column-count: 6;
-  column-count:         6;
   }
 }
 @media (max-width: 800px) {
@@ -2291,7 +2294,7 @@ perspective effects (not including the modals and the overlay).
     left: 0;
     z-index: 1000;
     opacity: 0;
-    background: rgba(248, 248, 248, 0.6);
+    background: rgba(255, 255, 255, 0.8);
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -2307,8 +2310,8 @@ perspective effects (not including the modals and the overlay).
 /* Content styles */
 .md-content {
     font-size: 90%;
-    color: rgba(19, 27, 26, 0.89);
-    background: #5D95A0;
+    color: #fff;
+    background: #25798A;
     position: relative;
     border-radius: 3px;
     margin: 0 auto;
@@ -2592,11 +2595,11 @@ input[name="gender"]{
     z-index: 4;
     font-size: 100%;
     width: 100%;
-    background-image: url('../img/36.jpg');
+    background-image: url('../img/37.jpg');
    
     background-color: #e4e6e5 ;
     font-family: "Oxygen";
-    color: rgba(228, 221, 235, 0.96);
+    color: rgba(76, 76, 77, 0.96);
     position: relative;
     margin: 0px;
     padding: 0px;
@@ -2633,7 +2636,15 @@ input[name="gender"]{
 }
 #spon_brochure > a{
     font-weight: bold;
+    color: #108DAC !important;
+    -webkit-transition: 200ms;
 }
+
+#spon_brochure > a:hover{
+    color: #0E738B !important;
+    -webkit-transition: 200ms;
+}
+
 #spon_query{
    width: 280px;
     height: 150px;
@@ -2641,6 +2652,7 @@ input[name="gender"]{
     margin-top: 40px;
     padding: 8px 4px 0px 4px;
     background-color: #141313;
+    color: #ccc;
 }
 
 #spon_cord{
