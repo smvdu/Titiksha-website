@@ -27,7 +27,7 @@
 	    <meta name="author" content="<?php print(site_author);?>">
 		
 	  	<?php get_fb_meta(); ?>
-	  	<!-- css for menu.php -->
+	  	<!-- css for menu.php  -->
 	  	
         <link href='http://fonts.googleapis.com/css?family=Terminal+Dosis' rel='stylesheet' type='text/css' />
 		<!-- ======================== -->
@@ -340,9 +340,9 @@
 											<p><em>ROUND 2</em> :­Candidates  qualified  in round 1 are eligible to present their
 											state’  problems  with  feasible  solutions  in  front  of  the  jury,  which  will
 											decide the winner.</p>
-											
+											<br><br>
 											<ul>
-												<li><strong>Event Co-ordinator :</strong>Shubham Tiwari</li>
+												<li><strong>Event Co-ordinator :</strong> Shubham Tiwari</li>
 												<li><strong>Contact :</strong> +91-9796-289195</li>
 											</ul>
 											
@@ -377,10 +377,13 @@
 												<p>The  robot  winning  in  max  categories  of  Robo­matrix  will  be  awarded
 													as the “BEST ROBOT”. </p>
 													 <br>
-											<!--<ul>
-												<li><strong>Event Co-ordinator :</strong> Alpha Beta</li>
-												<li><strong>Contact :</strong> +91-1251354713</li>
-											</ul>-->
+
+
+											<ul>
+												<li><strong>Event Co-ordinator :</strong> Vipin Tripathi</li>
+												<li><strong>Contact :</strong> +91-9086-252113</li>
+											</ul>
+
 											
 										</div>
 									</div>
@@ -398,7 +401,8 @@
 											<button class="md-register register">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
-										<h3>ELECTRO-AVTAAR</h3>
+										<h3>ELECTRO-AVTAAR (EDGE OF TOMORROW)</h3>
+
 										<div>
 											<p>This event is a blend of science and imagination. Design your own
 												super hero and win prizes! It will be organized in three levels.
@@ -414,12 +418,14 @@
 												would cross question them.</p>
 												<p><em>Level 3</em> :<strong> Video Mania - </strong>
 												The  top  participants  will  make  a  short  movie  on  their  superhero of the
-												TITIKSHA 2013 PROPOSAL Page 2length  of  their  choice  and  the  best  video  would  be  shown  in
+												length  of  their  choice  and  the  best  video  would  be  shown  in
 												the valedictory ceremony in auditorium.</p>
-											<!--<ul>
-												<li><strong>Event Co-ordinator :</strong> Alpha Beta</li>
-												<li><strong>Contact :</strong> +91-1251354713</li>
-											</ul>-->
+
+											<ul>
+												<li><strong>Event Co-ordinator :</strong> Ashish Singh</li>
+												<li><strong>Contact :</strong> +91-9596-997294</li>
+											</ul>
+
 											
 										</div>
 									</div>
@@ -450,10 +456,12 @@
 												<br> Level 1 (JUNIOR)­ for 1st and 2nd
 												<br> Level 2 (SENIOR)­for 3 year /4 year/inter university.</p>
 											<br>
-											<!--<ul>
-												<li><strong>Event Co-ordinator :</strong> Alpha Beta</li>
-												<li><strong>Contact :</strong> +91-1251354713</li>
-											</ul>-->
+
+											<ul>
+												<li><strong>Event Co-ordinator :</strong> Ashish Kumar Singh</li>
+												<li><strong>Contact :</strong> +91-9596-997294</li>
+											</ul>
+
 										</div>
 									</div>
 								</div>
@@ -484,10 +492,12 @@
 												be used at different places in university).</li>
 											</ul>
 											<br><br>
-											<!--<ul>
-												<li><strong>Event Co-ordinator :</strong> Alpha Beta</li>
-												<li><strong>Contact :</strong> +91-1251354713</li>
-											</ul>-->
+
+											<ul>
+												<li><strong>Event Co-ordinator :</strong> Daud Shareef</li>
+												<li><strong>Contact :</strong> +91-9697-679928</li>
+											</ul>
+
 											
 										</div>
 									</div>
@@ -713,7 +723,7 @@
 										<h3>JUMBLE-MUMBLE</h3>
 										<div>
 											<p>The  jumble  code  and  desired output  will  be  given  to  student.  Student
-												are  proposed  to  swap  the  instruction  such that given output will be the
+												are  pagesed  to  swap  the  instruction  such that given output will be the
 												actual output of the code. </p><br>
 											<p><strong>RULES : </strong>	
 												1. There are maximum of two members in a group. <br>
@@ -840,8 +850,8 @@
 											
 											<br><br>
 											<ul>
-												<li><strong>Event Co-ordinator : </strong></li>
-												<li><strong>Contact :</strong> +91-</li>
+												<li><strong>Event Co-ordinator : </strong>Sanjeev</li>
+												<li><strong>Contact :</strong> +91-8716-058339</li>
 											</ul>
 											
 										</div>
@@ -878,8 +888,8 @@
 											
 											<br><br>
 											<ul>
-												<li><strong>Event Co-ordinator : </strong></li>
-												<li><strong>Contact :</strong> +91-</li>
+												<li><strong>Event Co-ordinator : </strong>Vikas Singla</li>
+												<li><strong>Contact :</strong> +91-9086-118374</li>
 											</ul>
 											
 										</div>
@@ -916,8 +926,8 @@
 											</ul>
 												<br><br>
 											<ul>
-												<li><strong>Event Co-ordinator : </strong></li>
-												<li><strong>Contact :</strong> +91-</li>
+												<li><strong>Event Co-ordinator : </strong>Saddam Zoya</li>
+												<!-- <li><strong>Contact :</strong> +91-9086-118374</li> -->
 											</ul>
 											
 										</div>
@@ -947,8 +957,8 @@
 											</ul>
 											<br><br>
 											<ul>
-												<li><strong>Event Co-ordinator : </strong></li>
-												<li><strong>Contact :</strong> +91-</li>
+												<li><strong>Event Co-ordinator : </strong>Manish Paliwal</li>
+												<!-- <li><strong>Contact :</strong> +91-</li> -->
 											</ul>
 											
 										</div>
@@ -979,8 +989,8 @@
 												basis of marks and time taken by them to complete the questions.</p>
 											<br><br>
 											<ul>
-												<li><strong>Event Co-ordinator : </strong></li>
-												<li><strong>Contact :</strong> +91-</li>
+												<li><strong>Event Co-ordinator : </strong>Vivek Mishra</li>
+												<li><strong>Contact :</strong> +91-9018-876131</li>
 											</ul>
 											
 										</div>
@@ -1012,8 +1022,8 @@
 											</ul>
 											<br><br>
 											<ul>
-												<li><strong>Event Co-ordinator : </strong></li>
-												<li><strong>Contact :</strong> +91-</li>
+												<li><strong>Event Co-ordinator : </strong>Rajesh Baranwal</li>
+												<!-- <li><strong>Contact :</strong> +91-</li> -->
 											</ul>
 											
 										</div>
@@ -1052,8 +1062,8 @@
 												amount to no less than <strong>15,000 INR </strong>).</p>
 											<br><br>
 											<ul>
-												<li><strong>Event Co-ordinator : </strong></li>
-												<li><strong>Contact :</strong> +91-</li>
+												<li><strong>Event Co-ordinator : </strong>Anand</li>
+												<li><strong>Contact :</strong> +91-9906-007341</li>
 											</ul>
 											
 										</div>
@@ -1096,11 +1106,12 @@
 												The  second  round:  The  participants  will  be  given  electronic
 												components  and  an  oscilloscope  and they have to generate waveforms.
 												The most interesting ones win.</p>
+											<br><br>
 											<ul>
 
 
-												<li><strong>Event Co-ordinator : Suraj Gupta</strong></li>
-												<li><strong>Contact : +91-9596913682</strong></li>
+												<li><strong>Event Co-ordinator : </strong>Suraj Gupta</li>
+												<li><strong>Contact : </strong>+91-9596913682</li>
 
 
 											</ul>
@@ -1127,6 +1138,7 @@
 											<p>Questions  will  be  based  on  knowledge  regarding  with  lab  instruments and  related  to  technology.  The  quiz  will  be  held  in  two  <strong>rounds</strong>. Those
 												qualifying  the  preliminary  round  will be permitted to participate in the
 												final.</p>
+											<br><br>
 											<ul>
 
 
@@ -1162,6 +1174,7 @@
 												The  top  participants  will  make  a  short  movie  on  their  superhero of the
 												length  of  their  choice  and  the  best  video  would  be  shown  in  the
 												Matrika Auditorium during the valedictory of Titiksha.</p>
+											<br><br>
 											<ul>
 
 
@@ -1196,6 +1209,7 @@
 												<li><em><strong>Round 2 </strong></em>:  A  dysfunctional  circuit  will  be  given  to  the  participant.  The
 												one who fixes his/her circuit first will brag the prize.</li>
 											</ul>
+											<br><br>
 											<ul>
 
 
@@ -1226,6 +1240,7 @@
 										<div>
 											<p>Using  <strong>microprocessor/microcontroller</strong>  build  a  real  life  application
 											(only software)</p>
+											<br><br>
 											<ul>
 
 
@@ -1260,6 +1275,7 @@
 												preliminary round for the final circuit assembly test. <strong>Final</strong> :  The  circuit  assembling  skills  of  the  participants  will  be  put  to
 												test.  Time  taken  by  the  participants  and  the  quality  of  the  circuit
 												designed will determine the winner.</p>
+											<br><br>
 											<ul>
 
 
@@ -1302,6 +1318,8 @@
                                                         The details about the circuit will be hidden in a hint given to you.</li>
 												</ul>
 											</p>
+											
+											<br><br>
 											<ul>
 
 
@@ -1385,6 +1403,7 @@
 												to  do  is  to  make  an  <strong>art  installation</strong>  using  natural  as  well  as  waste
 												products,  gathering  from  university  campus.  The  theme  will  be
 												provided on the spot.</p>
+											<br><br>
 											<ul>
 
 												<li><strong>Event Co-ordinator : </strong>Anuksha amla</li>
@@ -1420,6 +1439,7 @@
 												<p>In  this  event  you  have  to  produce  some  digital  modals  using  simple
 												Google  “sketch­up”  software,  you  can  also  use  v­ray  for  the rendering
 												purpose. Theme will be revealed at the time of event.</p>
+											<br><br>
 											<ul>
 
 												<li><strong>Event Co-ordinator : </strong>Shreya</li>
@@ -1454,6 +1474,7 @@
 												<p>So  it  is  clear  from  above  description  that  you  have  to  paint  your
 												friends  face. So be ready to have some fun. <strong>Theme will be given before
 												time of the event</strong>.</p>
+											<br><br>
 											<ul>
 
 												<li><strong>Event Co-ordinator : </strong>Arpita</li>
@@ -1488,6 +1509,7 @@
 												 are commonly used in editorial cartoons. While caricatures of movie stars are often found in entertainment magazines. </p>
 												<p>Make  a caricature  of your best enemy and have a chance to showcase your rage
 												in public. Have fun and win prize. <strong>Bingo!!</strong></p>
+											<br><br>
 											<ul>
 
 												<li><strong>Event Co-ordinator : </strong>Arunima Bhowmick </li>
@@ -1568,6 +1590,7 @@
 												“frame­inn”.  Basically  the  company  deals  with  the  global  modeling
 												business,  while  designing  logo  for  the  company  you  should  keep  in
 												mind the <strong>purpose</strong> and <strong>simplicity</strong> of logo.</p>
+											<br><br>
 											<ul>
 
 												<li><strong>Event Co-ordinator : </strong>Puneet Mehta </li>
@@ -1647,10 +1670,10 @@
 										<h3>BIO-TECH QUIZ</h3>
 										<div>
 											<p>Students  will  be  asked  various  questions  related  to  new  inventions  in
-												bio­tech and other aspects of <strong>bio-technology</strong>.</p>
+												bio­tech and other aspects of <strong>bio-technology</strong>.
+											</p>
+											<br><br>
 											<ul>
-
-
 												<li><strong>Event co-ordinator: </strong> Ishan tiwari  </li>
 												<li><strong>Contact: </strong> +91-9596916580</li>
 												
@@ -1679,14 +1702,10 @@
 										<div>
 											<p>Students  are  asked  to  write  down  names  of  <strong>micro­organism</strong>  the  one
 												who write the most of the name correct wins.</p>
+											<br><br>
 											<ul>
-
-
 												<li><strong>Event co-ordinator: </strong> Shamli Shagotra</li>
 												<li><strong>Contact: </strong> +91-946947982</li>
-												
-
-
 											</ul>
 											
 										</div>
@@ -1713,6 +1732,7 @@
 											<p>Lots  of  name  related  to  bio  tech  will  be  <strong>jumbled</strong>  up  the  one who finds
 
 												the most wins.</p>
+											<br><br>
 											<ul>
 												<li><strong>Event co-ordinator: </strong> Sudhanshu Raj Sagar</li>
 												<li><strong>Contact: </strong> +91-9796858005</li>
@@ -1745,6 +1765,7 @@
 												complement of the base pairs <strong>(ATGC)</strong>.
 												You have to make the sequence as fast as possible
 												Those  who  will  finish  it  first  will  be  the  winner.</p>
+											<br><br>
 											<ul>
 
 
@@ -1776,6 +1797,7 @@
 											<p><strong>Visuals</strong>  will  be  displayed  for  few  seconds
 												to  the  contestants.  Contestants  have  to  recall  the  different  names  they
 												have seen in the visuals.</p>
+											<br><br>
 											<ul>
 
 
@@ -1808,14 +1830,10 @@
 											<p>Different  <strong>compounds</strong>  or  <strong>molecules</strong>
 												structures  will  be  shown  to  the  contestants  for  some  time  they  will  be
 												provided  with  the  tools  to  make  the  <strong>3d</strong>  structure  of  the  shown molecule.</p>
+											<br><br>
 											<ul>
-
-
 												<li><strong>Event co-ordinator: </strong> Poonam Choudhary</li>
 												<li><strong>Contact: </strong> +91-9596855658</li>
-												
-
-
 											</ul>
 											
 										</div>
