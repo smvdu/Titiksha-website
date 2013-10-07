@@ -1595,12 +1595,22 @@ margin-left: 42%;
     font-family: "Ubuntu-L";
     text-align: center;
     font-size: 2.1vw;
-    color: #000;
+    color: #fff;
     display: none;
     top: 40px;
-    position: relative;
-    
+    position: relative;    
+    -webkit-transition: 400ms;
 
+}
+
+#enter a{
+    color: #fff;
+    -webkit-transition: 400ms;
+}
+
+#enter a:hover{
+    color: #000;
+    -webkit-transition: 400ms;
 }
 
 
@@ -1887,12 +1897,35 @@ transform: rotate(-23deg);
      opacity: 0.75;
 }
 
+#small_screen{
+    display: none;
+}
 
 @media (max-width: 1200px) {
   .about_us {
   -moz-column-count:    7;
   -webkit-column-count: 7;
   column-count:         7;
+  }
+
+  section{
+    display: none;
+  }
+
+  body{
+    overflow: hidden;
+    background-color: #555;
+  }
+
+  #small_screen{
+    height: 100%;
+    width: 100%;
+    color: #E2E2E2;
+    font-size: 4vw;
+    text-align: center;
+    top: 40%;
+    display: block;
+    position: absolute;
   }
 }
 @media (max-width: 1000px) {
