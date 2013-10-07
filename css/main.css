@@ -509,7 +509,7 @@ a:hover {
 #container_menu{
 
     background-color: #ccc;
-    background-image: url('../img/bg.jpg');
+    background-image: url('../img/37.jpg');
     background-size: 100px;
     background-repeat: repeat;
     background-attachment: fixed;
@@ -2116,7 +2116,7 @@ transform: rotate(-23deg);
     display: block;
     -webkit-transition: all 1000ms;
     transition: all 1000ms;
-    
+
 }
 
 .expand, .squeeze{
@@ -2592,7 +2592,7 @@ input[name="gender"]{
     z-index: 4;
     font-size: 100%;
     width: 100%;
-    background-image: url('../img/background1.jpg');
+    background-image: url('../img/36.jpg');
    
     background-color: #e4e6e5 ;
     font-family: "Oxygen";
