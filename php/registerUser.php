@@ -32,19 +32,25 @@
 
 
 	  $to = $email; //Send email to our user
-	  $subject = 'Signup | Verification'; //// Give the email a subject 
+	  $subject = 'Titiksha | Verification'; //// Give the email a subject 
 	  $message = '
 
 	  Thanks for signing up!
-	  Your account has been created, you can login with the following credentials after you have activated your account by pressing the url below.
+	  Your account has been created. You shall be notified about the updates of Titiksha.
+	  Login for Event Registrations on titiksha.smvdu.net.in from 10th, October 2013.
 
+	  For any Queries, Contact: Megha Sharma, +91-9086-118089
+
+
+	  Regards,
+	  Titiksha Organizing Team
 
 	  Please click this link to activate your account:
 	  http://www.yourwebsite.com/verify.php?email='.$form['email'].'&hash='.$form['hash'].'
 
 	  '; // Our message above including the link
 	  
-	  $headers = 'From:noreply@yourwebsite.com' . "\r\n"; // Set from headers
+	  $headers = 'From:noreply@titiksha.smvdu.net.in' . "\r\n"; // Set from headers
 	 // mail($to, $subject, $message, $headers); // Send the email
 
 
