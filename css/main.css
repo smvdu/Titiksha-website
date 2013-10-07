@@ -526,7 +526,7 @@ a:hover {
 #container_menu{
 
     background-color: #ccc;
-    background-image: url('../img/37.jpg');
+    background-image: url('../img/1.jpg');
     background-size: 100px;
     background-repeat: repeat;
     background-attachment: fixed;
@@ -1933,7 +1933,7 @@ margin-left: 42%;
     position: relative;
 
     overflow: hidden;
-    background: #fff url("../img/back_about.png") repeat left top;
+    background: #fff url("../img/4.png") repeat left top;
 }
 
 
@@ -2430,7 +2430,7 @@ perspective effects (not including the modals and the overlay).
 .register_form{
     font-size: 85%;
     width: 100%;
-    background:#000 url('../img/38.jpg') repeat right top;
+    background:#000 url('../img/2.jpg') repeat right top;
     font-family: "Oxygen";
     color: hsl(0, 15%, 19%);
     position: relative;
@@ -2612,7 +2612,7 @@ input[name="gender"]{
     z-index: 4;
     font-size: 100%;
     width: 100%;
-    background-image: url('../img/37.jpg');
+    background-image: url('../img/1.jpg');
    
     background-color: #e4e6e5 ;
     font-family: "Oxygen";
