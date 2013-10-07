@@ -264,6 +264,8 @@ a:hover {
     transform: rotate(-14deg);
     -webkit-transform: rotate(-14deg);
     -ms-transform: rotate(-14deg);
+    -o-transform: rotate(-14deg);
+    -moz-transform: rotate(-14deg);
     margin-left: 17%;
 }
 
@@ -290,19 +292,32 @@ a:hover {
     /* Centering with flexbox */
     display: -webkit-box;
     display: -moz-box;
+    display: -o-box;
+    display: -ms-box;
+    display: box;
+
     display: -ms-flexbox;
     display: -webkit-flex;
+    display: -o-flexbox;
+    display: -moz-flex;
     display: flex;
+
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
+    -o-flex-direction: row;
+    -moz-flex-direction: row;
     flex-direction: row;
+
     -webkit-box-pack: center;
     -moz-box-pack: center;
+
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
+    
     -webkit-box-align: center;
     -moz-box-align: center;
+
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
