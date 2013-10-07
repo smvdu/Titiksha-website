@@ -164,8 +164,8 @@ a:hover {
     position: fixed;
     width: 30px;
     right: 0;
-    top: 150px;
-    bottom: 150px;
+    top: 120px;
+    bottom: 120px;
     z-index: 100;
     display: none;
 }
@@ -181,7 +181,8 @@ a:hover {
 
 
 #main_nav li:hover, .active{
-    border: 9px solid #277EC2 !important;
+    padding: 6px !important; 
+    border: 7px solid #277EC2 !important;
     -webkit-transition: all 200ms !important;
     transition: all 200ms !important;
     -o-transition: all 200ms !important;
@@ -192,9 +193,10 @@ a:hover {
 #main_nav ul li{
     height: 0px;
     width: 0px;
-    border: 5px solid #277EC2;
+    border: 3px solid #277EC2;
     margin: 50px auto;
     border-radius: 50%;
+    padding: 5px;
     -webkit-transition: all 200ms;
     -o-transition: all 200ms;
     -ms-transition: all 200ms;
