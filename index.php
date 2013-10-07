@@ -280,7 +280,7 @@
 		
 					<div id="bottom"><p> Titiksha, J&k’s largest annual  technical festival , this time is on it’s way to boggle
 					 the minds of young  tech savvies around the nation. We , at SMVDU, for 
-					 technical excellence, invite more than 100 of colleges /universities  from the
+					 technical excellence, invite more than 200 of colleges /universities  from the
 					 nation to participate in this  fiesta. Different events  will be held by the different
 				     branches of the university for three  exuberant days.  Mechanical, Electronics and
 		     	     communication, Computer science , Biotechnology and Architectural events will
@@ -1921,9 +1921,11 @@ $sponsors = array(
 				<div id="reg_head">
 					<span>JOIN TITIKSHA</span`>
 				</div>	
-				<div class="closeMessageBox" style="display:none;">X</div>
-				<div class="warning" style="display:none;"></div>
-				<div class="confirmMessage" style="display:none;"></div>
+				<div class="msg-Box" style="display:none;">
+					<div class="msg-close">X</div>
+					<div class="msg-content"></div>
+				</div>
+				<div class="md-overlay"></div><!-- the overlay element -->
 				<form id="reg_form" name="reg_form" action="" method="post"  autocomplete="off">
 					<table>
 						<tbody>
@@ -2187,8 +2189,10 @@ $sponsors = array(
 					loader.addImage("img/"+i+".png");
 
 	        	loader.addCompletionListener(function() {
-	        		$("#progress , #loading").fadeOut();
-	        		$("#enter").fadeIn(2000);
+	        		$("#progress , #loading").fadeOut(500, function(){
+	        			$("#enter").fadeIn(700);
+	        		});
+	        		
 	        	});
 
 	        	loader.addProgressListener(function(e) {

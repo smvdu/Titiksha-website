@@ -176,26 +176,45 @@ a:hover {
     margin: 0;
     width: 100%;
     padding: 0;
+    position: absolute;
 
 }
 
 
 #main_nav li:hover, .active{
-    border: 9px solid #277EC2 !important;
+    padding: 7px !important;
+    border: 5px solid #277EC2 !important;
     -webkit-transition: all 200ms !important;
 }
+
+/*
+#main_nav li:hover{
+    width: 150px;
+    border-radius: 0;
+    border: 3px solid #277EC2 !important;
+    padding: 12px !important;
+    -webkit-transition: all 200ms !important;
+    
+
+}*/
 
 #main_nav ul li{
     height: 0px;
     width: 0px;
-    border: 5px solid #277EC2;
-    margin: 50px auto;
+    border: 3px solid #277EC2;
+    padding: 5px;
+    margin-top: 35px;
     border-radius: 50%;
+    float: right;
+    clear: both;
+    margin-right: 10px;
     -webkit-transition: all 200ms;
+    overflow: hidden;
 }
 
 #main_nav div{
-
+    position: relative;
+    
 }
 
 
@@ -2086,7 +2105,7 @@ transform: rotate(-23deg);
     width: 170px;
     height: 170px;
     background: rgb(212, 240, 232);
-    color: #1C1635;
+    color: #FFFFFF;
 }
 
 .md-trigger > p {
@@ -2109,11 +2128,13 @@ transform: rotate(-23deg);
 }
 
 #ece .md-trigger{
-    background-color: rgb(205, 213, 35)
+    background-color: rgb(205, 213, 35);
+    color: #000;
 }
 
 #arch .md-trigger{
     background-color: rgb(219, 219, 219);
+    color: #000;
 }
 
 #ibt .md-trigger{
@@ -2149,8 +2170,6 @@ perspective effects (not including the modals and the overlay).
 
 
 .md-modal {
-
-    position: fixed;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -2324,17 +2343,15 @@ perspective effects (not including the modals and the overlay).
     position: relative;
 }
 
-#form > .closeMessageBox{
-    position: absolute;
-    cursor: pointer;
-    top: 25%;
-    left: 95%;
-    color: #fff;
-    z-index: 3;
+
+.msg-close{
+    float: right;
+    margin-right: 10px;
 }
 
-#form > .warning{
-    position: absolute;
+
+.warning{
+    position: fixed;
     top: 25%;
     left: 72%;
     width: 25%;
@@ -2344,29 +2361,35 @@ perspective effects (not including the modals and the overlay).
     border-radius: 5px;
     padding: 10px;
     text-align: center;
+     z-index: 2000;
 }
 
-#form > .confirmMessage{
-    position: absolute;
-    top: 25%;
-    left: 56%;
-    width: 35%;
-    height: auto;
-    background-color: #276F75;
-    color: #000;
-    border: 3px solid rgb(103, 167, 167);
+.confirmation{
+    background-color: #6fb118;
+    color: #fff;
     border-radius: 5px;
-    box-shadow: -2px 3px 2px #81ADB6;
-    padding: 10px;
-    text-align: center;
+    z-index: 2000;
+    position: fixed;
+    top: 25%;
+    width: 25%;
+    left: 5%;
+    height: auto;
+    text-align: center;    
 }
+
+.msg-Box > .msg-content{
+    
+}
+
 #email_warning{
     color: #FF3D3D;
     margin-left: 55px;
+    height: 30px;
 }
 #password_warning{
     color: #FF3D3D;
     margin-left: 55px;
+    height: 25px;
 }
 #reg_head{
     padding: 15px;
