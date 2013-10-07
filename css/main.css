@@ -578,6 +578,16 @@ a:hover {
     text-shadow: 2px 2px 2px #000;
     color: #242424;
 }
+#h-sub{
+    top: 10px;
+    right: 380px;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    font-size: 3vw;
+    text-shadow: 2px 2px 2px #000;
+    color: #242424;
+}
 
 #bubble_area{
     position: relative;

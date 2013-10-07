@@ -156,7 +156,8 @@
 
             <div class="header">
                 <div id="h-text">
-                    <p>Titiksha 2k13</p>
+                    <p>Titiksha </p>
+                    <div id="h-sub"><span>2k13</span></div>
                 </div>
 
                 <div id="social_wrapper">
@@ -494,8 +495,9 @@
 											<br><br>
 
 											<ul>
-												<li><strong>Event Co-ordinator :</strong> Daud Shareef</li>
-												<li><strong>Contact :</strong> +91-9697-679928</li>
+												<li><strong>Event Co-ordinator :</strong> Daud Shareef | Navin Ray</li>
+												<li><strong>Contact :</strong>       +91-9697-679928    |     +91-9086-251103</li>
+												
 											</ul>
 
 											
@@ -504,33 +506,7 @@
 								</div>
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
-							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-6">
-									<span class="icon-eye"><em>SCI-FI</em></span>
-									<p>Show your imagination</p>
-								</div>
-								<div class="md-modal md-effect-11" id="modal-6">
-									<div class="md-content">
-										<div class="md-header">
-											<button class="md-register register">Register</button>
-											<button class="md-close close">Close!</button>
-										</div>
-										<h3>SCI-FI</h3>
-										<div>
-											<p>1. Presentation of Any Latest sci­fi technology which is not present.
-												Technology must be new to all. Presentation is Submitted before the Event.
-												<br>2. Selected top 10 or 5 ppt. will be in next round.
-												<br>3. Presentation of ppt. in front of judges.</p>
-											<br><br>
-											<ul>
-												<li><strong>Event Co-ordinator :</strong> Navin Ray </li>
-												<li><strong>Contact :</strong> +91-9086-251103</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-								<div class="md-overlay"></div><!-- the overlay element -->
-							</div><!-- / uc-container -->
+							
 							
 							
 						</div><!-- / grid -->
@@ -2069,7 +2045,7 @@ $sponsors = array(
 						<h3>Online Contacts</h3>
 						<a href="https://www.facebook.com/titiksha2k13" target="_blank" style="color: #092241; text-decoration: none;"><img src="img/fb_black.png">Facebook Page</a>
 						<p>Or Drop us a mail on :</p>
-						<i style="color: #2B3752">titiksha2k13@gmail.com</i>
+						<i style="color: #2B3752">titiksha.team@gmail.com</i>
 					</div>
 				</div>
 
@@ -2078,7 +2054,7 @@ $sponsors = array(
 
 						<h4>Chief Student Coordinator</h4>
 						<p class="name">Dhananjay Singh</p>
-						<p class="tel">+91-9796405080</p>
+						<p class="tel">+91-9796-405080</p>
 						<p clas="mail" >djsanj99@gmail.com</p>
 
 					</div>
@@ -2089,14 +2065,14 @@ $sponsors = array(
 
 						<h4>Web Development Team</h4>
 						<p class="name">* Sunny Gupta</p>
-						<p class="tel">+91-9086724946</p>
+						<p class="tel">+91-9086-724946</p>
 						<p class="name">* Rishabh Shukla</p>
-						<p class="tel">+91-9086250987</p>
+						<p class="tel">+91-9086-250987</p>
 
 						<p class="name">* Akshay Pratap Singh</p>
-						<p class="tel">+91-9086260656</p>
+						<p class="tel">+91-9086-260656</p>
 						<p class="name">* Parth Pankaj Tiwary</p>
-						<p class="tel">+91-9797521874</p>
+						<p class="tel">+91-9797-521874</p>
 						
 
 					</div>					
@@ -2107,7 +2083,7 @@ $sponsors = array(
 						<h4>Event Coordinator</h4>
 
 						<p class="name">Rishabh Shukla</p>
-						<p class="tel">+91-9086250987</p>
+						<p class="tel">+91-9086-250987</p>
 						<p class="mail" >rishy.s13@gmail.com</pre>
 
 					</div>					
@@ -2133,7 +2109,7 @@ $sponsors = array(
 						<h4>Media & Publications</h4>
 
 						<p class="name">Megha Sharma</p>
-						<p class="tel">+91-9086118089</p>
+						<p class="tel">+91-9086-118089</p>
 						<p class="mail">meghas19@yahoo.co.in</p>
 
 					</div>
