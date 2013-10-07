@@ -2073,20 +2073,26 @@ transform: rotate(-23deg);
     height: 100%;
     float: left;
     width: 16.667%;
+    z-index: 20;
 }
 
 .event_heading{
     font-family: "Ubuntu-L";
-    color: ;
-   width: 100%;
-    height: 0%;
+    width: 100%;
     position: relative;
-    margin-top: 40px;
+    text-align: center;    
+}
+
+.event_close{
+    width: 30px;
+    float: right;
+    margin: -5px 20px 0px 0px;
+    cursor: pointer;
+    z-index: 100;
 }
 
 .current_heading{
-    text-align: center;
-    
+   
 }
 
 .heading_text{
@@ -2096,11 +2102,10 @@ transform: rotate(-23deg);
     font-family: "Ubuntu-L";
     font-size: 80%;
     position: relative;
-    width: 900px;
+    width: 878px;
     height: 545px;
     text-align: center;
     margin-top: 40px;
-    margin-left: -20px;
     top: -240px;
 
 }
@@ -2185,6 +2190,7 @@ transform: rotate(-23deg);
     height: 170px;
     background: rgb(212, 240, 232);
     color: #1C1635;
+    cursor: pointer;
 }
 
 .md-trigger > p {
@@ -2422,41 +2428,43 @@ perspective effects (not including the modals and the overlay).
     position: relative;
 }
 
-#form > .closeMessageBox{
-    position: absolute;
+
+.msg-Box{
+    position: fixed;
+    top: 20%;
+    width: 50%;
+    left: 25%;
+    height: auto;
+    text-align: center;
+    z-index: 2000;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+.msg-close{
+    float: right;
+    width: 25px;
+    height: 40px;
     cursor: pointer;
-    top: 25%;
-    left: 95%;
-    color: #fff;
-    z-index: 3;
+    font-size: 1.3em;
+    margin: -15px 0px 0px 0px;
 }
 
-#form > .warning{
-    position: absolute;
-    top: 25%;
-    left: 72%;
-    width: 25%;
-    height: auto;
+
+.warning{
     background-color: #C57815;
-    color: #F8F8F8;
-    border-radius: 5px;
-    padding: 10px;
-    text-align: center;
+    color: #F8F8F8;  
 }
 
-#form > .confirmMessage{
-    position: absolute;
-    top: 25%;
-    left: 56%;
-    width: 35%;
-    height: auto;
-    background-color: #276F75;
-    color: #000;
-    border: 3px solid rgb(103, 167, 167);
-    border-radius: 5px;
-    box-shadow: -2px 3px 2px #81ADB6;
-    padding: 10px;
-    text-align: center;
+.confirmation{
+    background-color: #6fb118;
+    color: #fff;     
+}
+
+.msg-Box > .msg-content{
+    
+
 }
 #email_warning{
     color: #FF3D3D;
