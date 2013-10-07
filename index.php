@@ -305,6 +305,7 @@
 				<div class="branch" id="mega">
 					<div class="event_heading">
 						<span class="heading_text">MEGA Events</span>
+						<div class="event_close" style="display:none">X</div>
 					</div>
 
 					<div class="event_content" style="display:none;">
@@ -1525,7 +1526,7 @@
 
 				<div class="branch" id="ibt">
 					<div class="event_heading">
-						<span class="heading_text">Bio<br/>Tech</span>
+						<span class="heading_text">BioTech</span>
 					</div>
 					<div class="event_content" style="display:none;">
 						<div id="grid">
