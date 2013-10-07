@@ -2184,7 +2184,7 @@ $sponsors = array(
 				//preloader for images
 				var loader = new PxLoader();
 
-				for(var i= 1; i < 35; i++)
+				for(var i= 1; i < 38; i++)
 					loader.addImage("img/"+i+".jpg");
 				
 				for(var i = 1; i < 3; i++)
