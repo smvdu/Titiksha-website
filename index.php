@@ -2189,8 +2189,10 @@ $sponsors = array(
 					loader.addImage("img/"+i+".png");
 
 	        	loader.addCompletionListener(function() {
-	        		$("#progress , #loading").fadeOut();
-	        		$("#enter").fadeIn(2000);
+	        		$("#progress , #loading").fadeOut(500, function(){
+	        			$("#enter").fadeIn(700);
+	        		});
+	        		
 	        	});
 
 	        	loader.addProgressListener(function(e) {
