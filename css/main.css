@@ -145,8 +145,8 @@ body {
   
     line-height: 1.4;
     color: #fff;
-    min-width: 1200px;
     min-height: 500px;
+    height: 100%;
     font-family: 'Terminal Dosis', Arial, sans-serif;
     font-size: 20px;
 }
@@ -1948,17 +1948,6 @@ transform: rotate(-23deg);
   column-count:         7;
   }
 
-  
-}
-@media (max-width: 1000px) {
-  .about_us {
-  -moz-column-count:    6;
-  -webkit-column-count: 6;
-  -o-column-count: 6;
-  -ms-column-count: 6;
-  column-count:         6;
-  }
-
 
   section{
     display: none;
@@ -1979,6 +1968,19 @@ transform: rotate(-23deg);
     display: block;
     position: absolute;
   }
+  
+}
+
+@media (max-width: 1000px) {
+  .about_us {
+  -moz-column-count:    6;
+  -webkit-column-count: 6;
+  -o-column-count: 6;
+  -ms-column-count: 6;
+  column-count:         6;
+  }
+
+
 }
 @media (max-width: 800px) {
   .about_us {
@@ -2646,13 +2648,11 @@ input[name="gender"]{
 }
 
 #spon_query{
-   width: 280px;
-    height: 150px;
-    border: 1px solid #fff;
+   border: 1px solid #fff;
     margin-top: 40px;
-    padding: 8px 4px 0px 4px;
     background-color: #141313;
     color: #ccc;
+    padding: 15px;
 }
 
 #spon_cord{
