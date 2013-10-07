@@ -1663,14 +1663,14 @@ margin-left: 42%;
 
 .contact{
     line-height: 1;
-    font-size: 1.4vw;
+    font-size: 1.2vw;
     font-family: "Oxygen";
     position: relative;
     margin: 0px;
     min-height: 100%;
     height: 100%;
     overflow: hidden;
-    font-size: 80%;
+    
 }
 
 .contact h4{
@@ -1837,17 +1837,17 @@ margin-left: 42%;
 }
 #cont6{
     position: absolute;
-bottom: -24%;
-right: 73%;
-margin: 0px;
-background-color:  #5E5E5E;
-height: 60%;
-width: 40%;
-float: left;
-z-index: 6;
--webkit-transform: rotate(-23deg);
-transform: rotate(-23deg);
-}
+    bottom: -24%;
+    right: 73%;
+    margin: 0px;
+    background-color:  #5E5E5E;
+    height: 60%;
+    width: 40%;
+    float: left;
+    z-index: 6;
+    -webkit-transform: rotate(-23deg);
+    transform: rotate(-23deg);
+ }
 
 #media{
     line-height: 5px;
