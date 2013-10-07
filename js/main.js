@@ -62,6 +62,17 @@ $(document).ready(function(){
         goToByScroll(dataslide);
     });
 
+    $(".event_close").click(function(){
+        $(".event_content").hide();        
+        setTimeout(function(){
+            $("#event > div").removeClass("squeeze")
+            $("#event > div").removeClass("expand");
+            $(".event_heading").css("top","0px").removeClass("current_heading"); 
+            $(".event_close").hide();           
+        },100);
+        
+    })
+
 	// events squeeze and expand effect
 	$("#event > div").click(function(event) {
  
@@ -70,29 +81,20 @@ $(document).ready(function(){
     		$(".event_heading").css("top","0px");
             $(".event_content").css("display","none");
             $("#event div").removeClass("expand squeeze current_heading");
-            $(".event_close").css("display","none");
-    		
+            var th = $(this);
+            $(".event_close").fadeOut(500, function(){
+                th.find(".event_close").fadeIn(90);
+            });
+
     		// set new properties
     		$(this).addClass("expand");
     		$('#event > div').not(this).addClass("squeeze");
     		$(".expand > .event_heading").css("top","-230px").addClass("current_heading");
             $(".expand > .event_content").fadeIn(3000);
-            $(".event_close").fadeIn(3000);
-    		
-        }else{
-            // Reset all properties
-            $(".event_heading").css("top","0px");
-            $(".event_content").css("display","none");
-            $("#event div").removeClass("expand squeeze current_heading");
-            $(".event_close").css("display","none");
-        }
+            
+    	}
        		
 	});
-
-    
-
-
-
 
     /****    Form related js -  Don't dare to touch it otherwise sky fall on you.  *****/
 
