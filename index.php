@@ -483,6 +483,7 @@
 				<div class="branch" id="cse">
 					<div class="event_heading">
 						<span class="heading_text">Computer</span>
+						<div class="event_close" style="display:none">X</div>
 					</div>
 					<div class="event_content" style="display:none;">
 						<div id="grid">
@@ -768,6 +769,7 @@
 				<div class="branch" id="mech">
 					<div class="event_heading">
 						<span class="heading_text">Mechanical</span>
+						<div class="event_close" style="display:none">X</div>
 					</div>
 					<div class="event_content" style="display:none;">
 						<div id="grid">
@@ -1023,6 +1025,7 @@
 				<div class="branch" id="ece">
 					<div class="event_heading">
 						<span class="heading_text">Electronics</span>
+						<div class="event_close" style="display:none">X</div>
 					</div>
 					<div class="event_content" style="display:none;">
 						<div id="grid">
@@ -1284,6 +1287,7 @@
 				<div class="branch" id="arch">
 					<div class="event_heading">
 						<span class="heading_text">Architecture</span>
+						<div class="event_close" style="display:none">X</div>
 					</div>
 					<div class="event_content" style="display:none;">
 						<div id="grid">
@@ -1593,6 +1597,7 @@
 				<div class="branch" id="ibt">
 					<div class="event_heading">
 						<span class="heading_text">BioTech</span>
+						<div class="event_close" style="display:none">X</div>
 					</div>
 					<div class="event_content" style="display:none;">
 						<div id="grid">

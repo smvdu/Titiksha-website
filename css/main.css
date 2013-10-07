@@ -150,7 +150,7 @@ body {
     font-family: 'Terminal Dosis', Arial, sans-serif;
     font-size: 20px;
     max-width: 1350px;
-    max-height: 670px;
+    max-height: 680px;
 }
 
 a {
@@ -2063,6 +2063,15 @@ margin-left: 42%;
     line-height: 1;   
 }
 
+
+#event > div{
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
 .branch{
     text-align: center;
     font-weight: bold;
@@ -2086,6 +2095,7 @@ margin-left: 42%;
     margin: -5px 20px 0px 0px;
     cursor: pointer;
     z-index: 100;
+    display: none;
 }
 
 .current_heading{
