@@ -264,6 +264,8 @@
 				<img src="img/32.jpg">
 				<img src="img/33.jpg">
 				<img src="img/34.jpg">
+
+				
 				
 				<div id="left_about">
 					<div id="rocket" data-stellar-ratio="2.2" data-stellar-horizontal-offset="-100" data-stellar-vertical-offset="-700" ></div>
