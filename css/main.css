@@ -183,6 +183,10 @@ a:hover {
 #main_nav li:hover, .active{
     border: 9px solid #277EC2 !important;
     -webkit-transition: all 200ms !important;
+    transition: all 200ms !important;
+    -o-transition: all 200ms !important;
+    -ms-transition: all 200ms !important;
+    -moz-transition: all 200ms !important;
 }
 
 #main_nav ul li{
@@ -192,6 +196,10 @@ a:hover {
     margin: 50px auto;
     border-radius: 50%;
     -webkit-transition: all 200ms;
+    -o-transition: all 200ms;
+    -ms-transition: all 200ms;
+    -moz-transition: all 200ms;
+    transition: all 200ms;
 }
 
 #main_nav div{
@@ -215,12 +223,18 @@ a:hover {
     margin-left: -100% !important;
     -webkit-transition: all 1500ms ease-in-out;
     transition: all 1500ms ease-in-out;
+    -o-transition: all 1500ms ease-in-out;
+    -moz-transition: all 1500ms ease-in-out;
+    -ms-transition: all 1500ms ease-in-out;
 }
 
 .moveRight{
     right: -100% !important;
     -webkit-transition: all 2500ms ease-in-out;
     transition: all 2500ms ease-in-out;
+    -o-transition: all 2500ms ease-in-out;
+    -moz-transition: all 2500ms ease-in-out;
+    -ms-transition: all 2500ms ease-in-out;
 }
 
 #letters{
@@ -228,7 +242,9 @@ a:hover {
     width: 80.45%;
     -webkit-transform: rotate(14deg);
     transform: rotate(14deg);
-
+    -o-transform: rotate(14deg);
+    -moz-transform: rotate(14deg);
+    -ms-transform: rotate(14deg);
     margin: -12% -5%;
     background-color: #000;
 }
@@ -295,11 +311,15 @@ a:hover {
 .os-phrases h3 > span > span {
     display: inline-block;
     -webkit-perspective: 1000px;
+    -o-perspective: 1000px;
+    -ms-perspective: 1000px;
     -moz-perspective: 1000px;
     perspective: 1000px;
     -webkit-transform-origin: 50% 50%;
     -moz-transform-origin: 50% 50%;
     transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
 }
 
 .os-phrases h3 > span > span > span {
@@ -362,6 +382,7 @@ a:hover {
         letter-spacing: 80px;
         opacity: 0;
         -webkit-transform: rotateY(-90deg);
+
     }
     50% {
         text-shadow: 0 0 1px #fff;
@@ -776,12 +797,16 @@ a:hover {
     -webkit-animation: moveFromBottom 300ms ease;
     -moz-animation: moveFromBottom 300ms ease;
     -ms-animation: moveFromBottom 300ms ease;
+    animation: moveFromBottom 300ms ease;
+    -o-animation: moveFromBottom 300ms ease;
 }
 .ca-menu li:hover .ca-main{
     color: #000;
     -webkit-animation: moveFromBottom 500ms ease;
     -moz-animation: moveFromBottom 500ms ease;
     -ms-animation: moveFromBottom 500ms ease;
+    animation: moveFromBottom 500ms ease;
+    -o-animation: moveFromBottom 500ms ease;
 }
 
 @-webkit-keyframes moveFromBottom {
@@ -814,6 +839,26 @@ a:hover {
         opacity: 1;        
     }
 }
+@-o-keyframes moveFromBottom {
+    from {
+        -ms-transform: translateY(200%) scale(0.5);
+        opacity: 0;
+    }
+    to {
+        -ms-transform: translateY(0%) scale(1);
+        opacity: 1;        
+    }
+}
+@keyframes moveFromBottom {
+    from {
+        -ms-transform: translateY(200%) scale(0.5);
+        opacity: 0;
+    }
+    to {
+        -ms-transform: translateY(0%) scale(1);
+        opacity: 1;        
+    }
+}
 /* =======================  */
 
 #right-part{
@@ -829,7 +874,7 @@ a:hover {
     -moz-transform: rotate(14deg);
     -ms-transform: rotate(14deg);
     -o-transform: rotate(14deg);
-    -transform: rotate(14deg);
+    transform: rotate(14deg);
      overflow: hidden;
 }
 
@@ -1003,7 +1048,7 @@ a:hover {
     }
 }
 
-@-webkit-keyframes rot13 {
+@keyframes rot13 {
     0% {
         -webkit-transform: rotateX(156deg) rotateY(-170deg) rotateZ(-22deg);
     }
@@ -1503,7 +1548,7 @@ margin-left: 42%;
     -moz-transform: rotate(-14deg);
     -ms-transform: rotate(-14deg);
     -o-transform: rotate(-14deg);
-    -transform: rotate(-14deg);
+    transform: rotate(-14deg);
 }
 
 #mid-text h2{
@@ -1581,17 +1626,22 @@ margin-left: 42%;
     top: 40px;
     position: relative;    
     -webkit-transition: 400ms;
+    transition: 400ms;
 
 }
 
 #enter a{
     color: #fff;
     -webkit-transition: 400ms;
+    transition: 400ms;
+}
 }
 
 #enter a:hover{
     color: #000;
     -webkit-transition: 400ms;
+    transition: 400ms;
+
 }
 
 
@@ -1854,6 +1904,11 @@ transform: rotate(-23deg);
     position: relative;
     -webkit-column-count: 6;
     -webkit-column-gap: 0px;
+    -o-column-count: 6;
+    -o-column-gap: 0px;
+    -ms-column-count: 6;
+    -ms-column-gap: 0px;
+    
     -moz-column-count: 6;
     -moz-column-gap: 0px;
     column-count: 6;
@@ -1886,6 +1941,8 @@ transform: rotate(-23deg);
   .about_us {
   -moz-column-count:    7;
   -webkit-column-count: 7;
+  -o-column-count: 7;
+  -ms-column-count: 7;
   column-count:         7;
   }
 
@@ -1913,6 +1970,8 @@ transform: rotate(-23deg);
   .about_us {
   -moz-column-count:    6;
   -webkit-column-count: 6;
+  -o-column-count: 6;
+  -ms-column-count: 6;
   column-count:         6;
   }
 }
@@ -1920,6 +1979,8 @@ transform: rotate(-23deg);
   .about_us {
   -moz-column-count:    5;
   -webkit-column-count: 5;
+  -ms-column-count:         5;
+  -o-column-count:         5;
   column-count:         5;
   }
 }
@@ -1927,6 +1988,8 @@ transform: rotate(-23deg);
   .about_us {
   -moz-column-count:    4;
   -webkit-column-count: 4;
+  -o-column-count: 4;
+  -ms-column-count: 4;
   column-count:         4;
   }
 }
@@ -2045,6 +2108,8 @@ transform: rotate(-23deg);
 .openContent{
     display: block;
     -webkit-transition: all 1000ms;
+    transition: all 1000ms;
+    
 }
 
 .expand, .squeeze{
