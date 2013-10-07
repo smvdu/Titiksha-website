@@ -2516,17 +2516,17 @@ input[name="gender"]{
     margin: 0px;
     padding: 0px;
     min-height: 100%;
-    height: 100%;
     line-height: 1; 
     overflow: hidden; 
 }
 
 .sponsorListHolder{
     font-size: 80%;
-    position: relative;
-    height: 50%;
+    position: absolute;
+    height: 1200px;
     width: 80%;
-    margin: 3% 10% 0% 28%;
+    top: 20%;
+    left: 30%;
 }
 #spon_head{
     font-family: "Ubuntu-L";

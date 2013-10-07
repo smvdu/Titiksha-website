@@ -1856,7 +1856,7 @@ $sponsors = array(
 );
 
 ?>
-					<div class="sponsorListHolder">
+					<div class="sponsorListHolder" >
 
 						
 				        <?php
