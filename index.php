@@ -2097,11 +2097,15 @@ $sponsors = array(
 
 				<div class="assym_black" id="cont5">
 					<div id="design">
-						<h4>Designer</h4>
+						<h4>SponsorShip Coordinator</h4>
+						<p class="name">Navjot Sasan</p>
+						<p class="tel">91-9622-074246</p>
+						<p class="mail">navvi.singh4@gmail.com</p><br>
 
-						<p class="name">Akash Maurya</p>
-						<p class="tel">+91-9797602140</p>
-						<p class="mail" >maurya.aakash1@gmail.com</p>
+						<p class="name">Gaurav Singh</s>
+						<p class="tel">+91-9796-446317 </p>
+						<p class="mail">2011eec54@gmail.com</p>
+						
 
 					</div>					
 				</div>
@@ -2141,9 +2145,11 @@ $sponsors = array(
 
 				<div class="assym_black" id="cont8">
 					<div id="discipline">
-						<h4>Discipline</h4>
-						<p class="name">Sahil Khuslani</p>
-						<p class="tel">+91-9622356797</p>
+						<h4>Designer</h4>
+
+						<p class="name">Akash Maurya</p>
+						<p class="tel">+91-9797602140</p>
+						<p class="mail" >maurya.aakash1@gmail.com</p>
 					</div>
 					
 				</div>
