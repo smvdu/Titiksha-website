@@ -2519,7 +2519,7 @@ input[name="gender"]{
     font-size: 1.3vw;
     line-height: 1vw;
     position: absolute;
-    top: 40%;
+    top: 20%;
     left: 3%;
 
 }
@@ -2527,12 +2527,12 @@ input[name="gender"]{
     font-weight: bold;
 }
 #spon_query{
-    width: 280px;
+   width: 280px;
     height: 150px;
     border: 1px solid #fff;
-    margin-top: 20px;
-    padding: 6px 4px 0px 4px;
-    background-color: #000;
+    margin-top: 40px;
+    padding: 8px 4px 0px 4px;
+    background-color: #141313;
 }
 
 #spon_cord{
