@@ -112,6 +112,9 @@ function sendFormDetails() {
 
 function resetFields() {
 	$("#form input").val("");
+    $("#complexity").css("display","none");
+    $('#reg_form input[value="Male"]').attr("checked");
+    $('#reg_form option[name="1st"]').attr("selected");
 }
 
 function checkPasswordStrength()  
