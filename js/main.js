@@ -89,7 +89,7 @@ $(document).ready(function(){
     		$("."+thisClass[1]+" > .event_heading").css("top","-230px",function(){
     			$("."+thisClass[1]+" > .event_heading").addClass("current_heading");
     		});
-    		$("."+thisClass[1]+" > .event_content").css("display","block");
+    		$("."+thisClass[1]+" > .event_content").fadeIn(3000);
         }
        		
 	});
