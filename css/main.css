@@ -2254,6 +2254,7 @@ perspective effects (not including the modals and the overlay).
     background-color: rgb(113,197,170);
 }
 .md-content .md-header > .register{
+    display: none;
     float: left;
 }
 .md-content .md-header >.close{
@@ -2487,11 +2488,11 @@ input[name="gender"]{
     z-index: 4;
     font-size: 100%;
     width: 100%;
-    background-image: url('../img/background.jpg');
+    background-image: url('../img/int1.jpg');
    
     background-color: #e4e6e5 ;
     font-family: "Oxygen";
-    color: rgba(39, 21, 58, 0.96);
+    color: rgba(228, 221, 235, 0.96);
     position: relative;
     margin: 0px;
     padding: 0px;
@@ -2502,11 +2503,11 @@ input[name="gender"]{
 }
 
 .sponsorListHolder{
-    font-size: 90%;
+    font-size: 80%;
     position: relative;
     height: 50%;
     width: 80%;
-    margin: 3% 10% 0% 16%;
+    margin: 3% 10% 0% 28%;
 }
 #spon_head{
     font-family: "Ubuntu-L";
@@ -2516,6 +2517,26 @@ input[name="gender"]{
     font-size: 4vw;
     font-weight: bold;
 
+}
+
+#spon_brochure{
+    font-size: 1.3vw;
+    line-height: 1vw;
+    position: absolute;
+    top: 40%;
+    left: 3%;
+
+}
+#spon_brochure > a{
+    font-weight: bold;
+}
+#spon_query{
+    width: 280px;
+    height: 150px;
+    border: 1px solid #fff;
+    margin-top: 20px;
+    padding: 6px 4px 0px 4px;
+    background-color: #000;
 }
 
 #spon_cord{
