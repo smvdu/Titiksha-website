@@ -149,6 +149,8 @@ body {
     height: 100%;
     font-family: 'Terminal Dosis', Arial, sans-serif;
     font-size: 20px;
+    max-width: 1350px;
+    max-height: 670px;
 }
 
 a {
@@ -2624,7 +2626,6 @@ input[name="gender"]{
     font-size: 80%;
     position: absolute;
     height: 1200px;
-    width: 80%;
     top: 20%;
     left: 30%;
 }
