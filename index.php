@@ -49,6 +49,8 @@
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
 
+        <div id="small_screen">Your Screen Size is too small to access this Website.</div>
+
         <nav id="main_nav">
         	<ul>
         		<li data-slide="1"></li>
@@ -1858,7 +1860,7 @@ $sponsors = array(
 );
 
 ?>
-					<div class="sponsorListHolder">
+					<div class="sponsorListHolder" >
 
 						
 				        <?php
