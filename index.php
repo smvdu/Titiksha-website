@@ -2199,7 +2199,7 @@ $sponsors = array(
 
 
 				//removes the loader page
-				$("#enter").on("click", function(){
+				$('#enter').on("click", function(){
 					/*$("#container").addClass("open", function(){
 						$(this).remove();
 					});*/
