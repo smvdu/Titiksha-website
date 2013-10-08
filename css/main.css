@@ -1596,11 +1596,11 @@ margin-left: 42%;
 /* Loader css */
 
 #loaderWrapper{
-    -webkit-transform: rotate(-14deg);
-    transform : rotate(-14deg);
     width: 200px;
-    margin-left: 20%;
-    margin-top: 75%;
+    position: absolute;
+    bottom: 25%;
+    right: 5%;
+    z-index: 100;
 }
 
 #loading{
@@ -1658,24 +1658,8 @@ margin-left: 42%;
     -webkit-transition: 400ms;
     transition: 400ms;
     cursor: pointer;
-    z-index: 500;
 
 }
-
-#enter a{
-    color: #fff;
-    -webkit-transition: 400ms;
-    transition: 400ms;
-}
-}
-
-#enter a:hover{
-    color: #000;
-    -webkit-transition: 400ms;
-    transition: 400ms;
-
-}
-
 
 
 /* ================================== css for contact ===================================   */
@@ -2116,13 +2100,6 @@ margin-left: 42%;
     display: none;
 }
 
-.current_heading{
-   
-}
-
-.heading_text{
-    
-}
 .event_content{
     font-family: "Ubuntu-L";
     font-size: 80%;
@@ -2269,13 +2246,6 @@ perspective effects (not including the modals and the overlay).
     -o-perspective: 600px;
     perspective: 600px;
 }
-
-.container {
-    background: #e74c3c;
-    min-height: 100%;
-}
-
-
 
 .md-modal {
 

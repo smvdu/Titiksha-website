@@ -65,9 +65,8 @@ $(document).ready(function(){
     $(".event_close").click(function(){
         $(".event_content").hide();        
         setTimeout(function(){
-            $("#event > div").removeClass("squeeze")
-            $("#event > div").removeClass("expand");
-            $(".event_heading").css("top","0px").removeClass("current_heading"); 
+            $("#event > div").removeClass("squeeze expand");
+            $(".event_heading").css("top","0px"); 
             $(".event_close").hide();           
         },100);
         
@@ -80,7 +79,7 @@ $(document).ready(function(){
     		// Reset all properties
     		$(".event_heading").css("top","0px");
             $(".event_content").css("display","none");
-            $("#event div").removeClass("expand squeeze current_heading");
+            $("#event div").removeClass("expand squeeze ");
             var th = $(this);
             $(".event_close").fadeOut(500, function(){
                 th.find(".event_close").fadeIn(90);
@@ -89,7 +88,7 @@ $(document).ready(function(){
     		// set new properties
     		$(this).addClass("expand");
     		$('#event > div').not(this).addClass("squeeze");
-    		$(".expand > .event_heading").css("top","-230px").addClass("current_heading");
+    		$(".expand > .event_heading").css("top","-230px");
             $(".expand > .event_content").fadeIn(3000);
             
     	}
