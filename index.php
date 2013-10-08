@@ -2184,8 +2184,9 @@ $sponsors = array(
 
 	        	loader.addCompletionListener(function() {
 	        		$("#progress , #loading").fadeOut(500, function(){
-	        			$("#enter").fadeIn(700);
+	        			$('#enter').fadeIn(700);
 	        		});
+	        		
 	        		
 	        	});
 

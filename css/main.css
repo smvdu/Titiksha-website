@@ -1658,6 +1658,7 @@ margin-left: 42%;
     -webkit-transition: 400ms;
     transition: 400ms;
     cursor: pointer;
+    z-index: 500;
 
 }
 
