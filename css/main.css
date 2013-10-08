@@ -1596,11 +1596,11 @@ margin-left: 42%;
 /* Loader css */
 
 #loaderWrapper{
-    -webkit-transform: rotate(-14deg);
-    transform : rotate(-14deg);
     width: 200px;
-    margin-left: 20%;
-    margin-top: 75%;
+    position: absolute;
+    bottom: 25%;
+    right: 5%;
+    z-index: 100;
 }
 
 #loading{
@@ -1658,6 +1658,7 @@ margin-left: 42%;
     -webkit-transition: 400ms;
     transition: 400ms;
     cursor: pointer;
+
 }
 
 

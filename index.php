@@ -100,6 +100,11 @@
 				</div>
 			</div>
 
+			<div id="loaderWrapper">
+	            	<div id="loading">LOADING</div>
+	            	<div id="progress"></div>
+	            	<div id="enter">ENTER</div>
+            </div>
 			<!-- right division -->
 			<div id="right-part">
 				<div class="transformed" id="trans1"></div>
@@ -132,13 +137,9 @@
                     <p>25th - 27th October 2013</p>
                 </div>
 
-                <div id="loaderWrapper">
-	            	<div id="loading">LOADING</div>
-	            	<div id="progress"></div>
-	            	<div id="enter">ENTER</div>
-            	</div>
+              </div>
 
-			</div>
+
 
 		</section><!-- /container of loader -->
 
@@ -2184,8 +2185,9 @@ $sponsors = array(
 
 	        	loader.addCompletionListener(function() {
 	        		$("#progress , #loading").fadeOut(500, function(){
-	        			$("#enter").fadeIn(700);
+	        			$('#enter').fadeIn(700);
 	        		});
+	        		
 	        		
 	        	});
 
@@ -2206,6 +2208,7 @@ $sponsors = array(
 
 					$("#letters").addClass("moveLeft");
 					$("#right-part").addClass("moveRight");	
+					$(this).fadeOut(200);
 
 					$(".page").fadeIn(1200, function(){
 						$("#container").remove();
