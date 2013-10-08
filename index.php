@@ -566,8 +566,8 @@
 											<br><br>
 											
 											<ul>
-												<li><strong>Event Co-ordinator : </strong>Ravi Prakash Giri</li>
-												<li><strong>Contact :</strong> +91-9469-443-565</li>
+												<li><strong>Event Co-ordinator : </strong>Mohan Dutt Parashar</li>
+												<li><strong>Contact :</strong> +91-9086-240-290</li>
 											</ul>
 										</div>
 									</div>
