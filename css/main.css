@@ -595,7 +595,7 @@ a:hover {
 }
 #h-sub{
     top: 21px;
-    left: 760px;
+    right: 175px;
     position: absolute;
     width: 330px;
     font-size: 1.5vw;

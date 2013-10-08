@@ -18,7 +18,7 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-		<title><?php echo site_title; ?></title>
+		<title>Titiksha | Annual tech-fest of Shri Mata Vaishno Devi University</title>
 	    <meta itemprop="name" content="<?php print(site_title)?>">
 	    <meta name="description" content="<?php print(site_description);?>">
 	    <meta itemprop="description" content="<?php print(site_description);?>">
@@ -26,13 +26,11 @@
 	    <meta name="keywords" content="<?php print(site_keywords);?>">
 	    <meta name="author" content="<?php print(site_author);?>">
 		
-	  	<?php get_fb_meta(); ?>
 	  	<!-- css for menu.php  -->
 	  	
         <link href='http://fonts.googleapis.com/css?family=Terminal+Dosis' rel='stylesheet' type='text/css' />
 		<!-- ======================== -->
-		<link rel="shortcut icon" href="intersection.ico"> 
-		
+		<link rel="shortcut icon" href="Intersection.ico"> 
 		
 		<link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
@@ -121,7 +119,7 @@
                 <div id="loaderWrapper">
 	            	<div id="loading">LOADING</div>
 	            	<div id="progress"></div>
-	            	<div id="enter"><a>ENTER</a></div>
+	            	<div id="enter">ENTER</div>
             	</div>
 
 			</div>
@@ -295,18 +293,22 @@
 										</div>
 										<h3>All Izz NOT Well</h3>
 										<div>
-											<p>The  event  aims  to  gather diverse perspectives from participants around
-											the  country  regarding  the  problems  being  faced  in  their  states  and  to
-											come  up  to  solutions  to  these  problems  through  a  rigorous  mutual
-											discussion  among the representatives of different 28 states. "All izz not
+											<p>The ideal engineer is composite...he's not a scientist, he's not a mathmatician,
+											 but he may use the knowledge and techniques of any discipline in solving any problem...
+											 so engineer if the headlines of newspaper makes you ponder and your technical brain has
+											  solution for it but you are not getting the proper plateform, here it is ...
+											  you tell us the best solution and also get rewarded for the same. "All izz not
 											well" will be held in two rounds. </p>
-											<p><em>ROUND 1­</em> : A short essay is given to all the participated candidates.
-											(Topic ­ define at­least five problems of your state with their
-											feasible solutions if u are the chief minister of your state).
+											<p><em>ROUND 1­</em> : Students will be required to fill up the forms which will contain
+											 questions about their Personal Information and their personal views on various mentioned
+											  Social , Political and Technical Issues.
 											</p>
-											<p><em>ROUND 2</em> :­Candidates  qualified  in round 1 are eligible to present their
-											state’  problems  with  feasible  solutions  in  front  of  the  jury,  which  will
-											decide the winner.</p>
+											<p><em>ROUND 2</em> :­On the basis of form filling , students will be selected for second 
+											and final round. In which they  will have to debate on topics assigned to them.
+											There will be two students assigned for one topic , one as ‘for’ side and other ‘against’ side.
+											The language of debate could be either “English” or “Hindi” .  but  both ‘for’ and ‘against’
+											 participant will have to use same language.</p>
+											 <p>The topic  of debate will be published one week prior to event.</p>
 											<br><br>
 											<ul>
 												<li><strong>Event Co-ordinator :</strong> Shubham Tiwari</li>
