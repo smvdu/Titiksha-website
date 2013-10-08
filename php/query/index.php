@@ -22,7 +22,28 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <div class="">
+       <div class="container">
+            <h1>Titiksha Admin Login</h1>
+            <form name="login_form" id="login_form"method="post" action="">
+            <table>
+                <tr>
+                    <td>
+                        <label for="username">Username: </label>
+                        <input name="name" type="text" size="30" maxlength="35" autocomplete="off"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="password">Password: </label>
+                        <input name="name" type="password" size="30" maxlength="35" autocomplete="off"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td><button >Login</button></td>
+                </tr>
+            </table>
+            
+        </div>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="../../js/vendor/jquery-1.8.3.min.js"><\/script>')</script>

@@ -44,7 +44,7 @@
         <link href='http://fonts.googleapis.com/css?family=Terminal+Dosis' rel='stylesheet' type='text/css' />
 		<!-- ======================== -->
 
-		<link rel="icon" type="image/vnd.microsoft.icon" href="intersection.ico"> 
+		<link rel="icon" type="image/gif" href="intersection.gif"> 
 		
 
 		

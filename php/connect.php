@@ -5,13 +5,6 @@
  * @author Akshay Pratap Singh <pratapakshay0@gmail.com>
  */
 
-/*
-
-	$mysql_host = "localhost";
-	$mysql_user = "smvdunet_titik13";
-	$mysql_password = "titiksh*2013";
-	$mysql_database = "smvdunet_titiksha2013";
-*/
 	$mysql_host = "localhost";
 	$mysql_user = "root";
 	$mysql_password = "";

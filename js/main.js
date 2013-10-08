@@ -116,7 +116,9 @@ $(document).ready(function(){
 
     $("#reg_form input[type='email']").bind("keyup", function() {
        // $("#complexity").css("display","block");
-        checkEmail();
+        if( checkEmail() ){
+            checkEmailRegistered() ;
+        }
     });
 
     $("#password").bind("keyup", function() {
