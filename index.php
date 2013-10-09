@@ -326,6 +326,7 @@
 											The language of debate could be either “English” or “Hindi” .  but  both ‘for’ and ‘against’
 											 participant will have to use same language.</p>
 											 <p>The topic  of debate will be published one week prior to event.</p>
+											 <a href="http://sample.avfconsultancy.org/" target="_blank">Please follow this for more Details.</a>
 											<br><br>
 											<ul>
 												<li><strong>Event Co-ordinator :</strong> Shubham Tiwari</li>
@@ -2115,13 +2116,13 @@ $sponsors = array(
 						<p class="name">* Dr. Ankush Anand</p>
 						<p class="mail">ankush.anand@smvdu.ac.in</p><br/>
 						<h4>Branch Faculty Coordinators</h4>
-						<p class="name">- Mr. Irfan-ul-Haq</p>
+						<p class="name">- A. Prof. Irfan-ul-Haq</p>
 						<p class="mail" >haqmechanical@gmail.com</p>
-						<p class="name">- Mr. Abhimanyu Sharma </p>
+						<p class="name">- Lect. Abhimanyu Sharma </p>
 						<p class="mail" >abhimanyu.sharma@smvdu.ac.in </p>
-						<p class="name">- Mr. Sudesh Kumar</p>
+						<p class="name">- A. Prof. Sudesh Kumar</p>
 						<p class="mail" >sudesh.Bhadu@smvdu.ac.in  </p>
-						<p class="name">- Dr. R.K. Jha</p>
+						<p class="name">- A. Prof. R.K. Jha</p>
 						<p class="mail" >rakesh.jha@smvdu.ac.in</p>
 						<p class="name">- Dr. Swarkar Sharma</p>
 						<p class="mail" ></p>
