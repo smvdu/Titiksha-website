@@ -329,8 +329,8 @@
 											 <a href="http://sample.avfconsultancy.org/" target="_blank">Please follow this for more Details.</a>
 											<br><br>
 											<ul>
-												<li><strong>Event Co-ordinator :</strong> Shubham Tiwari</li>
-												<li><strong>Contact :</strong> +91-9796-289195</li>
+												<li><strong>Event Co-ordinator :</strong> Shubham Tiwari | Aditya Ranjan | Rajesh Pathak</li>
+												<li><strong>Contact :</strong> +91-9796-289195 | +91-9796-824820 | +91-9086-252184</li>
 											</ul>
 											
 										</div>
@@ -409,8 +409,8 @@
 												the valedictory ceremony in auditorium.</p>
 
 											<ul>
-												<li><strong>Event Co-ordinator :</strong> Ashish Singh</li>
-												<li><strong>Contact :</strong> +91-9596-997294</li>
+												<li><strong>Event Co-ordinator :</strong> Ashish Singh | Chandan Jha </li>
+												<li><strong>Contact :</strong> +91-9596-997294 | +91-9086-728974</li>
 											</ul>
 
 											
@@ -445,8 +445,8 @@
 											<br>
 
 											<ul>
-												<li><strong>Event Co-ordinator :</strong> Ashish Kumar Singh</li>
-												<li><strong>Contact :</strong> +91-9596-997294</li>
+												<li><strong>Event Co-ordinator :</strong> Ashish Kumar Singh | Chandan jha</li>
+												<li><strong>Contact :</strong> +91-9596-997294 | +91-9086-728974</li>
 											</ul>
 
 										</div>
@@ -482,7 +482,7 @@
 
 											<ul>
 												<li><strong>Event Co-ordinator :</strong> Daud Shareef | Navin Ray</li>
-												<li><strong>Contact :</strong>       +91-9697-679928    |     +91-9086-251103</li>
+												<li><strong>Contact :</strong>+91-9697-679928 | +91-9086-251103</li>
 												
 											</ul>
 
@@ -567,8 +567,8 @@
 											<br><br>
 											
 											<ul>
-												<li><strong>Event Co-ordinator : </strong>Mohan Dutt Parashar</li>
-												<li><strong>Contact :</strong> +91-9086-240-290</li>
+												<li><strong>Event Co-ordinator : </strong>Mohan Dutt Parashar | Ravi Prakash Giri | Shubham Tiwari</li>
+												<li><strong>Contact :</strong> +91-9086-240-290 | +91-9469-443565 | +91-9796-289195 </li>
 											</ul>
 										</div>
 									</div>
@@ -629,8 +629,8 @@
 												most of them and they will be ranked accordingly.</p>
 											<br><br>
 										<ul>
-											<li><strong>Event Co-ordinator : </strong>Ravi Prakash Giri</li>
-											<li><strong>Contact :</strong> +91-9469-443565</li>
+											<li><strong>Event Co-ordinator : </strong>Ravi Prakash Giri | Mohan Dutt Parashar | Prateek Sharma </li>
+											<li><strong>Contact :</strong> +91-9469-443565 | +91-9086-240-290 | +91-9086-120891</li>
 										</ul>
 											
 										</div>
@@ -662,8 +662,8 @@
 											
 											<br><br>
 											<ul>
-												<li><strong>Event Co-ordinator : </strong>Prateek Sharma</li>
-												<li><strong>Contact :</strong> +91-9086-120891</li>
+												<li><strong>Event Co-ordinator : </strong>Prateek Sharma | Ravi Prakash Giri | Mohan Dutt Parashar</li>
+												<li><strong>Contact :</strong> +91-9086-120891 | +91-9469-443565 | +91-9086-240-290</li>
 											</ul>
 											
 										</div>
@@ -1075,7 +1075,7 @@
 											<ul>
 
 
-												<li><strong>Event Co-ordinator : </strong>Suraj Gupta</li>
+												<li><strong>Event Co-ordinator : </strong>Suraj Gupta | Madhav | Hrishikesh Tripathi</li>
 												<li><strong>Contact : </strong>+91-9596913682</li>
 
 
@@ -1107,7 +1107,7 @@
 											<ul>
 
 
-												<li><strong>Event co-ordinator: </strong> Brijesh Kumar</li>
+												<li><strong>Event co-ordinator: </strong> Brijesh Kumar | Suraj Kumar | Shobhit Verma</li>
 												<li><strong>Contact:</strong> +91-9086255280</li> 
 											
 
@@ -1178,7 +1178,7 @@
 											<ul>
 
 
-												<li><strong>Event co-ordinator: </strong> Munib Chauhan</li>
+												<li><strong>Event co-ordinator: </strong> Munib Chauhan | Danish | Ajit Maurya </li>
 												<li><strong>Contact: </strong> +91-9086260992</li>
 
 											</ul>
@@ -1209,7 +1209,7 @@
 											<ul>
 
 
-												<li><strong>Event co-ordinator: </strong> Munib Chauhan</li>
+												<li><strong>Event co-ordinator: </strong> Munib Chauhan | Aakash maurya | Mansi Maheshwari</li>
 												<li><strong>Contact: </strong> +91-9086260992</li>
 
 											</ul>
@@ -1244,7 +1244,7 @@
 											<ul>
 
 
-												<li><strong>Event co-ordinator: </strong> Danish</li>
+												<li><strong>Event co-ordinator: </strong> Danish | Mansi | Neha Sharma</li>
 												<li><strong>Contact: </strong> +91-9086255280</li>
 
 
@@ -1288,7 +1288,7 @@
 											<ul>
 
 
-												<li><strong>Event co-ordinator: </strong> Prayag Varshney</li>
+												<li><strong>Event co-ordinator: </strong> Prayag Varshney | Lakhan Garg | Panch Dev parihar </li>
 												<li><strong>Contact: </strong> +91-9697992483</li>
 
 
@@ -1337,8 +1337,8 @@
 											<p>Email your entries at pursuingarchitecture@gmail.com </p>
 											<br><br>
 											<ul>
-												<li><strong>Event Co-ordinator : </strong>Anand upadhayay</li>
-												<li><strong>Contact :</strong> +91- 9697-679672</li>
+												<li><strong>Event Co-ordinator : </strong>Anand upadhayay |  Navjot Singh Sasan</li>
+												<li><strong>Contact :</strong> +91- 9697-679672|  +91-9622-074246</li>
 
 											</ul>
 											
@@ -1372,8 +1372,8 @@
 											<br><br>
 											<ul>
 
-												<li><strong>Event Co-ordinator : </strong>Anuksha amla</li>
-												<li><strong>Contact :</strong> +91-9797-517532</li>
+												<li><strong>Event Co-ordinator : </strong>Anuksha amla | Sravya amachariya</li>
+												<li><strong>Contact :</strong> +91-9797-517532 | +91-9797-520573</li>
 
 											</ul>
 											
@@ -1408,8 +1408,8 @@
 											<br><br>
 											<ul>
 
-												<li><strong>Event Co-ordinator : </strong>Shreya</li>
-												<li><strong>Contact :</strong> +91- 9086-120809</li>
+												<li><strong>Event Co-ordinator : </strong>Shreya | Damanjot kaur</li>
+												<li><strong>Contact :</strong> +91- 9086-120809 | +91-8283-835234</li>
 
 											</ul>
 											
@@ -1443,8 +1443,8 @@
 											<br><br>
 											<ul>
 
-												<li><strong>Event Co-ordinator : </strong>Arpita</li>
-												<li><strong>Contact :</strong> +91- 9018-718271 / 9796-424714</li>
+												<li><strong>Event Co-ordinator : </strong>Arpita | Himanshu Bharanwal</li>
+												<li><strong>Contact :</strong> +91- 9018-718271 | +91-8716-055931</li>
 
 											</ul>
 											
@@ -1478,8 +1478,8 @@
 											<br><br>
 											<ul>
 
-												<li><strong>Event Co-ordinator : </strong>Arunima Bhowmick </li>
-												<li><strong>Contact :</strong> +91-9596997279 / 9018397409</li>
+												<li><strong>Event Co-ordinator : </strong>Arunima Bhowmick | Puneet Mehta</li>
+												<li><strong>Contact :</strong> +91-9596997279 | +91-9419-351611</li>
 
 											</ul>
 											
@@ -1521,8 +1521,8 @@
 													Theme provided before event.</p>
 											<br><br>
 											<ul>
-												<li><strong>Event Co-ordinator : </strong>Damanjot Kaur</li>
-												<li><strong>Contact :</strong> +91- 8283-835234</li>
+												<li><strong>Event Co-ordinator : </strong>Damanjot Kaur | Shreya</li>
+												<li><strong>Contact :</strong> +91- 8283-835234 |  +91-9086-120809</li>
 
 											</ul>
 											
@@ -1559,8 +1559,8 @@
 											<br><br>
 											<ul>
 
-												<li><strong>Event Co-ordinator : </strong>Puneet Mehta </li>
-												<li><strong>Contact :</strong> +91-9419-351611</li>
+												<li><strong>Event Co-ordinator : </strong>Puneet Mehta | Arunima Bhowmick </li>
+												<li><strong>Contact :</strong> +91-9419-351611 | +91-9596-997279</li>
 
 											</ul>
 											
@@ -1599,8 +1599,8 @@
 
 											<br><br>
 											<ul>
-												<li><strong>Event Co-ordinator : </strong>Himanshu Bharanwal</li>
-												<li><strong>Contact :</strong> +91-- 8716-055931</li>
+												<li><strong>Event Co-ordinator : </strong>Himanshu Bharanwal | Chidananda Arpita</li>
+												<li><strong>Contact :</strong> +91-- 8716-055931 |  +91-9018-718271</li>
 
 											</ul>
 											
@@ -1641,7 +1641,7 @@
 											</p>
 											<br><br>
 											<ul>
-												<li><strong>Event co-ordinator: </strong> Ishan tiwari  </li>
+												<li><strong>Event co-ordinator: </strong> Ishan tiwari | Abhishek Singh </li>
 												<li><strong>Contact: </strong> +91-9596916580</li>
 												
 
@@ -1671,7 +1671,7 @@
 												who write the most of the name correct wins.</p>
 											<br><br>
 											<ul>
-												<li><strong>Event co-ordinator: </strong> Shamli Shagotra</li>
+												<li><strong>Event co-ordinator: </strong> Shamli Shagotra | Prashant Pandey </li>
 												<li><strong>Contact: </strong> +91-946947982</li>
 											</ul>
 											
@@ -1701,7 +1701,7 @@
 												the most wins.</p>
 											<br><br>
 											<ul>
-												<li><strong>Event co-ordinator: </strong> Sudhanshu Raj Sagar</li>
+												<li><strong>Event co-ordinator: </strong> Sudhanshu Raj Sagar |  Sabhajeet Yadav</li>
 												<li><strong>Contact: </strong> +91-9796858005</li>
 												
 
@@ -1736,7 +1736,7 @@
 											<ul>
 
 
-												<li><strong>Event co-ordinator: </strong> Aman Sharma</li>
+												<li><strong>Event co-ordinator: </strong> Aman Sharma | Ankit Pandey  </li>
 												<li><strong>Contact: </strong> +91-9469285442</li>
 
 											</ul>
@@ -1768,7 +1768,7 @@
 											<ul>
 
 
-												<li><strong>Event co-ordinator: </strong> Lav Kush Raj </li>
+												<li><strong>Event co-ordinator: </strong> Lav Kush Raj | Kapil Bagal </li>
 												<li><strong>Contact: </strong> +91-9419873842</li>
 
 												
@@ -1799,8 +1799,41 @@
 												provided  with  the  tools  to  make  the  <strong>3d</strong>  structure  of  the  shown molecule.</p>
 											<br><br>
 											<ul>
-												<li><strong>Event co-ordinator: </strong> Poonam Choudhary</li>
+												<li><strong>Event co-ordinator: </strong> Poonam Choudhary | Nayan Tiwari </li>
 												<li><strong>Contact: </strong> +91-9596855658</li>
+											</ul>
+											
+										</div>
+									</div>
+								</div>
+								<div class="md-overlay"></div><!-- the overlay element -->
+							</div><!-- / uc-container -->
+
+							<div class="uc-container">
+
+								<div class="md-trigger" data-modal="modal-52">
+									<span class="icon-eye">PUZZLE</span>
+
+									<p>Solve The Bio-Puzzle.</p>
+								</div>
+								<div class="md-modal md-effect-11" id="modal-52">
+									<div class="md-content">
+										<div class="md-header">
+											<button class="md-register register">Register</button>
+											<button class="md-close close">Close!</button>
+										</div>
+										<h3>PUZZLE</h3>
+										<div>
+											<p>In  this  event,  it  will  be  a  kind  of puzzle you will be shown a picture of
+											anything related to biology.</p>
+											<p>You  will  be  given  some  materials  and  you  have  to  make  the  same
+											replica of that picture and also label it.</p>
+											<p>Interested  students  from  all  branches  can  participate  in  groups.  Each
+											group does not contain more than 2 participants.</p>
+											<br><br>
+											<ul>
+												<li><strong>Event co-ordinator: </strong>Richa Shrivastava | Rahul Chauhan</li>
+												<li><strong>Contact: </strong> +91-9697-679161</li>
 											</ul>
 											
 										</div>
@@ -2075,7 +2108,7 @@ $sponsors = array(
 
 				<div class="assym_black" id="cont4">
 					<div id="tech">
-						<h4>Event Coordinator</h4>
+						<h4>Technical Event Coordinator</h4>
 
 						<p class="name">Rishabh Shukla</p>
 						<p class="tel">+91-9086-250987</p>
@@ -2100,11 +2133,19 @@ $sponsors = array(
 
 				<div class="assym_black" id="cont6">
 					<div id="media">
-						<h4>Publication Relations </h4>
+						
+						<h4>Designer</h4>
+						<p class="name">Akash Maurya</p>
+						<p class="tel">+91-9797602140</p>
+						<p class="mail" >maurya.aakash1@gmail.com</p>
+						<p class="name">Ahmed Raza</p>
+						<p class="tel">+91-9796-288428</p>
+						<p class="mail" >raza2393@gmail.com</p>
+						<p class="name">Pankaj Pandey</p>
+						<p class="tel">+91-9797-519217</p>
+						<p class="mail" >pankajpandey890@gmail.com</p>
+						
 
-						<p class="name">Megha Sharma</p>
-						<p class="tel">+91-9086-118089</p>
-						<p class="mail">meghas19@yahoo.co.in</p>
 
 					</div>
 				</div>
@@ -2133,11 +2174,11 @@ $sponsors = array(
 
 				<div class="assym_black" id="cont8">
 					<div id="discipline">
-						<h4>Designer</h4>
+						<h4>Publication Relations </h4>
 
-						<p class="name">Akash Maurya</p>
-						<p class="tel">+91-9797602140</p>
-						<p class="mail" >maurya.aakash1@gmail.com</p>
+						<p class="name">Megha Sharma</p>
+						<p class="tel">+91-9086-118089</p>
+						<p class="mail">meghas19@yahoo.co.in</p>
 					</div>
 					
 				</div>
