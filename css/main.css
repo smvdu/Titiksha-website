@@ -242,7 +242,7 @@ a:hover {
 }
 
 #letters{
-    height: 140%;
+    height: 145%;
     width: 80.45%;
     -webkit-transform: rotate(14deg);
     transform: rotate(14deg);
@@ -1681,7 +1681,8 @@ margin-left: 42%;
 
 
 .contact{
-    line-height: 1;
+    font-size: 16px;
+    line-height: 5px;
     font-size: 1.2vw;
     font-family: "Oxygen";
     position: relative;
@@ -1752,7 +1753,7 @@ margin-left: 42%;
 }
 
 #online{
-    font-size: 1.8vw;
+    font-size: 1.6vw;
     font-family: "Oxygen", arial, sans-serif;
     line-height: 10px;
     font-weight: normal;
@@ -1776,12 +1777,12 @@ margin-left: 42%;
     transform: rotate(20deg);
 }
 #chief{
-    line-height: 10px;
+    
     font-weight: normal;
     
-    margin-left: 51%;
+    margin-left: 58%;
     margin-top: 41%;
-    padding: 15px;
+    padding: 14px;
     -webkit-transform: rotate(-20deg);
     transform: rotate(-20deg);
 }
@@ -1800,10 +1801,10 @@ margin-left: 42%;
     transform: rotate(-45deg);
 }
 #web{
-    line-height: 0.5;
+    
     font-weight: normal;
-    margin-top: 32%;
-    margin-left: 7%;
+    margin-top: 35%;
+    margin-left: 0%;
     padding: 10px;
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -1822,7 +1823,7 @@ margin-left: 42%;
     z-index: 4;
 }
 #tech{
-    line-height: 0px;
+    
     font-weight: normal;
     margin-right: 31%;
     margin-top: 22%;
@@ -1846,7 +1847,7 @@ margin-left: 42%;
     transform: rotate(64deg);
 }
 #design{
-    line-height: 10px;
+    
     font-weight: normal;
     margin-left: 22%;
     margin-top: 6%;
@@ -1869,7 +1870,7 @@ margin-left: 42%;
  }
 
 #media{
-    line-height: 5px;
+    
     font-weight: normal;
     margin-left: 55%;
     margin-top: 13%;
@@ -1916,7 +1917,7 @@ margin-left: 42%;
     transform: rotate(-14deg);
 }
 #discipline{
-    line-height: 5px;
+    
     font-weight: normal;
     margin-left: 70%;
     margin-top: 1%;
