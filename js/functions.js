@@ -1,3 +1,9 @@
+/**
+ * Define Functions 
+ *
+ * @author Akshay Pratap Singh <pratapakshay0@gmail.com>
+ */
+
 //Create a boolean variable to check for a valid IE instance.
 var xmlhttp = false;
 
@@ -57,7 +63,26 @@ function  checkEmail(){
     	return true;
     }
 }
+function checkEmailRegistered() {
 
+    var email=document.forms["reg_form"]["email"].value;
+    var serverPage= "php/emailRegistered.php?email="+email;
+    xmlhttp.open("GET", serverPage);
+    xmlhttp.onreadystatechange = function() {
+        if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+            console.log(xmlhttp.responseText);
+           if(new String(xmlhttp.responseText)=="true"){
+                resetFields();
+                var warningMessage="* Email-id is already registered.";
+                $(".msg-Box").addClass("md-show warning").css("display","block");
+                $(".msg-Box > .msg-content").html(warningMessage);
+                $(".msg-Box > .msg-close").css("display","block");
+           }
+                
+        }
+    }
+    xmlhttp.send(null);
+}
 function validateForm(){
 	var name=document.forms["reg_form"]["name"].value;
 	if(name==null || name=="")

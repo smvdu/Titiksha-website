@@ -37,7 +37,7 @@
 
 	  Thanks for signing up!
 	  Your account has been created. You shall be notified about the updates of Titiksha.
-	  Login for Event Registrations on titiksha.smvdu.net.in from 10th, October 2013.
+	  Login for Event Registrations on titiksha.smvdu.net.in from 12th, October 2013.
 
 	  For any Queries, Contact: Megha Sharma, +91-9086-118089
 
