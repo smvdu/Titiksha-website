@@ -6,6 +6,7 @@
   *
   */
 
+  	session_start();
 	/* Local configurations/ overrides
 	***********************************************/	
 	# set default timezone
