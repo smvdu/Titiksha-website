@@ -1249,8 +1249,8 @@
 											<ul>
 
 
-												<li><strong>Event co-ordinator: </strong> Danish | Mansi | Neha Sharma</li>
-												<li><strong>Contact: </strong> +91-9086255280</li>
+												<li><strong>Event co-ordinator: </strong>DANISH SIDDIQUI</li>
+												<li><strong>Contact: </strong>+91-9796-415772</li>
 
 
 											</ul>
@@ -2034,6 +2034,39 @@ $sponsors = array(
 				<div id="join">
 					<button id="submit_form">Submit Details</button>
 				</div>
+
+				<div id="login_div">
+					<div id="log_head">LOGIN </div>
+					<form id="login" name="login" method="POST" >
+						<table>
+							<tr>
+								
+								<td>
+
+									<span><img src="img/icomoon/mail.png" /></span>
+									<input name="email" type="email" size="30" maxlength="35"  autocomplete="off" placeholder="Email Address"/>
+									<div id="email_warning" style="display:none"></div>
+								</td>
+								<td></td>
+							</tr>
+							<tr>
+								
+								<td>
+									<span><img src="img/icomoon/key.png" /></span>
+									<input name="password" id="password" type="password" autocomplete="off" placeholder="Password"/>
+									<div id="complexity" style="display: none;"></div>
+								</td>
+								<td></td>
+							</tr>
+						</table>
+						
+					</form>
+					<div id="log_in">
+						<button id="log_but">Log In</button>
+					</div>
+						
+				</div>
+				
 				<div id="reg_query">
 					<span>For any queries, Contact</span>
 					<h4>Megha Sharma</h4>
