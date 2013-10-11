@@ -127,7 +127,6 @@ form[name="login_form"]{
 .queryBox{
     position: relative;
     width: 100%;
-    min-height: 400px;
 }
 
 .query_content{
