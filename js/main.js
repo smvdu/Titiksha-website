@@ -134,20 +134,13 @@ $(document).ready(function(){
     ////////////////////////////////////////////////////////////////////////////////////
     // Titiksha Event user Dashboard 
 
-    $('#My_detail').click(function(){
-        $('#My_detail').addClass('change_dash_menu');
-        $('#Reg_Eve').removeClass('change_dash_menu');
-       $('#user_detail ').css('display','block');
-       $('.dash_h').fadeOut('fast');
-        $('.reg_event ').fadeOut('fast');
-    });
-
-    $('#Reg_Eve').click(function(){    
-        $('#Reg_Eve').addClass('change_dash_menu');   
-        $('#My_detail').removeClass('change_dash_menu');
-        $('.reg_event ').css('display','block');
-        $('.dash_h').css('display','block');
-         $('#user_detail').fadeOut('fast');
+    $(".dash-menu ul>li").click(function(){
+        $(".dash-menu ul>li").removeClass("selected-nav");
+        $(this).addClass("selected-nav");
+        $(".dash-content > div").css("display","none");
+        var id=$(this).attr("data-id");
+        var contentWindow=document.querySelector("#content-"+id);
+        contentWindow.style.display="block"; 
     });
 
 });

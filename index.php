@@ -2048,90 +2048,119 @@ $sponsors = array(
 		<!-- Dashboard  -->
 		<section class="page" id="container_dash">
 			<div id="tit_dash">
-				<div id="dash_head">Titiksha Dashboard</div>
-				<div class="dash_menu" id="Reg_Eve">Regsitered Events</div>
-				<div class="dash_menu" id="My_detail">My Details</div>
-				<div id="dashboard">
-					<div id="dash_title">
-						<div class="dash_h">MEGA</div><div class="dash_h">CSE</div>
-						<div class="dash_h">MECH </div>
-						<div class="dash_h">ECE </div>
-						 <div class="dash_h"> ARCH </div>
-						  <div class="dash_h"> IBT</div>
-						  <div class="dash_h">GAMES</div>
+				<div id="dash-head">Titiksha Dashboard</div>
+				<div class="dash-menu">
+					<ul>
+						<li class="selected-nav" data-id="1">Registered Events</li>
+						<li data-id="2">My Details</li>
+					</ul>
+				</div>
+				<div class="dash-content">
+					<div class="dash-registered-events" id="content-1">
+						<div id="dash_title">
+							<div class="dash_h">MEGA</div><div class="dash_h">CSE</div>
+							<div class="dash_h">MECH </div>
+							<div class="dash_h">ECE </div>
+							 <div class="dash_h"> ARCH </div>
+							  <div class="dash_h"> IBT</div>
+							  <div class="dash_h">GAMES</div>
+						</div>
+						<div id="dash_event">
+							<div class="reg_event" id="reg_mega">
+								<p>aefaee1</p>
+								<p>2eafaef</p>
+								<p>eafefa3</p>
+								<p>1efaefa</p>
+								<p>2aefeaf</p>
+								<p>3eafeaf</p>
+								<p>1eafaef</p>
+								<p>aefaefa</p>	
+							</div>
+							<div class="reg_event" id="reg_cse">
+								<p>1feafea</p>
+								<p>2eafe</p>
+								<p>3aefaef</p>
+								<p>1eafeaf</p>
+								<p>2eafea</p>
+								<p>efafe3</p>
+								<p>1aefaef</p>
+								<p>aefaefa</p>
+							</div>
+							<div class="reg_event" id="reg_mech">
+								<p>1feafae</p>
+								<p>2aefeafe</p>
+								<p>3eafae</p>
+								<p>1aefaef</p>
+								<p>eafe2</p>
+								<p>3efae</p>
+								<p>1aefe</p>
+								<p>2efaf</p>
+							</div>
+							<div class="reg_event" id="reg_ece">							
+								<p>efaf1</p>
+								<p>aefae2</p>
+								<p>3feaf</p>
+								<p>1feaf</p>
+								<p>2afae</p>
+								<p>eaf</p>
+								<p>aefea</p>
+								<p>aefaef</p></div>
+							<div class="reg_event" id="reg_arch">
+								<p>aefae</p>
+								<p>afaef</p>
+								<p>affaff</p>
+								<p>eafrfar</p>
+								<p>fsfrefa</p>
+								<p>dagsgr</p>
+								<p>asfadfad</p>
+								<p>afa</p>
+							</div>
+							<div class="reg_event" id="reg_ibt">							
+								<p>ibt1</p>
+								<p>ibt1</p>
+								<p>ibt1</p>
+								<p>ibt1</p>
+								<p>ibt1</p>
+								<p>ibt1</p>
+								<p>jkafad</p>
+								<p>afkaf</p></div>
+							<div class="reg_event" id="reg_game">
+								<p>nfs</p>
+								<p>cs</p>
+								<p>fifa 11</p>
+							</div>
+							
+						</div>
 					</div>
-					<div id="dash_event">
-						<div class="reg_event" id="reg_mega">
-							<p>aefaee1</p>
-							<p>2eafaef</p>
-							<p>eafefa3</p>
-							<p>1efaefa</p>
-							<p>2aefeaf</p>
-							<p>3eafeaf</p>
-							<p>1eafaef</p>
-							<p>aefaefa</p>	
+					<div class="dash-my-details" id="content-2" style="display: none;">
+						<div class="my-details">
+							<table>
+								<tr>
+									<td class="field-name">Name :</td>
+									<td class="field-value">Akshay Pratap Singh</td>
+								</tr>
+								<tr>
+									<td class="field-name">Email-Id :</td>
+									<td class="field-value">pratapakshay0@gmail.com</td>
+								</tr>
+								<tr>
+									<td class="field-name">College Name :</td>
+									<td class="field-value">Shri Mata Vaishno Devi University</td>
+								</tr>
+								<tr>
+									<td class="field-name">Year Of Study :</td>
+									<td class="field-value">3rd year</td>
+								</tr>
+								<tr>
+									<td class="field-name">Gender :</td>
+									<td class="field-value">Male</td>
+								</tr>
+								<tr>
+									<td class="field-name">Mobile No :</td>
+									<td class="field-value">+91-9086250656</td>
+								</tr>
+							</table>
 						</div>
-						<div class="reg_event" id="reg_cse">
-							<p>1feafea</p>
-							<p>2eafe</p>
-							<p>3aefaef</p>
-							<p>1eafeaf</p>
-							<p>2eafea</p>
-							<p>efafe3</p>
-							<p>1aefaef</p>
-							<p>aefaefa</p>
-						</div>
-						<div class="reg_event" id="reg_mech">
-							<p>1feafae</p>
-							<p>2aefeafe</p>
-							<p>3eafae</p>
-							<p>1aefaef</p>
-							<p>eafe2</p>
-							<p>3efae</p>
-							<p>1aefe</p>
-							<p>2efaf</p>
-						</div>
-						<div class="reg_event" id="reg_ece">							
-							<p>efaf1</p>
-							<p>aefae2</p>
-							<p>3feaf</p>
-							<p>1feaf</p>
-							<p>2afae</p>
-							<p>eaf</p>
-							<p>aefea</p>
-							<p>aefaef</p></div>
-						<div class="reg_event" id="reg_arch">
-							<p>aefae</p>
-							<p>afaef</p>
-							<p>affaff</p>
-							<p>eafrfar</p>
-							<p>fsfrefa</p>
-							<p>dagsgr</p>
-							<p>asfadfad</p>
-							<p>afa</p>
-						</div>
-						<div class="reg_event" id="reg_ibt">							
-							<p>ibt1</p>
-							<p>ibt1</p>
-							<p>ibt1</p>
-							<p>ibt1</p>
-							<p>ibt1</p>
-							<p>ibt1</p>
-							<p>jkafad</p>
-							<p>afkaf</p></div>
-						<div class="reg_event" id="reg_game">
-							<p>nfs</p>
-							<p>cs</p>
-							<p>fifa 11</p>
-						</div>
-						
-					</div>
-					<div id="user_detail">
-						<p>Name</p>
-						<p>email</p>
-						<p>college</p>
-						<p>year of study</p>
-						<p>contact</p>
 					</div>
 			</div>
 			
