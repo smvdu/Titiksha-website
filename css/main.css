@@ -2490,7 +2490,7 @@ perspective effects (not including the modals and the overlay).
 }
 
 .ch-img-3 { 
-    background-image: url(../img/1.jpg);
+    background-image: url(../img/23.jpg);
 }
 .ch-img-4 { 
     background-image: url(../img/9.jpg);
@@ -2533,11 +2533,47 @@ perspective effects (not including the modals and the overlay).
 }
 
 .ch-img-16 { 
-    background-image: url(../img/16.jpg);
+    background-image: url(../img/20.jpg);
+}
+.ch-img-17 { 
+    background-image: url(../img/21.jpg);
 }
 
+.ch-img-18 { 
+    background-image: url(../img/22.jpg);
+}
+.ch-img-19 { 
+    background-image: url(../img/33.jpg);
+}
+.ch-img-20 { 
+    background-image: url(../img/24.jpg);
+}
+.ch-img-21 { 
+    background-image: url(../img/25.jpg);
+}
+.ch-img-22 { 
+    background-image: url(../img/26.jpg);
+}
 
+.ch-img-24 { 
+    background-image: url(../img/27.jpg);
+}
+.ch-img-25 { 
+    background-image: url(../img/28.jpg);
+}
+.ch-img-26 { 
+    background-image: url(../img/29.jpg);
+}
+.ch-img-27 { 
+    background-image: url(../img/30.jpg);
+}
+.ch-img-28 { 
+    background-image: url(../img/31.jpg);
+}
 
+.ch-img-29 { 
+    background-image: url(../img/32.jpg);
+}
 
 .ch-info h3 {
     color: #fff;

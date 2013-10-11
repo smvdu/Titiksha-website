@@ -2539,7 +2539,7 @@ $sponsors = array(
 							<div class="ch-info">
 								<div class="ch-info-front ch-img-15"></div>
 								<div class="ch-info-back">
-									<h3>Documentation</h3>
+									<h3 style="font-size:10px;">Documentation</h3>
 									<p><a href="https://www.facebook.com/akshay.bhat.31" target="_blank">Akshay Bhat</a></p>
 									<span></span>
 									<span></span>
@@ -2566,7 +2566,7 @@ $sponsors = array(
 					<li>
 						<div class="ch-item">
 							<div class="ch-info">
-								<div class="ch-info-front ch-img-16"></div>
+								<div class="ch-info-front ch-img-17"></div>
 								<div class="ch-info-back">
 									<h3>Protocol</h3>
 									<p><a href="https://www.facebook.com/0SUPERNOVA0" target="_blank">Sahil Khushlani</a></p>
@@ -2579,7 +2579,7 @@ $sponsors = array(
 					<li>
 						<div class="ch-item">
 							<div class="ch-info">
-								<div class="ch-info-front ch-img-16"></div>
+								<div class="ch-info-front ch-img-18"></div>
 								<div class="ch-info-back">
 									<h3>Logistic</h3>
 									<p><a href="https://www.facebook.com/dharmesh.kr2011" target="_blank">Dharmesh Kumar</a></p>
@@ -2589,6 +2589,160 @@ $sponsors = array(
 							</div>
 						</div>
 					</li>
+				</ul>
+
+				<ul class="ch-grid">
+					<li>Branch Cord</li>
+					<li>
+						<div class="ch-item">
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-19"></div>
+								<div class="ch-info-back">
+									<h3>Electronics</h3>
+									<p><a href="https://www.facebook.com/" target="_blank">Tanish Slathia</a></p>
+									<span></span>
+									<span>+ 91-9086-261152</span>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="ch-item">
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-20"></div>
+								<div class="ch-info-back">
+									<h3>Electronics</h3>
+									<p><a href="https://www.facebook.com/mansi.maheshwari.31" target="_blank">Mansi Maheshwari</a></p>
+									<span></span>
+									<span>+91-9796-290098</span>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="ch-item">
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-21"></div>
+								<div class="ch-info-back">
+									<h3>Mechanical</h3>
+									<p><a href="https://www.facebook.com/nraman01" target="_blank">Nishant Raman</a></p>
+									<span></span>
+									<span>+ 91-9697-569775</span>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="ch-item">
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-22"></div>
+								<div class="ch-info-back">
+									<h3>Mechanical</h3>
+									<p><a href="https://www.facebook.com/emwfreak" target="_blank">Monica</a></p>
+									<span></span>
+									<span></span>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+				<ul class="ch-grid">
+					<li></li>
+					<li>
+						<div class="ch-item">
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-6"></div>
+								<div class="ch-info-back">
+									<h3>Computer Sc.</h3>
+									<p><a href="https://www.facebook.com/sunnyLA.Gupta" target="_blank">Sunny Gupta</a></p>
+									<span></span>
+									<span>+ 91-9086-724946</span>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="ch-item">
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-24"></div>
+								<div class="ch-info-back">
+									<h3>Computer Sc.</h3>
+									<p><a href="https://www.facebook.com/shreya.gupta12" target="_blank">Shreya Gupta</a></p>
+									<span></span>
+									<span></span>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="ch-item">
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-25"></div>
+								<div class="ch-info-back">
+									<h3>Bio-Tech</h3>
+									<p><a href="https://www.facebook.com/lavkush.raj.3" target="_blank">Lav Kush</a></p>
+									<span></span>
+									<span>+ 91-9419-873842</span>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="ch-item">
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-26"></div>
+								<div class="ch-info-back">
+									<h3>Bio-Tech</h3>
+									<p><a href="https://www.facebook.com/shamli.shagotra" target="_blank">Shamli Shagotra</a></p>
+									<span></span>
+									<span></span>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+				<ul class="ch-grid">
+					<li></li>
+					<li>
+						<div class="ch-item">
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-27"></div>
+								<div class="ch-info-back">
+									<h3>Arch.</h3>
+									<p><a href="https://www.facebook.com/anand.upadhayay.92" target="_blank">Anand Upadhayay</a></p>
+									<span></span>
+									<span>+ 91-9697-679672</span>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="ch-item">
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-28"></div>
+								<div class="ch-info-back">
+									<h3>Arch.</h3>
+									<p><a href="https://www.facebook.com/puneetmehta2802" target="_blank">Puneet Mehta</a></p>
+									<span></span>
+									<span>+91-9419-351611</span>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="ch-item">
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-29"></div>
+								<div class="ch-info-back">
+									<h3>Arch.</h3>
+									<p><a href="https://www.facebook.com/arunima.bhowmik" target="_blank">Arunima Bhowmick</a></p>
+									<span></span>
+									<span>+ 91-9596-997279</span>
+								</div>
+							</div>
+						</div>
+					</li>
+					
 				</ul>
 
 
