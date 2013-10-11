@@ -90,13 +90,27 @@ function sendQuery(){
     xmlhttp.onreadystatechange = function() {
         if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
            if(new String(xmlhttp.responseText)==""){
-               console.log("error");
+               alert("error");
            }else{
-           		var obj = jQuery.parseJSON(xmlhttp.responseText);
-           		//JSON.stringify(obj)
-				console.log(obj);
+           		resetQueryBox();
+           		var data = jQuery.parseJSON(xmlhttp.responseText);
+           		JSON.stringify(data);
+           		printData(data);
            }        
         }
     }
     xmlhttp.send(null);
+}
+function resetQueryBox() {
+	$("#content").html("");
+	$(".queryResult").html("");
+}
+function printData(data){
+	var len=data.length;
+	$("#content").html("Total Number of Records:<strong>"+len+"</strong>");
+	$.each(data,function(i,item){
+		$.each(item,function(k,content){
+			$(".queryResult").append(k+" : "+content+"<br>");
+		});
+	});
 }
