@@ -2834,48 +2834,51 @@ input[name="gender"]{
     background-color: #000;
     height: 100%;
 }
-#dash_head{
+#dash-head{
     padding: 20px;
     text-align: center;
     font-size: 4vw;
 }
-.dash_menu{
-    padding: 6px;
-    height: 30px;
-    margin-left: 12%;
-    cursor: pointer;
+.dash-menu{
     text-align: center;
-    width: 152px;
+    width: 250px;
     font-size: 1.5vw;
     color: #fff;
-
+    float: left;
+    margin: 0px -10px 0px 0px;
 }
-#Reg_Eve{
-
-    margin-top: 4%;
-}
-
-#My_detail{
-    margin-top: 1%;
+.dash-menu ul{
+    list-style: none;
+    margin: 0px;
 }
 
-.change_dash_menu{
+.dash-menu ul li{
+    height: 40px;
+    padding: 10px 0px;
+    border-radius: 10px 0px 0px 10px;
+    cursor: pointer;
+}
+.selected-nav{
     color : #000;
     background-color : #fff;
+    box-shadow: 5px 5px 3px #666965;
 }
 
-#dashboard{
+.dash-content{
     border-radius: 10px;
     color: #000;
-    float: right;
     background-color: #fff;
-    margin-right: 6%;
-    margin-top: -83px;
     position: relative;
     height: 60%;
     width: 70%;
+    float: left;
+    padding: 10px;
+    box-shadow: 5px 5px 3px #666965;
 }
 
+.dash-registered-events{
+
+}
 #dash_title{
     position: relative;
 
@@ -2896,12 +2899,22 @@ input[name="gender"]{
 }
 
 
-#user_detail{
-    display: none;
-    padding: 10px;
-    width: 60%;
-    margin-top: 2%;
-    margin-left: 10%;
+.dash-my-details{
+    padding: 35px;
+}
+
+.my-details table{
+    width: 75%;
+}
+.my-details table tr{
+    height: 40px;    
+}
+.field-name{
+    text-align: center;
+}
+.field-value{
+    color: #FA4453;
+    font-size: 23px;
 }
 /* ===============  Sponser's Page Css -======= */
 
