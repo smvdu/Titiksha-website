@@ -1933,238 +1933,273 @@ $sponsors = array(
 		<!-- REGITRATION PAGE -->
 
 		<section class="page" id="register" data-slide="5">
-		<div class="register_form">
-			
-			<div id="form">
-				<div id="reg_head">
-					<span>JOIN TITIKSHA</span`>
-				</div>	
+			<div class="register-form">
 				<div class="msg-Box" style="display:none;">
 					<div class="msg-close">X</div>
 					<div class="msg-content"></div>
 				</div>
 				<div class="md-overlay"></div><!-- the overlay element -->
-				<form id="reg_form" name="reg_form" action="" method="post"  autocomplete="off">
-					<table>
-						<tbody>
-							<tr>
-								<th>Name :</th>
-								<td>
-									<span><img src="img/icomoon/user.png" /></span>
-									<input name="name" type="text" size="30" maxlength="35" autocomplete="off" placeholder="Full Name"/>
-								</td>
-								<td></td>
-							</tr>
-							<tr>
-								<th>Email :</th>
-								<td>
 
-									<span><img src="img/icomoon/mail.png" /></span>
-									<input name="email" type="email" size="30" maxlength="35"  autocomplete="off" placeholder="Email Address"/>
-									<div id="email_warning" style="display:none"></div>
-								</td>
-								<td></td>
-							</tr>
-							<tr>
-								<th>College :</th>
-								<td>
-									<span><img src="img/icomoon/briefcase.png" /></span>
-									<input name="college" type="text" size="40" maxlength="35" autocomplete="off" placeholder="University/College"/>
-								</td>
-								<td></td>
-							</tr>
-							
-							<tr>
-								<th>Year of Study : </th>
-								<td>
-									<span><img src="img/icomoon/bars2.png" /></span>
-									<select name="year">
-									<option selected="selected" name="1st" value="1st year">1st year</option>
-									<option name="2nd" value="2nd year">2nd year</option>
-									<option name="3rd" value="3rd year">3rd year</option>
-									<option name="4th" value="4th year">4th year</option>
-									</select>
-								</td>
-								<td></td>
-							</tr>
-							<tr>
-								<th>Contact :</th>
-								<td>
-
-									<span><img src="img/icomoon/phone.png" /></span>
-									<input name="contact" type="tel" size="14" placeholder="+91-**********" autocomplete="off" />
-
-								</td>
-								<td></td>
-							</tr>
-							<tr>
-								<th>Gender :</th>
-								<td>
-									<span><img src="img/icomoon/users.png" /></span>
-									<input name="gender" type="radio" value="Male" checked />Male
-									<input name="gender" type="radio" value="Female" />Female 
-								</td>
-								<td></td>
-							</tr>
-							<tr>
-								<th>Password : </th>
-								<td>
-									<span><img src="img/icomoon/key.png" /></span>
-									<input name="password" id="password" type="password" autocomplete="off" placeholder="Desired Password"/>
-									<div id="complexity" style="display: none;"></div>
-								</td>
-								<td></td>
-							</tr>
-							<tr>
-								<th>Repeat Password : </th>
-								<td>
-									<span><img src="img/icomoon/key2.png" /></span>
-									<input name="repassword" id="repassword" type="password" autocomplete="off" placeholder="Re-enter Password"/>
-									<div id="password_warning" style="display: none;"></div>
-								</td>
-								<td></td>
-							</tr>
-
-
-						</tbody>
-					</table>
-
-				</form>
-
-				<div id="join">
-					<button id="submit_form">Submit Details</button>
-				</div>
-
-				<div id="login_div">
-					<div id="log_head">LOGIN </div>
-					<form id="login" name="login" method="POST" >
-						<table>
-							<tr>
-								
-								<td>
-
-									<span><img src="img/icomoon/mail.png" /></span>
-									<input name="email" type="email" size="30" maxlength="35"  autocomplete="off" placeholder="Email Address"/>
-									<div id="email_warning" style="display:none"></div>
-								</td>
-								<td></td>
-							</tr>
-							<tr>
-								
-								<td>
-									<span><img src="img/icomoon/key.png" /></span>
-									<input name="password" id="password" type="password" autocomplete="off" placeholder="Password"/>
-									<div id="complexity" style="display: none;"></div>
-								</td>
-								<td></td>
-							</tr>
-						</table>
-						
-					</form>
-					<div id="log_in">
-						<button id="log_but">Log In</button>
+				<div id="reg-part">
+					<div id="reg-head">
+						<span>JOIN TITIKSHA</span>
 					</div>
-						
-				</div>
-				
-				<div id="reg_query">
-					<span>For any queries, Contact</span>
-					<h4>Megha Sharma</h4>
-					<p>+91-9086-118089</p>
-					<p>meghas19@yahoo.co.in</p><br>
+					<div id="reg-content">
+						<div id="form-part">
+							<form id="reg_form" name="reg_form" action="" method="post"  autocomplete="off">
+								<table>
+									<tbody>
+										<tr>
+											<th>Name :</th>
+											<td>
+												<span><img src="img/icomoon/user.png" /></span>
+												<input name="name" type="text" size="30" maxlength="35" autocomplete="off" placeholder="Full Name"/>
+											</td>
+											<td></td>
+										</tr>
+										<tr>
+											<th>Email :</th>
+											<td>
 
+												<span><img src="img/icomoon/mail.png" /></span>
+												<input name="email" type="email" size="30" maxlength="35"  autocomplete="off" placeholder="Email Address"/>
+												<div id="email_warning" style="display:none"></div>
+											</td>
+											<td></td>
+										</tr>
+										<tr>
+											<th>College :</th>
+											<td>
+												<span><img src="img/icomoon/briefcase.png" /></span>
+												<input name="college" type="text" size="40" maxlength="35" autocomplete="off" placeholder="University/College"/>
+											</td>
+											<td></td>
+										</tr>
+										
+										<tr>
+											<th>Year of Study : </th>
+											<td>
+												<span><img src="img/icomoon/bars2.png" /></span>
+												<select name="year">
+												<option selected="selected" name="1st" value="1st year">1st year</option>
+												<option name="2nd" value="2nd year">2nd year</option>
+												<option name="3rd" value="3rd year">3rd year</option>
+												<option name="4th" value="4th year">4th year</option>
+												</select>
+											</td>
+											<td></td>
+										</tr>
+										<tr>
+											<th>Contact :</th>
+											<td>
+
+												<span><img src="img/icomoon/phone.png" /></span>
+												<input name="contact" type="tel" size="14" placeholder="+91-**********" autocomplete="off" />
+
+											</td>
+											<td></td>
+										</tr>
+										<tr>
+											<th>Gender :</th>
+											<td>
+												<span><img src="img/icomoon/users.png" /></span>
+												<input name="gender" type="radio" value="Male" checked />Male
+												<input name="gender" type="radio" value="Female" />Female 
+											</td>
+											<td></td>
+										</tr>
+										<tr>
+											<th>Password : </th>
+											<td>
+												<span><img src="img/icomoon/key.png" /></span>
+												<input name="password" id="password" type="password" autocomplete="off" placeholder="Desired Password"/>
+												<div id="complexity" style="display: none;"></div>
+											</td>
+											<td></td>
+										</tr>
+										<tr>
+											<th>Repeat Password : </th>
+											<td>
+												<span><img src="img/icomoon/key2.png" /></span>
+												<input name="repassword" id="repassword" type="password" autocomplete="off" placeholder="Re-enter Password"/>
+												<div id="password_warning" style="display: none;"></div>
+											</td>
+											<td></td>
+										</tr>
+
+
+									</tbody>
+								</table>
+							</form>
+						</div>
+						<div id="mid-part"></div>
+					</div>
+					<div id="join">
+						<button id="submit_form">Submit Details</button>
+					</div>
+					
 				</div>
-		    </div>	
-		</div>			
+
+				<div id="login-part">
+					<div id="login-box">
+						<div id="login-head">
+							<span>LOGIN</span> 
+						</div>
+						<div id="login-content">
+							<form id="login_form" name="login" method="POST" autocomplete="off">
+								<table>
+									<tr>
+										<td>
+											<span><img src="img/icomoon/mail.png" /></span>
+											<input name="email" type="email" size="35" maxlength="100"  autocomplete="off" placeholder="Email Address"/>
+											<div id="email_warning" style="display:none"></div>
+										</td>
+										<td></td>
+									</tr>
+									<tr>
+										<td>
+											<span><img src="img/icomoon/key.png" /></span>
+											<input name="password" id="password" type="password" autocomplete="off" placeholder="Password"/>
+											<div id="warning" style="display: none;"></div>
+										</td>
+										<td></td>
+									</tr>
+								</table>	
+							</form>
+						</div>
+						<div id="login">
+							<button id="log-button">Log In</button>
+						</div>	
+
+					</div>
+					<div id="contact-box">
+						<div id="query-content">
+							<span id="query-head">For any queries, Contact</span>
+							<h4>Megha Sharma</h4>
+							<p>+91-9086-118089</p>
+							<p>meghas19@yahoo.co.in</p><br>
+						</div>
+					</div>
+				</div>
+		    </div>			
 		</section>
 		
 		<!-- Dashboard  -->
 		<section class="page" id="container_dash">
-			<div id="tit_dash">
-				<div id="dash_head">Titiksha Dashboard</div>
-				<div class="dash_menu" id="Reg_Eve">Regsitered Events</div>
-				<div class="dash_menu" id="My_detail">My Details</div>
-				<div id="dashboard">
-					<div id="dash_title">
-						<div class="dash_h">MEGA</div><div class="dash_h">CSE</div>
-						<div class="dash_h">MECH </div>
-						<div class="dash_h">ECE </div>
-						 <div class="dash_h"> ARCH </div>
-						  <div class="dash_h"> IBT</div>
-						  <div class="dash_h">GAMES</div>
+			<div class="dashboard">
+				<div class="dash-head">Titiksha Dashboard</div>
+				<div class="dash-menu">
+					<ul>
+						<li class="selected-nav" data-id="1">Registered Events</li>
+						<li data-id="2">My Details</li>
+					</ul>
+				</div>
+				<div class="dash-content">
+					<div class="dash-registered-events" id="content-1">
+						<div id="dash_title">
+							<div class="dash_h">MEGA</div><div class="dash_h">CSE</div>
+							<div class="dash_h">MECH </div>
+							<div class="dash_h">ECE </div>
+							 <div class="dash_h"> ARCH </div>
+							  <div class="dash_h"> IBT</div>
+							  <div class="dash_h">GAMES</div>
+						</div>
+						<div id="dash_event">
+							<div class="reg_event" id="reg_mega">
+								<p>aefaee1</p>
+								<p>2eafaef</p>
+								<p>eafefa3</p>
+								<p>1efaefa</p>
+								<p>2aefeaf</p>
+								<p>3eafeaf</p>
+								<p>1eafaef</p>
+								<p>aefaefa</p>	
+							</div>
+							<div class="reg_event" id="reg_cse">
+								<p>1feafea</p>
+								<p>2eafe</p>
+								<p>3aefaef</p>
+								<p>1eafeaf</p>
+								<p>2eafea</p>
+								<p>efafe3</p>
+								<p>1aefaef</p>
+								<p>aefaefa</p>
+							</div>
+							<div class="reg_event" id="reg_mech">
+								<p>1feafae</p>
+								<p>2aefeafe</p>
+								<p>3eafae</p>
+								<p>1aefaef</p>
+								<p>eafe2</p>
+								<p>3efae</p>
+								<p>1aefe</p>
+								<p>2efaf</p>
+							</div>
+							<div class="reg_event" id="reg_ece">							
+								<p>efaf1</p>
+								<p>aefae2</p>
+								<p>3feaf</p>
+								<p>1feaf</p>
+								<p>2afae</p>
+								<p>eaf</p>
+								<p>aefea</p>
+								<p>aefaef</p></div>
+							<div class="reg_event" id="reg_arch">
+								<p>aefae</p>
+								<p>afaef</p>
+								<p>affaff</p>
+								<p>eafrfar</p>
+								<p>fsfrefa</p>
+								<p>dagsgr</p>
+								<p>asfadfad</p>
+								<p>afa</p>
+							</div>
+							<div class="reg_event" id="reg_ibt">							
+								<p>ibt1</p>
+								<p>ibt1</p>
+								<p>ibt1</p>
+								<p>ibt1</p>
+								<p>ibt1</p>
+								<p>ibt1</p>
+								<p>jkafad</p>
+								<p>afkaf</p></div>
+							<div class="reg_event" id="reg_game">
+								<p>nfs</p>
+								<p>cs</p>
+								<p>fifa 11</p>
+							</div>
+							
+						</div>
 					</div>
-					<div id="dash_event">
-						<div class="reg_event" id="reg_mega">
-							<p>aefaee1</p>
-							<p>2eafaef</p>
-							<p>eafefa3</p>
-							<p>1efaefa</p>
-							<p>2aefeaf</p>
-							<p>3eafeaf</p>
-							<p>1eafaef</p>
-							<p>aefaefa</p>	
+					<div class="dash-my-details" id="content-2" style="display: none;">
+						<div class="my-details">
+							<table>
+								<tr>
+									<td class="field-name">Name :</td>
+									<td class="field-value">Akshay Pratap Singh</td>
+								</tr>
+								<tr>
+									<td class="field-name">Email-Id :</td>
+									<td class="field-value">pratapakshay0@gmail.com</td>
+								</tr>
+								<tr>
+									<td class="field-name">College Name :</td>
+									<td class="field-value">Shri Mata Vaishno Devi University</td>
+								</tr>
+								<tr>
+									<td class="field-name">Year Of Study :</td>
+									<td class="field-value">3rd year</td>
+								</tr>
+								<tr>
+									<td class="field-name">Gender :</td>
+									<td class="field-value">Male</td>
+								</tr>
+								<tr>
+									<td class="field-name">Mobile No :</td>
+									<td class="field-value">+91-9086250656</td>
+								</tr>
+							</table>
 						</div>
-						<div class="reg_event" id="reg_cse">
-							<p>1feafea</p>
-							<p>2eafe</p>
-							<p>3aefaef</p>
-							<p>1eafeaf</p>
-							<p>2eafea</p>
-							<p>efafe3</p>
-							<p>1aefaef</p>
-							<p>aefaefa</p>
-						</div>
-						<div class="reg_event" id="reg_mech">
-							<p>1feafae</p>
-							<p>2aefeafe</p>
-							<p>3eafae</p>
-							<p>1aefaef</p>
-							<p>eafe2</p>
-							<p>3efae</p>
-							<p>1aefe</p>
-							<p>2efaf</p>
-						</div>
-						<div class="reg_event" id="reg_ece">							
-							<p>efaf1</p>
-							<p>aefae2</p>
-							<p>3feaf</p>
-							<p>1feaf</p>
-							<p>2afae</p>
-							<p>eaf</p>
-							<p>aefea</p>
-							<p>aefaef</p></div>
-						<div class="reg_event" id="reg_arch">
-							<p>aefae</p>
-							<p>afaef</p>
-							<p>affaff</p>
-							<p>eafrfar</p>
-							<p>fsfrefa</p>
-							<p>dagsgr</p>
-							<p>asfadfad</p>
-							<p>afa</p>
-						</div>
-						<div class="reg_event" id="reg_ibt">							
-							<p>ibt1</p>
-							<p>ibt1</p>
-							<p>ibt1</p>
-							<p>ibt1</p>
-							<p>ibt1</p>
-							<p>ibt1</p>
-							<p>jkafad</p>
-							<p>afkaf</p></div>
-						<div class="reg_event" id="reg_game">
-							<p>nfs</p>
-							<p>cs</p>
-							<p>fifa 11</p>
-						</div>
-						
-					</div>
-					<div id="user_detail">
-						<p>Name</p>
-						<p>email</p>
-						<p>college</p>
-						<p>year of study</p>
-						<p>contact</p>
 					</div>
 			</div>
 			

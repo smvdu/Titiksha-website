@@ -2683,29 +2683,21 @@ perspective effects (not including the modals and the overlay).
 
 
 /*================ REGISTER PAGE CSS ==================================== */
-.register_form{
+.register-form{
     font-size: 85%;
     width: 100%;
     background:#000 url('../img/2.jpg') repeat right top;
     font-family: "Oxygen";
-    color: hsl(0, 15%, 19%);
     position: relative;
     margin: 0px;
     padding: 0px;
     min-height: 100%;
     height: 100%;
-
     line-height: 2;  
     overflow: hidden;
-}
-
-#form{
     color: hsl(0, 0%, 93%);
     word-spacing: 5px;
-    text-align: left;
-    position: relative;
 }
-
 
 .msg-Box{
     position: fixed;
@@ -2729,7 +2721,6 @@ perspective effects (not including the modals and the overlay).
     margin: -15px 0px 0px 0px;
 }
 
-
 .warning{
     background-color: #C57815;
     color: #F8F8F8;  
@@ -2740,10 +2731,6 @@ perspective effects (not including the modals and the overlay).
     color: #fff;     
 }
 
-.msg-Box > .msg-content{
-    
-
-}
 #email_warning{
     color: #FF3D3D;
     margin-left: 55px;
@@ -2752,7 +2739,14 @@ perspective effects (not including the modals and the overlay).
     color: #FF3D3D;
     margin-left: 55px;
 }
-#reg_head{
+
+#reg-part{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+#reg-head{
+    height: 100px;
     padding: 15px;
     text-align: center;
     font-size: 250%;
@@ -2760,9 +2754,14 @@ perspective effects (not including the modals and the overlay).
     font-family: "Ubuntu-L";
 }
 
+#reg-content{
+    position: relative;
+    height: 65%;
+}
+
 #reg_form{
     line-height: 2.4;
-   margin: 10px 0px 20px 200px;
+    margin: 0px 105px;
     width: 440px;
     padding: 10px;
     background: rgba(128, 128, 128, 0.27);
@@ -2838,8 +2837,18 @@ input[name="gender"]{
     padding: 10px;
     position: relative;
     font-size: 130%;
-    margin-left: 240px;
-    width: 350px;
+    margin-left: 165px;
+    width: 335px;
+}
+
+#form-part{
+    float: left;
+}
+
+#mid-part{
+    float: left;
+    border: 1.5px solid rgb(255, 255, 255);
+    height: 462px;
 }
 
 #join button{
@@ -2853,37 +2862,46 @@ input[name="gender"]{
     background-color: rgba(26, 154, 178, 0.5);
 }
 
-#reg_query{
-    line-height: 0.5vw;
-    position: absolute;
-    top: 70%;
-    right: 20%;
-    color:  #D5D5D5;
-}
-#log_head{
-    font-size: 2vw;
-    text-align: center;
+#login-part{
+    float: left;
+    width: 50%;
+    height: 100%;
 }
 
-#login_div{
+#login-box{
+    padding: 15px;
+    height: 60%;
+}
+
+#login-head{
+    margin: 0px 180px;
+    padding: 15px;
+    font-size: 250%;
+    position: relative;
+    font-family: "Ubuntu-L";
+    width: 160px;
+}
+
+#login-content{
+    margin: 0px 69px;
+    width: 410px;
+}
+
+#login_form{
+    line-height: 2.4;
     padding: 10px;
-    position: absolute;
-    right: 10%;
-    top: 20%;
+    background: rgba(128, 128, 128, 0.27);
 }
 
-#login_div form{
-    background-color: #000;
-}
-#login_div  input{
+#login_form input{
     border: 0px;
     height: 40px;
-    width: 275px;
+    width: 345px;
     text-indent: 20px;
     font-family: "Ubuntu-L";
 }
 
-#login_div span img{
+#login_form span img{
     height: 60%;
     width: 60%;
     margin: 8px auto;
@@ -2895,77 +2913,106 @@ input[name="gender"]{
      filter: opacity(70%);
 }
 
-#login_div span{
+#login_form span{
     float: left;
     height: 40px;
     width: 40px;
     background-color: #E9E9E9;
 }
 
+#login{
+    padding: 20px;
+    position: relative;
+    font-size: 130%;
+    margin-left: 110px;
+    width: 335px;
+}
 
-#log_in button{
-    
+#login button{
     font-family: "Ubuntu-L";
     color: #fff;
-    margin-left: 44px;
-    margin-top: 15px;
-    display: block;
     border: 0;
-    width: 30%;
-    height: 30px;
+    width: 110px;
+    height: 40px;
     background-color: rgba(26, 154, 178, 0.8);
+    margin: 0px 90px;
 }
+
+#contact-box{
+    line-height: 0.5vw;
+    color: #D5D5D5;
+    padding: 15px;
+    height: 40%;
+}
+
+#query-content{
+    margin: 0px 150px;
+}
+
+#query-head{
+    font-size: 22px;
+    text-decoration: underline;
+    color: hsl(0, 0%, 93%);
+}
+
 /* ================== Dashboard ============= */
 
-#tit_dash{
-    padding: 20px;
-    line-height: 1;
+.dashboard{
+    width: 100%;
+    background: #000 url('../img/2.jpg') repeat right top;
+    font-family: "Oxygen";
     position: relative;
-    background-color: #000;
+    margin: 0px;
+    padding: 0px;
+    min-height: 100%;
     height: 100%;
+    overflow: hidden;
 }
-#dash_head{
+.dash-head{
     padding: 20px;
     text-align: center;
     font-size: 4vw;
 }
-.dash_menu{
-    padding: 6px;
-    height: 30px;
-    margin-left: 12%;
-    cursor: pointer;
+.dash-menu{
     text-align: center;
-    width: 152px;
+    width: 250px;
     font-size: 1.5vw;
     color: #fff;
-
+    float: left;
+    margin: 0px -10px 0px 0px;
 }
-#Reg_Eve{
-
-    margin-top: 4%;
-}
-
-#My_detail{
-    margin-top: 1%;
+.dash-menu ul{
+    list-style: none;
+    margin: 0px;
 }
 
-.change_dash_menu{
+.dash-menu ul li{
+    height: 40px;
+    padding: 10px 0px;
+    border-radius: 10px 0px 0px 10px;
+    cursor: pointer;
+}
+.selected-nav{
     color : #000;
     background-color : #fff;
+    box-shadow: 5px 5px 3px #666965;
 }
 
-#dashboard{
+.dash-content{
     border-radius: 10px;
     color: #000;
-    float: right;
     background-color: #fff;
-    margin-right: 6%;
-    margin-top: -83px;
     position: relative;
     height: 60%;
     width: 70%;
+    float: left;
+    padding: 10px;
+    box-shadow: 5px 5px 3px #666965;
 }
 
+.dash-registered-events{
+
+}
 #dash_title{
     position: relative;
 
@@ -2986,12 +3033,22 @@ input[name="gender"]{
 }
 
 
-#user_detail{
-    display: none;
-    padding: 10px;
-    width: 60%;
-    margin-top: 2%;
-    margin-left: 10%;
+.dash-my-details{
+    padding: 35px;
+}
+
+.my-details table{
+    width: 75%;
+}
+.my-details table tr{
+    height: 40px;    
+}
+.field-name{
+    text-align: center;
+}
+.field-value{
+    color: #FA4453;
+    font-size: 23px;
 }
 /* ===============  Sponser's Page Css -======= */
 
