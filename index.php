@@ -561,8 +561,8 @@
 												round one will participate.
 											</p>
 											
-											<p><strong>TIME </strong>- Round 1: 20 min. <br>
-											Round 2: 30 min.</p>
+											<p><strong>TIME </strong>- Round 1: 40 min. <br>
+											Round 2: 45 min.</p>
 											
 											<br><br>
 											
@@ -611,7 +611,7 @@
 
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-50">
-									<span class="icon-eye"><em>KILL-EM</em></span>
+									<span class="icon-eye"><em>KILL'EM</em></span>
 									<p>Troubleshoot PC and Show you are Computer Guy</p>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-50">
@@ -620,13 +620,15 @@
 											<button class="md-register register">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
-										<h3>KILL-EM</h3>
+										<h3>KILL'EM</h3>
 										<div>
 											<p>This  event  is  similar  to  the  "Troubleshooting"  event  of  the
 												titiksha 2k12. In  this  event, the  participants  will  be  given  6­8  problems
 												of which 5 will easier and others will be little tough.
 												The  participants  have  to  solve  and  trooubleshoot  all  the  problems  or
 												most of them and they will be ranked accordingly.</p>
+												<p><strong>TIME </strong>- Round 1: 45 min. <br>
+											Round 2: 45 min.</p>
 											<br><br>
 										<ul>
 											<li><strong>Event Co-ordinator : </strong>Ravi Prakash Giri | Mohan Dutt Parashar | Prateek Sharma </li>
@@ -659,6 +661,8 @@
 											<p>	Participants  are  required  to  have  a  good  knowledge  of  “Linux
 												Terminal”  commands  and  Scripts  in  Linux  (Workshops  will  be  held
 												to provide some preliminary knowledge about Linux) .</p>
+											<p><strong>TIME </strong>- Round 1: 30 min. <br>
+											Round 2: 30 min.</p>
 											
 											<br><br>
 											<ul>
@@ -1905,25 +1909,11 @@ $sponsors = array(
 						?>
 
 				       
-				    </div>
+				    </div>				   
 
-				    <div id="spon_cord">
-				    	<h3>Sponsorship Co-ordinator</h3>
-				    	<div id="co_left">
-					    	<p>Navjot Sasan</p>
-					    	<p>*********@gmail.com</p>
-					    	<span style="color: #000;">+91-1413245252</span>
-				    	</div>
-				    	<div id="co_right">
-					    	<p>Gaurav Singh</p>
-					    	<p>abc#gmail.com</p>
-					    	<span style="color: #000;">+91-9796-446317</span>
-				    	</div>
-				    </div>
-
-				    <div id="spon_brochure">
+				    <div id="spon_brochure"  >
 				    	<a style="color: #C6DAD6; text-decoration : underline;" target="_blank" href="https://docs.google.com/file/d/0B5u8hNVpPKnhSDRGRmZCX1VpcVE/edit?usp=sharing" >Sponsorship Brochure </a>
-				    	<div id="spon_query">
+				    	<div id="spon_query" >
 				    		<p>For Sponshorship Queries Contact :</p>
 				    		<p>Gaurav Singh</p>
 					    	<p>2011eec54@smvdu.ac.in</p>
@@ -2051,11 +2041,102 @@ $sponsors = array(
 
 				</div>
 		    </div>	
-		</div>
-			
-			
+		</div>			
 		</section>
 		
+		<!-- Dashboard  -->
+		<section class="page" id="container_dash">
+			<div id="tit_dash">
+				<div id="dash_head">Titiksha Dashboard</div>
+				<div class="dash_menu" id="Reg_Eve">Regsitered Events</div>
+				<div class="dash_menu" id="My_detail">My Details</div>
+				<div id="dashboard">
+					<div id="dash_title">
+						<div class="dash_h">MEGA</div><div class="dash_h">CSE</div>
+						<div class="dash_h">MECH </div>
+						<div class="dash_h">ECE </div>
+						 <div class="dash_h"> ARCH </div>
+						  <div class="dash_h"> IBT</div>
+						  <div class="dash_h">GAMES</div>
+					</div>
+					<div id="dash_event">
+						<div class="reg_event" id="reg_mega">
+							<p>aefaee1</p>
+							<p>2eafaef</p>
+							<p>eafefa3</p>
+							<p>1efaefa</p>
+							<p>2aefeaf</p>
+							<p>3eafeaf</p>
+							<p>1eafaef</p>
+							<p>aefaefa</p>	
+						</div>
+						<div class="reg_event" id="reg_cse">
+							<p>1feafea</p>
+							<p>2eafe</p>
+							<p>3aefaef</p>
+							<p>1eafeaf</p>
+							<p>2eafea</p>
+							<p>efafe3</p>
+							<p>1aefaef</p>
+							<p>aefaefa</p>
+						</div>
+						<div class="reg_event" id="reg_mech">
+							<p>1feafae</p>
+							<p>2aefeafe</p>
+							<p>3eafae</p>
+							<p>1aefaef</p>
+							<p>eafe2</p>
+							<p>3efae</p>
+							<p>1aefe</p>
+							<p>2efaf</p>
+						</div>
+						<div class="reg_event" id="reg_ece">							
+							<p>efaf1</p>
+							<p>aefae2</p>
+							<p>3feaf</p>
+							<p>1feaf</p>
+							<p>2afae</p>
+							<p>eaf</p>
+							<p>aefea</p>
+							<p>aefaef</p></div>
+						<div class="reg_event" id="reg_arch">
+							<p>aefae</p>
+							<p>afaef</p>
+							<p>affaff</p>
+							<p>eafrfar</p>
+							<p>fsfrefa</p>
+							<p>dagsgr</p>
+							<p>asfadfad</p>
+							<p>afa</p>
+						</div>
+						<div class="reg_event" id="reg_ibt">							
+							<p>ibt1</p>
+							<p>ibt1</p>
+							<p>ibt1</p>
+							<p>ibt1</p>
+							<p>ibt1</p>
+							<p>ibt1</p>
+							<p>jkafad</p>
+							<p>afkaf</p></div>
+						<div class="reg_event" id="reg_game">
+							<p>nfs</p>
+							<p>cs</p>
+							<p>fifa 11</p>
+						</div>
+						
+					</div>
+					<div id="user_detail">
+						<p>Name</p>
+						<p>email</p>
+						<p>college</p>
+						<p>year of study</p>
+						<p>contact</p>
+					</div>
+			</div>
+			
+		</section>
+
+
 		<!-- container Contact -->
 
         <section class="page" id="container_contact" data-slide="6">	
@@ -2185,6 +2266,263 @@ $sponsors = array(
 				
 			</div>
 		</section><!-- /container -->	
+
+		<!-- PAGE OF COORDITORS AND CELL COMMITEE -->
+<section class="page" id="container_coord">
+		
+	<div id="coord">
+		<div id="co_head">Co-Ordinators</div>
+		<div id="co_table">
+								
+				<ul class="ch-grid">
+					<li>Chief Student Cord</li>
+					<li>
+						<div class="ch-item">				
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-1"></div>
+								<div class="ch-info-back">
+									<h3>HEAD</h3>
+									<p><a href="https://www.facebook.com/dhananjay.me" target="_blank">Dhananjay Singh</a></p>
+									<span>+91-9796-405080</span>
+									<span>djsanj99@gmail.com</span>
+								</div>	
+							</div>
+						</div>
+					</li>
+					<li class="sec_head">Technical Head</li>
+					<li>
+						<div class="ch-item">				
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-2"></div>
+								<div class="ch-info-back">
+									<h3>Tech Head</h3>
+									<p><a href="https://www.facebook.com/I.am.d.Rishabh" target="_blank"> Rishabh Shukla</a></p>
+									<span>+91-9086-250987</span>
+									<span>rishy.s13@gmail.com</span>
+								</div>	
+							</div>
+						</div>
+					</li>
+					
+				</ul>
+
+				<ul class="ch-grid">
+					<li>Public Relations</li>
+					<li>
+						<div class="ch-item">				
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-3"></div>
+								<div class="ch-info-back">
+									<h3>Public</h3>
+									<p><a href="https://www.facebook.com/profile.php?id=100004947096093" target="_blank"> Megha Sharma</a></p>
+									<span>+91-9086-118089</span>
+									<span>meghas19@yahoo.co.in</span>
+								</div>	
+							</div>
+						</div>
+					</li>
+					
+				</ul>
+				<ul class="ch-grid">
+					<li>Sponsorship Cell</li>
+					<li>
+						<div class="ch-item">				
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-4"></div>
+								<div class="ch-info-back">
+									<h3>Sponsorship</h3>
+									<p><a href="https://www.facebook.com/gkpgauravsingh" target="_blank">Gaurav Singh</a></p>
+									<span>+91-9796-446317</span>
+									<span>2011eec54@gmail.com</span>
+								</div>	
+							</div>
+						</div>
+					</li>
+					
+					<li>
+						<div class="ch-item">				
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-5"></div>
+								<div class="ch-info-back">
+									<h3>Sponsorship</h3>
+									<p><a href="https://www.facebook.com/navjotsingh.sasan" target="_blank">Navjot Sasan</a></p>
+									<span>+91-9622-074246</span>
+									<span>navvi.singh4@gmail.com</span>
+								</div>	
+							</div>
+						</div>
+					</li>
+					
+				</ul>
+
+				<ul class="ch-grid">
+					<li>Graphics And Design</li>
+					<li>
+						<div class="ch-item">				
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-9"></div>
+								<div class="ch-info-back">
+									
+									<h3>Design</h3>
+									<p><a href="https://www.facebook.com/maurya.aakash1" target="_blank">Akash Maurya</a></p>
+									<span>maurya.aakash1@gmail.com</span>
+									<span>+91-9797602140</span>
+								</div>	
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="ch-item">				
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-10"></div>
+								<div class="ch-info-back">
+									<h3>Design</h3>
+									<p><a href="https://www.facebook.com/raza2393" target="_blank">Ahmed Raza</a></p>
+									<span>raza2393@gmail.com</span><br>
+									<span>+91-9796-288428</span>
+								</div>	
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="ch-item">				
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-11"></div>
+								<div class="ch-info-back">
+									<h3>Design</h3>
+									<p><a href="https://www.facebook.com/pankajpandey890" target="_blank">Pankaj Pandey</a></p>
+									<span>pankajpandey890@gmail.com</span>
+									<span>+91-9797-519217</span>
+									
+								</div>	
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="ch-item">				
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-12"></div>
+								<div class="ch-info-back">
+									<h3>Graphics</h3>
+									<p><a href="https://www.facebook.com/nikhil.kamtam" target="_blank">Nikhil Kamtam</a></p>
+									<span> nikhilsascent@gmail.com</span><br>
+									<span>+91-9797-517443</span>
+									
+								</div>	
+							</div>
+						</div>
+					</li>
+				</ul>
+
+				<ul class="ch-grid">
+					<li>Web Team</li>
+					<li>
+						<div class="ch-item">				
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-6"></div>
+								<div class="ch-info-back">
+									<h3>Web</h3>
+									<p><a href="https://www.facebook.com/sunnyLA.Gupta" target="_blank">Sunny Gupta</a></p>
+									<span>sunnylautner4@gmail.com</span>
+									<span>+91-9086-724946</span>
+								</div>	
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="ch-item">				
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-2"></div>
+								<div class="ch-info-back">
+									<h3>Web Designer</h3>
+									<p><a href="https://www.facebook.com/I.am.d.Rishabh" target="_blank">Rishabh Shukla</a></p>
+									<span>rishy.s13@gmail.com</span><br>
+									<span>+91-9086-250987</span>
+								</div>	
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="ch-item">
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-7"></div>
+								<div class="ch-info-back">
+									<h3>Web Expert</h3>
+									<p><a href="https://www.facebook.com/AKSHAYPRATAP007" target="_blank" >Akshay Pratap Singh</a></p>
+									<span>pratapakshay0@gmail.com</span>
+									<span>+91-9086-250656</span>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="ch-item">
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-8"></div>
+								<div class="ch-info-back">
+									<h3>Web</h3>
+									<p><a href="https://ww.facebook.com/parthpankajtiwary" target="_blank">Parth Pankaj</a></p>
+									<span>parthpankajtiwary@gmail.com</span>
+									<span>+91-9797-521874</span>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+
+				<ul class="ch-grid">
+					<li>Committee </li>
+					<li>
+						<div class="ch-item">				
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-13"></div>
+								<div class="ch-info-back">
+									<h3>Mouse</h3>
+									<p><a href="www.facebook.com/sunnyLA.Gupta" target="_blank"> Taylor Lautner</a></p>
+								</div>	
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="ch-item">				
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-14"></div>
+								<div class="ch-info-back">
+									<h3>Mouse</h3>
+									<p><a href="www.facebook.com/sunnyLa.Gupta" target="_blank">Taylor Lautner</a></p>
+								</div>	
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="ch-item">
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-15"></div>
+								<div class="ch-info-back">
+									<h3>You</h3>
+									<p>by Zoe Ingram <a href="http://drbl.in/eCcV">View on Dribbble</a></p>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="ch-item">
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-16"></div>
+								<div class="ch-info-back">
+									<h3>Love</h3>
+									<p>by Eileen Tjan <a href="http://drbl.in/ewTL">View on Dribbble</a></p>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+				
+		</div>
+		
+	</div>
+	
+</section>
 
 		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
