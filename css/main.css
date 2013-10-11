@@ -2390,7 +2390,250 @@ perspective effects (not including the modals and the overlay).
     opacity: 1;
 }
 
-/* ============================   */
+/* ============coordinators Page css ================   */
+
+#coord{
+    height: 100%;
+    background-color: rgba(13, 19, 12, 1);
+    font-size: 12px;
+    position: relative;
+    color: #fff;
+    font-family: "Ubuntu-L"
+}
+
+#co_head{
+    padding-top: 2%;
+    font-size: 3vw;
+    text-align: center;
+
+}
+.sec_head{
+    font-weight: bold;
+    position: relative;
+    font-size: 20px;
+    padding: 80px 0px;
+}
+
+#co_table{
+    margin-top: 3%;
+    margin-left: 3%;
+    
+    line-height: 1.2;
+    width: 90%;
+    height: 75%;
+    overflow: auto;
+
+}
+
+.ch-item {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: relative;
+    cursor: default;
+    -webkit-perspective: 900px;
+    -moz-perspective: 900px;
+    -o-perspective: 900px;
+    -ms-perspective: 900px;
+    perspective: 900px;
+}
+.ch-info{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+.ch-info > div {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-position: center center;
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    -ms-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+    -webkit-transform-origin: 50% 0%;
+    -moz-transform-origin: 50% 0%;
+    -o-transform-origin: 50% 0%;
+    -ms-transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
+}
+
+.ch-info .ch-info-front {
+    box-shadow: inset 0 0 0 16px rgba(0,0,0,0.3);
+}
+
+.ch-info .ch-info-back {
+    -webkit-transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
+    -moz-transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
+    -o-transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
+    -ms-transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
+    transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
+    background: #000;
+    opacity: 0;
+}
+
+.ch-img-1 { 
+    background-image: url(../img/3.jpg);
+}
+
+.ch-img-2 { 
+    background-image: url(../img/5.jpg);
+}
+
+.ch-img-3 { 
+    background-image: url(../img/1.jpg);
+}
+.ch-img-4 { 
+    background-image: url(../img/1.jpg);
+}
+.ch-img-5 { 
+    background-image: url(../img/1.jpg);
+}
+.ch-img-6 { 
+    background-image: url(../img/6.jpg);
+}
+.ch-img-7 { 
+    background-image: url(../img/7.jpg);
+}
+.ch-img-8 { 
+    background-image: url(../img/8.jpg);
+}
+.ch-img-9 { 
+    background-image: url(../img/1.jpg);
+}
+.ch-img-10 { 
+    background-image: url(../img/1.jpg);
+}
+.ch-img-11{ 
+    background-image: url(../img/1.jpg);
+}
+.ch-img-12 { 
+    background-image: url(../img/1.jpg);
+}
+
+.ch-img-13 { 
+    background-image: url(../img/13.jpg);
+}
+
+.ch-img-14 { 
+    background-image: url(../img/14.jpg);
+}
+
+.ch-img-15 { 
+    background-image: url(../img/15.jpg);
+}
+
+.ch-img-16 { 
+    background-image: url(../img/16.jpg);
+}
+
+
+
+
+.ch-info h3 {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+    margin: 0 15px;
+    padding: 30px 0 0 0;
+    height: 50px;
+    font-family: 'Open Sans', Arial, sans-serif;
+    text-shadow: 
+        0 0 1px #fff, 
+        0 1px 2px rgba(0,0,0,0.3);
+}
+
+.ch-info p {
+    color: #fff;
+    padding: 10px 5px;
+    font-style: italic;
+    margin: 0 30px;
+    font-size: 12px;
+    border-top: 1px solid rgba(255,255,255,0.5);
+}
+
+.ch-info p a {
+    display: block;
+    color: #fff;
+    color: rgba(255,255,255,0.7);
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1vw;
+    letter-spacing: 1px;
+    padding-top: 4px;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.ch-info p a:hover {
+    color: #fff222;
+    color: rgba(255,242,34, 0.8);
+}
+
+.ch-item:hover .ch-info-front {
+    -webkit-transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg);
+    -moz-transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg);
+    -o-transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg);
+    -ms-transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg);
+    transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg);
+    opacity: 0;
+}
+
+.ch-item:hover .ch-info-back {
+    -webkit-transform: rotate3d(1,0,0,0deg);
+    -moz-transform: rotate3d(1,0,0,0deg);
+    -o-transform: rotate3d(1,0,0,0deg);
+    -ms-transform: rotate3d(1,0,0,0deg);
+    transform: rotate3d(1,0,0,0deg);
+    opacity: 1;
+}
+
+.ch-grid li:first-child{
+    float: left;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 68px 0px;
+    margin: 20px;
+}
+
+.ch-grid {
+    height: 200px;
+    margin: 10px 0 0 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+    
+    width: 100%;
+}
+
+.ch-grid:after,
+.ch-item:before {
+    content: '';
+    display: table;
+}
+
+.ch-grid:after {
+    clear: both;
+}
+
+.ch-grid li {
+    width: 170px;
+    height: 170px;
+    display: inline-block;
+    margin: 25px;
+}
+
+
 
 /* ============ Class PAGE =========== */
 .page{
@@ -2581,7 +2824,84 @@ input[name="gender"]{
     color:  #D5D5D5;
 }
 
+/* ================== Dashboard ============= */
 
+#tit_dash{
+    padding: 20px;
+    line-height: 1;
+    position: relative;
+    background-color: #000;
+    height: 100%;
+}
+#dash_head{
+    padding: 20px;
+    text-align: center;
+    font-size: 4vw;
+}
+.dash_menu{
+    padding: 6px;
+    height: 30px;
+    margin-left: 12%;
+    cursor: pointer;
+    text-align: center;
+    width: 152px;
+    font-size: 1.5vw;
+    color: #fff;
+
+}
+#Reg_Eve{
+
+    margin-top: 4%;
+}
+
+#My_detail{
+    margin-top: 1%;
+}
+
+.change_dash_menu{
+    color : #000;
+    background-color : #fff;
+}
+
+#dashboard{
+    border-radius: 10px;
+    color: #000;
+    float: right;
+    background-color: #fff;
+    margin-right: 6%;
+    margin-top: -83px;
+    position: relative;
+    height: 60%;
+    width: 70%;
+}
+
+#dash_title{
+    position: relative;
+
+    height: 30px;
+}
+.dash_h{
+    padding: 5px;
+    font-weight: bold;
+    font-size: 2vw;
+    width:14%;
+    float: left;
+}
+.reg_event{
+    line-height: 1;
+    padding-left: 10px;
+    float: left;
+    width: 14%;
+}
+
+
+#user_detail{
+    display: none;
+    padding: 10px;
+    width: 60%;
+    margin-top: 2%;
+    margin-left: 10%;
+}
 /* ===============  Sponser's Page Css -======= */
 
 #sponsor_page{
