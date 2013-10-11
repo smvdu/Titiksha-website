@@ -242,14 +242,14 @@ a:hover {
 }
 
 #letters{
-    height: 145%;
-    width: 80.45%;
+    height: 160%;
+    width: 100%;
     -webkit-transform: rotate(14deg);
     transform: rotate(14deg);
     -o-transform: rotate(14deg);
     -moz-transform: rotate(14deg);
     -ms-transform: rotate(14deg);
-    margin: -12% -5%;
+    margin: -18% -12%;
     background-color: #000;
 }
 
@@ -266,7 +266,7 @@ a:hover {
     -ms-transform: rotate(-14deg);
     -o-transform: rotate(-14deg);
     -moz-transform: rotate(-14deg);
-    margin-left: 17%;
+    margin-left: 13%;
 }
 
 /*  css for loader transition  */
@@ -894,9 +894,9 @@ a:hover {
 #right-part{
     position: absolute;   
     height: 135%;
-    width: 30%;
+    width: 35%;
     top: -5%;
-    right: -5%;
+    right: -10%;
     font-family: "Oxygen";   
     color: #000;  
     background-color: #474747;
@@ -1572,8 +1572,10 @@ margin-left: 42%;
     
 }
 #mid-text{
+    position: absolute;
     width: 60%;
-    margin: 3% 0% 0% 5%;
+    top: 100px;
+    left: 18px;
     -webkit-transform: rotate(-14deg);
     -moz-transform: rotate(-14deg);
     -ms-transform: rotate(-14deg);
@@ -1932,7 +1934,7 @@ margin-left: 42%;
     display: none;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1100px) {
   .about_us {
   -moz-column-count:    7;
   -webkit-column-count: 7;
@@ -2670,7 +2672,7 @@ perspective effects (not including the modals and the overlay).
 
 .msg-Box{
     position: fixed;
-    top: 20%;
+    top: 30%;
     width: 50%;
     left: 25%;
     height: auto;

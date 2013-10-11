@@ -24,14 +24,8 @@ input {
 }
 
 body {
-    max-width: 500px;
-    _width: 500px;
-    padding: 30px 20px 50px;
-    border: 1px solid #b3b3b3;
-    border-radius: 4px;
-    margin: 80px auto;
-    box-shadow: 0 1px 10px #a7a7a7, inset 0 1px 0 #fff;
-    background: #fcfcfc;
+    width: 100%;
+    height: 100%;
 }
 
 h1 {
@@ -58,9 +52,92 @@ ul {
     margin: 1em 0;
 }
 
-.container {
-    max-width: 380px;
-    _width: 380px;
-    margin: 0 auto;
+.loginBox {
+    position: relative;
+    width: 400px;
+    max-width: 500px;
+    padding: 30px 20px;
+    border: 1px solid #b3b3b3;
+    border-radius: 4px;
+    margin: 80px auto;
+    box-shadow: 0 1px 10px #a7a7a7, inset 0 1px 0 #fff;
+    background: #fcfcfc;
+}
+form[name="login_form"]{
+    margin: 10px 20px;
+}
+.button{
+    width: 70px;
+    height: auto;
+    background-color: #737373;
+    color: #fff;
+    text-align: center;
+    border: 3px outset #A7A0A0;
+    cursor: pointer;
+}
+.login{
+    float: left;
+    padding: 5px;
+    margin: 10px 80px;
 }
 
+.reset{
+    color: #5762E0;
+    font-size: 16px;
+    float: right;
+    width: 110px;
+    margin: 30px 0px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.msg{
+    color: red;
+}
+
+.dashboard {
+    position: relative;
+    width: 85%;
+    min-height: 500px;
+    padding: 30px 20px;
+    border: 1px solid #b3b3b3;
+    border-radius: 4px;
+    margin: 0px auto;
+    box-shadow: 0 1px 10px #a7a7a7, inset 0 1px 0 #fff;
+    background: #fcfcfc;
+}
+
+.header{
+    position: relative;
+    width: 100%;
+    height: 75px;
+}
+#header-title{
+    font-size: 35px;
+    float: left;
+    width: 85%;
+    text-align: center;
+}
+#logout{
+    cursor: pointer;
+    float: right;
+    width: 15%;
+    text-align: center;
+}
+
+.queryBox{
+    position: relative;
+    width: 100%;
+    min-height: 400px;
+}
+
+.query_content{
+    width: 60%;
+    float: left;
+    padding: 0px 0px 0px 90px;
+
+}
+.query_submit{
+    width: 30%;
+    float: right;
+    padding: 0px 0px;
+}

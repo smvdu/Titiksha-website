@@ -98,11 +98,11 @@ $(document).ready(function(){
     /****    Form related js -  Don't dare to touch it otherwise sky fall on you.  *****/
 
     $("#submit_form").click(function(event){
-        var flag=validateForm();
-        if(flag===1){
+        var flag=( validateForm()&&checkEmail() );
+        if(flag==1){
             sendFormDetails();
         }else{
-            var warningMessage="Please fill all the fields.";
+            var warningMessage="Please check and fill all the fields.";
             $(".msg-Box").addClass("md-show warning").css("display","block");
             $(".msg-Box > .msg-content").html(warningMessage);
             $(".msg-Box > .msg-close").css("display","block");

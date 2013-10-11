@@ -27,7 +27,8 @@
 			'".$gender."',
 			'".$password."')";
 
-	$query=mysql_query($sql) or die(mysql_error());
+	$query=mysql_query($sql) ;
+	if(!mysql_error()){
 
 
 
@@ -51,7 +52,12 @@
 	  
 	  $headers = 'From:noreply@titiksha.smvdu.net.in' . "\r\n"; // Set from headers
 	 mail($to, $subject, $message, $headers); // Send the email
-
-
+	 if(!mysql_error())
+	 	echo 'true';
+	 else
+	 	echo 'false';
+	}else{
+		echo 'false';
+	}
 	  mysql_close();
 ?>

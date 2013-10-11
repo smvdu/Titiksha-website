@@ -32,7 +32,7 @@ if (!xmlhttp && typeof XMLHttpRequest != 'undefined') {
 var strPassword;  
 var charPassword;  
 var complexity = $("#complexity");  
-var minPasswordLength = 8;  
+var minPasswordLength = 5;  
 var baseScore = 0, score = 0;  
   
 var num = {};  
@@ -70,7 +70,6 @@ function checkEmailRegistered() {
     xmlhttp.open("GET", serverPage);
     xmlhttp.onreadystatechange = function() {
         if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
-            console.log(xmlhttp.responseText);
            if(new String(xmlhttp.responseText)=="true"){
                 resetFields();
                 var warningMessage="* Email-id is already registered.";
@@ -118,18 +117,26 @@ function sendFormDetails() {
 	var college=document.forms["reg_form"]["college"].value;
 	var year=document.forms["reg_form"]["year"].value;
 	var contact=document.forms["reg_form"]["contact"].value;
-	var gender=$("#reg_form input[type='radio']:checked").val();;
+	var gender=$("#reg_form input[type='radio']:checked").val();
 	var password=document.forms["reg_form"]["password"].value;
 
 	var serverPage= "php/registerUser.php?name="+name+"&email="+email+"&college="+college+"&year="+year+"&contact="+contact+"&gender="+gender+"&password="+password;
 	xmlhttp.open("GET", serverPage);
 	xmlhttp.onreadystatechange = function() {
 		if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
-			resetFields();
-			var confirmMessage="You have been successfully registered !.<br> An email has been sent on your registered email-id.";
-            $(".msg-Box").addClass("md-show confirmation").css("display","block");
-            $(".msg-Box > .msg-content").html(confirmMessage);
-            $(".msg-Box > .msg-close").css("display","block");
+            if(new String(xmlhttp.responseText)=="true"){
+    			resetFields();
+    			var confirmMessage="You have been successfully registered !.<br> An email has been sent on your registered email-id.";
+                $(".msg-Box").addClass("md-show confirmation").css("display","block");
+                $(".msg-Box > .msg-content").html(confirmMessage);
+                $(".msg-Box > .msg-close").css("display","block");
+            }else{
+                resetFields();
+                var warningMessage="Sorry , Server does not respond .<br> Please try again later.";
+                $(".msg-Box").addClass("md-show warning").css("display","block");
+                $(".msg-Box > .msg-content").html(warningMessage);
+                $(".msg-Box > .msg-close").css("display","block");
+            }    
 		}
 	}
 	xmlhttp.send(null);
