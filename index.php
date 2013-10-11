@@ -6,6 +6,7 @@
   *
   */
 
+  	session_start();
 	/* Local configurations/ overrides
 	***********************************************/	
 	# set default timezone
@@ -1248,8 +1249,8 @@
 											<ul>
 
 
-												<li><strong>Event co-ordinator: </strong> Danish | Mansi | Neha Sharma</li>
-												<li><strong>Contact: </strong> +91-9086255280</li>
+												<li><strong>Event co-ordinator: </strong>DANISH SIDDIQUI</li>
+												<li><strong>Contact: </strong>+91-9796-415772</li>
 
 
 											</ul>
@@ -2033,6 +2034,39 @@ $sponsors = array(
 				<div id="join">
 					<button id="submit_form">Submit Details</button>
 				</div>
+
+				<div id="login_div">
+					<div id="log_head">LOGIN </div>
+					<form id="login" name="login" method="POST" >
+						<table>
+							<tr>
+								
+								<td>
+
+									<span><img src="img/icomoon/mail.png" /></span>
+									<input name="email" type="email" size="30" maxlength="35"  autocomplete="off" placeholder="Email Address"/>
+									<div id="email_warning" style="display:none"></div>
+								</td>
+								<td></td>
+							</tr>
+							<tr>
+								
+								<td>
+									<span><img src="img/icomoon/key.png" /></span>
+									<input name="password" id="password" type="password" autocomplete="off" placeholder="Password"/>
+									<div id="complexity" style="display: none;"></div>
+								</td>
+								<td></td>
+							</tr>
+						</table>
+						
+					</form>
+					<div id="log_in">
+						<button id="log_but">Log In</button>
+					</div>
+						
+				</div>
+				
 				<div id="reg_query">
 					<span>For any queries, Contact</span>
 					<h4>Megha Sharma</h4>
@@ -2289,21 +2323,23 @@ $sponsors = array(
 							</div>
 						</div>
 					</li>
-					<li class="sec_head">Technical Head</li>
-					<li>
-						<div class="ch-item">				
-							<div class="ch-info">
-								<div class="ch-info-front ch-img-2"></div>
-								<div class="ch-info-back">
-									<h3>Tech Head</h3>
-									<p><a href="https://www.facebook.com/I.am.d.Rishabh" target="_blank"> Rishabh Shukla</a></p>
-									<span>+91-9086-250987</span>
-									<span>rishy.s13@gmail.com</span>
-								</div>	
-							</div>
-						</div>
-					</li>
 					
+					<ul style="float:left;">
+						<li>Technical Head</li>
+						<li>
+							<div class="ch-item">				
+								<div class="ch-info">
+									<div class="ch-info-front ch-img-2"></div>
+									<div class="ch-info-back">
+										<h3>Tech Head</h3>
+										<p><a href="https://www.facebook.com/I.am.d.Rishabh" target="_blank"> Rishabh Shukla</a></p>
+										<span>+91-9086-250987</span>
+										<span>rishy.s13@gmail.com</span>
+									</div>	
+								</div>
+							</div>
+						</li>
+					</ul>	
 				</ul>
 
 				<ul class="ch-grid">
@@ -2471,14 +2507,16 @@ $sponsors = array(
 				</ul>
 
 				<ul class="ch-grid">
-					<li>Committee </li>
+					<li>Committee Head</li>
 					<li>
 						<div class="ch-item">				
 							<div class="ch-info">
 								<div class="ch-info-front ch-img-13"></div>
 								<div class="ch-info-back">
-									<h3>Mouse</h3>
-									<p><a href="www.facebook.com/sunnyLA.Gupta" target="_blank"> Taylor Lautner</a></p>
+									<h3>Cultural</h3>
+									<p><a href="https://www.facebook.com/ashish.sharma.775823" target="_blank"> Ashish Mansotra</a></p>
+									<span></span>
+									<span>+91-9906-284534</span>
 								</div>	
 							</div>
 						</div>
@@ -2488,8 +2526,10 @@ $sponsors = array(
 							<div class="ch-info">
 								<div class="ch-info-front ch-img-14"></div>
 								<div class="ch-info-back">
-									<h3>Mouse</h3>
-									<p><a href="www.facebook.com/sunnyLa.Gupta" target="_blank">Taylor Lautner</a></p>
+									<h3>Publicity</h3>
+									<p><a href="https://www.facebook.com/tribh619" target="_blank">Tribhuvan Khajuria</a></p>
+									<span></span>
+									<span>+91-9796-063005</span>
 								</div>	
 							</div>
 						</div>
@@ -2499,8 +2539,10 @@ $sponsors = array(
 							<div class="ch-info">
 								<div class="ch-info-front ch-img-15"></div>
 								<div class="ch-info-back">
-									<h3>You</h3>
-									<p>by Zoe Ingram <a href="http://drbl.in/eCcV">View on Dribbble</a></p>
+									<h3>Documentation</h3>
+									<p><a href="https://www.facebook.com/akshay.bhat.31" target="_blank">Akshay Bhat</a></p>
+									<span></span>
+									<span></span>
 								</div>
 							</div>
 						</div>
@@ -2510,13 +2552,46 @@ $sponsors = array(
 							<div class="ch-info">
 								<div class="ch-info-front ch-img-16"></div>
 								<div class="ch-info-back">
-									<h3>Love</h3>
-									<p>by Eileen Tjan <a href="http://drbl.in/ewTL">View on Dribbble</a></p>
+									<h3>Management</h3>
+									<p><a href="https://www.facebook.com/ranvijay.singh.750983" target="_blank">Ranvijay Singh</a></p>
+									<span></span>
+									<span>+91-9796-445012</span>
 								</div>
 							</div>
 						</div>
 					</li>
 				</ul>
+				<ul class="ch-grid">
+					<li></li>
+					<li>
+						<div class="ch-item">
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-16"></div>
+								<div class="ch-info-back">
+									<h3>Protocol</h3>
+									<p><a href="https://www.facebook.com/0SUPERNOVA0" target="_blank">Sahil Khushlani</a></p>
+									<span></span>
+									<span>+ 91-9622-356797</span>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="ch-item">
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-16"></div>
+								<div class="ch-info-back">
+									<h3>Logistic</h3>
+									<p><a href="https://www.facebook.com/dharmesh.kr2011" target="_blank">Dharmesh Kumar</a></p>
+									<span></span>
+									<span>+91-9419-909212</span>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+
+
 				
 		</div>
 		
