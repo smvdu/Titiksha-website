@@ -2290,21 +2290,23 @@ $sponsors = array(
 							</div>
 						</div>
 					</li>
-					<li class="sec_head">Technical Head</li>
-					<li>
-						<div class="ch-item">				
-							<div class="ch-info">
-								<div class="ch-info-front ch-img-2"></div>
-								<div class="ch-info-back">
-									<h3>Tech Head</h3>
-									<p><a href="https://www.facebook.com/I.am.d.Rishabh" target="_blank"> Rishabh Shukla</a></p>
-									<span>+91-9086-250987</span>
-									<span>rishy.s13@gmail.com</span>
-								</div>	
-							</div>
-						</div>
-					</li>
 					
+					<ul style="float:left;">
+						<li>Technical Head</li>
+						<li>
+							<div class="ch-item">				
+								<div class="ch-info">
+									<div class="ch-info-front ch-img-2"></div>
+									<div class="ch-info-back">
+										<h3>Tech Head</h3>
+										<p><a href="https://www.facebook.com/I.am.d.Rishabh" target="_blank"> Rishabh Shukla</a></p>
+										<span>+91-9086-250987</span>
+										<span>rishy.s13@gmail.com</span>
+									</div>	
+								</div>
+							</div>
+						</li>
+					</ul>	
 				</ul>
 
 				<ul class="ch-grid">
@@ -2472,14 +2474,16 @@ $sponsors = array(
 				</ul>
 
 				<ul class="ch-grid">
-					<li>Committee </li>
+					<li>Committee Head</li>
 					<li>
 						<div class="ch-item">				
 							<div class="ch-info">
 								<div class="ch-info-front ch-img-13"></div>
 								<div class="ch-info-back">
-									<h3>Mouse</h3>
-									<p><a href="www.facebook.com/sunnyLA.Gupta" target="_blank"> Taylor Lautner</a></p>
+									<h3>Cultural</h3>
+									<p><a href="https://www.facebook.com/ashish.sharma.775823" target="_blank"> Ashish Mansotra</a></p>
+									<span></span>
+									<span>+91-9906-284534</span>
 								</div>	
 							</div>
 						</div>
@@ -2489,8 +2493,10 @@ $sponsors = array(
 							<div class="ch-info">
 								<div class="ch-info-front ch-img-14"></div>
 								<div class="ch-info-back">
-									<h3>Mouse</h3>
-									<p><a href="www.facebook.com/sunnyLa.Gupta" target="_blank">Taylor Lautner</a></p>
+									<h3>Publicity</h3>
+									<p><a href="https://www.facebook.com/tribh619" target="_blank">Tribhuvan Khajuria</a></p>
+									<span></span>
+									<span>+91-9796-063005</span>
 								</div>	
 							</div>
 						</div>
@@ -2500,8 +2506,10 @@ $sponsors = array(
 							<div class="ch-info">
 								<div class="ch-info-front ch-img-15"></div>
 								<div class="ch-info-back">
-									<h3>You</h3>
-									<p>by Zoe Ingram <a href="http://drbl.in/eCcV">View on Dribbble</a></p>
+									<h3>Documentation</h3>
+									<p><a href="https://www.facebook.com/akshay.bhat.31" target="_blank">Akshay Bhat</a></p>
+									<span></span>
+									<span></span>
 								</div>
 							</div>
 						</div>
@@ -2511,13 +2519,46 @@ $sponsors = array(
 							<div class="ch-info">
 								<div class="ch-info-front ch-img-16"></div>
 								<div class="ch-info-back">
-									<h3>Love</h3>
-									<p>by Eileen Tjan <a href="http://drbl.in/ewTL">View on Dribbble</a></p>
+									<h3>Management</h3>
+									<p><a href="https://www.facebook.com/ranvijay.singh.750983" target="_blank">Ranvijay Singh</a></p>
+									<span></span>
+									<span>+91-9796-445012</span>
 								</div>
 							</div>
 						</div>
 					</li>
 				</ul>
+				<ul class="ch-grid">
+					<li></li>
+					<li>
+						<div class="ch-item">
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-16"></div>
+								<div class="ch-info-back">
+									<h3>Protocol</h3>
+									<p><a href="https://www.facebook.com/0SUPERNOVA0" target="_blank">Sahil Khushlani</a></p>
+									<span></span>
+									<span>+ 91-9622-356797</span>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="ch-item">
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-16"></div>
+								<div class="ch-info-back">
+									<h3>Logistic</h3>
+									<p><a href="https://www.facebook.com/dharmesh.kr2011" target="_blank">Dharmesh Kumar</a></p>
+									<span></span>
+									<span>+91-9419-909212</span>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+
+
 				
 		</div>
 		
