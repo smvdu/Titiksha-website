@@ -2493,10 +2493,10 @@ perspective effects (not including the modals and the overlay).
     background-image: url(../img/1.jpg);
 }
 .ch-img-4 { 
-    background-image: url(../img/1.jpg);
+    background-image: url(../img/9.jpg);
 }
 .ch-img-5 { 
-    background-image: url(../img/1.jpg);
+    background-image: url(../img/11.jpg);
 }
 .ch-img-6 { 
     background-image: url(../img/6.jpg);
@@ -2508,28 +2508,28 @@ perspective effects (not including the modals and the overlay).
     background-image: url(../img/8.jpg);
 }
 .ch-img-9 { 
-    background-image: url(../img/1.jpg);
+    background-image: url(../img/13.jpg);
 }
 .ch-img-10 { 
-    background-image: url(../img/1.jpg);
+    background-image: url(../img/12.jpg);
 }
 .ch-img-11{ 
-    background-image: url(../img/1.jpg);
+    background-image: url(../img/14.jpg);
 }
 .ch-img-12 { 
-    background-image: url(../img/1.jpg);
+    background-image: url(../img/15.jpg);
 }
 
 .ch-img-13 { 
-    background-image: url(../img/13.jpg);
+    background-image: url(../img/16.jpg);
 }
 
 .ch-img-14 { 
-    background-image: url(../img/14.jpg);
+    background-image: url(../img/17.jpg);
 }
 
 .ch-img-15 { 
-    background-image: url(../img/15.jpg);
+    background-image: url(../img/19.jpg);
 }
 
 .ch-img-16 { 
@@ -2726,7 +2726,7 @@ perspective effects (not including the modals and the overlay).
 
 #reg_form{
     line-height: 2.4;
-    margin: -20px auto;
+   margin: 10px 0px 20px 200px;
     width: 440px;
     padding: 10px;
     background: rgba(128, 128, 128, 0.27);
@@ -2802,7 +2802,7 @@ input[name="gender"]{
     padding: 10px;
     position: relative;
     font-size: 130%;
-    margin: 20px auto;
+    margin-left: 240px;
     width: 350px;
 }
 
@@ -2820,11 +2820,65 @@ input[name="gender"]{
 #reg_query{
     line-height: 0.5vw;
     position: absolute;
-    top: 60%;
-    right: 7%;
+    top: 70%;
+    right: 20%;
     color:  #D5D5D5;
 }
+#log_head{
+    font-size: 2vw;
+    text-align: center;
+}
 
+#login_div{
+    padding: 10px;
+    position: absolute;
+    right: 10%;
+    top: 20%;
+}
+
+#login_div form{
+    background-color: #000;
+}
+#login_div  input{
+    border: 0px;
+    height: 40px;
+    width: 275px;
+    text-indent: 20px;
+    font-family: "Ubuntu-L";
+}
+
+#login_div span img{
+    height: 60%;
+    width: 60%;
+    margin: 8px auto;
+    display: block;
+    -webkit-filter: opacity(70%);
+    -moz-filter: opacity(70%);
+    -o-filter: opacity(70%);
+    -ms-filter: opacity(70%);
+     filter: opacity(70%);
+}
+
+#login_div span{
+    float: left;
+    height: 40px;
+    width: 40px;
+    background-color: #E9E9E9;
+}
+
+
+#log_in button{
+    
+    font-family: "Ubuntu-L";
+    color: #fff;
+    margin-left: 44px;
+    margin-top: 15px;
+    display: block;
+    border: 0;
+    width: 30%;
+    height: 30px;
+    background-color: rgba(26, 154, 178, 0.8);
+}
 /* ================== Dashboard ============= */
 
 #tit_dash{
