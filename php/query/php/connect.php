@@ -17,9 +17,4 @@
 	$sql= file_get_contents('table.sql');
 	mysql_query($sql) or die(mysql_error());
 
-/*	$username="admin";
-	$password=md5("pratap");
-	$query="INSERT INTO admin (`username`,`password`) VALUES('".$username."','".$password."')";
-	mysql_query($query) or die(mysql_error());
-*/
 ?>
