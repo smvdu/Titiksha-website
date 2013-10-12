@@ -20,4 +20,8 @@ $(document).ready(function(){
 	$(".submit").click(function(){
 		sendQuery();
 	});
+
+	$("#reset-query").click(function(){
+		$(".queryBox input").val("");
+	});
 });

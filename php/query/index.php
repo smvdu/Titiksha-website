@@ -75,37 +75,46 @@
                 <form name="query_Box" id="query_Box" method="post"  autocomplete="off">
                     <table width="100%">
                         <tr>
-                            <td width="100%">
+                            <td style="width:65%;">
                                 <div class="query_content">
                                     <label for="query">SQL Query: </label>
-                                    <input name="query" type="text" size="55" maxlength="500" autocomplete="off"/>
+                                    <input name="query" type="text" size="55" maxlength="500" autocomplete="off" value="select * from registered_users"/>
                                 </div>
+                            </td>
+                            <td style="width:20%;">
                                 <div class="query_submit">
                                     <div class="submit button">Submit</div>
+                                </div>
+                            </td>
+                            <td style="width:15%;">
+                                <div class="query_reset">
+                                   <div id="reset-query">Reset the query</div>
                                 </div>
                             </td>
                         </tr>
                     </table>
                 </form>
             </div>  
-            <div class="queryResult">
-                <div id="content"> </div>
-                <table id="mytable"></table>
+            <div class="loading-bar" style="display:none;">
+                <div id="loading">Loading</div>
+            </div>
+            <div class="queryResult" style="display:none;">
+                <div id="result-head">
+                    <div id="head-content"></div>
+                    <div id="print"><input type="button" value="Print" onclick="printPage('result-content');"></input></div>
+                </div>
+                <div id="result-content">
+                    <table id="mytable"></table>
+                </div>
             </div>
         </div>
         <?php } ?>
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="../../js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+        
+        <script src="../../js/vendor/jquery-1.9.1.min.js"></script>
         <script src="../../js/plugins.js"></script>
         <script src="js/functions.js"></script>
         <script src="js/main.js"></script>
     
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
-        </script>
+       
     </body>
 </html>
