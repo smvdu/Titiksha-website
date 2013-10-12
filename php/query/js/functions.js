@@ -89,28 +89,73 @@ function sendQuery(){
 	xmlhttp.open("GET", serverPage);
     xmlhttp.onreadystatechange = function() {
         if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+        	$(".loading-bar").fadeOut(100);
            if(new String(xmlhttp.responseText)==""){
-               alert("error");
+               alert("Oops,Something goes wrong");
            }else{
+           		$(".queryResult").show();
            		resetQueryBox();
            		var data = jQuery.parseJSON(xmlhttp.responseText);
            		JSON.stringify(data);
            		printData(data);
            }        
+        }else if(xmlhttp.readyState < 4 && xmlhttp.status == 200 ){
+        	$(".loading-bar").fadIn(100);
         }
     }
     xmlhttp.send(null);
 }
+
 function resetQueryBox() {
-	$("#content").html("");
-	$(".queryResult").html("");
+	$("#head-content").html("");
+	$("#mytable").html("");
 }
 function printData(data){
-	var len=data.length;
-	$("#content").html("Total Number of Records:<strong>"+len+"</strong>");
+	var len="  "+data.length;
+	$("#head-content").html("Total Number of Records:<strong>"+len+"</strong><br>");
+	var row=0;
+
+	// print the title of table
+	var newRow = $('<tr>').appendTo("#mytable");
 	$.each(data,function(i,item){
+		++row;
 		$.each(item,function(k,content){
-			$(".queryResult").append(k+" : "+content+"<br>");
+			if(row==1){
+				var title=k.replace(/[_]/g," ");
+				title=toTitleCase(title);
+				if(title!="Password")
+					$("<th>"+title+"</th>").appendTo(newRow);
+			}	
+		});	
+	});
+
+
+	// print the content of table
+	$.each(data,function(i,item){
+		newRow =$('<tr>').appendTo("#mytable");
+		$.each(item,function(k,content){
+			if(toTitleCase(k)!="Password")
+			$("<td>"+content+"</td>").appendTo(newRow );
 		});
 	});
+}
+
+function toTitleCase(str)
+{
+    return str.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
+}
+
+function printPage(id)
+{
+   var html="<html>\n<head>\n<link rel='stylesheet' href='css/print.css'>\n</head>";
+   html+="<body>\n<div class='container'>\n<div class='header'>Titiksha 2k13</div>\n<div class='content'>";
+   html+= document.getElementById(id).innerHTML;
+   html+="</div></div></body></html>";
+
+   var printWin = window.open('','_blank','left=0,top=0,width=1000,height=600,toolbar=0,scrollbars=1,status=0');
+   printWin.document.write(html);
+   printWin.document.close();
+   printWin.focus();
+   printWin.print();
+   //printWin.close();
 }
