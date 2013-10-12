@@ -127,16 +127,53 @@ form[name="login_form"]{
 .queryBox{
     position: relative;
     width: 100%;
+    height: 55px;
 }
 
 .query_content{
-    width: 60%;
-    float: left;
-    padding: 0px 0px 0px 90px;
-
+    float: right;
 }
 .query_submit{
-    width: 30%;
-    float: right;
-    padding: 0px 0px;
+    margin: 0px 20px;
 }
+
+#reset-query{
+    color: #5762E0;
+    font-size: 16px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#result-head{
+    width: 100%;
+    height: 40px;
+}
+
+#head-content{
+    width: 300px;
+    float: left;
+}
+
+#print{
+    width: 100px;
+    float: right;
+}
+
+.queryResult table {
+    width: 100%;
+    text-align: center;
+}
+
+.queryResult table tr:nth-child(2n) {
+    background-color: #FFF;
+}
+.queryResult table tr:nth-child(2n+1) {
+    background-color: rgb(211, 211, 211);
+}
+.queryResult table th {
+    border: 1px solid #000;
+}
+
+.queryResult table td {
+    border: 1px solid #000;
+}
+  
