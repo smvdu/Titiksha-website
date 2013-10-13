@@ -428,8 +428,8 @@
 												the valedictory ceremony in auditorium.</p>
 
 											<ul>
-												<li><strong>Event Co-ordinator :</strong> Ashish Singh | Chandan Jha </li>
-												<li><strong>Contact :</strong> +91-9596-997294 | +91-9086-728974</li>
+												<li><strong>Event Co-ordinator :</strong> Pawan Kumar | Chandan Jha </li>
+												<li><strong>Contact :</strong> +91-9596-915301 | +91-9086-728974</li>
 											</ul>
 
 											
@@ -1076,7 +1076,7 @@
 							<div class="uc-container">
 
 								<div class="md-trigger" data-modal="modal-19">
-									<span class="icon-eye">WAVEMANIA</span>
+									<span class="icon-eye"><em>WAVEMANIA</em></span>
 
 									<p>Check whether you have the basic knowledge of electrical components.</p>
 								</div>
@@ -1112,7 +1112,7 @@
 							<div class="uc-container">
 
 								<div class="md-trigger" data-modal="modal-20">
-									<span class="icon-eye">ELECTRO-QUIZ</span>
+									<span class="icon-eye"><em>ELECTRO-QUIZ</em></span>
 									<p>A quiz regarding lab instruments and related to technology.</p>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-20">
@@ -1142,7 +1142,7 @@
 							<div class="uc-container">
 
 								<div class="md-trigger" data-modal="modal-21">
-									<span class="icon-eye">ELECTRO-AVATAR</span>
+									<span class="icon-eye"><em>EMO-EXPRESS22</em></span>
 
 									<p>This  event  is  a  blend  of  science  and  imagination.  Design  your  own
 										super  hero  and  win  prizes.</p>
@@ -1153,21 +1153,27 @@
 											<button class="md-register register">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
-										<h3>ELECTRO-AVATAR</h3>
+										<h3>EMO-EXPRESS22</h3>
 										<div>
-											<p>This  event  is  a  blend  of  <strong>science</strong>  and  <strong>imagination</strong>.  Design  your  own
-												super  hero  and  win  prizes.  Participants  will  form  pairs,  and  they  have
-												to  write  a fictitious short  story  based  on  the  picture  shown  to  them  at
-												the  event  venue.
-												The  top  participants  will  make  a  short  movie  on  their  superhero of the
-												length  of  their  choice  and  the  best  video  would  be  shown  in  the
-												Matrika Auditorium during the valedictory of Titiksha.</p>
+											<p>Are you addicted to click snaps. Now titiksha 2k13 giving you a chance to xpress 
+											your emotion with the help of snaps by making a STORY  on them. Story will based 
+											on a topic which u would decide ur own. And present ur story in form of slide show.</p>
+											<ul>
+												<li><strong>round 1 :</strong> Participants can submit their ppts to undersigned.Selected 22 candidates allowed in round 2.</li>
+												<li><strong>round 2 :</strong> Selected participants  can give their presentation in front of judges.</li>
+											<br>
+											<strong>Rules :</strong> 
+											<li>max. 22 snaps allowed in a slide show.</li>
+											<li>you are allowed to choose any topic for your story.</li>
+											</ul>
+											<p><strong>Judging criteria :</strong> selection is based on how effective ur story on ur snaps and topic.</p>
+
 											<br><br>
 											<ul>
 
 
-												<li><strong>Event co-ordinator: </strong> Ashish Singh</li>
-												<li><strong>Contact: </strong> +91-9596997294</li>
+												<li><strong>Event co-ordinator: </strong> APOORV SHUKLA | BRIJESH | SHIKHA </li>
+												<li><strong>Contact: </strong> +91-9086-119935</li>
 
 											</ul>
 											
@@ -1179,7 +1185,7 @@
 							<div class="uc-container">
 
 								<div class="md-trigger" data-modal="modal-22">
-									<span class="icon-eye">CIRCUIT-BUG</span>
+									<span class="icon-eye"><em>CIRCUIT-BUG</em></span>
 
 									<p>An event for those obsessed with circuits, comprising of two rounds.</p>
 								</div>
@@ -1281,12 +1287,12 @@
 							
 							<div class="uc-container">
 
-								<div class="md-trigger" data-modal="modal-55">
-									<span class="icon-eye">ELECTRO TRADE</span>
+								<div class="md-trigger" data-modal="modal-56">
+									<span class="icon-eye"><em>ELECTRO TRADE</em></span>
 
 									<p>Get your Technology knowledge checked here.</p>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-55">
+								<div class="md-modal md-effect-11" id="modal-56">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -1867,8 +1873,110 @@
 							
 							
 						</div><!-- / grid -->
+
+
 					</div>
 				</div>	
+				
+				<!-- Gaming Events -->
+
+				<div class="branch" id="game">
+					<div class="event_heading">
+						<span class="heading_text">Games</span>
+						<div class="event_close" style="display:none">X</div>
+					</div>
+					<div class="event_content" style="display:none;">
+						<div id="grid">
+						
+							<div class="uc-container">
+								<div class="md-trigger" data-modal="modal-60">
+									<span style="color:#fff;" class="icon-eye">FIFA "11"</span>
+									<p  style="color:#fff;">Show skills in digital football</p>
+								</div>
+								<div class="md-modal md-effect-11" id="modal-60">
+									<div class="md-content">
+										<div class="md-header">
+											<button class="md-register register">Register</button>
+											<button class="md-close close">Close!</button>
+										</div>
+										<h3>FIFA "11"</h3>
+										<div>
+												<img  src="img/fifa.jpg">
+												<p></p>
+											
+											<br><br>
+											<ul>
+												<li><strong>Event co-ordinator: </strong>ADITYA  SHUKLA |  KAVI CHOWDHARY | MANISH  PALIWAL</li>
+												<li><strong>Contact: </strong> +91-9797-602242 | +91-9596-915315 | +91-9086-185529</li>
+											</ul>
+											
+										</div>
+									</div>
+								</div>
+								<div class="md-overlay"></div><!-- the overlay element -->
+							</div><!-- / uc-container -->
+
+							<div class="uc-container">
+								<div class="md-trigger" data-modal="modal-61">
+									<span style="color:#fff;" class="icon-eye">"Counter - Striker"</span>
+									<p  style="color:#fff;"></p>
+								</div>
+								<div class="md-modal md-effect-11" id="modal-61">
+									<div class="md-content">
+										<div class="md-header">
+											<button class="md-register register">Register</button>
+											<button class="md-close close">Close!</button>
+										</div>
+										<h3>"Counter - Striker"</h3>
+										<div>
+											<img  src="img/cs.jpg">
+											<br><br>
+											<ul>
+												
+											</ul>
+											
+										</div>
+									</div>
+								</div>
+								<div class="md-overlay"></div><!-- the overlay element -->
+							</div><!-- / uc-container -->
+
+							<div class="uc-container">
+								<div class="md-trigger" data-modal="modal-62">
+									<span style="color:#fff;" class="icon-eye">"Nfs" - "Most Wanted"</span>
+									<p  style="color:#fff;">Participate and Show how Quick you are into racing.</p>
+								</div>
+								<div class="md-modal md-effect-11" id="modal-62">
+									<div class="md-content">
+										<div class="md-header">
+											<button class="md-register register">Register</button>
+											<button class="md-close close">Close!</button>
+										</div>
+										<h3>Nfs - "Most Wanted"</h3>
+										<div>
+											<img  src="img/nfs.jpg">
+
+											<br><br>
+											<ul>
+												
+											</ul>
+											
+										</div>
+									</div>
+								</div>
+								<div class="md-overlay"></div><!-- the overlay element -->
+							</div><!-- / uc-container -->
+
+
+						</div>
+					</div>
+
+				</div>
+
+
+
+
+
 			</div>
 			
 		</section> <!-- events END -->
@@ -2225,135 +2333,7 @@ $sponsors = array(
 			</div>
 			
 		</section>
-		<!-- container Contact -->
-
-        <section class="page" id="container_contact" data-slide="6">	
-
-			<div class="contact">
-				<div id="cont0">
-					<div id="c7">
-						CONTACTS
-					</div>
-				</div>
-
-
-				<div class="assym_black" id="cont1">
-					<div id="online">
-						<h3>Online Contacts</h3>
-						<a href="https://www.facebook.com/titiksha2k13" target="_blank" style="color: #092241; text-decoration: none;"><img src="img/fb_black.png">Facebook Page</a>
-						<p>Or Drop us a mail on :</p>
-						<i style="color: #2B3752">titiksha.team@gmail.com</i>
-					</div>
-				</div>
-
-				<div class="assym_black" id="cont2">
-					<div id="chief">
-
-						<h4>Chief Student Coordinator</h4>
-						<p class="name">Dhananjay Singh</p>
-						<p class="tel">+91-9796-405080</p>
-						<p clas="mail" >djsanj99@gmail.com</p>
-
-					</div>
-				</div>
-
-				<div class="assym_black" id="cont3">
-					<div id="web">
-
-						<h4>Web Development Team</h4>
-						<p class="name">* Sunny Gupta</p>
-						<p class="tel">+91-9086-724946</p>
-						<p class="name">* Rishabh Shukla</p>
-						<p class="tel">+91-9086-250987</p>
-
-						<p class="name">* Akshay Pratap Singh</p>
-						<p class="tel">+91-9086-260656</p>
-						<p class="name">* Parth Pankaj Tiwary</p>
-						<p class="tel">+91-9797-521874</p>
-						
-
-					</div>					
-				</div>
-
-				<div class="assym_black" id="cont4">
-					<div id="tech">
-						<h4>Technical Event Coordinator</h4>
-
-						<p class="name">Rishabh Shukla</p>
-						<p class="tel">+91-9086-250987</p>
-						<p class="mail" >rishy.s13@gmail.com</pre>
-
-					</div>					
-				</div>
-
-				<div class="assym_black" id="cont5">
-					<div id="design">
-						<h4>SponsorShip Coordinator</h4>
-						<p class="name">Navjot Sasan</p>
-						<p class="tel">91-9622-074246</p>
-						<p class="mail">navvi.singh4@gmail.com</p><br>
-						<p class="name">Gaurav Singh</s>
-						<p class="tel">+91-9796-446317 </p>
-						<p class="mail">2011eec54@gmail.com</p>
-						
-
-					</div>					
-				</div>
-
-				<div class="assym_black" id="cont6">
-					<div id="media">
-						
-						<h4>Designer</h4>
-						<p class="name">Akash Maurya</p>
-						<p class="tel">+91-9797602140</p>
-						<p class="mail" >maurya.aakash1@gmail.com</p>
-						<p class="name">Ahmed Raza</p>
-						<p class="tel">+91-9796-288428</p>
-						<p class="mail" >raza2393@gmail.com</p>
-						<p class="name">Pankaj Pandey</p>
-						<p class="tel">+91-9797-519217</p>
-						<p class="mail" >pankajpandey890@gmail.com</p>
-						
-
-
-					</div>
-				</div>
-
-				<div class="assym_black" id="cont7">
-					
-					<div id="faculty">
-						<h4>Chief Faculty Coordinator</h4>
-						<p class="name">* Dr. Ankush Anand</p>
-						<p class="mail">ankush.anand@smvdu.ac.in</p><br/>
-						<h4>Branch Faculty Coordinators</h4>
-						<p class="name">- A. Prof. Irfan-ul-Haq</p>
-						<p class="mail" >haqmechanical@gmail.com</p>
-						<p class="name">- Lect. Abhimanyu Sharma </p>
-						<p class="mail" >abhimanyu.sharma@smvdu.ac.in </p>
-						<p class="name">- A. Prof. Sudesh Kumar</p>
-						<p class="mail" >sudesh.Bhadu@smvdu.ac.in  </p>
-						<p class="name">- A. Prof. R.K. Jha</p>
-						<p class="mail" >rakesh.jha@smvdu.ac.in</p>
-						<p class="name">- Dr. Swarkar Sharma</p>
-						<p class="mail" ></p>
-						
-
-					</div>
-				</div>
-
-				<div class="assym_black" id="cont8">
-					<div id="discipline">
-						<h4>Publication Relations </h4>
-
-						<p class="name">Megha Sharma</p>
-						<p class="tel">+91-9086-118089</p>
-						<p class="mail">meghas19@yahoo.co.in</p>
-					</div>
-					
-				</div>
-				
-			</div>
-		</section><!-- /container -->	
+		
 
 		<!-- PAGE OF COORDITORS AND CELL COMMITEE -->
 <section class="page" id="container_coord" data-slide="7">
