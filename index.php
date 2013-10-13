@@ -2225,9 +2225,6 @@ $sponsors = array(
 			</div>
 			
 		</section>
-
-<<<<<<< HEAD
-		
 		<!-- container Contact -->
 
         <section class="page" id="container_contact" data-slide="6">	
@@ -2360,12 +2357,6 @@ $sponsors = array(
 
 		<!-- PAGE OF COORDITORS AND CELL COMMITEE -->
 <section class="page" id="container_coord" data-slide="7">
-=======
-	<!-- PAGE OF COORDITORS AND CELL COMMITEE -->
-
-<section class="page" id="container_coord">
->>>>>>> 9284875b0895ee87b07ce8bd3210ef35f4722224
-		
 	<div id="coord">
 		<div id="co_head">Co-Ordinators</div>
 		<div id="co_table">
@@ -2729,7 +2720,7 @@ $sponsors = array(
 								<div class="ch-info-front ch-img-24"></div>
 								<div class="ch-info-back">
 									<h3>Computer Sc.</h3>
-									<p><a href="https://www.facebook.com/shreya.gupta12" target="_blank">Shreya Gupta</a></p>
+									<p><a href="https://www.facebook.com/mitika.sankhyan" target="_blank">Mitika Sharma</a></p>
 									<span></span>
 									<span></span>
 								</div>
@@ -2814,9 +2805,6 @@ $sponsors = array(
 	</div>
 	
 </section>
-<<<<<<< HEAD
-=======
-
 		<!-- container Contact -->
 
         <section class="page" id="container_contact" data-slide="6">	
@@ -2862,7 +2850,7 @@ $sponsors = array(
 						<p class="tel">+91-9086-260656</p>
 						<p class="name">* Parth Pankaj Tiwary</p>
 						<p class="tel">+91-9797-521874</p>
-						
+						<h4 style="text-decoration: underline;"><a style=" color: rgb(209, 228, 72); "href="https://github.com/smvdu/Titiksha-website" target="_blank">Github/Titiksha</a> </h4>
 
 					</div>					
 				</div>
@@ -2895,7 +2883,7 @@ $sponsors = array(
 				<div class="assym_black" id="cont6">
 					<div id="media">
 						
-						<h4>Designer</h4>
+						<h4>Poster Designer</h4>
 						<p class="name">Aakash Maurya</p>
 						<p class="tel">+91-9797602140</p>
 						<p class="mail" >maurya.aakash1@gmail.com</p>
@@ -2947,8 +2935,82 @@ $sponsors = array(
 			</div>
 		</section><!-- /container -->	
 
-	
-	
+	<section class="page" id="container_gal">
+		
+		<div class="container">	
+			
+			<section class="main">
+				<div id="grid_top">
+					<span>Gallery</span>
+				</div>
+
+				<div id="ri-grid" class="ri-grid">
+					
+					<ul>
+						<li><a href="#"><img src="images/medium/1.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/2.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/3.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/4.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/5.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/6.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/7.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/8.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/9.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/10.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/11.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/12.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/13.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/14.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/15.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/16.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/17.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/18.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/19.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/20.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/21.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/22.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/23.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/24.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/25.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/26.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/27.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/28.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/29.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/30.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/31.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/32.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/33.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/34.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/35.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/36.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/37.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/38.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/39.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/40.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/41.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/42.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/43.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/44.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/45.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/46.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/47.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/48.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/49.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/50.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/51.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/52.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/53.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/54.jpg"/></a></li>
+					</ul>
+				</div>
+				
+				
+			</section>
+			
+        </div>
+			
+		</section>
+
 		 <!-- JavaScript includes -->
         
         <script type="text/javascript" src="js/jquery.countdown.js"></script>
@@ -2964,6 +3026,39 @@ $sponsors = array(
         <script type="text/javascript" src="js/jquery.parallax.min.js"></script>
         <script type="text/javascript" src="js/sponsor.js"></script>
 
+		<script type="text/javascript" src="js/jquery.gridrotator.js"></script>
+		<script type="text/javascript">	
+			$(function() {
+			
+				$( '#ri-grid' ).gridrotator( {
+					rows : 4,
+					columns : 8,
+					maxStep : 2,
+					interval : 2000,
+					w1024 : {
+						rows : 5,
+						columns : 6
+					},
+					w768 : {
+						rows : 5,
+						columns : 5
+					},
+					w480 : {
+						rows : 6,
+						columns : 4
+					},
+					w320 : {
+						rows : 7,
+						columns : 4
+					},
+					w240 : {
+						rows : 7,
+						columns : 3
+					},
+				} );
+			
+			});
+		</script>
 
 		<script type="text/javascript">
 			
