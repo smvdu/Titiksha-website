@@ -2342,7 +2342,7 @@ $sponsors = array(
 		<div id="co_table">
 								
 				<ul class="ch-grid">
-					<li>Chief Student Cord</li>
+					<li>Chief Student Coordinator</li>
 					<li>
 						<div class="ch-item">				
 							<div class="ch-info">
@@ -2357,14 +2357,14 @@ $sponsors = array(
 						</div>
 					</li>
 					
-					<ul style="float:left;">
-						<li>Technical Head</li>
+					<ul style="float: left; margin: 0;">
+						<li>Technical Event Coordinator</li>
 						<li>
 							<div class="ch-item">				
 								<div class="ch-info">
 									<div class="ch-info-front ch-img-2"></div>
 									<div class="ch-info-back">
-										<h3>Tech Head</h3>
+										<h3>Tech. Head</h3>
 										<p><a href="https://www.facebook.com/I.am.d.Rishabh" target="_blank"> Rishabh Shukla</a></p>
 										<span>+91-9086-250987</span>
 										<span>rishy.s13@gmail.com</span>
@@ -2490,7 +2490,7 @@ $sponsors = array(
 							<div class="ch-info">
 								<div class="ch-info-front ch-img-6"></div>
 								<div class="ch-info-back">
-									<h3>Web</h3>
+									<h3>Front-End</h3>
 									<p><a href="https://www.facebook.com/sunnyLA.Gupta" target="_blank">Sunny Gupta</a></p>
 									<span>sunnylautner4@gmail.com</span>
 									<span>+91-9086-724946</span>
@@ -2503,7 +2503,7 @@ $sponsors = array(
 							<div class="ch-info">
 								<div class="ch-info-front ch-img-2"></div>
 								<div class="ch-info-back">
-									<h3>Web Designer</h3>
+									<h3>Front-End</h3>
 									<p><a href="https://www.facebook.com/I.am.d.Rishabh" target="_blank">Rishabh Shukla</a></p>
 									<span>rishy.s13@gmail.com</span><br>
 									<span>+91-9086-250987</span>
@@ -2516,7 +2516,7 @@ $sponsors = array(
 							<div class="ch-info">
 								<div class="ch-info-front ch-img-7"></div>
 								<div class="ch-info-back">
-									<h3>Web Expert</h3>
+									<h3>Back-End</h3>
 									<p><a href="https://www.facebook.com/AKSHAYPRATAP007" target="_blank" >Akshay Pratap Singh</a></p>
 									<span>pratapakshay0@gmail.com</span>
 									<span>+91-9086-250656</span>
@@ -2529,7 +2529,7 @@ $sponsors = array(
 							<div class="ch-info">
 								<div class="ch-info-front ch-img-8"></div>
 								<div class="ch-info-back">
-									<h3>Web</h3>
+									<h3>Web Developer</h3>
 									<p><a href="https://ww.facebook.com/parthpankajtiwary" target="_blank">Parth Pankaj</a></p>
 									<span>parthpankajtiwary@gmail.com</span>
 									<span>+91-9797-521874</span>
@@ -2739,22 +2739,9 @@ $sponsors = array(
 					<li>
 						<div class="ch-item">
 							<div class="ch-info">
-								<div class="ch-info-front ch-img-27"></div>
-								<div class="ch-info-back">
-									<h3>Arch.</h3>
-									<p><a href="https://www.facebook.com/anand.upadhayay.92" target="_blank">Anand Upadhayay</a></p>
-									<span></span>
-									<span>+ 91-9697-679672</span>
-								</div>
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="ch-item">
-							<div class="ch-info">
 								<div class="ch-info-front ch-img-28"></div>
 								<div class="ch-info-back">
-									<h3>Arch.</h3>
+									<h3>Architecture</h3>
 									<p><a href="https://www.facebook.com/puneetmehta2802" target="_blank">Puneet Mehta</a></p>
 									<span></span>
 									<span>+91-9419-351611</span>
@@ -2767,7 +2754,7 @@ $sponsors = array(
 							<div class="ch-info">
 								<div class="ch-info-front ch-img-29"></div>
 								<div class="ch-info-back">
-									<h3>Arch.</h3>
+									<h3>Architecture</h3>
 									<p><a href="https://www.facebook.com/arunima.bhowmik" target="_blank">Arunima Bhowmick</a></p>
 									<span></span>
 									<span>+ 91-9596-997279</span>

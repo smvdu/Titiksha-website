@@ -2572,6 +2572,10 @@ perspective effects (not including the modals and the overlay).
 
 /* ============coordinators Page css ================   */
 
+#container_coord{
+    height: auto;
+}
+
 #coord{
     height: 100%;
     background-color: rgba(67, 68, 70, 1);
@@ -2585,8 +2589,10 @@ perspective effects (not including the modals and the overlay).
     padding-top: 2%;
     font-size: 3vw;
     text-align: center;
-
+    color: #ccc;
+    
 }
+
 .sec_head{
     font-weight: bold;
     position: relative;
@@ -2597,12 +2603,9 @@ perspective effects (not including the modals and the overlay).
 #co_table{
     margin-top: 3%;
     margin-left: 3%;
-    
-    line-height: 1.2;
+    margin-bottom: 3%;
     width: 90%;
-    height: 75%;
     overflow: auto;
-
 }
 
 .ch-item {
@@ -2817,17 +2820,16 @@ perspective effects (not including the modals and the overlay).
 .ch-grid li:first-child{
     float: left;
     font-weight: bold;
-    font-size: 20px;
-    padding: 68px 0px;
+    font-size: 1.2vw;
+    padding: 76px 0px;
     margin: 20px;
+    text-align: center;
 }
 
 .ch-grid {
     height: 200px;
     margin: 10px 0 0 0;
     padding: 0;
-    list-style: none;
-    display: block;
     float: left;
     width: 100%;
 }
