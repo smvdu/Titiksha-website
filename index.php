@@ -61,16 +61,7 @@
         <script type="text/javascript" src="js/vendor/jquery-1.9.1.min.js"></script>
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
         <script>
-        	var loggedIn = "<?php if(isset($_SESSION['is_logged']) && $_SESSION['is_logged'] == 'yes') echo 'true'; else echo 'false'; ?>";    		
-			if(loggedIn=="true"){
-		        $("#register-menu").html("My Account");
-		        $("#register").fadeOut(100).attr("data-slide","0");
-		        $("#container_dash").fadeIn(100).attr("data-slide","5");
-		        $("#logout").show();
-		    }else{
-		        $("#register").fadeIn(100).attr("data-slide","5");
-		        $("#container_dash").fadeOut(100).attr("data-slide","0");
-		    }
+        	var loggedIn = "<?php if(isset($_SESSION['is_logged']) && $_SESSION['is_logged'] == 'yes') echo 'true'; else echo 'false'; ?>";    
 		</script>
        	
 	</head>
@@ -90,6 +81,7 @@
         		<li data-slide="5"></li>
         		<li data-slide="6"></li>
         		<li data-slide="7"></li>
+        		<li data-slide="8"></li>
         	</ul>
 
         	<div data-slide="1"></div>
@@ -99,6 +91,7 @@
         	<div data-slide="5"></div>
         	<div data-slide="6"></div>
         	<div data-slide="7"></div>
+        	<div data-slide="8"></div>
         	
         </nav>
 
@@ -235,15 +228,15 @@
                         </a>
                     </li>
                     <li data-slide="5">
-                        <a href="#register">
+                        <a href="">
                             <span class="ca-icon">U</span>
                             <div class="ca-content">
-                                <h2 class="ca-main" id="register-menu">Register / Login</h2>
+                                <h2 class="ca-main" id="register-menu"><?php if(isset($_SESSION["email_id"])) echo 'My Account'; else echo 'Register / Login';?></h2>
                                 <h3 class="ca-sub">Register and get started</h3>
                             </div>
                         </a>
                     </li>
-                    <li data-slide="6">
+                    <li data-slide="7">
                         <a href="#container_contact">
                             <span class="ca-icon">B</span>
                             <div class="ca-content">
@@ -305,6 +298,7 @@
 		<!-- Container Events -->
 
 		<section class="page" id="contain_event" data-slide="3">
+			<div id="event-message" style="display:none"></div>
 			<div id="event">
 				<div class="branch" id="mega">
 					<div class="event_heading">
@@ -324,7 +318,7 @@
 								<div class="md-modal md-effect-11" id="modal-1">
 									<div class="md-content">
 										<div class="md-header">
-											<button class="md-register register">Register</button>
+											<button class="md-register register" data-branch="1" data-event="1">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
 										<h3>All Izz NOT Well</h3>
@@ -365,7 +359,7 @@
 								<div class="md-modal md-effect-11" id="modal-2">
 									<div class="md-content">
 										<div class="md-header">
-											<button class="md-register register">Register</button>
+											<button class="md-register register" data-branch="1" data-event="2">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
 										<h3>ROBO - MATRIX</h3>
@@ -404,7 +398,7 @@
 								<div class="md-modal md-effect-11" id="modal-3">
 									<div class="md-content">
 										<div class="md-header">
-											<button class="md-register register">Register</button>
+											<button class="md-register register" data-branch="1" data-event="3">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
 										<h3>ELECTRO-AVTAAR (EDGE OF TOMORROW)</h3>
@@ -446,7 +440,7 @@
 								<div class="md-modal md-effect-11" id="modal-4">
 									<div class="md-content">
 										<div class="md-header">
-											<button class="md-register register">Register</button>
+											<button class="md-register register" data-branch="1" data-event="4">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
 										<h3>INNOVATIA RETURNS</h3>
@@ -482,7 +476,7 @@
 								<div class="md-modal md-effect-11" id="modal-5">
 									<div class="md-content">
 										<div class="md-header">
-											<button class="md-register register">Register</button>
+											<button class="md-register register" data-branch="1" data-event="5">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
 										<h3>TechRoadies Reloaded</h3>
@@ -535,7 +529,7 @@
 								<div class="md-modal md-effect-11" id="modal-7">
 									<div class="md-content">
 										<div class="md-header">
-											<button class="md-register register">Register</button>
+											<button class="md-register register" data-branch="2" data-event="1">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
 										<h3>AD-VEB (WEB-DESIGNING)</h3>
@@ -568,7 +562,7 @@
 								<div class="md-modal md-effect-11" id="modal-51">
 									<div class="md-content">
 										<div class="md-header">
-											<button class="md-register register">Register</button>
+											<button class="md-register register" data-branch="2" data-event="2">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
 										<h3>DEBUGGAGE</h3>
@@ -603,7 +597,7 @@
 								<div class="md-modal md-effect-11" id="modal-8">
 									<div class="md-content">
 										<div class="md-header">
-											<button class="md-register register">Register</button>
+											<button class="md-register register" data-branch="2" data-event="3">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
 										<h3>PYTHON-GEEK</h3>
@@ -636,7 +630,7 @@
 								<div class="md-modal md-effect-11" id="modal-50">
 									<div class="md-content">
 										<div class="md-header">
-											<button class="md-register register">Register</button>
+											<button class="md-register register" data-branch="2" data-event="4">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
 										<h3>KILL'EM</h3>
@@ -668,7 +662,7 @@
 								<div class="md-modal md-effect-11" id="modal-9">
 									<div class="md-content">
 										<div class="md-header">
-											<button class="md-register register">Register</button>
+											<button class="md-register register" data-branch="2" data-event="5">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
 										<h3>LUI-COMMANDO</h3>
@@ -703,7 +697,7 @@
 								<div class="md-modal md-effect-11" id="modal-10">
 									<div class="md-content">
 										<div class="md-header">
-											<button class="md-register register">Register</button>
+											<button class="md-register register" data-branch="2" data-event="6">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
 										<h3>JUMBLE-MUMBLE</h3>
@@ -736,7 +730,7 @@
 								<div class="md-modal md-effect-11" id="modal-11">
 									<div class="md-content">
 										<div class="md-header">
-											<button class="md-register register">Register</button>
+											<button class="md-register register" data-branch="2" data-event="7">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
 										<h3>Online Treasure Hunt</h3>
@@ -779,7 +773,7 @@
 								<div class="md-modal md-effect-11" id="modal-12">
 									<div class="md-content">
 										<div class="md-header">
-											<button class="md-register register">Register</button>
+											<button class="md-register register" data-branch="2" data-event="8">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
 										<h3>Binary Battles</h3>
@@ -825,7 +819,7 @@
 								<div class="md-modal md-effect-11" id="modal-13">
 									<div class="md-content">
 										<div class="md-header">
-											<button class="md-register register">Register</button>
+											<button class="md-register register" data-branch="3" data-event="1">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
 										<h3>DESIGN YOUR DREAMS</h3>
@@ -854,7 +848,7 @@
 								<div class="md-modal md-effect-11" id="modal-14">
 									<div class="md-content">
 										<div class="md-header">
-											<button class="md-register register">Register</button>
+											<button class="md-register register" data-branch="3" data-event="2">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
 										<h3> CONCLAVE</h3>
@@ -892,7 +886,7 @@
 								<div class="md-modal md-effect-11" id="modal-15">
 									<div class="md-content">
 										<div class="md-header">
-											<button class="md-register register">Register</button>
+											<button class="md-register register" data-branch="3" data-event="3">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
 										<h3>THE MACHINIST</h3>
@@ -930,7 +924,7 @@
 								<div class="md-modal md-effect-11" id="modal-16">
 									<div class="md-content">
 										<div class="md-header">
-											<button class="md-register register">Register</button>
+											<button class="md-register register" data-branch="3" data-event="4">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
 										<h3>RUSH TO ASSEMBLE-ENGINE</h3>
@@ -961,7 +955,7 @@
 								<div class="md-modal md-effect-11" id="modal-17">
 									<div class="md-content">
 										<div class="md-header">
-											<button class="md-register register">Register</button>
+											<button class="md-register register" data-branch="3" data-event="5">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
 										<h3>CLUEDO</h3>
@@ -993,7 +987,7 @@
 								<div class="md-modal md-effect-11" id="modal-18">
 									<div class="md-content">
 										<div class="md-header">
-											<button class="md-register register">Register</button>
+											<button class="md-register register" data-branch="3" data-event="6">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
 										<h3>FUTURE-TECH</h3>
@@ -1026,7 +1020,7 @@
 								<div class="md-modal md-effect-11" id="modal-41">
 									<div class="md-content">
 										<div class="md-header">
-											<button class="md-register register">Register</button>
+											<button class="md-register register" data-branch="3" data-event="7">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
 										<h3>BAJA de innovación</h3>
@@ -1083,7 +1077,7 @@
 								<div class="md-modal md-effect-11" id="modal-19">
 									<div class="md-content">
 										<div class="md-header">
-											<button class="md-register register">Register</button>
+											<button class="md-register register" data-branch="4" data-event="1">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
 										<h3>WAVEMANIA</h3>
@@ -1118,7 +1112,7 @@
 								<div class="md-modal md-effect-11" id="modal-20">
 									<div class="md-content">
 										<div class="md-header">
-											<button class="md-register register">Register</button>
+											<button class="md-register register" data-branch="4" data-event="2">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
 										<h3>ELECTRO-QUIZ</h3>
@@ -1150,7 +1144,7 @@
 								<div class="md-modal md-effect-11" id="modal-21">
 									<div class="md-content">
 										<div class="md-header">
-											<button class="md-register register">Register</button>
+											<button class="md-register register" data-branch="4" data-event="3">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
 										<h3>EMO-EXPRESS22</h3>
@@ -1192,7 +1186,7 @@
 								<div class="md-modal md-effect-11" id="modal-22">
 									<div class="md-content">
 										<div class="md-header">
-											<button class="md-register register">Register</button>
+											<button class="md-register register" data-branch="4" data-event="4">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
 										<h3>CIRCUIT-BUG</h3>
@@ -1227,7 +1221,7 @@
 								<div class="md-modal md-effect-11" id="modal-23">
 									<div class="md-content">
 										<div class="md-header">
-											<button class="md-register register">Register</button>
+											<button class="md-register register" data-branch="4" data-event="5">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
 										<h3>MICROCONTROLLER CODING</h3>
@@ -1258,7 +1252,7 @@
 								<div class="md-modal md-effect-11" id="modal-24">
 									<div class="md-content">
 										<div class="md-header">
-											<button class="md-register register">Register</button>
+											<button class="md-register register" data-branch="4" data-event="6">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
 										<h3>CIRCUIT-ELECTRONIQUE</h3>
@@ -1295,7 +1289,7 @@
 								<div class="md-modal md-effect-11" id="modal-56">
 									<div class="md-content">
 										<div class="md-header">
-											<button class="md-register register">Register</button>
+											<button class="md-register register" data-branch="4" data-event="7">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
 										<h3>ELECTRO TRADE</h3>
@@ -1352,7 +1346,7 @@
 								<div class="md-modal md-effect-11" id="modal-25">
 									<div class="md-content">
 										<div class="md-header">
-											<button class="md-register register">Register</button>
+											<button class="md-register register" data-branch="5" data-event="1">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
 										<h3>ARCHITECTURAL SYMPOSIUM</h3>
@@ -1387,7 +1381,7 @@
 								<div class="md-modal md-effect-11" id="modal-26">
 									<div class="md-content">
 										<div class="md-header">
-											<button class="md-register register">Register</button>
+											<button class="md-register register" data-branch="5" data-event="2">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
 										<h3>ART INSTALLATION</h3>
@@ -1422,7 +1416,7 @@
 								<div class="md-modal md-effect-11" id="modal-27">
 									<div class="md-content">
 										<div class="md-header">
-											<button class="md-register register">Register</button>
+											<button class="md-register register" data-branch="5" data-event="3">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
 										<h3>DIGI-ART</h3>
@@ -1456,7 +1450,7 @@
 								<div class="md-modal md-effect-11" id="modal-28">
 									<div class="md-content">
 										<div class="md-header">
-											<button class="md-register register">Register</button>
+											<button class="md-register register" data-branch="5" data-event="4">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
 										<h3>FACE-PAINTING</h3>
@@ -1492,7 +1486,7 @@
 								<div class="md-modal md-effect-11" id="modal-29">
 									<div class="md-content">
 										<div class="md-header">
-											<button class="md-register register">Register</button>
+											<button class="md-register register" data-branch="5" data-event="5">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
 										<h3>CARICATURE-MAKING</h3>
@@ -1527,7 +1521,7 @@
 								<div class="md-modal md-effect-11" id="modal-30">
 									<div class="md-content">
 										<div class="md-header">
-											<button class="md-register register">Register</button>
+											<button class="md-register register" data-branch="5" data-event="6">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
 									<span class="icon-eye">POSTER-MAKING</span>
@@ -1572,7 +1566,7 @@
 								<div class="md-modal md-effect-11" id="modal-31">
 									<div class="md-content">
 										<div class="md-header">
-											<button class="md-register register">Register</button>
+											<button class="md-register register" data-branch="5" data-event="7">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
 										<h3>LOGO-DESIGN</h3>
@@ -1610,7 +1604,7 @@
 								<div class="md-modal md-effect-11" id="modal-32">
 									<div class="md-content">
 										<div class="md-header">
-											<button class="md-register register">Register</button>
+											<button class="md-register register" data-branch="5" data-event="8">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
 										<h3>LANDSCAPING</h3>
@@ -1660,7 +1654,7 @@
 								<div class="md-modal md-effect-11" id="modal-38">
 									<div class="md-content">
 										<div class="md-header">
-											<button class="md-register register">Register</button>
+											<button class="md-register register" data-branch="6" data-event="1">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
 										<h3>BIO-TECH QUIZ</h3>
@@ -1691,7 +1685,7 @@
 								<div class="md-modal md-effect-11" id="modal-34">
 									<div class="md-content">
 										<div class="md-header">
-											<button class="md-register register">Register</button>
+											<button class="md-register register" data-branch="6" data-event="2">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
 										<h3>SPELL-CORRECTLY</h3>
@@ -1720,7 +1714,7 @@
 								<div class="md-modal md-effect-11" id="modal-33">
 									<div class="md-content">
 										<div class="md-header">
-											<button class="md-register register">Register</button>
+											<button class="md-register register" data-branch="6" data-event="3">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
 										<h3>JUMBLE-WORDS</h3>
@@ -1752,7 +1746,7 @@
 								<div class="md-modal md-effect-11" id="modal-40">
 									<div class="md-content">
 										<div class="md-header">
-											<button class="md-register register">Register</button>
+											<button class="md-register register" data-branch="6" data-event="4">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
 										<h3>COMPLEMENTATION</h3>
@@ -1785,7 +1779,7 @@
 								<div class="md-modal md-effect-11" id="modal-35">
 									<div class="md-content">
 										<div class="md-header">
-											<button class="md-register register">Register</button>
+											<button class="md-register register" data-branch="6" data-event="5">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
 										<h3>SHOW YOUR MEMORY</h3>
@@ -1818,7 +1812,7 @@
 								<div class="md-modal md-effect-11" id="modal-36">
 									<div class="md-content">
 										<div class="md-header">
-											<button class="md-register register">Register</button>
+											<button class="md-register register" data-branch="6" data-event="6">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
 										<h3>STRUCTURE MODELLING</h3>
@@ -1848,7 +1842,7 @@
 								<div class="md-modal md-effect-11" id="modal-52">
 									<div class="md-content">
 										<div class="md-header">
-											<button class="md-register register">Register</button>
+											<button class="md-register register" data-branch="6" data-event="7">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
 										<h3>PUZZLE</h3>
@@ -2056,10 +2050,12 @@ $sponsors = array(
 				</div>
 
 		</section>	
-
+		<?php
+			if(!isset($_SESSION["is_logged"])){
+		?>
 		<!-- REGITRATION PAGE -->
 
-		<section class="pageReg" id="register" data-slide="5">
+		<section class="page" id="register" data-slide="5">
 			<div class="register-form">
 				<div class="msg-Box" style="display:none;">
 					<div class="msg-close">X</div>
@@ -2211,12 +2207,14 @@ $sponsors = array(
 		    </div>			
 		</section>
 		
-		
+		<?php }else{ ?>
 		<!-- Dashboard  -->
-		<section class="pageDash" id="container_dash" data-slide="5" style="display: none;">
-			<div id="logout" style="">Logout</div>
+		<section class="page" id="container_dash" data-slide="5" >
 			<div class="dashboard">
-				<div class="dash-head">Titiksha Dashboard</div>
+				<div class="dash-head">
+					<div id="dash-head-title">Titiksha Dashboard</div>
+					<div id="logout" style="">Logout</div>
+				</div>
 				<div class="dash-menu">
 					<ul>
 						<li class="selected-nav" data-id="1">Registered Events</li>
@@ -2226,78 +2224,22 @@ $sponsors = array(
 				<div class="dash-content">
 					<div class="dash-registered-events" id="content-1">
 						<div id="dash_title">
-							<div class="dash_h">MEGA</div><div class="dash_h">CSE</div>
+							<div class="dash_h">MEGA</div>
+							<div class="dash_h">CSE</div>
 							<div class="dash_h">MECH </div>
 							<div class="dash_h">ECE </div>
-							 <div class="dash_h"> ARCH </div>
-							  <div class="dash_h"> IBT</div>
-							  <div class="dash_h">GAMES</div>
+							<div class="dash_h">ARCH </div>
+							<div class="dash_h">IBT</div>
+							<div class="dash_h">GAMES</div>
 						</div>
 						<div id="dash_event">
-							<div class="reg_event" id="reg_mega">
-								<p>aefaee1</p>
-								<p>2eafaef</p>
-								<p>eafefa3</p>
-								<p>1efaefa</p>
-								<p>2aefeaf</p>
-								<p>3eafeaf</p>
-								<p>1eafaef</p>
-								<p>aefaefa</p>	
-							</div>
-							<div class="reg_event" id="reg_cse">
-								<p>1feafea</p>
-								<p>2eafe</p>
-								<p>3aefaef</p>
-								<p>1eafeaf</p>
-								<p>2eafea</p>
-								<p>efafe3</p>
-								<p>1aefaef</p>
-								<p>aefaefa</p>
-							</div>
-							<div class="reg_event" id="reg_mech">
-								<p>1feafae</p>
-								<p>2aefeafe</p>
-								<p>3eafae</p>
-								<p>1aefaef</p>
-								<p>eafe2</p>
-								<p>3efae</p>
-								<p>1aefe</p>
-								<p>2efaf</p>
-							</div>
-							<div class="reg_event" id="reg_ece">							
-								<p>efaf1</p>
-								<p>aefae2</p>
-								<p>3feaf</p>
-								<p>1feaf</p>
-								<p>2afae</p>
-								<p>eaf</p>
-								<p>aefea</p>
-								<p>aefaef</p></div>
-							<div class="reg_event" id="reg_arch">
-								<p>aefae</p>
-								<p>afaef</p>
-								<p>affaff</p>
-								<p>eafrfar</p>
-								<p>fsfrefa</p>
-								<p>dagsgr</p>
-								<p>asfadfad</p>
-								<p>afa</p>
-							</div>
-							<div class="reg_event" id="reg_ibt">							
-								<p>ibt1</p>
-								<p>ibt1</p>
-								<p>ibt1</p>
-								<p>ibt1</p>
-								<p>ibt1</p>
-								<p>ibt1</p>
-								<p>jkafad</p>
-								<p>afkaf</p></div>
-							<div class="reg_event" id="reg_game">
-								<p>nfs</p>
-								<p>cs</p>
-								<p>fifa 11</p>
-							</div>
-							
+							<div class="reg_event" id="reg_mega"></div>
+							<div class="reg_event" id="reg_cse"></div>
+							<div class="reg_event" id="reg_mech"></div>
+							<div class="reg_event" id="reg_ece"></div>
+							<div class="reg_event" id="reg_arch"></div>
+							<div class="reg_event" id="reg_ibt"></div>
+							<div class="reg_event" id="reg_game"></div>
 						</div>
 					</div>
 					<div class="dash-my-details" id="content-2" style="display: none;">
@@ -2305,27 +2247,27 @@ $sponsors = array(
 							<table>
 								<tr>
 									<td class="field-name">Name :</td>
-									<td class="field-value">Akshay Pratap Singh</td>
+									<td class="field-value" id="user-name"></td>
 								</tr>
 								<tr>
 									<td class="field-name">Email-Id :</td>
-									<td class="field-value">pratapakshay0@gmail.com</td>
+									<td class="field-value" id="user-email-id"></td>
 								</tr>
 								<tr>
 									<td class="field-name">College Name :</td>
-									<td class="field-value">Shri Mata Vaishno Devi University</td>
+									<td class="field-value" id="user-college-name"></td>
 								</tr>
 								<tr>
 									<td class="field-name">Year Of Study :</td>
-									<td class="field-value">3rd year</td>
+									<td class="field-value" id="user-year-of-study"></td>
 								</tr>
 								<tr>
 									<td class="field-name">Gender :</td>
-									<td class="field-value">Male</td>
+									<td class="field-value" id="user-gender"></td>
 								</tr>
 								<tr>
 									<td class="field-name">Mobile No :</td>
-									<td class="field-value">+91-9086250656</td>
+									<td class="field-value" id="user-phone-number"></td>
 								</tr>
 							</table>
 						</div>
@@ -2333,461 +2275,460 @@ $sponsors = array(
 			</div>
 			
 		</section>
-		
-
+		<?php }?>
 		<!-- PAGE OF COORDITORS AND CELL COMMITEE -->
-<section class="page" id="container_coord" data-slide="7">
-	<div id="coord">
-		<div id="co_head">Co-Ordinators</div>
-		<div id="co_table">
-								
-				<ul class="ch-grid">
-					<li>Chief Student Cord</li>
-					<li>
-						<div class="ch-item">				
-							<div class="ch-info">
-								<div class="ch-info-front ch-img-1"></div>
-								<div class="ch-info-back">
-									<h3>HEAD</h3>
-									<p><a href="https://www.facebook.com/dhananjay.me" target="_blank">Dhananjay Singh</a></p>
-									<span>+91-9796-405080</span>
-									<span>djsanj99@gmail.com</span>
-								</div>	
-							</div>
-						</div>
-					</li>
-					
-					<ul style="float:left;">
-						<li>Technical Head</li>
-						<li>
-							<div class="ch-item">				
-								<div class="ch-info">
-									<div class="ch-info-front ch-img-2"></div>
-									<div class="ch-info-back">
-										<h3>Tech Head</h3>
-										<p><a href="https://www.facebook.com/I.am.d.Rishabh" target="_blank"> Rishabh Shukla</a></p>
-										<span>+91-9086-250987</span>
-										<span>rishy.s13@gmail.com</span>
-									</div>	
+		<section class="page" id="container_coord" data-slide="6">
+			<div id="coord">
+				<div id="co_head">Co-Ordinators</div>
+				<div id="co_table">
+										
+						<ul class="ch-grid">
+							<li>Chief Student Cord</li>
+							<li>
+								<div class="ch-item">				
+									<div class="ch-info">
+										<div class="ch-info-front ch-img-1"></div>
+										<div class="ch-info-back">
+											<h3>HEAD</h3>
+											<p><a href="https://www.facebook.com/dhananjay.me" target="_blank">Dhananjay Singh</a></p>
+											<span>+91-9796-405080</span>
+											<span>djsanj99@gmail.com</span>
+										</div>	
+									</div>
 								</div>
-							</div>
-						</li>
-					</ul>	
-				</ul>
+							</li>
+							
+							<ul style="float:left;">
+								<li>Technical Head</li>
+								<li>
+									<div class="ch-item">				
+										<div class="ch-info">
+											<div class="ch-info-front ch-img-2"></div>
+											<div class="ch-info-back">
+												<h3>Tech Head</h3>
+												<p><a href="https://www.facebook.com/I.am.d.Rishabh" target="_blank"> Rishabh Shukla</a></p>
+												<span>+91-9086-250987</span>
+												<span>rishy.s13@gmail.com</span>
+											</div>	
+										</div>
+									</div>
+								</li>
+							</ul>	
+						</ul>
 
-				<ul class="ch-grid">
-					<li>Public Relations</li>
-					<li>
-						<div class="ch-item">				
-							<div class="ch-info">
-								<div class="ch-info-front ch-img-3"></div>
-								<div class="ch-info-back">
-									<h3>Public</h3>
-									<p><a href="https://www.facebook.com/profile.php?id=100004947096093" target="_blank"> Megha Sharma</a></p>
-									<span>+91-9086-118089</span>
-									<span>meghas19@yahoo.co.in</span>
-								</div>	
-							</div>
-						</div>
-					</li>
-					
-				</ul>
-				<ul class="ch-grid">
-					<li>Sponsorship Cell</li>
-					<li>
-						<div class="ch-item">				
-							<div class="ch-info">
-								<div class="ch-info-front ch-img-4"></div>
-								<div class="ch-info-back">
-									<h3>Sponsorship</h3>
-									<p><a href="https://www.facebook.com/gkpgauravsingh" target="_blank">Gaurav Singh</a></p>
-									<span>+91-9796-446317</span>
-									<span>2011eec54@gmail.com</span>
-								</div>	
-							</div>
-						</div>
-					</li>
-					
-					<li>
-						<div class="ch-item">				
-							<div class="ch-info">
-								<div class="ch-info-front ch-img-5"></div>
-								<div class="ch-info-back">
-									<h3>Sponsorship</h3>
-									<p><a href="https://www.facebook.com/navjotsingh.sasan" target="_blank">Navjot Sasan</a></p>
-									<span>+91-9622-074246</span>
-									<span>navvi.singh4@gmail.com</span>
-								</div>	
-							</div>
-						</div>
-					</li>
-					
-				</ul>
+						<ul class="ch-grid">
+							<li>Public Relations</li>
+							<li>
+								<div class="ch-item">				
+									<div class="ch-info">
+										<div class="ch-info-front ch-img-3"></div>
+										<div class="ch-info-back">
+											<h3>Public</h3>
+											<p><a href="https://www.facebook.com/profile.php?id=100004947096093" target="_blank"> Megha Sharma</a></p>
+											<span>+91-9086-118089</span>
+											<span>meghas19@yahoo.co.in</span>
+										</div>	
+									</div>
+								</div>
+							</li>
+							
+						</ul>
+						<ul class="ch-grid">
+							<li>Sponsorship Cell</li>
+							<li>
+								<div class="ch-item">				
+									<div class="ch-info">
+										<div class="ch-info-front ch-img-4"></div>
+										<div class="ch-info-back">
+											<h3>Sponsorship</h3>
+											<p><a href="https://www.facebook.com/gkpgauravsingh" target="_blank">Gaurav Singh</a></p>
+											<span>+91-9796-446317</span>
+											<span>2011eec54@gmail.com</span>
+										</div>	
+									</div>
+								</div>
+							</li>
+							
+							<li>
+								<div class="ch-item">				
+									<div class="ch-info">
+										<div class="ch-info-front ch-img-5"></div>
+										<div class="ch-info-back">
+											<h3>Sponsorship</h3>
+											<p><a href="https://www.facebook.com/navjotsingh.sasan" target="_blank">Navjot Sasan</a></p>
+											<span>+91-9622-074246</span>
+											<span>navvi.singh4@gmail.com</span>
+										</div>	
+									</div>
+								</div>
+							</li>
+							
+						</ul>
 
-				<ul class="ch-grid">
-					<li>Graphics And Design</li>
-					<li>
-						<div class="ch-item">				
-							<div class="ch-info">
-								<div class="ch-info-front ch-img-9"></div>
-								<div class="ch-info-back">
-									
-									<h3>Design</h3>
-									<p><a href="https://www.facebook.com/maurya.aakash1" target="_blank">Aakash Maurya</a></p>
-									<span>maurya.aakash1@gmail.com</span>
-									<span>+91-9797602140</span>
-								</div>	
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="ch-item">				
-							<div class="ch-info">
-								<div class="ch-info-front ch-img-10"></div>
-								<div class="ch-info-back">
-									<h3>Design</h3>
-									<p><a href="https://www.facebook.com/raza2393" target="_blank">Ahmed Raza</a></p>
-									<span>raza2393@gmail.com</span><br>
-									<span>+91-9796-288428</span>
-								</div>	
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="ch-item">				
-							<div class="ch-info">
-								<div class="ch-info-front ch-img-11"></div>
-								<div class="ch-info-back">
-									<h3>Design</h3>
-									<p><a href="https://www.facebook.com/pankajpandey890" target="_blank">Pankaj Pandey</a></p>
-									<span>pankajpandey890@gmail.com</span>
-									<span>+91-9797-519217</span>
-									
-								</div>	
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="ch-item">				
-							<div class="ch-info">
-								<div class="ch-info-front ch-img-12"></div>
-								<div class="ch-info-back">
-									<h3>Graphics</h3>
-									<p><a href="https://www.facebook.com/nikhil.kamtam" target="_blank">Nikhil Kamtam</a></p>
-									<span> nikhilsascent@gmail.com</span><br>
-									<span>+91-9797-517443</span>
-									
-								</div>	
-							</div>
-						</div>
-					</li>
-				</ul>
+						<ul class="ch-grid">
+							<li>Graphics And Design</li>
+							<li>
+								<div class="ch-item">				
+									<div class="ch-info">
+										<div class="ch-info-front ch-img-9"></div>
+										<div class="ch-info-back">
+											
+											<h3>Design</h3>
+											<p><a href="https://www.facebook.com/maurya.aakash1" target="_blank">Aakash Maurya</a></p>
+											<span>maurya.aakash1@gmail.com</span>
+											<span>+91-9797602140</span>
+										</div>	
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="ch-item">				
+									<div class="ch-info">
+										<div class="ch-info-front ch-img-10"></div>
+										<div class="ch-info-back">
+											<h3>Design</h3>
+											<p><a href="https://www.facebook.com/raza2393" target="_blank">Ahmed Raza</a></p>
+											<span>raza2393@gmail.com</span><br>
+											<span>+91-9796-288428</span>
+										</div>	
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="ch-item">				
+									<div class="ch-info">
+										<div class="ch-info-front ch-img-11"></div>
+										<div class="ch-info-back">
+											<h3>Design</h3>
+											<p><a href="https://www.facebook.com/pankajpandey890" target="_blank">Pankaj Pandey</a></p>
+											<span>pankajpandey890@gmail.com</span>
+											<span>+91-9797-519217</span>
+											
+										</div>	
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="ch-item">				
+									<div class="ch-info">
+										<div class="ch-info-front ch-img-12"></div>
+										<div class="ch-info-back">
+											<h3>Graphics</h3>
+											<p><a href="https://www.facebook.com/nikhil.kamtam" target="_blank">Nikhil Kamtam</a></p>
+											<span> nikhilsascent@gmail.com</span><br>
+											<span>+91-9797-517443</span>
+											
+										</div>	
+									</div>
+								</div>
+							</li>
+						</ul>
 
-				<ul class="ch-grid">
-					<li>Web Team</li>
-					<li>
-						<div class="ch-item">				
-							<div class="ch-info">
-								<div class="ch-info-front ch-img-6"></div>
-								<div class="ch-info-back">
-									<h3>Web</h3>
-									<p><a href="https://www.facebook.com/sunnyLA.Gupta" target="_blank">Sunny Gupta</a></p>
-									<span>sunnylautner4@gmail.com</span>
-									<span>+91-9086-724946</span>
-								</div>	
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="ch-item">				
-							<div class="ch-info">
-								<div class="ch-info-front ch-img-2"></div>
-								<div class="ch-info-back">
-									<h3>Web Designer</h3>
-									<p><a href="https://www.facebook.com/I.am.d.Rishabh" target="_blank">Rishabh Shukla</a></p>
-									<span>rishy.s13@gmail.com</span><br>
-									<span>+91-9086-250987</span>
-								</div>	
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="ch-item">
-							<div class="ch-info">
-								<div class="ch-info-front ch-img-7"></div>
-								<div class="ch-info-back">
-									<h3>Web Expert</h3>
-									<p><a href="https://www.facebook.com/AKSHAYPRATAP007" target="_blank" >Akshay Pratap Singh</a></p>
-									<span>pratapakshay0@gmail.com</span>
-									<span>+91-9086-250656</span>
+						<ul class="ch-grid">
+							<li>Web Team</li>
+							<li>
+								<div class="ch-item">				
+									<div class="ch-info">
+										<div class="ch-info-front ch-img-6"></div>
+										<div class="ch-info-back">
+											<h3>Web</h3>
+											<p><a href="https://www.facebook.com/sunnyLA.Gupta" target="_blank">Sunny Gupta</a></p>
+											<span>sunnylautner4@gmail.com</span>
+											<span>+91-9086-724946</span>
+										</div>	
+									</div>
 								</div>
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="ch-item">
-							<div class="ch-info">
-								<div class="ch-info-front ch-img-8"></div>
-								<div class="ch-info-back">
-									<h3>Web</h3>
-									<p><a href="https://ww.facebook.com/parthpankajtiwary" target="_blank">Parth Pankaj</a></p>
-									<span>parthpankajtiwary@gmail.com</span>
-									<span>+91-9797-521874</span>
+							</li>
+							<li>
+								<div class="ch-item">				
+									<div class="ch-info">
+										<div class="ch-info-front ch-img-2"></div>
+										<div class="ch-info-back">
+											<h3>Web Designer</h3>
+											<p><a href="https://www.facebook.com/I.am.d.Rishabh" target="_blank">Rishabh Shukla</a></p>
+											<span>rishy.s13@gmail.com</span><br>
+											<span>+91-9086-250987</span>
+										</div>	
+									</div>
 								</div>
-							</div>
-						</div>
-					</li>
-				</ul>
+							</li>
+							<li>
+								<div class="ch-item">
+									<div class="ch-info">
+										<div class="ch-info-front ch-img-7"></div>
+										<div class="ch-info-back">
+											<h3>Web Expert</h3>
+											<p><a href="https://www.facebook.com/AKSHAYPRATAP007" target="_blank" >Akshay Pratap Singh</a></p>
+											<span>pratapakshay0@gmail.com</span>
+											<span>+91-9086-250656</span>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="ch-item">
+									<div class="ch-info">
+										<div class="ch-info-front ch-img-8"></div>
+										<div class="ch-info-back">
+											<h3>Web</h3>
+											<p><a href="https://ww.facebook.com/parthpankajtiwary" target="_blank">Parth Pankaj</a></p>
+											<span>parthpankajtiwary@gmail.com</span>
+											<span>+91-9797-521874</span>
+										</div>
+									</div>
+								</div>
+							</li>
+						</ul>
 
-				<ul class="ch-grid">
-					<li>Committee Head</li>
-					<li>
-						<div class="ch-item">				
-							<div class="ch-info">
-								<div class="ch-info-front ch-img-13"></div>
-								<div class="ch-info-back">
-									<h3>Cultural</h3>
-									<p><a href="https://www.facebook.com/ashish.sharma.775823" target="_blank"> Ashish Mansotra</a></p>
-									<span></span>
-									<span>+91-9906-284534</span>
-								</div>	
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="ch-item">				
-							<div class="ch-info">
-								<div class="ch-info-front ch-img-14"></div>
-								<div class="ch-info-back">
-									<h3>Publicity</h3>
-									<p><a href="https://www.facebook.com/tribh619" target="_blank">Tribhuvan Khajuria</a></p>
-									<span></span>
-									<span>+91-9796-063005</span>
-								</div>	
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="ch-item">
-							<div class="ch-info">
-								<div class="ch-info-front ch-img-15"></div>
-								<div class="ch-info-back">
-									<h3 style="font-size:10px;">Documentation</h3>
-									<p><a href="https://www.facebook.com/akshay.bhat.31" target="_blank">Akshay Bhat</a></p>
-									<span></span>
-									<span></span>
+						<ul class="ch-grid">
+							<li>Committee Head</li>
+							<li>
+								<div class="ch-item">				
+									<div class="ch-info">
+										<div class="ch-info-front ch-img-13"></div>
+										<div class="ch-info-back">
+											<h3>Cultural</h3>
+											<p><a href="https://www.facebook.com/ashish.sharma.775823" target="_blank"> Ashish Mansotra</a></p>
+											<span></span>
+											<span>+91-9906-284534</span>
+										</div>	
+									</div>
 								</div>
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="ch-item">
-							<div class="ch-info">
-								<div class="ch-info-front ch-img-16"></div>
-								<div class="ch-info-back">
-									<h3>Management</h3>
-									<p><a href="https://www.facebook.com/ranvijay.singh.750983" target="_blank">Ranvijay Singh</a></p>
-									<span></span>
-									<span>+91-9796-445012</span>
+							</li>
+							<li>
+								<div class="ch-item">				
+									<div class="ch-info">
+										<div class="ch-info-front ch-img-14"></div>
+										<div class="ch-info-back">
+											<h3>Publicity</h3>
+											<p><a href="https://www.facebook.com/tribh619" target="_blank">Tribhuvan Khajuria</a></p>
+											<span></span>
+											<span>+91-9796-063005</span>
+										</div>	
+									</div>
 								</div>
-							</div>
-						</div>
-					</li>
-				</ul>
-				<ul class="ch-grid">
-					<li></li>
-					<li>
-						<div class="ch-item">
-							<div class="ch-info">
-								<div class="ch-info-front ch-img-17"></div>
-								<div class="ch-info-back">
-									<h3>Protocol</h3>
-									<p><a href="https://www.facebook.com/0SUPERNOVA0" target="_blank">Sahil Khushlani</a></p>
-									<span></span>
-									<span>+ 91-9622-356797</span>
+							</li>
+							<li>
+								<div class="ch-item">
+									<div class="ch-info">
+										<div class="ch-info-front ch-img-15"></div>
+										<div class="ch-info-back">
+											<h3 style="font-size:10px;">Documentation</h3>
+											<p><a href="https://www.facebook.com/akshay.bhat.31" target="_blank">Akshay Bhat</a></p>
+											<span></span>
+											<span></span>
+										</div>
+									</div>
 								</div>
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="ch-item">
-							<div class="ch-info">
-								<div class="ch-info-front ch-img-18"></div>
-								<div class="ch-info-back">
-									<h3>Logistic</h3>
-									<p><a href="https://www.facebook.com/dharmesh.kr2011" target="_blank">Dharmesh Kumar</a></p>
-									<span></span>
-									<span>+91-9419-909212</span>
+							</li>
+							<li>
+								<div class="ch-item">
+									<div class="ch-info">
+										<div class="ch-info-front ch-img-16"></div>
+										<div class="ch-info-back">
+											<h3>Management</h3>
+											<p><a href="https://www.facebook.com/ranvijay.singh.750983" target="_blank">Ranvijay Singh</a></p>
+											<span></span>
+											<span>+91-9796-445012</span>
+										</div>
+									</div>
 								</div>
-							</div>
-						</div>
-					</li>
-				</ul>
+							</li>
+						</ul>
+						<ul class="ch-grid">
+							<li></li>
+							<li>
+								<div class="ch-item">
+									<div class="ch-info">
+										<div class="ch-info-front ch-img-17"></div>
+										<div class="ch-info-back">
+											<h3>Protocol</h3>
+											<p><a href="https://www.facebook.com/0SUPERNOVA0" target="_blank">Sahil Khushlani</a></p>
+											<span></span>
+											<span>+ 91-9622-356797</span>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="ch-item">
+									<div class="ch-info">
+										<div class="ch-info-front ch-img-18"></div>
+										<div class="ch-info-back">
+											<h3>Logistic</h3>
+											<p><a href="https://www.facebook.com/dharmesh.kr2011" target="_blank">Dharmesh Kumar</a></p>
+											<span></span>
+											<span>+91-9419-909212</span>
+										</div>
+									</div>
+								</div>
+							</li>
+						</ul>
 
-				<ul class="ch-grid">
-					<li>Branch Cord</li>
-					<li>
-						<div class="ch-item">
-							<div class="ch-info">
-								<div class="ch-info-front ch-img-19"></div>
-								<div class="ch-info-back">
-									<h3>Electronics</h3>
-									<p><a href="https://www.facebook.com/" target="_blank">Tanish Slathia</a></p>
-									<span></span>
-									<span>+ 91-9086-261152</span>
+						<ul class="ch-grid">
+							<li>Branch Cord</li>
+							<li>
+								<div class="ch-item">
+									<div class="ch-info">
+										<div class="ch-info-front ch-img-19"></div>
+										<div class="ch-info-back">
+											<h3>Electronics</h3>
+											<p><a href="https://www.facebook.com/" target="_blank">Tanish Slathia</a></p>
+											<span></span>
+											<span>+ 91-9086-261152</span>
+										</div>
+									</div>
 								</div>
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="ch-item">
-							<div class="ch-info">
-								<div class="ch-info-front ch-img-20"></div>
-								<div class="ch-info-back">
-									<h3>Electronics</h3>
-									<p><a href="https://www.facebook.com/mansi.maheshwari.31" target="_blank">Mansi Maheshwari</a></p>
-									<span></span>
-									<span>+91-9796-290098</span>
+							</li>
+							<li>
+								<div class="ch-item">
+									<div class="ch-info">
+										<div class="ch-info-front ch-img-20"></div>
+										<div class="ch-info-back">
+											<h3>Electronics</h3>
+											<p><a href="https://www.facebook.com/mansi.maheshwari.31" target="_blank">Mansi Maheshwari</a></p>
+											<span></span>
+											<span>+91-9796-290098</span>
+										</div>
+									</div>
 								</div>
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="ch-item">
-							<div class="ch-info">
-								<div class="ch-info-front ch-img-21"></div>
-								<div class="ch-info-back">
-									<h3>Mechanical</h3>
-									<p><a href="https://www.facebook.com/nraman01" target="_blank">Nishant Raman</a></p>
-									<span></span>
-									<span>+ 91-9697-569775</span>
+							</li>
+							<li>
+								<div class="ch-item">
+									<div class="ch-info">
+										<div class="ch-info-front ch-img-21"></div>
+										<div class="ch-info-back">
+											<h3>Mechanical</h3>
+											<p><a href="https://www.facebook.com/nraman01" target="_blank">Nishant Raman</a></p>
+											<span></span>
+											<span>+ 91-9697-569775</span>
+										</div>
+									</div>
 								</div>
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="ch-item">
-							<div class="ch-info">
-								<div class="ch-info-front ch-img-22"></div>
-								<div class="ch-info-back">
-									<h3>Mechanical</h3>
-									<p><a href="https://www.facebook.com/emwfreak" target="_blank">Monica</a></p>
-									<span></span>
-									<span></span>
+							</li>
+							<li>
+								<div class="ch-item">
+									<div class="ch-info">
+										<div class="ch-info-front ch-img-22"></div>
+										<div class="ch-info-back">
+											<h3>Mechanical</h3>
+											<p><a href="https://www.facebook.com/emwfreak" target="_blank">Monica</a></p>
+											<span></span>
+											<span></span>
+										</div>
+									</div>
 								</div>
-							</div>
-						</div>
-					</li>
-				</ul>
-				<ul class="ch-grid">
-					<li></li>
-					<li>
-						<div class="ch-item">
-							<div class="ch-info">
-								<div class="ch-info-front ch-img-6"></div>
-								<div class="ch-info-back">
-									<h3>Computer Sc.</h3>
-									<p><a href="https://www.facebook.com/sunnyLA.Gupta" target="_blank">Sunny Gupta</a></p>
-									<span></span>
-									<span>+ 91-9086-724946</span>
+							</li>
+						</ul>
+						<ul class="ch-grid">
+							<li></li>
+							<li>
+								<div class="ch-item">
+									<div class="ch-info">
+										<div class="ch-info-front ch-img-6"></div>
+										<div class="ch-info-back">
+											<h3>Computer Sc.</h3>
+											<p><a href="https://www.facebook.com/sunnyLA.Gupta" target="_blank">Sunny Gupta</a></p>
+											<span></span>
+											<span>+ 91-9086-724946</span>
+										</div>
+									</div>
 								</div>
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="ch-item">
-							<div class="ch-info">
-								<div class="ch-info-front ch-img-24"></div>
-								<div class="ch-info-back">
-									<h3>Computer Sc.</h3>
-									<p><a href="https://www.facebook.com/mitika.sankhyan" target="_blank">Mitika Sharma</a></p>
-									<span></span>
-									<span></span>
+							</li>
+							<li>
+								<div class="ch-item">
+									<div class="ch-info">
+										<div class="ch-info-front ch-img-24"></div>
+										<div class="ch-info-back">
+											<h3>Computer Sc.</h3>
+											<p><a href="https://www.facebook.com/mitika.sankhyan" target="_blank">Mitika Sharma</a></p>
+											<span></span>
+											<span></span>
+										</div>
+									</div>
 								</div>
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="ch-item">
-							<div class="ch-info">
-								<div class="ch-info-front ch-img-25"></div>
-								<div class="ch-info-back">
-									<h3>Bio-Tech</h3>
-									<p><a href="https://www.facebook.com/lavkush.raj.3" target="_blank">Lav Kush</a></p>
-									<span></span>
-									<span>+ 91-9419-873842</span>
+							</li>
+							<li>
+								<div class="ch-item">
+									<div class="ch-info">
+										<div class="ch-info-front ch-img-25"></div>
+										<div class="ch-info-back">
+											<h3>Bio-Tech</h3>
+											<p><a href="https://www.facebook.com/lavkush.raj.3" target="_blank">Lav Kush</a></p>
+											<span></span>
+											<span>+ 91-9419-873842</span>
+										</div>
+									</div>
 								</div>
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="ch-item">
-							<div class="ch-info">
-								<div class="ch-info-front ch-img-26"></div>
-								<div class="ch-info-back">
-									<h3>Bio-Tech</h3>
-									<p><a href="https://www.facebook.com/shamli.shagotra" target="_blank">Shamli Shagotra</a></p>
-									<span></span>
-									<span></span>
+							</li>
+							<li>
+								<div class="ch-item">
+									<div class="ch-info">
+										<div class="ch-info-front ch-img-26"></div>
+										<div class="ch-info-back">
+											<h3>Bio-Tech</h3>
+											<p><a href="https://www.facebook.com/shamli.shagotra" target="_blank">Shamli Shagotra</a></p>
+											<span></span>
+											<span></span>
+										</div>
+									</div>
 								</div>
-							</div>
-						</div>
-					</li>
-				</ul>
-				<ul class="ch-grid">
-					<li></li>
-					<li>
-						<div class="ch-item">
-							<div class="ch-info">
-								<div class="ch-info-front ch-img-27"></div>
-								<div class="ch-info-back">
-									<h3>Arch.</h3>
-									<p><a href="https://www.facebook.com/anand.upadhayay.92" target="_blank">Anand Upadhayay</a></p>
-									<span></span>
-									<span>+ 91-9697-679672</span>
+							</li>
+						</ul>
+						<ul class="ch-grid">
+							<li></li>
+							<li>
+								<div class="ch-item">
+									<div class="ch-info">
+										<div class="ch-info-front ch-img-27"></div>
+										<div class="ch-info-back">
+											<h3>Arch.</h3>
+											<p><a href="https://www.facebook.com/anand.upadhayay.92" target="_blank">Anand Upadhayay</a></p>
+											<span></span>
+											<span>+ 91-9697-679672</span>
+										</div>
+									</div>
 								</div>
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="ch-item">
-							<div class="ch-info">
-								<div class="ch-info-front ch-img-28"></div>
-								<div class="ch-info-back">
-									<h3>Arch.</h3>
-									<p><a href="https://www.facebook.com/puneetmehta2802" target="_blank">Puneet Mehta</a></p>
-									<span></span>
-									<span>+91-9419-351611</span>
+							</li>
+							<li>
+								<div class="ch-item">
+									<div class="ch-info">
+										<div class="ch-info-front ch-img-28"></div>
+										<div class="ch-info-back">
+											<h3>Arch.</h3>
+											<p><a href="https://www.facebook.com/puneetmehta2802" target="_blank">Puneet Mehta</a></p>
+											<span></span>
+											<span>+91-9419-351611</span>
+										</div>
+									</div>
 								</div>
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="ch-item">
-							<div class="ch-info">
-								<div class="ch-info-front ch-img-29"></div>
-								<div class="ch-info-back">
-									<h3>Arch.</h3>
-									<p><a href="https://www.facebook.com/arunima.bhowmik" target="_blank">Arunima Bhowmick</a></p>
-									<span></span>
-									<span>+ 91-9596-997279</span>
+							</li>
+							<li>
+								<div class="ch-item">
+									<div class="ch-info">
+										<div class="ch-info-front ch-img-29"></div>
+										<div class="ch-info-back">
+											<h3>Arch.</h3>
+											<p><a href="https://www.facebook.com/arunima.bhowmik" target="_blank">Arunima Bhowmick</a></p>
+											<span></span>
+											<span>+ 91-9596-997279</span>
+										</div>
+									</div>
 								</div>
-							</div>
-						</div>
-					</li>
-					
-				</ul>
+							</li>
+							
+						</ul>
 
 
+						
+				</div>
 				
-		</div>
-		
-	</div>
-	
-</section>
+			</div>
+			
+		</section>
 		<!-- container Contact -->
 
-        <section class="page" id="container_contact" data-slide="6">	
+        <section class="page" id="container_contact" data-slide="7">	
 
 			<div class="contact">
 				<div id="cont0">
@@ -2915,7 +2856,7 @@ $sponsors = array(
 			</div>
 		</section><!-- /container -->	
 
-	<section class="page" id="container_gal">
+	<section class="page" id="container_gal" data-slide="8">
 		
 		<div class="container">	
 			
@@ -3050,8 +2991,6 @@ $sponsors = array(
 							$("#os-phrases > h3").lettering('words').children("span").lettering().children("span").lettering(); 
 				});				
 
-							
-
 				//preloader for images
 				var loader = new PxLoader();
 
@@ -3080,10 +3019,6 @@ $sponsors = array(
 
 				//removes the loader page
 				$('#enter').on("click", function(){
-					/*$("#container").addClass("open", function(){
-						$(this).remove();
-					});*/
-
 					$("#letters").addClass("moveLeft");
 					$("#right-part").addClass("moveRight");	
 					$(this).fadeOut(200);
@@ -3097,6 +3032,11 @@ $sponsors = array(
 				});
 
 	        });
+			(function(){
+				if(loggedIn=="true"){
+					pullUserPersonelData();
+				}
+			})();
 
 		</script>
 		<!-- classie.js by @desandro: https://github.com/desandro/classie -->
