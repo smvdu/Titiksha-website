@@ -5,8 +5,10 @@
   * http://github.com/smvdu/titiksha
   *
   */
-
-  	session_start();
+  	ini_set(' session.save_path','/tmp'); 
+	session_name('userLogin');
+    // Starting the session
+    session_start();
 	/* Local configurations/ overrides
 	***********************************************/	
 	# set default timezone
@@ -56,7 +58,20 @@
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" />
         <link rel="stylesheet" href="css/jquery.countdown.css" />
 
+        <script type="text/javascript" src="js/vendor/jquery-1.9.1.min.js"></script>
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script>
+        	var loggedIn = "<?php if(isset($_SESSION['is_logged']) && $_SESSION['is_logged'] == 'yes') echo 'true'; else echo 'false'; ?>";    		
+			if(loggedIn=="true"){
+		        $("#register-menu").html("My Account");
+		        $("#register").fadeOut(100).attr("data-slide","0");
+		        $("#container_dash").fadeIn(100).attr("data-slide","5");
+		        $("#logout").show();
+		    }else{
+		        $("#register").fadeIn(100).attr("data-slide","5");
+		        $("#container_dash").fadeOut(100).attr("data-slide","0");
+		    }
+		</script>
        	
 	</head>
 	<body>
@@ -74,6 +89,7 @@
         		<li data-slide="4"></li>
         		<li data-slide="5"></li>
         		<li data-slide="6"></li>
+        		<li data-slide="7"></li>
         	</ul>
 
         	<div data-slide="1"></div>
@@ -82,8 +98,10 @@
         	<div data-slide="4"></div>
         	<div data-slide="5"></div>
         	<div data-slide="6"></div>
+        	<div data-slide="7"></div>
         	
         </nav>
+
 
 		<section id="container">	
 
@@ -220,7 +238,7 @@
                         <a href="#register">
                             <span class="ca-icon">U</span>
                             <div class="ca-content">
-                                <h2 class="ca-main">Register</h2>
+                                <h2 class="ca-main" id="register-menu">Register / Login</h2>
                                 <h3 class="ca-sub">Register and get started</h3>
                             </div>
                         </a>
@@ -1930,9 +1948,10 @@ $sponsors = array(
 				</div>
 
 		</section>	
+
 		<!-- REGITRATION PAGE -->
 
-		<section class="page" id="register" data-slide="5">
+		<section class="pageReg" id="register" data-slide="5">
 			<div class="register-form">
 				<div class="msg-Box" style="display:none;">
 					<div class="msg-close">X</div>
@@ -1953,7 +1972,7 @@ $sponsors = array(
 											<th>Name :</th>
 											<td>
 												<span><img src="img/icomoon/user.png" /></span>
-												<input name="name" type="text" size="30" maxlength="35" autocomplete="off" placeholder="Full Name"/>
+												<input name="name" type="text" size="30" maxlength="100" autocomplete="off" placeholder="Full Name"/>
 											</td>
 											<td></td>
 										</tr>
@@ -1962,7 +1981,7 @@ $sponsors = array(
 											<td>
 
 												<span><img src="img/icomoon/mail.png" /></span>
-												<input name="email" type="email" size="30" maxlength="35"  autocomplete="off" placeholder="Email Address"/>
+												<input name="email" type="email" size="30" maxlength="100"  autocomplete="off" placeholder="Email Address"/>
 												<div id="email_warning" style="display:none"></div>
 											</td>
 											<td></td>
@@ -1971,7 +1990,7 @@ $sponsors = array(
 											<th>College :</th>
 											<td>
 												<span><img src="img/icomoon/briefcase.png" /></span>
-												<input name="college" type="text" size="40" maxlength="35" autocomplete="off" placeholder="University/College"/>
+												<input name="college" type="text" size="40" maxlength="100" autocomplete="off" placeholder="University/College"/>
 											</td>
 											<td></td>
 										</tr>
@@ -2068,7 +2087,7 @@ $sponsors = array(
 							</form>
 						</div>
 						<div id="login">
-							<button id="log-button">Log In</button>
+							<button id="login-button" for="submit">Log In</button>
 						</div>	
 
 					</div>
@@ -2084,8 +2103,10 @@ $sponsors = array(
 		    </div>			
 		</section>
 		
+		
 		<!-- Dashboard  -->
-		<section class="page" id="container_dash">
+		<section class="pageDash" id="container_dash" data-slide="5" style="display: none;">
+			<div id="logout" style="">Logout</div>
 			<div class="dashboard">
 				<div class="dash-head">Titiksha Dashboard</div>
 				<div class="dash-menu">
@@ -2204,11 +2225,138 @@ $sponsors = array(
 			</div>
 			
 		</section>
+		<!-- container Contact -->
 
-	<!-- PAGE OF COORDITORS AND CELL COMMITEE -->
+        <section class="page" id="container_contact" data-slide="6">	
 
-<section class="page" id="container_coord">
-		
+			<div class="contact">
+				<div id="cont0">
+					<div id="c7">
+						CONTACTS
+					</div>
+				</div>
+
+
+				<div class="assym_black" id="cont1">
+					<div id="online">
+						<h3>Online Contacts</h3>
+						<a href="https://www.facebook.com/titiksha2k13" target="_blank" style="color: #092241; text-decoration: none;"><img src="img/fb_black.png">Facebook Page</a>
+						<p>Or Drop us a mail on :</p>
+						<i style="color: #2B3752">titiksha.team@gmail.com</i>
+					</div>
+				</div>
+
+				<div class="assym_black" id="cont2">
+					<div id="chief">
+
+						<h4>Chief Student Coordinator</h4>
+						<p class="name">Dhananjay Singh</p>
+						<p class="tel">+91-9796-405080</p>
+						<p clas="mail" >djsanj99@gmail.com</p>
+
+					</div>
+				</div>
+
+				<div class="assym_black" id="cont3">
+					<div id="web">
+
+						<h4>Web Development Team</h4>
+						<p class="name">* Sunny Gupta</p>
+						<p class="tel">+91-9086-724946</p>
+						<p class="name">* Rishabh Shukla</p>
+						<p class="tel">+91-9086-250987</p>
+
+						<p class="name">* Akshay Pratap Singh</p>
+						<p class="tel">+91-9086-260656</p>
+						<p class="name">* Parth Pankaj Tiwary</p>
+						<p class="tel">+91-9797-521874</p>
+						
+
+					</div>					
+				</div>
+
+				<div class="assym_black" id="cont4">
+					<div id="tech">
+						<h4>Technical Event Coordinator</h4>
+
+						<p class="name">Rishabh Shukla</p>
+						<p class="tel">+91-9086-250987</p>
+						<p class="mail" >rishy.s13@gmail.com</pre>
+
+					</div>					
+				</div>
+
+				<div class="assym_black" id="cont5">
+					<div id="design">
+						<h4>SponsorShip Coordinator</h4>
+						<p class="name">Navjot Sasan</p>
+						<p class="tel">91-9622-074246</p>
+						<p class="mail">navvi.singh4@gmail.com</p><br>
+						<p class="name">Gaurav Singh</s>
+						<p class="tel">+91-9796-446317 </p>
+						<p class="mail">2011eec54@gmail.com</p>
+						
+
+					</div>					
+				</div>
+
+				<div class="assym_black" id="cont6">
+					<div id="media">
+						
+						<h4>Designer</h4>
+						<p class="name">Akash Maurya</p>
+						<p class="tel">+91-9797602140</p>
+						<p class="mail" >maurya.aakash1@gmail.com</p>
+						<p class="name">Ahmed Raza</p>
+						<p class="tel">+91-9796-288428</p>
+						<p class="mail" >raza2393@gmail.com</p>
+						<p class="name">Pankaj Pandey</p>
+						<p class="tel">+91-9797-519217</p>
+						<p class="mail" >pankajpandey890@gmail.com</p>
+						
+
+
+					</div>
+				</div>
+
+				<div class="assym_black" id="cont7">
+					
+					<div id="faculty">
+						<h4>Chief Faculty Coordinator</h4>
+						<p class="name">* Dr. Ankush Anand</p>
+						<p class="mail">ankush.anand@smvdu.ac.in</p><br/>
+						<h4>Branch Faculty Coordinators</h4>
+						<p class="name">- A. Prof. Irfan-ul-Haq</p>
+						<p class="mail" >haqmechanical@gmail.com</p>
+						<p class="name">- Lect. Abhimanyu Sharma </p>
+						<p class="mail" >abhimanyu.sharma@smvdu.ac.in </p>
+						<p class="name">- A. Prof. Sudesh Kumar</p>
+						<p class="mail" >sudesh.Bhadu@smvdu.ac.in  </p>
+						<p class="name">- A. Prof. R.K. Jha</p>
+						<p class="mail" >rakesh.jha@smvdu.ac.in</p>
+						<p class="name">- Dr. Swarkar Sharma</p>
+						<p class="mail" ></p>
+						
+
+					</div>
+				</div>
+
+				<div class="assym_black" id="cont8">
+					<div id="discipline">
+						<h4>Publication Relations </h4>
+
+						<p class="name">Megha Sharma</p>
+						<p class="tel">+91-9086-118089</p>
+						<p class="mail">meghas19@yahoo.co.in</p>
+					</div>
+					
+				</div>
+				
+			</div>
+		</section><!-- /container -->	
+
+		<!-- PAGE OF COORDITORS AND CELL COMMITEE -->
+<section class="page" id="container_coord" data-slide="7">
 	<div id="coord">
 		<div id="co_head">Co-Ordinators</div>
 		<div id="co_table">
@@ -2657,7 +2805,6 @@ $sponsors = array(
 	</div>
 	
 </section>
-
 		<!-- container Contact -->
 
         <section class="page" id="container_contact" data-slide="6">	
@@ -2864,11 +3011,6 @@ $sponsors = array(
 			
 		</section>
 
-		
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-		
-		<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-
 		 <!-- JavaScript includes -->
         
         <script type="text/javascript" src="js/jquery.countdown.js"></script>
@@ -2974,7 +3116,6 @@ $sponsors = array(
 
 				});
 
-
 	        });
 
 		</script>
@@ -2982,7 +3123,7 @@ $sponsors = array(
 		<script src="js/classie.js"></script>
 		<script src="js/modalEffects.js"></script>
 				
-		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. 
         <script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -2992,6 +3133,6 @@ $sponsors = array(
 		  ga('create', 'UA-44697804-1', 'smvdu.net.in');
 		  ga('send', 'pageview');
 
-		</script>
+		</script>-->
 	</body>
 </html>

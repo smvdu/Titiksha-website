@@ -55,9 +55,9 @@
 	 if(!mysql_error())
 	 	echo 'true';
 	 else
-	 	echo 'false';
+	 	echo 'falseA';
 	}else{
-		echo 'false';
+		echo 'falseB';
 	}
 	  mysql_close();
 ?>
