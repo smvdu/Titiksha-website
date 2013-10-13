@@ -5,8 +5,10 @@
   * http://github.com/smvdu/titiksha
   *
   */
-
-  	session_start();
+  	ini_set(' session.save_path','/tmp'); 
+	session_name('userLogin');
+    // Starting the session
+    session_start();
 	/* Local configurations/ overrides
 	***********************************************/	
 	# set default timezone
@@ -56,7 +58,20 @@
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" />
         <link rel="stylesheet" href="css/jquery.countdown.css" />
 
+        <script type="text/javascript" src="js/vendor/jquery-1.9.1.min.js"></script>
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script>
+        	var loggedIn = "<?php if(isset($_SESSION['is_logged']) && $_SESSION['is_logged'] == 'yes') echo 'true'; else echo 'false'; ?>";    		
+			if(loggedIn=="true"){
+		        $("#register-menu").html("My Account");
+		        $("#register").fadeOut(100).attr("data-slide","0");
+		        $("#container_dash").fadeIn(100).attr("data-slide","5");
+		        $("#logout").show();
+		    }else{
+		        $("#register").fadeIn(100).attr("data-slide","5");
+		        $("#container_dash").fadeOut(100).attr("data-slide","0");
+		    }
+		</script>
        	
 	</head>
 	<body>
@@ -74,6 +89,7 @@
         		<li data-slide="4"></li>
         		<li data-slide="5"></li>
         		<li data-slide="6"></li>
+        		<li data-slide="7"></li>
         	</ul>
 
         	<div data-slide="1"></div>
@@ -82,8 +98,10 @@
         	<div data-slide="4"></div>
         	<div data-slide="5"></div>
         	<div data-slide="6"></div>
+        	<div data-slide="7"></div>
         	
         </nav>
+
 
 		<section id="container">	
 
@@ -220,7 +238,7 @@
                         <a href="#register">
                             <span class="ca-icon">U</span>
                             <div class="ca-content">
-                                <h2 class="ca-main">Register</h2>
+                                <h2 class="ca-main" id="register-menu">Register / Login</h2>
                                 <h3 class="ca-sub">Register and get started</h3>
                             </div>
                         </a>
@@ -410,8 +428,8 @@
 												the valedictory ceremony in auditorium.</p>
 
 											<ul>
-												<li><strong>Event Co-ordinator :</strong> Ashish Singh | Chandan Jha </li>
-												<li><strong>Contact :</strong> +91-9596-997294 | +91-9086-728974</li>
+												<li><strong>Event Co-ordinator :</strong> Pawan Kumar | Chandan Jha </li>
+												<li><strong>Contact :</strong> +91-9596-915301 | +91-9086-728974</li>
 											</ul>
 
 											
@@ -1058,7 +1076,7 @@
 							<div class="uc-container">
 
 								<div class="md-trigger" data-modal="modal-19">
-									<span class="icon-eye">WAVEMANIA</span>
+									<span class="icon-eye"><em>WAVEMANIA</em></span>
 
 									<p>Check whether you have the basic knowledge of electrical components.</p>
 								</div>
@@ -1094,7 +1112,7 @@
 							<div class="uc-container">
 
 								<div class="md-trigger" data-modal="modal-20">
-									<span class="icon-eye">ELECTRO-QUIZ</span>
+									<span class="icon-eye"><em>ELECTRO-QUIZ</em></span>
 									<p>A quiz regarding lab instruments and related to technology.</p>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-20">
@@ -1124,7 +1142,7 @@
 							<div class="uc-container">
 
 								<div class="md-trigger" data-modal="modal-21">
-									<span class="icon-eye">ELECTRO-AVATAR</span>
+									<span class="icon-eye"><em>EMO-EXPRESS22</em></span>
 
 									<p>This  event  is  a  blend  of  science  and  imagination.  Design  your  own
 										super  hero  and  win  prizes.</p>
@@ -1135,21 +1153,27 @@
 											<button class="md-register register">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
-										<h3>ELECTRO-AVATAR</h3>
+										<h3>EMO-EXPRESS22</h3>
 										<div>
-											<p>This  event  is  a  blend  of  <strong>science</strong>  and  <strong>imagination</strong>.  Design  your  own
-												super  hero  and  win  prizes.  Participants  will  form  pairs,  and  they  have
-												to  write  a fictitious short  story  based  on  the  picture  shown  to  them  at
-												the  event  venue.
-												The  top  participants  will  make  a  short  movie  on  their  superhero of the
-												length  of  their  choice  and  the  best  video  would  be  shown  in  the
-												Matrika Auditorium during the valedictory of Titiksha.</p>
+											<p>Are you addicted to click snaps. Now titiksha 2k13 giving you a chance to xpress 
+											your emotion with the help of snaps by making a STORY  on them. Story will based 
+											on a topic which u would decide ur own. And present ur story in form of slide show.</p>
+											<ul>
+												<li><strong>round 1 :</strong> Participants can submit their ppts to undersigned.Selected 22 candidates allowed in round 2.</li>
+												<li><strong>round 2 :</strong> Selected participants  can give their presentation in front of judges.</li>
+											<br>
+											<strong>Rules :</strong> 
+											<li>max. 22 snaps allowed in a slide show.</li>
+											<li>you are allowed to choose any topic for your story.</li>
+											</ul>
+											<p><strong>Judging criteria :</strong> selection is based on how effective ur story on ur snaps and topic.</p>
+
 											<br><br>
 											<ul>
 
 
-												<li><strong>Event co-ordinator: </strong> Ashish Singh</li>
-												<li><strong>Contact: </strong> +91-9596997294</li>
+												<li><strong>Event co-ordinator: </strong> APOORV SHUKLA | BRIJESH | SHIKHA </li>
+												<li><strong>Contact: </strong> +91-9086-119935</li>
 
 											</ul>
 											
@@ -1161,7 +1185,7 @@
 							<div class="uc-container">
 
 								<div class="md-trigger" data-modal="modal-22">
-									<span class="icon-eye">CIRCUIT-BUG</span>
+									<span class="icon-eye"><em>CIRCUIT-BUG</em></span>
 
 									<p>An event for those obsessed with circuits, comprising of two rounds.</p>
 								</div>
@@ -1263,12 +1287,12 @@
 							
 							<div class="uc-container">
 
-								<div class="md-trigger" data-modal="modal-55">
-									<span class="icon-eye">ELECTRO TRADE</span>
+								<div class="md-trigger" data-modal="modal-56">
+									<span class="icon-eye"><em>ELECTRO TRADE</em></span>
 
 									<p>Get your Technology knowledge checked here.</p>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-55">
+								<div class="md-modal md-effect-11" id="modal-56">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register">Register</button>
@@ -1849,8 +1873,110 @@
 							
 							
 						</div><!-- / grid -->
+
+
 					</div>
 				</div>	
+				
+				<!-- Gaming Events -->
+
+				<div class="branch" id="game">
+					<div class="event_heading">
+						<span class="heading_text">Games</span>
+						<div class="event_close" style="display:none">X</div>
+					</div>
+					<div class="event_content" style="display:none;">
+						<div id="grid">
+						
+							<div class="uc-container">
+								<div class="md-trigger" data-modal="modal-60">
+									<span style="color:#fff;" class="icon-eye">FIFA "11"</span>
+									<p  style="color:#fff;">Show skills in digital football</p>
+								</div>
+								<div class="md-modal md-effect-11" id="modal-60">
+									<div class="md-content">
+										<div class="md-header">
+											<button class="md-register register">Register</button>
+											<button class="md-close close">Close!</button>
+										</div>
+										<h3>FIFA "11"</h3>
+										<div>
+												<img  src="img/fifa.jpg">
+												<p></p>
+											
+											<br><br>
+											<ul>
+												<li><strong>Event co-ordinator: </strong>ADITYA  SHUKLA |  KAVI CHOWDHARY | MANISH  PALIWAL</li>
+												<li><strong>Contact: </strong> +91-9797-602242 | +91-9596-915315 | +91-9086-185529</li>
+											</ul>
+											
+										</div>
+									</div>
+								</div>
+								<div class="md-overlay"></div><!-- the overlay element -->
+							</div><!-- / uc-container -->
+
+							<div class="uc-container">
+								<div class="md-trigger" data-modal="modal-61">
+									<span style="color:#fff;" class="icon-eye">"Counter - Striker"</span>
+									<p  style="color:#fff;"></p>
+								</div>
+								<div class="md-modal md-effect-11" id="modal-61">
+									<div class="md-content">
+										<div class="md-header">
+											<button class="md-register register">Register</button>
+											<button class="md-close close">Close!</button>
+										</div>
+										<h3>"Counter - Striker"</h3>
+										<div>
+											<img  src="img/cs.jpg">
+											<br><br>
+											<ul>
+												
+											</ul>
+											
+										</div>
+									</div>
+								</div>
+								<div class="md-overlay"></div><!-- the overlay element -->
+							</div><!-- / uc-container -->
+
+							<div class="uc-container">
+								<div class="md-trigger" data-modal="modal-62">
+									<span style="color:#fff;" class="icon-eye">"Nfs" - "Most Wanted"</span>
+									<p  style="color:#fff;">Participate and Show how Quick you are into racing.</p>
+								</div>
+								<div class="md-modal md-effect-11" id="modal-62">
+									<div class="md-content">
+										<div class="md-header">
+											<button class="md-register register">Register</button>
+											<button class="md-close close">Close!</button>
+										</div>
+										<h3>Nfs - "Most Wanted"</h3>
+										<div>
+											<img  src="img/nfs.jpg">
+
+											<br><br>
+											<ul>
+												
+											</ul>
+											
+										</div>
+									</div>
+								</div>
+								<div class="md-overlay"></div><!-- the overlay element -->
+							</div><!-- / uc-container -->
+
+
+						</div>
+					</div>
+
+				</div>
+
+
+
+
+
 			</div>
 			
 		</section> <!-- events END -->
@@ -1930,9 +2056,10 @@ $sponsors = array(
 				</div>
 
 		</section>	
+
 		<!-- REGITRATION PAGE -->
 
-		<section class="page" id="register" data-slide="5">
+		<section class="pageReg" id="register" data-slide="5">
 			<div class="register-form">
 				<div class="msg-Box" style="display:none;">
 					<div class="msg-close">X</div>
@@ -1953,7 +2080,7 @@ $sponsors = array(
 											<th>Name :</th>
 											<td>
 												<span><img src="img/icomoon/user.png" /></span>
-												<input name="name" type="text" size="30" maxlength="35" autocomplete="off" placeholder="Full Name"/>
+												<input name="name" type="text" size="30" maxlength="100" autocomplete="off" placeholder="Full Name"/>
 											</td>
 											<td></td>
 										</tr>
@@ -1962,7 +2089,7 @@ $sponsors = array(
 											<td>
 
 												<span><img src="img/icomoon/mail.png" /></span>
-												<input name="email" type="email" size="30" maxlength="35"  autocomplete="off" placeholder="Email Address"/>
+												<input name="email" type="email" size="30" maxlength="100"  autocomplete="off" placeholder="Email Address"/>
 												<div id="email_warning" style="display:none"></div>
 											</td>
 											<td></td>
@@ -1971,7 +2098,7 @@ $sponsors = array(
 											<th>College :</th>
 											<td>
 												<span><img src="img/icomoon/briefcase.png" /></span>
-												<input name="college" type="text" size="40" maxlength="35" autocomplete="off" placeholder="University/College"/>
+												<input name="college" type="text" size="40" maxlength="100" autocomplete="off" placeholder="University/College"/>
 											</td>
 											<td></td>
 										</tr>
@@ -2068,7 +2195,7 @@ $sponsors = array(
 							</form>
 						</div>
 						<div id="login">
-							<button id="log-button">Log In</button>
+							<button id="login-button" for="submit">Log In</button>
 						</div>	
 
 					</div>
@@ -2084,8 +2211,10 @@ $sponsors = array(
 		    </div>			
 		</section>
 		
+		
 		<!-- Dashboard  -->
-		<section class="page" id="container_dash">
+		<section class="pageDash" id="container_dash" data-slide="5" style="display: none;">
+			<div id="logout" style="">Logout</div>
 			<div class="dashboard">
 				<div class="dash-head">Titiksha Dashboard</div>
 				<div class="dash-menu">
@@ -2204,11 +2333,10 @@ $sponsors = array(
 			</div>
 			
 		</section>
-
-	<!-- PAGE OF COORDITORS AND CELL COMMITEE -->
-
-<section class="page" id="container_coord">
 		
+
+		<!-- PAGE OF COORDITORS AND CELL COMMITEE -->
+<section class="page" id="container_coord" data-slide="7">
 	<div id="coord">
 		<div id="co_head">Co-Ordinators</div>
 		<div id="co_table">
@@ -2657,7 +2785,6 @@ $sponsors = array(
 	</div>
 	
 </section>
-
 		<!-- container Contact -->
 
         <section class="page" id="container_contact" data-slide="6">	
@@ -2864,11 +2991,6 @@ $sponsors = array(
 			
 		</section>
 
-		
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-		
-		<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-
 		 <!-- JavaScript includes -->
         
         <script type="text/javascript" src="js/jquery.countdown.js"></script>
@@ -2974,7 +3096,6 @@ $sponsors = array(
 
 				});
 
-
 	        });
 
 		</script>
@@ -2982,7 +3103,7 @@ $sponsors = array(
 		<script src="js/classie.js"></script>
 		<script src="js/modalEffects.js"></script>
 				
-		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. 
         <script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -2992,6 +3113,6 @@ $sponsors = array(
 		  ga('create', 'UA-44697804-1', 'smvdu.net.in');
 		  ga('send', 'pageview');
 
-		</script>
+		</script>-->
 	</body>
 </html>
