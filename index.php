@@ -49,7 +49,6 @@
 
 		<link rel="icon" type="image/gif" href="intersection.gif"> 
 		
-
 		
 		<link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
@@ -60,6 +59,9 @@
 
         <script type="text/javascript" src="js/vendor/jquery-1.9.1.min.js"></script>
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        
+
+
         <script>
         	var loggedIn = "<?php if(isset($_SESSION['is_logged']) && $_SESSION['is_logged'] == 'yes') echo 'true'; else echo 'false'; ?>";    		
 			if(loggedIn=="true"){
@@ -72,6 +74,8 @@
 		        $("#container_dash").fadeOut(100).attr("data-slide","0");
 		    }
 		</script>
+
+
        	
 	</head>
 	<body>
@@ -1918,7 +1922,7 @@
 
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-61">
-									<span style="color:#fff;" class="icon-eye">"Counter - Striker"</span>
+									<span style="color:#fff;" class="icon-eye">"Counter - Strike"</span>
 									<p  style="color:#fff;"></p>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-61">
@@ -2700,7 +2704,7 @@ $sponsors = array(
 								<div class="ch-info-front ch-img-24"></div>
 								<div class="ch-info-back">
 									<h3>Computer Sc.</h3>
-									<p><a href="https://www.facebook.com/mitika.sankhyan" target="_blank">Mitika Sharma</a></p>
+									<p><a href="https://www.facebook.com/shreya.gupta12" target="_blank">Shreya Gupta</a></p>
 									<span></span>
 									<span></span>
 								</div>
@@ -2919,7 +2923,8 @@ $sponsors = array(
 		
 		<div class="container">	
 			
-			<section class="main">
+			<div class="main">
+				
 				<div id="grid_top">
 					<span>Gallery</span>
 				</div>
@@ -2977,23 +2982,276 @@ $sponsors = array(
 						<li><a href="#"><img src="images/medium/48.jpg"/></a></li>
 						<li><a href="#"><img src="images/medium/49.jpg"/></a></li>
 						<li><a href="#"><img src="images/medium/50.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/51.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/52.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/53.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/54.jpg"/></a></li>
+					
+						
 					</ul>
 				</div>
 				
 				
-			</section>
+			</div>
 			
         </div>
 			
 		</section>
 
+
+<section class="page" id="contain_newgal">
+	<div id="gallery">
+   		 <ul>
+	        <li>
+	            <a href="photos/image1.jpg">
+	                <img src="photos/thumb_image1.jpg" width="100" height="100" alt="" />
+	            </a>
+	        </li>
+        <li>
+            <a href="photos/image2.jpg" >
+                <img src="photos/thumb_image2.jpg" width="100" height="100" alt="" />
+            </a>
+        </li>
+        <li>
+            <a href="photos/image3.jpg">
+                <img src="photos/thumb_image3.jpg" width="100" height="100" alt="" />
+            </a>
+        </li>
+        <li>
+            <a href="photos/image4.jpg" >
+                <img src="photos/thumb_image4.jpg" width="100" height="100" alt="" />
+            </a>
+        </li>
+        <li>
+            <a href="photos/image5.jpg" >
+                <img src="photos/thumb_image5.jpg" width="100" height="100" alt="" />
+            </a>
+        </li>
+        <li>
+            <a href="photos/image1.jpg">
+                <img src="photos/thumb_image1.jpg" width="100" height="100" alt="" />
+            </a>
+        </li>
+        <li>
+            <a href="photos/image2.jpg" >
+                <img src="photos/thumb_image2.jpg" width="100" height="100" alt="" />
+            </a>
+        </li>
+        <li>
+            <a href="photos/image3.jpg">
+                <img src="photos/thumb_image3.jpg" width="100" height="100" alt="" />
+            </a>
+        </li>
+        <li>
+            <a href="photos/image4.jpg" >
+                <img src="photos/thumb_image4.jpg" width="100" height="100" alt="" />
+            </a>
+        </li>
+        <li>
+            <a href="photos/image5.jpg" >
+                <img src="photos/thumb_image5.jpg" width="100" height="100" alt="" />
+            </a>
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <a href="photos/image1.jpg">
+                <img src="photos/thumb_image1.jpg" width="100" height="100" alt="" />
+            </a>
+        </li>
+        <li>
+            <a href="photos/image2.jpg" >
+                <img src="photos/thumb_image2.jpg" width="100" height="100" alt="" />
+            </a>
+        </li>
+        <li>
+            <a href="photos/image3.jpg">
+                <img src="photos/thumb_image3.jpg" width="100" height="100" alt="" />
+            </a>
+        </li>
+        <li>
+            <a href="photos/image4.jpg" >
+                <img src="photos/thumb_image4.jpg" width="100" height="100" alt="" />
+            </a>
+        </li>
+        <li>
+            <a href="photos/image5.jpg" >
+                <img src="photos/thumb_image5.jpg" width="100" height="100" alt="" />
+            </a>
+        </li>
+         <li>
+            <a href="photos/image1.jpg">
+                <img src="photos/thumb_image1.jpg" width="100" height="100" alt="" />
+            </a>
+        </li>
+        <li>
+            <a href="photos/image2.jpg" >
+                <img src="photos/thumb_image2.jpg" width="100" height="100" alt="" />
+            </a>
+        </li>
+        <li>
+            <a href="photos/image3.jpg">
+                <img src="photos/thumb_image3.jpg" width="100" height="100" alt="" />
+            </a>
+        </li>
+        <li>
+            <a href="photos/image4.jpg" >
+                <img src="photos/thumb_image4.jpg" width="100" height="100" alt="" />
+            </a>
+        </li>
+        <li>
+            <a href="photos/image5.jpg" >
+                <img src="photos/thumb_image5.jpg" width="100" height="100" alt="" />
+            </a>
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <a href="photos/image1.jpg">
+                <img src="photos/thumb_image1.jpg" width="100" height="100" alt="" />
+            </a>
+        </li>
+        <li>
+            <a href="photos/image2.jpg" >
+                <img src="photos/thumb_image2.jpg" width="100" height="100" alt="" />
+            </a>
+        </li>
+        <li>
+            <a href="photos/image3.jpg">
+                <img src="photos/thumb_image3.jpg" width="100" height="100" alt="" />
+            </a>
+        </li>
+        <li>
+            <a href="photos/image4.jpg" >
+                <img src="photos/thumb_image4.jpg" width="100" height="100" alt="" />
+            </a>
+        </li>
+        <li>
+            <a href="photos/image5.jpg" >
+                <img src="photos/thumb_image5.jpg" width="100" height="100" alt="" />
+            </a>
+        </li>
+        <li>
+            <a href="photos/image1.jpg">
+                <img src="photos/thumb_image1.jpg" width="100" height="100" alt="" />
+            </a>
+        </li>
+        <li>
+            <a href="photos/image2.jpg" >
+                <img src="photos/thumb_image2.jpg" width="100" height="100" alt="" />
+            </a>
+        </li>
+        <li>
+            <a href="photos/image3.jpg">
+                <img src="photos/thumb_image3.jpg" width="100" height="100" alt="" />
+            </a>
+        </li>
+        <li>
+            <a href="photos/image4.jpg" >
+                <img src="photos/thumb_image4.jpg" width="100" height="100" alt="" />
+            </a>
+        </li>
+        <li>
+            <a href="photos/image5.jpg" >
+                <img src="photos/thumb_image5.jpg" width="100" height="100" alt="" />
+            </a>
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <a href="photos/image1.jpg">
+                <img src="photos/thumb_image1.jpg" width="100" height="100" alt="" />
+            </a>
+        </li>
+        <li>
+            <a href="photos/image2.jpg" >
+                <img src="photos/thumb_image2.jpg" width="100" height="100" alt="" />
+            </a>
+        </li>
+        <li>
+            <a href="photos/image3.jpg">
+                <img src="photos/thumb_image3.jpg" width="100" height="100" alt="" />
+            </a>
+        </li>
+        <li>
+            <a href="photos/image4.jpg" >
+                <img src="photos/thumb_image4.jpg" width="100" height="100" alt="" />
+            </a>
+        </li>
+        <li>
+            <a href="photos/image5.jpg" >
+                <img src="photos/thumb_image5.jpg" width="100" height="100" alt="" />
+            </a>
+        </li>
+         <li>
+            <a href="photos/image1.jpg">
+                <img src="photos/thumb_image1.jpg" width="100" height="100" alt="" />
+            </a>
+        </li>
+        <li>
+            <a href="photos/image2.jpg" >
+                <img src="photos/thumb_image2.jpg" width="100" height="100" alt="" />
+            </a>
+        </li>
+        <li>
+            <a href="photos/image3.jpg">
+                <img src="photos/thumb_image3.jpg" width="100" height="100" alt="" />
+            </a>
+        </li>
+        <li>
+            <a href="photos/image4.jpg" >
+                <img src="photos/thumb_image4.jpg" width="100" height="100" alt="" />
+            </a>
+        </li>
+        <li>
+            <a href="photos/image5.jpg" >
+                <img src="photos/thumb_image5.jpg" width="100" height="100" alt="" />
+            </a>
+        </li>
+    </ul>
+
+   
+</div>
+			
+</section>
+
+		<section class="page" id="container_reach">
+			<div id="map_smvdu">
+				<h3 style="margin: 0px; text-align: center;">How To Reach</h3><br>			
+				<div id="reach_info">Shri Mata Vaishno Devi University is situated 40 Km North of Jammu in the scenic surroundings of  Trikuta foothills,
+				 near the holy town of Katra in District -Reasi.
+				 The Campus is situated close to the beautiful tourist resort of Jhajjar - Kotli.
+				  One can reach SMVDU campus by local or private transport from Jammu.
+				<ul><li>Option 1:  Catch Taxi Directly from Ralway Station / Bus Stand / Airport directly to University Campus (Distance approximately 45 Kms.)</li>
+				<li>Option 2:  Board bus from Jammu Bus Stand/Railyway Station  plying to Udhampur/Katra but alight at Domel (Approx. 39 Kms.).  Board Mini Bus fom Domel to University (Approx. 6 Kms.)</li>
+					In the map given below SMVDU CAMPUS can be seen as the small black box.</div>
+				
+				<div style="width:425px;height:350px; position:relative; left: 4%;margin-top: -100px;; ">
+					<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0"
+					 marginwidth="0" 
+					 src="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=Shri%2BMata%2BVaishno%2BDevi%2BUniversity%2Bkatra%2C%2BJammu%2C%2BIndia&ie=UTF8&z=12&t=m&iwloc=addr&output=embed">
+					 </iframe><br>
+					 <table width="425" cellpadding="0" cellspacing="0" border="0">
+					 <tr>
+					 <td align="left">
+					 <small>
+					 <a style="color:#fff;"href="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=Shri%2BMata%2BVaishno%2BDevi%2BUniversity%2Bkatra%2C%2BJammu%2C%2BIndia&ie=UTF8&z=12&t=m&iwloc=addr">
+					 View Larger Map</a>
+					 </small></td>
+					 <td align="right">
+					 <small>
+					 <a style="color: #fff;"href="http://www.embedgooglemap.com">embed google map</a>
+					 </small>
+					 </td>
+					 </tr>
+					 </table>
+				</div>
+			</div>					
+			
+		</section>
+
 		 <!-- JavaScript includes -->
+		  
         
         <script type="text/javascript" src="js/jquery.countdown.js"></script>
+        <script src="js/classie.js"></script>
+		<script src="js/modalEffects.js"></script>
         <script type="text/javascript" src="js/script.js"></script>
         <script type="text/javascript" src="js/plugins.js"></script>
         <script type="text/javascript" src="js/functions.js"></script>
@@ -3005,6 +3263,7 @@ $sponsors = array(
         <script type="text/javascript" src="js/PxLoaderImage.js"></script>
         <script type="text/javascript" src="js/jquery.parallax.min.js"></script>
         <script type="text/javascript" src="js/sponsor.js"></script>
+        <script type="text/javascript" src="js/jquery.lightbox-0.5.js"></script>
 
 		<script type="text/javascript" src="js/jquery.gridrotator.js"></script>
 		<script type="text/javascript">	
@@ -3040,8 +3299,15 @@ $sponsors = array(
 			});
 		</script>
 
+		
+		
+		
+
 		<script type="text/javascript">
-			
+			$(function() {
+		        $('#gallery a').lightBox();
+		    });
+
 			$(document).ready(function(){
 
 				//requests javascript files using AJAX
@@ -3099,9 +3365,11 @@ $sponsors = array(
 	        });
 
 		</script>
+
+
+
 		<!-- classie.js by @desandro: https://github.com/desandro/classie -->
-		<script src="js/classie.js"></script>
-		<script src="js/modalEffects.js"></script>
+		
 				
 		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. 
         <script>
