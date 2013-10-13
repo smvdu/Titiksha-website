@@ -134,8 +134,10 @@ function printData(data){
 	$.each(data,function(i,item){
 		newRow =$('<tr>').appendTo("#mytable");
 		$.each(item,function(k,content){
-			if(toTitleCase(k)!="Password")
-			$("<td>"+content+"</td>").appendTo(newRow );
+			if(k=="name" || k=="college_name")
+				$("<td>"+toTitleCase(content)+"</td>").appendTo(newRow );
+			else if(k!="password")
+				$("<td>"+content+"</td>").appendTo(newRow );
 		});
 	});
 }
