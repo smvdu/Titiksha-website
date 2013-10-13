@@ -2082,7 +2082,7 @@ margin-left: 42%;
     padding-top: 20%;
     height: 100%;
     float: left;
-    width: 16.667%;
+    width: 14.2%;
     z-index: 20;
 }
 
@@ -2111,6 +2111,7 @@ margin-left: 42%;
     text-align: center;
     margin-top: 40px;
     top: -240px;
+    margin-left: -27px;
 
 }
 
@@ -2130,13 +2131,13 @@ margin-left: 42%;
 }
 
 .expand{
-    width: 65%;
+    width: 63%;
    
 }
 
 .squeeze{
-    width: 7%;
-    font-size: 60%;
+   width: 6.1%;
+    font-size: 53%;
 }
 
 
@@ -2169,6 +2170,16 @@ margin-left: 42%;
 #ibt{
     background-color: rgb(56, 56, 56);
     color: #E7E7E7;
+}
+
+#game{
+    background-color: #252525;
+    color: #fff;
+}
+
+#fifa{
+    height: 150px;
+    width: 150px;
 }
 
 /* pfold style */
@@ -2227,6 +2238,14 @@ margin-left: 42%;
 #ibt .md-trigger{
     background-color: #6fb118;
 }
+
+#game .md-trigger{
+    background-color: #000;
+}
+
+
+
+
 /* General styles for the modal */
 
 /* 
@@ -2643,7 +2662,7 @@ perspective effects (not including the modals and the overlay).
 }
 
 .ch-img-1 { 
-    background-image: url(../img/3.jpg);
+    background-image: url(../img/35.jpg);
 }
 
 .ch-img-2 { 
@@ -2713,7 +2732,7 @@ perspective effects (not including the modals and the overlay).
     background-image: url(../img/25.jpg);
 }
 .ch-img-22 { 
-    background-image: url(../img/26.jpg);
+    background-image: url(../img/34.jpg);
 }
 
 .ch-img-24 { 
