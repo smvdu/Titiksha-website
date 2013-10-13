@@ -422,8 +422,8 @@
 												the valedictory ceremony in auditorium.</p>
 
 											<ul>
-												<li><strong>Event Co-ordinator :</strong> Ashish Singh | Chandan Jha </li>
-												<li><strong>Contact :</strong> +91-9596-997294 | +91-9086-728974</li>
+												<li><strong>Event Co-ordinator :</strong> Pawan Kumar | Chandan Jha </li>
+												<li><strong>Contact :</strong> +91-9596-915301 | +91-9086-728974</li>
 											</ul>
 
 											
@@ -1070,7 +1070,7 @@
 							<div class="uc-container">
 
 								<div class="md-trigger" data-modal="modal-19">
-									<span class="icon-eye">WAVEMANIA</span>
+									<span class="icon-eye"><em>WAVEMANIA</em></span>
 
 									<p>Check whether you have the basic knowledge of electrical components.</p>
 								</div>
@@ -1106,7 +1106,7 @@
 							<div class="uc-container">
 
 								<div class="md-trigger" data-modal="modal-20">
-									<span class="icon-eye">ELECTRO-QUIZ</span>
+									<span class="icon-eye"><em>ELECTRO-QUIZ</em></span>
 									<p>A quiz regarding lab instruments and related to technology.</p>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-20">
@@ -1136,7 +1136,7 @@
 							<div class="uc-container">
 
 								<div class="md-trigger" data-modal="modal-21">
-									<span class="icon-eye">ELECTRO-AVATAR</span>
+									<span class="icon-eye"><em>EMO-EXPRESS22</em></span>
 
 									<p>This  event  is  a  blend  of  science  and  imagination.  Design  your  own
 										super  hero  and  win  prizes.</p>
@@ -1147,21 +1147,27 @@
 											<button class="md-register register" data-branch="4" data-event="3">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
-										<h3>ELECTRO-AVATAR</h3>
+										<h3>EMO-EXPRESS22</h3>
 										<div>
-											<p>This  event  is  a  blend  of  <strong>science</strong>  and  <strong>imagination</strong>.  Design  your  own
-												super  hero  and  win  prizes.  Participants  will  form  pairs,  and  they  have
-												to  write  a fictitious short  story  based  on  the  picture  shown  to  them  at
-												the  event  venue.
-												The  top  participants  will  make  a  short  movie  on  their  superhero of the
-												length  of  their  choice  and  the  best  video  would  be  shown  in  the
-												Matrika Auditorium during the valedictory of Titiksha.</p>
+											<p>Are you addicted to click snaps. Now titiksha 2k13 giving you a chance to xpress 
+											your emotion with the help of snaps by making a STORY  on them. Story will based 
+											on a topic which u would decide ur own. And present ur story in form of slide show.</p>
+											<ul>
+												<li><strong>round 1 :</strong> Participants can submit their ppts to undersigned.Selected 22 candidates allowed in round 2.</li>
+												<li><strong>round 2 :</strong> Selected participants  can give their presentation in front of judges.</li>
+											<br>
+											<strong>Rules :</strong> 
+											<li>max. 22 snaps allowed in a slide show.</li>
+											<li>you are allowed to choose any topic for your story.</li>
+											</ul>
+											<p><strong>Judging criteria :</strong> selection is based on how effective ur story on ur snaps and topic.</p>
+
 											<br><br>
 											<ul>
 
 
-												<li><strong>Event co-ordinator: </strong> Ashish Singh</li>
-												<li><strong>Contact: </strong> +91-9596997294</li>
+												<li><strong>Event co-ordinator: </strong> APOORV SHUKLA | BRIJESH | SHIKHA </li>
+												<li><strong>Contact: </strong> +91-9086-119935</li>
 
 											</ul>
 											
@@ -1173,7 +1179,7 @@
 							<div class="uc-container">
 
 								<div class="md-trigger" data-modal="modal-22">
-									<span class="icon-eye">CIRCUIT-BUG</span>
+									<span class="icon-eye"><em>CIRCUIT-BUG</em></span>
 
 									<p>An event for those obsessed with circuits, comprising of two rounds.</p>
 								</div>
@@ -1275,12 +1281,12 @@
 							
 							<div class="uc-container">
 
-								<div class="md-trigger" data-modal="modal-55">
-									<span class="icon-eye">ELECTRO TRADE</span>
+								<div class="md-trigger" data-modal="modal-56">
+									<span class="icon-eye"><em>ELECTRO TRADE</em></span>
 
 									<p>Get your Technology knowledge checked here.</p>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-55">
+								<div class="md-modal md-effect-11" id="modal-56">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register" data-branch="4" data-event="7">Register</button>
@@ -1861,8 +1867,110 @@
 							
 							
 						</div><!-- / grid -->
+
+
 					</div>
 				</div>	
+				
+				<!-- Gaming Events -->
+
+				<div class="branch" id="game">
+					<div class="event_heading">
+						<span class="heading_text">Games</span>
+						<div class="event_close" style="display:none">X</div>
+					</div>
+					<div class="event_content" style="display:none;">
+						<div id="grid">
+						
+							<div class="uc-container">
+								<div class="md-trigger" data-modal="modal-60">
+									<span style="color:#fff;" class="icon-eye">FIFA "11"</span>
+									<p  style="color:#fff;">Show skills in digital football</p>
+								</div>
+								<div class="md-modal md-effect-11" id="modal-60">
+									<div class="md-content">
+										<div class="md-header">
+											<button class="md-register register">Register</button>
+											<button class="md-close close">Close!</button>
+										</div>
+										<h3>FIFA "11"</h3>
+										<div>
+												<img  src="img/fifa.jpg">
+												<p></p>
+											
+											<br><br>
+											<ul>
+												<li><strong>Event co-ordinator: </strong>ADITYA  SHUKLA |  KAVI CHOWDHARY | MANISH  PALIWAL</li>
+												<li><strong>Contact: </strong> +91-9797-602242 | +91-9596-915315 | +91-9086-185529</li>
+											</ul>
+											
+										</div>
+									</div>
+								</div>
+								<div class="md-overlay"></div><!-- the overlay element -->
+							</div><!-- / uc-container -->
+
+							<div class="uc-container">
+								<div class="md-trigger" data-modal="modal-61">
+									<span style="color:#fff;" class="icon-eye">"Counter - Striker"</span>
+									<p  style="color:#fff;"></p>
+								</div>
+								<div class="md-modal md-effect-11" id="modal-61">
+									<div class="md-content">
+										<div class="md-header">
+											<button class="md-register register">Register</button>
+											<button class="md-close close">Close!</button>
+										</div>
+										<h3>"Counter - Striker"</h3>
+										<div>
+											<img  src="img/cs.jpg">
+											<br><br>
+											<ul>
+												
+											</ul>
+											
+										</div>
+									</div>
+								</div>
+								<div class="md-overlay"></div><!-- the overlay element -->
+							</div><!-- / uc-container -->
+
+							<div class="uc-container">
+								<div class="md-trigger" data-modal="modal-62">
+									<span style="color:#fff;" class="icon-eye">"Nfs" - "Most Wanted"</span>
+									<p  style="color:#fff;">Participate and Show how Quick you are into racing.</p>
+								</div>
+								<div class="md-modal md-effect-11" id="modal-62">
+									<div class="md-content">
+										<div class="md-header">
+											<button class="md-register register">Register</button>
+											<button class="md-close close">Close!</button>
+										</div>
+										<h3>Nfs - "Most Wanted"</h3>
+										<div>
+											<img  src="img/nfs.jpg">
+
+											<br><br>
+											<ul>
+												
+											</ul>
+											
+										</div>
+									</div>
+								</div>
+								<div class="md-overlay"></div><!-- the overlay element -->
+							</div><!-- / uc-container -->
+
+
+						</div>
+					</div>
+
+				</div>
+
+
+
+
+
 			</div>
 			
 		</section> <!-- events END -->
