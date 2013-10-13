@@ -5,8 +5,10 @@
   * http://github.com/smvdu/titiksha
   *
   */
-
-  	session_start();
+  	ini_set(' session.save_path','/tmp'); 
+	session_name('userLogin');
+    // Starting the session
+    session_start();
 	/* Local configurations/ overrides
 	***********************************************/	
 	# set default timezone
@@ -56,7 +58,20 @@
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" />
         <link rel="stylesheet" href="css/jquery.countdown.css" />
 
+        <script type="text/javascript" src="js/vendor/jquery-1.9.1.min.js"></script>
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script>
+        	var loggedIn = "<?php if(isset($_SESSION['is_logged']) && $_SESSION['is_logged'] == 'yes') echo 'true'; else echo 'false'; ?>";    		
+			if(loggedIn=="true"){
+		        $("#register-menu").html("My Account");
+		        $("#register").fadeOut(100).attr("data-slide","0");
+		        $("#container_dash").fadeIn(100).attr("data-slide","5");
+		        $("#logout").show();
+		    }else{
+		        $("#register").fadeIn(100).attr("data-slide","5");
+		        $("#container_dash").fadeOut(100).attr("data-slide","0");
+		    }
+		</script>
        	
 	</head>
 	<body>
@@ -74,6 +89,7 @@
         		<li data-slide="4"></li>
         		<li data-slide="5"></li>
         		<li data-slide="6"></li>
+        		<li data-slide="7"></li>
         	</ul>
 
         	<div data-slide="1"></div>
@@ -82,8 +98,10 @@
         	<div data-slide="4"></div>
         	<div data-slide="5"></div>
         	<div data-slide="6"></div>
+        	<div data-slide="7"></div>
         	
         </nav>
+
 
 		<section id="container">	
 
@@ -220,7 +238,7 @@
                         <a href="#register">
                             <span class="ca-icon">U</span>
                             <div class="ca-content">
-                                <h2 class="ca-main">Register</h2>
+                                <h2 class="ca-main" id="register-menu">Register / Login</h2>
                                 <h3 class="ca-sub">Register and get started</h3>
                             </div>
                         </a>
@@ -1930,9 +1948,10 @@ $sponsors = array(
 				</div>
 
 		</section>	
+
 		<!-- REGITRATION PAGE -->
 
-		<section class="page" id="register" data-slide="5">
+		<section class="pageReg" id="register" data-slide="5">
 			<div class="register-form">
 				<div class="msg-Box" style="display:none;">
 					<div class="msg-close">X</div>
@@ -1953,7 +1972,7 @@ $sponsors = array(
 											<th>Name :</th>
 											<td>
 												<span><img src="img/icomoon/user.png" /></span>
-												<input name="name" type="text" size="30" maxlength="35" autocomplete="off" placeholder="Full Name"/>
+												<input name="name" type="text" size="30" maxlength="100" autocomplete="off" placeholder="Full Name"/>
 											</td>
 											<td></td>
 										</tr>
@@ -1962,7 +1981,7 @@ $sponsors = array(
 											<td>
 
 												<span><img src="img/icomoon/mail.png" /></span>
-												<input name="email" type="email" size="30" maxlength="35"  autocomplete="off" placeholder="Email Address"/>
+												<input name="email" type="email" size="30" maxlength="100"  autocomplete="off" placeholder="Email Address"/>
 												<div id="email_warning" style="display:none"></div>
 											</td>
 											<td></td>
@@ -1971,7 +1990,7 @@ $sponsors = array(
 											<th>College :</th>
 											<td>
 												<span><img src="img/icomoon/briefcase.png" /></span>
-												<input name="college" type="text" size="40" maxlength="35" autocomplete="off" placeholder="University/College"/>
+												<input name="college" type="text" size="40" maxlength="100" autocomplete="off" placeholder="University/College"/>
 											</td>
 											<td></td>
 										</tr>
@@ -2068,7 +2087,7 @@ $sponsors = array(
 							</form>
 						</div>
 						<div id="login">
-							<button id="log-button">Log In</button>
+							<button id="login-button" for="submit">Log In</button>
 						</div>	
 
 					</div>
@@ -2084,8 +2103,10 @@ $sponsors = array(
 		    </div>			
 		</section>
 		
+		
 		<!-- Dashboard  -->
-		<section class="page" id="container_dash">
+		<section class="pageDash" id="container_dash" data-slide="5" style="display: none;">
+			<div id="logout" style="">Logout</div>
 			<div class="dashboard">
 				<div class="dash-head">Titiksha Dashboard</div>
 				<div class="dash-menu">
@@ -2205,7 +2226,7 @@ $sponsors = array(
 			
 		</section>
 
-
+		
 		<!-- container Contact -->
 
         <section class="page" id="container_contact" data-slide="6">	
@@ -2337,7 +2358,7 @@ $sponsors = array(
 		</section><!-- /container -->	
 
 		<!-- PAGE OF COORDITORS AND CELL COMMITEE -->
-<section class="page" id="container_coord">
+<section class="page" id="container_coord" data-slide="7">
 		
 	<div id="coord">
 		<div id="co_head">Co-Ordinators</div>
@@ -2787,11 +2808,8 @@ $sponsors = array(
 	</div>
 	
 </section>
-
 		
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 		
-		<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 
 		 <!-- JavaScript includes -->
         
@@ -2865,7 +2883,6 @@ $sponsors = array(
 
 				});
 
-
 	        });
 
 		</script>
@@ -2873,7 +2890,7 @@ $sponsors = array(
 		<script src="js/classie.js"></script>
 		<script src="js/modalEffects.js"></script>
 				
-		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. 
         <script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -2883,6 +2900,6 @@ $sponsors = array(
 		  ga('create', 'UA-44697804-1', 'smvdu.net.in');
 		  ga('send', 'pageview');
 
-		</script>
+		</script>-->
 	</body>
 </html>

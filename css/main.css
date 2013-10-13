@@ -219,7 +219,7 @@ a:hover {
     width: 100%;
     overflow: hidden;
     box-shadow: 0px 5px 7px #000;
-    z-index: 3;
+    z-index: 3000;
 }
 
 
@@ -562,9 +562,8 @@ a:hover {
 
 #social_wrapper{
     position: absolute;
-    top: -20px;
-    right: 20px;
-
+    top: -30px;
+    left: 20px;
 }
 
 #social_wrapper ul{
@@ -2394,7 +2393,7 @@ perspective effects (not including the modals and the overlay).
 
 #coord{
     height: 100%;
-    background-color: rgba(13, 19, 12, 1);
+    background-color: rgba(67, 68, 70, 1);
     font-size: 12px;
     position: relative;
     color: #fff;
@@ -2738,6 +2737,7 @@ perspective effects (not including the modals and the overlay).
 #password_warning{
     color: #FF3D3D;
     margin-left: 55px;
+    height: 30px;
 }
 
 #reg-part{
@@ -2746,17 +2746,16 @@ perspective effects (not including the modals and the overlay).
     float: left;
 }
 #reg-head{
-    height: 100px;
     padding: 15px;
     text-align: center;
     font-size: 250%;
     position: relative;
     font-family: "Ubuntu-L";
+    height: 95px;
 }
 
 #reg-content{
     position: relative;
-    height: 65%;
 }
 
 #reg_form{
@@ -2842,13 +2841,14 @@ input[name="gender"]{
 }
 
 #form-part{
-    float: left;
 }
 
 #mid-part{
-    float: left;
     border: 1.5px solid rgb(255, 255, 255);
-    height: 462px;
+    position: absolute;
+    height: 420px;
+    top: 0px;
+    left: 95%;
 }
 
 #join button{
@@ -2862,6 +2862,20 @@ input[name="gender"]{
     background-color: rgba(26, 154, 178, 0.5);
 }
 
+#logout{
+    position: fixed;
+    width: 60px;
+    background: #000;
+    height: 60px;
+    top: 15px;
+    right: 30px;
+    z-index: 100;
+    padding: 17px 6px;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+}
 #login-part{
     float: left;
     width: 50%;
@@ -2938,6 +2952,10 @@ input[name="gender"]{
     margin: 0px 90px;
 }
 
+#warning{
+    margin: 0px 40px;
+    color: #FF3D3D;
+}
 #contact-box{
     line-height: 0.5vw;
     color: #D5D5D5;
@@ -2957,6 +2975,16 @@ input[name="gender"]{
 
 /* ================== Dashboard ============= */
 
+.pageDash{
+    min-height: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.pageReg{
+    min-height: 100%;
+    height: 100%;
+    overflow: hidden;
+}
 .dashboard{
     width: 100%;
     background: #000 url('../img/2.jpg') repeat right top;

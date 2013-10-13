@@ -97,10 +97,11 @@ $(document).ready(function(){
 
     /****    Form related js -  Don't dare to touch it otherwise sky fall on you.  *****/
 
-    $("#submit_form").click(function(event){
-        var flag=( validateForm()&&checkEmail() );
+    $("#submit_form").click(function(){
+        var email=document.forms["reg_form"]["email"].value;
+        var flag=( validateRegisterForm()&&checkEmail(email) );
         if(flag==1){
-            sendFormDetails();
+            sendRegisterFormDetails();
         }else{
             var warningMessage="Please check and fill all the fields.";
             $(".msg-Box").addClass("md-show warning").css("display","block");
@@ -115,9 +116,12 @@ $(document).ready(function(){
     });
 
     $("#reg_form input[type='email']").bind("keyup", function() {
-       // $("#complexity").css("display","block");
-        if( checkEmail() ){
-            checkEmailRegistered() ;
+        var email=document.forms["reg_form"]["email"].value;
+        if( checkEmail(email) ){
+            $('#email_warning').css("display","none").html("");
+            checkEmailRegistered(email) ;
+        }else{
+            $('#email_warning').css("display","block").html("* Not a valid e-mail address");
         }
     });
 
@@ -130,6 +134,22 @@ $(document).ready(function(){
     }); 
 
 
+    $("#login-button").click(function(){
+        var email=document.forms["login_form"]["email"].value;
+        var password=document.forms["login_form"]["password"].value
+        
+        if(checkEmail(email)){
+            $("#warning").fadeOut(100).html("");
+            sendLoginDetails(email,password);
+        }else{
+            $("#warning").fadeIn(100).html("* Not a valid email-id");
+        }
+        
+    });
+
+    $("#logout").click(function(){
+        logoutUser();
+    });
 
     ////////////////////////////////////////////////////////////////////////////////////
     // Titiksha Event user Dashboard 
