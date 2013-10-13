@@ -2647,7 +2647,7 @@ $sponsors = array(
 										<div class="ch-info-front ch-img-24"></div>
 										<div class="ch-info-back">
 											<h3>Computer Sc.</h3>
-											<p><a href="https://www.facebook.com/mitika.sankhyan" target="_blank">Mitika Sharma</a></p>
+											<p><a href="https://www.facebook.com/shreya.gupta12" target="_blank">Shreya Gupta</a></p>
 											<span></span>
 											<span></span>
 										</div>
@@ -3156,16 +3156,16 @@ $sponsors = array(
 
 		<section class="page" id="container_reach">
 			<div id="map_smvdu">
+				<br>
 				<h3 style="margin: 0px; text-align: center;">How To Reach</h3><br>			
 				<div id="reach_info">Shri Mata Vaishno Devi University is situated 40 Km North of Jammu in the scenic surroundings of  Trikuta foothills,
 				 near the holy town of Katra in District -Reasi.
 				 The Campus is situated close to the beautiful tourist resort of Jhajjar - Kotli.
-				  One can reach SMVDU campus by local or private transport from Jammu.
+			
 				<ul><li>Option 1:  Catch Taxi Directly from Ralway Station / Bus Stand / Airport directly to University Campus (Distance approximately 45 Kms.)</li>
 				<li>Option 2:  Board bus from Jammu Bus Stand/Railyway Station  plying to Udhampur/Katra but alight at Domel (Approx. 39 Kms.).  Board Mini Bus fom Domel to University (Approx. 6 Kms.)</li>
-					In the map given below SMVDU CAMPUS can be seen as the small black box.</div>
-				
-				<div style="width:425px;height:350px; position:relative; left: 4%;margin-top: -100px;; ">
+					
+				<div style="width:500px;height:350px; position:relative; left: 4%;margin-top:40px;; ">
 					<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0"
 					 marginwidth="0" 
 					 src="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=Shri%2BMata%2BVaishno%2BDevi%2BUniversity%2Bkatra%2C%2BJammu%2C%2BIndia&ie=UTF8&z=12&t=m&iwloc=addr&output=embed">

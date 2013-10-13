@@ -2703,8 +2703,10 @@ perspective effects (not including the modals and the overlay).
 }
 
 #reach_info{
+    margin-left: 50px;
+    width: 1000px;
+    font-size: 18px;
     height: 300px;
-    padding: 10px;
 }
 
 /* ============coordinators Page css ================   */
