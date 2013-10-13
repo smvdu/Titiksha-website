@@ -276,10 +276,7 @@ function sendLoginDetails(email,password){
         if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
             if(new String(xmlhttp.responseText)=="true"){
                 resetFields();
-                $("#register-menu").html("My Account");
-                $("#register").fadeOut(100).attr("data-slide","0");
-                $("#container_dash").fadeIn(100).attr("data-slide","5");
-                alert("login successfully");
+                window.location.reload();
                 
             }else{
                 resetFields();
@@ -297,16 +294,117 @@ function logoutUser() {
     xmlhttp.onreadystatechange = function() {
         if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
            if(new String(xmlhttp.responseText)=="true"){
-                $("#register-menu").html("Register/Login");
-                $("#register").fadeIn(100).attr("data-slide","5");
-                $("#container_dash").fadeOut(100).attr("data-slide","0");
-                alert("logout successfully");
+                window.location.reload();
            }        
         }
     }
     xmlhttp.send(null);
 }
 
-function checkLogin(){
-    
+
+/****************** Branch wise event code ***********************/
+
+var branchCode={ 1:"MEGA" ,11:"All Izz Not Well",12:"Robo-Matrix",13:"Electro-Avtaar",14:"Innovatia Returns",15:"TechRoadies Reloaded", 2:"CSE" , 21:"Ad-Veb",22:"Debuggage",23:"Python-Geek",24:"Kill'em",25:"Lui-Commando",26:"Jumble-Mumble",27:"Online Treasure Hunt",28:"Binary Battles",3:"MECH" ,31:"Design Your Dreams",32:"Conclave",33:"The Machinist",34:"Rush To Assemble-Engine",35:"Cluedo",36:"Future-Tech",37:"Baja De Innovacion",4:"ECE" ,41:"Wavemania",42:"Electro-Quiz",43:"Electro-Avtaar",44:"Circuit-Bug",45:"Micro-Controller Coding",46:"Circuit-Electronique",47:"Electro Trade",5:"ARCH" ,51:"Architectural Symposium",52:"Art Installation",53:"Digi-Art",54:"Face-Painting",55:"Caricature-Making",56:"Poster-Making",57:"Logo-Design",58:"Landscaping",6:"IBT" ,61:"Bio-Tech Quiz",62:"Spell-Correctly",63:"Jumble-Words",64:"Complementation",65:"Show Your Memory",66:"Structure Modelling",67:"Puzzle",7:"GAME"};
+
+/****************************************************************/
+
+function checkEventRegistered(branchId,eventId){
+   
+    var serverPage= "php/eventRegistered.php?branchId="+branchId+"&eventId="+eventId;
+    xmlhttp.open("GET", serverPage);
+    xmlhttp.onreadystatechange = function() {
+        if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+           if(new String(xmlhttp.responseText)=="true"){
+                showEventMessage(" You already registered this event");
+            }else{ 
+                registerEvent(branchId,eventId);
+            }
+        }
+    }
+    xmlhttp.send(null);
+}
+
+function registerEvent(branchId,eventId){
+    var serverPage= "php/registerEvent.php?branchId="+branchId+"&eventId="+eventId;
+    xmlhttp.open("GET", serverPage);
+    xmlhttp.onreadystatechange = function() {
+        if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+           if(new String(xmlhttp.responseText)=="true"){
+                showEventMessage(" You successfully registered this event.");
+                var bId=Number(branchId);
+                var eId=Number(branchId)*10+Number(eventId);
+                var branchName=branchCode[bId];
+                var eventName=branchCode[eId];
+                console.log(bId+"-"+eId);
+                console.log(branchName+"---"+eventName);
+                var selectedId="#reg_"+branchName.toLowerCase();
+                $(selectedId).append("<p>"+eventName+"</p>");
+           }else{
+                showEventMessage(" Sorry , Server Problem please try again.");
+           }        
+        }
+    }
+    xmlhttp.send(null);
+}
+
+function showEventMessage(content){
+    $("#event-message").html(content).fadeIn(800);
+    setTimeout(function() {
+      $("#event-message").fadeOut(1000,function(){
+        $("#event-message").html("");
+      });
+    }, 2000);
+}
+
+function pullUserPersonelData(){
+    var serverPage= "php/userPersonelData.php";
+    xmlhttp.open("GET", serverPage);
+    xmlhttp.onreadystatechange = function() {
+        if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+            if(new String(xmlhttp.responseText)==""){
+               console.log("Oops,Something goes wrong");
+            }else{
+                var data = jQuery.parseJSON(xmlhttp.responseText);
+                JSON.stringify(data);
+
+                $("#user-name").html(toTitleCase(data[0].name));
+                $("#user-email-id").html(data[0].email_id.toLowerCase());
+                $("#user-college-name").html(toTitleCase(data[0].college_name));
+                $("#user-year-of-study").html(data[0].year_of_study);
+                $("#user-gender").html(data[0].gender);
+                $("#user-phone-number").html(data[0].phone_number);
+
+                pullUserEventData();
+            } 
+        }
+    }
+    xmlhttp.send(null);
+}
+
+function pullUserEventData(){
+    var serverPage= "php/userEventData.php";
+    xmlhttp.open("GET", serverPage);
+    xmlhttp.onreadystatechange = function() {
+        if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+            if(new String(xmlhttp.responseText)==""){
+               console.log("Oops,Something goes wrong");
+            }else{
+                var data = jQuery.parseJSON(xmlhttp.responseText);
+                JSON.stringify(data);
+
+                $.each(data,function(i,item){
+                    var branchId=Number(item.branch_id);
+                    var eventId=Number(branchId)*10+Number(item.event_id);
+                    var branchName=branchCode[branchId];
+                    var eventName=branchCode[eventId];
+                    //console.log(branchId+"-"+eventId);
+                   // console.log(branchName+"---"+eventName);
+                    var selectedId="#reg_"+branchName.toLowerCase();
+                    $(selectedId).append("<p>"+eventName+"</p>");
+                });
+
+            }  
+        }
+    }
+    xmlhttp.send(null);
 }
