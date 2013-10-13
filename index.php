@@ -2226,6 +2226,7 @@ $sponsors = array(
 			
 		</section>
 
+<<<<<<< HEAD
 		
 		<!-- container Contact -->
 
@@ -2359,6 +2360,11 @@ $sponsors = array(
 
 		<!-- PAGE OF COORDITORS AND CELL COMMITEE -->
 <section class="page" id="container_coord" data-slide="7">
+=======
+	<!-- PAGE OF COORDITORS AND CELL COMMITEE -->
+
+<section class="page" id="container_coord">
+>>>>>>> 9284875b0895ee87b07ce8bd3210ef35f4722224
 		
 	<div id="coord">
 		<div id="co_head">Co-Ordinators</div>
@@ -2456,7 +2462,7 @@ $sponsors = array(
 								<div class="ch-info-back">
 									
 									<h3>Design</h3>
-									<p><a href="https://www.facebook.com/maurya.aakash1" target="_blank">Akash Maurya</a></p>
+									<p><a href="https://www.facebook.com/maurya.aakash1" target="_blank">Aakash Maurya</a></p>
 									<span>maurya.aakash1@gmail.com</span>
 									<span>+91-9797602140</span>
 								</div>	
@@ -2808,9 +2814,141 @@ $sponsors = array(
 	</div>
 	
 </section>
-		
-		
+<<<<<<< HEAD
+=======
 
+		<!-- container Contact -->
+
+        <section class="page" id="container_contact" data-slide="6">	
+
+			<div class="contact">
+				<div id="cont0">
+					<div id="c7">
+						CONTACTS
+					</div>
+				</div>
+
+
+				<div class="assym_black" id="cont1">
+					<div id="online">
+						<h3>Online Contacts</h3>
+						<a href="https://www.facebook.com/titiksha2k13" target="_blank" style="color: #092241; text-decoration: none;"><img src="img/fb_black.png">Facebook Page</a>
+						<p>Or Drop us a mail on :</p>
+						<i style="color: #2B3752">titiksha.team@gmail.com</i>
+					</div>
+				</div>
+
+				<div class="assym_black" id="cont2">
+					<div id="chief">
+
+						<h4>Chief Student Coordinator</h4>
+						<p class="name">Dhananjay Singh</p>
+						<p class="tel">+91-9796-405080</p>
+						<p clas="mail" >djsanj99@gmail.com</p>
+
+					</div>
+				</div>
+
+				<div class="assym_black" id="cont3">
+					<div id="web">
+
+						<h4>Web Development Team</h4>
+						<p class="name">* Sunny Gupta</p>
+						<p class="tel">+91-9086-724946</p>
+						<p class="name">* Rishabh Shukla</p>
+						<p class="tel">+91-9086-250987</p>
+
+						<p class="name">* Akshay Pratap Singh</p>
+						<p class="tel">+91-9086-260656</p>
+						<p class="name">* Parth Pankaj Tiwary</p>
+						<p class="tel">+91-9797-521874</p>
+						
+
+					</div>					
+				</div>
+
+				<div class="assym_black" id="cont4">
+					<div id="tech">
+						<h4>Technical Event Coordinator</h4>
+
+						<p class="name">Rishabh Shukla</p>
+						<p class="tel">+91-9086-250987</p>
+						<p class="mail" >rishy.s13@gmail.com</pre>
+
+					</div>					
+				</div>
+
+				<div class="assym_black" id="cont5">
+					<div id="design">
+						<h4>SponsorShip Coordinator</h4>
+						<p class="name">Navjot Sasan</p>
+						<p class="tel">91-9622-074246</p>
+						<p class="mail">navvi.singh4@gmail.com</p><br>
+						<p class="name">Gaurav Singh</s>
+						<p class="tel">+91-9796-446317 </p>
+						<p class="mail">2011eec54@gmail.com</p>
+						
+
+					</div>					
+				</div>
+
+				<div class="assym_black" id="cont6">
+					<div id="media">
+						
+						<h4>Designer</h4>
+						<p class="name">Aakash Maurya</p>
+						<p class="tel">+91-9797602140</p>
+						<p class="mail" >maurya.aakash1@gmail.com</p>
+						<p class="name">Ahmed Raza</p>
+						<p class="tel">+91-9796-288428</p>
+						<p class="mail" >raza2393@gmail.com</p>
+						<p class="name">Pankaj Pandey</p>
+						<p class="tel">+91-9797-519217</p>
+						<p class="mail" >pankajpandey890@gmail.com</p>
+						
+
+
+					</div>
+				</div>
+
+				<div class="assym_black" id="cont7">
+					
+					<div id="faculty">
+						<h4>Chief Faculty Coordinator</h4>
+						<p class="name">* Dr. Ankush Anand</p>
+						<p class="mail">ankush.anand@smvdu.ac.in</p><br/>
+						<h4>Branch Faculty Coordinators</h4>
+						<p class="name">- A. Prof. Irfan-ul-Haq</p>
+						<p class="mail" >haqmechanical@gmail.com</p>
+						<p class="name">- Lect. Abhimanyu Sharma </p>
+						<p class="mail" >abhimanyu.sharma@smvdu.ac.in </p>
+						<p class="name">- A. Prof. Sudesh Kumar</p>
+						<p class="mail" >sudesh.Bhadu@smvdu.ac.in  </p>
+						<p class="name">- A. Prof. R.K. Jha</p>
+						<p class="mail" >rakesh.jha@smvdu.ac.in</p>
+						<p class="name">- Dr. Swarkar Sharma</p>
+						<p class="mail" ></p>
+						
+
+					</div>
+				</div>
+
+				<div class="assym_black" id="cont8">
+					<div id="discipline">
+						<h4>Publication Relations </h4>
+
+						<p class="name">Megha Sharma</p>
+						<p class="tel">+91-9086-118089</p>
+						<p class="mail">meghas19@yahoo.co.in</p>
+					</div>
+					
+				</div>
+				
+			</div>
+		</section><!-- /container -->	
+
+	
+	
 		 <!-- JavaScript includes -->
         
         <script type="text/javascript" src="js/jquery.countdown.js"></script>
