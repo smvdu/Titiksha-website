@@ -2096,7 +2096,7 @@ margin-left: 42%;
     padding-top: 20%;
     height: 100%;
     float: left;
-    width: 14.2%;
+    width: 14.28%;
     z-index: 20;
 }
 
@@ -2145,8 +2145,7 @@ margin-left: 42%;
 }
 
 .expand{
-    width: 63%;
-   
+   width: 63.39%;
 }
 
 .squeeze{
@@ -3237,7 +3236,7 @@ input[name="gender"]{
     color: #000;
     background-color: #fff;
     position: relative;
-    height: 80%;
+    height: 63%;
     width: 75%;
     float: left;
     padding: 10px;
