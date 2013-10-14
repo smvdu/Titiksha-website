@@ -3388,11 +3388,28 @@ span#update-number{
     font-weight: bold;
     color: #108DAC !important;
     -webkit-transition: 200ms;
+    -moz-transition: 200ms;
+    -ms-transition: 200ms;
+    -o-transition: 200ms;
+    transition: 200ms;
 }
 
 #spon_brochure > a:hover{
     color: #0E738B !important;
     -webkit-transition: 200ms;
+    -moz-transition: 200ms;
+    -ms-transition: 200ms;
+    -o-transition: 200ms;
+    transition: 200ms;
+}
+
+.spon_brochure_move{
+    left: -50%;
+    -webkit-transition: 200ms;
+    -moz-transition: 200ms;
+    -ms-transition: 200ms;
+    -o-transition: 200ms;
+    transition: 200ms;
 }
 
 #spon_query{

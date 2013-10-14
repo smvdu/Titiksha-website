@@ -223,7 +223,7 @@
                             </div>
                         </a>
                     </li>
-                    <li data-slide="4">
+                    <li data-slide="5">
                         <a href="#container_sponser">
                             <span class="ca-icon" id="heart">P</span>
                             <div class="ca-content">
@@ -232,7 +232,7 @@
                             </div>
                         </a>
                     </li>
-                    <li data-slide="5">
+                    <li data-slide="6">
                         <a href="">
                             <span class="ca-icon">U</span>
                             <div class="ca-content">
@@ -241,7 +241,7 @@
                             </div>
                         </a>
                     </li>
-                    <li data-slide="7">
+                    <li data-slide="8">
                         <a href="#container_contact">
                             <span class="ca-icon">B</span>
                             <div class="ca-content">
