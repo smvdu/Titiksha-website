@@ -1918,7 +1918,7 @@
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-61">
 									<span style="color:#fff;" class="icon-eye">"Counter - Strike"</span>
-									<p  style="color:#fff;"></p>
+									<p  style="color:#fff;">Strike down Your opponent</p>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-61">
 									<div class="md-content">
@@ -1929,10 +1929,18 @@
 										<h3>"Counter - Striker"</h3>
 										<div>
 											<img  src="img/cs.jpg">
-											<br><br>
 											<ul>
-												<li><strong>Event co-ordinator: </strong>Arshit mahajan | Rahul sharma | Rohit bhatt - 9086118480 | Mayur kumar - 09483542356 |	Anshuman | Akash</li>
-												<li><strong>Contact: </strong>  +91-9419102622 |  +91-7298327221</li>
+												<li><strong>Team Member :</strong> 5</li>
+												<li><strong>Entry Fees : </strong>Rs 100 per team</li>
+											</ul>
+											
+											<strong>Maps : </strong>
+													<p>DE - DUST2 | DE_INFERNO | DE_NUKE | DE_TRAIN</p><br>
+											<p>Note : Submit your team early to Game Cord. Hurry UP!</p>
+											<br>
+											<ul>
+												<li><strong>Event co-ordinator: </strong>Arshit mahajan | Rahul sharma | Rohit bhatt| Mayur kumar |	Anshuman | Akash</li>
+												<li><strong>Contact: </strong>+91-9419102622 | +91-7298327221 | +91-9086118480 |  +91-9483542356 </li>
 											</ul>
 										</div>
 									</div>
@@ -1957,7 +1965,8 @@
 
 											<br><br>
 											<ul>
-												
+												<li><strong>Event co-ordinator: </strong> Rohit bhatt </li>
+												<li><strong>Contact: </strong>+91-9086118480</li>
 											</ul>
 											
 										</div>
