@@ -223,7 +223,7 @@
                             </div>
                         </a>
                     </li>
-                    <li data-slide="4">
+                    <li data-slide="5">
                         <a href="#container_sponser">
                             <span class="ca-icon" id="heart">P</span>
                             <div class="ca-content">
@@ -232,7 +232,7 @@
                             </div>
                         </a>
                     </li>
-                    <li data-slide="5">
+                    <li data-slide="6">
                         <a href="">
                             <span class="ca-icon">U</span>
                             <div class="ca-content">
@@ -241,7 +241,7 @@
                             </div>
                         </a>
                     </li>
-                    <li data-slide="7">
+                    <li data-slide="8">
                         <a href="#container_contact">
                             <span class="ca-icon">B</span>
                             <div class="ca-content">
@@ -1984,7 +1984,7 @@
 		
 	<section class="page" id="container_gal" data-slide="4">
 		
-		<div class="container">	
+		<div class="container_gal">	
 			
 			<div class="main">
 				
@@ -1995,56 +1995,47 @@
 				<div id="ri-grid" class="ri-grid">
 					
 					<ul>
-						<li><a href="#"><img src="images/medium/1.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/2.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/3.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/4.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/5.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/6.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/7.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/8.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/9.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/10.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/11.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/12.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/13.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/14.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/15.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/16.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/17.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/18.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/19.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/20.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/21.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/22.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/23.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/24.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/25.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/26.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/27.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/28.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/29.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/30.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/31.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/32.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/33.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/34.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/35.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/36.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/37.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/38.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/39.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/40.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/41.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/42.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/43.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/44.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/45.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/46.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/47.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/48.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/49.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/50.jpg"/></a></li>
+						<li><a href="#"><img src="img/39.jpg"/></a></li>
+						<li><a href="#"><img src="img/40.jpg"/></a></li>
+						<li><a href="#"><img src="img/41.jpg"/></a></li>
+						<li><a href="#"><img src="img/42.jpg"/></a></li>
+						<li><a href="#"><img src="img/43.jpg"/></a></li>
+						<li><a href="#"><img src="img/44.jpg"/></a></li>
+						<li><a href="#"><img src="img/45.jpg"/></a></li>
+						<li><a href="#"><img src="img/46.jpg"/></a></li>
+						<li><a href="#"><img src="img/47.jpg"/></a></li>
+						<li><a href="#"><img src="img/48.jpg"/></a></li>
+						<li><a href="#"><img src="img/49.jpg"/></a></li>
+						<li><a href="#"><img src="img/50.jpg"/></a></li>
+						<li><a href="#"><img src="img/51.jpg"/></a></li>
+						<li><a href="#"><img src="img/52.jpg"/></a></li>
+						<li><a href="#"><img src="img/53.jpg"/></a></li>
+						<li><a href="#"><img src="img/54.jpg"/></a></li>
+						<li><a href="#"><img src="img/55.jpg"/></a></li>
+						<li><a href="#"><img src="img/56.jpg"/></a></li>
+						<li><a href="#"><img src="img/57.jpg"/></a></li>
+						<li><a href="#"><img src="img/58.jpg"/></a></li>
+						<li><a href="#"><img src="img/59.jpg"/></a></li>
+						<li><a href="#"><img src="img/60.jpg"/></a></li>
+						<li><a href="#"><img src="img/61.jpg"/></a></li>
+						<li><a href="#"><img src="img/62.jpg"/></a></li>
+						<li><a href="#"><img src="img/63.jpg"/></a></li>
+						<li><a href="#"><img src="img/64.jpg"/></a></li>
+						<li><a href="#"><img src="img/65.jpg"/></a></li>
+						<li><a href="#"><img src="img/66.jpg"/></a></li>
+						<li><a href="#"><img src="img/67.jpg"/></a></li>
+						<li><a href="#"><img src="img/68.jpg"/></a></li>
+						<li><a href="#"><img src="img/69.jpg"/></a></li>
+						<li><a href="#"><img src="img/70.jpg"/></a></li>
+						<li><a href="#"><img src="img/71.jpg"/></a></li>
+						<li><a href="#"><img src="img/72.jpg"/></a></li>
+						<li><a href="#"><img src="img/73.jpg"/></a></li>
+						<li><a href="#"><img src="img/74.jpg"/></a></li>
+						<li><a href="#"><img src="img/75.jpg"/></a></li>
+						<li><a href="#"><img src="img/76.jpg"/></a></li>
+						<li><a href="#"><img src="img/77.jpg"/></a></li>
+						<li><a href="#"><img src="img/78.jpg"/></a></li>
+						
 					
 						
 					</ul>
@@ -2054,6 +2045,231 @@
 			</div>
 			
         </div>
+
+        <!-- slideshow gallery -->
+
+        <div class="sp-slideshow">
+			
+				<input id="button-1" type="radio" name="radio-set" class="sp-selector-1" checked="checked" />
+				<label for="button-1" class="button-label-1"></label>
+				
+				<input id="button-2" type="radio" name="radio-set" class="sp-selector-2" />
+				<label for="button-2" class="button-label-2"></label>
+				
+				<input id="button-3" type="radio" name="radio-set" class="sp-selector-3" />
+				<label for="button-3" class="button-label-3"></label>
+				
+				<input id="button-4" type="radio" name="radio-set" class="sp-selector-4" />
+				<label for="button-4" class="button-label-4"></label>
+				
+				<input id="button-5" type="radio" name="radio-set" class="sp-selector-5" />
+				<label for="button-5" class="button-label-5"></label>
+
+				<input id="button-6" type="radio" name="radio-set" class="sp-selector-6" checked="checked" />
+				<label for="button-6" class="button-label-6"></label>
+
+				<input id="button-7" type="radio" name="radio-set" class="sp-selector-7" checked="checked" />
+				<label for="button-7" class="button-label-7"></label>
+
+				<input id="button-8" type="radio" name="radio-set" class="sp-selector-8" checked="checked" />
+				<label for="button-8" class="button-label-8"></label>
+
+					<input id="button-9" type="radio" name="radio-set" class="sp-selector-9" checked="checked" />
+				<label for="button-9" class="button-label-9"></label>
+
+				<input id="button-10" type="radio" name="radio-set" class="sp-selector-10" checked="checked" />
+				<label for="button-10" class="button-label-10"></label>
+
+				<input id="button-11" type="radio" name="radio-set" class="sp-selector-11" checked="checked" />
+				<label for="button-11" class="button-label-11"></label>
+
+					<input id="button-12" type="radio" name="radio-set" class="sp-selector-12" checked="checked" />
+				<label for="button-12" class="button-label-12"></label>
+
+				<input id="button-13" type="radio" name="radio-set" class="sp-selector-13" checked="checked" />
+				<label for="button-13" class="button-label-13"></label>
+
+				<input id="button-14" type="radio" name="radio-set" class="sp-selector-14" checked="checked" />
+				<label for="button-14" class="button-label-14"></label>
+
+					<input id="button-15" type="radio" name="radio-set" class="sp-selector-15" checked="checked" />
+				<label for="button-15" class="button-label-15"></label>
+
+				<input id="button-16" type="radio" name="radio-set" class="sp-selector-16" checked="checked" />
+				<label for="button-16" class="button-label-16"></label>
+
+				<input id="button-17" type="radio" name="radio-set" class="sp-selector-17" checked="checked" />
+				<label for="button-17" class="button-label-17"></label>
+
+				<input id="button-18" type="radio" name="radio-set" class="sp-selector-18" checked="checked" />
+				<label for="button-18" class="button-label-18"></label>
+
+				<input id="button-19" type="radio" name="radio-set" class="sp-selector-19" checked="checked" />
+				<label for="button-19" class="button-label-19"></label>
+
+				<input id="button-20" type="radio" name="radio-set" class="sp-selector-20" checked="checked" />
+				<label for="button-20" class="button-label-20"></label>
+
+				<input id="button-21" type="radio" name="radio-set" class="sp-selector-21" checked="checked" />
+				<label for="button-21" class="button-label-21"></label>
+
+				<input id="button-22" type="radio" name="radio-set" class="sp-selector-22" checked="checked" />
+				<label for="button-22" class="button-label-22"></label>
+
+				<input id="button-23" type="radio" name="radio-set" class="sp-selector-23" checked="checked" />
+				<label for="button-23" class="button-label-23"></label>
+				
+				<input id="button-24" type="radio" name="radio-set" class="sp-selector-24" checked="checked" />
+				<label for="button-24" class="button-label-24"></label>
+
+				<input id="button-25" type="radio" name="radio-set" class="sp-selector-25" checked="checked" />
+				<label for="button-25" class="button-label-25"></label>
+
+				<input id="button-26" type="radio" name="radio-set" class="sp-selector-26" checked="checked" />
+				<label for="button-26" class="button-label-26"></label>
+
+				<input id="button-27" type="radio" name="radio-set" class="sp-selector-27" checked="checked" />
+				<label for="button-27" class="button-label-27"></label>
+
+				<input id="button-28" type="radio" name="radio-set" class="sp-selector-28" checked="checked" />
+				<label for="button-28" class="button-label-28"></label>
+				
+				<input id="button-29" type="radio" name="radio-set" class="sp-selector-29" checked="checked" />
+				<label for="button-29" class="button-label-29"></label>
+
+				<input id="button-30" type="radio" name="radio-set" class="sp-selector-30" checked="checked" />
+				<label for="button-30" class="button-label-30"></label>
+
+				<input id="button-31" type="radio" name="radio-set" class="sp-selector-31" checked="checked" />
+				<label for="button-31" class="button-label-31"></label>
+
+				<input id="button-32" type="radio" name="radio-set" class="sp-selector-32" checked="checked" />
+				<label for="button-32" class="button-label-32"></label>
+
+				<input id="button-33" type="radio" name="radio-set" class="sp-selector-33" checked="checked" />
+				<label for="button-33" class="button-label-33"></label>
+
+				<input id="button-34" type="radio" name="radio-set" class="sp-selector-34" checked="checked" />
+				<label for="button-34" class="button-label-34"></label>
+
+				<input id="button-35" type="radio" name="radio-set" class="sp-selector-35" checked="checked" />
+				<label for="button-35" class="button-label-35"></label>
+
+				<input id="button-36" type="radio" name="radio-set" class="sp-selector-36" checked="checked" />
+				<label for="button-36" class="button-label-36"></label>
+
+				<input id="button-37" type="radio" name="radio-set" class="sp-selector-37" checked="checked" />
+				<label for="button-37" class="button-label-37"></label>
+
+				<input id="button-38" type="radio" name="radio-set" class="sp-selector-38" checked="checked" />
+				<label for="button-38" class="button-label-38"></label>
+				
+
+
+				<label for="button-1" class="sp-arrow sp-a1"></label>
+				<label for="button-2" class="sp-arrow sp-a2"></label>
+				<label for="button-3" class="sp-arrow sp-a3"></label>
+				<label for="button-4" class="sp-arrow sp-a4"></label>
+				<label for="button-5" class="sp-arrow sp-a5"></label>
+				<label for="button-6" class="sp-arrow sp-a6"></label>
+				<label for="button-7" class="sp-arrow sp-a7"></label>
+				<label for="button-8" class="sp-arrow sp-a8"></label>
+				<label for="button-9" class="sp-arrow sp-a9"></label>
+				<label for="button-10" class="sp-arrow sp-a10"></label>
+				
+				<label for="button-11" class="sp-arrow sp-a11"></label>
+				<label for="button-12" class="sp-arrow sp-a12"></label>
+				<label for="button-13" class="sp-arrow sp-a13"></label>
+				<label for="button-14" class="sp-arrow sp-a14"></label>
+				<label for="button-15" class="sp-arrow sp-a15"></label>
+				
+				<label for="button-16" class="sp-arrow sp-a16"></label>
+				<label for="button-17" class="sp-arrow sp-a17"></label>
+				<label for="button-18" class="sp-arrow sp-a18"></label>
+				<label for="button-19" class="sp-arrow sp-a19"></label>
+				<label for="button-20" class="sp-arrow sp-a20"></label>
+
+				<label for="button-16" class="sp-arrow sp-a16"></label>
+				<label for="button-17" class="sp-arrow sp-a17"></label>
+				<label for="button-18" class="sp-arrow sp-a18"></label>
+				<label for="button-19" class="sp-arrow sp-a19"></label>
+				<label for="button-20" class="sp-arrow sp-a20"></label>
+
+				<label for="button-21" class="sp-arrow sp-a21"></label>
+				<label for="button-22" class="sp-arrow sp-a22"></label>
+				<label for="button-23" class="sp-arrow sp-a23"></label>
+				<label for="button-24" class="sp-arrow sp-a24"></label>
+				<label for="button-25" class="sp-arrow sp-a25"></label>
+
+				<label for="button-26" class="sp-arrow sp-a26"></label>
+				<label for="button-27" class="sp-arrow sp-a27"></label>
+				<label for="button-28" class="sp-arrow sp-a28"></label>
+				<label for="button-29" class="sp-arrow sp-a29"></label>
+				<label for="button-30" class="sp-arrow sp-a30"></label>
+
+				<label for="button-31" class="sp-arrow sp-a31"></label>
+				<label for="button-32" class="sp-arrow sp-a32"></label>
+				<label for="button-33" class="sp-arrow sp-a33"></label>
+				<label for="button-34" class="sp-arrow sp-a34"></label>
+				<label for="button-35" class="sp-arrow sp-a35"></label>
+
+				
+				
+				
+				<div class="sp-content">
+					<div class="sp-parallax-bg"></div>
+					<ul class="sp-slider clearfix">
+						<li><img src="images/image1.png" alt="image01" /></li>
+						<li><img src="images/image2.png" alt="image02" /></li>
+						<li><img src="images/image3.png" alt="image03" /></li>
+						<li><img src="images/image4.png" alt="image04" /></li>
+						<li><img src="images/image5.png" alt="image05" /></li>
+
+						<li><img src="images/image1.png" alt="image01" /></li>
+						<li><img src="images/image2.png" alt="image02" /></li>
+						<li><img src="images/image3.png" alt="image03" /></li>
+						<li><img src="images/image4.png" alt="image04" /></li>
+						<li><img src="images/image5.png" alt="image05" /></li>
+						
+						<li><img src="images/image1.png" alt="image01" /></li>
+						<li><img src="images/image2.png" alt="image02" /></li>
+						<li><img src="images/image3.png" alt="image03" /></li>
+						<li><img src="images/image4.png" alt="image04" /></li>
+						<li><img src="images/image5.png" alt="image05" /></li>
+						
+						<li><img src="images/image1.png" alt="image01" /></li>
+						<li><img src="images/image2.png" alt="image02" /></li>
+						<li><img src="images/image3.png" alt="image03" /></li>
+						<li><img src="images/image4.png" alt="image04" /></li>
+						<li><img src="images/image5.png" alt="image05" /></li>
+						
+						<li><img src="images/image1.png" alt="image01" /></li>
+						<li><img src="images/image2.png" alt="image02" /></li>
+						<li><img src="images/image3.png" alt="image03" /></li>
+						<li><img src="images/image4.png" alt="image04" /></li>
+						<li><img src="images/image5.png" alt="image05" /></li>
+						
+						<li><img src="images/image1.png" alt="image01" /></li>
+						<li><img src="images/image2.png" alt="image02" /></li>
+						<li><img src="images/image3.png" alt="image03" /></li>
+						<li><img src="images/image4.png" alt="image04" /></li>
+						<li><img src="images/image5.png" alt="image05" /></li>
+						
+						<li><img src="images/image1.png" alt="image01" /></li>
+						<li><img src="images/image2.png" alt="image02" /></li>
+						<li><img src="images/image3.png" alt="image03" /></li>
+						<li><img src="images/image4.png" alt="image04" /></li>
+						<li><img src="images/image5.png" alt="image05" /></li>
+						
+						
+
+					</ul>
+				</div><!-- sp-content -->
+				
+			</div><!-- sp-slideshow -->
+			
+
+
 			
 		</section>
 
@@ -2936,7 +3152,6 @@ $sponsors = array(
 		</section><!-- /container -->	
 
 		<section class="page" id="container_reach" data-slide="9">
-
 			<div id="map_smvdu">
 				<br>
 				<h3 style="margin: 0px; text-align: center; color: #ccc;">How To Reach</h3><br>			

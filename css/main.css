@@ -2420,7 +2420,8 @@ perspective effects (not including the modals and the overlay).
 }
 /* ======================= gallery css =============== */
 
-.container {
+.container_gal {
+    display: none;
     margin: 0px;
     height: 100%;
     position: relative;
@@ -2448,7 +2449,7 @@ perspective effects (not including the modals and the overlay).
 .ri-grid ul li,
 .ri-grid ul li a{
     width: 185px !important;
-    height: 210px !important;
+    height: 200px !important;
 }
 .ri-grid ul li a img{
     width: 100%;
@@ -2582,7 +2583,570 @@ perspective effects (not including the modals and the overlay).
     display: none;
 }
 
-/* ==================== new gallary ==================== */
+/* ==================== slideshow css ==================== */
+
+.sp-slideshow {
+    position: relative;
+    margin: 10px auto;
+    width: 80%;
+    max-width: 1000px;
+    min-width: 260px;
+    height: 460px;
+    border: 10px solid #fff;
+    border: 10px solid rgba(255,255,255,0.9);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.sp-content {
+    background: #7d7f72 url(../images/grid.png) repeat scroll 0 0;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.sp-parallax-bg {
+    background: url(../images/map.png) repeat-x scroll 0 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.sp-slideshow input {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    width: 9px;
+    height: 9px;
+    z-index: 1001;
+    cursor: pointer;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+}
+
+.sp-slideshow input + label {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    width: 6px;
+    height: 6px;
+    display: block;
+    z-index: 1000;
+    border: 3px solid #fff;
+    border: 3px solid rgba(255,255,255,0.9);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transition: background-color linear 0.1s;
+    -moz-transition: background-color linear 0.1s;
+    -o-transition: background-color linear 0.1s;
+    -ms-transition: background-color linear 0.1s;
+    transition: background-color linear 0.1s;
+}
+.sp-slideshow input:checked + label {
+    background-color: #fff;
+    background-color: rgba(255,255,255,0.9);
+}
+
+.sp-selector-1, .button-label-1 {
+    margin-left: -136px;
+}
+
+.sp-selector-2, .button-label-2 {
+    margin-left: -118px;
+}
+
+.sp-selector-4, .button-label-4 {
+    margin-left: -100px;
+}
+
+.sp-selector-5, .button-label-5 {
+    margin-left: -82px;
+}
+
+.sp-selector-6, .button-label-6 {
+    margin-left: -64px;
+}
+.sp-selector-7, .button-label-7 {
+    margin-left: -46px;
+}
+.sp-selector-8, .button-label-8 {
+    margin-left: -28px;
+}
+.sp-selector-9, .button-label-9 {
+    margin-left: -10px;
+}
+
+.sp-selector-10, .button-label-10 {
+    margin-left: 8px;
+}
+.sp-selector-11, .button-label-11 {
+    margin-left: 26px;
+}
+.sp-selector-12, .button-label-12 {
+    margin-left: 44px;
+}
+.sp-selector-13, .button-label-13 {
+    margin-left: 62px;
+}
+.sp-selector-14, .button-label-14 {
+    margin-left: 80px;
+}
+.sp-selector-15, .button-label-15 {
+    margin-left: 98px;
+}
+.sp-selector-16, .button-label-16 {
+    margin-left: 116px;
+}
+.sp-selector-17, .button-label-17 {
+    margin-left: 134px;
+}
+.sp-selector-18, .button-label-18 {
+    margin-left: 152px;
+}
+.sp-selector-19, .button-label-19 {
+    margin-left: 180px;
+}
+.sp-selector-20, .button-label-20{
+    margin-left: 198px;
+}
+
+.sp-arrow {
+    position: absolute;
+    top: 50%;
+    width: 28px;
+    height: 38px;
+    margin-top: -19px;
+    display: none;
+    opacity: 0.8;
+    cursor: pointer;
+    z-index: 1000;
+    background: transparent url(../images/arrows.png) no-repeat;
+    -webkit-transition: opacity linear 0.3s;
+    -moz-transition: opacity linear 0.3s;
+    -o-transition: opacity linear 0.3s;
+    -ms-transition: opacity linear 0.3s;
+    transition: opacity linear 0.3s;
+}
+.sp-arrow:hover{
+    opacity: 1;
+}
+.sp-arrow:active{
+    margin-top: -18px;
+}
+.sp-selector-1:checked ~ .sp-arrow.sp-a2,
+.sp-selector-2:checked ~ .sp-arrow.sp-a3,
+.sp-selector-3:checked ~ .sp-arrow.sp-a4,
+.sp-selector-4:checked ~ .sp-arrow.sp-a5,
+.sp-selector-5:checked ~ .sp-arrow.sp-a6,
+.sp-selector-6:checked ~ .sp-arrow.sp-a7,
+.sp-selector-7:checked ~ .sp-arrow.sp-a8,
+.sp-selector-8:checked ~ .sp-arrow.sp-a9,
+.sp-selector-9:checked ~ .sp-arrow.sp-a10,
+.sp-selector-10:checked ~ .sp-arrow.sp-a11,
+.sp-selector-11:checked ~ .sp-arrow.sp-a12,
+.sp-selector-12:checked ~ .sp-arrow.sp-a13,
+.sp-selector-13:checked ~ .sp-arrow.sp-a14,
+.sp-selector-14:checked ~ .sp-arrow.sp-a15,
+.sp-selector-15:checked ~ .sp-arrow.sp-a16,
+.sp-selector-16:checked ~ .sp-arrow.sp-a17,
+.sp-selector-17:checked ~ .sp-arrow.sp-a18,
+.sp-selector-18:checked ~ .sp-arrow.sp-a19,
+.sp-selector-19:checked ~ .sp-arrow.sp-a20 {
+
+    right: 15px;
+    display: block;
+    background-position: top right;
+}
+.sp-selector-2:checked ~ .sp-arrow.sp-a1,
+.sp-selector-3:checked ~ .sp-arrow.sp-a2,
+.sp-selector-4:checked ~ .sp-arrow.sp-a3,
+.sp-selector-5:checked ~ .sp-arrow.sp-a4,
+.sp-selector-6:checked ~ .sp-arrow.sp-a5,
+.sp-selector-7:checked ~ .sp-arrow.sp-a6,
+.sp-selector-8:checked ~ .sp-arrow.sp-a7,
+.sp-selector-9:checked ~ .sp-arrow.sp-a8,  
+.sp-selector-10:checked ~ .sp-arrow.sp-a9,
+.sp-selector-11:checked ~ .sp-arrow.sp-a10,
+.sp-selector-12:checked ~ .sp-arrow.sp-a11,
+.sp-selector-13:checked ~ .sp-arrow.sp-a12, 
+.sp-selector-14:checked ~ .sp-arrow.sp-a13,
+.sp-selector-15:checked ~ .sp-arrow.sp-a14,
+.sp-selector-16:checked ~ .sp-arrow.sp-a15,
+.sp-selector-17:checked ~ .sp-arrow.sp-a16, 
+.sp-selector-18:checked ~ .sp-arrow.sp-a17,
+.sp-selector-19:checked ~ .sp-arrow.sp-a18,
+.sp-selector-20:checked ~ .sp-arrow.sp-a19 {
+    left: 15px;
+    display: block;
+    background-position: top left;
+}
+
+.sp-slideshow input:checked ~ .sp-content {
+    -webkit-transition: background-position linear 0.6s, background-color linear 0.8s;
+    -moz-transition: background-position linear 0.6s, background-color linear 0.8s;
+    -o-transition: background-position linear 0.6s, background-color linear 0.8s;
+    -ms-transition: background-position linear 0.6s, background-color linear 0.8s;
+    transition: background-position linear 0.6s, background-color linear 0.8s;
+}
+
+.sp-slideshow input:checked ~ .sp-content .sp-parallax-bg {
+    -webkit-transition: background-position linear 0.7s;
+    -moz-transition: background-position linear 0.7s;
+    -o-transition: background-position linear 0.7s;
+    -ms-transition: background-position linear 0.7s;
+    transition: background-position linear 0.7s;
+}
+
+input.sp-selector-1:checked ~ .sp-content {
+    background-position: 0 0;
+    background-color: #727b7f;
+}
+
+input.sp-selector-2:checked ~ .sp-content {
+    background-position: -100px 0;
+    background-color: #7f7276;
+}
+
+input.sp-selector-3:checked ~ .sp-content {
+    background-position: -200px 0;
+    background-color: #737f72;
+}
+
+input.sp-selector-4:checked ~ .sp-content {
+    background-position: -300px 0;
+    background-color: #79727f;
+}
+
+input.sp-selector-5:checked ~ .sp-content {
+    background-position: -400px 0;
+    background-color: #7d7f72;
+}
+input.sp-selector-6:checked ~ .sp-content {
+    background-position: -500px 0;
+    background-color: #727b7f;
+}
+
+input.sp-selector-7:checked ~ .sp-content {
+    background-position: -600px 0;
+    background-color: #7f7276;
+}
+
+input.sp-selector-8:checked ~ .sp-content {
+    background-position: -700px 0;
+    background-color: #737f72;
+}
+
+input.sp-selector-9:checked ~ .sp-content {
+    background-position: -800px 0;
+    background-color: #79727f;
+}
+
+input.sp-selector-10:checked ~ .sp-content {
+    background-position: -900px 0;
+    background-color: #7d7f72;
+}
+input.sp-selector-11:checked ~ .sp-content {
+    background-position: -1000px 0;
+    background-color: #727b7f;
+}
+
+input.sp-selector-12:checked ~ .sp-content {
+    background-position: -1100px 0;
+    background-color: #7f7276;
+}
+
+input.sp-selector-13:checked ~ .sp-content {
+    background-position: -1200px 0;
+    background-color: #737f72;
+}
+
+input.sp-selector-14:checked ~ .sp-content {
+    background-position: -1300px 0;
+    background-color: #79727f;
+}
+
+input.sp-selector-15:checked ~ .sp-content {
+    background-position: -1400px 0;
+    background-color: #7d7f72;
+}
+input.sp-selector-16:checked ~ .sp-content {
+    background-position: -1500px 0;
+    background-color: #727b7f;
+}
+
+input.sp-selector-17:checked ~ .sp-content {
+    background-position: -1600px 0;
+    background-color: #7f7276;
+}
+
+input.sp-selector-18:checked ~ .sp-content {
+    background-position: -1700px 0;
+    background-color: #737f72;
+}
+
+input.sp-selector-19:checked ~ .sp-content {
+    background-position: -1800px 0;
+    background-color: #79727f;
+}
+
+input.sp-selector-20:checked ~ .sp-content {
+    background-position: -1900px 0;
+    background-color: #7d7f72;
+}
+
+
+
+
+input.sp-selector-1:checked ~ .sp-content .sp-parallax-bg {
+    background-position: 0 0;
+}
+
+input.sp-selector-2:checked ~ .sp-content .sp-parallax-bg {
+    background-position: -200px 0;
+}
+
+input.sp-selector-3:checked ~ .sp-content .sp-parallax-bg {
+    background-position: -400px 0;
+}
+
+input.sp-selector-4:checked ~ .sp-content .sp-parallax-bg {
+    background-position: -600px 0;
+}
+
+input.sp-selector-5:checked ~ .sp-content .sp-parallax-bg {
+    background-position: -800px 0;
+}
+
+input.sp-selector-6:checked ~ .sp-content .sp-parallax-bg {
+    background-position: -1000px 0;
+}
+
+input.sp-selector-7:checked ~ .sp-content .sp-parallax-bg {
+    background-position: -1200px 0;
+}
+
+input.sp-selector-8:checked ~ .sp-content .sp-parallax-bg {
+    background-position: -1400px 0;
+}
+
+input.sp-selector-9:checked ~ .sp-content .sp-parallax-bg {
+    background-position: -1600px 0;
+}
+
+input.sp-selector-10:checked ~ .sp-content .sp-parallax-bg {
+    background-position: -1800px 0;
+}
+
+input.sp-selector-11:checked ~ .sp-content .sp-parallax-bg {
+    background-position: -2000px 0;
+}
+
+input.sp-selector-12:checked ~ .sp-content .sp-parallax-bg {
+    background-position: -2200px 0;
+}
+
+input.sp-selector-13:checked ~ .sp-content .sp-parallax-bg {
+    background-position: -2400px 0;
+}
+
+input.sp-selector-14:checked ~ .sp-content .sp-parallax-bg {
+    background-position: -2600px 0;
+}
+
+input.sp-selector-15:checked ~ .sp-content .sp-parallax-bg {
+    background-position: -2800px 0;
+}
+
+input.sp-selector-16:checked ~ .sp-content .sp-parallax-bg {
+    background-position: -3000px 0;
+}
+
+input.sp-selector-17:checked ~ .sp-content .sp-parallax-bg {
+    background-position: -3200px 0;
+}
+
+input.sp-selector-18:checked ~ .sp-content .sp-parallax-bg {
+    background-position: -3400px 0;
+}
+
+input.sp-selector-19:checked ~ .sp-content .sp-parallax-bg {
+    background-position: -3600px 0;
+}
+
+input.sp-selector-20:checked ~ .sp-content .sp-parallax-bg {
+    background-position: -3600px 0;
+}
+
+.sp-slider {
+    position: relative;
+    left: 0;
+    width: 500%;
+    height: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: left ease-in 0.8s;
+    -moz-transition: left ease-in 0.8s;
+    -o-transition: left ease-in 0.8s;
+    -ms-transition: left ease-in 0.8s;
+    transition: left ease-in 0.8s; 
+}
+
+.sp-slider > li {
+    color: #fff;
+    width: 20%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 100%;
+    padding: 0 60px;
+    float: left;
+    text-align: center;
+    opacity: 0.4;
+    -webkit-transition: opacity ease-in 0.4s 0.8s;
+    -moz-transition: opacity ease-in 0.4s 0.8s;
+    -o-transition: opacity ease-in 0.4s 0.8s;
+    -ms-transition: opacity ease-in 0.4s 0.8s;
+    transition: opacity ease-in 0.4s 0.8s; 
+}
+.sp-slider > li img{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    margin: 0 auto;
+    padding: 40px 0 50px 0;
+    max-height: 100%;
+    max-width: 100%;
+}
+input.sp-selector-1:checked ~ .sp-content .sp-slider {
+    left: 0;
+}
+
+input.sp-selector-2:checked ~ .sp-content .sp-slider {
+    left: -100%;
+}
+
+input.sp-selector-3:checked ~ .sp-content .sp-slider {
+    left: -200%;
+}
+
+input.sp-selector-4:checked ~ .sp-content .sp-slider {
+    left: -300%;
+}
+
+input.sp-selector-5:checked ~ .sp-content .sp-slider {
+    left: -400%;
+}
+
+input.sp-selector-6:checked ~ .sp-content .sp-slider {
+    left: -500%;
+}
+
+input.sp-selector-7:checked ~ .sp-content .sp-slider {
+    left: -600%;
+}
+
+input.sp-selector-8:checked ~ .sp-content .sp-slider {
+    left: -700%;
+}
+
+input.sp-selector-9:checked ~ .sp-content .sp-slider {
+    left: -800%;
+}
+
+input.sp-selector-10:checked ~ .sp-content .sp-slider {
+    left: -900%;
+}
+
+input.sp-selector-11:checked ~ .sp-content .sp-slider {
+    left: -1000%;
+}
+
+input.sp-selector-12:checked ~ .sp-content .sp-slider {
+    left: -1100%;
+}
+
+input.sp-selector-13:checked ~ .sp-content .sp-slider {
+    left: -1200%;
+}
+
+input.sp-selector-14:checked ~ .sp-content .sp-slider {
+    left: -1300%;
+}
+
+input.sp-selector-15:checked ~ .sp-content .sp-slider {
+    left: -1400%;
+}
+
+input.sp-selector-16:checked ~ .sp-content .sp-slider {
+    left: -1500%;
+}
+
+input.sp-selector-17:checked ~ .sp-content .sp-slider {
+    left: -1600%;
+}
+
+input.sp-selector-18:checked ~ .sp-content .sp-slider {
+    left: -1700%;
+}
+
+input.sp-selector-19:checked ~ .sp-content .sp-slider {
+    left: -1800%;
+}
+
+input.sp-selector-20:checked ~ .sp-content .sp-slider {
+    left: -1900%;
+}
+
+
+input.sp-selector-1:checked ~ .sp-content .sp-slider > li:first-child,
+input.sp-selector-2:checked ~ .sp-content .sp-slider > li:nth-child(2),
+input.sp-selector-3:checked ~ .sp-content .sp-slider > li:nth-child(3),
+input.sp-selector-4:checked ~ .sp-content .sp-slider > li:nth-child(4),
+input.sp-selector-5:checked ~ .sp-content .sp-slider > li:nth-child(5),
+input.sp-selector-6:checked ~ .sp-content .sp-slider > li:nth-child(6),
+input.sp-selector-7:checked ~ .sp-content .sp-slider > li:nth-child(7),
+input.sp-selector-8:checked ~ .sp-content .sp-slider > li:nth-child(8),
+input.sp-selector-9:checked ~ .sp-content .sp-slider > li:nth-child(9),
+input.sp-selector-10:checked ~ .sp-content .sp-slider > li:nth-child(10),
+input.sp-selector-11:checked ~ .sp-content .sp-slider > li:nth-child(11),
+input.sp-selector-12:checked ~ .sp-content .sp-slider > li:nth-child(12),
+input.sp-selector-13:checked ~ .sp-content .sp-slider > li:nth-child(13),
+input.sp-selector-14:checked ~ .sp-content .sp-slider > li:nth-child(14),
+input.sp-selector-15:checked ~ .sp-content .sp-slider > li:nth-child(15),
+input.sp-selector-16:checked ~ .sp-content .sp-slider > li:nth-child(16),
+input.sp-selector-17:checked ~ .sp-content .sp-slider > li:nth-child(17),
+input.sp-selector-18:checked ~ .sp-content .sp-slider > li:nth-child(18),
+input.sp-selector-19:checked ~ .sp-content .sp-slider > li:nth-child(19),
+input.sp-selector-20:checked ~ .sp-content .sp-slider > li:nth-child(20)
+{
+    opacity: 1;
+}
+@media screen and (max-width: 840px){
+    .sp-slideshow { height: 345px; }
+}
+@media screen and (max-width: 680px){
+    .sp-slideshow { height: 285px; }
+}
+@media screen and (max-width: 560px){
+    .sp-slideshow { height: 235px; }
+}
+@media screen and (max-width: 320px){
+    .sp-slideshow { height: 158px; }
+}
 
 /* =============== map googlev ========== */
 
@@ -3388,11 +3952,28 @@ span#update-number{
     font-weight: bold;
     color: #108DAC !important;
     -webkit-transition: 200ms;
+    -moz-transition: 200ms;
+    -ms-transition: 200ms;
+    -o-transition: 200ms;
+    transition: 200ms;
 }
 
 #spon_brochure > a:hover{
     color: #0E738B !important;
     -webkit-transition: 200ms;
+    -moz-transition: 200ms;
+    -ms-transition: 200ms;
+    -o-transition: 200ms;
+    transition: 200ms;
+}
+
+.spon_brochure_move{
+    left: -50%;
+    -webkit-transition: 200ms;
+    -moz-transition: 200ms;
+    -ms-transition: 200ms;
+    -o-transition: 200ms;
+    transition: 200ms;
 }
 
 #spon_query{
