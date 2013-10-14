@@ -2219,11 +2219,11 @@
 				<div class="sp-content">
 					<div class="sp-parallax-bg"></div>
 					<ul class="sp-slider clearfix">
-						<li><img src="images/image1.png" alt="image01" /></li>
-						<li><img src="images/image2.png" alt="image02" /></li>
-						<li><img src="images/image3.png" alt="image03" /></li>
-						<li><img src="images/image4.png" alt="image04" /></li>
-						<li><img src="images/image5.png" alt="image05" /></li>
+						<li><img src="images/medium/1.jpg" alt="image01" /></li>
+						<li><img src="images/medium/2.jpg" alt="image02" /></li>
+						<li><img src="images/medium/3.jpg" alt="image03" /></li>
+						<li><img src="images/medium/4.jpg" alt="image04" /></li>
+						<li><img src="images/medium/5.jpg" alt="image05" /></li>
 
 						<li><img src="images/image1.png" alt="image01" /></li>
 						<li><img src="images/image2.png" alt="image02" /></li>
