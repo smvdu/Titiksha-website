@@ -276,6 +276,10 @@ function sendLoginDetails(email,password){
         if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
             if(new String(xmlhttp.responseText)=="true"){
                 resetFields();
+                var confirmMessage="Please wait while reloading the page...";
+                $(".msg-Box").addClass("md-show loading").css("display","block");
+                $(".msg-Box > .msg-content").html(confirmMessage);
+                $(".msg-Box > .msg-close").css("display","none");
                 window.location.reload();
                 
             }else{
@@ -296,6 +300,11 @@ function logoutUser() {
            if(new String(xmlhttp.responseText)=="true"){
                 window.location.reload();
            }        
+        }else if(xmlhttp.readyState < 4 ){
+            var confirmMessage="Please wait while reloading the page...";
+            $(".msg-Box").addClass("md-show loading").css("display","block");
+            $(".msg-Box > .msg-content").html(confirmMessage);
+            $(".msg-Box > .msg-close").css("display","none");
         }
     }
     xmlhttp.send(null);
@@ -330,9 +339,9 @@ function registerEvent(branchId,eventId){
     xmlhttp.onreadystatechange = function() {
         if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
            if(new String(xmlhttp.responseText)=="true"){
-                showEventMessage(" You successfully registered this event.");
+                showEventMessage(" You have successfully registered this event.");
                 var bId=Number(branchId);
-                var eId=Number(branchId)*10+Number(eventId);
+                var eId=Number(eventId);
                 var branchName=branchCode[bId];
                 var eventName=branchCode[eId];
                 console.log(bId+"-"+eId);
@@ -394,15 +403,26 @@ function pullUserEventData(){
 
                 $.each(data,function(i,item){
                     var branchId=Number(item.branch_id);
-                    var eventId=Number(branchId)*10+Number(item.event_id);
+                    var eventId=Number(item.event_id);
                     var branchName=branchCode[branchId];
                     var eventName=branchCode[eventId];
-                    //console.log(branchId+"-"+eventId);
-                   // console.log(branchName+"---"+eventName);
                     var selectedId="#reg_"+branchName.toLowerCase();
                     $(selectedId).append("<p>"+eventName+"</p>");
                 });
 
+            }  
+        }
+    }
+    xmlhttp.send(null);
+}
+
+function sendNewMobileNumber(mobileNumber) {
+    var serverPage= "php/updateMobileNumber.php?mobileNumber="+mobileNumber;
+    xmlhttp.open("GET", serverPage);
+    xmlhttp.onreadystatechange = function() {
+        if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+            if(new String(xmlhttp.responseText)=="false"){
+                console.log("Oops,Something goes wrong");
             }  
         }
     }

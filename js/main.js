@@ -155,6 +155,15 @@ $(document).ready(function(){
         
     });
 
+    $("#update-number").click(function(event){
+        event.preventDefault;
+        var mobileNumber=prompt("Enter the mobile number");
+        if(mobileNumber!=null){
+            $("#user-phone-number").html(mobileNumber);
+            sendNewMobileNumber(mobileNumber);
+        }
+        
+    });
     $("#logout").click(function(){
         logoutUser();
     });
