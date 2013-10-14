@@ -1894,7 +1894,7 @@
 								<div class="md-modal md-effect-11" id="modal-60">
 									<div class="md-content">
 										<div class="md-header">
-											<button class="md-register register">Register</button>
+											<button class="md-register register" data-branch="7" data-event="1">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
 										<h3>FIFA "11"</h3>
@@ -1922,7 +1922,7 @@
 								<div class="md-modal md-effect-11" id="modal-61">
 									<div class="md-content">
 										<div class="md-header">
-											<button class="md-register register">Register</button>
+											<button class="md-register register" data-branch="7" data-event="2">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
 										<h3>"Counter - Striker"</h3>
@@ -1947,7 +1947,7 @@
 								<div class="md-modal md-effect-11" id="modal-62">
 									<div class="md-content">
 										<div class="md-header">
-											<button class="md-register register">Register</button>
+											<button class="md-register register" data-branch="7" data-event="3">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
 										<h3>Nfs - "Most Wanted"</h3>
