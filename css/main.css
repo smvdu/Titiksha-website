@@ -2586,15 +2586,20 @@ perspective effects (not including the modals and the overlay).
 
 /* =============== map googlev ========== */
 
+#container_reach{
+    height: 125%;
+   
+}
+
 #map_smvdu{
      margin: 0px;
     height: 100%;
     position: relative;
-    background-color: #000;
+     background-color: #000;
 }
 
 #reach_info{
-    margin-left: 50px;
+    margin: 0 auto;
     width: 1000px;
     font-size: 18px;
     height: 300px;

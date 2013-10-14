@@ -2934,10 +2934,10 @@ $sponsors = array(
 			</div>
 		</section><!-- /container -->	
 
-		<section class="page" id="container_reach">
+		<section class="page" id="container_reach" data-slide="7">
 			<div id="map_smvdu">
 				<br>
-				<h3 style="margin: 0px; text-align: center;">How To Reach</h3><br>			
+				<h3 style="margin: 0px; text-align: center; color: #ccc;">How To Reach</h3><br>			
 				<div id="reach_info">Shri Mata Vaishno Devi University is situated 40 Km North of Jammu in the scenic surroundings of  Trikuta foothills,
 				 near the holy town of Katra in District -Reasi.
 				 The Campus is situated close to the beautiful tourist resort of Jhajjar - Kotli.
@@ -2945,12 +2945,12 @@ $sponsors = array(
 				<ul><li>Option 1:  Catch Taxi Directly from Ralway Station / Bus Stand / Airport directly to University Campus (Distance approximately 45 Kms.)</li>
 				<li>Option 2:  Board bus from Jammu Bus Stand/Railyway Station  plying to Udhampur/Katra but alight at Domel (Approx. 39 Kms.).  Board Mini Bus fom Domel to University (Approx. 6 Kms.)</li>
 					
-				<div style="width:500px;height:350px; position:relative; left: 4%;margin-top:40px;; ">
-					<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0"
+				<div style="width:700px;height:350px; position:relative; margin: 40px auto; ">
+					<iframe width="625" height="350" frameborder="0" scrolling="no" marginheight="0"
 					 marginwidth="0" 
 					 src="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=Shri%2BMata%2BVaishno%2BDevi%2BUniversity%2Bkatra%2C%2BJammu%2C%2BIndia&ie=UTF8&z=12&t=m&iwloc=addr&output=embed">
 					 </iframe><br>
-					 <table width="425" cellpadding="0" cellspacing="0" border="0">
+					 <table width="625" cellpadding="0" cellspacing="0" border="0">
 					 <tr>
 					 <td align="left">
 					 <small>
@@ -3026,14 +3026,6 @@ $sponsors = array(
 		
 
 		<script type="text/javascript">
-<<<<<<< HEAD
-			$(function() {
-		        $('#ri-grid a').lightBox();
-		    });
-
-=======
-			
->>>>>>> sunnyLA4-master
 			$(document).ready(function(){
 
 				//requests javascript files using AJAX
