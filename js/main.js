@@ -154,6 +154,17 @@ $(document).ready(function(){
     ////////////////////////////////////////////////////////////////////////////////////
     // Titiksha Event user Dashboard 
 
+    $(".md-register").click(function(){
+        if(loggedIn=="true"){
+            var branchId=$(this).attr("data-branch");
+            var eventId=$(this).attr("data-event");
+            checkEventRegistered(branchId,eventId);   
+        }else{
+            // Not logged In
+            showEventMessage(" Please Login to register the event");
+        }
+    });
+
     $(".dash-menu ul>li").click(function(){
         $(".dash-menu ul>li").removeClass("selected-nav");
         $(this).addClass("selected-nav");

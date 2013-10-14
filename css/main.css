@@ -166,7 +166,7 @@ a:hover {
     position: fixed;
     width: 30px;
     right: 0;
-    top: 120px;
+    top: 45px;
     bottom: 120px;
     z-index: 100;
     display: none;
@@ -563,7 +563,7 @@ a:hover {
 #social_wrapper{
     position: absolute;
     top: -30px;
-    left: 20px;
+    right: 60px;
 }
 
 #social_wrapper ul{
@@ -2053,6 +2053,20 @@ margin-left: 42%;
 
 /* ======================== EVENTS PAGE CSS ======  */
 
+#event-message{
+    color: rgb(104, 87, 22);
+    padding: 5px 25px;
+    position: fixed;
+    z-index: 2010;
+    top: 10px;
+    left: 360px;
+    width: 600px;
+    height: 50px;
+    background-color: rgb(240, 192, 106);
+    border: 4px outset rgb(187, 129, 7);
+    border-radius: 25px;
+    text-align: center;
+}
 #event{
     font-size: 125%;
     width: 100%;
@@ -2374,7 +2388,6 @@ perspective effects (not including the modals and the overlay).
     background-color: rgb(113,197,170);
 }
 .md-content .md-header > .register{
-    display: none;
     float: left;
 }
 .md-content .md-header >.close{
@@ -2410,12 +2423,14 @@ perspective effects (not including the modals and the overlay).
 /* ======================= gallery css =============== */
 
 .container {
+    margin: 0px;
     height: 100%;
     position: relative;
     background-color: #000;
 }
 
 .main{
+    background-color: #000;
     height: 100%;
 }
 
@@ -2434,8 +2449,8 @@ perspective effects (not including the modals and the overlay).
 
 .ri-grid ul li,
 .ri-grid ul li a{
-    width: 216px !important;
-    height: 217px !important;
+    width: 185px !important;
+    height: 185px !important;
 }
 .ri-grid ul li a img{
     width: 100%;
@@ -2569,6 +2584,130 @@ perspective effects (not including the modals and the overlay).
     display: none;
 }
 
+/* ==================== new gallary ==================== */
+
+
+
+#gallery {
+        background-color: #444;
+        padding: 10px;
+        width: 98%;
+    }
+#gallery ul { 
+    list-style: none;
+ }
+
+#gallery ul li {
+     display: inline;
+     padding: 7px;
+
+ }
+
+
+#jquery-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 90;
+    width: 100%;
+    height: 500px;
+}
+#jquery-lightbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    text-align: center;
+    line-height: 0;
+}
+#jquery-lightbox a img { border: none; }
+#lightbox-container-image-box {
+    position: relative;
+    background-color: #fff;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+}
+#lightbox-container-image { padding: 10px; }
+#lightbox-loading {
+    position: absolute;
+    top: 40%;
+    left: 0%;
+    height: 25%;
+    width: 100%;
+    text-align: center;
+    line-height: 0;
+}
+#lightbox-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+}
+#lightbox-container-image-box > #lightbox-nav { left: 0; }
+#lightbox-nav a { outline: none;}
+#lightbox-nav-btnPrev, #lightbox-nav-btnNext {
+    width: 49%;
+    height: 100%;
+    zoom: 1;
+    display: block;
+}
+#lightbox-nav-btnPrev { 
+    left: 0; 
+    float: left;
+}
+#lightbox-nav-btnNext { 
+    right: 0; 
+    float: right;
+}
+#lightbox-container-image-data-box {
+    font: 10px Verdana, Helvetica, sans-serif;
+    background-color: #fff;
+    margin: 0 auto;
+    line-height: 1.4em;
+    overflow: auto;
+    width: 100%;
+    padding: 0 10px 0;
+}
+#lightbox-container-image-data {
+    padding: 0 10px; 
+    color: #666; 
+}
+#lightbox-container-image-data #lightbox-image-details { 
+    width: 70%; 
+    float: left; 
+    text-align: left; 
+}   
+#lightbox-image-details-caption { font-weight: bold; }
+#lightbox-image-details-currentNumber {
+    display: block; 
+    clear: left; 
+    padding-bottom: 1.0em;  
+}           
+#lightbox-secNav-btnClose {
+    width: 66px; 
+    float: right;
+    padding-bottom: 0.7em;  
+}
+
+/* =============== map googlev ========== */
+
+#map_smvdu{
+     margin: 0px;
+    height: 100%;
+    position: relative;
+    background-color: #000;
+}
+
+#reach_info{
+    margin-left: 50px;
+    width: 1000px;
+    font-size: 18px;
+    height: 300px;
+}
 
 /* ============coordinators Page css ================   */
 
@@ -2578,18 +2717,18 @@ perspective effects (not including the modals and the overlay).
 
 #coord{
     height: 100%;
-    background-color: rgba(67, 68, 70, 1);
     font-size: 12px;
     position: relative;
-    color: #fff;
-    font-family: "Ubuntu-L"
+    color: #2C2C2C;
+    font-family: "Ubuntu-L";
+    background-image: url('../img/1.jpg');
 }
 
 #co_head{
     padding-top: 2%;
     font-size: 3vw;
     text-align: center;
-    color: #ccc;
+    color: #000;
     
 }
 
@@ -2662,6 +2801,10 @@ perspective effects (not including the modals and the overlay).
     transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
     background: #000;
     opacity: 0;
+}
+
+.ch-info-back span {
+    color: #fff;
 }
 
 .ch-img-1 { 
@@ -2827,11 +2970,11 @@ perspective effects (not including the modals and the overlay).
 }
 
 .ch-grid {
-    height: 200px;
     margin: 10px 0 0 0;
     padding: 0;
     float: left;
     width: 100%;
+    overflow: hidden;
 }
 
 .ch-grid:after,
@@ -3045,20 +3188,7 @@ input[name="gender"]{
     background-color: rgba(26, 154, 178, 0.5);
 }
 
-#logout{
-    position: fixed;
-    width: 60px;
-    background: #000;
-    height: 60px;
-    top: 15px;
-    right: 30px;
-    z-index: 100;
-    padding: 17px 6px;
-    border-radius: 100%;
-    text-align: center;
-    font-size: 18px;
-    cursor: pointer;
-}
+
 #login-part{
     float: left;
     width: 50%;
@@ -3078,6 +3208,7 @@ input[name="gender"]{
     font-family: "Ubuntu-L";
     width: 160px;
 }
+
 
 #login-content{
     margin: 0px 69px;
@@ -3183,6 +3314,30 @@ input[name="gender"]{
     padding: 20px;
     text-align: center;
     font-size: 4vw;
+    height: 17%;
+}
+#dash-head-title{
+    float: left;
+    margin-left: 360px;
+}
+
+#logout{
+    margin-right: 90px;
+    float: right;
+    width: 70px;
+    background: rgba(52, 58, 58, 0.37);
+    height: 70px;
+    padding: 18px 0px;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 3px outset rgba(0, 0, 0, 0.83);
+}
+
+#logout:hover{
+    border: 3px outset rgba(62, 164, 246, 0.92);
 }
 .dash-menu{
     text-align: center;
@@ -3214,20 +3369,27 @@ input[name="gender"]{
     color: #000;
     background-color: #fff;
     position: relative;
-    height: 60%;
-    width: 70%;
+    height: 80%;
+    width: 75%;
     float: left;
     padding: 10px;
     box-shadow: 5px 5px 3px #666965;
 }
 
 .dash-registered-events{
-
+    width: 100%;
+    height: 100%;
 }
 #dash_title{
     position: relative;
+    height: 40px;
+    padding: 0px;
+    text-align: center;
+}
 
-    height: 30px;
+#dash_event{
+    width: 100%;
+    height: 90%;
 }
 .dash_h{
     padding: 5px;
@@ -3238,11 +3400,17 @@ input[name="gender"]{
 }
 .reg_event{
     line-height: 1;
-    padding-left: 10px;
+    padding: 0px 5px;
     float: left;
     width: 14%;
+    height: 100%;
+    text-align: center;
+    font-size: 17px;
 }
 
+.reg_event p{
+    color: #FA4453;
+}
 
 .dash-my-details{
     padding: 35px;
