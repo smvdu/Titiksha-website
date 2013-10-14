@@ -86,6 +86,7 @@
         		<li data-slide="6"></li>
         		<li data-slide="7"></li>
         		<li data-slide="8"></li>
+        		<li data-slide="9"></li>
         	</ul>
 
         	<div data-slide="1"></div>
@@ -96,7 +97,7 @@
         	<div data-slide="6"></div>
         	<div data-slide="7"></div>
         	<div data-slide="8"></div>
-        	
+        	<div data-slide="9"></div>
         </nav>
 
 
@@ -1981,7 +1982,7 @@
 
 
 		
-	<section class="page" id="container_gal" data-slide="8">
+	<section class="page" id="container_gal" data-slide="4">
 		
 		<div class="container">	
 			
@@ -2060,7 +2061,7 @@
 		
 		<!-- sponsers page === -->
 		
-		<section class="page" id="container_sponser" data-slide="4">
+		<section class="page" id="container_sponser" data-slide="5">
 			<div id="sponsor_page">
 				<div id="spon_head">
 					<span>Our Previous Sponsors</span>
@@ -2137,7 +2138,7 @@ $sponsors = array(
 		?>
 		<!-- REGITRATION PAGE -->
 
-		<section class="page" id="register" data-slide="5">
+		<section class="page" id="register" data-slide="6">
 			<div class="register-form">
 				<div class="msg-Box" style="display:none;">
 					<div class="msg-close">X</div>
@@ -2291,7 +2292,7 @@ $sponsors = array(
 		
 		<?php }else{ ?>
 		<!-- Dashboard  -->
-		<section class="page" id="container_dash" data-slide="5" >
+		<section class="page" id="container_dash" data-slide="6" >
 			<div class="dashboard">
 				<div class="dash-head">
 					<div id="dash-head-title">Titiksha Dashboard</div>
@@ -2364,7 +2365,7 @@ $sponsors = array(
 		<?php }?>
 		<!-- PAGE OF COORDITORS AND CELL COMMITEE -->
 
-<section class="page" id="container_coord" data-slide="6">
+<section class="page" id="container_coord" data-slide="7">
 	<div id="coord">
 		<div id="co_head">Co-Ordinators</div>
 		<div id="co_table">
@@ -2806,7 +2807,7 @@ $sponsors = array(
 		</section>
 		<!-- container Contact -->
 
-        <section class="page" id="container_contact" data-slide="7">	
+        <section class="page" id="container_contact" data-slide="8">	
 
 			<div class="contact">
 				<div id="cont0">
@@ -2934,7 +2935,7 @@ $sponsors = array(
 			</div>
 		</section><!-- /container -->	
 
-		<section class="page" id="container_reach" data-slide="7">
+		<section class="page" id="container_reach" data-slide="9">
 
 			<div id="map_smvdu">
 				<br>
