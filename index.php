@@ -2285,209 +2285,210 @@ $sponsors = array(
 		</section>
 		<?php }?>
 		<!-- PAGE OF COORDITORS AND CELL COMMITEE -->
-		<section class="page" id="container_coord" data-slide="6">
-			<div id="coord">
-				<div id="co_head">Co-Ordinators</div>
-				<div id="co_table">
-										
-						<ul class="ch-grid">
-							<li>Chief Student Cord</li>
-							<li>
-								<div class="ch-item">				
-									<div class="ch-info">
-										<div class="ch-info-front ch-img-1"></div>
-										<div class="ch-info-back">
-											<h3>HEAD</h3>
-											<p><a href="https://www.facebook.com/dhananjay.me" target="_blank">Dhananjay Singh</a></p>
-											<span>+91-9796-405080</span>
-											<span>djsanj99@gmail.com</span>
-										</div>	
-									</div>
-								</div>
-							</li>
-							
-							<ul style="float:left;">
-								<li>Technical Head</li>
-								<li>
-									<div class="ch-item">				
-										<div class="ch-info">
-											<div class="ch-info-front ch-img-2"></div>
-											<div class="ch-info-back">
-												<h3>Tech Head</h3>
-												<p><a href="https://www.facebook.com/I.am.d.Rishabh" target="_blank"> Rishabh Shukla</a></p>
-												<span>+91-9086-250987</span>
-												<span>rishy.s13@gmail.com</span>
-											</div>	
-										</div>
-									</div>
-								</li>
-							</ul>	
-						</ul>
 
-						<ul class="ch-grid">
-							<li>Public Relations</li>
-							<li>
-								<div class="ch-item">				
-									<div class="ch-info">
-										<div class="ch-info-front ch-img-3"></div>
-										<div class="ch-info-back">
-											<h3>Public</h3>
-											<p><a href="https://www.facebook.com/profile.php?id=100004947096093" target="_blank"> Megha Sharma</a></p>
-											<span>+91-9086-118089</span>
-											<span>meghas19@yahoo.co.in</span>
-										</div>	
-									</div>
+<section class="page" id="container_coord" data-slide="6">
+	<div id="coord">
+		<div id="co_head">Co-Ordinators</div>
+		<div id="co_table">
+								
+				<ul class="ch-grid">
+					<li>Chief Student Coordinator</li>
+					<li>
+						<div class="ch-item">				
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-1"></div>
+								<div class="ch-info-back">
+									<h3>HEAD</h3>
+									<p><a href="https://www.facebook.com/dhananjay.me" target="_blank">Dhananjay Singh</a></p>
+									<span>+91-9796-405080</span>
+									<span>djsanj99@gmail.com</span>
+								</div>	
+							</div>
+						</div>
+					</li>
+					
+					<ul style="float: left; margin: 0;">
+						<li>Technical Event Coordinator</li>
+						<li>
+							<div class="ch-item">				
+								<div class="ch-info">
+									<div class="ch-info-front ch-img-2"></div>
+									<div class="ch-info-back">
+										<h3>Tech. Head</h3>
+										<p><a href="https://www.facebook.com/I.am.d.Rishabh" target="_blank"> Rishabh Shukla</a></p>
+										<span>+91-9086-250987</span>
+										<span>rishy.s13@gmail.com</span>
+									</div>	
 								</div>
-							</li>
-							
-						</ul>
-						<ul class="ch-grid">
-							<li>Sponsorship Cell</li>
-							<li>
-								<div class="ch-item">				
-									<div class="ch-info">
-										<div class="ch-info-front ch-img-4"></div>
-										<div class="ch-info-back">
-											<h3>Sponsorship</h3>
-											<p><a href="https://www.facebook.com/gkpgauravsingh" target="_blank">Gaurav Singh</a></p>
-											<span>+91-9796-446317</span>
-											<span>2011eec54@gmail.com</span>
-										</div>	
-									</div>
-								</div>
-							</li>
-							
-							<li>
-								<div class="ch-item">				
-									<div class="ch-info">
-										<div class="ch-info-front ch-img-5"></div>
-										<div class="ch-info-back">
-											<h3>Sponsorship</h3>
-											<p><a href="https://www.facebook.com/navjotsingh.sasan" target="_blank">Navjot Sasan</a></p>
-											<span>+91-9622-074246</span>
-											<span>navvi.singh4@gmail.com</span>
-										</div>	
-									</div>
-								</div>
-							</li>
-							
-						</ul>
+							</div>
+						</li>
+					</ul>	
+				</ul>
 
-						<ul class="ch-grid">
-							<li>Graphics And Design</li>
-							<li>
-								<div class="ch-item">				
-									<div class="ch-info">
-										<div class="ch-info-front ch-img-9"></div>
-										<div class="ch-info-back">
-											
-											<h3>Design</h3>
-											<p><a href="https://www.facebook.com/maurya.aakash1" target="_blank">Aakash Maurya</a></p>
-											<span>maurya.aakash1@gmail.com</span>
-											<span>+91-9797602140</span>
-										</div>	
-									</div>
-								</div>
-							</li>
-							<li>
-								<div class="ch-item">				
-									<div class="ch-info">
-										<div class="ch-info-front ch-img-10"></div>
-										<div class="ch-info-back">
-											<h3>Design</h3>
-											<p><a href="https://www.facebook.com/raza2393" target="_blank">Ahmed Raza</a></p>
-											<span>raza2393@gmail.com</span><br>
-											<span>+91-9796-288428</span>
-										</div>	
-									</div>
-								</div>
-							</li>
-							<li>
-								<div class="ch-item">				
-									<div class="ch-info">
-										<div class="ch-info-front ch-img-11"></div>
-										<div class="ch-info-back">
-											<h3>Design</h3>
-											<p><a href="https://www.facebook.com/pankajpandey890" target="_blank">Pankaj Pandey</a></p>
-											<span>pankajpandey890@gmail.com</span>
-											<span>+91-9797-519217</span>
-											
-										</div>	
-									</div>
-								</div>
-							</li>
-							<li>
-								<div class="ch-item">				
-									<div class="ch-info">
-										<div class="ch-info-front ch-img-12"></div>
-										<div class="ch-info-back">
-											<h3>Graphics</h3>
-											<p><a href="https://www.facebook.com/nikhil.kamtam" target="_blank">Nikhil Kamtam</a></p>
-											<span> nikhilsascent@gmail.com</span><br>
-											<span>+91-9797-517443</span>
-											
-										</div>	
-									</div>
-								</div>
-							</li>
-						</ul>
+				<ul class="ch-grid">
+					<li>Public Relations</li>
+					<li>
+						<div class="ch-item">				
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-3"></div>
+								<div class="ch-info-back">
+									<h3>Public</h3>
+									<p><a href="https://www.facebook.com/profile.php?id=100004947096093" target="_blank"> Megha Sharma</a></p>
+									<span>+91-9086-118089</span>
+									<span>meghas19@yahoo.co.in</span>
+								</div>	
+							</div>
+						</div>
+					</li>
+					
+				</ul>
+				<ul class="ch-grid">
+					<li>Sponsorship Cell</li>
+					<li>
+						<div class="ch-item">				
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-4"></div>
+								<div class="ch-info-back">
+									<h3>Sponsorship</h3>
+									<p><a href="https://www.facebook.com/gkpgauravsingh" target="_blank">Gaurav Singh</a></p>
+									<span>+91-9796-446317</span>
+									<span>2011eec54@gmail.com</span>
+								</div>	
+							</div>
+						</div>
+					</li>
+					
+					<li>
+						<div class="ch-item">				
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-5"></div>
+								<div class="ch-info-back">
+									<h3>Sponsorship</h3>
+									<p><a href="https://www.facebook.com/navjotsingh.sasan" target="_blank">Navjot Sasan</a></p>
+									<span>+91-9622-074246</span>
+									<span>navvi.singh4@gmail.com</span>
+								</div>	
+							</div>
+						</div>
+					</li>
+					
+				</ul>
 
-						<ul class="ch-grid">
-							<li>Web Team</li>
-							<li>
-								<div class="ch-item">				
-									<div class="ch-info">
-										<div class="ch-info-front ch-img-6"></div>
-										<div class="ch-info-back">
-											<h3>Web</h3>
-											<p><a href="https://www.facebook.com/sunnyLA.Gupta" target="_blank">Sunny Gupta</a></p>
-											<span>sunnylautner4@gmail.com</span>
-											<span>+91-9086-724946</span>
-										</div>	
-									</div>
-								</div>
-							</li>
-							<li>
-								<div class="ch-item">				
-									<div class="ch-info">
-										<div class="ch-info-front ch-img-2"></div>
-										<div class="ch-info-back">
-											<h3>Web Designer</h3>
-											<p><a href="https://www.facebook.com/I.am.d.Rishabh" target="_blank">Rishabh Shukla</a></p>
-											<span>rishy.s13@gmail.com</span><br>
-											<span>+91-9086-250987</span>
-										</div>	
-									</div>
-								</div>
-							</li>
-							<li>
-								<div class="ch-item">
-									<div class="ch-info">
-										<div class="ch-info-front ch-img-7"></div>
-										<div class="ch-info-back">
-											<h3>Web Expert</h3>
-											<p><a href="https://www.facebook.com/AKSHAYPRATAP007" target="_blank" >Akshay Pratap Singh</a></p>
-											<span>pratapakshay0@gmail.com</span>
-											<span>+91-9086-250656</span>
-										</div>
-									</div>
-								</div>
-							</li>
-							<li>
-								<div class="ch-item">
-									<div class="ch-info">
-										<div class="ch-info-front ch-img-8"></div>
-										<div class="ch-info-back">
-											<h3>Web</h3>
-											<p><a href="https://ww.facebook.com/parthpankajtiwary" target="_blank">Parth Pankaj</a></p>
-											<span>parthpankajtiwary@gmail.com</span>
-											<span>+91-9797-521874</span>
-										</div>
-									</div>
-								</div>
+				<ul class="ch-grid">
+					<li>Graphics And Design</li>
+					<li>
+						<div class="ch-item">				
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-9"></div>
+								<div class="ch-info-back">
+									
+									<h3>Design</h3>
+									<p><a href="https://www.facebook.com/maurya.aakash1" target="_blank">Aakash Maurya</a></p>
+									<span>maurya.aakash1@gmail.com</span>
+									<span>+91-9797602140</span>
+								</div>	
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="ch-item">				
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-10"></div>
+								<div class="ch-info-back">
+									<h3>Design</h3>
+									<p><a href="https://www.facebook.com/raza2393" target="_blank">Ahmed Raza</a></p>
+									<span>raza2393@gmail.com</span><br>
+									<span>+91-9796-288428</span>
+								</div>	
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="ch-item">				
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-11"></div>
+								<div class="ch-info-back">
+									<h3>Design</h3>
+									<p><a href="https://www.facebook.com/pankajpandey890" target="_blank">Pankaj Pandey</a></p>
+									<span>pankajpandey890@gmail.com</span>
+									<span>+91-9797-519217</span>
+									
+								</div>	
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="ch-item">				
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-12"></div>
+								<div class="ch-info-back">
+									<h3>Graphics</h3>
+									<p><a href="https://www.facebook.com/nikhil.kamtam" target="_blank">Nikhil Kamtam</a></p>
+									<span> nikhilsascent@gmail.com</span><br>
+									<span>+91-9797-517443</span>
+									
+								</div>	
+							</div>
+						</div>
+					</li>
+				</ul>
 
-							</li>
-						</ul>
+				<ul class="ch-grid">
+					<li>Web Team</li>
+					<li>
+						<div class="ch-item">				
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-6"></div>
+								<div class="ch-info-back">
+									<h3>Front-End</h3>
+									<p><a href="https://www.facebook.com/sunnyLA.Gupta" target="_blank">Sunny Gupta</a></p>
+									<span>sunnylautner4@gmail.com</span>
+									<span>+91-9086-724946</span>
+								</div>	
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="ch-item">				
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-2"></div>
+								<div class="ch-info-back">
+									<h3>Front-End</h3>
+									<p><a href="https://www.facebook.com/I.am.d.Rishabh" target="_blank">Rishabh Shukla</a></p>
+									<span>rishy.s13@gmail.com</span><br>
+									<span>+91-9086-250987</span>
+								</div>	
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="ch-item">
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-7"></div>
+								<div class="ch-info-back">
+									<h3>Back-End</h3>
+									<p><a href="https://www.facebook.com/AKSHAYPRATAP007" target="_blank" >Akshay Pratap Singh</a></p>
+									<span>pratapakshay0@gmail.com</span>
+									<span>+91-9086-250656</span>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="ch-item">
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-8"></div>
+								<div class="ch-info-back">
+									<h3>Web Developer</h3>
+									<p><a href="https://ww.facebook.com/parthpankajtiwary" target="_blank">Parth Pankaj</a></p>
+									<span>parthpankajtiwary@gmail.com</span>
+									<span>+91-9797-521874</span>
+								</div>	
+							</div>
+
+						</div>
+					</li>
+							
 
 						<ul class="ch-grid">
 							<li>Committee Head</li>
@@ -2531,6 +2532,7 @@ $sponsors = array(
 									</div>
 								</div>
 							</li>
+						
 							<li>
 								<div class="ch-item">
 									<div class="ch-info">
@@ -2571,6 +2573,7 @@ $sponsors = array(
 											<span>+91-9419-909212</span>
 										</div>
 									</div>
+
 								</div>
 							</li>
 						</ul>
@@ -2685,27 +2688,14 @@ $sponsors = array(
 								</div>
 							</li>
 						</ul>
-						<ul class="ch-grid">
-							<li></li>
-							<li>
-								<div class="ch-item">
-									<div class="ch-info">
-										<div class="ch-info-front ch-img-27"></div>
-										<div class="ch-info-back">
-											<h3>Arch.</h3>
-											<p><a href="https://www.facebook.com/anand.upadhayay.92" target="_blank">Anand Upadhayay</a></p>
-											<span></span>
-											<span>+ 91-9697-679672</span>
-										</div>
-									</div>
-								</div>
-							</li>
+						<ul class="ch-grid">	
+							<li></li>						
 							<li>
 								<div class="ch-item">
 									<div class="ch-info">
 										<div class="ch-info-front ch-img-28"></div>
 										<div class="ch-info-back">
-											<h3>Arch.</h3>
+											<h3>Architecture</h3>
 											<p><a href="https://www.facebook.com/puneetmehta2802" target="_blank">Puneet Mehta</a></p>
 											<span></span>
 											<span>+91-9419-351611</span>
@@ -2718,7 +2708,7 @@ $sponsors = array(
 									<div class="ch-info">
 										<div class="ch-info-front ch-img-29"></div>
 										<div class="ch-info-back">
-											<h3>Arch.</h3>
+											<h3>Architecture</h3>
 											<p><a href="https://www.facebook.com/arunima.bhowmik" target="_blank">Arunima Bhowmick</a></p>
 											<span></span>
 											<span>+ 91-9596-997279</span>
