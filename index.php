@@ -1930,9 +1930,9 @@
 											<img  src="img/cs.jpg">
 											<br><br>
 											<ul>
-												
+												<li><strong>Event co-ordinator: </strong>Arshit mahajan | Rahul sharma | Rohit bhatt - 9086118480 | Mayur kumar - 09483542356 |	Anshuman | Akash</li>
+												<li><strong>Contact: </strong>  +91-9419102622 |  +91-7298327221</li>
 											</ul>
-											
 										</div>
 									</div>
 								</div>
@@ -1978,6 +1978,84 @@
 			</div>
 			
 		</section> <!-- events END -->
+
+
+		
+	<section class="page" id="container_gal" data-slide="8">
+		
+		<div class="container">	
+			
+			<div class="main">
+				
+				<div id="grid_top">
+					<span>Gallery</span>
+				</div>
+
+				<div id="ri-grid" class="ri-grid">
+					
+					<ul>
+						<li><a href="#"><img src="images/medium/1.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/2.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/3.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/4.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/5.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/6.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/7.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/8.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/9.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/10.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/11.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/12.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/13.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/14.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/15.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/16.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/17.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/18.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/19.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/20.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/21.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/22.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/23.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/24.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/25.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/26.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/27.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/28.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/29.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/30.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/31.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/32.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/33.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/34.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/35.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/36.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/37.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/38.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/39.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/40.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/41.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/42.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/43.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/44.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/45.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/46.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/47.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/48.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/49.jpg"/></a></li>
+						<li><a href="#"><img src="images/medium/50.jpg"/></a></li>
+					
+						
+					</ul>
+				</div>
+				
+				
+			</div>
+			
+        </div>
+			
+		</section>
+
 
 		
 		<!-- sponsers page === -->
@@ -2862,297 +2940,7 @@ $sponsors = array(
 			</div>
 		</section><!-- /container -->	
 
-	<section class="page" id="container_gal" data-slide="8">
-		
-		<div class="container">	
-			
-			<div class="main">
-				
-				<div id="grid_top">
-					<span>Gallery</span>
-				</div>
 
-				<div id="ri-grid" class="ri-grid">
-					
-					<ul>
-						<li><a href="#"><img src="images/medium/1.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/2.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/3.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/4.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/5.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/6.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/7.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/8.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/9.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/10.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/11.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/12.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/13.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/14.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/15.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/16.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/17.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/18.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/19.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/20.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/21.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/22.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/23.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/24.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/25.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/26.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/27.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/28.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/29.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/30.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/31.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/32.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/33.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/34.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/35.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/36.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/37.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/38.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/39.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/40.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/41.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/42.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/43.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/44.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/45.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/46.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/47.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/48.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/49.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/50.jpg"/></a></li>
-					
-						
-					</ul>
-				</div>
-				
-				
-			</div>
-			
-        </div>
-			
-		</section>
-
-
-<section class="page" id="contain_newgal">
-	<div id="gallery">
-   		 <ul>
-	        <li>
-	            <a href="photos/image1.jpg">
-	                <img src="photos/thumb_image1.jpg" width="100" height="100" alt="" />
-	            </a>
-	        </li>
-        <li>
-            <a href="photos/image2.jpg" >
-                <img src="photos/thumb_image2.jpg" width="100" height="100" alt="" />
-            </a>
-        </li>
-        <li>
-            <a href="photos/image3.jpg">
-                <img src="photos/thumb_image3.jpg" width="100" height="100" alt="" />
-            </a>
-        </li>
-        <li>
-            <a href="photos/image4.jpg" >
-                <img src="photos/thumb_image4.jpg" width="100" height="100" alt="" />
-            </a>
-        </li>
-        <li>
-            <a href="photos/image5.jpg" >
-                <img src="photos/thumb_image5.jpg" width="100" height="100" alt="" />
-            </a>
-        </li>
-        <li>
-            <a href="photos/image1.jpg">
-                <img src="photos/thumb_image1.jpg" width="100" height="100" alt="" />
-            </a>
-        </li>
-        <li>
-            <a href="photos/image2.jpg" >
-                <img src="photos/thumb_image2.jpg" width="100" height="100" alt="" />
-            </a>
-        </li>
-        <li>
-            <a href="photos/image3.jpg">
-                <img src="photos/thumb_image3.jpg" width="100" height="100" alt="" />
-            </a>
-        </li>
-        <li>
-            <a href="photos/image4.jpg" >
-                <img src="photos/thumb_image4.jpg" width="100" height="100" alt="" />
-            </a>
-        </li>
-        <li>
-            <a href="photos/image5.jpg" >
-                <img src="photos/thumb_image5.jpg" width="100" height="100" alt="" />
-            </a>
-        </li>
-    </ul>
-    <ul>
-        <li>
-            <a href="photos/image1.jpg">
-                <img src="photos/thumb_image1.jpg" width="100" height="100" alt="" />
-            </a>
-        </li>
-        <li>
-            <a href="photos/image2.jpg" >
-                <img src="photos/thumb_image2.jpg" width="100" height="100" alt="" />
-            </a>
-        </li>
-        <li>
-            <a href="photos/image3.jpg">
-                <img src="photos/thumb_image3.jpg" width="100" height="100" alt="" />
-            </a>
-        </li>
-        <li>
-            <a href="photos/image4.jpg" >
-                <img src="photos/thumb_image4.jpg" width="100" height="100" alt="" />
-            </a>
-        </li>
-        <li>
-            <a href="photos/image5.jpg" >
-                <img src="photos/thumb_image5.jpg" width="100" height="100" alt="" />
-            </a>
-        </li>
-         <li>
-            <a href="photos/image1.jpg">
-                <img src="photos/thumb_image1.jpg" width="100" height="100" alt="" />
-            </a>
-        </li>
-        <li>
-            <a href="photos/image2.jpg" >
-                <img src="photos/thumb_image2.jpg" width="100" height="100" alt="" />
-            </a>
-        </li>
-        <li>
-            <a href="photos/image3.jpg">
-                <img src="photos/thumb_image3.jpg" width="100" height="100" alt="" />
-            </a>
-        </li>
-        <li>
-            <a href="photos/image4.jpg" >
-                <img src="photos/thumb_image4.jpg" width="100" height="100" alt="" />
-            </a>
-        </li>
-        <li>
-            <a href="photos/image5.jpg" >
-                <img src="photos/thumb_image5.jpg" width="100" height="100" alt="" />
-            </a>
-        </li>
-    </ul>
-    <ul>
-        <li>
-            <a href="photos/image1.jpg">
-                <img src="photos/thumb_image1.jpg" width="100" height="100" alt="" />
-            </a>
-        </li>
-        <li>
-            <a href="photos/image2.jpg" >
-                <img src="photos/thumb_image2.jpg" width="100" height="100" alt="" />
-            </a>
-        </li>
-        <li>
-            <a href="photos/image3.jpg">
-                <img src="photos/thumb_image3.jpg" width="100" height="100" alt="" />
-            </a>
-        </li>
-        <li>
-            <a href="photos/image4.jpg" >
-                <img src="photos/thumb_image4.jpg" width="100" height="100" alt="" />
-            </a>
-        </li>
-        <li>
-            <a href="photos/image5.jpg" >
-                <img src="photos/thumb_image5.jpg" width="100" height="100" alt="" />
-            </a>
-        </li>
-        <li>
-            <a href="photos/image1.jpg">
-                <img src="photos/thumb_image1.jpg" width="100" height="100" alt="" />
-            </a>
-        </li>
-        <li>
-            <a href="photos/image2.jpg" >
-                <img src="photos/thumb_image2.jpg" width="100" height="100" alt="" />
-            </a>
-        </li>
-        <li>
-            <a href="photos/image3.jpg">
-                <img src="photos/thumb_image3.jpg" width="100" height="100" alt="" />
-            </a>
-        </li>
-        <li>
-            <a href="photos/image4.jpg" >
-                <img src="photos/thumb_image4.jpg" width="100" height="100" alt="" />
-            </a>
-        </li>
-        <li>
-            <a href="photos/image5.jpg" >
-                <img src="photos/thumb_image5.jpg" width="100" height="100" alt="" />
-            </a>
-        </li>
-    </ul>
-    <ul>
-        <li>
-            <a href="photos/image1.jpg">
-                <img src="photos/thumb_image1.jpg" width="100" height="100" alt="" />
-            </a>
-        </li>
-        <li>
-            <a href="photos/image2.jpg" >
-                <img src="photos/thumb_image2.jpg" width="100" height="100" alt="" />
-            </a>
-        </li>
-        <li>
-            <a href="photos/image3.jpg">
-                <img src="photos/thumb_image3.jpg" width="100" height="100" alt="" />
-            </a>
-        </li>
-        <li>
-            <a href="photos/image4.jpg" >
-                <img src="photos/thumb_image4.jpg" width="100" height="100" alt="" />
-            </a>
-        </li>
-        <li>
-            <a href="photos/image5.jpg" >
-                <img src="photos/thumb_image5.jpg" width="100" height="100" alt="" />
-            </a>
-        </li>
-         <li>
-            <a href="photos/image1.jpg">
-                <img src="photos/thumb_image1.jpg" width="100" height="100" alt="" />
-            </a>
-        </li>
-        <li>
-            <a href="photos/image2.jpg" >
-                <img src="photos/thumb_image2.jpg" width="100" height="100" alt="" />
-            </a>
-        </li>
-        <li>
-            <a href="photos/image3.jpg">
-                <img src="photos/thumb_image3.jpg" width="100" height="100" alt="" />
-            </a>
-        </li>
-        <li>
-            <a href="photos/image4.jpg" >
-                <img src="photos/thumb_image4.jpg" width="100" height="100" alt="" />
-            </a>
-        </li>
-        <li>
-            <a href="photos/image5.jpg" >
-                <img src="photos/thumb_image5.jpg" width="100" height="100" alt="" />
-            </a>
-        </li>
-    </ul>
-
-   
-</div>
-			
-</section>
 
 		<section class="page" id="container_reach">
 			<div id="map_smvdu">
@@ -3206,8 +2994,7 @@ $sponsors = array(
         <script type="text/javascript" src="js/PxLoaderImage.js"></script>
         <script type="text/javascript" src="js/jquery.parallax.min.js"></script>
         <script type="text/javascript" src="js/sponsor.js"></script>
-        <script type="text/javascript" src="js/jquery.lightbox-0.5.js"></script>
-
+        
 		<script type="text/javascript" src="js/jquery.gridrotator.js"></script>
 		<script type="text/javascript">	
 			$(function() {
@@ -3247,10 +3034,7 @@ $sponsors = array(
 		
 
 		<script type="text/javascript">
-			$(function() {
-		        $('#gallery a').lightBox();
-		    });
-
+			
 			$(document).ready(function(){
 
 				//requests javascript files using AJAX
