@@ -2869,8 +2869,8 @@ $sponsors = array(
 				<div id="ri-grid" class="ri-grid">
 					
 					<ul>
-						<li><a href="#"><img src="images/medium/1.jpg"/></a></li>
-						<li><a href="#"><img src="images/medium/2.jpg"/></a></li>
+						<li><a href="images/medium/1.jpg"><img src="images/medium/1.jpg"/></a></li>
+						<li><a href="images/medium/2.jpg"><img src="images/medium/2.jpg"/></a></li>
 						<li><a href="#"><img src="images/medium/3.jpg"/></a></li>
 						<li><a href="#"><img src="images/medium/4.jpg"/></a></li>
 						<li><a href="#"><img src="images/medium/5.jpg"/></a></li>
@@ -3242,7 +3242,7 @@ $sponsors = array(
 
 		<script type="text/javascript">
 			$(function() {
-		        $('#gallery a').lightBox();
+		        $('#ri-grid a').lightBox();
 		    });
 
 			$(document).ready(function(){

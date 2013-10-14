@@ -1654,7 +1654,6 @@ margin-left: 42%;
     font-size: 2.1vw;
     color: #fff;
     display: none;
-    top: 40px;
     position: relative;    
     -webkit-transition: 400ms;
     transition: 400ms;
@@ -2186,7 +2185,7 @@ margin-left: 42%;
 }
 
 #game{
-    background-color: #252525;
+    background-color: #2B2B2B;
     color: #fff;
 }
 
