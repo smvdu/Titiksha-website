@@ -2923,6 +2923,10 @@ perspective effects (not including the modals and the overlay).
     color: #fff;     
 }
 
+.loading{
+    background-color: #4B4E46;
+    color: #fff; 
+}
 #email_warning{
     color: #FF3D3D;
     margin-left: 55px;
@@ -3295,6 +3299,17 @@ input[name="gender"]{
 .field-value{
     color: #FA4453;
     font-size: 23px;
+}
+.phone-number-message{
+    margin: 40px 60px;
+    color: #027E7E;
+}
+span#update-number{
+    margin-left: 60px;
+    font-size: 18px;
+    text-decoration: underline;
+    color: #353434;
+    cursor: pointer;
 }
 /* ===============  Sponser's Page Css -======= */
 

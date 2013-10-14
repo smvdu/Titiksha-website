@@ -110,6 +110,12 @@ function resetQueryBox() {
 	$("#head-content").html("");
 	$("#mytable").html("");
 }
+
+/****************** Branch wise event code ***********************/
+
+var branchCode={ 1:"MEGA" ,11:"All Izz Not Well",12:"Robo-Matrix",13:"Electro-Avtaar",14:"Innovatia Returns",15:"TechRoadies Reloaded", 2:"CSE" , 21:"Ad-Veb",22:"Debuggage",23:"Python-Geek",24:"Kill'em",25:"Lui-Commando",26:"Jumble-Mumble",27:"Online Treasure Hunt",28:"Binary Battles",3:"MECH" ,31:"Design Your Dreams",32:"Conclave",33:"The Machinist",34:"Rush To Assemble-Engine",35:"Cluedo",36:"Future-Tech",37:"Baja De Innovacion",4:"ECE" ,41:"Wavemania",42:"Electro-Quiz",43:"Electro-Avtaar",44:"Circuit-Bug",45:"Micro-Controller Coding",46:"Circuit-Electronique",47:"Electro Trade",5:"ARCH" ,51:"Architectural Symposium",52:"Art Installation",53:"Digi-Art",54:"Face-Painting",55:"Caricature-Making",56:"Poster-Making",57:"Logo-Design",58:"Landscaping",6:"IBT" ,61:"Bio-Tech Quiz",62:"Spell-Correctly",63:"Jumble-Words",64:"Complementation",65:"Show Your Memory",66:"Structure Modelling",67:"Puzzle",7:"GAME",71:"FIFA 11",72:"Counter-Striker",73:"NFS-Most Wanted"};
+
+/****************************************************************/
 function printData(data){
 	var len="  "+data.length;
 	$("#head-content").html("Total Number of Records:<strong>"+len+"</strong><br>");
@@ -136,6 +142,15 @@ function printData(data){
 		$.each(item,function(k,content){
 			if(k=="name" || k=="college_name")
 				$("<td>"+toTitleCase(content)+"</td>").appendTo(newRow );
+			else if(k=="branch_id"){
+				var bId=Number(content);
+                var branchName=branchCode[bId];
+                $("<td>"+branchName+"</td>").appendTo(newRow );			
+			}else if(k=="event_id"){
+				var eId=Number(content);
+                var eventName=branchCode[eId];
+                $("<td>"+eventName+"</td>").appendTo(newRow );
+			}
 			else if(k!="password")
 				$("<td>"+content+"</td>").appendTo(newRow );
 		});
