@@ -2935,6 +2935,7 @@ $sponsors = array(
 		</section><!-- /container -->	
 
 		<section class="page" id="container_reach" data-slide="7">
+
 			<div id="map_smvdu">
 				<br>
 				<h3 style="margin: 0px; text-align: center; color: #ccc;">How To Reach</h3><br>			
@@ -3026,6 +3027,7 @@ $sponsors = array(
 		
 
 		<script type="text/javascript">
+
 			$(document).ready(function(){
 
 				//requests javascript files using AJAX
