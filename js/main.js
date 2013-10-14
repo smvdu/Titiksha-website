@@ -138,15 +138,32 @@ $(document).ready(function(){
         var email=document.forms["login_form"]["email"].value;
         var password=document.forms["login_form"]["password"].value
         
-        if(checkEmail(email)){
-            $("#warning").fadeOut(100).html("");
-            sendLoginDetails(email,password);
+        if(validateLoginForm()){
+            if(checkEmail(email)){
+                $("#warning").fadeOut(100).html("");
+                sendLoginDetails(email,password);
+            }else{
+                $("#warning").fadeIn(100).html("* Not a valid email-id");
+            }
+            
         }else{
-            $("#warning").fadeIn(100).html("* Not a valid email-id");
+            var warningMessage="Please check and fill all the fields.";
+            $(".msg-Box").addClass("md-show warning").css("display","block");
+            $(".msg-Box > .msg-content").html(warningMessage);
+            $(".msg-Box > .msg-close").css("display","block");  
         }
         
     });
 
+    $("#update-number").click(function(event){
+        event.preventDefault;
+        var mobileNumber=prompt("Enter the mobile number");
+        if(mobileNumber!=null){
+            $("#user-phone-number").html(mobileNumber);
+            sendNewMobileNumber(mobileNumber);
+        }
+        
+    });
     $("#logout").click(function(){
         logoutUser();
     });

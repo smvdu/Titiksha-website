@@ -1654,7 +1654,6 @@ margin-left: 42%;
     font-size: 2.1vw;
     color: #fff;
     display: none;
-    top: 40px;
     position: relative;    
     -webkit-transition: 400ms;
     transition: 400ms;
@@ -2096,7 +2095,7 @@ margin-left: 42%;
     padding-top: 20%;
     height: 100%;
     float: left;
-    width: 14.2%;
+    width: 14.28%;
     z-index: 20;
 }
 
@@ -2145,8 +2144,7 @@ margin-left: 42%;
 }
 
 .expand{
-    width: 63%;
-   
+   width: 63.39%;
 }
 
 .squeeze{
@@ -2187,7 +2185,7 @@ margin-left: 42%;
 }
 
 #game{
-    background-color: #252525;
+    background-color: #2B2B2B;
     color: #fff;
 }
 
@@ -2604,21 +2602,27 @@ perspective effects (not including the modals and the overlay).
 
 /* ============coordinators Page css ================   */
 
+#container_coord{
+    height: auto;
+}
+
 #coord{
     height: 100%;
-    background-color: rgba(67, 68, 70, 1);
     font-size: 12px;
     position: relative;
-    color: #fff;
-    font-family: "Ubuntu-L"
+    color: #2C2C2C;
+    font-family: "Ubuntu-L";
+    background-image: url('../img/1.jpg');
 }
 
 #co_head{
     padding-top: 2%;
     font-size: 3vw;
     text-align: center;
-
+    color: #000;
+    
 }
+
 .sec_head{
     font-weight: bold;
     position: relative;
@@ -2629,12 +2633,9 @@ perspective effects (not including the modals and the overlay).
 #co_table{
     margin-top: 3%;
     margin-left: 3%;
-    
-    line-height: 1.2;
+    margin-bottom: 3%;
     width: 90%;
-    height: 75%;
     overflow: auto;
-
 }
 
 .ch-item {
@@ -2691,6 +2692,10 @@ perspective effects (not including the modals and the overlay).
     transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
     background: #000;
     opacity: 0;
+}
+
+.ch-info-back span {
+    color: #fff;
 }
 
 .ch-img-1 { 
@@ -2849,19 +2854,18 @@ perspective effects (not including the modals and the overlay).
 .ch-grid li:first-child{
     float: left;
     font-weight: bold;
-    font-size: 20px;
-    padding: 68px 0px;
+    font-size: 1.2vw;
+    padding: 76px 0px;
     margin: 20px;
+    text-align: center;
 }
 
 .ch-grid {
-    height: 200px;
     margin: 10px 0 0 0;
     padding: 0;
-    list-style: none;
-    display: block;
     float: left;
     width: 100%;
+    overflow: hidden;
 }
 
 .ch-grid:after,
@@ -2943,6 +2947,10 @@ perspective effects (not including the modals and the overlay).
     color: #fff;     
 }
 
+.loading{
+    background-color: #4B4E46;
+    color: #fff; 
+}
 #email_warning{
     color: #FF3D3D;
     margin-left: 55px;
@@ -3256,7 +3264,7 @@ input[name="gender"]{
     color: #000;
     background-color: #fff;
     position: relative;
-    height: 80%;
+    height: 63%;
     width: 75%;
     float: left;
     padding: 10px;
@@ -3315,6 +3323,17 @@ input[name="gender"]{
 .field-value{
     color: #FA4453;
     font-size: 23px;
+}
+.phone-number-message{
+    margin: 40px 60px;
+    color: #027E7E;
+}
+span#update-number{
+    margin-left: 60px;
+    font-size: 18px;
+    text-decoration: underline;
+    color: #353434;
+    cursor: pointer;
 }
 /* ===============  Sponser's Page Css -======= */
 
