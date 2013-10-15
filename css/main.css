@@ -204,6 +204,7 @@ a:hover {
     -ms-transition: all 200ms;
     -moz-transition: all 200ms;
     transition: all 200ms;
+    cursor: pointer;
 }
 
 #main_nav div{
@@ -2053,7 +2054,7 @@ margin-left: 42%;
 /* ======================== EVENTS PAGE CSS ======  */
 
 #event-message{
-    color: rgb(104, 87, 22);
+    color: #000;
     padding: 5px 25px;
     position: fixed;
     z-index: 2010;
@@ -2061,16 +2062,16 @@ margin-left: 42%;
     left: 360px;
     width: 600px;
     height: 50px;
-    background-color: rgb(240, 192, 106);
-    border: 4px outset rgb(187, 129, 7);
-    border-radius: 25px;
+    background-color: rgb(236, 213, 141);
     text-align: center;
+    line-height: 25px;
 }
+
 #event{
     font-size: 125%;
     width: 100%;
     background-color: #000000;
-    font-family: "Oxygen";
+    font-family: "Ubuntu-L";
     color: hsl(0, 15%, 19%);
     position: relative;
     margin: 0px;
@@ -2421,7 +2422,7 @@ perspective effects (not including the modals and the overlay).
 /* ======================= gallery css =============== */
 
 .container_gal {
-    display: none;
+    display: block;
     margin: 0px;
     height: 100%;
     position: relative;
@@ -2429,27 +2430,18 @@ perspective effects (not including the modals and the overlay).
 }
 
 .main{
-    background-color: #000;
+    background-color: #E2E2E2;
     height: 100%;
 }
 
-#grid_top{
-    background-color: rgba(49, 55, 75, 0.35);
-    color: #fff;
-    text-shadow: 2px 2px #000;
-    font-weight: bold;
-    font-size: 60px;
-    z-index: 100;
-    position: absolute;
-    top: 2%;
-    left: 45%;
-
+.ri-grid ul li{
+    width: 14.2858% !important;
+    height: 190px !important;
 }
 
-.ri-grid ul li,
 .ri-grid ul li a{
-    width: 185px !important;
-    height: 200px !important;
+    width: 100% !important;
+    height: 100% !important;
 }
 .ri-grid ul li a img{
     width: 100%;
@@ -2459,7 +2451,7 @@ perspective effects (not including the modals and the overlay).
 
 .ri-grid{
     width: 100%;
-    height: 100%;
+    height: 88%;
     position: relative;
    
 }
@@ -2583,31 +2575,72 @@ perspective effects (not including the modals and the overlay).
     display: none;
 }
 
+
+#play-slideshow{
+    width: 100%;
+    height: 22%;
+
+}
+
+#play-slideshow img{
+    width: 60px;
+    height: 60px;
+    margin: 5px auto;
+    cursor: pointer;
+    display: block;
+}
+
 /* ==================== slideshow css ==================== */
+
+.container_slide{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    height: 100%;
+    text-align: center;
+    z-index: 2000;
+}
+
+#close-slideshow{
+    position: absolute;
+    top: -30px;
+    right: -30px;
+    z-index: 2000;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+}
+
+#close-slideshow img{
+    height: 100%;
+    width: 100%;
+}
 
 .sp-slideshow {
     position: relative;
-    margin: 20px auto;
+    margin: 50px auto;
     width: 80%;
     max-width: 1050px;
     min-width: 260px;
-    height: 600px;
+    height: 550px;
     border: 10px solid #fff;
     border: 10px solid rgba(255,255,255,0.9);
     box-shadow: 0 2px 6px rgba(0,0,0,0.2);
 }
 
 .sp-content {
-    background: #7d7f72 url(../img/gallery/32.jpg) repeat scroll 0 0;
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -ms-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
+    background: #7d7f72 url(../img/4.png) scroll 0 0;
     position: relative;
     width: 100%;
     height: 100%;
     overflow: hidden;
+    background-size: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    -ms-background-size: 100%;
+
 }
 
 .sp-parallax-bg {
@@ -2622,8 +2655,7 @@ perspective effects (not including the modals and the overlay).
     left: 0;
     width: 100%;
     height: 100%;
-    overflow: hidden;
-    background-color: rgba(2, 2, 2, 0.9);
+    overflow: hidden;   
 }
 
 .sp-slideshow input {
@@ -2643,12 +2675,11 @@ perspective effects (not including the modals and the overlay).
     position: absolute;
     bottom: 15px;
     left: 50%;
-    width: 6px;
-    height: 6px;
+    width: 10px;
+    height: 10px;
     display: block;
     z-index: 1000;
-    border: 3px solid #fff;
-    border: 3px solid rgba(255,255,255,0.9);
+    border: 2px solid rgba(255,255,255,0.9);
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
@@ -2664,67 +2695,122 @@ perspective effects (not including the modals and the overlay).
 }
 
 .sp-selector-1, .button-label-1 {
-    margin-left: -136px;
+    margin-left: -288px;
 }
 
 .sp-selector-2, .button-label-2 {
-    margin-left: -118px;
+    margin-left: -270px;
+}
+
+.sp-selector-3, .button-label-3 {
+    margin-left: -252px;
 }
 
 .sp-selector-4, .button-label-4 {
-    margin-left: -100px;
+    margin-left: -234px;
 }
 
 .sp-selector-5, .button-label-5 {
-    margin-left: -82px;
+    margin-left: -216px;
 }
 
 .sp-selector-6, .button-label-6 {
-    margin-left: -64px;
+    margin-left: -198px;
 }
 .sp-selector-7, .button-label-7 {
-    margin-left: -46px;
+    margin-left: -180px;
 }
 .sp-selector-8, .button-label-8 {
-    margin-left: -28px;
+    margin-left: -162px;
 }
 .sp-selector-9, .button-label-9 {
-    margin-left: -10px;
+    margin-left: -144px;
 }
 
 .sp-selector-10, .button-label-10 {
-    margin-left: 8px;
+    margin-left: -126px;
 }
 .sp-selector-11, .button-label-11 {
-    margin-left: 26px;
+    margin-left: -108px;
 }
 .sp-selector-12, .button-label-12 {
-    margin-left: 44px;
+    margin-left: -90px;
 }
 .sp-selector-13, .button-label-13 {
-    margin-left: 62px;
+    margin-left: -72px;
 }
 .sp-selector-14, .button-label-14 {
-    margin-left: 80px;
+    margin-left: -54px;
 }
 .sp-selector-15, .button-label-15 {
-    margin-left: 98px;
+    margin-left: -36px;
 }
 .sp-selector-16, .button-label-16 {
-    margin-left: 116px;
+    margin-left: -18px;
 }
 .sp-selector-17, .button-label-17 {
-    margin-left: 134px;
+    margin-left: 0px;
 }
 .sp-selector-18, .button-label-18 {
-    margin-left: 152px;
+    margin-left: 18px;
 }
 .sp-selector-19, .button-label-19 {
-    margin-left: 180px;
+    margin-left: 36px;
 }
 .sp-selector-20, .button-label-20{
+    margin-left: 54px;
+}
+
+.sp-selector-21, .button-label-21{
+    margin-left: 72px;
+}
+
+.sp-selector-22, .button-label-22{
+    margin-left: 90px;
+}
+
+.sp-selector-23, .button-label-23{
+    margin-left: 108px;
+}
+
+.sp-selector-24, .button-label-24{
+    margin-left: 126px;
+}
+
+.sp-selector-25, .button-label-25{
+    margin-left: 144px;
+}
+
+.sp-selector-26, .button-label-26{
+    margin-left: 162px;
+}
+
+
+.sp-selector-27, .button-label-27{
+    margin-left: 180px;
+}
+
+.sp-selector-28, .button-label-28{
     margin-left: 198px;
 }
+
+
+.sp-selector-29, .button-label-29{
+    margin-left: 216px;
+}
+
+.sp-selector-30, .button-label-30{
+    margin-left: 234px;
+}
+
+.sp-selector-31, .button-label-31{
+    margin-left: 252px;
+}
+
+.sp-selector-32, .button-label-32{
+    margin-left: 270px;
+}
+
 
 .sp-arrow {
     position: absolute;
@@ -2736,19 +2822,22 @@ perspective effects (not including the modals and the overlay).
     opacity: 0.8;
     cursor: pointer;
     z-index: 1000;
-    background: transparent url(../images/arrows.png) no-repeat;
+    background: transparent url(../img/arrows.png) no-repeat;
     -webkit-transition: opacity linear 0.3s;
     -moz-transition: opacity linear 0.3s;
     -o-transition: opacity linear 0.3s;
     -ms-transition: opacity linear 0.3s;
     transition: opacity linear 0.3s;
 }
+
 .sp-arrow:hover{
     opacity: 1;
 }
+
 .sp-arrow:active{
     margin-top: -18px;
 }
+
 .sp-selector-1:checked ~ .sp-arrow.sp-a2,
 .sp-selector-2:checked ~ .sp-arrow.sp-a3,
 .sp-selector-3:checked ~ .sp-arrow.sp-a4,
@@ -2767,12 +2856,26 @@ perspective effects (not including the modals and the overlay).
 .sp-selector-16:checked ~ .sp-arrow.sp-a17,
 .sp-selector-17:checked ~ .sp-arrow.sp-a18,
 .sp-selector-18:checked ~ .sp-arrow.sp-a19,
-.sp-selector-19:checked ~ .sp-arrow.sp-a20 {
+.sp-selector-19:checked ~ .sp-arrow.sp-a20,
+.sp-selector-20:checked ~ .sp-arrow.sp-a21,
+.sp-selector-21:checked ~ .sp-arrow.sp-a22,
+.sp-selector-22:checked ~ .sp-arrow.sp-a23,
+.sp-selector-23:checked ~ .sp-arrow.sp-a24,
+.sp-selector-24:checked ~ .sp-arrow.sp-a25,
+.sp-selector-25:checked ~ .sp-arrow.sp-a26,
+.sp-selector-26:checked ~ .sp-arrow.sp-a27,
+.sp-selector-27:checked ~ .sp-arrow.sp-a28,
+.sp-selector-28:checked ~ .sp-arrow.sp-a29,
+.sp-selector-29:checked ~ .sp-arrow.sp-a30,
+.sp-selector-30:checked ~ .sp-arrow.sp-a31,
+.sp-selector-31:checked ~ .sp-arrow.sp-a32
+ {
 
     right: 15px;
     display: block;
     background-position: top right;
 }
+
 .sp-selector-2:checked ~ .sp-arrow.sp-a1,
 .sp-selector-3:checked ~ .sp-arrow.sp-a2,
 .sp-selector-4:checked ~ .sp-arrow.sp-a3,
@@ -2791,7 +2894,20 @@ perspective effects (not including the modals and the overlay).
 .sp-selector-17:checked ~ .sp-arrow.sp-a16, 
 .sp-selector-18:checked ~ .sp-arrow.sp-a17,
 .sp-selector-19:checked ~ .sp-arrow.sp-a18,
-.sp-selector-20:checked ~ .sp-arrow.sp-a19 {
+.sp-selector-20:checked ~ .sp-arrow.sp-a19,
+.sp-selector-21:checked ~ .sp-arrow.sp-a20,
+.sp-selector-22:checked ~ .sp-arrow.sp-a21,
+.sp-selector-23:checked ~ .sp-arrow.sp-a22,
+.sp-selector-24:checked ~ .sp-arrow.sp-a23,
+.sp-selector-25:checked ~ .sp-arrow.sp-a24,
+.sp-selector-26:checked ~ .sp-arrow.sp-a25,
+.sp-selector-27:checked ~ .sp-arrow.sp-a26,
+.sp-selector-28:checked ~ .sp-arrow.sp-a27,
+.sp-selector-29:checked ~ .sp-arrow.sp-a28,
+.sp-selector-30:checked ~ .sp-arrow.sp-a29,
+.sp-selector-31:checked ~ .sp-arrow.sp-a30,
+.sp-selector-32:checked ~ .sp-arrow.sp-a31
+ {
     left: 15px;
     display: block;
     background-position: top left;
@@ -2868,7 +2984,7 @@ input.sp-selector-11:checked ~ .sp-content {
 
 input.sp-selector-12:checked ~ .sp-content {
     background-position: -1100px 0;
-    background-color: #7f7276;
+    background-color:#7f7276;
 }
 
 input.sp-selector-13:checked ~ .sp-content {
@@ -2910,7 +3026,65 @@ input.sp-selector-20:checked ~ .sp-content {
     background-color: #7d7f72;
 }
 
+input.sp-selector-21:checked ~ .sp-content {
+    background-position: -2000px 0;
+    background-color: #727b7f;
+}
 
+input.sp-selector-22:checked ~ .sp-content {
+    background-position: -2100px 0;
+    background-color: #7f7276;
+}
+
+input.sp-selector-23:checked ~ .sp-content {
+    background-position: -2200px 0;
+    background-color: #737f72;
+}
+
+input.sp-selector-24:checked ~ .sp-content {
+    background-position: -2300px 0;
+    background-color: #79727f;
+}
+
+input.sp-selector-25:checked ~ .sp-content {
+    background-position: -2400px 0;
+    background-color: #7d7f72;
+}
+
+input.sp-selector-26:checked ~ .sp-content {
+    background-position: -2500px 0;
+    background-color: #727b7f;
+}
+
+input.sp-selector-27:checked ~ .sp-content {
+    background-position: -2600px 0;
+    background-color: #7f7276;
+}
+
+input.sp-selector-28:checked ~ .sp-content {
+    background-position: -2700px 0;
+    background-color: #737f72;
+}
+
+input.sp-selector-29:checked ~ .sp-content {
+    background-position: -2800px 0;
+    background-color: #79727f;
+}
+
+input.sp-selector-30:checked ~ .sp-content {
+    background-position: -2900px 0;
+    background-color: #7d7f72;
+}
+
+input.sp-selector-31:checked ~ .sp-content {
+    background-position: -3000px 0;
+    background-color: #727b7f;
+}
+
+input.sp-selector-32:checked ~ .sp-content {
+    background-position: -3100px 0;
+    background-color: #7f7276;
+}
 
 
 input.sp-selector-1:checked ~ .sp-content .sp-parallax-bg {
@@ -2990,13 +3164,62 @@ input.sp-selector-19:checked ~ .sp-content .sp-parallax-bg {
 }
 
 input.sp-selector-20:checked ~ .sp-content .sp-parallax-bg {
-    background-position: -3600px 0;
+    background-position: -3800px 0;
 }
+
+input.sp-selector-21:checked ~ .sp-content .sp-parallax-bg {
+    background-position: -4000px 0;
+}
+
+input.sp-selector-22:checked ~ .sp-content .sp-parallax-bg {
+    background-position: -4200px 0;
+}
+
+input.sp-selector-23:checked ~ .sp-content .sp-parallax-bg {
+    background-position: -4400px 0;
+}
+
+input.sp-selector-24:checked ~ .sp-content .sp-parallax-bg {
+    background-position: -4600px 0;
+}
+
+input.sp-selector-25:checked ~ .sp-content .sp-parallax-bg {
+    background-position: -4800px 0;
+}
+
+input.sp-selector-26:checked ~ .sp-content .sp-parallax-bg {
+    background-position: -5000px 0;
+}
+
+input.sp-selector-27:checked ~ .sp-content .sp-parallax-bg {
+    background-position: -5200px 0;
+}
+
+input.sp-selector-28:checked ~ .sp-content .sp-parallax-bg {
+    background-position: -5400px 0;
+}
+
+input.sp-selector-29:checked ~ .sp-content .sp-parallax-bg {
+    background-position: -5600px 0;
+}
+
+input.sp-selector-30:checked ~ .sp-content .sp-parallax-bg {
+    background-position: -5800px 0;
+}
+
+input.sp-selector-31:checked ~ .sp-content .sp-parallax-bg {
+    background-position: -6000px 0;
+}
+
+input.sp-selector-32:checked ~ .sp-content .sp-parallax-bg {
+    background-position: -6200px 0;
+}
+
 
 .sp-slider {
     position: relative;
     left: 0;
-    width: 500%;
+    width: 3200%;
     height: 100%;
     list-style: none;
     margin: 0;
@@ -3010,14 +3233,13 @@ input.sp-selector-20:checked ~ .sp-content .sp-parallax-bg {
 
 .sp-slider > li {
     color: #fff;
-    width: 20%;
+    width: 3.125%;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -o-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
-    height: 100%;
-    padding: 0 60px;
+    height: 100%;    
     float: left;
     text-align: center;
     opacity: 1;
