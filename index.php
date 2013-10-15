@@ -1299,7 +1299,10 @@
 										</div>
 										<h3>ELECTRO TRADE</h3>
 										<div>
-											<p>
+											<p>Traded a pair of jeans, exchanged your favourite music dvd, but have you ever 
+											considered trading resistors, capacitors 
+											to let you win a competition. So folks time to use business acumen and technical 
+											skills to build a breadboard circuit fighting against time and other competitors. </p>
 												<ul>
 													<li>The first round comprises of a paper, which will have multiple
 														choice type questions  which will be related to TECHNOLOGY. Based
@@ -1310,7 +1313,7 @@
 													<li>The objective of the third round is to make a circuit. But that's not it.
                                                         The details about the circuit will be hidden in a hint given to you.</li>
 												</ul>
-											</p>
+										
 											
 											<br><br>
 											<ul>
@@ -1318,6 +1321,54 @@
 
 												<li><strong>Event co-ordinator: </strong> Prayag Varshney | Lakhan Garg | Panch Dev parihar </li>
 												<li><strong>Contact: </strong> +91-9697992483</li>
+
+
+											</ul>
+											
+										</div>
+									</div>
+								</div>
+								<div class="md-overlay"></div><!-- the overlay element -->
+							</div><!-- / uc-container -->
+
+							<div class="uc-container">
+
+								<div class="md-trigger" data-modal="modal-68">
+									<span class="icon-eye"><em>ELECTRO - MAZE </em></span>
+
+									<p>Let the battle be in your mind!!</p>
+								</div>
+								<div class="md-modal md-effect-11" id="modal-68">
+									<div class="md-content">
+										<div class="md-header">
+											<button class="md-register register" data-branch="4" data-event="47">Register</button>
+											<button class="md-close close">Close!</button>
+										</div>
+										<h3>ELECTRO MAZE</h3>
+										<div>
+											<p>The problem is that we always look for the missing piece of
+											 the puzzle instead of finding a place for the one in our hand.
+											Delve into the mazes of your mind for the final answers. Here 
+											comes Mind Maze to perplex and enthral you with its conundrums and riddles.</p>
+											<p>Event consist two rounds-</p>
+												<ul>
+													<li>ROUND ONE - Participants will be given some puzzles/problems which may  based 
+													on basic electrical concepts which have to be solved in the given time period. </li>
+													<li>ROUND TWO-In this round, selected participants of round one can make their teams
+													(two member). They will have to 
+													simultaneously solve the given puzzle and then explain their answers to the judges.</li>	
+													They will be given the next puzzle only if they answer the previous one.
+ 													The top 3 teams who will be able to pass through the maze of puzzles 
+ 													at the earliest will be declared first, second and third. 
+												</ul>
+											</p>
+											
+											<br><br>
+											<ul>
+
+
+												<li><strong>Event co-ordinator: </strong> APPORVA SHUKLA | BRIJESH KUMAR.</li>
+												<li><strong>Contact: </strong>  +91-9086-119935</li>
 
 
 											</ul>
