@@ -78,15 +78,15 @@
 
         <nav id="main_nav">
         	<ul>
-        		<li data-slide="1"></li>
-        		<li data-slide="2"></li>
-        		<li data-slide="3"></li>
-        		<li data-slide="4"></li>
-        		<li data-slide="5"></li>
-        		<li data-slide="6"></li>
-        		<li data-slide="7"></li>
-        		<li data-slide="8"></li>
-        		<li data-slide="9"></li>
+        		<li data-slide="1">Home</li>
+        		<li data-slide="2">About</li>
+        		<li data-slide="3">Events</li>
+        		<li data-slide="4">Gallery</li>
+        		<li data-slide="5">Sponsors</li>
+        		<li data-slide="6">Registration</li>
+        		<li data-slide="7">Team</li>
+        		<li data-slide="8">Contacts</li>
+        		<li data-slide="9">Reach</li>
         	</ul>
 
         	<div data-slide="1"></div>
@@ -223,11 +223,11 @@
                             </div>
                         </a>
                     </li>
-                    <li data-slide="5">
+                    <li data-slide="4">
                         <a href="#container_sponser">
-                            <span class="ca-icon" id="heart">P</span>
+                            <span class="ca-icon" id="heart">0</span>
                             <div class="ca-content">
-                                <h2 class="ca-main">Sponsors</h2>
+                                <h2 class="ca-main">Gallery</h2>
                                 <h3 class="ca-sub">Our Trusty Believer's</h3>
                             </div>
                         </a>
@@ -2319,16 +2319,16 @@
 
 
 $sponsors = array(
-	array('reebok','Reebok is a producer of athletic shoes, clothing, and accessories.','http://www.reebok.com/'),
-	array('jkbank','J&K Bank functions as a universal bank in Jammu & Kashmir and as a specialised bank in the rest of the country.','http://www.jkbank.net/'),
-	array('tcs','TCS is a leader in the global marketplace and among the top 10 technology firms in the world.','http://www.tcs.com/'),
-	array('doordarshan','The backbone of Indian entertainment and news industry. ','http://www.ddindia.gov.in/'),
-	array('kcresidency','K.C. Residency is a Landmark in Jammu,located at Residency Road of Jammu in Jammu & Kashmir state.','http://www.kcresidency.com/'),
-	array('jammulinks','The virtual search engine for Jammu & Kashmir','http://www.jammulinks.com/'),
-	array('redhat','Red Hat, Inc. is an American software company that is engaged in providing open-source software products.','http://www.redhat.com/'),
-	array('aircel','Aircel group is an Indian mobile network operator headquartered in Chennai, which offers voice & data services.','http://www.aircel.com/'),
-	array('tata','Tata Teleservices Limited is an Indian broadband and telecommunications service provider based in Mumbai, India. .','http://www.tataindicom.com/'),
-	array('wipro','Wipro Ltd. is an Indian information technology consulting and outsourcing service company located in Bangalore, India.','http://www.wipro.com/'),
+	array('7','Reebok is a producer of athletic shoes, clothing, and accessories.','http://www.reebok.com/'),
+	array('4','J&K Bank functions as a universal bank in Jammu & Kashmir and as a specialised bank in the rest of the country.','http://www.jkbank.net/'),
+	array('9','TCS is a leader in the global marketplace and among the top 10 technology firms in the world.','http://www.tcs.com/'),
+	array('2','The backbone of Indian entertainment and news industry. ','http://www.ddindia.gov.in/'),
+	array('5','K.C. Residency is a Landmark in Jammu,located at Residency Road of Jammu in Jammu & Kashmir state.','http://www.kcresidency.com/'),
+	array('3','The virtual search engine for Jammu & Kashmir','http://www.jammulinks.com/'),
+	array('6','Red Hat, Inc. is an American software company that is engaged in providing open-source software products.','http://www.redhat.com/'),
+	array('1','Aircel group is an Indian mobile network operator headquartered in Chennai, which offers voice & data services.','http://www.aircel.com/'),
+	array('8','Tata Teleservices Limited is an Indian broadband and telecommunications service provider based in Mumbai, India. .','http://www.tataindicom.com/'),
+	array('10','Wipro Ltd. is an Indian information technology consulting and outsourcing service company located in Bangalore, India.','http://www.wipro.com/'),
 
 );
 
@@ -2816,7 +2816,7 @@ $sponsors = array(
 							
 
 						<ul class="ch-grid">
-							<li>Committee Head</li>
+							<li>Committee Incharges</li>
 							<li>
 								<div class="ch-item">				
 									<div class="ch-info">
@@ -2904,7 +2904,7 @@ $sponsors = array(
 						</ul>
 
 						<ul class="ch-grid">
-							<li>Branch Cord</li>
+							<li>Branch Incharges</li>
 							<li>
 								<div class="ch-item">
 									<div class="ch-info">
@@ -3212,7 +3212,14 @@ $sponsors = array(
 					 </tr>
 					 </table>
 				</div>
-			</div>					
+			</div>	
+
+			<footer>
+				<div id="copyright">&copy Titiksha, SMVDU</div>
+				<div id="openSource">This Website is Developed using open source platform on Github. Play with the code at <a href="https://github.com/smvdu/Titiksha-website" target="_blank"><img src="img/icomoon/github.png" /> <span>Github - Titiksha Website</span></a></div>
+				<div id="developedBy">Developed and Maintained By: <a href="https://github.com/smvdu/Titiksha-website/graphs/contributors" target="_blank">Titiksha Web Development Team</a></div>
+				
+			</footer>				
 			
 		</section>
 
@@ -3233,7 +3240,7 @@ $sponsors = array(
         <script type="text/javascript" src="js/PxLoaderImage.js"></script>
         <script type="text/javascript" src="js/jquery.parallax.min.js"></script>
         <script type="text/javascript" src="js/sponsor.js"></script>
-        
+        <script type="text/javascript" src="js/colorfont.js" ></script>
 		<script type="text/javascript" src="js/jquery.gridrotator.js"></script>
 		<script type="text/javascript">	
 			$(function() {
@@ -3285,11 +3292,17 @@ $sponsors = array(
 				//preloader for images
 				var loader = new PxLoader();
 
-				for(var i= 1; i < 2; i++)
+				for(var i= 1; i < 35; i++)
 					loader.addImage("img/"+i+".jpg");
+
+				for(var i = 1; i < 32; i++)
+					loader.addImage("img/gallery/"+i+".jpg");
 				
 				for(var i = 1; i < 4; i++)
 					loader.addImage("img/"+i+".png");
+
+				for(var i = 1; i < 10; i++)
+					loader.addImage("img/sponsors/"+i+".png");
 
 	        	loader.addCompletionListener(function() {
 	        		$("#progress , #loading").fadeOut(500, function(){
