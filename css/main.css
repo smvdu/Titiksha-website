@@ -204,6 +204,7 @@ a:hover {
     -ms-transition: all 200ms;
     -moz-transition: all 200ms;
     transition: all 200ms;
+    cursor: pointer;
 }
 
 #main_nav div{
@@ -2421,7 +2422,7 @@ perspective effects (not including the modals and the overlay).
 /* ======================= gallery css =============== */
 
 .container_gal {
-    display: none;
+    display: block;
     margin: 0px;
     height: 100%;
     position: relative;
@@ -2459,7 +2460,7 @@ perspective effects (not including the modals and the overlay).
 
 .ri-grid{
     width: 100%;
-    height: 100%;
+    height: 88%;
     position: relative;
    
 }
@@ -2583,11 +2584,47 @@ perspective effects (not including the modals and the overlay).
     display: none;
 }
 
+
+#play-slideshow{
+    width: 100%;
+    height: 22%;
+}
+
+#play-slideshow img{
+    width: 60px;
+    height: 60px;
+    margin: 14px 45%;
+    cursor: pointer;
+}
+
+#play-slideshow img:hover{
+    width: 70px;
+    height: 70px;
+    margin: 8px 44.5%;
+}
 /* ==================== slideshow css ==================== */
+
+.container_slide{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    height: 100%;
+    text-align: center;
+    z-index: 2000;
+}
+
+#close-slideshow{
+    position: absolute;
+    top: 20px;
+    right: 125px;
+    z-index: 2070;
+    cursor: pointer;
+}
 
 .sp-slideshow {
     position: relative;
-    margin: 30px auto;
+    margin: 50px auto;
     width: 80%;
     max-width: 1050px;
     min-width: 260px;

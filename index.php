@@ -2040,211 +2040,218 @@
 						
 					</ul>
 				</div>
-				
-				
+
+				<div id="play-slideshow">
+					<img src="img/play.png" alt="Play SlideShow" />
+				</div>
+
 			</div>
 			
         </div>
 
         <!-- slideshow gallery -->
 
-        <div class="sp-slideshow">
-			
-				<input id="button-1" type="radio" name="radio-set" class="sp-selector-1" checked="checked" />
-				<label for="button-1" class="button-label-1"></label>
+        <div class="container_slide" style="display:none;">
+        	<div id="close-slideshow">
+        		<img src="img/close.png" alt="Close Slideshow" />
+        	</div>
+	        <div class="sp-slideshow">
 				
-				<input id="button-2" type="radio" name="radio-set" class="sp-selector-2" />
-				<label for="button-2" class="button-label-2"></label>
-				
-				<input id="button-3" type="radio" name="radio-set" class="sp-selector-3" />
-				<label for="button-3" class="button-label-3"></label>
-				
-				<input id="button-4" type="radio" name="radio-set" class="sp-selector-4" />
-				<label for="button-4" class="button-label-4"></label>
-				
-				<input id="button-5" type="radio" name="radio-set" class="sp-selector-5" />
-				<label for="button-5" class="button-label-5"></label>
+					<input id="button-1" type="radio" name="radio-set" class="sp-selector-1" checked="checked" />
+					<label for="button-1" class="button-label-1"></label>
+					
+					<input id="button-2" type="radio" name="radio-set" class="sp-selector-2" />
+					<label for="button-2" class="button-label-2"></label>
+					
+					<input id="button-3" type="radio" name="radio-set" class="sp-selector-3" />
+					<label for="button-3" class="button-label-3"></label>
+					
+					<input id="button-4" type="radio" name="radio-set" class="sp-selector-4" />
+					<label for="button-4" class="button-label-4"></label>
+					
+					<input id="button-5" type="radio" name="radio-set" class="sp-selector-5" />
+					<label for="button-5" class="button-label-5"></label>
 
-				<input id="button-6" type="radio" name="radio-set" class="sp-selector-6" />
-				<label for="button-6" class="button-label-6"></label>
+					<input id="button-6" type="radio" name="radio-set" class="sp-selector-6" />
+					<label for="button-6" class="button-label-6"></label>
 
-				<input id="button-7" type="radio" name="radio-set" class="sp-selector-7"  />
-				<label for="button-7" class="button-label-7"></label>
+					<input id="button-7" type="radio" name="radio-set" class="sp-selector-7"  />
+					<label for="button-7" class="button-label-7"></label>
 
-				<input id="button-8" type="radio" name="radio-set" class="sp-selector-8"  />
-				<label for="button-8" class="button-label-8"></label>
+					<input id="button-8" type="radio" name="radio-set" class="sp-selector-8"  />
+					<label for="button-8" class="button-label-8"></label>
 
-				<input id="button-9" type="radio" name="radio-set" class="sp-selector-9" />
-				<label for="button-9" class="button-label-9"></label>
+					<input id="button-9" type="radio" name="radio-set" class="sp-selector-9" />
+					<label for="button-9" class="button-label-9"></label>
 
-				<input id="button-10" type="radio" name="radio-set" class="sp-selector-10"/>
-				<label for="button-10" class="button-label-10"></label>
+					<input id="button-10" type="radio" name="radio-set" class="sp-selector-10"/>
+					<label for="button-10" class="button-label-10"></label>
 
-				<input id="button-11" type="radio" name="radio-set" class="sp-selector-11" />
-				<label for="button-11" class="button-label-11"></label>
+					<input id="button-11" type="radio" name="radio-set" class="sp-selector-11" />
+					<label for="button-11" class="button-label-11"></label>
 
-				<input id="button-12" type="radio" name="radio-set" class="sp-selector-12" />
-				<label for="button-12" class="button-label-12"></label>
+					<input id="button-12" type="radio" name="radio-set" class="sp-selector-12" />
+					<label for="button-12" class="button-label-12"></label>
 
-				<input id="button-13" type="radio" name="radio-set" class="sp-selector-13"  />
-				<label for="button-13" class="button-label-13"></label>
+					<input id="button-13" type="radio" name="radio-set" class="sp-selector-13"  />
+					<label for="button-13" class="button-label-13"></label>
 
-				<input id="button-14" type="radio" name="radio-set" class="sp-selector-14"  />
-				<label for="button-14" class="button-label-14"></label>
+					<input id="button-14" type="radio" name="radio-set" class="sp-selector-14"  />
+					<label for="button-14" class="button-label-14"></label>
 
-				<input id="button-15" type="radio" name="radio-set" class="sp-selector-15" />
-				<label for="button-15" class="button-label-15"></label>
+					<input id="button-15" type="radio" name="radio-set" class="sp-selector-15" />
+					<label for="button-15" class="button-label-15"></label>
 
-				<input id="button-16" type="radio" name="radio-set" class="sp-selector-16"  />
-				<label for="button-16" class="button-label-16"></label>
+					<input id="button-16" type="radio" name="radio-set" class="sp-selector-16"  />
+					<label for="button-16" class="button-label-16"></label>
 
-				<input id="button-17" type="radio" name="radio-set" class="sp-selector-17"  />
-				<label for="button-17" class="button-label-17"></label>
+					<input id="button-17" type="radio" name="radio-set" class="sp-selector-17"  />
+					<label for="button-17" class="button-label-17"></label>
 
-				<input id="button-18" type="radio" name="radio-set" class="sp-selector-18" />
-				<label for="button-18" class="button-label-18"></label>
+					<input id="button-18" type="radio" name="radio-set" class="sp-selector-18" />
+					<label for="button-18" class="button-label-18"></label>
 
-				<input id="button-19" type="radio" name="radio-set" class="sp-selector-19" />
-				<label for="button-19" class="button-label-19"></label>
+					<input id="button-19" type="radio" name="radio-set" class="sp-selector-19" />
+					<label for="button-19" class="button-label-19"></label>
 
-				<input id="button-20" type="radio" name="radio-set" class="sp-selector-20" />
-				<label for="button-20" class="button-label-20"></label>
+					<input id="button-20" type="radio" name="radio-set" class="sp-selector-20" />
+					<label for="button-20" class="button-label-20"></label>
 
-				<input id="button-21" type="radio" name="radio-set" class="sp-selector-21"  />
-				<label for="button-21" class="button-label-21"></label>
+					<input id="button-21" type="radio" name="radio-set" class="sp-selector-21"  />
+					<label for="button-21" class="button-label-21"></label>
 
-				<input id="button-22" type="radio" name="radio-set" class="sp-selector-22"  />
-				<label for="button-22" class="button-label-22"></label>
+					<input id="button-22" type="radio" name="radio-set" class="sp-selector-22"  />
+					<label for="button-22" class="button-label-22"></label>
 
-				<input id="button-23" type="radio" name="radio-set" class="sp-selector-23"  />
-				<label for="button-23" class="button-label-23"></label>
-				
-				<input id="button-24" type="radio" name="radio-set" class="sp-selector-24"  />
-				<label for="button-24" class="button-label-24"></label>
+					<input id="button-23" type="radio" name="radio-set" class="sp-selector-23"  />
+					<label for="button-23" class="button-label-23"></label>
+					
+					<input id="button-24" type="radio" name="radio-set" class="sp-selector-24"  />
+					<label for="button-24" class="button-label-24"></label>
 
-				<input id="button-25" type="radio" name="radio-set" class="sp-selector-25"  />
-				<label for="button-25" class="button-label-25"></label>
+					<input id="button-25" type="radio" name="radio-set" class="sp-selector-25"  />
+					<label for="button-25" class="button-label-25"></label>
 
-				<input id="button-26" type="radio" name="radio-set" class="sp-selector-26"  />
-				<label for="button-26" class="button-label-26"></label>
+					<input id="button-26" type="radio" name="radio-set" class="sp-selector-26"  />
+					<label for="button-26" class="button-label-26"></label>
 
-				<input id="button-27" type="radio" name="radio-set" class="sp-selector-27"/>
-				<label for="button-27" class="button-label-27"></label>
+					<input id="button-27" type="radio" name="radio-set" class="sp-selector-27"/>
+					<label for="button-27" class="button-label-27"></label>
 
-				<input id="button-28" type="radio" name="radio-set" class="sp-selector-28"  />
-				<label for="button-28" class="button-label-28"></label>
-				
-				<input id="button-29" type="radio" name="radio-set" class="sp-selector-29"  />
-				<label for="button-29" class="button-label-29"></label>
+					<input id="button-28" type="radio" name="radio-set" class="sp-selector-28"  />
+					<label for="button-28" class="button-label-28"></label>
+					
+					<input id="button-29" type="radio" name="radio-set" class="sp-selector-29"  />
+					<label for="button-29" class="button-label-29"></label>
 
-				<input id="button-30" type="radio" name="radio-set" class="sp-selector-30"  />
-				<label for="button-30" class="button-label-30"></label>
+					<input id="button-30" type="radio" name="radio-set" class="sp-selector-30"  />
+					<label for="button-30" class="button-label-30"></label>
 
-				<input id="button-31" type="radio" name="radio-set" class="sp-selector-31"  />
-				<label for="button-31" class="button-label-31"></label>
+					<input id="button-31" type="radio" name="radio-set" class="sp-selector-31"  />
+					<label for="button-31" class="button-label-31"></label>
 
-				<input id="button-32" type="radio" name="radio-set" class="sp-selector-32"  />
-				<label for="button-32" class="button-label-32"></label>
-				
+					<input id="button-32" type="radio" name="radio-set" class="sp-selector-32"  />
+					<label for="button-32" class="button-label-32"></label>
+					
 
 
-				<label for="button-1" class="sp-arrow sp-a1"></label>
-				<label for="button-2" class="sp-arrow sp-a2"></label>
-				<label for="button-3" class="sp-arrow sp-a3"></label>
-				<label for="button-4" class="sp-arrow sp-a4"></label>
-				<label for="button-5" class="sp-arrow sp-a5"></label>
-				<label for="button-6" class="sp-arrow sp-a6"></label>
-				<label for="button-7" class="sp-arrow sp-a7"></label>
-				<label for="button-8" class="sp-arrow sp-a8"></label>
-				<label for="button-9" class="sp-arrow sp-a9"></label>
-				<label for="button-10" class="sp-arrow sp-a10"></label>
-				
-				<label for="button-11" class="sp-arrow sp-a11"></label>
-				<label for="button-12" class="sp-arrow sp-a12"></label>
-				<label for="button-13" class="sp-arrow sp-a13"></label>
-				<label for="button-14" class="sp-arrow sp-a14"></label>
-				<label for="button-15" class="sp-arrow sp-a15"></label>
-				
-				<label for="button-16" class="sp-arrow sp-a16"></label>
-				<label for="button-17" class="sp-arrow sp-a17"></label>
-				<label for="button-18" class="sp-arrow sp-a18"></label>
-				<label for="button-19" class="sp-arrow sp-a19"></label>
-				<label for="button-20" class="sp-arrow sp-a20"></label>
+					<label for="button-1" class="sp-arrow sp-a1"></label>
+					<label for="button-2" class="sp-arrow sp-a2"></label>
+					<label for="button-3" class="sp-arrow sp-a3"></label>
+					<label for="button-4" class="sp-arrow sp-a4"></label>
+					<label for="button-5" class="sp-arrow sp-a5"></label>
+					<label for="button-6" class="sp-arrow sp-a6"></label>
+					<label for="button-7" class="sp-arrow sp-a7"></label>
+					<label for="button-8" class="sp-arrow sp-a8"></label>
+					<label for="button-9" class="sp-arrow sp-a9"></label>
+					<label for="button-10" class="sp-arrow sp-a10"></label>
+					
+					<label for="button-11" class="sp-arrow sp-a11"></label>
+					<label for="button-12" class="sp-arrow sp-a12"></label>
+					<label for="button-13" class="sp-arrow sp-a13"></label>
+					<label for="button-14" class="sp-arrow sp-a14"></label>
+					<label for="button-15" class="sp-arrow sp-a15"></label>
+					
+					<label for="button-16" class="sp-arrow sp-a16"></label>
+					<label for="button-17" class="sp-arrow sp-a17"></label>
+					<label for="button-18" class="sp-arrow sp-a18"></label>
+					<label for="button-19" class="sp-arrow sp-a19"></label>
+					<label for="button-20" class="sp-arrow sp-a20"></label>
 
-				<label for="button-16" class="sp-arrow sp-a16"></label>
-				<label for="button-17" class="sp-arrow sp-a17"></label>
-				<label for="button-18" class="sp-arrow sp-a18"></label>
-				<label for="button-19" class="sp-arrow sp-a19"></label>
-				<label for="button-20" class="sp-arrow sp-a20"></label>
+					<label for="button-16" class="sp-arrow sp-a16"></label>
+					<label for="button-17" class="sp-arrow sp-a17"></label>
+					<label for="button-18" class="sp-arrow sp-a18"></label>
+					<label for="button-19" class="sp-arrow sp-a19"></label>
+					<label for="button-20" class="sp-arrow sp-a20"></label>
 
-				<label for="button-21" class="sp-arrow sp-a21"></label>
-				<label for="button-22" class="sp-arrow sp-a22"></label>
-				<label for="button-23" class="sp-arrow sp-a23"></label>
-				<label for="button-24" class="sp-arrow sp-a24"></label>
-				<label for="button-25" class="sp-arrow sp-a25"></label>
+					<label for="button-21" class="sp-arrow sp-a21"></label>
+					<label for="button-22" class="sp-arrow sp-a22"></label>
+					<label for="button-23" class="sp-arrow sp-a23"></label>
+					<label for="button-24" class="sp-arrow sp-a24"></label>
+					<label for="button-25" class="sp-arrow sp-a25"></label>
 
-				<label for="button-26" class="sp-arrow sp-a26"></label>
-				<label for="button-27" class="sp-arrow sp-a27"></label>
-				<label for="button-28" class="sp-arrow sp-a28"></label>
-				<label for="button-29" class="sp-arrow sp-a29"></label>
-				<label for="button-30" class="sp-arrow sp-a30"></label>
+					<label for="button-26" class="sp-arrow sp-a26"></label>
+					<label for="button-27" class="sp-arrow sp-a27"></label>
+					<label for="button-28" class="sp-arrow sp-a28"></label>
+					<label for="button-29" class="sp-arrow sp-a29"></label>
+					<label for="button-30" class="sp-arrow sp-a30"></label>
 
-				<label for="button-31" class="sp-arrow sp-a31"></label>
-				<label for="button-32" class="sp-arrow sp-a32"></label>
+					<label for="button-31" class="sp-arrow sp-a31"></label>
+					<label for="button-32" class="sp-arrow sp-a32"></label>
+								
+					
+					
+					<div class="sp-content">
+						<div class="sp-parallax-bg"></div>
+						<ul class="sp-slider clearfix">
+							<li><img src="img/gallery/1.jpg" alt="image01" /></li>
+							<li><img src="img/gallery/2.jpg" alt="image02" /></li>
+							<li><img src="img/gallery/3.jpg" alt="image03" /></li>
+							<li><img src="img/gallery/4.jpg" alt="image04" /></li>
+							<li><img src="img/gallery/5.jpg" alt="image05" /></li>
+
+							<li><img src="img/gallery/6.jpg" alt="image01" /></li>
+							<li><img src="img/gallery/7.jpg" alt="image02" /></li>
+							<li><img src="img/gallery/8.jpg" alt="image03" /></li>
+							<li><img src="img/gallery/9.jpg" alt="image04" /></li>
+							<li><img src="img/gallery/10.jpg" alt="image05" /></li>
 							
+							<li><img src="img/gallery/11.jpg" alt="image01" /></li>
+							<li><img src="img/gallery/12.jpg" alt="image02" /></li>
+							<li><img src="img/gallery/13.jpg" alt="image03" /></li>
+							<li><img src="img/gallery/14.jpg" alt="image04" /></li>
+							<li><img src="img/gallery/15.jpg" alt="image05" /></li>
+							
+							<li><img src="img/gallery/16.jpg" alt="image01" /></li>
+							<li><img src="img/gallery/17.jpg" alt="image02" /></li>
+							<li><img src="img/gallery/18.jpg" alt="image03" /></li>
+							<li><img src="img/gallery/19.jpg" alt="image04" /></li>
+							<li><img src="img/gallery/20.jpg" alt="image05" /></li>
+							
+							<li><img src="img/gallery/21.jpg" alt="image01" /></li>
+							<li><img src="img/gallery/22.jpg" alt="image02" /></li>
+							<li><img src="img/gallery/23.jpg" alt="image03" /></li>
+							<li><img src="img/gallery/24.jpg" alt="image04" /></li>
+							<li><img src="img/gallery/25.jpg" alt="image05" /></li>
+							
+							<li><img src="img/gallery/26.jpg" alt="image01" /></li>
+							<li><img src="img/gallery/27.jpg" alt="image02" /></li>
+							<li><img src="img/gallery/28.jpg" alt="image03" /></li>
+							<li><img src="img/gallery/29.jpg" alt="image04" /></li>
+							<li><img src="img/gallery/30.jpg" alt="image05" /></li>
+							
+							<li><img src="img/gallery/31.jpg" alt="image01" /></li>
+							<li><img src="img/gallery/32.jpg" alt="image02" /></li>
+													
+
+						</ul>
+					</div><!-- sp-content -->
+					
+				</div><!-- sp-slideshow -->
 				
-				
-				<div class="sp-content">
-					<div class="sp-parallax-bg"></div>
-					<ul class="sp-slider clearfix">
-						<li><img src="img/gallery/1.jpg" alt="image01" /></li>
-						<li><img src="img/gallery/2.jpg" alt="image02" /></li>
-						<li><img src="img/gallery/3.jpg" alt="image03" /></li>
-						<li><img src="img/gallery/4.jpg" alt="image04" /></li>
-						<li><img src="img/gallery/5.jpg" alt="image05" /></li>
-
-						<li><img src="img/gallery/6.jpg" alt="image01" /></li>
-						<li><img src="img/gallery/7.jpg" alt="image02" /></li>
-						<li><img src="img/gallery/8.jpg" alt="image03" /></li>
-						<li><img src="img/gallery/9.jpg" alt="image04" /></li>
-						<li><img src="img/gallery/10.jpg" alt="image05" /></li>
-						
-						<li><img src="img/gallery/11.jpg" alt="image01" /></li>
-						<li><img src="img/gallery/12.jpg" alt="image02" /></li>
-						<li><img src="img/gallery/13.jpg" alt="image03" /></li>
-						<li><img src="img/gallery/14.jpg" alt="image04" /></li>
-						<li><img src="img/gallery/15.jpg" alt="image05" /></li>
-						
-						<li><img src="img/gallery/16.jpg" alt="image01" /></li>
-						<li><img src="img/gallery/17.jpg" alt="image02" /></li>
-						<li><img src="img/gallery/18.jpg" alt="image03" /></li>
-						<li><img src="img/gallery/19.jpg" alt="image04" /></li>
-						<li><img src="img/gallery/20.jpg" alt="image05" /></li>
-						
-						<li><img src="img/gallery/21.jpg" alt="image01" /></li>
-						<li><img src="img/gallery/22.jpg" alt="image02" /></li>
-						<li><img src="img/gallery/23.jpg" alt="image03" /></li>
-						<li><img src="img/gallery/24.jpg" alt="image04" /></li>
-						<li><img src="img/gallery/25.jpg" alt="image05" /></li>
-						
-						<li><img src="img/gallery/26.jpg" alt="image01" /></li>
-						<li><img src="img/gallery/27.jpg" alt="image02" /></li>
-						<li><img src="img/gallery/28.jpg" alt="image03" /></li>
-						<li><img src="img/gallery/29.jpg" alt="image04" /></li>
-						<li><img src="img/gallery/30.jpg" alt="image05" /></li>
-						
-						<li><img src="img/gallery/31.jpg" alt="image01" /></li>
-						<li><img src="img/gallery/32.jpg" alt="image02" /></li>
-												
-
-					</ul>
-				</div><!-- sp-content -->
-				
-			</div><!-- sp-slideshow -->
-			
-
-
-			
+			</div>
+			<div class="md-overlay"></div><!-- the overlay element -->
+		
 		</section>
 
 

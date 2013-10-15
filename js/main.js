@@ -94,6 +94,15 @@ $(document).ready(function(){
        		
 	});
 
+
+    $("#play-slideshow img").click(function(){
+        $(".container_slide").addClass("md-show").fadeIn(800);
+    });
+
+    $("#close-slideshow img").click(function(){
+        $(".container_slide").fadeOut(200).removeClass("md-show");
+    });
+
     /****    Form related js -  Don't dare to touch it otherwise sky fall on you.  *****/
 
     $("#submit_form").click(function(){
