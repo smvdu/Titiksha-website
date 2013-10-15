@@ -78,15 +78,15 @@
 
         <nav id="main_nav">
         	<ul>
-        		<li data-slide="1"></li>
-        		<li data-slide="2"></li>
-        		<li data-slide="3"></li>
-        		<li data-slide="4"></li>
-        		<li data-slide="5"></li>
-        		<li data-slide="6"></li>
-        		<li data-slide="7"></li>
-        		<li data-slide="8"></li>
-        		<li data-slide="9"></li>
+        		<li data-slide="1">Home</li>
+        		<li data-slide="2">About</li>
+        		<li data-slide="3">Events</li>
+        		<li data-slide="4">Gallery</li>
+        		<li data-slide="5">Sponsors</li>
+        		<li data-slide="6">Registration</li>
+        		<li data-slide="7">Team</li>
+        		<li data-slide="8">Contacts</li>
+        		<li data-slide="9">Reach</li>
         	</ul>
 
         	<div data-slide="1"></div>
@@ -223,11 +223,11 @@
                             </div>
                         </a>
                     </li>
-                    <li data-slide="5">
+                    <li data-slide="4">
                         <a href="#container_sponser">
-                            <span class="ca-icon" id="heart">P</span>
+                            <span class="ca-icon" id="heart">0</span>
                             <div class="ca-content">
-                                <h2 class="ca-main">Sponsors</h2>
+                                <h2 class="ca-main">Gallery</h2>
                                 <h3 class="ca-sub">Our Trusty Believer's</h3>
                             </div>
                         </a>
@@ -2817,7 +2817,7 @@ $sponsors = array(
 							
 
 						<ul class="ch-grid">
-							<li>Committee Head</li>
+							<li>Committee Incharges</li>
 							<li>
 								<div class="ch-item">				
 									<div class="ch-info">
@@ -2905,7 +2905,7 @@ $sponsors = array(
 						</ul>
 
 						<ul class="ch-grid">
-							<li>Branch Cord</li>
+							<li>Branch Incharges</li>
 							<li>
 								<div class="ch-item">
 									<div class="ch-info">
@@ -3241,7 +3241,7 @@ $sponsors = array(
         <script type="text/javascript" src="js/PxLoaderImage.js"></script>
         <script type="text/javascript" src="js/jquery.parallax.min.js"></script>
         <script type="text/javascript" src="js/sponsor.js"></script>
-        
+        <script type="text/javascript" src="js/colorfont.js" ></script>
 		<script type="text/javascript" src="js/jquery.gridrotator.js"></script>
 		<script type="text/javascript">	
 			$(function() {
