@@ -1986,9 +1986,8 @@
 											</ul>
 											
 											<strong>Maps : </strong>
-													<p>DE - DUST2 | DE_INFERNO | DE_NUKE | DE_TRAIN</p><br>
+													<p>DE - DUST2 | DE_INFERNO | DE_NUKE | DE_TRAIN</p>
 											<p>Note : Submit your team early to Game Cord. Hurry UP!</p>
-											<br>
 											<ul>
 												<li><strong>Event co-ordinator: </strong>Arshit mahajan | Rahul sharma | Rohit bhatt| Mayur kumar |	Anshuman | Akash</li>
 												<li><strong>Contact: </strong>+91-9419102622 | +91-7298327221 | +91-9086118480 |  +91-9483542356 </li>
@@ -2016,8 +2015,8 @@
 
 											<br><br>
 											<ul>
-												<li><strong>Event co-ordinator: </strong> Rohit bhatt </li>
-												<li><strong>Contact: </strong>+91-9086118480</li>
+												<li><strong>Event co-ordinator: </strong>Amrendra Pratap (Boys) | Kritika Sangra(Girls) </li>
+												<li><strong>Contact: </strong>3rd Yr CSE | 3rd Yr ECE</li>
 											</ul>
 											
 										</div>
