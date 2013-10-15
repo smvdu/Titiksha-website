@@ -2074,7 +2074,7 @@
 				<input id="button-8" type="radio" name="radio-set" class="sp-selector-8"  />
 				<label for="button-8" class="button-label-8"></label>
 
-					<input id="button-9" type="radio" name="radio-set" class="sp-selector-9" />
+				<input id="button-9" type="radio" name="radio-set" class="sp-selector-9" />
 				<label for="button-9" class="button-label-9"></label>
 
 				<input id="button-10" type="radio" name="radio-set" class="sp-selector-10"/>
@@ -2083,7 +2083,7 @@
 				<input id="button-11" type="radio" name="radio-set" class="sp-selector-11" />
 				<label for="button-11" class="button-label-11"></label>
 
-					<input id="button-12" type="radio" name="radio-set" class="sp-selector-12" />
+				<input id="button-12" type="radio" name="radio-set" class="sp-selector-12" />
 				<label for="button-12" class="button-label-12"></label>
 
 				<input id="button-13" type="radio" name="radio-set" class="sp-selector-13"  />
@@ -2092,7 +2092,7 @@
 				<input id="button-14" type="radio" name="radio-set" class="sp-selector-14"  />
 				<label for="button-14" class="button-label-14"></label>
 
-					<input id="button-15" type="radio" name="radio-set" class="sp-selector-15" />
+				<input id="button-15" type="radio" name="radio-set" class="sp-selector-15" />
 				<label for="button-15" class="button-label-15"></label>
 
 				<input id="button-16" type="radio" name="radio-set" class="sp-selector-16"  />
