@@ -2269,16 +2269,16 @@
 
 
 $sponsors = array(
-	array('reebok','Reebok is a producer of athletic shoes, clothing, and accessories.','http://www.reebok.com/'),
-	array('jkbank','J&K Bank functions as a universal bank in Jammu & Kashmir and as a specialised bank in the rest of the country.','http://www.jkbank.net/'),
-	array('tcs','TCS is a leader in the global marketplace and among the top 10 technology firms in the world.','http://www.tcs.com/'),
-	array('doordarshan','The backbone of Indian entertainment and news industry. ','http://www.ddindia.gov.in/'),
-	array('kcresidency','K.C. Residency is a Landmark in Jammu,located at Residency Road of Jammu in Jammu & Kashmir state.','http://www.kcresidency.com/'),
-	array('jammulinks','The virtual search engine for Jammu & Kashmir','http://www.jammulinks.com/'),
-	array('redhat','Red Hat, Inc. is an American software company that is engaged in providing open-source software products.','http://www.redhat.com/'),
-	array('aircel','Aircel group is an Indian mobile network operator headquartered in Chennai, which offers voice & data services.','http://www.aircel.com/'),
-	array('tata','Tata Teleservices Limited is an Indian broadband and telecommunications service provider based in Mumbai, India. .','http://www.tataindicom.com/'),
-	array('wipro','Wipro Ltd. is an Indian information technology consulting and outsourcing service company located in Bangalore, India.','http://www.wipro.com/'),
+	array('7','Reebok is a producer of athletic shoes, clothing, and accessories.','http://www.reebok.com/'),
+	array('4','J&K Bank functions as a universal bank in Jammu & Kashmir and as a specialised bank in the rest of the country.','http://www.jkbank.net/'),
+	array('9','TCS is a leader in the global marketplace and among the top 10 technology firms in the world.','http://www.tcs.com/'),
+	array('2','The backbone of Indian entertainment and news industry. ','http://www.ddindia.gov.in/'),
+	array('5','K.C. Residency is a Landmark in Jammu,located at Residency Road of Jammu in Jammu & Kashmir state.','http://www.kcresidency.com/'),
+	array('3','The virtual search engine for Jammu & Kashmir','http://www.jammulinks.com/'),
+	array('6','Red Hat, Inc. is an American software company that is engaged in providing open-source software products.','http://www.redhat.com/'),
+	array('1','Aircel group is an Indian mobile network operator headquartered in Chennai, which offers voice & data services.','http://www.aircel.com/'),
+	array('8','Tata Teleservices Limited is an Indian broadband and telecommunications service provider based in Mumbai, India. .','http://www.tataindicom.com/'),
+	array('10','Wipro Ltd. is an Indian information technology consulting and outsourcing service company located in Bangalore, India.','http://www.wipro.com/'),
 
 );
 
@@ -3162,7 +3162,14 @@ $sponsors = array(
 					 </tr>
 					 </table>
 				</div>
-			</div>					
+			</div>	
+
+			<footer>
+				<div id="copyright">&copy Titiksha, SMVDU</div>
+				<div id="openSource">This Website is Developed using open source platform on Github. Play with the code at <a href="https://github.com/smvdu/Titiksha-website" target="_blank"><img src="img/icomoon/github.png" /> <span>Github - Titiksha Website</span></a></div>
+				<div id="developedBy">Developed and Maintained By: <a href="https://github.com/smvdu/Titiksha-website/graphs/contributors" target="_blank">Titiksha Web Development Team</a></div>
+				
+			</footer>				
 			
 		</section>
 
@@ -3235,11 +3242,17 @@ $sponsors = array(
 				//preloader for images
 				var loader = new PxLoader();
 
-				for(var i= 1; i < 2; i++)
+				for(var i= 1; i < 35; i++)
 					loader.addImage("img/"+i+".jpg");
+
+				for(var i = 1; i < 32; i++)
+					loader.addImage("img/gallery/"+i+".jpg");
 				
 				for(var i = 1; i < 4; i++)
 					loader.addImage("img/"+i+".png");
+
+				for(var i = 1; i < 10; i++)
+					loader.addImage("img/sponsors/"+i+".png");
 
 	        	loader.addCompletionListener(function() {
 	        		$("#progress , #loading").fadeOut(500, function(){

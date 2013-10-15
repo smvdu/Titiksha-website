@@ -4408,7 +4408,48 @@ a, a:visited {
     outline:none;
 }
 
+footer{
+    background-color: #ccc;
+    height: 10%;
+    bottom: 0%;
+    position: absolute;
+    width: 100%;
+    color: #000;
+    font-size: 1.2vw;
+}
 
+#copyright{
+    width: 15%;
+    float: left;
+    margin: 28px 40px;
+}
+
+#openSource{
+    width: 60%;
+    margin: 28px auto;
+    float: left;
+}
+
+#openSource a{
+
+}
+
+#openSource a img{
+
+}
+
+#openSource a span{
+
+}
+
+#developedBy{
+    margin-top: 14px;
+    margin-right: 30px;
+}
+
+#developedBy a{
+
+}
 
 /* ==========================================================================
    Helper classes
