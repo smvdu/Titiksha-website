@@ -196,7 +196,7 @@ a:hover {
     height: 0px;
     width: 0px;
     border: 3px solid #277EC2;
-    margin: 50px auto;
+    margin: 40px auto;
     border-radius: 50%;
     padding: 5px;
     -webkit-transition: all 200ms;
@@ -2587,18 +2587,23 @@ perspective effects (not including the modals and the overlay).
 
 .sp-slideshow {
     position: relative;
-    margin: 10px auto;
+    margin: 20px auto;
     width: 80%;
-    max-width: 1000px;
+    max-width: 1050px;
     min-width: 260px;
-    height: 460px;
+    height: 600px;
     border: 10px solid #fff;
     border: 10px solid rgba(255,255,255,0.9);
     box-shadow: 0 2px 6px rgba(0,0,0,0.2);
 }
 
 .sp-content {
-    background: #7d7f72 url(../images/grid.png) repeat scroll 0 0;
+    background: #7d7f72 url(../img/gallery/32.jpg) repeat scroll 0 0;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -ms-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
     position: relative;
     width: 100%;
     height: 100%;
@@ -2606,16 +2611,19 @@ perspective effects (not including the modals and the overlay).
 }
 
 .sp-parallax-bg {
-    background: url(../images/map.png) repeat-x scroll 0 0;
+   
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;   
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     overflow: hidden;
+    background-color: rgba(2, 2, 2, 0.9);
 }
 
 .sp-slideshow input {
@@ -3012,7 +3020,7 @@ input.sp-selector-20:checked ~ .sp-content .sp-parallax-bg {
     padding: 0 60px;
     float: left;
     text-align: center;
-    opacity: 0.4;
+    opacity: 1;
     -webkit-transition: opacity ease-in 0.4s 0.8s;
     -moz-transition: opacity ease-in 0.4s 0.8s;
     -o-transition: opacity ease-in 0.4s 0.8s;
@@ -3031,6 +3039,7 @@ input.sp-selector-20:checked ~ .sp-content .sp-parallax-bg {
     max-height: 100%;
     max-width: 100%;
 }
+
 input.sp-selector-1:checked ~ .sp-content .sp-slider {
     left: 0;
 }
@@ -3111,6 +3120,58 @@ input.sp-selector-20:checked ~ .sp-content .sp-slider {
     left: -1900%;
 }
 
+input.sp-selector-21:checked ~ .sp-content .sp-slider {
+    left: -2000%;
+}
+
+input.sp-selector-22:checked ~ .sp-content .sp-slider {
+    left: -2100%;
+}
+
+input.sp-selector-23:checked ~ .sp-content .sp-slider {
+    left: -2200%;
+}
+
+input.sp-selector-24:checked ~ .sp-content .sp-slider {
+    left: -2300%;
+}
+
+input.sp-selector-25:checked ~ .sp-content .sp-slider {
+    left: -2400%;
+}
+
+input.sp-selector-26:checked ~ .sp-content .sp-slider {
+    left: -2500%;
+}
+
+input.sp-selector-27:checked ~ .sp-content .sp-slider {
+    left: -2600%;
+}
+
+input.sp-selector-28:checked ~ .sp-content .sp-slider {
+    left: -2700%;
+}
+
+input.sp-selector-29:checked ~ .sp-content .sp-slider {
+    left: -2800%;
+}
+
+
+input.sp-selector-30:checked ~ .sp-content .sp-slider {
+    left: -2900%;
+}
+
+
+input.sp-selector-31:checked ~ .sp-content .sp-slider {
+    left: -3000%;
+}
+
+
+input.sp-selector-32:checked ~ .sp-content .sp-slider {
+    left: -3100%;
+}
+
+
 
 input.sp-selector-1:checked ~ .sp-content .sp-slider > li:first-child,
 input.sp-selector-2:checked ~ .sp-content .sp-slider > li:nth-child(2),
@@ -3131,7 +3192,19 @@ input.sp-selector-16:checked ~ .sp-content .sp-slider > li:nth-child(16),
 input.sp-selector-17:checked ~ .sp-content .sp-slider > li:nth-child(17),
 input.sp-selector-18:checked ~ .sp-content .sp-slider > li:nth-child(18),
 input.sp-selector-19:checked ~ .sp-content .sp-slider > li:nth-child(19),
-input.sp-selector-20:checked ~ .sp-content .sp-slider > li:nth-child(20)
+input.sp-selector-20:checked ~ .sp-content .sp-slider > li:nth-child(20),
+input.sp-selector-21:checked ~ .sp-content .sp-slider > li:nth-child(21),
+input.sp-selector-22:checked ~ .sp-content .sp-slider > li:nth-child(22),
+input.sp-selector-23:checked ~ .sp-content .sp-slider > li:nth-child(23),
+input.sp-selector-24:checked ~ .sp-content .sp-slider > li:nth-child(24),
+input.sp-selector-25:checked ~ .sp-content .sp-slider > li:nth-child(25),
+input.sp-selector-26:checked ~ .sp-content .sp-slider > li:nth-child(26),
+input.sp-selector-27:checked ~ .sp-content .sp-slider > li:nth-child(27),
+input.sp-selector-28:checked ~ .sp-content .sp-slider > li:nth-child(28),
+input.sp-selector-29:checked ~ .sp-content .sp-slider > li:nth-child(29),
+input.sp-selector-30:checked ~ .sp-content .sp-slider > li:nth-child(30),
+input.sp-selector-31:checked ~ .sp-content .sp-slider > li:nth-child(31),
+input.sp-selector-32:checked ~ .sp-content .sp-slider > li:nth-child(32)
 {
     opacity: 1;
 }
@@ -3150,15 +3223,20 @@ input.sp-selector-20:checked ~ .sp-content .sp-slider > li:nth-child(20)
 
 /* =============== map googlev ========== */
 
+#container_reach{
+    height: 125%;
+   
+}
+
 #map_smvdu{
      margin: 0px;
     height: 100%;
     position: relative;
-    background-color: #000;
+     background-color: #000;
 }
 
 #reach_info{
-    margin-left: 50px;
+    margin: 0 auto;
     width: 1000px;
     font-size: 18px;
     height: 300px;
@@ -3761,7 +3839,7 @@ input[name="gender"]{
 .dashboard{
     width: 100%;
     background: #000 url('../img/2.jpg') repeat right top;
-    font-family: "Oxygen";
+    font-family: "Ubuntu-L";
     position: relative;
     margin: 0px;
     padding: 0px;
@@ -3774,15 +3852,13 @@ input[name="gender"]{
     text-align: center;
     font-size: 4vw;
     height: 17%;
+    margin-bottom: 15px;
 }
 #dash-head-title{
-    float: left;
-    margin-left: 360px;
+    color: #ccc;
 }
 
 #logout{
-    margin-right: 90px;
-    float: right;
     width: 70px;
     background: rgba(52, 58, 58, 0.37);
     height: 70px;
@@ -3792,7 +3868,11 @@ input[name="gender"]{
     font-size: 18px;
     font-weight: bold;
     cursor: pointer;
-    border: 3px outset rgba(0, 0, 0, 0.83);
+    border: 3px outset #ccc;
+    position: absolute;
+    right: 85px;
+    top: 25px;
+
 }
 
 #logout:hover{
@@ -3814,25 +3894,27 @@ input[name="gender"]{
 .dash-menu ul li{
     height: 40px;
     padding: 10px 0px;
-    border-radius: 10px 0px 0px 10px;
+    line-height: 20px;
     cursor: pointer;
 }
 .selected-nav{
-    color : #000;
-    background-color : #fff;
-    box-shadow: 5px 5px 3px #666965;
+    color: #000;
+    background-color: #C4C4C4;
+    -webkit-transition: 500ms;
+    -moz-transition: 500ms;
+    -ms-transition: 500ms;
+    -o-transition: 500ms;
+    transition: 500ms;
 }
 
 .dash-content{
-    border-radius: 10px;
     color: #000;
-    background-color: #fff;
+    background-color: #E2E2E2;
     position: relative;
     height: 63%;
     width: 75%;
     float: left;
     padding: 10px;
-    box-shadow: 5px 5px 3px #666965;
 }
 
 .dash-registered-events{
@@ -3852,11 +3934,12 @@ input[name="gender"]{
 }
 .dash_h{
     padding: 5px;
-    font-weight: bold;
     font-size: 2vw;
-    width:14%;
-    float: left;
+    width: 14%;
+    float: left;    
+    color: #0F3B5E;
 }
+
 .reg_event{
     line-height: 1;
     padding: 0px 5px;
@@ -3885,13 +3968,15 @@ input[name="gender"]{
     text-align: center;
 }
 .field-value{
-    color: #FA4453;
+    color: #014E61;
     font-size: 23px;
 }
 .phone-number-message{
     margin: 40px 60px;
     color: #027E7E;
+    text-align: center;
 }
+
 span#update-number{
     margin-left: 60px;
     font-size: 18px;
@@ -3947,11 +4032,28 @@ span#update-number{
     font-weight: bold;
     color: #108DAC !important;
     -webkit-transition: 200ms;
+    -moz-transition: 200ms;
+    -ms-transition: 200ms;
+    -o-transition: 200ms;
+    transition: 200ms;
 }
 
 #spon_brochure > a:hover{
     color: #0E738B !important;
     -webkit-transition: 200ms;
+    -moz-transition: 200ms;
+    -ms-transition: 200ms;
+    -o-transition: 200ms;
+    transition: 200ms;
+}
+
+.spon_brochure_move{
+    left: -50%;
+    -webkit-transition: 200ms;
+    -moz-transition: 200ms;
+    -ms-transition: 200ms;
+    -o-transition: 200ms;
+    transition: 200ms;
 }
 
 #spon_query{
