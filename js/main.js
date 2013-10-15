@@ -100,7 +100,7 @@ $(document).ready(function(){
     });
 
     $("#close-slideshow img").click(function(){
-        $(".container_slide").fadeOut(200).removeClass("md-show");
+        $(".container_slide").fadeOut(500).removeClass("md-show");
     });
 
     /****    Form related js -  Don't dare to touch it otherwise sky fall on you.  *****/

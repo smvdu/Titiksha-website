@@ -2430,27 +2430,18 @@ perspective effects (not including the modals and the overlay).
 }
 
 .main{
-    background-color: #000;
+    background-color: #E2E2E2;
     height: 100%;
 }
 
-#grid_top{
-    background-color: rgba(49, 55, 75, 0.35);
-    color: #fff;
-    text-shadow: 2px 2px #000;
-    font-weight: bold;
-    font-size: 60px;
-    z-index: 100;
-    position: absolute;
-    top: 2%;
-    left: 45%;
-
+.ri-grid ul li{
+    width: 14.2858% !important;
+    height: 190px !important;
 }
 
-.ri-grid ul li,
 .ri-grid ul li a{
-    width: 185px !important;
-    height: 200px !important;
+    width: 100% !important;
+    height: 100% !important;
 }
 .ri-grid ul li a img{
     width: 100%;
@@ -2588,20 +2579,17 @@ perspective effects (not including the modals and the overlay).
 #play-slideshow{
     width: 100%;
     height: 22%;
+
 }
 
 #play-slideshow img{
     width: 60px;
     height: 60px;
-    margin: 14px 45%;
+    margin: 5px auto;
     cursor: pointer;
+    display: block;
 }
 
-#play-slideshow img:hover{
-    width: 70px;
-    height: 70px;
-    margin: 8px 44.5%;
-}
 /* ==================== slideshow css ==================== */
 
 .container_slide{
@@ -2616,10 +2604,17 @@ perspective effects (not including the modals and the overlay).
 
 #close-slideshow{
     position: absolute;
-    top: 20px;
-    right: 125px;
-    z-index: 2070;
+    top: -30px;
+    right: -30px;
+    z-index: 2000;
     cursor: pointer;
+    height: 40px;
+    width: 40px;
+}
+
+#close-slideshow img{
+    height: 100%;
+    width: 100%;
 }
 
 .sp-slideshow {

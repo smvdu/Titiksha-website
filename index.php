@@ -1997,10 +1997,6 @@
 			
 			<div class="main">
 				
-				<div id="grid_top">
-					<span>Gallery</span>
-				</div>
-
 				<div id="ri-grid" class="ri-grid">
 					
 					<ul>
@@ -2043,6 +2039,7 @@
 
 				<div id="play-slideshow">
 					<img src="img/play.png" alt="Play SlideShow" />
+
 				</div>
 
 			</div>
@@ -2052,10 +2049,12 @@
         <!-- slideshow gallery -->
 
         <div class="container_slide" style="display:none;">
-        	<div id="close-slideshow">
-        		<img src="img/close.png" alt="Close Slideshow" />
-        	</div>
+        	
 	        <div class="sp-slideshow">
+
+	        		<div id="close-slideshow">
+        				<img src="img/close.png" alt="Close Slideshow" />
+        			</div>
 				
 					<input id="button-1" type="radio" name="radio-set" class="sp-selector-1" checked="checked" />
 					<label for="button-1" class="button-label-1"></label>
