@@ -186,7 +186,7 @@ $(document).ready(function(){
             checkEventRegistered(branchId,eventId);   
         }else{
             // Not logged In
-            showEventMessage(" Please Login to register the event");
+            showEventMessage(" Please Login to register for the event");
         }
     });
 

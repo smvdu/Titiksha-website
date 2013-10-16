@@ -83,7 +83,10 @@
         		<li data-slide="3">Events</li>
         		<li data-slide="4">Gallery</li>
         		<li data-slide="5">Sponsors</li>
-        		<li data-slide="6">Registration</li>
+        		<li data-slide="6"><?php if(isset($_SESSION["email_id"]))
+        									echo 'Account';
+        								else 
+        									echo 'Join Us'?></li>
         		<li data-slide="7">Team</li>
         		<li data-slide="8">Contacts</li>
         		<li data-slide="9">Reach</li>
@@ -1299,7 +1302,7 @@
 								<div class="md-modal md-effect-11" id="modal-68">
 									<div class="md-content">
 										<div class="md-header">
-											<button class="md-register register" data-branch="4" data-event="47">Register</button>
+											<button class="md-register register" data-branch="4" data-event="48">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
 										<h3>ELECTRO MAZE</h3>
@@ -3060,7 +3063,6 @@ $sponsors = array(
 						<p class="tel">+91-9086-260656</p>
 						<p class="name">* Parth Pankaj Tiwary</p>
 						<p class="tel">+91-9797-521874</p>
-						<h4 style="text-decoration: underline;"><a style=" color: rgb(209, 228, 72); "href="https://github.com/smvdu/Titiksha-website" target="_blank">Github/Titiksha</a> </h4>
 
 					</div>					
 				</div>
@@ -3262,7 +3264,7 @@ $sponsors = array(
 				for(var i = 1; i < 32; i++)
 					loader.addImage("img/gallery/"+i+".jpg");
 				
-				for(var i = 1; i < 4; i++)
+				for(var i = 37; i < 41; i++)
 					loader.addImage("img/"+i+".png");
 
 				for(var i = 1; i < 10; i++)
@@ -3313,7 +3315,7 @@ $sponsors = array(
 		<!-- classie.js by @desandro: https://github.com/desandro/classie -->
 		
 				
-		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. 
+		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID.-->
         <script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
