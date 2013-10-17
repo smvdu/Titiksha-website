@@ -644,8 +644,8 @@
 										<h3>KILL'EM</h3>
 										<div>
 											<p>This  event  is  similar  to  the  "Troubleshooting"  event  of  the
-												titiksha 2k12. In  this  event, the  participants  will  be  given  6­-8  General PC problems in
-												Windows Operating system.
+												titiksha 2k12. In  this  event, the  participants  will  be  given  6­8  problems
+												of which 5 will easier and others will be little tough.
 												The  participants  have  to  solve  and  trooubleshoot  all  the  problems  or
 												most of them and they will be ranked accordingly.</p>
 												<p><strong>TIME </strong>- Round 1: 45 min. <br>
@@ -721,8 +721,8 @@
 											
 											<br><br>
 											<ul>
-												<li><strong>Event Co-ordinator : </strong>Aman Kumar | Ritesh Srivastava </li>
-												<li><strong>Contact :</strong> +91-9697-569-168 | 9086-261031</li>
+												<li><strong>Event Co-ordinator : </strong>Aman Kumar </li>
+												<li><strong>Contact :</strong> +91-9697-569-168</li>
 											</ul>
 											
 										</div>
@@ -1001,7 +1001,7 @@
 										<h3>FUTURE-TECH</h3>
 										<div>
 											<p>The  technology  or  modification  in  technology  that  can  enhance  the
-											existing technology (in any field) or innovation of any new type. You can present your idea in .ppt format.</p>
+											existing technology (in any field) or innovation of any new type.</p>
 											<p>Judgment criteria:­</p>
 											<ul> 
 												<li>1) Should Have Some Logical Ground.</li>
@@ -1012,7 +1012,7 @@
 											<br><br>
 											<ul>
 												<li><strong>Event Co-ordinator : </strong>Rajesh Baranwal</li>
-												<li><strong>Contact :</strong>+91-9796852097 | 8716058339</li>
+												<!-- <li><strong>Contact :</strong> +91-</li> -->
 											</ul>
 											
 										</div>
@@ -1944,7 +1944,7 @@
 											<button class="md-register register" data-branch="7" data-event="72">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
-										<h3>"Counter - Strike"</h3>
+										<h3>"Counter - Striker"</h3>
 										<div>
 											<img  src="img/cs.jpg">
 											<ul>
@@ -1954,7 +1954,6 @@
 											
 											<strong>Maps : </strong>
 													<p>DE - DUST2 | DE_INFERNO | DE_NUKE | DE_TRAIN</p>
-											<span style="color: rgb(131, 255, 131);font-weight: bold;">"Cash Prize FOR THE WINNER"</span>
 											<p>Note : Submit your team early to Game Cord on or before 23rd Oct. Hurry UP!</p>
 											<ul>
 												<li><strong>Event co-ordinator: </strong>Arshit mahajan | Rahul sharma | Rohit bhatt| Mayur kumar |	Anshuman | Akash</li>
@@ -3176,24 +3175,7 @@ $sponsors = array(
 				<li>Option 2:  Board bus from Jammu Bus Stand/Railyway Station  plying to Udhampur/Katra but alight at Domel (Approx. 39 Kms.).  Board Mini Bus fom Domel to University (Approx. 6 Kms.)</li>
 					
 				<div style="width:700px;height:350px; position:relative; margin: 40px auto; ">
-					<iframe width="625" height="350" frameborder="0" scrolling="no" marginheight="0"
-					 marginwidth="0" 
-					 src="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=Shri%2BMata%2BVaishno%2BDevi%2BUniversity%2Bkatra%2C%2BJammu%2C%2BIndia&ie=UTF8&z=12&t=m&iwloc=addr&output=embed">
-					 </iframe><br>
-					 <table width="625" cellpadding="0" cellspacing="0" border="0">
-					 <tr>
-					 <td align="left">
-					 <small>
-					 <a style="color:#fff;"href="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=Shri%2BMata%2BVaishno%2BDevi%2BUniversity%2Bkatra%2C%2BJammu%2C%2BIndia&ie=UTF8&z=12&t=m&iwloc=addr">
-					 View Larger Map</a>
-					 </small></td>
-					 <td align="right">
-					 <small>
-					 <a style="color: #fff;"href="http://www.embedgooglemap.com">embed google map</a>
-					 </small>
-					 </td>
-					 </tr>
-					 </table>
+					<iframe width="625" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.in/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Shri+Mata+Vaishno+Devi+University,+Reasi&amp;aq=0&amp;oq=smvdu&amp;sll=20.983588,82.752628&amp;sspn=47.832907,82.265625&amp;ie=UTF8&amp;hq=Shri+Mata+Vaishno+Devi+University,+Reasi&amp;t=m&amp;ll=32.941232,74.953666&amp;spn=0.012606,0.026822&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://maps.google.co.in/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Shri+Mata+Vaishno+Devi+University,+Reasi&amp;aq=0&amp;oq=smvdu&amp;sll=20.983588,82.752628&amp;sspn=47.832907,82.265625&amp;ie=UTF8&amp;hq=Shri+Mata+Vaishno+Devi+University,+Reasi&amp;t=m&amp;ll=32.941232,74.953666&amp;spn=0.012606,0.026822&amp;z=15&amp;iwloc=A" style="color:#0000FF;text-align:left">View Larger Map</a></small>
 				</div>
 			</div>	
 
