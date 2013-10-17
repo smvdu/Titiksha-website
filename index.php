@@ -1980,17 +1980,18 @@
 											<button class="md-register register" data-branch="7" data-event="72">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
-										<h3>"Counter - Striker"</h3>
+										<h3>"Counter - Strike"</h3>
 										<div>
 											<img  src="img/cs.jpg">
 											<ul>
 												<li><strong>Team Member :</strong> 5</li>
-												<li><strong>Entry Fees : </strong>Rs 100 per team</li>
+												<li><strong>Entry Fees : </strong>Rs 200 per team</li>
 											</ul>
 											
 											<strong>Maps : </strong>
 													<p>DE - DUST2 | DE_INFERNO | DE_NUKE | DE_TRAIN</p>
-											<p>Note : Submit your team early to Game Cord. Hurry UP!</p>
+											<span style="color: rgb(131, 255, 131);font-weight: bold;">"Cash Prize FOR THE WINNER"</span>
+											<p>Note : Submit your team early to Game Cord. Before 23rd october. Hurry UP!</p>
 											<ul>
 												<li><strong>Event co-ordinator: </strong>Arshit mahajan | Rahul sharma | Rohit bhatt| Mayur kumar |	Anshuman | Akash</li>
 												<li><strong>Contact: </strong>+91-9419102622 | +91-7298327221 | +91-9086118480 |  +91-9483542356 </li>
