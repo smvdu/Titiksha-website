@@ -430,8 +430,8 @@
 												the valedictory ceremony in auditorium.</p>
 
 											<ul>
-												<li><strong>Event Co-ordinator :</strong> Pawan Kumar | Chandan Jha </li>
-												<li><strong>Contact :</strong> +91-9596-915301 | +91-9086-728974</li>
+												<li><strong>Event Co-ordinator :</strong> Ashish Singh | Pawan Kumar | Chandan Jha </li>
+												<li><strong>Contact :</strong>+91-9596-997294 | +91-9596-915301 | +91-9086-728974</li>
 											</ul>
 
 											
@@ -466,8 +466,8 @@
 											<br>
 
 											<ul>
-												<li><strong>Event Co-ordinator :</strong> Ashish Kumar Singh | Chandan jha</li>
-												<li><strong>Contact :</strong> +91-9596-997294 | +91-9086-728974</li>
+												<li><strong>Event Co-ordinator :</strong>Panchdev Parihar | Chandan jha |  Pawan kumar </li>
+												<li><strong>Contact :</strong> +91-9797-666960  | +91-9086-728974</li>
 											</ul>
 
 										</div>
@@ -502,7 +502,7 @@
 											<br><br>
 
 											<ul>
-												<li><strong>Event Co-ordinator :</strong> Daud Shareef | Navin Ray</li>
+												<li><strong>Event Co-ordinator :</strong> Daud Shareef | Navin Ray | Ashwani Yadav | Anup Chaudhary </li>
 												<li><strong>Contact :</strong>+91-9697-679928 | +91-9086-251103</li>
 												
 											</ul>
@@ -1100,7 +1100,7 @@
 											<ul>
 
 
-												<li><strong>Event Co-ordinator : </strong>Suraj Gupta | Madhav | Hrishikesh Tripathi</li>
+												<li><strong>Event Co-ordinator : </strong>Suraj Gupta | Madhav | Shweta Pandey </li>
 												<li><strong>Contact : </strong>+91-9596913682</li>
 
 
@@ -1141,49 +1141,7 @@
 								</div>
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
-							<div class="uc-container">
-
-								<div class="md-trigger" data-modal="modal-21">
-									<span class="icon-eye"><em>EMO-EXPRESS22</em></span>
-
-									<p>This  event  is  a  blend  of  science  and  imagination.  Design  your  own
-										super  hero  and  win  prizes.</p>
-								</div>
-								<div class="md-modal md-effect-11" id="modal-21">
-									<div class="md-content">
-										<div class="md-header">
-											<button class="md-register register" data-branch="4" data-event="43">Register</button>
-											<button class="md-close close">Close!</button>
-										</div>
-										<h3>EMO-EXPRESS22</h3>
-										<div>
-											<p>Are you addicted to click snaps. Now titiksha 2k13 giving you a chance to xpress 
-											your emotion with the help of snaps by making a STORY  on them. Story will based 
-											on a topic which u would decide ur own. And present ur story in form of slide show.</p>
-											<ul>
-												<li><strong>round 1 :</strong> Participants can submit their ppts to undersigned.Selected 22 candidates allowed in round 2.</li>
-												<li><strong>round 2 :</strong> Selected participants  can give their presentation in front of judges.</li>
-											<br>
-											<strong>Rules :</strong> 
-											<li>max. 22 snaps allowed in a slide show.</li>
-											<li>you are allowed to choose any topic for your story.</li>
-											</ul>
-											<p><strong>Judging criteria :</strong> selection is based on how effective ur story on ur snaps and topic.</p>
-
-											<br><br>
-											<ul>
-
-
-												<li><strong>Event co-ordinator: </strong> APOORV SHUKLA | BRIJESH | SHIKHA </li>
-												<li><strong>Contact: </strong> +91-9086-119935</li>
-
-											</ul>
-											
-										</div>
-									</div>
-								</div>
-								<div class="md-overlay"></div><!-- the overlay element -->
-							</div><!-- / uc-container -->
+							
 							<div class="uc-container">
 
 								<div class="md-trigger" data-modal="modal-22">
@@ -1275,7 +1233,7 @@
 											<ul>
 
 
-												<li><strong>Event co-ordinator: </strong>DANISH SIDDIQUI</li>
+												<li><strong>Event co-ordinator: </strong>DANISH SIDDIQUI | Mansi | Neha Sharma</li>
 												<li><strong>Contact: </strong>+91-9796-415772</li>
 
 
@@ -1322,8 +1280,8 @@
 											<ul>
 
 
-												<li><strong>Event co-ordinator: </strong> Prayag Varshney | Lakhan Garg | Panch Dev parihar </li>
-												<li><strong>Contact: </strong> +91-9697992483</li>
+												<li><strong>Event co-ordinator: </strong> Prayag Varshney | Panch Dev parihar | Apoorv Shukla </li>
+												<li><strong>Contact: </strong>+91-9697992483 | </li>
 
 
 											</ul>
@@ -1370,7 +1328,7 @@
 											<ul>
 
 
-												<li><strong>Event co-ordinator: </strong> APPORVA SHUKLA | BRIJESH KUMAR.</li>
+												<li><strong>Event co-ordinator: </strong> APPORVA SHUKLA | LAKHAN | PRAYAG VARSHNEY</li>
 												<li><strong>Contact: </strong>  +91-9086-119935</li>
 
 
@@ -1955,11 +1913,17 @@
 										<h3>FIFA "11"</h3>
 										<div>
 												<img  src="img/fifa.jpg">
-												<p></p>
-											
+												<p><strong>Entry Fees :</strong> Rs 50 per person</p><br>
+
+												<p>Rules : Knockout Rounds will be there.
+												 Every Participants will play Home & Away. Aggregate result (home & away) will decide winner. </p>
+
+												<p>Prize will be Decided by Coordinators (Cash or Bumper Prize)</p>
+
+												<p>Enroll Asap. And Show passion and Skill toward soccer. Hurry UP! </p>
 											<br><br>
 											<ul>
-												<li><strong>Event co-ordinator: </strong>ADITYA  SHUKLA |  KAVI CHOWDHARY | MANISH  PALIWAL</li>
+												<li><strong>Event co-ordinator: </strong>ADITYA  SHUKLA |  KAVI CHOWDHARY | MANISH  PALIWAL | ANUP CHOWDHARY</li>
 												<li><strong>Contact: </strong> +91-9797-602242 | +91-9596-915315 | +91-9086-185529</li>
 											</ul>
 											
@@ -1985,7 +1949,7 @@
 											<img  src="img/cs.jpg">
 											<ul>
 												<li><strong>Team Member :</strong> 5</li>
-												<li><strong>Entry Fees : </strong>Rs 100 per team</li>
+												<li><strong>Entry Fees : </strong>Rs 150 per team</li>
 											</ul>
 											
 											<strong>Maps : </strong>
