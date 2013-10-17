@@ -580,11 +580,11 @@ a:hover {
 .header{
    font-family: "Ubuntu-L";
     text-align: center;
-    position: fixed;
+    position: absolute;
     width: 100%;
     font-size: 3vw;
     letter-spacing: 5px;
-    
+    z-index: 0;
 }
 
 #social_wrapper{
@@ -2046,7 +2046,7 @@ margin-left: 42%;
 #rocket{       
     height: 1300px;
     margin-top: 75%;
-    background-image: url("../img/1.png");
+    background-image: url("../img/37.png");
     width: 30%;
     background-size: 100%;   
    
@@ -2055,7 +2055,7 @@ margin-left: 42%;
 #earth{    
     top: 85%;
     height: 1300px; 
-    background-image: url("../img/2.png");   
+    background-image: url("../img/38.png");   
     background-size: 100%;
     width: 100%;
     
@@ -2479,7 +2479,7 @@ perspective effects (not including the modals and the overlay).
     width: 100%;
     height: 88%;
     position: relative;
-   
+    overflow: hidden;
 }
 
 .ri-grid ul {
@@ -2656,7 +2656,7 @@ perspective effects (not including the modals and the overlay).
 }
 
 .sp-content {
-    background: #7d7f72 url(../img/4.png) scroll 0 0;
+    background: #7d7f72 url(../img/40.png) scroll 0 0;
     position: relative;
     width: 100%;
     height: 100%;
@@ -3494,6 +3494,7 @@ input.sp-selector-32:checked ~ .sp-content .sp-slider > li:nth-child(32)
 
 #container_coord{
     height: auto;
+    background-image: url('../img/1.jpg');
 }
 
 #coord{
@@ -3502,7 +3503,7 @@ input.sp-selector-32:checked ~ .sp-content .sp-slider > li:nth-child(32)
     position: relative;
     color: #2C2C2C;
     font-family: "Ubuntu-L";
-    background-image: url('../img/1.jpg');
+    
 }
 
 #co_head{
@@ -3612,7 +3613,7 @@ input.sp-selector-32:checked ~ .sp-content .sp-slider > li:nth-child(32)
     background-image: url(../img/7.jpg);
 }
 .ch-img-8 { 
-    background-image: url(../img/8.jpg);
+    background-image: url(../img/42.jpg);
 }
 .ch-img-9 { 
     background-image: url(../img/13.jpg);
@@ -3681,6 +3682,11 @@ input.sp-selector-32:checked ~ .sp-content .sp-slider > li:nth-child(32)
 .ch-img-29 { 
     background-image: url(../img/32.jpg);
 }
+.ch-img-30 { 
+    background-image: url(../img/41.jpg);
+}
+
+
 
 .ch-info h3 {
     color: #fff;
@@ -4199,7 +4205,7 @@ input[name="gender"]{
 }
 
 .reg_event p{
-    color: #FA4453;
+    color: #000;
 }
 
 .dash-my-details{
