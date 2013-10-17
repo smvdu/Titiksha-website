@@ -2632,6 +2632,22 @@ $sponsors = array(
 							</div>
 						</div>
 					</li>
+					<ul style="float: left; margin: 0;">
+						<li>Media cell</li>
+						<li>
+							<div class="ch-item">				
+								<div class="ch-info">
+									<div class="ch-info-front ch-img-30"></div>
+									<div class="ch-info-back">
+										<h3>Media</h3>
+										<p><a href="https://www.facebook.com/kritika.sangra" target="_blank">Kritika Sangra</a></p>
+										<span></span>
+										<span>2011eec83@smvdu.ac.in</span>
+									</div>	
+								</div>
+							</div>
+						</li>
+					</ul>	
 					
 				</ul>
 				<ul class="ch-grid">
@@ -2656,7 +2672,7 @@ $sponsors = array(
 								<div class="ch-info-front ch-img-5"></div>
 								<div class="ch-info-back">
 									<h3>Sponsorship</h3>
-									<p><a href="https://www.facebook.com/navjotsingh.sasan" target="_blank">Navjot Sasan</a></p>
+									<p><a href="https://www.facebook.com/navjotsingh.sasan" target="_blank">Navjot Singh</a></p>
 									<span>+91-9622-074246</span>
 									<span>navvi.singh4@gmail.com</span>
 								</div>	
@@ -2759,7 +2775,7 @@ $sponsors = array(
 								<div class="ch-info-front ch-img-7"></div>
 								<div class="ch-info-back">
 									<h3>Back-End</h3>
-									<p><a href="https://www.facebook.com/AKSHAYPRATAP007" target="_blank" >Akshay Pratap Singh</a></p>
+									<p><a href="https://www.facebook.com/AKSHAYPRATAP007" target="_blank" style="font-size: 10px" >Akshay Pratap Singh</a></p>
 									<span>pratapakshay0@gmail.com</span>
 									<span>+91-9086-250656</span>
 								</div>
@@ -2772,7 +2788,7 @@ $sponsors = array(
 								<div class="ch-info-front ch-img-8"></div>
 								<div class="ch-info-back">
 									<h3>Web Developer</h3>
-									<p><a href="https://ww.facebook.com/parthpankajtiwary" target="_blank">Parth Pankaj</a></p>
+									<p><a href="https://ww.facebook.com/parthpankajtiwary" target="_blank" style="font-size: 12px">Parth Pankaj</a></p>
 									<span>parthpankajtiwary@gmail.com</span>
 									<span>+91-9797-521874</span>
 								</div>	
