@@ -3594,7 +3594,7 @@ input.sp-selector-32:checked ~ .sp-content .sp-slider > li:nth-child(32)
 }
 
 .ch-img-2 { 
-    background-image: url(../img/5.jpg);
+    background-image: url(../img/43.jpg);
 }
 
 .ch-img-3 { 
@@ -3613,7 +3613,7 @@ input.sp-selector-32:checked ~ .sp-content .sp-slider > li:nth-child(32)
     background-image: url(../img/7.jpg);
 }
 .ch-img-8 { 
-    background-image: url(../img/8.jpg);
+    background-image: url(../img/42.jpg);
 }
 .ch-img-9 { 
     background-image: url(../img/13.jpg);
@@ -3682,6 +3682,11 @@ input.sp-selector-32:checked ~ .sp-content .sp-slider > li:nth-child(32)
 .ch-img-29 { 
     background-image: url(../img/32.jpg);
 }
+.ch-img-30 { 
+    background-image: url(../img/41.jpg);
+}
+
+
 
 .ch-info h3 {
     color: #fff;

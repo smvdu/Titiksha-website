@@ -430,8 +430,8 @@
 												the valedictory ceremony in auditorium.</p>
 
 											<ul>
-												<li><strong>Event Co-ordinator :</strong> Pawan Kumar | Chandan Jha </li>
-												<li><strong>Contact :</strong> +91-9596-915301 | +91-9086-728974</li>
+												<li><strong>Event Co-ordinator :</strong> Ashish Singh | Pawan Kumar | Chandan Jha </li>
+												<li><strong>Contact :</strong>+91-9596-997294 | +91-9596-915301 | +91-9086-728974</li>
 											</ul>
 
 											
@@ -466,8 +466,8 @@
 											<br>
 
 											<ul>
-												<li><strong>Event Co-ordinator :</strong> Ashish Kumar Singh | Chandan jha</li>
-												<li><strong>Contact :</strong> +91-9596-997294 | +91-9086-728974</li>
+												<li><strong>Event Co-ordinator :</strong>Panchdev Parihar | Chandan jha |  Pawan kumar </li>
+												<li><strong>Contact :</strong> +91-9797-666960  | +91-9086-728974</li>
 											</ul>
 
 										</div>
@@ -502,7 +502,7 @@
 											<br><br>
 
 											<ul>
-												<li><strong>Event Co-ordinator :</strong> Daud Shareef | Navin Ray</li>
+												<li><strong>Event Co-ordinator :</strong> Daud Shareef | Navin Ray | Ashwani Yadav | Anup Chaudhary </li>
 												<li><strong>Contact :</strong>+91-9697-679928 | +91-9086-251103</li>
 												
 											</ul>
@@ -644,8 +644,8 @@
 										<h3>KILL'EM</h3>
 										<div>
 											<p>This  event  is  similar  to  the  "Troubleshooting"  event  of  the
-												titiksha 2k12. In  this  event, the  participants  will  be  given  6­8  problems
-												of which 5 will easier and others will be little tough.
+												titiksha 2k12. In  this  event, the  participants  will  be  given  6­-8  General PC problems in
+												Windows Operating system.
 												The  participants  have  to  solve  and  trooubleshoot  all  the  problems  or
 												most of them and they will be ranked accordingly.</p>
 												<p><strong>TIME </strong>- Round 1: 45 min. <br>
@@ -721,8 +721,8 @@
 											
 											<br><br>
 											<ul>
-												<li><strong>Event Co-ordinator : </strong>Aman Kumar </li>
-												<li><strong>Contact :</strong> +91-9697-569-168</li>
+												<li><strong>Event Co-ordinator : </strong>Aman Kumar | Ritesh Srivastava </li>
+												<li><strong>Contact :</strong> +91-9697-569-168 | 9086-261031</li>
 											</ul>
 											
 										</div>
@@ -1001,7 +1001,7 @@
 										<h3>FUTURE-TECH</h3>
 										<div>
 											<p>The  technology  or  modification  in  technology  that  can  enhance  the
-											existing technology (in any field) or innovation of any new type.</p>
+											existing technology (in any field) or innovation of any new type. You can present your idea in .ppt format.</p>
 											<p>Judgment criteria:­</p>
 											<ul> 
 												<li>1) Should Have Some Logical Ground.</li>
@@ -1012,7 +1012,7 @@
 											<br><br>
 											<ul>
 												<li><strong>Event Co-ordinator : </strong>Rajesh Baranwal</li>
-												<!-- <li><strong>Contact :</strong> +91-</li> -->
+												<li><strong>Contact :</strong>+91-9796852097 | 8716058339</li>
 											</ul>
 											
 										</div>
@@ -1100,7 +1100,7 @@
 											<ul>
 
 
-												<li><strong>Event Co-ordinator : </strong>Suraj Gupta | Madhav | Hrishikesh Tripathi</li>
+												<li><strong>Event Co-ordinator : </strong>Suraj Gupta | Madhav | Shweta Pandey </li>
 												<li><strong>Contact : </strong>+91-9596913682</li>
 
 
@@ -1141,49 +1141,7 @@
 								</div>
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
-							<div class="uc-container">
-
-								<div class="md-trigger" data-modal="modal-21">
-									<span class="icon-eye"><em>EMO-EXPRESS22</em></span>
-
-									<p>This  event  is  a  blend  of  science  and  imagination.  Design  your  own
-										super  hero  and  win  prizes.</p>
-								</div>
-								<div class="md-modal md-effect-11" id="modal-21">
-									<div class="md-content">
-										<div class="md-header">
-											<button class="md-register register" data-branch="4" data-event="43">Register</button>
-											<button class="md-close close">Close!</button>
-										</div>
-										<h3>EMO-EXPRESS22</h3>
-										<div>
-											<p>Are you addicted to click snaps. Now titiksha 2k13 giving you a chance to xpress 
-											your emotion with the help of snaps by making a STORY  on them. Story will based 
-											on a topic which u would decide ur own. And present ur story in form of slide show.</p>
-											<ul>
-												<li><strong>round 1 :</strong> Participants can submit their ppts to undersigned.Selected 22 candidates allowed in round 2.</li>
-												<li><strong>round 2 :</strong> Selected participants  can give their presentation in front of judges.</li>
-											<br>
-											<strong>Rules :</strong> 
-											<li>max. 22 snaps allowed in a slide show.</li>
-											<li>you are allowed to choose any topic for your story.</li>
-											</ul>
-											<p><strong>Judging criteria :</strong> selection is based on how effective ur story on ur snaps and topic.</p>
-
-											<br><br>
-											<ul>
-
-
-												<li><strong>Event co-ordinator: </strong> APOORV SHUKLA | BRIJESH | SHIKHA </li>
-												<li><strong>Contact: </strong> +91-9086-119935</li>
-
-											</ul>
-											
-										</div>
-									</div>
-								</div>
-								<div class="md-overlay"></div><!-- the overlay element -->
-							</div><!-- / uc-container -->
+							
 							<div class="uc-container">
 
 								<div class="md-trigger" data-modal="modal-22">
@@ -1275,7 +1233,7 @@
 											<ul>
 
 
-												<li><strong>Event co-ordinator: </strong>DANISH SIDDIQUI</li>
+												<li><strong>Event co-ordinator: </strong>DANISH SIDDIQUI | Mansi | Neha Sharma</li>
 												<li><strong>Contact: </strong>+91-9796-415772</li>
 
 
@@ -1322,8 +1280,8 @@
 											<ul>
 
 
-												<li><strong>Event co-ordinator: </strong> Prayag Varshney | Lakhan Garg | Panch Dev parihar </li>
-												<li><strong>Contact: </strong> +91-9697992483</li>
+												<li><strong>Event co-ordinator: </strong> Prayag Varshney | Panch Dev parihar | Apoorv Shukla </li>
+												<li><strong>Contact: </strong>+91-9697992483 | </li>
 
 
 											</ul>
@@ -1370,7 +1328,7 @@
 											<ul>
 
 
-												<li><strong>Event co-ordinator: </strong> APPORVA SHUKLA | BRIJESH KUMAR.</li>
+												<li><strong>Event co-ordinator: </strong> APPORVA SHUKLA | LAKHAN | PRAYAG VARSHNEY</li>
 												<li><strong>Contact: </strong>  +91-9086-119935</li>
 
 
@@ -1525,8 +1483,8 @@
 											<br><br>
 											<ul>
 
-												<li><strong>Event Co-ordinator : </strong>Arpita | Himanshu Bharanwal</li>
-												<li><strong>Contact :</strong> +91- 9018-718271 | +91-8716-055931</li>
+												<li><strong>Event Co-ordinator : </strong>Arunima Bhowmick | Puneet Mehta</li>
+												<li><strong>Contact :</strong> +91-9596997279 | +91-9419-351611</li>
 
 											</ul>
 											
@@ -1559,10 +1517,10 @@
 												in public. Have fun and win prize. <strong>Bingo!!</strong></p>
 											<br><br>
 											<ul>
+												<li><strong>Event Co-ordinator : </strong>Arpita | Himanshu Bharanwal</li>
+												<li><strong>Contact :</strong> +91- 9018-718271 | +91-8716-055931</li>
 
-												<li><strong>Event Co-ordinator : </strong>Arunima Bhowmick | Puneet Mehta</li>
-												<li><strong>Contact :</strong> +91-9596997279 | +91-9419-351611</li>
-
+												
 											</ul>
 											
 										</div>
@@ -1640,10 +1598,9 @@
 												mind the <strong>purpose</strong> and <strong>simplicity</strong> of logo.</p>
 											<br><br>
 											<ul>
-
-												<li><strong>Event Co-ordinator : </strong>Puneet Mehta | Arunima Bhowmick </li>
-												<li><strong>Contact :</strong> +91-9419-351611 | +91-9596-997279</li>
-
+												<li><strong>Event Co-ordinator : </strong>Himanshu Bharanwal | Chidananda Arpita</li>
+												<li><strong>Contact :</strong> +91-- 8716-055931 |  +91-9018-718271</li>
+												
 											</ul>
 											
 										</div>
@@ -1681,8 +1638,9 @@
 
 											<br><br>
 											<ul>
-												<li><strong>Event Co-ordinator : </strong>Himanshu Bharanwal | Chidananda Arpita</li>
-												<li><strong>Contact :</strong> +91-- 8716-055931 |  +91-9018-718271</li>
+
+												<li><strong>Event Co-ordinator : </strong>Puneet Mehta | Arunima Bhowmick </li>
+												<li><strong>Contact :</strong> +91-9419-351611 | +91-9596-997279</li>
 
 											</ul>
 											
@@ -1955,11 +1913,17 @@
 										<h3>FIFA "11"</h3>
 										<div>
 												<img  src="img/fifa.jpg">
-												<p></p>
-											
+												<p><strong>Entry Fees :</strong> Rs 50 per person</p><br>
+
+												<p>Rules : Knockout Rounds will be there.
+												 Every Participants will play Home & Away. Aggregate result (home & away) will decide winner. </p>
+
+												<p>Prize will be Decided by Coordinators (Cash or Bumper Prize)</p>
+
+												<p>Enroll Asap. And Show passion and Skill toward soccer. Hurry UP! </p>
 											<br><br>
 											<ul>
-												<li><strong>Event co-ordinator: </strong>ADITYA  SHUKLA |  KAVI CHOWDHARY | MANISH  PALIWAL</li>
+												<li><strong>Event co-ordinator: </strong>ADITYA  SHUKLA |  KAVI CHOWDHARY | MANISH  PALIWAL | ANUP CHOWDHARY</li>
 												<li><strong>Contact: </strong> +91-9797-602242 | +91-9596-915315 | +91-9086-185529</li>
 											</ul>
 											
@@ -1991,7 +1955,7 @@
 											<strong>Maps : </strong>
 													<p>DE - DUST2 | DE_INFERNO | DE_NUKE | DE_TRAIN</p>
 											<span style="color: rgb(131, 255, 131);font-weight: bold;">"Cash Prize FOR THE WINNER"</span>
-											<p>Note : Submit your team early to Game Cord. Before 23rd october. Hurry UP!</p>
+											<p>Note : Submit your team early to Game Cord on or before 23rd Oct. Hurry UP!</p>
 											<ul>
 												<li><strong>Event co-ordinator: </strong>Arshit mahajan | Rahul sharma | Rohit bhatt| Mayur kumar |	Anshuman | Akash</li>
 												<li><strong>Contact: </strong>+91-9419102622 | +91-7298327221 | +91-9086118480 |  +91-9483542356 </li>
@@ -2669,6 +2633,22 @@ $sponsors = array(
 							</div>
 						</div>
 					</li>
+					<ul style="float: left; margin: 0;">
+						<li>Media cell</li>
+						<li>
+							<div class="ch-item">				
+								<div class="ch-info">
+									<div class="ch-info-front ch-img-30"></div>
+									<div class="ch-info-back">
+										<h3>Media</h3>
+										<p><a href="https://www.facebook.com/kritika.sangra" target="_blank">Kritika Sangra</a></p>
+										<span></span>
+										<span>2011eec83@smvdu.ac.in</span>
+									</div>	
+								</div>
+							</div>
+						</li>
+					</ul>	
 					
 				</ul>
 				<ul class="ch-grid">
@@ -2693,7 +2673,7 @@ $sponsors = array(
 								<div class="ch-info-front ch-img-5"></div>
 								<div class="ch-info-back">
 									<h3>Sponsorship</h3>
-									<p><a href="https://www.facebook.com/navjotsingh.sasan" target="_blank">Navjot Sasan</a></p>
+									<p><a href="https://www.facebook.com/navjotsingh.sasan" target="_blank">Navjot Singh</a></p>
 									<span>+91-9622-074246</span>
 									<span>navvi.singh4@gmail.com</span>
 								</div>	
@@ -2796,7 +2776,7 @@ $sponsors = array(
 								<div class="ch-info-front ch-img-7"></div>
 								<div class="ch-info-back">
 									<h3>Back-End</h3>
-									<p><a href="https://www.facebook.com/AKSHAYPRATAP007" target="_blank" >Akshay Pratap Singh</a></p>
+									<p><a href="https://www.facebook.com/AKSHAYPRATAP007" target="_blank" style="font-size: 10px" >Akshay Pratap Singh</a></p>
 									<span>pratapakshay0@gmail.com</span>
 									<span>+91-9086-250656</span>
 								</div>
@@ -2809,7 +2789,7 @@ $sponsors = array(
 								<div class="ch-info-front ch-img-8"></div>
 								<div class="ch-info-back">
 									<h3>Web Developer</h3>
-									<p><a href="https://ww.facebook.com/parthpankajtiwary" target="_blank">Parth Pankaj</a></p>
+									<p><a href="https://ww.facebook.com/parthpankajtiwary" target="_blank" style="font-size: 12px">Parth Pankaj</a></p>
 									<span>parthpankajtiwary@gmail.com</span>
 									<span>+91-9797-521874</span>
 								</div>	
