@@ -3277,6 +3277,9 @@ $sponsors = array(
 				for(var i= 1; i < 35; i++)
 					loader.addImage("img/"+i+".jpg");
 
+				loader.addImage("img/41.jpg");
+				loader.addImage("img/42.jpg");
+
 				for(var i = 1; i < 32; i++)
 					loader.addImage("img/gallery/"+i+".jpg");
 				
