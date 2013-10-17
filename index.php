@@ -644,8 +644,8 @@
 										<h3>KILL'EM</h3>
 										<div>
 											<p>This  event  is  similar  to  the  "Troubleshooting"  event  of  the
-												titiksha 2k12. In  this  event, the  participants  will  be  given  6­8  problems
-												of which 5 will easier and others will be little tough.
+												titiksha 2k12. In  this  event, the  participants  will  be  given  6­-8  General PC problems in
+												Windows Operating system.
 												The  participants  have  to  solve  and  trooubleshoot  all  the  problems  or
 												most of them and they will be ranked accordingly.</p>
 												<p><strong>TIME </strong>- Round 1: 45 min. <br>
@@ -1001,7 +1001,7 @@
 										<h3>FUTURE-TECH</h3>
 										<div>
 											<p>The  technology  or  modification  in  technology  that  can  enhance  the
-											existing technology (in any field) or innovation of any new type.</p>
+											existing technology (in any field) or innovation of any new type. You can present your idea in .ppt format.</p>
 											<p>Judgment criteria:­</p>
 											<ul> 
 												<li>1) Should Have Some Logical Ground.</li>
