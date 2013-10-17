@@ -1483,8 +1483,8 @@
 											<br><br>
 											<ul>
 
-												<li><strong>Event Co-ordinator : </strong>Arpita | Himanshu Bharanwal</li>
-												<li><strong>Contact :</strong> +91- 9018-718271 | +91-8716-055931</li>
+												<li><strong>Event Co-ordinator : </strong>Arunima Bhowmick | Puneet Mehta</li>
+												<li><strong>Contact :</strong> +91-9596997279 | +91-9419-351611</li>
 
 											</ul>
 											
@@ -1517,10 +1517,10 @@
 												in public. Have fun and win prize. <strong>Bingo!!</strong></p>
 											<br><br>
 											<ul>
+												<li><strong>Event Co-ordinator : </strong>Arpita | Himanshu Bharanwal</li>
+												<li><strong>Contact :</strong> +91- 9018-718271 | +91-8716-055931</li>
 
-												<li><strong>Event Co-ordinator : </strong>Arunima Bhowmick | Puneet Mehta</li>
-												<li><strong>Contact :</strong> +91-9596997279 | +91-9419-351611</li>
-
+												
 											</ul>
 											
 										</div>
@@ -1598,10 +1598,9 @@
 												mind the <strong>purpose</strong> and <strong>simplicity</strong> of logo.</p>
 											<br><br>
 											<ul>
-
-												<li><strong>Event Co-ordinator : </strong>Puneet Mehta | Arunima Bhowmick </li>
-												<li><strong>Contact :</strong> +91-9419-351611 | +91-9596-997279</li>
-
+												<li><strong>Event Co-ordinator : </strong>Himanshu Bharanwal | Chidananda Arpita</li>
+												<li><strong>Contact :</strong> +91-- 8716-055931 |  +91-9018-718271</li>
+												
 											</ul>
 											
 										</div>
@@ -1639,8 +1638,9 @@
 
 											<br><br>
 											<ul>
-												<li><strong>Event Co-ordinator : </strong>Himanshu Bharanwal | Chidananda Arpita</li>
-												<li><strong>Contact :</strong> +91-- 8716-055931 |  +91-9018-718271</li>
+
+												<li><strong>Event Co-ordinator : </strong>Puneet Mehta | Arunima Bhowmick </li>
+												<li><strong>Contact :</strong> +91-9419-351611 | +91-9596-997279</li>
 
 											</ul>
 											
@@ -1949,12 +1949,12 @@
 											<img  src="img/cs.jpg">
 											<ul>
 												<li><strong>Team Member :</strong> 5</li>
-												<li><strong>Entry Fees : </strong>Rs 150 per team</li>
+												<li><strong>Entry Fees : </strong>Rs 200 per team</li>
 											</ul>
 											
 											<strong>Maps : </strong>
 													<p>DE - DUST2 | DE_INFERNO | DE_NUKE | DE_TRAIN</p>
-											<p>Note : Submit your team early to Game Cord. Hurry UP!</p>
+											<p>Note : Submit your team early to Game Cord on or before 23rd Oct. Hurry UP!</p>
 											<ul>
 												<li><strong>Event co-ordinator: </strong>Arshit mahajan | Rahul sharma | Rohit bhatt| Mayur kumar |	Anshuman | Akash</li>
 												<li><strong>Contact: </strong>+91-9419102622 | +91-7298327221 | +91-9086118480 |  +91-9483542356 </li>
