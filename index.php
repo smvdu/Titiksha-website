@@ -721,8 +721,8 @@
 											
 											<br><br>
 											<ul>
-												<li><strong>Event Co-ordinator : </strong>Aman Kumar </li>
-												<li><strong>Contact :</strong> +91-9697-569-168</li>
+												<li><strong>Event Co-ordinator : </strong>Aman Kumar | Ritesh Srivastava </li>
+												<li><strong>Contact :</strong> +91-9697-569-168 | 9086-261031</li>
 											</ul>
 											
 										</div>
@@ -1012,7 +1012,7 @@
 											<br><br>
 											<ul>
 												<li><strong>Event Co-ordinator : </strong>Rajesh Baranwal</li>
-												<!-- <li><strong>Contact :</strong> +91-</li> -->
+												<li><strong>Contact :</strong>+91-9796852097 | 8716058339</li>
 											</ul>
 											
 										</div>
