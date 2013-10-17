@@ -1944,7 +1944,7 @@
 											<button class="md-register register" data-branch="7" data-event="72">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
-										<h3>"Counter - Striker"</h3>
+										<h3>"Counter - Strike"</h3>
 										<div>
 											<img  src="img/cs.jpg">
 											<ul>
@@ -1954,6 +1954,7 @@
 											
 											<strong>Maps : </strong>
 													<p>DE - DUST2 | DE_INFERNO | DE_NUKE | DE_TRAIN</p>
+											<span style="color: rgb(131, 255, 131);font-weight: bold;">"Cash Prize FOR THE WINNER"</span>
 											<p>Note : Submit your team early to Game Cord on or before 23rd Oct. Hurry UP!</p>
 											<ul>
 												<li><strong>Event co-ordinator: </strong>Arshit mahajan | Rahul sharma | Rohit bhatt| Mayur kumar |	Anshuman | Akash</li>
