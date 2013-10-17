@@ -644,8 +644,8 @@
 										<h3>KILL'EM</h3>
 										<div>
 											<p>This  event  is  similar  to  the  "Troubleshooting"  event  of  the
-												titiksha 2k12. In  this  event, the  participants  will  be  given  6­8  problems
-												of which 5 will easier and others will be little tough.
+												titiksha 2k12. In  this  event, the  participants  will  be  given  6­-8  General PC problems in
+												Windows Operating system.
 												The  participants  have  to  solve  and  trooubleshoot  all  the  problems  or
 												most of them and they will be ranked accordingly.</p>
 												<p><strong>TIME </strong>- Round 1: 45 min. <br>
@@ -721,8 +721,8 @@
 											
 											<br><br>
 											<ul>
-												<li><strong>Event Co-ordinator : </strong>Aman Kumar </li>
-												<li><strong>Contact :</strong> +91-9697-569-168</li>
+												<li><strong>Event Co-ordinator : </strong>Aman Kumar | Ritesh Srivastava </li>
+												<li><strong>Contact :</strong> +91-9697-569-168 | 9086-261031</li>
 											</ul>
 											
 										</div>
@@ -1001,7 +1001,7 @@
 										<h3>FUTURE-TECH</h3>
 										<div>
 											<p>The  technology  or  modification  in  technology  that  can  enhance  the
-											existing technology (in any field) or innovation of any new type.</p>
+											existing technology (in any field) or innovation of any new type. You can present your idea in .ppt format.</p>
 											<p>Judgment criteria:­</p>
 											<ul> 
 												<li>1) Should Have Some Logical Ground.</li>
@@ -1012,7 +1012,7 @@
 											<br><br>
 											<ul>
 												<li><strong>Event Co-ordinator : </strong>Rajesh Baranwal</li>
-												<!-- <li><strong>Contact :</strong> +91-</li> -->
+												<li><strong>Contact :</strong>+91-9796852097 | 8716058339</li>
 											</ul>
 											
 										</div>
@@ -1944,7 +1944,7 @@
 											<button class="md-register register" data-branch="7" data-event="72">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
-										<h3>"Counter - Striker"</h3>
+										<h3>"Counter - Strike"</h3>
 										<div>
 											<img  src="img/cs.jpg">
 											<ul>
@@ -1954,6 +1954,7 @@
 											
 											<strong>Maps : </strong>
 													<p>DE - DUST2 | DE_INFERNO | DE_NUKE | DE_TRAIN</p>
+											<span style="color: rgb(131, 255, 131);font-weight: bold;">"Cash Prize FOR THE WINNER"</span>
 											<p>Note : Submit your team early to Game Cord on or before 23rd Oct. Hurry UP!</p>
 											<ul>
 												<li><strong>Event co-ordinator: </strong>Arshit mahajan | Rahul sharma | Rohit bhatt| Mayur kumar |	Anshuman | Akash</li>
