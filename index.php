@@ -375,11 +375,11 @@
 											<p>There  is  a  complete  matrix  of  Robotic  events,  each  one
 												focusing on introducing a particular trait into the robot.</p>
 											<ul>
-												<li>1. Robot Adventure</li>
+												<li>1. Robot Adventure <a href="https://www.facebook.com/ajax/messaging/attachment.php?attach_id=8c8989b2fba504f34b09db3f199cd64d&mid=mid.1382120323120%3Aa8468d7b77199b8b94&hash=AQDhUpRBWFWF_1Sl" target="_blank" style="text-decoration: underline;"> : click here for Rules</a></li>
 												<li>2. Robot Basketball</li>
-												<li>3. Robot Race</li>
+												<li>3. Robot Race <a href="https://www.facebook.com/ajax/messaging/attachment.php?attach_id=8c8989b2fba504f34b09db3f199cd64d&mid=mid.1382120323120%3Aa8468d7b77199b8b94&hash=AQDhUpRBWFWF_1Sl" target="_blank" style="text-decoration: underline;"> : click here for Rules</a></li>
 												<li>4. Robo SANGRAM. <a href="https://docs.google.com/file/d/0B_vScjUjXFe7ajFhR0Q3cjhpQms/edit?usp=sharing" target="_blank" style="text-decoration:underline;"> : Click here for Rules</a></li>
-												<li>5. SWACHALIT ROBO </li>
+												<li>5. SWACHALIT ROBO <a href="https://docs.google.com/file/d/0B_vScjUjXFe7ZDNEcnoxYXBQZVk/edit?usp=sharing" target="_blank" style="text-decoration:underline;">: Click here for Rules </a> </li>
 												<li>6. Robot Soccer</li>
 											</ul>
 												<p>The  robot  winning  in  max  categories  of  Robo­matrix  will  be  awarded
@@ -1052,6 +1052,8 @@
 												and  if  the  idea  wins  any  prizes  at  the  BAJA  SAE  2014,  the
 												person  will  be  given  10%  of  the  prize  money.  (which  will
 												amount to no less than <strong>15,000 INR </strong>).</p>
+											<p><a style="text-decoration: underline;" target="_blank" href="https://docs.google.com/file/d/0B_vScjUjXFe7ZXBiQ05tX2tHaUU/edit?usp=sharing">
+													 Click here for more</a></p>
 											<br><br>
 											<ul>
 												<li><strong>Event Co-ordinator : </strong>Anand</li>
@@ -1986,7 +1988,7 @@
 											<br><br>
 											<ul>
 												<li><strong>Event co-ordinator: </strong>Amrendra Pratap (Boys) | Kritika Sangra(Girls) </li>
-												<li><strong>Contact: </strong>3rd Yr CSE | 3rd Yr ECE</li>
+												<li><strong>Contact: </strong>+91-8716-041023 | 3rd Yr ECE</li>
 											</ul>
 											
 										</div>
@@ -2375,7 +2377,7 @@ $sponsors = array(
 											<th>Name :</th>
 											<td>
 												<span><img src="img/icomoon/user.png" /></span>
-												<input name="name" type="text" size="30" maxlength="100" autocomplete="off" placeholder="Full Name"/>
+												<input name="name" type="text" size="30"  autocomplete="off" placeholder="Full Name"/>
 											</td>
 											<td></td>
 										</tr>
@@ -2384,7 +2386,7 @@ $sponsors = array(
 											<td>
 
 												<span><img src="img/icomoon/mail.png" /></span>
-												<input name="email" type="email" size="30" maxlength="100"  autocomplete="off" placeholder="Email Address"/>
+												<input name="email" type="email" size="30"   autocomplete="off" placeholder="Email Address"/>
 												<div id="email_warning" style="display:none"></div>
 											</td>
 											<td></td>
@@ -2393,7 +2395,7 @@ $sponsors = array(
 											<th>College :</th>
 											<td>
 												<span><img src="img/icomoon/briefcase.png" /></span>
-												<input name="college" type="text" size="40" maxlength="100" autocomplete="off" placeholder="University/College"/>
+												<input name="college" type="text" size="40" autocomplete="off" placeholder="University/College"/>
 											</td>
 											<td></td>
 										</tr>
@@ -3173,13 +3175,11 @@ $sponsors = array(
 				<div id="reach_info">Shri Mata Vaishno Devi University is situated 40 Km North of Jammu in the scenic surroundings of  Trikuta foothills,
 				 near the holy town of Katra in District -Reasi.
 				 The Campus is situated close to the beautiful tourist resort of Jhajjar - Kotli.
-			
-				<ul><li>Option 1:  Catch Taxi Directly from Ralway Station / Bus Stand / Airport directly to University Campus (Distance approximately 45 Kms.)</li>
-				<li>Option 2:  Board bus from Jammu Bus Stand/Railyway Station  plying to Udhampur/Katra but alight at Domel (Approx. 39 Kms.).  Board Mini Bus fom Domel to University (Approx. 6 Kms.)</li>
-				
-			</div>
-
-				<div style="width:700px;height:350px; position:relative; margin: 25px auto; ">
+				<ul>
+					<li>Option 1:  Catch Taxi Directly from Ralway Station / Bus Stand / Airport directly to University Campus (Distance approximately 45 Kms.)</li>
+					<li>Option 2:  Board bus from Jammu Bus Stand/Railyway Station  plying to Udhampur/Katra but alight at Domel (Approx. 39 Kms.).  Board Mini Bus fom Domel to University (Approx. 6 Kms.)</li>
+				</ul>	
+				<div style="width:700px;height:350px; position:relative; margin: 40px auto; ">
 					<iframe width="625" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.in/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Shri+Mata+Vaishno+Devi+University,+Reasi&amp;aq=0&amp;oq=smvdu&amp;sll=20.983588,82.752628&amp;sspn=47.832907,82.265625&amp;ie=UTF8&amp;hq=Shri+Mata+Vaishno+Devi+University,+Reasi&amp;t=m&amp;ll=32.941232,74.953666&amp;spn=0.012606,0.026822&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://maps.google.co.in/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Shri+Mata+Vaishno+Devi+University,+Reasi&amp;aq=0&amp;oq=smvdu&amp;sll=20.983588,82.752628&amp;sspn=47.832907,82.265625&amp;ie=UTF8&amp;hq=Shri+Mata+Vaishno+Devi+University,+Reasi&amp;t=m&amp;ll=32.941232,74.953666&amp;spn=0.012606,0.026822&amp;z=15&amp;iwloc=A" style="color:#0000FF;text-align:left">View Larger Map</a></small>
 				</div>	
 
