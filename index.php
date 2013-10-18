@@ -1956,6 +1956,7 @@
 											
 											<strong>Maps : </strong>
 													<p>DE - DUST2 | DE_INFERNO | DE_NUKE | DE_TRAIN</p>
+											<span style="color: rgb(103, 255, 121); font-weight:bold;">"CASH PRIZE FOR THE WINNER "</span>
 											<p>Note : Submit your team early to Game Cord on or before 23rd Oct. Hurry UP!</p>
 											<ul>
 												<li><strong>Event co-ordinator: </strong>Arshit mahajan | Rahul sharma | Rohit bhatt| Mayur kumar |	Anshuman | Akash</li>
