@@ -969,14 +969,16 @@
 										<h3>CLUEDO</h3>
 										<div>
 											<p>This  event  is  like  a  clue  finding  event,  the  participants  are  to  be
-												divided  in  group  of  two.  Each  group  will  be  provided  with  a  clue  the
-												participants  have  to  go  to  the  place  indicated  by  the  clue,  where  they
-												will  be  provided  with  a question paper and clue for the next place. The
-												participants  have  to  submit  the  solved  paper  to  organizers  present  at
-												that  place.  Each  group has to solve such 5 question paper consisting of
-												10  questions  in  limited  time  period  the  groups  will  be  evaluated  on
-												basis of marks and time taken by them to complete the questions.</p>
-											<br><br>
+												divided  in  group  of  two. The participants  have  to  submit  the  solved  paper  to  organizers  present  at
+												that  place. </p>
+											<ul>
+												Rules :
+													<li>1.The participants assemble and draw a chit containing the clue (the clue is a place where the participants have to report ).</li>
+													<li>2.the participants have to report to the place indicated in the clue ,where they should solve problems (problems can be technical ,logical ,mathematical or based on general knowledge).</li>
+													<li>3. on submitting the solved paper the participants will get a clue for their next location .The participants have to solve FIVE such problem sheets at different locations .</li>
+													<li>4.the participants shall be evaluated on the basis of their marks scored and time taken to solve the paper.</li>
+											</ul>
+											<br>
 											<ul>
 												<li><strong>Event Co-ordinator : </strong>Vivek Mishra</li>
 												<li><strong>Contact :</strong> +91-9018-876131</li>
