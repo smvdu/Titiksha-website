@@ -375,11 +375,11 @@
 											<p>There  is  a  complete  matrix  of  Robotic  events,  each  one
 												focusing on introducing a particular trait into the robot.</p>
 											<ul>
-												<li>1. Robot Adventure</li>
+												<li>1. Robot Adventure <a href="https://www.facebook.com/ajax/messaging/attachment.php?attach_id=8c8989b2fba504f34b09db3f199cd64d&mid=mid.1382120323120%3Aa8468d7b77199b8b94&hash=AQDhUpRBWFWF_1Sl" target="_blank" style="text-decoration: underline;"> : click here for Rules</a></li>
 												<li>2. Robot Basketball</li>
-												<li>3. Robot Race</li>
+												<li>3. Robot Race <a href="https://www.facebook.com/ajax/messaging/attachment.php?attach_id=8c8989b2fba504f34b09db3f199cd64d&mid=mid.1382120323120%3Aa8468d7b77199b8b94&hash=AQDhUpRBWFWF_1Sl" target="_blank" style="text-decoration: underline;"> : click here for Rules</a></li>
 												<li>4. Robo SANGRAM. <a href="https://docs.google.com/file/d/0B_vScjUjXFe7ajFhR0Q3cjhpQms/edit?usp=sharing" target="_blank" style="text-decoration:underline;"> : Click here for Rules</a></li>
-												<li>5. SWACHALIT ROBO </li>
+												<li>5. SWACHALIT ROBO <a href="https://docs.google.com/file/d/0B_vScjUjXFe7ZDNEcnoxYXBQZVk/edit?usp=sharing" target="_blank" style="text-decoration:underline;">: Click here for Rules </a> </li>
 												<li>6. Robot Soccer</li>
 											</ul>
 												<p>The  robot  winning  in  max  categories  of  Robo­matrix  will  be  awarded
@@ -1052,6 +1052,8 @@
 												and  if  the  idea  wins  any  prizes  at  the  BAJA  SAE  2014,  the
 												person  will  be  given  10%  of  the  prize  money.  (which  will
 												amount to no less than <strong>15,000 INR </strong>).</p>
+											<p><a style="text-decoration: underline;" target="_blank" href="https://docs.google.com/file/d/0B_vScjUjXFe7ZXBiQ05tX2tHaUU/edit?usp=sharing">
+													 Click here for more</a></p>
 											<br><br>
 											<ul>
 												<li><strong>Event Co-ordinator : </strong>Anand</li>
@@ -1986,7 +1988,7 @@
 											<br><br>
 											<ul>
 												<li><strong>Event co-ordinator: </strong>Amrendra Pratap (Boys) | Kritika Sangra(Girls) </li>
-												<li><strong>Contact: </strong>3rd Yr CSE | 3rd Yr ECE</li>
+												<li><strong>Contact: </strong>+91-8716-041023 | 3rd Yr ECE</li>
 											</ul>
 											
 										</div>
