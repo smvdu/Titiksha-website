@@ -378,8 +378,8 @@
 												<li>1. Robot Adventure</li>
 												<li>2. Robot Basketball</li>
 												<li>3. Robot Race</li>
-												<li>4. Robot-Arena/war</li>
-												<li>5. Line-Follower Robot</li>
+												<li>4. Robo SANGRAM. <a href="https://docs.google.com/file/d/0B_vScjUjXFe7ajFhR0Q3cjhpQms/edit?usp=sharing" target="_blank" style="text-decoration:underline;"> : Click here for Rules</a></li>
+												<li>5. SWACHALIT ROBO </li>
 												<li>6. Robot Soccer</li>
 											</ul>
 												<p>The  robot  winning  in  max  categories  of  Robo­matrix  will  be  awarded
@@ -388,8 +388,8 @@
 
 
 											<ul>
-												<li><strong>Event Co-ordinator :</strong> Vipin Tripathi</li>
-												<li><strong>Contact :</strong> +91-9086-252113</li>
+												<li><strong>Event Co-ordinator :</strong> Vipin Tripathi | Anand Kumar</li>
+												<li><strong>Contact :</strong> +91-9086-252113 | </li>
 											</ul>
 
 											
@@ -1011,6 +1011,7 @@
 												<li>3) Employment Generative.</li>
 												<li>4) Environment Friendliness.</li>
 											</ul>
+											<p><a href="https://docs.google.com/file/d/0B_vScjUjXFe7a0pDQnpkOWpOYm8/edit?usp=sharing"  style="text-decoration: underline;" target="_blank"> click here for more.</a></p>
 											<br><br>
 											<ul>
 												<li><strong>Event Co-ordinator : </strong>Rajesh Baranwal</li>
