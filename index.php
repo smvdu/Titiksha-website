@@ -969,14 +969,16 @@
 										<h3>CLUEDO</h3>
 										<div>
 											<p>This  event  is  like  a  clue  finding  event,  the  participants  are  to  be
-												divided  in  group  of  two.  Each  group  will  be  provided  with  a  clue  the
-												participants  have  to  go  to  the  place  indicated  by  the  clue,  where  they
-												will  be  provided  with  a question paper and clue for the next place. The
-												participants  have  to  submit  the  solved  paper  to  organizers  present  at
-												that  place.  Each  group has to solve such 5 question paper consisting of
-												10  questions  in  limited  time  period  the  groups  will  be  evaluated  on
-												basis of marks and time taken by them to complete the questions.</p>
-											<br><br>
+												divided  in  group  of  two. The participants  have  to  submit  the  solved  paper  to  organizers  present  at
+												that  place. </p>
+											<ul>
+												Rules :
+													<li>1.The participants assemble and draw a chit containing the clue (the clue is a place where the participants have to report ).</li>
+													<li>2.the participants have to report to the place indicated in the clue ,where they should solve problems (problems can be technical ,logical ,mathematical or based on general knowledge).</li>
+													<li>3. on submitting the solved paper the participants will get a clue for their next location .The participants have to solve FIVE such problem sheets at different locations .</li>
+													<li>4.the participants shall be evaluated on the basis of their marks scored and time taken to solve the paper.</li>
+											</ul>
+											<br>
 											<ul>
 												<li><strong>Event Co-ordinator : </strong>Vivek Mishra</li>
 												<li><strong>Contact :</strong> +91-9018-876131</li>
@@ -3170,15 +3172,13 @@ $sponsors = array(
 				<div id="reach_info">Shri Mata Vaishno Devi University is situated 40 Km North of Jammu in the scenic surroundings of  Trikuta foothills,
 				 near the holy town of Katra in District -Reasi.
 				 The Campus is situated close to the beautiful tourist resort of Jhajjar - Kotli.
-			
 				<ul>
 					<li>Option 1:  Catch Taxi Directly from Ralway Station / Bus Stand / Airport directly to University Campus (Distance approximately 45 Kms.)</li>
 					<li>Option 2:  Board bus from Jammu Bus Stand/Railyway Station  plying to Udhampur/Katra but alight at Domel (Approx. 39 Kms.).  Board Mini Bus fom Domel to University (Approx. 6 Kms.)</li>
 				</ul>	
 				<div style="width:700px;height:350px; position:relative; margin: 40px auto; ">
 					<iframe width="625" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.in/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Shri+Mata+Vaishno+Devi+University,+Reasi&amp;aq=0&amp;oq=smvdu&amp;sll=20.983588,82.752628&amp;sspn=47.832907,82.265625&amp;ie=UTF8&amp;hq=Shri+Mata+Vaishno+Devi+University,+Reasi&amp;t=m&amp;ll=32.941232,74.953666&amp;spn=0.012606,0.026822&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://maps.google.co.in/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Shri+Mata+Vaishno+Devi+University,+Reasi&amp;aq=0&amp;oq=smvdu&amp;sll=20.983588,82.752628&amp;sspn=47.832907,82.265625&amp;ie=UTF8&amp;hq=Shri+Mata+Vaishno+Devi+University,+Reasi&amp;t=m&amp;ll=32.941232,74.953666&amp;spn=0.012606,0.026822&amp;z=15&amp;iwloc=A" style="color:#0000FF;text-align:left">View Larger Map</a></small>
-				</div>
-			</div>	
+				</div>	
 
 			<footer>
 				<div id="copyright">&copy Titiksha, SMVDU</div>
