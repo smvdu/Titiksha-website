@@ -3473,6 +3473,9 @@ input.sp-selector-32:checked ~ .sp-content .sp-slider > li:nth-child(32)
 
 #container_reach{
     height: 125%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url("../img/gallery/32.jpg")
    
 }
 
@@ -3480,7 +3483,7 @@ input.sp-selector-32:checked ~ .sp-content .sp-slider > li:nth-child(32)
      margin: 0px;
     height: 100%;
     position: relative;
-     background-color: #000;
+     background-color: rgba(0, 0, 0, 0.83);
 }
 
 #reach_info{

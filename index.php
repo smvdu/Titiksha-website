@@ -2627,7 +2627,7 @@ $sponsors = array(
 		<?php }?>
 		<!-- PAGE OF COORDITORS AND CELL COMMITEE -->
 
-<section class="page" id="container_coord" data-slide="7">
+<section class="page" id="container_coord" data-slide="7" data-stellar-background-ratio="0.3">
 	<div id="coord">
 		<div id="co_head">Co-Ordinators</div>
 		<div id="co_table">
@@ -3212,7 +3212,7 @@ $sponsors = array(
 			</div>
 		</section><!-- /container -->	
 
-		<section class="page" id="container_reach" data-slide="9">
+		<section class="page" id="container_reach" data-slide="9" data-stellar-background-ratio="0.5" data-stellar-vertical-offset="-7250">
 			<div id="map_smvdu">
 				<br>
 				<h3 style="margin: 0px; text-align: center; color: #ccc;">How To Reach</h3><br>			
