@@ -375,9 +375,9 @@
 											<p>There  is  a  complete  matrix  of  Robotic  events,  each  one
 												focusing on introducing a particular trait into the robot.</p>
 											<ul>
-												<li>1. Robot Adventure <a href="https://www.facebook.com/ajax/messaging/attachment.php?attach_id=8c8989b2fba504f34b09db3f199cd64d&mid=mid.1382120323120%3Aa8468d7b77199b8b94&hash=AQDhUpRBWFWF_1Sl" target="_blank" style="text-decoration: underline;"> : click here for Rules</a></li>
+												<li>1. Robot Adventure <a href="https://www.facebook.com/ajax/messaging/attachment.php?attach_id=8c8989b2fba504f34b09db3f199cd64d&mid=mid.1382120323120%3Aa8468d7b77199b8b94&hash=AQDhUpRBWFWF_1Sl" target="_blank" style="text-decoration: underline;"> : click here for Rules.</a></li>
 												<li>2. Robot Basketball</li>
-												<li>3. Robot Race <a href="https://www.facebook.com/ajax/messaging/attachment.php?attach_id=8c8989b2fba504f34b09db3f199cd64d&mid=mid.1382120323120%3Aa8468d7b77199b8b94&hash=AQDhUpRBWFWF_1Sl" target="_blank" style="text-decoration: underline;"> : click here for Rules</a></li>
+												<li>3. Robot Race <a href="https://www.facebook.com/ajax/messaging/attachment.php?attach_id=8c8989b2fba504f34b09db3f199cd64d&mid=mid.1382120323120%3Aa8468d7b77199b8b94&hash=AQDhUpRBWFWF_1Sl" target="_blank" style="text-decoration: underline;"> : click here for Rules.</a></li>
 												<li>4. Robo SANGRAM. <a href="https://docs.google.com/file/d/0B_vScjUjXFe7ajFhR0Q3cjhpQms/edit?usp=sharing" target="_blank" style="text-decoration:underline;"> : Click here for Rules</a></li>
 												<li>5. SWACHALIT ROBO <a href="https://docs.google.com/file/d/0B_vScjUjXFe7ZDNEcnoxYXBQZVk/edit?usp=sharing" target="_blank" style="text-decoration:underline;">: Click here for Rules </a> </li>
 												<li>6. Robot Soccer</li>
@@ -1417,7 +1417,7 @@
 											<br><br>
 											<ul>
 
-												<li><strong>Event Co-ordinator : </strong>Anuksha amla | Sravya amachariya</li>
+												<li><strong>Event Co-ordinator : </strong>Anuksha amla |  Sravya Amancherla</li>
 												<li><strong>Contact :</strong> +91-9797-517532 | +91-9797-520573</li>
 
 											</ul>
@@ -1985,7 +1985,7 @@
 										<h3>Nfs - "Most Wanted"</h3>
 										<div>
 											<img  src="img/nfs.jpg">
-
+											<p><a href="https://www.facebook.com/photo.php?fbid=527108154049704&set=a.121600817933775.25810.100002515736257&type=1&theater" style="text-decoration: underline;"  target="_blank">More Info</a></p>
 											<br><br>
 											<ul>
 												<li><strong>Event co-ordinator: </strong>Amrendra Pratap (Boys) | Kritika Sangra(Girls) </li>
@@ -3157,7 +3157,7 @@ $sponsors = array(
 
 				<div class="assym_black" id="cont8">
 					<div id="discipline">
-						<h4>Publication Relations </h4>
+						<h4>Public Relations </h4>
 
 						<p class="name">Megha Sharma</p>
 						<p class="tel">+91-9086-118089</p>
