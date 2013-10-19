@@ -1985,7 +1985,7 @@
 										<h3>Nfs - "Most Wanted"</h3>
 										<div>
 											<img  src="img/nfs.jpg">
-
+											<p><a href="https://www.facebook.com/photo.php?fbid=527108154049704&set=a.121600817933775.25810.100002515736257&type=1&theater" style="text-decoration: underline;"  target="_blank">More Info</a></p>
 											<br><br>
 											<ul>
 												<li><strong>Event co-ordinator: </strong>Amrendra Pratap (Boys) | Kritika Sangra(Girls) </li>
