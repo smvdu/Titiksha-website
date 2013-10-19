@@ -3483,7 +3483,7 @@ input.sp-selector-32:checked ~ .sp-content .sp-slider > li:nth-child(32)
      margin: 0px;
     height: 100%;
     position: relative;
-     background-color: rgba(0, 0, 0, 0.83);
+     background-color: rgba(0,0 ,0, 0.80);
 }
 
 #reach_info{
@@ -3861,8 +3861,8 @@ input.sp-selector-32:checked ~ .sp-content .sp-slider > li:nth-child(32)
 
 #reg-part{
     width: 50%;
-    height: 4000px;
-    position: absolute;
+    height: 100%;
+    float: left;
 }
 #reg-head{
     padding: 15px;
@@ -3963,6 +3963,7 @@ input[name="gender"]{
 }
 
 #mid-part{
+    border: 1.5px solid rgb(255, 255, 255);
     position: absolute;
     height: 420px;
     top: 0px;
@@ -3982,10 +3983,9 @@ input[name="gender"]{
 
 
 #login-part{
+    float: left;
     width: 50%;
-    height: 4000px;
-    position: absolute;
-    right: 0;
+    height: 100%;
 }
 
 #login-box{
@@ -4068,8 +4068,6 @@ input[name="gender"]{
     color: #D5D5D5;
     padding: 15px;
     height: 40%;
-    top: 100px;
-    position: relative;
 }
 
 #query-content{
@@ -4273,12 +4271,10 @@ span#update-number{
 #spon_head{
     font-family: "Ubuntu-L";
     text-align: center;
-    margin-top: 3%;
-    position: absolute;
+    margin-top: 3%;    
     font-size: 4vw;
     font-weight: bold;
-    width: 100%;
-    height: 3000px;
+    width: 100%;    
 
 }
 
@@ -4288,8 +4284,7 @@ span#update-number{
     position: absolute;
     top: 20%;
     left: 3%;
-    height: 3000px;
-    width: 300px;
+    
 
 }
 #spon_brochure > a{

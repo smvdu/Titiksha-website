@@ -2324,8 +2324,8 @@
 		<!-- sponsers page === -->
 		
 		<section class="page" id="container_sponser" data-slide="5" >
-			<div id="sponsor_page">
-				<div id="spon_head" data-stellar-ratio="0.8" data-stellar-vertical-offset="-2600">
+			<div id="sponsor_page" data-stellar-background-ratio='0.5'>
+				<div>
 					<span>Our Previous Sponsors</span>
 				</div>				
 
@@ -2349,7 +2349,7 @@ $sponsors = array(
 );
 
 ?>
-					<div class="sponsorListHolder" data-stellar-ratio="1.4" data-stellar-horizontal-offset="-960" data-stellar-vertical-offset="-3000">
+					<div class="sponsorListHolder" >
 
 						
 				        <?php
@@ -2377,7 +2377,7 @@ $sponsors = array(
 				       
 				    </div>				   
 
-				    <div id="spon_brochure" data-stellar-ratio="1.8" data-stellar-horizontal-offset="-60" data-stellar-vertical-offset="-2800">
+				    <div id="spon_brochure" >
 				    	<a style="color: #C6DAD6; text-decoration : underline;" target="_blank" href="https://docs.google.com/file/d/0B5u8hNVpPKnhSDRGRmZCX1VpcVE/edit?usp=sharing" >Sponsorship Brochure </a>
 				    	<div id="spon_query" >
 				    		<p>For Sponshorship Queries Contact :</p>
@@ -2400,15 +2400,15 @@ $sponsors = array(
 		?>
 		<!-- REGITRATION PAGE -->
 
-		<section class="page" id="register" data-slide="6">
-			<div class="register-form">
+		<section class="page" id="register" data-slide="6" >
+			<div class="register-form" data-stellar-background-ratio="0.5">
 				<div class="msg-Box" style="display:none;">
 					<div class="msg-close">X</div>
 					<div class="msg-content"></div>
 				</div>
 				<div class="md-overlay"></div><!-- the overlay element -->
 
-				<div id="reg-part" data-stellar-ratio="0.5" data-stellar-horizontal-offset="0" data-stellar-vertical-offset="-3250">
+				<div id="reg-part" >
 					<div id="reg-head">
 						<span>JOIN TITIKSHA</span>
 					</div>
@@ -2508,7 +2508,7 @@ $sponsors = array(
 					
 				</div>
 
-				<div id="login-part" data-stellar-ratio="2" data-stellar-horizontal-offset="-650" data-stellar-vertical-offset="-3290">
+				<div id="login-part" >
 					<div id="login-box">
 						<div id="login-head">
 							<span>LOGIN</span> 
