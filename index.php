@@ -342,12 +342,8 @@
 											  Social , Political and Technical Issues.
 											</p>
 											<p><em>ROUND 2</em> :­On the basis of form filling , students will be selected for second 
-											and final round. In which they  will have to debate on topics assigned to them.
-											There will be two students assigned for one topic , one as ‘for’ side and other ‘against’ side.
-											The language of debate could be either “English” or “Hindi” .  but  both ‘for’ and ‘against’
-											 participant will have to use same language.</p>
-											 <p>The topic  of debate will be published one week prior to event.</p>
-											 <a href="http://sample.avfconsultancy.org/" target="_blank">Please follow this for more Details.</a>
+											and final round. On which they wiil have to give presentation on the topics assigned to them a day before Tech-fest.</p>
+											 <br><a href="http://sample.avfconsultancy.org/" target="_blank">Please follow this for more Details.</a>
 											<br><br>
 											<ul>
 												<li><strong>Event Co-ordinator :</strong> Shubham Tiwari | Aditya Ranjan | Rajesh Pathak</li>
@@ -504,6 +500,53 @@
 											<ul>
 												<li><strong>Event Co-ordinator :</strong> Daud Shareef | Navin Ray | Ashwani Yadav | Anup Chaudhary </li>
 												<li><strong>Contact :</strong>+91-9697-679928 | +91-9086-251103</li>
+												
+											</ul>
+
+											
+										</div>
+									</div>
+								</div>
+								<div class="md-overlay"></div><!-- the overlay element -->
+							</div><!-- / uc-container -->
+
+							<div class="uc-container">
+								<div class="md-trigger" data-modal="modal-65">
+									<span class="icon-eye"><em>CHACHA CHOUDHARY</em></span>
+									<p>Want to be the CHACHA CHOUDHARY of SMVDU???</p>
+									<p></p>
+								</div>
+								<div class="md-modal md-effect-11" id="modal-65">
+									<div class="md-content">
+										<div class="md-header">
+											<button class="md-register register" data-branch="1" data-event="16">Register</button>
+											<button class="md-close close">Close!</button>
+										</div>
+										<h3>CHACHA CHOUDHARY</h3>
+										<div>
+											<p>Want to be the CHACHA CHOUDHARY of SMVDU???
+												Here is your chance. All you need to have is a logical mind to
+												decode the puzzles and knowledge about the present and past affairs
+											    of the university. The competition is all about how fast you are and
+											     where your knowledge can take you. </p>
+											<ul>
+												<li><strong>ROUND: 1</strong> - A brief test of logical, technical, analytical and   
+												knowledge of university related questions. After evaluation, participants 
+												with maximum correct answers will proceed to the next round.</li>
+												
+												<li><strong>ROUND: 2</strong> - Winners of the first round will get shuffled in 
+												teams(max 3 members). One of the team members will be asked to select slips from
+												 drop-box from where they will get clues and the hunt for CHACHA CHOUDHARY begins.
+												  Team solving maximum clues in minimum time wins.</li>
+											</ul>
+											<p><strong>Time : </strong> Round 1 : 15min | Round 2 : 45min</p>
+											<p>Winner gets the title of CHACHA CHOUDHARY.
+											<br>TIP: “I think like a DETECTIVE”</p>
+											<br><br>
+
+											<ul>
+												<li><strong>Event Co-ordinator :</strong>Kanav Mahajan | Bhanu Dobriyal | Rahul Sharma </li>
+												<li><strong>Contact :</strong>+91-9796-805039 | +91-9697-680675 | +91-7298-327221</li>
 												
 											</ul>
 
