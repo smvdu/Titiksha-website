@@ -2325,7 +2325,7 @@
 		
 		<section class="page" id="container_sponser" data-slide="5" >
 			<div id="sponsor_page" data-stellar-background-ratio='0.5'>
-				<div>
+				<div id="spon_head">
 					<span>Our Previous Sponsors</span>
 				</div>				
 
