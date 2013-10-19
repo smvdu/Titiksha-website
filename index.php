@@ -916,7 +916,7 @@
 												<br><br>
 											<ul>
 												<li><strong>Event Co-ordinator : </strong>Saddam Zoya</li>
-												<!-- <li><strong>Contact :</strong> +91-9086-118374</li> -->
+												<li><strong>Contact :</strong> +91-9086-118161</li>
 											</ul>
 											
 										</div>
@@ -947,7 +947,7 @@
 											<br><br>
 											<ul>
 												<li><strong>Event Co-ordinator : </strong>Manish Paliwal</li>
-												<!-- <li><strong>Contact :</strong> +91-</li> -->
+												<li><strong>Contact :</strong> +91-9086-185529</li>
 											</ul>
 											
 										</div>
