@@ -1417,7 +1417,7 @@
 											<br><br>
 											<ul>
 
-												<li><strong>Event Co-ordinator : </strong>Anuksha amla | Sravya amachariya</li>
+												<li><strong>Event Co-ordinator : </strong>Anuksha amla |  Sravya Amancherla</li>
 												<li><strong>Contact :</strong> +91-9797-517532 | +91-9797-520573</li>
 
 											</ul>
@@ -3156,7 +3156,7 @@ $sponsors = array(
 
 				<div class="assym_black" id="cont8">
 					<div id="discipline">
-						<h4>Publication Relations </h4>
+						<h4>Public Relations </h4>
 
 						<p class="name">Megha Sharma</p>
 						<p class="tel">+91-9086-118089</p>
