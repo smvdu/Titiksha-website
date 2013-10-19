@@ -375,9 +375,9 @@
 											<p>There  is  a  complete  matrix  of  Robotic  events,  each  one
 												focusing on introducing a particular trait into the robot.</p>
 											<ul>
-												<li>1. Robot Adventure <a href="https://www.facebook.com/ajax/messaging/attachment.php?attach_id=8c8989b2fba504f34b09db3f199cd64d&mid=mid.1382120323120%3Aa8468d7b77199b8b94&hash=AQDhUpRBWFWF_1Sl" target="_blank" style="text-decoration: underline;"> : click here for Rules</a></li>
+												<li>1. Robot Adventure <a href="https://www.facebook.com/ajax/messaging/attachment.php?attach_id=8c8989b2fba504f34b09db3f199cd64d&mid=mid.1382120323120%3Aa8468d7b77199b8b94&hash=AQDhUpRBWFWF_1Sl" target="_blank" style="text-decoration: underline;"> : click here for Rules.</a></li>
 												<li>2. Robot Basketball</li>
-												<li>3. Robot Race <a href="https://www.facebook.com/ajax/messaging/attachment.php?attach_id=8c8989b2fba504f34b09db3f199cd64d&mid=mid.1382120323120%3Aa8468d7b77199b8b94&hash=AQDhUpRBWFWF_1Sl" target="_blank" style="text-decoration: underline;"> : click here for Rules</a></li>
+												<li>3. Robot Race <a href="https://www.facebook.com/ajax/messaging/attachment.php?attach_id=8c8989b2fba504f34b09db3f199cd64d&mid=mid.1382120323120%3Aa8468d7b77199b8b94&hash=AQDhUpRBWFWF_1Sl" target="_blank" style="text-decoration: underline;"> : click here for Rules.</a></li>
 												<li>4. Robo SANGRAM. <a href="https://docs.google.com/file/d/0B_vScjUjXFe7ajFhR0Q3cjhpQms/edit?usp=sharing" target="_blank" style="text-decoration:underline;"> : Click here for Rules</a></li>
 												<li>5. SWACHALIT ROBO <a href="https://docs.google.com/file/d/0B_vScjUjXFe7ZDNEcnoxYXBQZVk/edit?usp=sharing" target="_blank" style="text-decoration:underline;">: Click here for Rules </a> </li>
 												<li>6. Robot Soccer</li>
