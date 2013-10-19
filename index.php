@@ -308,7 +308,7 @@
 		<section class="page" id="contain_event" data-slide="3">
 			<div id="event-message" style="display:none"></div>
 			<div id="event">
-				<div class="branch" id="mega">
+				<div class="branch" id="mega" >
 					<div class="event_heading">
 						<span class="heading_text">MEGA Events</span>
 						<div class="event_close" style="display:none">X</div>
@@ -1949,7 +1949,7 @@
 											<button class="md-register register" data-branch="7" data-event="72">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
-										<h3>"Counter - Striker"</h3>
+										<h3>"Counter - Strike"</h3>
 										<div>
 											<img  src="img/cs.jpg">
 											<ul>
@@ -2365,7 +2365,7 @@ $sponsors = array(
 				</div>
 				<div class="md-overlay"></div><!-- the overlay element -->
 
-				<div id="reg-part">
+				<div id="reg-part" data-stellar-ratio="0.5" data-stellar-horizontal-offset="0" data-stellar-vertical-offset="-3250">
 					<div id="reg-head">
 						<span>JOIN TITIKSHA</span>
 					</div>
@@ -2465,7 +2465,7 @@ $sponsors = array(
 					
 				</div>
 
-				<div id="login-part">
+				<div id="login-part" data-stellar-ratio="2" data-stellar-horizontal-offset="-650" data-stellar-vertical-offset="-3290">
 					<div id="login-box">
 						<div id="login-head">
 							<span>LOGIN</span> 
@@ -2496,15 +2496,17 @@ $sponsors = array(
 							<button id="login-button" for="submit">Log In</button>
 						</div>	
 
-					</div>
-					<div id="contact-box">
-						<div id="query-content">
-							<span id="query-head">For any queries, Contact</span>
-							<h4>Megha Sharma</h4>
-							<p>+91-9086-118089</p>
-							<p>meghas19@yahoo.co.in</p><br>
+						<div id="contact-box">
+							<div id="query-content">
+								<span id="query-head">For any queries, Contact</span>
+								<h4>Megha Sharma</h4>
+								<p>+91-9086-118089</p>
+								<p>meghas19@yahoo.co.in</p><br>
+							</div>
 						</div>
+
 					</div>
+					
 				</div>
 		    </div>			
 		</section>
@@ -3303,7 +3305,7 @@ $sponsors = array(
 					$(".page").fadeIn(1200, function(){
 						$("#container").remove();
 						$("#main_nav").fadeIn();
-						$.waypoints('refresh');
+						$.waypoints('refresh');						
 					});
 
 				});
