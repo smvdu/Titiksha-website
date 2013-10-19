@@ -2323,9 +2323,9 @@
 		
 		<!-- sponsers page === -->
 		
-		<section class="page" id="container_sponser" data-slide="5">
+		<section class="page" id="container_sponser" data-slide="5" >
 			<div id="sponsor_page">
-				<div id="spon_head">
+				<div id="spon_head" data-stellar-ratio="0.8" data-stellar-vertical-offset="-2600">
 					<span>Our Previous Sponsors</span>
 				</div>				
 
@@ -2349,7 +2349,7 @@ $sponsors = array(
 );
 
 ?>
-					<div class="sponsorListHolder" >
+					<div class="sponsorListHolder" data-stellar-ratio="1.4" data-stellar-horizontal-offset="-960" data-stellar-vertical-offset="-3000">
 
 						
 				        <?php
@@ -2377,7 +2377,7 @@ $sponsors = array(
 				       
 				    </div>				   
 
-				    <div id="spon_brochure"  >
+				    <div id="spon_brochure" data-stellar-ratio="1.8" data-stellar-horizontal-offset="-60" data-stellar-vertical-offset="-2800">
 				    	<a style="color: #C6DAD6; text-decoration : underline;" target="_blank" href="https://docs.google.com/file/d/0B5u8hNVpPKnhSDRGRmZCX1VpcVE/edit?usp=sharing" >Sponsorship Brochure </a>
 				    	<div id="spon_query" >
 				    		<p>For Sponshorship Queries Contact :</p>
