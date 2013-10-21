@@ -308,7 +308,7 @@
 		<section class="page" id="contain_event" data-slide="3">
 			<div id="event-message" style="display:none"></div>
 			<div id="event">
-				<div class="branch" id="mega">
+				<div class="branch" id="mega" >
 					<div class="event_heading">
 						<span class="heading_text">MEGA Events</span>
 						<div class="event_close" style="display:none">X</div>
@@ -346,6 +346,7 @@
 											 <br><a href="http://sample.avfconsultancy.org/" target="_blank">Please follow this for more Details.</a>
 											<br><br>
 											<ul>
+												<li><strong>Schedule : </strong>26th Oct - Round 1 : 9-10am  | 27th Oct - Round 2 : 2-4pm</li>
 												<li><strong>Event Co-ordinator :</strong> Shubham Tiwari | Aditya Ranjan | Rajesh Pathak</li>
 												<li><strong>Contact :</strong> +91-9796-289195 | +91-9796-824820 | +91-9086-252184</li>
 											</ul>
@@ -426,6 +427,7 @@
 												the valedictory ceremony in auditorium.</p>
 
 											<ul>
+												<li><strong>Schedule : </strong>26 Oct - 10:00 am to 1:00 pm | Venue : Lecture hall C/D </li>
 												<li><strong>Event Co-ordinator :</strong> Ashish Singh | Pawan Kumar | Chandan Jha </li>
 												<li><strong>Contact :</strong>+91-9596-997294 | +91-9596-915301 | +91-9086-728974</li>
 											</ul>
@@ -462,6 +464,7 @@
 											<br>
 
 											<ul>
+												<li><strong>Schedule : </strong>26 Oct - 2-5 pm | Venue : Room C-105 / C-110 </li>
 												<li><strong>Event Co-ordinator :</strong>Panchdev Parihar | Chandan jha |  Pawan kumar </li>
 												<li><strong>Contact :</strong> +91-9797-666960  | +91-9086-728974</li>
 											</ul>
@@ -895,8 +898,8 @@
 											<br><br>
 											<ul>
 												<li><strong>Schedule : </strong>26 Oct - 11:15am-12:45pm</li>
-												<li><strong>Event Co-ordinator : </strong>Sanjeev</li>
-												<li><strong>Contact :</strong> +91-8716-058339</li>
+												<li><strong>Event Co-ordinator : </strong>Sanjeev Shukla | Vinay Kumar Singh </li>
+												<li><strong>Contact :</strong> +91-8716-058339 | 9622-796834</li>
 											</ul>
 											
 										</div>
@@ -906,8 +909,8 @@
 							</div><!-- / uc-container -->
 							<div class="uc-container">
 								<div class="md-trigger" data-modal="modal-14">
-									<span class="icon-eye"> <em>CONCLAVE</em></span>
-									<p>Share Your ideas on Topics related to Mechnical Engineering</p>
+									<span class="icon-eye"> <em>Kit-Cad</em></span>
+									<p>Muscle up your CAD skill</p>
 								</div>
 								<div class="md-modal md-effect-11" id="modal-14">
 									<div class="md-content">
@@ -915,27 +918,16 @@
 											<button class="md-register register" data-branch="3" data-event="32">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
-										<h3> CONCLAVE</h3>
+										<h3>  Kit-Cad</h3>
 										<div>
-											<p>If  your  mind  could  be  a  cupola  of new ideas and thoughts, then we are
-												providing  you  a  platform  to  express  your  views  on  different  topics
-												related  to  mechanical  engineering.  Your  idea  can  do  technical  reforms
-												which  can  make  this  world  a  better  place  to  live  in.  so  pump  in  your
-												adrenaline,  get ready to “ROAR” and let the whole world see the might
-												of your ideas.</p>
-											<ul>
-												<li>Round  1 :  Abstract  Submission.  The  abstract  could  be  submitted either in .pdf  or .doc format.</li>
-												<li>Round  2­ : Presentation  Round:  The  selected  candidates  have  to  give
-												Power­point  presentation.  They  should  also  bring  with  them  a  hard
-												copy  for  explaining  their  presentation  consisting  of  maximum  15
-												pages including various data, diagram etc.</li>
-											</ul>
+											<p>If you think you are good at CAD then come on and muscle it up with
+											 others who believe the same.</p>
 											
 											<br><br>
 											<ul>
 												<li><strong>Schedule : </strong>27th Oct : 10:00am-12:00pm</li>
-												<li><strong>Event Co-ordinator : </strong>Vikas Singla</li>
-												<li><strong>Contact :</strong> +91-9086-118374</li>
+												<li><strong>Event Co-ordinator : </strong>Vikas Singla | Radheshyam Mishra | Ashish Kumar Gupta | Varun Singh</li>
+												<li><strong>Contact :</strong> +91-9086-118374 | 9697-569763 | 9697-569770</li>
 											</ul>
 											
 										</div>
@@ -973,7 +965,7 @@
 												<br><br>
 											<ul>
 												<li><strong>Schedule : </strong>26th Oct :  11:00am-1:30pm</li>
-												<li><strong>Event Co-ordinator : </strong>Saddam Zoya</li>
+												<li><strong>Event Co-ordinator : </strong>Saddam Zoya | Vikas Singla</li>
 												<li><strong>Contact :</strong> +91-9086-118161</li>
 											</ul>
 											
@@ -1005,8 +997,8 @@
 											<br><br>
 											<ul>
 												<li><strong>Schedule : </strong>26th Oct :  2:30pm-4:30pm</li>
-												<li><strong>Event Co-ordinator : </strong>Manish Paliwal</li>
-												<li><strong>Contact :</strong> +91-9086-185529</li>
+												<li><strong>Event Co-ordinator : </strong>Sanjeev Shukla | Abhishek Kumar Shukla | Gaurav Shukla</li>
+												<li><strong>Contact :</strong> +91-87160-58339 | 9086-261332 | 9622-335892</li>
 											</ul>
 											
 										</div>
@@ -1040,8 +1032,8 @@
 											<br>
 											<ul>
 												<li><strong>Schedule : </strong>26th Oct : 5:00pm-8:00pm</li>
-												<li><strong>Event Co-ordinator : </strong>Vivek Mishra</li>
-												<li><strong>Contact :</strong> +91-9018-876131</li>
+												<li><strong>Event Co-ordinator : </strong>Vivek Mishra | Anand Kumar  | Rajesh Baranwal | K. Lokesh Kumar | Bipin Kumar Mishra</li>
+												<li><strong>Contact :</strong> +91-9018-876131 | 9906-007341 | 9796-852097 | 9796-075597 | 9622-796847</li>
 											</ul>
 											
 										</div>
@@ -1075,8 +1067,8 @@
 											<br><br>
 											<ul>
 												<li><strong>Schedule : </strong>27th Oct : 12:00pm-2:00pm</li>
-												<li><strong>Event Co-ordinator : </strong>Rajesh Baranwal</li>
-												<!-- <li><strong>Contact :</strong> +91-</li> -->
+												<li><strong>Event Co-ordinator : </strong>Rajesh Baranwal | Sanjeev Shukla | Vivek Mishra | Vinay Kumar Singh </li>
+												<li><strong>Contact :</strong> +91-8716-058339 | 9796-852097 | 9018-876131 | 9622-796834</li>
 											</ul>
 											
 										</div>
@@ -1118,7 +1110,7 @@
 											<br><br>
 											<ul>
 												<li><strong>Schedule : </strong>Round 1 : 26 Oct : 10:00am-11:00am | Round 2 : 27 Oct : 10:00am-11:00am</li>
-												<li><strong>Event Co-ordinator : </strong>Anand</li>
+												<li><strong>Event Co-ordinator : </strong>Anand kumar</li>
 												<li><strong>Contact :</strong> +91-9906-007341</li>
 											</ul>
 											
@@ -1165,8 +1157,7 @@
 												The most interesting ones win.</p>
 											<br><br>
 											<ul>
-
-
+												<li><strong>Schedule : </strong>27th Oct : 11:00 am – 1:00 pm | Venue :  Xilinx Lab </li>
 												<li><strong>Event Co-ordinator : </strong>Suraj Gupta | Madhav | Shweta Pandey </li>
 												<li><strong>Contact : </strong>+91-9596913682</li>
 
@@ -1198,7 +1189,7 @@
 											<br><br>
 											<ul>
 
-
+												<li><strong>Schedule : </strong>26th Oct : 3:30 pm to 6:00 pm | Venue :  Lecture Theatre C </li>
 												<li><strong>Event co-ordinator: </strong> Brijesh Kumar | Suraj Kumar | Shobhit Verma</li>
 												<li><strong>Contact:</strong> +91-9086255280</li> 
 											
@@ -1233,7 +1224,7 @@
 											<br><br>
 											<ul>
 
-
+												<li><strong>Schedule : </strong>26th Oct : 2 pm to 3:30 pm | Venue :  Xilinx Lab </li>
 												<li><strong>Event co-ordinator: </strong> Munib Chauhan | Danish | Ajit Maurya </li>
 												<li><strong>Contact: </strong> +91-9086260992</li>
 
@@ -1264,7 +1255,7 @@
 											<br><br>
 											<ul>
 
-
+												<li><strong>Schedule : </strong>27th Oct : 9 am – 11 am | Venue : Freescale Lab</li>
 												<li><strong>Event co-ordinator: </strong> Munib Chauhan | Aakash maurya | Mansi Maheshwari</li>
 												<li><strong>Contact: </strong> +91-9086260992</li>
 
@@ -1299,7 +1290,7 @@
 											<br><br>
 											<ul>
 
-
+												<li><strong>Schedule : </strong>27th Oct : 5:30 pm to 8:00 pm | Venue : Xilinx Lab C-105</li>
 												<li><strong>Event co-ordinator: </strong>DANISH SIDDIQUI | Mansi | Neha Sharma</li>
 												<li><strong>Contact: </strong>+91-9796-415772</li>
 
@@ -1346,7 +1337,7 @@
 											<br><br>
 											<ul>
 
-
+												<li><strong>Schedule : </strong>26 Oct : Round 1 - 8-9 pm | 27 Oct : Round 2 - 2-3 pm | Venue : Room C-105</li>
 												<li><strong>Event co-ordinator: </strong> Prayag Varshney | Panch Dev parihar | Apoorv Shukla </li>
 												<li><strong>Contact: </strong>+91-9697992483 | </li>
 
@@ -1394,7 +1385,7 @@
 											<br><br>
 											<ul>
 
-
+												<li><strong>Schedule : </strong>26th Oct : 9-10am | Venue : Room C-105</li>
 												<li><strong>Event co-ordinator: </strong> APPORVA SHUKLA | LAKHAN | PRAYAG VARSHNEY</li>
 												<li><strong>Contact: </strong>  +91-9086-119935</li>
 
@@ -1444,6 +1435,7 @@
 											<p>Email your entries at pursuingarchitecture@gmail.com </p>
 											<br><br>
 											<ul>
+												<li><strong>Schedule : </strong>27th Oct : 4 - 5pm</li>
 												<li><strong>Event Co-ordinator : </strong>Anand upadhayay |  Navjot Singh Sasan</li>
 												<li><strong>Contact :</strong> +91- 9697-679672|  +91-9622-074246</li>
 
@@ -1478,7 +1470,7 @@
 												provided on the spot.</p>
 											<br><br>
 											<ul>
-
+												<li><strong>Schedule : </strong>27th Oct : 11-1pm</li>
 												<li><strong>Event Co-ordinator : </strong>Anuksha amla |  Sravya Amancherla</li>
 												<li><strong>Contact :</strong> +91-9797-517532 | +91-9797-520573</li>
 
@@ -1514,7 +1506,7 @@
 												purpose. Theme will be revealed at the time of event.</p>
 											<br><br>
 											<ul>
-
+												<li><strong>Schedule : </strong>27th Oct : 2-4pm</li>
 												<li><strong>Event Co-ordinator : </strong>Shreya | Damanjot kaur</li>
 												<li><strong>Contact :</strong> +91- 9086-120809 | +91-8283-835234</li>
 
@@ -1549,7 +1541,7 @@
 												time of the event</strong>.</p>
 											<br><br>
 											<ul>
-
+												<li><strong>Schedule : </strong>26th Oct : 4-5pm </li>
 												<li><strong>Event Co-ordinator : </strong>Arunima Bhowmick | Puneet Mehta</li>
 												<li><strong>Contact :</strong> +91-9596997279 | +91-9419-351611</li>
 
@@ -1584,6 +1576,7 @@
 												in public. Have fun and win prize. <strong>Bingo!!</strong></p>
 											<br><br>
 											<ul>
+												<li><strong>Schedule : </strong>26th Oct : 10:30am - 12pm </li>
 												<li><strong>Event Co-ordinator : </strong>Arpita | Himanshu Bharanwal</li>
 												<li><strong>Contact :</strong> +91- 9018-718271 | +91-8716-055931</li>
 
@@ -1628,6 +1621,7 @@
 													Theme provided before event.</p>
 											<br><br>
 											<ul>
+												<li><strong>Schedule : </strong>27th Oct : 9-11am</li>
 												<li><strong>Event Co-ordinator : </strong>Damanjot Kaur | Shreya</li>
 												<li><strong>Contact :</strong> +91- 8283-835234 |  +91-9086-120809</li>
 
@@ -1665,6 +1659,7 @@
 												mind the <strong>purpose</strong> and <strong>simplicity</strong> of logo.</p>
 											<br><br>
 											<ul>
+												<li><strong>Schedule : </strong>26th Oct : 9-10am </li>
 												<li><strong>Event Co-ordinator : </strong>Himanshu Bharanwal | Chidananda Arpita</li>
 												<li><strong>Contact :</strong> +91-- 8716-055931 |  +91-9018-718271</li>
 												
@@ -1705,7 +1700,7 @@
 
 											<br><br>
 											<ul>
-
+												<li><strong>Schedule : </strong>26th Oct : 2:30-4:00pm</li>
 												<li><strong>Event Co-ordinator : </strong>Puneet Mehta | Arunima Bhowmick </li>
 												<li><strong>Contact :</strong> +91-9419-351611 | +91-9596-997279</li>
 
@@ -1748,6 +1743,7 @@
 											</p>
 											<br><br>
 											<ul>
+												<li><strong>Schedule : </strong>26th Oct : :2:00-3:30pm</li>
 												<li><strong>Event co-ordinator: </strong> Ishan tiwari | Abhishek Singh </li>
 												<li><strong>Contact: </strong> +91-9596916580</li>
 												
@@ -1778,6 +1774,7 @@
 												who write the most of the name correct wins.</p>
 											<br><br>
 											<ul>
+												<li><strong>Schedule : </strong>27th Oct : 11:30-1:00pm</li>
 												<li><strong>Event co-ordinator: </strong> Shamli Shagotra | Prashant Pandey </li>
 												<li><strong>Contact: </strong> +91-946947982</li>
 											</ul>
@@ -1808,6 +1805,7 @@
 												the most wins.</p>
 											<br><br>
 											<ul>
+												<li><strong>Schedule : </strong>27th Oct : 10:00-11:30am</li>
 												<li><strong>Event co-ordinator: </strong> Sudhanshu Raj Sagar |  Sabhajeet Yadav</li>
 												<li><strong>Contact: </strong> +91-9796858005</li>
 												
@@ -1841,8 +1839,7 @@
 												Those  who  will  finish  it  first  will  be  the  winner.</p>
 											<br><br>
 											<ul>
-
-
+												<li><strong>Schedule : </strong>27th Oct : 3-5pm</li>
 												<li><strong>Event co-ordinator: </strong> Aman Sharma | Ankit Pandey  </li>
 												<li><strong>Contact: </strong> +91-9469285442</li>
 
@@ -1873,8 +1870,7 @@
 												have seen in the visuals.</p>
 											<br><br>
 											<ul>
-
-
+												<li><strong>Schedule : </strong>26th Oct : 6:00-7:30pm</li>
 												<li><strong>Event co-ordinator: </strong> Lav Kush Raj | Kapil Bagal </li>
 												<li><strong>Contact: </strong> +91-9419873842</li>
 
@@ -1906,6 +1902,7 @@
 												provided  with  the  tools  to  make  the  <strong>3d</strong>  structure  of  the  shown molecule.</p>
 											<br><br>
 											<ul>
+												<li><strong>Schedule : </strong>26th Oct : 3:30-5:00pm</li>
 												<li><strong>Event co-ordinator: </strong> Poonam Choudhary | Nayan Tiwari </li>
 												<li><strong>Contact: </strong> +91-9596855658</li>
 											</ul>
@@ -1939,6 +1936,7 @@
 											group does not contain more than 2 participants.</p>
 											<br><br>
 											<ul>
+												<li><strong>Schedule : </strong>26th Oct : 10-12pm</li>
 												<li><strong>Event co-ordinator: </strong>Richa Shrivastava | Rahul Chauhan</li>
 												<li><strong>Contact: </strong> +91-9697-679161</li>
 											</ul>
@@ -2011,7 +2009,7 @@
 											<button class="md-register register" data-branch="7" data-event="72">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
-										<h3>"Counter - Striker"</h3>
+										<h3>"Counter - Strike"</h3>
 										<div>
 											<img  src="img/cs.jpg">
 											<ul>
@@ -2338,8 +2336,8 @@
 		<!-- sponsers page === -->
 		
 		<section class="page" id="container_sponser" data-slide="5" >
-			<div id="sponsor_page">
-				<div id="spon_head" data-stellar-ratio="0.8" data-stellar-vertical-offset="-2600">
+			<div id="sponsor_page" data-stellar-background-ratio='0.5'>
+				<div id="spon_head">
 					<span>Our Previous Sponsors</span>
 				</div>				
 
@@ -2363,7 +2361,7 @@ $sponsors = array(
 );
 
 ?>
-					<div class="sponsorListHolder" data-stellar-ratio="1.4" data-stellar-horizontal-offset="-960" data-stellar-vertical-offset="-3000">
+					<div class="sponsorListHolder" >
 
 						
 				        <?php
@@ -2391,7 +2389,7 @@ $sponsors = array(
 				       
 				    </div>				   
 
-				    <div id="spon_brochure" data-stellar-ratio="1.8" data-stellar-horizontal-offset="-60" data-stellar-vertical-offset="-2800">
+				    <div id="spon_brochure" >
 				    	<a style="color: #C6DAD6; text-decoration : underline;" target="_blank" href="https://docs.google.com/file/d/0B5u8hNVpPKnhSDRGRmZCX1VpcVE/edit?usp=sharing" >Sponsorship Brochure </a>
 				    	<div id="spon_query" >
 				    		<p>For Sponshorship Queries Contact :</p>
@@ -2414,15 +2412,15 @@ $sponsors = array(
 		?>
 		<!-- REGITRATION PAGE -->
 
-		<section class="page" id="register" data-slide="6">
-			<div class="register-form">
+		<section class="page" id="register" data-slide="6" >
+			<div class="register-form" data-stellar-background-ratio="0.5">
 				<div class="msg-Box" style="display:none;">
 					<div class="msg-close">X</div>
 					<div class="msg-content"></div>
 				</div>
 				<div class="md-overlay"></div><!-- the overlay element -->
 
-				<div id="reg-part">
+				<div id="reg-part" >
 					<div id="reg-head">
 						<span>JOIN TITIKSHA</span>
 					</div>
@@ -2522,7 +2520,7 @@ $sponsors = array(
 					
 				</div>
 
-				<div id="login-part">
+				<div id="login-part" >
 					<div id="login-box">
 						<div id="login-head">
 							<span>LOGIN</span> 
@@ -2553,15 +2551,17 @@ $sponsors = array(
 							<button id="login-button" for="submit">Log In</button>
 						</div>	
 
-					</div>
-					<div id="contact-box">
-						<div id="query-content">
-							<span id="query-head">For any queries, Contact</span>
-							<h4>Megha Sharma</h4>
-							<p>+91-9086-118089</p>
-							<p>meghas19@yahoo.co.in</p><br>
+						<div id="contact-box">
+							<div id="query-content">
+								<span id="query-head">For any queries, Contact</span>
+								<h4>Megha Sharma</h4>
+								<p>+91-9086-118089</p>
+								<p>meghas19@yahoo.co.in</p><br>
+							</div>
 						</div>
+
 					</div>
+					
 				</div>
 		    </div>			
 		</section>
@@ -2641,7 +2641,7 @@ $sponsors = array(
 		<?php }?>
 		<!-- PAGE OF COORDITORS AND CELL COMMITEE -->
 
-<section class="page" id="container_coord" data-slide="7">
+<section class="page" id="container_coord" data-slide="7" data-stellar-background-ratio="0.3">
 	<div id="coord">
 		<div id="co_head">Co-Ordinators</div>
 		<div id="co_table">
@@ -3227,7 +3227,7 @@ $sponsors = array(
 			</div>
 		</section><!-- /container -->	
 
-		<section class="page" id="container_reach" data-slide="9">
+		<section class="page" id="container_reach" data-slide="9" data-stellar-background-ratio="0.5" data-stellar-vertical-offset="-7250">
 			<div id="map_smvdu">
 				<br>
 				<h3 style="margin: 0px; text-align: center; color: #ccc;">How To Reach</h3><br>			
@@ -3361,7 +3361,7 @@ $sponsors = array(
 					$(".page").fadeIn(1200, function(){
 						$("#container").remove();
 						$("#main_nav").fadeIn();
-						$.waypoints('refresh');
+						$.waypoints('refresh');						
 					});
 
 				});
