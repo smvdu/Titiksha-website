@@ -2359,7 +2359,7 @@ perspective effects (not including the modals and the overlay).
 
 /* Content styles */
 .md-content {
-    font-size: 90%;
+    font-size: 82%;
     color: #fff;
     background: #25798A;
     position: relative;
@@ -4259,17 +4259,21 @@ span#update-number{
 .sponsorListHolder{
     font-size: 80%;
     position: absolute;
-    height: 1200px;
+    height: 3000px;
     top: 20%;
     left: 30%;
+    width: 900px;
 }
+
 #spon_head{
     font-family: "Ubuntu-L";
     text-align: center;
     margin-top: 3%;
-    position: relative;
+    position: absolute;
     font-size: 4vw;
     font-weight: bold;
+    width: 100%;
+    height: 3000px;
 
 }
 
@@ -4279,6 +4283,8 @@ span#update-number{
     position: absolute;
     top: 20%;
     left: 3%;
+    height: 3000px;
+    width: 300px;
 
 }
 #spon_brochure > a{
@@ -4447,6 +4453,7 @@ footer{
     width: 100%;
     color: #000;
     font-size: 1.2vw;
+    left: 0;
 }
 
 #copyright{
