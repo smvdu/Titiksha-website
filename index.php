@@ -374,8 +374,8 @@
 												<li>1. Robot Adventure : <a href="https://www.facebook.com/ajax/messaging/attachment.php?attach_id=8c8989b2fba504f34b09db3f199cd64d&mid=mid.1382120323120%3Aa8468d7b77199b8b94&hash=AQDhUpRBWFWF_1Sl" target="_blank" style="text-decoration: underline;"> click here for Rules.</a></li>
 												<li>2. Robot Basketball</li>
 												<li>3. Robot Race : <a href="https://www.facebook.com/ajax/messaging/attachment.php?attach_id=8c8989b2fba504f34b09db3f199cd64d&mid=mid.1382120323120%3Aa8468d7b77199b8b94&hash=AQDhUpRBWFWF_1Sl" target="_blank" style="text-decoration: underline;"> click here for Rules.</a></li>
-												<li>4. Robo SANGRAM :  <a href="https://docs.google.com/file/d/0B_vScjUjXFe7ajFhR0Q3cjhpQms/edit?usp=sharing" target="_blank" style="text-decoration:underline;">Click here for Rules</a></li>
-												<li>5. SWACHALIT ROBO  : <a href="https://docs.google.com/file/d/0B_vScjUjXFe7ZDNEcnoxYXBQZVk/edit?usp=sharing" target="_blank" style="text-decoration:underline;">Click here for Rules </a> </li>
+												<li>4. Robo SANGRAM  | 27 Oct : 2:30pm-3:30pm <a href="https://docs.google.com/file/d/0B_vScjUjXFe7ajFhR0Q3cjhpQms/edit?usp=sharing" target="_blank" style="text-decoration:underline;">Click here for Rules</a></li>
+												<li>5. SWACHALIT ROBO  | 26 Oct : 2:30pm-4:30pm <a href="https://docs.google.com/file/d/0B_vScjUjXFe7ZDNEcnoxYXBQZVk/edit?usp=sharing" target="_blank" style="text-decoration:underline;">Click here for Rules </a> </li>
 												<li>6. Robot Soccer</li>
 											</ul>
 												<p>The  robot  winning  in  max  categories  of  Robo­matrix  will  be  awarded
@@ -596,6 +596,7 @@
 												<p><strong>TIME</strong> : ­ 2 DAYS </p>
 											<br><br>
 											<ul>
+												<li><strong>Schedule : </strong>26th Oct : 2-3 pm |	Venue : Net Lab </li>
 												<li><strong>Event Co-ordinator :</strong>ADITYA RANJAN</li>
 												<li><strong>Contact :</strong> +91-9796-824820</li>
 											</ul>
@@ -631,6 +632,8 @@
 											<br><br>
 											
 											<ul>
+												<li><strong>Schedule : </strong>26th Oct : 9-11 am	|  Venue : Programming Lab</li>
+												
 												<li><strong>Event Co-ordinator : </strong>Mohan Dutt Parashar | Ravi Prakash Giri | Shubham Tiwari</li>
 												<li><strong>Contact :</strong> +91-9086-240-290 | +91-9469-443565 | +91-9796-289195 </li>
 											</ul>
@@ -663,6 +666,8 @@
 											</p>
 											<br><br>
 											<ul>
+												<li><strong>Schedule : </strong>27th Oct : 11-1 pm	|  Venue : Programming Lab</li>
+												
 												<li><strong>Event Co-ordinator : </strong>Parbhat Puri</li>
 												<li><strong>Contact :</strong> +91-9797-521857</li>
 											</ul>
@@ -695,6 +700,9 @@
 											Round 2: 45 min.</p>
 											<br><br>
 										<ul>
+
+											<li><strong>Schedule : </strong>27th Oct : 9-11am	|  Venue : Net Lab</li>
+												
 											<li><strong>Event Co-ordinator : </strong>Ravi Prakash Giri | Mohan Dutt Parashar | Prateek Sharma </li>
 											<li><strong>Contact :</strong> +91-9469-443565 | +91-9086-240-290 | +91-9086-120891</li>
 										</ul>
@@ -730,6 +738,7 @@
 											
 											<br><br>
 											<ul>
+												<li><strong>Schedule : </strong>26th Oct : 11- 1pm	|  Venue : Linux Lab</li>
 												<li><strong>Event Co-ordinator : </strong>Prateek Sharma | Ravi Prakash Giri | Mohan Dutt Parashar</li>
 												<li><strong>Contact :</strong> +91-9086-120891 | +91-9469-443565 | +91-9086-240-290</li>
 											</ul>
@@ -764,8 +773,9 @@
 											
 											<br><br>
 											<ul>
-												<li><strong>Event Co-ordinator : </strong>Aman Kumar </li>
-												<li><strong>Contact :</strong> +91-9697-569-168</li>
+												<li><strong>Schedule : </strong>27th Oct : 2-3pm	|  Venue : Programming Lab</li>
+												<li><strong>Event Co-ordinator : </strong>Aman Kumar | Ritesh Srivastava </li>
+												<li><strong>Contact :</strong> +91-9697-569-168 | 9086-261031</li>
 											</ul>
 											
 										</div>
@@ -805,6 +815,7 @@
 
 											<br><br>
 											<ul>
+												<li><strong>Schedule : </strong>26th Oct : 3-5pm	|  Venue : Net Lab</li>
 												<li><strong>Event Co-ordinator : </strong>Aditya Agraval</li>
 												<li><strong>Contact :</strong> +91-9797-520203</li>
 											</ul>
@@ -839,6 +850,7 @@
 											
 											<br><br>
 											<ul>
+												<li><strong>Schedule : </strong>25th Oct | Hackerrank.com </li>
 												<li><strong>Event Co-ordinator : </strong>Akshay Pratap Singh</li>
 												<li><strong>Contact :</strong> +91-9086250656</li>
 											</ul>
@@ -882,6 +894,7 @@
 											
 											<br><br>
 											<ul>
+												<li><strong>Schedule : </strong>26 Oct - 11:15am-12:45pm</li>
 												<li><strong>Event Co-ordinator : </strong>Sanjeev</li>
 												<li><strong>Contact :</strong> +91-8716-058339</li>
 											</ul>
@@ -920,6 +933,7 @@
 											
 											<br><br>
 											<ul>
+												<li><strong>Schedule : </strong>27th Oct : 10:00am-12:00pm</li>
 												<li><strong>Event Co-ordinator : </strong>Vikas Singla</li>
 												<li><strong>Contact :</strong> +91-9086-118374</li>
 											</ul>
@@ -958,6 +972,7 @@
 											</ul>
 												<br><br>
 											<ul>
+												<li><strong>Schedule : </strong>26th Oct :  11:00am-1:30pm</li>
 												<li><strong>Event Co-ordinator : </strong>Saddam Zoya</li>
 												<li><strong>Contact :</strong> +91-9086-118161</li>
 											</ul>
@@ -989,6 +1004,7 @@
 											</ul>
 											<br><br>
 											<ul>
+												<li><strong>Schedule : </strong>26th Oct :  2:30pm-4:30pm</li>
 												<li><strong>Event Co-ordinator : </strong>Manish Paliwal</li>
 												<li><strong>Contact :</strong> +91-9086-185529</li>
 											</ul>
@@ -1023,6 +1039,7 @@
 											</ul>
 											<br>
 											<ul>
+												<li><strong>Schedule : </strong>26th Oct : 5:00pm-8:00pm</li>
 												<li><strong>Event Co-ordinator : </strong>Vivek Mishra</li>
 												<li><strong>Contact :</strong> +91-9018-876131</li>
 											</ul>
@@ -1057,6 +1074,7 @@
 											<p><a href="https://docs.google.com/file/d/0B_vScjUjXFe7a0pDQnpkOWpOYm8/edit?usp=sharing"  style="text-decoration: underline;" target="_blank"> click here for more.</a></p>
 											<br><br>
 											<ul>
+												<li><strong>Schedule : </strong>27th Oct : 12:00pm-2:00pm</li>
 												<li><strong>Event Co-ordinator : </strong>Rajesh Baranwal</li>
 												<!-- <li><strong>Contact :</strong> +91-</li> -->
 											</ul>
@@ -1099,6 +1117,7 @@
 													 Click here for more</a></p>
 											<br><br>
 											<ul>
+												<li><strong>Schedule : </strong>Round 1 : 26 Oct : 10:00am-11:00am | Round 2 : 27 Oct : 10:00am-11:00am</li>
 												<li><strong>Event Co-ordinator : </strong>Anand</li>
 												<li><strong>Contact :</strong> +91-9906-007341</li>
 											</ul>
@@ -2047,14 +2066,9 @@
 
 				</div>
 
-
-
-
-
 			</div>
 			
 		</section> <!-- events END -->
-
 
 		
 	<section class="page" id="container_gal" data-slide="4">
@@ -3083,6 +3097,7 @@ $sponsors = array(
 			</div>
 			
 		</section>
+
 		<!-- container Contact -->
 
         <section class="page" id="container_contact" data-slide="8">	
