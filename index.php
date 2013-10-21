@@ -308,7 +308,7 @@
 		<section class="page" id="contain_event" data-slide="3">
 			<div id="event-message" style="display:none"></div>
 			<div id="event">
-				<div class="branch" id="mega">
+				<div class="branch" id="mega" >
 					<div class="event_heading">
 						<span class="heading_text">MEGA Events</span>
 						<div class="event_close" style="display:none">X</div>
@@ -2011,7 +2011,7 @@
 											<button class="md-register register" data-branch="7" data-event="72">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
-										<h3>"Counter - Striker"</h3>
+										<h3>"Counter - Strike"</h3>
 										<div>
 											<img  src="img/cs.jpg">
 											<ul>
@@ -2338,8 +2338,8 @@
 		<!-- sponsers page === -->
 		
 		<section class="page" id="container_sponser" data-slide="5" >
-			<div id="sponsor_page">
-				<div id="spon_head" data-stellar-ratio="0.8" data-stellar-vertical-offset="-2600">
+			<div id="sponsor_page" data-stellar-background-ratio='0.5'>
+				<div id="spon_head">
 					<span>Our Previous Sponsors</span>
 				</div>				
 
@@ -2363,7 +2363,7 @@ $sponsors = array(
 );
 
 ?>
-					<div class="sponsorListHolder" data-stellar-ratio="1.4" data-stellar-horizontal-offset="-960" data-stellar-vertical-offset="-3000">
+					<div class="sponsorListHolder" >
 
 						
 				        <?php
@@ -2391,7 +2391,7 @@ $sponsors = array(
 				       
 				    </div>				   
 
-				    <div id="spon_brochure" data-stellar-ratio="1.8" data-stellar-horizontal-offset="-60" data-stellar-vertical-offset="-2800">
+				    <div id="spon_brochure" >
 				    	<a style="color: #C6DAD6; text-decoration : underline;" target="_blank" href="https://docs.google.com/file/d/0B5u8hNVpPKnhSDRGRmZCX1VpcVE/edit?usp=sharing" >Sponsorship Brochure </a>
 				    	<div id="spon_query" >
 				    		<p>For Sponshorship Queries Contact :</p>
@@ -2414,15 +2414,15 @@ $sponsors = array(
 		?>
 		<!-- REGITRATION PAGE -->
 
-		<section class="page" id="register" data-slide="6">
-			<div class="register-form">
+		<section class="page" id="register" data-slide="6" >
+			<div class="register-form" data-stellar-background-ratio="0.5">
 				<div class="msg-Box" style="display:none;">
 					<div class="msg-close">X</div>
 					<div class="msg-content"></div>
 				</div>
 				<div class="md-overlay"></div><!-- the overlay element -->
 
-				<div id="reg-part">
+				<div id="reg-part" >
 					<div id="reg-head">
 						<span>JOIN TITIKSHA</span>
 					</div>
@@ -2522,7 +2522,7 @@ $sponsors = array(
 					
 				</div>
 
-				<div id="login-part">
+				<div id="login-part" >
 					<div id="login-box">
 						<div id="login-head">
 							<span>LOGIN</span> 
@@ -2553,15 +2553,17 @@ $sponsors = array(
 							<button id="login-button" for="submit">Log In</button>
 						</div>	
 
-					</div>
-					<div id="contact-box">
-						<div id="query-content">
-							<span id="query-head">For any queries, Contact</span>
-							<h4>Megha Sharma</h4>
-							<p>+91-9086-118089</p>
-							<p>meghas19@yahoo.co.in</p><br>
+						<div id="contact-box">
+							<div id="query-content">
+								<span id="query-head">For any queries, Contact</span>
+								<h4>Megha Sharma</h4>
+								<p>+91-9086-118089</p>
+								<p>meghas19@yahoo.co.in</p><br>
+							</div>
 						</div>
+
 					</div>
+					
 				</div>
 		    </div>			
 		</section>
@@ -2641,7 +2643,7 @@ $sponsors = array(
 		<?php }?>
 		<!-- PAGE OF COORDITORS AND CELL COMMITEE -->
 
-<section class="page" id="container_coord" data-slide="7">
+<section class="page" id="container_coord" data-slide="7" data-stellar-background-ratio="0.3">
 	<div id="coord">
 		<div id="co_head">Co-Ordinators</div>
 		<div id="co_table">
@@ -3227,7 +3229,7 @@ $sponsors = array(
 			</div>
 		</section><!-- /container -->	
 
-		<section class="page" id="container_reach" data-slide="9">
+		<section class="page" id="container_reach" data-slide="9" data-stellar-background-ratio="0.5" data-stellar-vertical-offset="-7250">
 			<div id="map_smvdu">
 				<br>
 				<h3 style="margin: 0px; text-align: center; color: #ccc;">How To Reach</h3><br>			
@@ -3361,7 +3363,7 @@ $sponsors = array(
 					$(".page").fadeIn(1200, function(){
 						$("#container").remove();
 						$("#main_nav").fadeIn();
-						$.waypoints('refresh');
+						$.waypoints('refresh');						
 					});
 
 				});
