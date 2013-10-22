@@ -786,48 +786,8 @@
 								</div>
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
-							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-11">
-									<span class="icon-eye"><em>Online Treasure Hunt</em></span>
-									<p>Search The Treasure Online Using Your Intelligent Brain</p>
-								</div>
-								<div class="md-modal md-effect-11" id="modal-11">
-									<div class="md-content">
-										<div class="md-header">
-											<button class="md-register register" data-branch="2" data-event="27">Register</button>
-											<button class="md-close close">Close!</button>
-										</div>
-										<h3>Online Treasure Hunt</h3>
-										<div>
-											<p>It  will  be  a  unique race  against  time​
-											game  exclusively  devoted  to
-											testing your agility and numerical skills.</p>
-											<p>Question's  Will  Be  based  on  basic  programming,  IQ  and  logical
-											reasoning,and are bound to test the efficiency of your grey cells.</p>
-											<p><em><strong>Details</strong> </em>: <br>
- 												It  will  have  various  level  of  difficulties  in  the  form  of  various  Puzzles
-												And Multimedia. <br>
-												U  have to Complete First Level to go to the Next Level.Student's From
-												Every Year Can Participate.</p>
-											<p><strong>Rules</strong> :
-												1. You have to register with a unique id and password.<br>
-												2. Only One Chance is allowed for answering a question.<br>
-												3. Each Team Will be allotted a computer.
-											<br>	<strong>Team </strong> : ( 1 - 2 Member )
-											</p>
-
-											<br><br>
-											<ul>
-												<li><strong>Schedule : </strong>26th Oct : 3-5pm	|  Venue : Net Lab</li>
-												<li><strong>Event Co-ordinator : </strong>Aditya Agraval</li>
-												<li><strong>Contact :</strong> +91-9797-520203</li>
-											</ul>
-											
-										</div>
-									</div>
-								</div>
-								<div class="md-overlay"></div><!-- the overlay element -->
-							</div><!-- / uc-container -->
+							
+							
 							<div class="uc-container">
 
 								<div class="md-trigger" data-modal="modal-12">
