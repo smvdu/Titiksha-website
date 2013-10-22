@@ -1070,8 +1070,8 @@
 											<br><br>
 											<ul>
 												<li><strong>Schedule : </strong>Round 1 : 26 Oct : 10:00am-11:00am | Round 2 : 27 Oct : 10:00am-11:00am</li>
-												<li><strong>Event Co-ordinator : </strong>Anand kumar</li>
-												<li><strong>Contact :</strong> +91-9906-007341</li>
+												<li><strong>Event Co-ordinator : </strong>Anand kumar | K. lokesh Kumar | Monika</li>
+												<li><strong>Contact :</strong> +91-9906-007341 | 9796-075597 | 9622-269983</li>
 											</ul>
 											
 										</div>
