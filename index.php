@@ -776,7 +776,7 @@
 											
 											<br><br>
 											<ul>
-												<li><strong>Schedule : </strong>27th Oct : 2-3pm	|  Venue : Programming Lab</li>
+												<li><strong>Schedule : </strong>26th Oct : 3-4pm	|  Venue : Programming Lab</li>
 												<li><strong>Event Co-ordinator : </strong>Aman Kumar | Ritesh Srivastava </li>
 												<li><strong>Contact :</strong> +91-9697-569-168 | 9086-261031</li>
 											</ul>
