@@ -1059,7 +1059,7 @@
 											<p><a href="https://docs.google.com/file/d/0B_vScjUjXFe7a0pDQnpkOWpOYm8/edit?usp=sharing"  style="text-decoration: underline;" target="_blank"> click here for more.</a></p>
 											<br><br>
 											<ul>
-												<li><strong>Schedule : </strong>27th Oct : 12:00pm-2:00pm</li>
+												<li><strong>Schedule : </strong>27th Oct : 2:00pm-3:00pm</li>
 												<li><strong>Event Co-ordinator : </strong>Rajesh Baranwal | Sanjeev Shukla | Vivek Mishra | Vinay Kumar Singh </li>
 												<li><strong>Contact :</strong> +91-8716-058339 | 9796-852097 | 9018-876131 | 9622-796834</li>
 											</ul>
@@ -1182,7 +1182,7 @@
 											<br><br>
 											<ul>
 
-												<li><strong>Schedule : </strong>26th Oct : 3:30 pm to 6:00 pm | Venue :  Lecture Theatre C </li>
+												<li><strong>Schedule : </strong>26th Oct : 6 pm to 8 pm | Venue :  Lecture Theatre C </li>
 												<li><strong>Event co-ordinator: </strong> Brijesh Kumar | Suraj Kumar | Shobhit Verma</li>
 												<li><strong>Contact:</strong> +91-9086255280</li> 
 											
@@ -1283,7 +1283,7 @@
 											<br><br>
 											<ul>
 
-												<li><strong>Schedule : </strong>27th Oct : 5:30 pm to 8:00 pm | Venue : Xilinx Lab C-105</li>
+												<li><strong>Schedule : </strong>26th Oct : 9 am to 10:30 am | Venue : Xilinx Lab C-105</li>
 												<li><strong>Event co-ordinator: </strong>DANISH SIDDIQUI | Mansi | Neha Sharma</li>
 												<li><strong>Contact: </strong>+91-9796-415772</li>
 
@@ -1330,7 +1330,7 @@
 											<br><br>
 											<ul>
 
-												<li><strong>Schedule : </strong>26 Oct : Round 1 - 8-9 pm | 27 Oct : Round 2 - 2-3 pm | Venue : Room C-105</li>
+												<li><strong>Schedule : </strong>26 Oct : 3:30 pm - 5:30pm | Venue : Room C-105</li>
 												<li><strong>Event co-ordinator: </strong> Prayag Varshney | Panch Dev parihar | Apoorv Shukla </li>
 												<li><strong>Contact: </strong>+91-9697992483 | </li>
 
@@ -1378,7 +1378,7 @@
 											<br><br>
 											<ul>
 
-												<li><strong>Schedule : </strong>26th Oct : 9-10am | Venue : Room C-105</li>
+												<li><strong>Schedule : </strong>26th Oct : 2pm-4pm | Venue : Lecture C</li>
 												<li><strong>Event co-ordinator: </strong> APPORVA SHUKLA | LAKHAN | PRAYAG VARSHNEY</li>
 												<li><strong>Contact: </strong>  +91-9086-119935</li>
 
@@ -1837,7 +1837,7 @@
 											<p>TEAM : 2 Members</p>
 											<br><br>
 											<ul>
-												<li><strong>Schedule : </strong>27th Oct : 3-5pm</li>
+												<li><strong>Schedule : </strong>27th Oct : 2-4pm</li>
 												<li><strong>Event co-ordinator: </strong> Aman Sharma | Ankit Pandey  </li>
 												<li><strong>Contact: </strong> +91-9469285442</li>
 
