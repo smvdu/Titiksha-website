@@ -60,9 +60,17 @@ function sendLoginDetails() {
         if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
            if(new String(xmlhttp.responseText)=="true"){
                 resetFields();
+                var confirmMessage="Please wait while the page is being reloaded ...";
+                $(".msg-Box").addClass("md-show loading").css("display","block");
+                $(".msg-Box > .msg-content").html(confirmMessage);
+                $(".msg-Box > .msg-close").css("display","none");
                 window.location.reload();
            }else{
-           		$(".msg").html("* Wrong Username or Password")
+           		resetFields();
+           		$(".msg").html("* Wrong Username or Password");
+           		setTimeout(function(){
+           			$(".msg").html("");
+           		},3000);
            }
                 
         }
@@ -76,6 +84,10 @@ function logoutAdmin(){
     xmlhttp.onreadystatechange = function() {
         if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
            if(new String(xmlhttp.responseText)=="true"){
+           		var confirmMessage="Please wait while the page is being reloaded ...";
+                $(".msg-Box").addClass("md-show loading").css("display","block");
+                $(".msg-Box > .msg-content").html(confirmMessage);
+                $(".msg-Box > .msg-close").css("display","none");
                 window.location.reload();
            }        
         }

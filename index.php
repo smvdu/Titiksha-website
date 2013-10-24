@@ -2541,6 +2541,11 @@ $sponsors = array(
 		<?php }else{ ?>
 		<!-- Dashboard  -->
 		<section class="page" id="container_dash" data-slide="6" >
+			<div class="msg-Box" style="display:none;">
+				<div class="msg-close">X</div>
+				<div class="msg-content"></div>
+			</div>
+			<div class="md-overlay"></div><!-- the overlay element -->
 			<div class="dashboard">
 				<div class="dash-head">
 					<div id="dash-head-title">Dashboard</div>
