@@ -5,7 +5,10 @@ $(document).ready(function(){
 			sendLoginDetails();
 		}else{
 			resetFields();
-			$(".msg").html("* Please fill all the fields .")
+			$(".msg").html("* Please fill all the fields .");
+			setTimeout(function(){
+           			$(".msg").html("");
+           		},3000);
 		}	
 	});
 
@@ -22,6 +25,6 @@ $(document).ready(function(){
 	});
 
 	$("#reset-query").click(function(){
-		$(".queryBox input").val("");
+		$(".query_content input").val("");
 	});
 });

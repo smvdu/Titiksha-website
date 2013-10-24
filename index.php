@@ -836,7 +836,7 @@
 								<div class="md-modal md-effect-11" id="modal-11">
 									<div class="md-content">
 										<div class="md-header">
-											<button class="md-register register" data-branch="2" data-event="28">Register</button>
+											<button class="md-register register" data-branch="2" data-event="29">Register</button>
 											<button class="md-close close">Close!</button>
 										</div>
 										<h3>Python</h3>

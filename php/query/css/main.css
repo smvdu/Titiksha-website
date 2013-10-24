@@ -194,6 +194,9 @@ form[name="login_form"]{
     margin: 0px 20px;
 }
 
+.button{
+    width: 90px;
+}
 #reset-query{
     color: #5762E0;
     font-size: 16px;
