@@ -428,7 +428,7 @@
 
 											<ul>
 												<li><strong>Schedule : </strong>26 Oct - 10:00 am to 1:00 pm | Venue : Lecture hall C/D </li>
-												<li><strong>Event Co-ordinator :</strong> Ashish Singh | Pawan Kumar | Chandan Jha </li>
+												<li><strong>Event Co-ordinator :</strong> Ashish Singh | Pawan Kumar | Chandan Jha | Jhanvi Tiwari</li>
 												<li><strong>Contact :</strong>+91-9596-997294 | +91-9596-915301 | +91-9086-728974</li>
 											</ul>
 
