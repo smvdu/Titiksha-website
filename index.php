@@ -825,6 +825,57 @@
 								</div>
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
+
+							<div class="uc-container">
+
+								<div class="md-trigger" data-modal="modal-11">
+									<span class="icon-eye"><em>*WorKShop*</em></span>
+
+									<p>HARNESS The Power Of PYTHON </p>
+								</div>
+								<div class="md-modal md-effect-11" id="modal-11">
+									<div class="md-content">
+										<div class="md-header">
+											<button class="md-register register" data-branch="2" data-event="28">Register</button>
+											<button class="md-close close">Close!</button>
+										</div>
+										<h3>Python</h3>
+										<div>
+											<p>This workshop assumes that the participants are already have experience
+											 with some programming language. Prior exposure to Python is not required.</p>
+										
+											<ul>
+												<li><strong>1. Getting Started</strong> :
+												Covers basics of Python programming language. Includes, using interterperter, running scripts
+												and introduction to basic data types.</li>
+												<li><strong>2. Working with Data</strong> :
+												Introduction to Python’s powerful datastuctures including, lists and dictionaries.</li>
+												<li><strong>3. Modules </strong> : 
+												Introduction to Python module system. Covers imports, docstrings, pydoc and quick tour of
+												standard library.</li>
+												<li><strong>4. Classes and Objects</strong> :
+												Introduction to object­ oriented programming with Python.</li>
+												<li><strong>5. Iterators & Generators</strong> :
+												Introduction to itertools and generators available in python. Covers practical uses of itertools and
+												writing generators.</li>
+												<li><strong>6. Functional Programming</strong> :
+												Introduction to recursions and higher order functions & decorators.</li>
+											</ul>
+											<p><strong>Prerequisites </strong>
+												All participants must come with a laptop to the course. The participants are expected to try
+												examples and solve exercises in the class.
+												The laptop should have Python 2.7 installed in it.</p>
+
+											<ul>
+												<li><strong>Schedule : </strong> </li>
+												<li><strong>Organiser : </strong></li>
+											</ul>
+											
+										</div>
+									</div>
+								</div>
+								<div class="md-overlay"></div><!-- the overlay element -->
+							</div><!-- / uc-container -->
 							
 							
 						</div><!-- / grid -->
