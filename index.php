@@ -501,6 +501,7 @@
 											<br><br>
 
 											<ul>
+												<li><strong>Schedule: </strong> 25 Oct | 2pm (Form Filling) </li>	
 												<li><strong>Event Co-ordinator :</strong> Daud Shareef | Navin Ray | Ashwani Yadav | Anup Chaudhary </li>
 												<li><strong>Contact :</strong>+91-9697-679928 | +91-9086-251103</li>
 												
@@ -542,12 +543,13 @@
 												 drop-box from where they will get clues and the hunt for CHACHA CHOUDHARY begins.
 												  Team solving maximum clues in minimum time wins.</li>
 											</ul>
-											<p><strong>Time : </strong> Round 1 : 15min | Round 2 : 45min</p>
+											<p><strong>Time : </strong>Round 1 : 15min | Round 2 : 45min</p>
 											<p>Winner gets the title of CHACHA CHOUDHARY.
 											<br>TIP: “I think like a DETECTIVE”</p>
 											<br><br>
 
 											<ul>
+												<li><strong>Schedule</strong> : 26 Oct : 3pm - 5pm</li>
 												<li><strong>Event Co-ordinator :</strong>Kanav Mahajan | Bhanu Dobriyal | Rahul Sharma </li>
 												<li><strong>Contact :</strong>+91-9796-805039 | +91-9697-680675 | +91-7298-327221</li>
 												
@@ -1699,7 +1701,8 @@
 										<div>
 											<p>Students  will  be  asked  various  questions  related  to  new  inventions  in
 												bio­tech and other aspects of <strong>bio-technology</strong>.
-											</p>
+											</p><br>
+											<p>TEAM : 3 Members</p>
 											<br><br>
 											<ul>
 												<li><strong>Schedule : </strong>26th Oct : :2:00-3:30pm</li>
@@ -1730,7 +1733,8 @@
 										<h3>SPELL-CORRECTLY</h3>
 										<div>
 											<p>Students  are  asked  to  write  down  names  of  <strong>micro­organism</strong>  the  one
-												who write the most of the name correct wins.</p>
+												who write the most of the name correct wins.</p><br>
+											<p>TEAM : 1 member</p>
 											<br><br>
 											<ul>
 												<li><strong>Schedule : </strong>27th Oct : 11:30-1:00pm</li>
@@ -1761,7 +1765,8 @@
 										<div>
 											<p>Lots  of  name  related  to  bio  tech  will  be  <strong>jumbled</strong>  up  the  one who finds
 
-												the most wins.</p>
+												the most wins.</p><br>
+											<p>TEAM : 1 Member</p>
 											<br><br>
 											<ul>
 												<li><strong>Schedule : </strong>27th Oct : 10:00-11:30am</li>
@@ -1796,6 +1801,8 @@
 												complement of the base pairs <strong>(ATGC)</strong>.
 												You have to make the sequence as fast as possible
 												Those  who  will  finish  it  first  will  be  the  winner.</p>
+												<br>
+											<p>TEAM : 2 Members</p>
 											<br><br>
 											<ul>
 												<li><strong>Schedule : </strong>27th Oct : 3-5pm</li>
@@ -1827,6 +1834,8 @@
 											<p><strong>Visuals</strong>  will  be  displayed  for  few  seconds
 												to  the  contestants.  Contestants  have  to  recall  the  different  names  they
 												have seen in the visuals.</p>
+												<br>
+											<p>TEAM : 1 Member</p>
 											<br><br>
 											<ul>
 												<li><strong>Schedule : </strong>26th Oct : 6:00-7:30pm</li>
@@ -1859,6 +1868,8 @@
 											<p>Different  <strong>compounds</strong>  or  <strong>molecules</strong>
 												structures  will  be  shown  to  the  contestants  for  some  time  they  will  be
 												provided  with  the  tools  to  make  the  <strong>3d</strong>  structure  of  the  shown molecule.</p>
+											<br>
+											<p>TEAM : 1 Member</p>
 											<br><br>
 											<ul>
 												<li><strong>Schedule : </strong>26th Oct : 3:30-5:00pm</li>
@@ -1891,8 +1902,9 @@
 											anything related to biology.</p>
 											<p>You  will  be  given  some  materials  and  you  have  to  make  the  same
 											replica of that picture and also label it.</p>
-											<p>Interested  students  from  all  branches  can  participate  in  groups.  Each
-											group does not contain more than 2 participants.</p>
+											<p>Interested  students  from  all  branches  can  participate  in  groups. </p>
+											<br>
+											<p>TEAM : 1 or 2 Member</p>
 											<br><br>
 											<ul>
 												<li><strong>Schedule : </strong>26th Oct : 10-12pm</li>
