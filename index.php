@@ -846,14 +846,13 @@
 											<p>This  will  be  a  very  straight­forward  programming  event,  wherein
 											certain  algorithmic  challanges  will  be  given  to  participants  and  they
 											can solve it using C/C++ and Java.
-											Event  will  be  divided  into  two  stages  and  after  clearing  the  first  stage
-											participants will be promoted to next one.</p>
+											</p>
 											<br>
-											<p><strong>Team</strong> : 2 Member</p>
+											<p><strong></strong> </p>
 											
 											<br><br>
 											<ul>
-												<li><strong>Schedule : </strong>25th Oct | Hackerrank.com </li>
+												<li><strong>Schedule : </strong></li>
 												<li><strong>Event Co-ordinator : </strong>Akshay Pratap Singh</li>
 												<li><strong>Contact :</strong> +91-9086250656</li>
 											</ul>
