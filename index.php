@@ -254,8 +254,9 @@
                         </a>
                     </li>
                 </ul>
+                <!--
                 <div id="countdown"></div>
-                <p id="note"></p>
+                <p id="note"></p>-->
                 
             </div><!-- content -->
             
@@ -812,9 +813,9 @@
 											
 											<br><br>
 											<ul>
-												<li><strong>Schedule : </strong></li>
-												<li><strong>Event Co-ordinator : </strong>Akshay Pratap Singh</li>
-												<li><strong>Contact :</strong> +91-9086250656</li>
+												<li><strong>Schedule : </strong> Not Ready </li>
+												<li><strong>Event Co-ordinator : </strong>Akshay Pratap Singh |  Mohan Dutt Parashar | Ravi Prakash Giri</li>
+												<li><strong>Contact :</strong> +91-9086250656 | +91-9086-240-290 | +91-9469-443565</li>
 											</ul>
 											
 										</div>
