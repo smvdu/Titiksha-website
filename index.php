@@ -841,34 +841,14 @@
 										</div>
 										<h3>Python</h3>
 										<div>
-											<p>This workshop assumes that the participants are already have experience
-											 with some programming language. Prior exposure to Python is not required.</p>
-										
-											<ul>
-												<li><strong>1. Getting Started</strong> :
-												Covers basics of Python programming language. Includes, using interterperter, running scripts
-												and introduction to basic data types.</li>
-												<li><strong>2. Working with Data</strong> :
-												Introduction to Python’s powerful datastuctures including, lists and dictionaries.</li>
-												<li><strong>3. Modules </strong> : 
-												Introduction to Python module system. Covers imports, docstrings, pydoc and quick tour of
-												standard library.</li>
-												<li><strong>4. Classes and Objects</strong> :
-												Introduction to object­ oriented programming with Python.</li>
-												<li><strong>5. Iterators & Generators</strong> :
-												Introduction to itertools and generators available in python. Covers practical uses of itertools and
-												writing generators.</li>
-												<li><strong>6. Functional Programming</strong> :
-												Introduction to recursions and higher order functions & decorators.</li>
-											</ul>
-											<p><strong>Prerequisites </strong>
-												All participants must come with a laptop to the course. The participants are expected to try
-												examples and solve exercises in the class.
-												The laptop should have Python 2.7 installed in it.</p>
+											<p>A Python Workshop by a really technically skilled Alumni of the university : Saurabh Kumar</p><br><br>
+											<p><a href="http://pysmvdu.doattend.com/" style="text-decoration: underline;" target="_blank" >Follow this link for Python Workshop</a></p>
+											<p><a href="https://docs.google.com/document/d/1Xi08XV0Jb-mce8nZiOnbdawWb54q8OTpQddEIjWIbC4/edit#" style="text-decoration: underline;" target="_blank"> Workshop Cover these syllabus</a></p>
 
 											<ul>
-												<li><strong>Schedule : </strong> </li>
-												<li><strong>Organiser : </strong></li>
+												<li><strong>Organiser : </strong>Saurabh Kumar ( <a target="_blank" href="http://saurabh-kumar.com/" style="text-decoration:underline; " > profile </a> )</li>
+												<li><strong>Schedule : </strong> 26th oct, 3:30PM - 5:30PM</li>
+												<li><strong>Venue : </strong>INTERNET LAB</li>
 											</ul>
 											
 										</div>
@@ -2071,8 +2051,8 @@
 											<p><a href="https://www.facebook.com/photo.php?fbid=527108154049704&set=a.121600817933775.25810.100002515736257&type=1&theater" style="text-decoration: underline;"  target="_blank">More Info</a></p>
 											<br><br>
 											<ul>
-												<li><strong>Event co-ordinator: </strong>Amrendra Pratap (Boys) | Kritika Sangra(Girls) </li>
-												<li><strong>Contact: </strong>+91-8716-041023 | 3rd Yr ECE</li>
+												<li><strong>Event co-ordinator: </strong>Amrendra Pratap | Vibhanshu | Prateek sharma | Kritika Sangra(Girls) </li>
+												<li><strong>Contact: </strong>+91-8716-041023 | 9018-686205 | 9086-120891 | 3rd Yr ECE</li>
 											</ul>
 											
 										</div>
