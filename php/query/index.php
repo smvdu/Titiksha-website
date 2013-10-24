@@ -31,36 +31,42 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
+        <div class="msg-Box" style="display:none;">
+            <div class="msg-close">X</div>
+            <div class="msg-content"></div>
+        </div>
+        <div class="md-overlay"></div><!-- the overlay element -->
       <? if(!isset($_SESSION["username"])){
        ?>
-         
-       <div class="loginBox" >
-            <h1>Titiksha Admin Login</h1>
-            <form name="login_form" id="login_form" method="post"  autocomplete="off">
-            <table>
-                <tr>
-                    <td>
-                        <label for="username">Username: </label>
-                        <input name="username" type="text" size="30" maxlength="35" autocomplete="off"/>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <label for="password">Password: </label>
-                        <input name="password" type="password" size="30" maxlength="35" autocomplete="off"/>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <div class="login button">Login</div>
-                        <div class="reset">Reset the fields</div>
-                    </td>
+        
+       <div class="loginWrapper" >
+            <div class="loginBox">
+                <h1>Titiksha Admin Login</h1>
+                <form name="login_form" id="login_form" method="post"  autocomplete="off">
+                <table>
+                    <tr>
+                        <td>
+                            <label for="username">Username: </label>
+                            <input name="username" type="text" size="30" maxlength="35" autocomplete="off"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="password">Password: </label>
+                            <input name="password" type="password" size="30" maxlength="35" autocomplete="off"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="login"><input class="button" type="submit" value="Login"></div>
+                            <div class="reset">Reset the fields</div>
+                        </td>
 
-                </tr>
-            </table>
-            </form>
-            <div class="msg"></div>
-
+                    </tr>
+                </table>
+                </form>
+                <div class="msg"></div>
+            </div>
         </div>
         <?php 
             }else{
@@ -78,12 +84,12 @@
                             <td style="width:65%;">
                                 <div class="query_content">
                                     <label for="query">SQL Query: </label>
-                                    <input name="query" type="text" size="55" maxlength="500" autocomplete="off" value="select * from registered_users"/>
+                                    <input name="query" id="query" type="text" size="55" maxlength="500" autocomplete="off" value="select * from registered_users"/>
                                 </div>
                             </td>
                             <td style="width:20%;">
                                 <div class="query_submit">
-                                    <div class="submit button">Submit</div>
+                                    <input class="button" type="submit" value="Submit">
                                 </div>
                             </td>
                             <td style="width:15%;">

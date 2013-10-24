@@ -52,16 +52,20 @@ ul {
     margin: 1em 0;
 }
 
+.loginWrapper{
+    width: 50%;
+    height: ;
+    margin: 80px auto;
+    border: 1px solid #b3b3b3;
+    border-radius: 4px;
+    box-shadow: 0 1px 10px #a7a7a7, inset 0 1px 0 #fff;
+    background: #fcfcfc;
+}
 .loginBox {
     position: relative;
     width: 400px;
-    max-width: 500px;
-    padding: 30px 20px;
-    border: 1px solid #b3b3b3;
-    border-radius: 4px;
-    margin: 80px auto;
-    box-shadow: 0 1px 10px #a7a7a7, inset 0 1px 0 #fff;
-    background: #fcfcfc;
+    padding: 30px 20px; 
+    margin-left: 110px;  
 }
 form[name="login_form"]{
     margin: 10px 20px;
@@ -92,6 +96,59 @@ form[name="login_form"]{
 }
 .msg{
     color: red;
+}
+
+.msg-Box{
+    position: fixed;
+    top: 30%;
+    width: 50%;
+    left: 25%;
+    height: auto;
+    text-align: center;
+    z-index: 2000;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+.msg-close{
+    float: right;
+    width: 25px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 1.3em;
+    margin: -15px 0px 0px 0px;
+}
+
+.md-show {
+    visibility: visible;
+}
+
+.md-overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    opacity: 0;
+    background: rgba(255, 255, 255, 0.8);
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.md-show ~ .md-overlay {
+    opacity: 1;
+    visibility: visible;
+}
+
+.loading{
+    background-color: #4B4E46;
+    color: #fff; 
 }
 
 .dashboard {
@@ -137,6 +194,9 @@ form[name="login_form"]{
     margin: 0px 20px;
 }
 
+.button{
+    width: 90px;
+}
 #reset-query{
     color: #5762E0;
     font-size: 16px;

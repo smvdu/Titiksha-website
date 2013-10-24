@@ -60,9 +60,17 @@ function sendLoginDetails() {
         if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
            if(new String(xmlhttp.responseText)=="true"){
                 resetFields();
+                var confirmMessage="Please wait while the page is being reloaded ...";
+                $(".msg-Box").addClass("md-show loading").css("display","block");
+                $(".msg-Box > .msg-content").html(confirmMessage);
+                $(".msg-Box > .msg-close").css("display","none");
                 window.location.reload();
            }else{
-           		$(".msg").html("* Wrong Username or Password")
+           		resetFields();
+           		$(".msg").html("* Wrong Username or Password");
+           		setTimeout(function(){
+           			$(".msg").html("");
+           		},3000);
            }
                 
         }
@@ -76,6 +84,10 @@ function logoutAdmin(){
     xmlhttp.onreadystatechange = function() {
         if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
            if(new String(xmlhttp.responseText)=="true"){
+           		var confirmMessage="Please wait while the page is being reloaded ...";
+                $(".msg-Box").addClass("md-show loading").css("display","block");
+                $(".msg-Box > .msg-content").html(confirmMessage);
+                $(".msg-Box > .msg-close").css("display","none");
                 window.location.reload();
            }        
         }
@@ -114,7 +126,7 @@ function resetQueryBox() {
 
 /****************** Branch wise event code ***********************/
 
-var branchCode={ 1:"MEGA" ,11:"All Izz Not Well",12:"Robo-Matrix",13:"Electro-Avtaar",14:"Innovatia Returns",15:"TechRoadies Reloaded",16:"Chacha Choudhary", 2:"CSE" , 21:"Ad-Veb",22:"Debuggage",23:"Python-Geek",24:"Kill'em",25:"Lui-Commando",26:"Jumble-Mumble",28:"Binary Battles",3:"MECH" ,31:"Design Your Dreams",32:"Kit Cad",33:"The Machinist",34:"Rush To Assemble-Engine",35:"Cluedo",36:"Future-Tech",37:"Baja De Innovacion",4:"ECE" ,41:"Wavemania",42:"Electro-Quiz",43:"EMO-Express22",44:"Circuit-Bug",45:"Micro-Controller Coding",46:"Circuit-Electronique",47:"Electro Trade",48:"Electo-Maze",5:"ARCH" ,51:"Architectural Symposium",52:"Art Installation",53:"Digi-Art",54:"Face-Painting",55:"Caricature-Making",56:"Poster-Making",57:"Logo-Design",58:"Landscaping",6:"IBT" ,61:"Bio-Tech Quiz",62:"Spell-Correctly",63:"Jumble-Words",64:"Complementation",65:"Show Your Memory",66:"Structure Modelling",67:"Puzzle",7:"GAME",71:"FIFA 11",72:"Counter-Strike",73:"NFS-Most Wanted"};
+var branchCode={ 1:"MEGA" ,11:"All Izz Not Well",12:"Robo-Matrix",13:"Electro-Avtaar",14:"Innovatia Returns",15:"TechRoadies Reloaded",16:"Chacha Choudhary", 2:"CSE" , 21:"Ad-Veb",22:"Debuggage",23:"Python-Geek",24:"Kill'em",25:"Lui-Commando",26:"Jumble-Mumble",28:"Binary Battles",29:"WorkShop",3:"MECH" ,31:"Design Your Dreams",32:"Kit Cad",33:"The Machinist",34:"Rush To Assemble-Engine",35:"Cluedo",36:"Future-Tech",37:"Baja De Innovacion",4:"ECE" ,41:"Wavemania",42:"Electro-Quiz",43:"EMO-Express22",44:"Circuit-Bug",45:"Micro-Controller Coding",46:"Circuit-Electronique",47:"Electro Trade",48:"Electo-Maze",5:"ARCH" ,51:"Architectural Symposium",52:"Art Installation",53:"Digi-Art",54:"Face-Painting",55:"Caricature-Making",56:"Poster-Making",57:"Logo-Design",58:"Landscaping",6:"IBT" ,61:"Bio-Tech Quiz",62:"Spell-Correctly",63:"Jumble-Words",64:"Complementation",65:"Show Your Memory",66:"Structure Modelling",67:"Puzzle",7:"GAME",71:"FIFA 11",72:"Counter-Strike",73:"NFS-Most Wanted"};
 
 /****************************************************************/
 function printData(data){
