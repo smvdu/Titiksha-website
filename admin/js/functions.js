@@ -70,7 +70,7 @@ function sendLoginDetails() {
            		$(".msg").html("* Wrong Username or Password");
            		setTimeout(function(){
            			$(".msg").html("");
-           		},3000);
+           		},2000);
            }
                 
         }
@@ -98,12 +98,16 @@ function logoutAdmin(){
 function sendQuery(){
 	var query=document.forms["query_Box"]["query"].value;
 	var serverPage= "php/query.php?query="+query;
-	xmlhttp.open("GET", serverPage);
+	xmlhttp.open("GET", serverPage,false);
     xmlhttp.onreadystatechange = function() {
         if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
-        	$(".loading-bar").fadeOut(100);
-           if(new String(xmlhttp.responseText)==""){
-               alert("Oops,Something goes wrong");
+        	$(".processing-bar").hide();
+          var responseText=new String(xmlhttp.responseText);
+          console.log("ak:-  "+responseText);
+           if(responseText=="error"){
+              alert("Oops,Something goes wrong");
+           }else if(responseText=="true"){
+              alert("Your action performed successfully.");
            }else{
            		$(".queryResult").show();
            		resetQueryBox();
@@ -111,8 +115,8 @@ function sendQuery(){
            		JSON.stringify(data);
            		printData(data);
            }        
-        }else if(xmlhttp.readyState < 4 && xmlhttp.status == 200 ){
-        	$(".loading-bar").fadIn(100);
+        }else {
+        	$(".processing-bar").show();
         }
     }
     xmlhttp.send(null);

@@ -4,11 +4,10 @@ $(document).ready(function(){
 		if(validateForm()){
 			sendLoginDetails();
 		}else{
-			resetFields();
 			$(".msg").html("* Please fill all the fields .");
 			setTimeout(function(){
-           			$(".msg").html("");
-           		},3000);
+				$(".msg").html("");
+			},2000);
 		}	
 	});
 
@@ -21,6 +20,7 @@ $(document).ready(function(){
 	});
 
 	$(".submit").click(function(){
+		$(".queryResult").hide();
 		sendQuery();
 	});
 
