@@ -577,7 +577,11 @@
 										</div>
 										<h3>Professional Ethics</h3>
 										<div>
-											<p>The talk on “Professional Ethics” is going to be delivered by Dr. Anil Kumar Tewari, Asst. Prof., SOPC. It aims at creating an ethical awareness in the students along with a new mode of thinking about how to respond to ethical issues with integrity and creative imagination in a given professional context. It also aims at enabling the students to recognize and deal ethically with the conflict of interests likely to arise while discharging their professional responsibilities. The points will be illustrated with the help of familiar case studies. </p>
+											<p>The talk on “Professional Ethics” is going to be delivered by Dr. Anil Kumar Tewari,
+											 Asst. Prof., SOPC. It aims at creating an ethical awareness in the students along with
+											  a new mode of thinking about how to respond to ethical issues with integrity and creative
+											   imagination in a given professional context. It also aims at enabling the students to recognize and	deal ethically with the conflict of interests likely to arise while discharging their professional responsibilities.
+											 The points will be illustrated with the help of familiar case studies. </p>
 											
 											<br><br>
 
