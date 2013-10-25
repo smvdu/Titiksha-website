@@ -373,12 +373,12 @@
 											<p>There  is  a  complete  matrix  of  Robotic  events,  each  one
 												focusing on introducing a particular trait into the robot.</p>
 											<ul>
-												<li>1. Robot Adventure : <a href="https://www.facebook.com/ajax/messaging/attachment.php?attach_id=8c8989b2fba504f34b09db3f199cd64d&mid=mid.1382120323120%3Aa8468d7b77199b8b94&hash=AQDhUpRBWFWF_1Sl" target="_blank" style="text-decoration: underline;"> click here for Rules.</a></li>
-												<li>2. Robot Basketball</li>
-												<li>3. Robot Race : <a href="https://www.facebook.com/ajax/messaging/attachment.php?attach_id=8c8989b2fba504f34b09db3f199cd64d&mid=mid.1382120323120%3Aa8468d7b77199b8b94&hash=AQDhUpRBWFWF_1Sl" target="_blank" style="text-decoration: underline;"> click here for Rules.</a></li>
+												<li>1. Robot Adventure | 26 Oct : 4:30pm - 6:30pm<a href="https://www.facebook.com/ajax/messaging/attachment.php?attach_id=8c8989b2fba504f34b09db3f199cd64d&mid=mid.1382120323120%3Aa8468d7b77199b8b94&hash=AQDhUpRBWFWF_1Sl" target="_blank" style="text-decoration: underline;"> click here for Rules.</a></li>
+												<li>2. Robot Basketball | 27 Oct : 9:00am - 10:00am</li>
+												<li>3. Robot Race  | 26 Oct : 11:30am - 1:00pm<a href="https://www.facebook.com/ajax/messaging/attachment.php?attach_id=8c8989b2fba504f34b09db3f199cd64d&mid=mid.1382120323120%3Aa8468d7b77199b8b94&hash=AQDhUpRBWFWF_1Sl" target="_blank" style="text-decoration: underline;"> click here for Rules.</a></li>
 												<li>4. Robo SANGRAM  | 27 Oct : 2:30pm-3:30pm <a href="https://docs.google.com/file/d/0B_vScjUjXFe7ajFhR0Q3cjhpQms/edit?usp=sharing" target="_blank" style="text-decoration:underline;">Click here for Rules</a></li>
-												<li>5. SWACHALIT ROBO  | 26 Oct : 2:30pm-4:30pm <a href="https://docs.google.com/file/d/0B_vScjUjXFe7ZDNEcnoxYXBQZVk/edit?usp=sharing" target="_blank" style="text-decoration:underline;">Click here for Rules </a> </li>
-												<li>6. Robot Soccer</li>
+												<li>5. SWACHALIT ROBO  | 26 Oct : 2:30pm-3:30pm <a href="https://docs.google.com/file/d/0B_vScjUjXFe7ZDNEcnoxYXBQZVk/edit?usp=sharing" target="_blank" style="text-decoration:underline;">Click here for Rules </a> </li>
+												<li>6. Robot Soccer | </li>
 											</ul>
 												<p>The  robot  winning  in  max  categories  of  Robo­matrix  will  be  awarded
 													as the “BEST ROBOT”. </p>
@@ -562,6 +562,38 @@
 								</div>
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
+
+							<div class="uc-container">
+								<div class="md-trigger" data-modal="modal-66">
+									<span class="icon-eye"><em>Talk's</em></span>
+									<p>Professional Ethics</p>
+									
+								</div>
+								<div class="md-modal md-effect-11" id="modal-66">
+									<div class="md-content">
+										<div class="md-header">
+											<button class="md-register register" data-branch="1" data-event="16">Register</button>
+											<button class="md-close close">Close!</button>
+										</div>
+										<h3>Professional Ethics</h3>
+										<div>
+											<p></p>
+											
+											<br><br>
+
+											<ul><li><strong>Speaker </strong> : Dr. Anil Kr. Tiwari ( Asst. Prof. SOP)</li>
+												<li><strong>Schedule</strong> : 26 Oct : 6pm - 7pm | Venue : Lecture Theatre D </li>
+												<li><strong>Organiser :</strong> Gaurav Singh</li>
+												<li><strong>Contact :</strong>+91-9796-446317</li>
+												
+											</ul>
+
+											
+										</div>
+									</div>
+								</div>
+								<div class="md-overlay"></div><!-- the overlay element -->
+							</div><!-- / uc-container -->
 							
 							
 							
@@ -698,12 +730,12 @@
 										<h3>KILL'EM</h3>
 										<div>
 											<p>This  event  is  similar  to  the  "Troubleshooting"  event  of  the
-												titiksha 2k12. In  this  event, the  participants  will  be  given  6­8  problems
-												of which 5 will easier and others will be little tough.
+												titiksha 2k12. In  this  event, the  participants  will  be  given  6-­8  problems 
+												based of Windows OS , of which 5 will easier and others will be little tough.
 												The  participants  have  to  solve  and  trooubleshoot  all  the  problems  or
 												most of them and they will be ranked accordingly.</p>
-												<p><strong>TIME </strong>- Round 1: 45 min. <br>
-											Round 2: 45 min.</p>
+												<p><strong>TIME </strong>- Round 1: 30 min. <br>
+											Round 2: 30 min.</p>
 											<br><br>
 										<ul>
 
