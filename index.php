@@ -1169,7 +1169,7 @@
 											
 											<br><br>
 											<ul>
-												<li><strong>Schedule : </strong> 27th October :  11:00 am - 1:30 pm</li>
+												<li><strong>Schedule : </strong> 27th October :  11:00 am - 12:30 pm</li>
 												<li><strong>Event Co-ordinator : </strong>Mohit Gupta |Chitrarth Nirmal</li>
 												<li><strong>Contact :</strong> +91-94196-95210 | </li>
 											</ul>
@@ -1243,13 +1243,13 @@
 										</div>
 										<h3>ELECTRO-QUIZ</h3>
 										<div>
-											<p>Questions  will  be  based  on  knowledge  regarding  with  lab  instruments and  related  to  technology.  The  quiz  will  be  held  in  two  <strong>rounds</strong>. Those
+											<p>Questions  will  be  based  on  knowledge  regarding  with  general awareness and  related  to  technology.  The  quiz  will  be  held  in  two  <strong>rounds</strong>. Those
 												qualifying  the  preliminary  round  will be permitted to participate in the
 												final.</p>
 											<br><br>
 											<ul>
 
-												<li><strong>Schedule : </strong>26th Oct : 6 pm to 8 pm | Venue :  Lecture Theatre C </li>
+												<li><strong>Schedule : </strong>26th Oct : 10 am to 12 pm | Venue :  Lecture Theatre A </li>
 												<li><strong>Event co-ordinator: </strong> Brijesh Kumar | Suraj Kumar | Shobhit Verma</li>
 												<li><strong>Contact:</strong> +91-9086255280</li> 
 											
@@ -1350,7 +1350,7 @@
 											<br><br>
 											<ul>
 
-												<li><strong>Schedule : </strong>26th Oct : 9 am to 10:30 am | Venue : Xilinx Lab C-105</li>
+												<li><strong>Schedule : </strong>26th Oct : 6 pm to 8pm  | Venue : Gather at Fountain Area ,after that Xilinx Lab C-105</li>
 												<li><strong>Event co-ordinator: </strong>DANISH SIDDIQUI | Mansi | Neha Sharma</li>
 												<li><strong>Contact: </strong>+91-9796-415772</li>
 
@@ -1445,7 +1445,7 @@
 											<br><br>
 											<ul>
 
-												<li><strong>Schedule : </strong>26th Oct : 2pm-4pm | Venue : Lecture C</li>
+												<li><strong>Schedule : </strong>27th Oct : 2pm-4pm | Venue : Lecture C</li>
 												<li><strong>Event co-ordinator: </strong> APPORVA SHUKLA | LAKHAN | PRAYAG VARSHNEY</li>
 												<li><strong>Contact: </strong>  +91-9086-119935</li>
 
