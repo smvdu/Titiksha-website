@@ -180,14 +180,16 @@ $(document).ready(function(){
     // Titiksha Event user Dashboard 
 
     $(".md-register").click(function(){
-        if(loggedIn=="true"){
+        showEventMessage(" Registeration for events are closed now .");
+       /* if(loggedIn=="true"){
+
             var branchId=$(this).attr("data-branch");
             var eventId=$(this).attr("data-event");
-            checkEventRegistered(branchId,eventId);   
+            checkEventRegistered(branchId,eventId);  
         }else{
             // Not logged In
             showEventMessage(" Please Login to register for the event");
-        }
+        }*/
     });
 
     $(".dash-menu ul>li").click(function(){
