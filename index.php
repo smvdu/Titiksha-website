@@ -347,7 +347,8 @@
 											 <br><a href="http://sample.avfconsultancy.org/" target="_blank">Please follow this for more Details.</a>
 											<br><br>
 											<ul>
-												<li><strong>Schedule : </strong>26th Oct - Round 1 : 9-10am  | 27th Oct - Round 2 : 2-4pm</li>
+												<li><strong>Schedule : </strong>26th Oct - Round 1 : 9-10am  | 27th Oct - Round 2 : 1:30-4pm</li>
+												<li><strong>Venue : </strong>Lecture Theatre C or D</li>
 												<li><strong>Event Co-ordinator :</strong> Shubham Tiwari | Aditya Ranjan | Rajesh Pathak</li>
 												<li><strong>Contact :</strong> +91-9796-289195 | +91-9796-824820 | +91-9086-252184</li>
 											</ul>
@@ -634,7 +635,7 @@
 												<p><strong>TIME</strong> : ­ 2 DAYS </p>
 											<br><br>
 											<ul>
-												<li><strong>Schedule : </strong>26th Oct : 2-3 pm |	Venue : Net Lab </li>
+												<li><strong>Note : </strong>On 27th October , Show the presentation of your website in NET LAB at 1:00 pm-2:00 pm  </li>
 												<li><strong>Event Co-ordinator :</strong>ADITYA RANJAN</li>
 												<li><strong>Contact :</strong> +91-9796-824820</li>
 											</ul>
@@ -811,7 +812,7 @@
 											
 											<br><br>
 											<ul>
-												<li><strong>Schedule : </strong>26th Oct : 3-4pm	|  Venue : Programming Lab</li>
+												<li><strong>Schedule : </strong>27th Oct : 2-3pm	|  Venue : Programming Lab</li>
 												<li><strong>Event Co-ordinator : </strong>Aman Kumar | Ritesh Srivastava </li>
 												<li><strong>Contact :</strong> +91-9697-569-168 | 9086-261031</li>
 											</ul>
@@ -1102,11 +1103,11 @@
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
 							<div class="uc-container">
-								<div class="md-trigger" data-modal="modal-41">
+								<div class="md-trigger" data-modal="modal-42">
 									<span class="icon-eye"><em>BAJA de innovación</em></span>
 									<p>Participate and Contribute your idea in "WILD BAnTENG</p>
 								</div>
-								<div class="md-modal md-effect-11" id="modal-41">
+								<div class="md-modal md-effect-11" id="modal-42">
 									<div class="md-content">
 										<div class="md-header">
 											<button class="md-register register" data-branch="3" data-event="37">Register</button>
@@ -1137,6 +1138,40 @@
 												<li><strong>Schedule : </strong>Round 1 : 26 Oct : 10:00am-11:00am | Round 2 : 27 Oct : 10:00am-11:00am</li>
 												<li><strong>Event Co-ordinator : </strong>Anand kumar | K. lokesh Kumar | Monika</li>
 												<li><strong>Contact :</strong> +91-9906-007341 | 9796-075597 | 9622-269983</li>
+											</ul>
+											
+										</div>
+									</div>
+								</div>
+								<div class="md-overlay"></div><!-- the overlay element -->
+							</div><!-- / uc-container -->
+							<div class="uc-container">
+								<div class="md-trigger" data-modal="modal-41">
+									<span class="icon-eye"><em>The Foundation</em></span>
+									<p>General Science And Aptitude</p>
+								</div>
+								<div class="md-modal md-effect-11" id="modal-41">
+									<div class="md-content">
+										<div class="md-header">
+											<button class="md-register register" data-branch="3" data-event="38">Register</button>
+											<button class="md-close close">Close!</button>
+										</div>
+										<h3>The Foundation</h3>
+										<div>
+											
+											<ul style="padding: 0 0 20px 20px;"> The event will be organised in two stages:
+												<li>Paper I (PRE.) will consist of 25 questions covering the topics-BASIC MATHEMATICS, GENERAL SCIENCE AND APTITUDE.</li>
+												<li>Paper II (MAINS) will  consist of 10 questions on the same topics but of higher level.</li>
+											</ul>
+											<img src="img/foundation.jpg" style="width: 300px;height: 160px;" />
+											<p>Total time- One hour thirty minutes</p>
+											<p>Paper I- 45 mins., and Paper II-45mins.</p>
+											
+											<br><br>
+											<ul>
+												<li><strong>Schedule : </strong> 27th October :  11:00 am - 1:30 pm</li>
+												<li><strong>Event Co-ordinator : </strong>Mohit Gupta |Chitrarth Nirmal</li>
+												<li><strong>Contact :</strong> +91-94196-95210 | </li>
 											</ul>
 											
 										</div>
