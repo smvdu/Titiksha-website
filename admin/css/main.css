@@ -197,6 +197,13 @@ form[name="login_form"]{
 .button{
     width: 90px;
 }
+
+.processing-bar{
+    position: absolute;
+    text-align: center;
+    margin-top: 120px;
+    width: 100%;
+}
 #reset-query{
     color: #5762E0;
     font-size: 16px;

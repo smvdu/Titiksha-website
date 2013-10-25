@@ -20,9 +20,9 @@
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-        <link rel="stylesheet" href="../../css/normalize.css">
+        <link rel="stylesheet" href="../css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
-        <script src="../../js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="../js/vendor/modernizr-2.6.2.min.js"></script>
 
     </head>
     <body>
@@ -36,29 +36,30 @@
             <div class="msg-content"></div>
         </div>
         <div class="md-overlay"></div><!-- the overlay element -->
+        <div id="header"><a href="../">Back To Home</a></div>
       <? if(!isset($_SESSION["username"])){
        ?>
         
        <div class="loginWrapper" >
             <div class="loginBox">
                 <h1>Titiksha Admin Login</h1>
-                <form name="login_form" id="login_form" method="post"  autocomplete="off">
+                <form name="login_form" id="login_form" method="post" action="" autocomplete="off">
                 <table>
                     <tr>
                         <td>
                             <label for="username">Username: </label>
-                            <input name="username" type="text" size="30" maxlength="35" autocomplete="off"/>
+                            <input name="username" type="text" size="30"  autocomplete="off"/>
                         </td>
                     </tr>
                     <tr>
                         <td>
                             <label for="password">Password: </label>
-                            <input name="password" type="password" size="30" maxlength="35" autocomplete="off"/>
+                            <input name="password" type="password" size="30" autocomplete="off"/>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <div class="login"><input class="button" type="submit" value="Login"></div>
+                            <div class="login button">Login</div>
                             <div class="reset">Reset the fields</div>
                         </td>
 
@@ -89,7 +90,7 @@
                             </td>
                             <td style="width:20%;">
                                 <div class="query_submit">
-                                    <input class="button" type="submit" value="Submit">
+                                    <div class="submit button">Submit</div>
                                 </div>
                             </td>
                             <td style="width:15%;">
@@ -101,8 +102,8 @@
                     </table>
                 </form>
             </div>  
-            <div class="loading-bar" style="display:none;">
-                <div id="loading">Loading</div>
+            <div class="processing-bar" style="display:none;">
+                <div id="processing">Please wait while your request is processing . . .</div>
             </div>
             <div class="queryResult" style="display:none;">
                 <div id="result-head">
@@ -116,8 +117,8 @@
         </div>
         <?php } ?>
         
-        <script src="../../js/vendor/jquery-1.9.1.min.js"></script>
-        <script src="../../js/plugins.js"></script>
+        <script src="../js/vendor/jquery-1.9.1.min.js"></script>
+        <script src="../js/plugins.js"></script>
         <script src="js/functions.js"></script>
         <script src="js/main.js"></script>
     
