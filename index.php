@@ -503,7 +503,7 @@
 
 											<ul>
 												<li><strong>Schedule: </strong> 25 Oct | 2pm (Form Filling) </li>	
-												<li><strong>Event Co-ordinator :</strong> Daud Shareef | Navin Ray | Ashwani Yadav | Anup Chaudhary </li>
+												<li><strong>Event Co-ordinator :</strong> Daud Shareef | Navin Ray | Ashwani Singh | Anup Chaudhary </li>
 												<li><strong>Contact :</strong>+91-9697-679928 | +91-9086-251103</li>
 												
 											</ul>
