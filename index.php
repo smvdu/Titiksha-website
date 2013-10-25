@@ -428,7 +428,7 @@
 												the valedictory ceremony in auditorium.</p>
 
 											<ul>
-												<li><strong>Schedule : </strong>26 Oct - 10:00 am to 1:00 pm | Venue : Lecture hall C/D </li>
+												<li><strong>Schedule : </strong>26 Oct - 10:00 am to 1:00 pm | Venue : Lecture hall C</li>
 												<li><strong>Event Co-ordinator :</strong> Ashish Singh | Pawan Kumar | Chandan Jha | Jhanvi Tiwari</li>
 												<li><strong>Contact :</strong>+91-9596-997294 | +91-9596-915301 | +91-9086-728974</li>
 											</ul>
@@ -465,7 +465,7 @@
 											<br>
 
 											<ul>
-												<li><strong>Schedule : </strong>26 Oct - 2-5 pm | Venue : Room C-105 / C-110 </li>
+												<li><strong>Schedule : </strong>27 Oct -9-11 pm | Venue : Room C-105 / C-110 </li>
 												<li><strong>Event Co-ordinator :</strong>Panchdev Parihar | Chandan jha |  Pawan kumar </li>
 												<li><strong>Contact :</strong> +91-9797-666960  | +91-9086-728974</li>
 											</ul>
@@ -1218,7 +1218,7 @@
 											<br><br>
 											<ul>
 
-												<li><strong>Schedule : </strong>26th Oct : 6 pm to 8 pm | Venue :  Lecture Theatre C </li>
+												<li><strong>Schedule : </strong>26th Oct : 10-12 pm | Venue :  Lecture Theatre A </li>
 												<li><strong>Event co-ordinator: </strong> Brijesh Kumar | Suraj Kumar | Shobhit Verma</li>
 												<li><strong>Contact:</strong> +91-9086255280</li> 
 											
@@ -1319,7 +1319,7 @@
 											<br><br>
 											<ul>
 
-												<li><strong>Schedule : </strong>26th Oct : 9 am to 10:30 am | Venue : Xilinx Lab C-105</li>
+												<li><strong>Schedule : </strong>26th Oct : 6-8pm | Venue : Fountain area</li>
 												<li><strong>Event co-ordinator: </strong>DANISH SIDDIQUI | Mansi | Neha Sharma</li>
 												<li><strong>Contact: </strong>+91-9796-415772</li>
 
@@ -1366,7 +1366,7 @@
 											<br><br>
 											<ul>
 
-												<li><strong>Schedule : </strong>26 Oct : 3:30 pm - 5:30pm | Venue : Room C-105</li>
+												<li><strong>Schedule : </strong>26 Oct : 3:30 pm - 5:30pm | Venue : Xilinx Lab</li>
 												<li><strong>Event co-ordinator: </strong> Prayag Varshney | Panch Dev parihar | Apoorv Shukla </li>
 												<li><strong>Contact: </strong>+91-9697992483 | </li>
 
@@ -1414,7 +1414,7 @@
 											<br><br>
 											<ul>
 
-												<li><strong>Schedule : </strong>26th Oct : 2pm-4pm | Venue : Lecture C</li>
+												<li><strong>Schedule : </strong>27th Oct : 2pm-4pm | Venue : Lecture C</li>
 												<li><strong>Event co-ordinator: </strong> APPORVA SHUKLA | LAKHAN | PRAYAG VARSHNEY</li>
 												<li><strong>Contact: </strong>  +91-9086-119935</li>
 
