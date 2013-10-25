@@ -373,12 +373,12 @@
 											<p>There  is  a  complete  matrix  of  Robotic  events,  each  one
 												focusing on introducing a particular trait into the robot.</p>
 											<ul>
-												<li>1. Robot Adventure : <a href="https://www.facebook.com/ajax/messaging/attachment.php?attach_id=8c8989b2fba504f34b09db3f199cd64d&mid=mid.1382120323120%3Aa8468d7b77199b8b94&hash=AQDhUpRBWFWF_1Sl" target="_blank" style="text-decoration: underline;"> click here for Rules.</a></li>
-												<li>2. Robot Basketball</li>
-												<li>3. Robot Race : <a href="https://www.facebook.com/ajax/messaging/attachment.php?attach_id=8c8989b2fba504f34b09db3f199cd64d&mid=mid.1382120323120%3Aa8468d7b77199b8b94&hash=AQDhUpRBWFWF_1Sl" target="_blank" style="text-decoration: underline;"> click here for Rules.</a></li>
+												<li>1. Robot Adventure | 26 Oct : 4:30pm - 6:30pm<a href="https://www.facebook.com/ajax/messaging/attachment.php?attach_id=8c8989b2fba504f34b09db3f199cd64d&mid=mid.1382120323120%3Aa8468d7b77199b8b94&hash=AQDhUpRBWFWF_1Sl" target="_blank" style="text-decoration: underline;"> click here for Rules.</a></li>
+												<li>2. Robot Basketball | 27 Oct : 9:00am - 10:00am</li>
+												<li>3. Robot Race  | 26 Oct : 11:30am - 1:00pm<a href="https://www.facebook.com/ajax/messaging/attachment.php?attach_id=8c8989b2fba504f34b09db3f199cd64d&mid=mid.1382120323120%3Aa8468d7b77199b8b94&hash=AQDhUpRBWFWF_1Sl" target="_blank" style="text-decoration: underline;"> click here for Rules.</a></li>
 												<li>4. Robo SANGRAM  | 27 Oct : 2:30pm-3:30pm <a href="https://docs.google.com/file/d/0B_vScjUjXFe7ajFhR0Q3cjhpQms/edit?usp=sharing" target="_blank" style="text-decoration:underline;">Click here for Rules</a></li>
-												<li>5. SWACHALIT ROBO  | 26 Oct : 2:30pm-4:30pm <a href="https://docs.google.com/file/d/0B_vScjUjXFe7ZDNEcnoxYXBQZVk/edit?usp=sharing" target="_blank" style="text-decoration:underline;">Click here for Rules </a> </li>
-												<li>6. Robot Soccer</li>
+												<li>5. SWACHALIT ROBO  | 26 Oct : 2:30pm-3:30pm <a href="https://docs.google.com/file/d/0B_vScjUjXFe7ZDNEcnoxYXBQZVk/edit?usp=sharing" target="_blank" style="text-decoration:underline;">Click here for Rules </a> </li>
+												<li>6. Robot Soccer | </li>
 											</ul>
 												<p>The  robot  winning  in  max  categories  of  Robo­matrix  will  be  awarded
 													as the “BEST ROBOT”. </p>
@@ -562,6 +562,38 @@
 								</div>
 								<div class="md-overlay"></div><!-- the overlay element -->
 							</div><!-- / uc-container -->
+
+							<div class="uc-container">
+								<div class="md-trigger" data-modal="modal-66">
+									<span class="icon-eye"><em>Talk's</em></span>
+									<p>Professional Ethics</p>
+									
+								</div>
+								<div class="md-modal md-effect-11" id="modal-66">
+									<div class="md-content">
+										<div class="md-header">
+											<button class="md-register register" data-branch="1" data-event="16">Register</button>
+											<button class="md-close close">Close!</button>
+										</div>
+										<h3>Professional Ethics</h3>
+										<div>
+											<p></p>
+											
+											<br><br>
+
+											<ul><li><strong>Speaker </strong> : Dr. Anil Kr. Tiwari ( Asst. Prof. SOP)</li>
+												<li><strong>Schedule</strong> : 26 Oct : 6pm - 7pm | Venue : Lecture Theatre D </li>
+												<li><strong>Organiser :</strong> Gaurav Singh</li>
+												<li><strong>Contact :</strong>+91-9796-446317</li>
+												
+											</ul>
+
+											
+										</div>
+									</div>
+								</div>
+								<div class="md-overlay"></div><!-- the overlay element -->
+							</div><!-- / uc-container -->
 							
 							
 							
@@ -698,12 +730,12 @@
 										<h3>KILL'EM</h3>
 										<div>
 											<p>This  event  is  similar  to  the  "Troubleshooting"  event  of  the
-												titiksha 2k12. In  this  event, the  participants  will  be  given  6­8  problems
-												of which 5 will easier and others will be little tough.
+												titiksha 2k12. In  this  event, the  participants  will  be  given  6-­8  problems 
+												based of Windows OS , of which 5 will easier and others will be little tough.
 												The  participants  have  to  solve  and  trooubleshoot  all  the  problems  or
 												most of them and they will be ranked accordingly.</p>
-												<p><strong>TIME </strong>- Round 1: 45 min. <br>
-											Round 2: 45 min.</p>
+												<p><strong>TIME </strong>- Round 1: 30 min. <br>
+											Round 2: 30 min.</p>
 											<br><br>
 										<ul>
 
@@ -1059,7 +1091,7 @@
 											<p><a href="https://docs.google.com/file/d/0B_vScjUjXFe7a0pDQnpkOWpOYm8/edit?usp=sharing"  style="text-decoration: underline;" target="_blank"> click here for more.</a></p>
 											<br><br>
 											<ul>
-												<li><strong>Schedule : </strong>27th Oct : 12:00pm-2:00pm</li>
+												<li><strong>Schedule : </strong>27th Oct : 2:00pm-3:00pm</li>
 												<li><strong>Event Co-ordinator : </strong>Rajesh Baranwal | Sanjeev Shukla | Vivek Mishra | Vinay Kumar Singh </li>
 												<li><strong>Contact :</strong> +91-8716-058339 | 9796-852097 | 9018-876131 | 9622-796834</li>
 											</ul>
@@ -1182,7 +1214,7 @@
 											<br><br>
 											<ul>
 
-												<li><strong>Schedule : </strong>26th Oct : 3:30 pm to 6:00 pm | Venue :  Lecture Theatre C </li>
+												<li><strong>Schedule : </strong>26th Oct : 6 pm to 8 pm | Venue :  Lecture Theatre C </li>
 												<li><strong>Event co-ordinator: </strong> Brijesh Kumar | Suraj Kumar | Shobhit Verma</li>
 												<li><strong>Contact:</strong> +91-9086255280</li> 
 											
@@ -1283,7 +1315,7 @@
 											<br><br>
 											<ul>
 
-												<li><strong>Schedule : </strong>27th Oct : 5:30 pm to 8:00 pm | Venue : Xilinx Lab C-105</li>
+												<li><strong>Schedule : </strong>26th Oct : 9 am to 10:30 am | Venue : Xilinx Lab C-105</li>
 												<li><strong>Event co-ordinator: </strong>DANISH SIDDIQUI | Mansi | Neha Sharma</li>
 												<li><strong>Contact: </strong>+91-9796-415772</li>
 
@@ -1330,7 +1362,7 @@
 											<br><br>
 											<ul>
 
-												<li><strong>Schedule : </strong>26 Oct : Round 1 - 8-9 pm | 27 Oct : Round 2 - 2-3 pm | Venue : Room C-105</li>
+												<li><strong>Schedule : </strong>26 Oct : 3:30 pm - 5:30pm | Venue : Room C-105</li>
 												<li><strong>Event co-ordinator: </strong> Prayag Varshney | Panch Dev parihar | Apoorv Shukla </li>
 												<li><strong>Contact: </strong>+91-9697992483 | </li>
 
@@ -1378,7 +1410,7 @@
 											<br><br>
 											<ul>
 
-												<li><strong>Schedule : </strong>26th Oct : 9-10am | Venue : Room C-105</li>
+												<li><strong>Schedule : </strong>26th Oct : 2pm-4pm | Venue : Lecture C</li>
 												<li><strong>Event co-ordinator: </strong> APPORVA SHUKLA | LAKHAN | PRAYAG VARSHNEY</li>
 												<li><strong>Contact: </strong>  +91-9086-119935</li>
 
@@ -1837,7 +1869,7 @@
 											<p>TEAM : 2 Members</p>
 											<br><br>
 											<ul>
-												<li><strong>Schedule : </strong>27th Oct : 3-5pm</li>
+												<li><strong>Schedule : </strong>27th Oct : 2-4pm</li>
 												<li><strong>Event co-ordinator: </strong> Aman Sharma | Ankit Pandey  </li>
 												<li><strong>Contact: </strong> +91-9469285442</li>
 
