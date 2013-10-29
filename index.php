@@ -429,7 +429,7 @@
 												the valedictory ceremony in auditorium.</p>
 
 											<ul>
-												<li><strong>Schedule : </strong>26 Oct - 10:00 am to 1:00 pm | Venue : Lecture hall C/D </li>
+												<li><strong>Schedule : </strong>26 Oct - 10:00 am to 1:00 pm | Venue : Lecture hall C</li>
 												<li><strong>Event Co-ordinator :</strong> Ashish Singh | Pawan Kumar | Chandan Jha | Jhanvi Tiwari</li>
 												<li><strong>Contact :</strong>+91-9596-997294 | +91-9596-915301 | +91-9086-728974</li>
 											</ul>
@@ -466,7 +466,7 @@
 											<br>
 
 											<ul>
-												<li><strong>Schedule : </strong>26 Oct - 2-5 pm | Venue : Room C-105 / C-110 </li>
+												<li><strong>Schedule : </strong>27 Oct -9-11 pm | Venue : Room C-105 / C-110 </li>
 												<li><strong>Event Co-ordinator :</strong>Panchdev Parihar | Chandan jha |  Pawan kumar </li>
 												<li><strong>Contact :</strong> +91-9797-666960  | +91-9086-728974</li>
 											</ul>
@@ -504,7 +504,7 @@
 
 											<ul>
 												<li><strong>Schedule: </strong> 25 Oct | 2pm (Form Filling) </li>	
-												<li><strong>Event Co-ordinator :</strong> Daud Shareef | Navin Ray | Ashwani Yadav | Anup Chaudhary </li>
+												<li><strong>Event Co-ordinator :</strong> Daud Shareef | Navin Ray | Ashwani Singh | Anup Chaudhary </li>
 												<li><strong>Contact :</strong>+91-9697-679928 | +91-9086-251103</li>
 												
 											</ul>
@@ -578,7 +578,12 @@
 										</div>
 										<h3>Professional Ethics</h3>
 										<div>
-											<p></p>
+											<p>The talk on “Professional Ethics” is going to be delivered by Dr. Anil Kumar Tewari, Asst. Prof.,
+											 SOPC. It aims at creating an ethical awareness in the students along with a new mode of 
+											 thinking about how to respond to ethical issues with integrity and creative imagination in a given
+											  professional context. It also aims at enabling the students to recognize and deal ethically 
+											  with the conflict of interests likely to arise while discharging their professional responsibilities.
+											   The points will be illustrated with the help of familiar case studies.  </p>
 											
 											<br><br>
 
@@ -1249,6 +1254,7 @@
 											<br><br>
 											<ul>
 
+
 												<li><strong>Schedule : </strong>26th Oct : 10 am to 12 pm | Venue :  Lecture Theatre A </li>
 												<li><strong>Event co-ordinator: </strong> Brijesh Kumar | Suraj Kumar | Shobhit Verma</li>
 												<li><strong>Contact:</strong> +91-9086255280</li> 
@@ -1350,6 +1356,7 @@
 											<br><br>
 											<ul>
 
+
 												<li><strong>Schedule : </strong>26th Oct : 6 pm to 8pm  | Venue : Gather at Fountain Area ,after that Xilinx Lab C-105</li>
 												<li><strong>Event co-ordinator: </strong>DANISH SIDDIQUI | Mansi | Neha Sharma</li>
 												<li><strong>Contact: </strong>+91-9796-415772</li>
@@ -1397,7 +1404,7 @@
 											<br><br>
 											<ul>
 
-												<li><strong>Schedule : </strong>26 Oct : 3:30 pm - 5:30pm | Venue : Room C-105</li>
+												<li><strong>Schedule : </strong>26 Oct : 3:30 pm - 5:30pm | Venue : Xilinx Lab</li>
 												<li><strong>Event co-ordinator: </strong> Prayag Varshney | Panch Dev parihar | Apoorv Shukla </li>
 												<li><strong>Contact: </strong>+91-9697992483 | </li>
 
