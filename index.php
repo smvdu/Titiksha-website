@@ -35,8 +35,8 @@
 
 		<title><?php echo site_title; ?></title>
 	    <meta itemprop="name" content="<?php echo site_title; ?>">
-	    <meta name="description" content="<?php echo site_description; ?>">
-	    <meta itemprop="description" content="<?php echo site_description; ?>">
+	    <meta name="description" content="Titiksha is annual tech-fest of Shri Mata Vaishno Devi University.">
+	    <meta itemprop="description" content="Titiksha is annual tech-fest of Shri Mata Vaishno Devi University.">
 	    <meta itemprop="image" content="<?php echo site_photo_url; ?>">
 	    <meta name="keywords" content="<?php echo site_keywords; ?>">
 	    <meta name="author" content="<?php echo site_author; ?>">
