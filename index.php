@@ -2155,38 +2155,38 @@
 				<div id="ri-grid" class="ri-grid">
 					
 					<ul>
-						<li><a href="#"><img src="img/gallery/1.jpg"/></a></li>
-						<li><a href="#"><img src="img/gallery/2.jpg"/></a></li>
-						<li><a href="#"><img src="img/gallery/3.jpg"/></a></li>
-						<li><a href="#"><img src="img/gallery/4.jpg"/></a></li>
-						<li><a href="#"><img src="img/gallery/5.jpg"/></a></li>
-						<li><a href="#"><img src="img/gallery/6.jpg"/></a></li>
-						<li><a href="#"><img src="img/gallery/7.jpg"/></a></li>
-						<li><a href="#"><img src="img/gallery/8.jpg"/></a></li>
-						<li><a href="#"><img src="img/gallery/9.jpg"/></a></li>
-						<li><a href="#"><img src="img/gallery/10.jpg"/></a></li>
-						<li><a href="#"><img src="img/gallery/11.jpg"/></a></li>
-						<li><a href="#"><img src="img/gallery/12.jpg"/></a></li>
-						<li><a href="#"><img src="img/gallery/13.jpg"/></a></li>
-						<li><a href="#"><img src="img/gallery/14.jpg"/></a></li>
-						<li><a href="#"><img src="img/gallery/15.jpg"/></a></li>
-						<li><a href="#"><img src="img/gallery/16.jpg"/></a></li>
-						<li><a href="#"><img src="img/gallery/17.jpg"/></a></li>
-						<li><a href="#"><img src="img/gallery/18.jpg"/></a></li>
-						<li><a href="#"><img src="img/gallery/19.jpg"/></a></li>
-						<li><a href="#"><img src="img/gallery/20.jpg"/></a></li>
-						<li><a href="#"><img src="img/gallery/21.jpg"/></a></li>
-						<li><a href="#"><img src="img/gallery/22.jpg"/></a></li>
-						<li><a href="#"><img src="img/gallery/23.jpg"/></a></li>
-						<li><a href="#"><img src="img/gallery/24.jpg"/></a></li>
-						<li><a href="#"><img src="img/gallery/25.jpg"/></a></li>
-						<li><a href="#"><img src="img/gallery/26.jpg"/></a></li>
-						<li><a href="#"><img src="img/gallery/27.jpg"/></a></li>
-						<li><a href="#"><img src="img/gallery/28.jpg"/></a></li>
-						<li><a href="#"><img src="img/gallery/29.jpg"/></a></li>
-						<li><a href="#"><img src="img/gallery/30.jpg"/></a></li>
-						<li><a href="#"><img src="img/gallery/31.jpg"/></a></li>
-						<li><a href="#"><img src="img/gallery/32.jpg"/></a></li>
+						<li><a><img src="img/gallery/1.jpg"/></a></li>
+						<li><a><img src="img/gallery/2.jpg"/></a></li>
+						<li><a><img src="img/gallery/3.jpg"/></a></li>
+						<li><a><img src="img/gallery/4.jpg"/></a></li>
+						<li><a><img src="img/gallery/5.jpg"/></a></li>
+						<li><a><img src="img/gallery/6.jpg"/></a></li>
+						<li><a><img src="img/gallery/7.jpg"/></a></li>
+						<li><a><img src="img/gallery/8.jpg"/></a></li>
+						<li><a><img src="img/gallery/9.jpg"/></a></li>
+						<li><a><img src="img/gallery/10.jpg"/></a></li>
+						<li><a><img src="img/gallery/11.jpg"/></a></li>
+						<li><a><img src="img/gallery/12.jpg"/></a></li>
+						<li><a><img src="img/gallery/13.jpg"/></a></li>
+						<li><a><img src="img/gallery/14.jpg"/></a></li>
+						<li><a><img src="img/gallery/15.jpg"/></a></li>
+						<li><a><img src="img/gallery/16.jpg"/></a></li>
+						<li><a><img src="img/gallery/17.jpg"/></a></li>
+						<li><a><img src="img/gallery/18.jpg"/></a></li>
+						<li><a><img src="img/gallery/19.jpg"/></a></li>
+						<li><a><img src="img/gallery/20.jpg"/></a></li>
+						<li><a><img src="img/gallery/21.jpg"/></a></li>
+						<li><a><img src="img/gallery/22.jpg"/></a></li>
+						<li><a><img src="img/gallery/23.jpg"/></a></li>
+						<li><a><img src="img/gallery/24.jpg"/></a></li>
+						<li><a><img src="img/gallery/25.jpg"/></a></li>
+						<li><a><img src="img/gallery/26.jpg"/></a></li>
+						<li><a><img src="img/gallery/27.jpg"/></a></li>
+						<li><a><img src="img/gallery/28.jpg"/></a></li>
+						<li><a><img src="img/gallery/29.jpg"/></a></li>
+						<li><a><img src="img/gallery/30.jpg"/></a></li>
+						<li><a><img src="img/gallery/31.jpg"/></a></li>
+						<li><a><img src="img/gallery/32.jpg"/></a></li>
 										
 						
 					</ul>
