@@ -11,7 +11,7 @@
 *.sass-cache
 
 #php and sql files 
-.sql
+*.sql
 connect.php
 
 # OS or Editor folders
