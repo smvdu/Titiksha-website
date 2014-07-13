@@ -773,9 +773,9 @@ section .content { display: table-cell; vertical-align: middle; }
 
 #careers { color: #00b5c5; }
 #careers .content { overflow: auto; display: table; width: 100%; }
-#careers .inner { width: 1110px; margin: 0 auto; display: table-cell; vertical-align: middle; }
-#careers .left { width: 630px; }
-#careers .right { width: 480px; }
+#careers .inner { width: 100%; margin: 0 auto; display: table-cell; vertical-align: middle; }
+#careers .left { width: 0px; }
+#careers .right { width: 0px; }
 #careers .robot { position: relative; width: 290px; height: 340px; -webkit-perspective: 100px; perspective: 100px; z-index: 2; }
 #careers .wantyou { font-family: 'wood_stampregular',verdana,arial,sans-serif; font-weight: normal; font-size: 90px; position: relative; z-index: 1; margin-left: 20px; }
 #careers h1, #careers .wheel, #careers .robot-hat, #careers .robot-head, #careers .robot-hand { position: absolute; top: 0; left: 0; background-size: 100%; background-repeat: no-repeat; }

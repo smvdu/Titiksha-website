@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<!DOCTYPE complete_section[
+	<!ELEMENT complete_section (image_section,image,location,text_onhover,figure_text,header,details)>
+	<!ELEMENT image_section (image,location,text_onhover,figure_text,header,details)>
+	<!ELEMENT image (location,text_onhover)>
+	<!ELEMENT figure_text (header,details)>
+	<!ELEMENT location (#PCDATA)>
+	<!ELEMENT text_onhover (#PCDATA)>
+	<!ELEMENT header (#PCDATA)>
+	<!ELEMENT details (#PCDATA)>
+]>
+	<complete_section>
+						<image_section>
+								<image>
+									<location>
+										img/large/1.png
+									</location>
+									<text_onhover>
+										img01	
+									</text_onhover>
+								</image>
+								<figure_text>
+									<header>
+										ADD header here
+									</header>
+									<details>
+										details of Image here
+									</details>
+								</figure_text>
+						</image_section>
+
+						<image_section>
+								<image>
+									<location>
+										img/large/2.png
+									</location>
+									<text_onhover>
+										img02	
+									</text_onhover>
+								</image>
+								<figure_text>
+									<header>
+										ADD header here
+									</header>
+									<details>
+										details of Image here
+									</details>
+								</figure_text>
+						</image_section>
+
+						<image_section>
+								<image>
+									<location>
+										img/large/3.png
+									</location>
+									<text_onhover>
+										img03	
+									</text_onhover>
+								</image>
+								<figure_text>
+									<header>
+										ADD header here
+									</header>
+									<details>
+										details of Image here
+									</details>
+								</figure_text>
+						</image_section>
+
+						<image_section>
+								<image>
+									<location>
+										img/large/4.png
+									</location>
+									<text_onhover>
+										img05	
+									</text_onhover>
+								</image>
+								<figure_text>
+									<header>
+										ADD header here
+									</header>
+									<details>
+										details of Image here
+									</details>
+								</figure_text>
+						</image_section>
+
+						<image_section>
+								<image>
+									<location>
+										img/large/5.png
+									</location>
+									<text_onhover>
+										img05	
+									</text_onhover>
+								</image>
+								<figure_text>
+									<header>
+										ADD header here
+									</header>
+									<details>
+										details of Image here
+									</details>
+								</figure_text>
+						</image_section>
+
+						<image_section>
+								<image>
+									<location>
+										img/large/6.png
+									</location>
+									<text_onhover>
+										img06	
+									</text_onhover>
+								</image>
+								<figure_text>
+									<header>
+										ADD header here
+									</header>
+									<details>
+										details of Image here
+									</details>
+								</figure_text>
+						</image_section>
+
+						<image_section>
+								<image>
+									<location>
+										img/large/7.png
+									</location>
+									<text_onhover>
+										img07	
+									</text_onhover>
+								</image>
+								<figure_text>
+									<header>
+										ADD header here
+									</header>
+									<details>
+										details of Image here
+									</details>
+								</figure_text>
+						</image_section>
+
+						<image_section>
+								<image>
+									<location>
+										img/large/8.png
+									</location>
+									<text_onhover>
+										img08	
+									</text_onhover>
+								</image>
+								<figure_text>
+									<header>
+										ADD header here
+									</header>
+									<details>
+										details of Image here
+									</details>
+								</figure_text>
+						</image_section>
+
+						<image_section>
+								<image>
+									<location>
+										img/large/1.png
+									</location>
+									<text_onhover>
+										img01	
+									</text_onhover>
+								</image>
+								<figure_text>
+									<header>
+										ADD header here
+									</header>
+									<details>
+										details of Image here
+									</details>
+								</figure_text>
+						</image_section>
+
+						<image_section>
+								<image>
+									<location>
+										img/large/1.png
+									</location>
+									<text_onhover>
+										img01	
+									</text_onhover>
+								</image>
+								<figure_text>
+									<header>
+										ADD header here
+									</header>
+									<details>
+										details of Image here
+									</details>
+								</figure_text>
+						</image_section>
+
+						
+</complete_section>
