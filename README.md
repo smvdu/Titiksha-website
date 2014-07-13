@@ -1,4 +1,4 @@
-Titiksha
+Titiksha 2k14
 ========
 
 Titiksha is the Annual Technical Festival of SMVDU (Shri Mata Vaishno Devi University) 
