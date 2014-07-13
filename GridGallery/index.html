@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Technical Fest Photo Gallery</title>
+		<meta name="description" content="Shows photo gallery in grid" />
+		<meta name="keywords" content="google getting started gallery, image gallery, image grid, template, masonry" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<header class="clearfix">
+				<span>Techinical Fest &nbsp;&nbsp;<span class="bp-icon bp-icon-about" data-content=""></span></span>
+				<h1>Photo Gallery</h1>
+				<nav>
+					
+				</nav>
+			</header>
+			<div id="grid-gallery" class="grid-gallery">
+				<section class="grid-wrap">
+					<ul class="grid">
+						<li class="grid-sizer"></li><!-- for Masonry column width -->
+						
+
+
+<section id="inner_text">
+  </section>
+	<script>
+		if (window.XMLHttpRequest)
+  {// code for IE7+, Firefox, Chrome, Opera, Safari
+  xmlhttp=new XMLHttpRequest();
+  }
+else
+  {// code for IE6, IE5
+  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+xmlhttp.open("GET","grid_textl.xml",false);
+xmlhttp.send();
+xmlDoc=xmlhttp.responseXML; 
+
+var mg=document.getElementById("inner_text");
+
+var x=xmlDoc.getElementsByTagName("image_section");
+var mk="";
+for (i=0;i<x.length;i++)
+  { 
+  mk=mk+'<li><figure>';
+  mk=mk+'<img src="'+x[i].getElementsByTagName("location")[0].childNodes[0].nodeValue+'" alt="'+x[i].getElementsByTagName("text_onhover")[0].childNodes[0].nodeValue+'"/>';
+  mk=mk+'<figcaption><h3>'+x[i].getElementsByTagName("header")[0].childNodes[0].nodeValue+'</h3>';
+  mk=mk+'<p>'+x[i].getElementsByTagName("details")[0].childNodes[0].nodeValue+'</p></figcaption>';
+
+   mk=mk+'</figure></li>';
+  }
+
+mg.innerHTML=mk;
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					</ul>
+				</section><!-- // grid-wrap -->
+				<section class="slideshow">
+					<ul id="inner_text2">
+						
+  
+	
+
+
+
+
+
+					</ul>
+					<nav>
+						<span class="icon nav-prev"></span>
+						<span class="icon nav-next"></span>
+						<span class="icon nav-close"></span>
+					</nav>
+					<div class="info-keys icon">Navigate with arrow keys</div>
+				</section><!-- // slideshow -->
+			</div><!-- // grid-gallery -->
+		</div>
+
+		<script>
+		if (window.XMLHttpRequest)
+  {// code for IE7+, Firefox, Chrome, Opera, Safari
+  xmlhttp1=new XMLHttpRequest();
+  }
+else
+  {// code for IE6, IE5
+  xmlhttp1=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+xmlhttp1.open("GET","grid_textl.xml",false);
+xmlhttp1.send();
+xmlDoc=xmlhttp1.responseXML; 
+
+var mn=document.getElementById("inner_text2");
+
+var x=xmlDoc.getElementsByTagName("image_section");
+var mt="";
+for (i=0;i<x.length;i++)
+  { 
+  mt=mt+'<li><figure>';
+  mt=mt+'<figcaption><h3>'+x[i].getElementsByTagName("header")[0].childNodes[0].nodeValue+'</h3>';
+  mt=mt+'<p>'+x[i].getElementsByTagName("details")[0].childNodes[0].nodeValue+'</p></figcaption>';
+   mt=mt+'<img src="'+x[i].getElementsByTagName("location")[0].childNodes[0].nodeValue+'" alt="'+x[i].getElementsByTagName("text_onhover")[0].childNodes[0].nodeValue+'"/>';
+
+   mt=mt+'</figure></li>';
+  }
+
+mn.innerHTML=mt;
+</script>
+
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script src="js/masonry.pkgd.min.js"></script>
+		<script src="js/classie.js"></script>
+		<script src="js/cbpGridGallery.js"></script>
+		<script>
+			new CBPGridGallery( document.getElementById( 'grid-gallery' ) );
+		</script>
+		<!-- added by Amandeep Gupta smvdu -->
+	</body>
+</html>
