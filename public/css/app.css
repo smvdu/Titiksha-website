@@ -874,7 +874,7 @@ section .content { display: table-cell; vertical-align: middle; }
 .cssanimations #home-pager, .cssanimations #contact .robot, .cssanimations #careers .robot-hat, .cssanimations #careers .robot-head, .cssanimations #careers .robot-hand { opacity: 0; }
 .cssanimations #home-pager.isin, .cssanimations #contact .robot.isin, .cssanimations #careers .robot-hat.isin, .cssanimations #careers .robot-head.isin, .cssanimations #careers .robot-hand.isin { opacity: 1; }
 .cssanimations #home-pager { margin: 0; }
-.cssanimations #home-pager.isin { margin: 290px 0 0 0; }
+.cssanimations #home-pager.isin { margin: 280px 0 0 0; }
 .cssanimations #contact .robot { margin: 0 0 0 0; }
 .cssanimations #contact .robot.isin { margin: -250px 0 0 -180px; }
 .cssanimations .box-overlay { opacity: 0; }
