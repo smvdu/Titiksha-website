@@ -636,7 +636,7 @@ section .content { display: table-cell; vertical-align: middle; }
 #story-wheel img { margin: 0 auto; position: absolute; top: 50%; left: 50%; z-index: 5; }
 #story-wheel img.story { top: -50px; margin-left: 165px; }
 #story-wheel img.robot { top: 30px; margin-left: -58px; }
-#story-wheel img.sitename { top: 220px; margin-left: -102px; }
+#story-wheel img.sitename { top: 160px; margin-left: -102px; }
 #story-wheel img.shadow { top: auto; bottom: -3px; margin-left: -80px; z-index: 1; }
 #story-wheel p { font-family: 'Open Sans', Arial, sans-serif; font-size: 14px; font-weight: 600; line-height: 22px; color: #fff; position: relative; top: 355px; }
 
