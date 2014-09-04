@@ -469,7 +469,7 @@ a img { border: 0; }
 html { -webkit-text-size-adjust: 100%; }
 
 /* @font-face */
-@font-face { font-family: 'wood_stampregular'; src: url("fonts/woodstamp.eot"); src: url("fonts/woodstamp.eot?#iefix") format("embedded-opentype"), url("fonts/woodstamp.woff") format("woff"), url("fonts/woodstamp.ttf") format("truetype"), url("fonts/woodstamp.svg#wood_stampregular") format("svg"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'wood_stampregular'; src: url("../fonts/woodstamp.eot"); src: url("../fonts/woodstamp.eot?#iefix") format("embedded-opentype"), url("../fonts/woodstamp.woff") format("woff"), url("../fonts/woodstamp.ttf") format("truetype"), url("../fonts/woodstamp.svg#wood_stampregular") format("svg"); font-weight: normal; font-style: normal; }
 
 /* Globals */
 * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
@@ -660,7 +660,18 @@ section .content { display: table-cell; vertical-align: middle; }
 #about .join-us a i { position: relative; display: block; width: 129px; height: 129px; background: url('../img/team/join.png?1395905172') no-repeat; background-color: #bde4c0; }
 #about .join-us a i:hover { background-color: #81b085; }
 #about .join-us a b { position: absolute; bottom: -3px; font-family: 'Open Sans', Arial, sans-serif; font-size: 18px; font-weight: 900; text-transform: uppercase; display: block; text-align: center; width: 100%; }
-
+.univ-intro
+{
+  position: absolute;
+  top: 20%;
+  right: 3%;
+  width: 35%;
+  padding: 40px;
+  font-size: 1.8vw;
+  color: #fff;
+  font-family: 'Open Sans';
+  text-align: justify;
+}
 /* SERVICES */
 #services { background: #00b5c6; font-family: 'Open Sans', Arial, sans-serif; font-weight: 400; font-size: 12px; color: #fff; }
 
