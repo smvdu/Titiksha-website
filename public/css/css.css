@@ -22,3 +22,98 @@
   font-weight: 800;
   src: local('Open Sans Extrabold'), local('OpenSans-Extrabold'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/EInbV5DfGHOiMmvb1Xr-hha1RVmPjeKy21_GQJaLlJI.woff) format('woff');
 }
+
+#about
+{
+  text-align: center;
+}
+
+figure {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  width: 136px; height: 148px;
+  margin: 10px;
+}
+
+/** Hexagon Mask **/
+figure:before {
+  z-index: 3;
+  position: absolute;
+  display: block;
+  content: '';
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: url(../img/contact-bg.png) no-repeat;
+  pointer-events: none;
+}
+figure img {
+  display: block;
+  width: auto; height: 100%;
+}
+
+/** Contact Links **/
+figure .contact {
+  z-index: 2;
+  position: absolute;
+  display: block;
+  top: 0; left: 0; right: 0; bottom: 0;
+}
+.contact a {
+  background-image: url(../img/social.png);
+}
+figure .contact a {
+  position: absolute;
+  display: block;
+  width: 50%; height: 50%;
+  background-repeat: no-repeat;
+  transition: all .25s ease-in-out;
+}
+
+figure .contact .tw {
+    top: 0; left: 0;
+    background-color: rgba(0, 172, 238, .7);
+    background-position: 30px 32px;
+    transform: translate(-100%, -100%);
+  }
+   
+figure .contact .tw:hover {
+      background-color: rgba(0, 172, 238, 1);
+    }
+ 
+figure .contact .fb {
+    top: 0; right: 0;
+    background-color: rgba(59, 89, 152, .7);
+    background-position: -42px 32px;
+    transform: translate(100%, -100%);
+  }
+    
+figure .contact .fb:hover {
+      background-color: rgba(59, 89, 152, 1);
+    }
+
+figure .contact .gp {
+    bottom: 0; left: 0;
+    background-color: rgba(221, 75, 57, .7);
+    background-position: 30px -40px;
+    transform: translate(-100%, 100%);
+  }
+    
+figure .contact .gp:hover {
+      background-color: rgba(221, 75, 57, 1);
+    }
+  
+figure .contact .ma {
+    bottom: 0; right: 0;
+    background-color: rgba(153, 153, 153, .7);
+    background-position: -42px -40px;
+    transform: translate(100%, 100%);
+  }
+    
+figure .contact .ma:hover {
+      background-color: rgba(153, 153, 153, 1);
+}
+    
+figure:hover .contact a {
+      transform: translate(0, 0);
+}
