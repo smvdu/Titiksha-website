@@ -32,7 +32,7 @@ figure {
   position: relative;
   display: inline-block;
   overflow: hidden;
-  width: 136px; height: 130px;
+  width: 100px; height: 100px;
   margin: 10px;
 }
 
@@ -73,7 +73,7 @@ figure .contact a {
 figure .contact .tw {
     top: 0; left: 0;
     background-color: rgba(0, 172, 238, .7);
-    background-position: 30px 32px;
+    background-position: 18px 20px;
     transform: translate(-100%, -100%);
   }
    
@@ -84,7 +84,7 @@ figure .contact .tw:hover {
 figure .contact .fb {
     top: 0; right: 0;
     background-color: rgba(59, 89, 152, .7);
-    background-position: -42px 32px;
+    background-position: -52px 20px;
     transform: translate(100%, -100%);
   }
     
@@ -95,7 +95,7 @@ figure .contact .fb:hover {
 figure .contact .gp {
     bottom: 0; left: 0;
     background-color: rgba(221, 75, 57, .7);
-    background-position: 30px -40px;
+    background-position: 20px -50px;
     transform: translate(-100%, 100%);
   }
     
@@ -106,7 +106,7 @@ figure .contact .gp:hover {
 figure .contact .ma {
     bottom: 0; right: 0;
     background-color: rgba(153, 153, 153, .7);
-    background-position: -42px -40px;
+    background-position: -50px -50px;
     transform: translate(100%, 100%);
   }
     

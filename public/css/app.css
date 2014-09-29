@@ -653,7 +653,7 @@ section .content { display: table-cell; vertical-align: middle; }
 #about ul li > div { width: 280px; height: 280px; max-width: 100%; max-height: 280px; overflow: hidden; position: relative; margin-bottom: 15px; }
 #about ul li > div span { display: block; width: 280px; height: 100%; background: url('../img/team/wheel.png?1395905174') no-repeat; background-size: 100% auto; position: absolute; z-index: 2; top: 0; left: 0; max-width: 100%; }
 #about ul li > div img { position: absolute; top: 0; left: 0; z-index: 1; }
-#about ul li b { font-size: 18px; font-weight: 900; line-height: 18px; color: #fff; text-transform: uppercase; display: block; width: 100%; }
+#about ul li b { font-weight: 900; line-height: 18px; color: #fff; text-transform: uppercase; display: block; width: 100%; }
 #about ul li strong { font-size: 14px; font-weight: 600; color: #81b085; display: block; line-height: 20px; }
 #about ul:after { content: "."; height: 0; clear: both; visibility: hidden; display: block; }
 #about .join-us { display: block; margin: 35px auto 0; position: relative; width: 130px; height: 150px; }
