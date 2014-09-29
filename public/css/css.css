@@ -117,3 +117,22 @@ figure .contact .ma:hover {
 figure:hover .contact a {
       transform: translate(0, 0);
 }
+
+footer
+{
+  background-color: #323a3c;
+  height: 60px;
+}
+
+footer #github
+{
+  font-size: 15px;
+  color: #fff;
+  font-family: 'Open Sans', Arial, sans-serif;
+  padding: 10px;
+}
+
+footer span
+{
+  opacity: 0.5;
+}
