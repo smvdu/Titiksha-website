@@ -703,7 +703,7 @@ section .content { display: table-cell; vertical-align: middle; }
 
 /* BRANDS */
 #brands { background-color: #45b2ac; color: #fff; text-align: center; font-family: 'Open Sans', Arial, sans-serif; line-height: 18px; font-weight: 400; }
-#brands h1 { font-family: 'wood_stampregular',verdana,arial,sans-serif; font-size: 48px; }
+#brands h1 { font-family: 'wood_stampregular',verdana,arial,sans-serif; font-size: 48px;margin-top: 20px }
 #brands p { margin: 30px auto 50px; width: 760px; }
 #brands > .content > div > div > ul { width: 774px; margin: 0 auto; }
 #brands > .content > div > div > ul > li { background-color: #318d88; display: block; float: left; width: 250px; height: 250px; margin: 0 12px 12px 0; font-size: 12px; line-height: 240px; text-transform: uppercase; position: relative; }
