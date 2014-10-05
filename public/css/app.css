@@ -704,7 +704,7 @@ section .content { display: table-cell; vertical-align: middle; }
 /* BRANDS */
 #brands { background-color: #45b2ac; color: #fff; text-align: center; font-family: 'Open Sans', Arial, sans-serif; line-height: 18px; font-weight: 400; }
 #brands h1 { font-family: 'wood_stampregular',verdana,arial,sans-serif; font-size: 48px;margin-top: 20px }
-#brands p { margin: 30px auto 50px; width: 760px; }
+#brands p { margin: 20px auto 50px; width: 760px; }
 #brands > .content > div > div > ul { width: 774px; margin: 0 auto; }
 #brands > .content > div > div > ul > li { background-color: #318d88; display: block; float: left; width: 250px; height: 250px; margin: 0 12px 12px 0; font-size: 12px; line-height: 240px; text-transform: uppercase; position: relative; }
 #brands > .content > div > div > ul > li img { display: inline-block; vertical-align: middle; }
@@ -747,9 +747,9 @@ section .content { display: table-cell; vertical-align: middle; }
 .notebook .hr:after { background: #fff; display: block; content: ""; width: 100%; height: 14px; position: absolute; bottom: 90px; }
 
 /* CONTACT */
-#contact { background: #c8482f; color: #fff; }
+#contact { background: #323a3c; color: #fff; }
 #contact .wheel, #contact .robot, #contact .envelope { position: absolute; top: 50%; left: 50%; background-size: 100%; background-repeat: no-repeat; }
-#contact .map { width: 100%; height: 100%; background: url('../img/asia.png?1396015796') no-repeat center center; position: absolute; top: 0; left: -135px; z-index: 1; }
+#contact .map { width: 100%; height: 100%; background: url('../img/smvdumap.png') no-repeat center center; position: absolute; top: 0; opacity:0.5; z-index: 1; }
 #contact .robot { width: 140px; height: 211px; background-image: url('../img/robot-red.png?1395905132'); /*margin: -250px 0 0 -180px;*/ z-index: 2; opacity: 0; }
 #contact .wheel { width: 392px; height: 391px; background-image: url('../img/wheel-red.png?1395905174'); margin: -205px 0 0 -110px; z-index: 3; }
 #contact .envelope { width: 329px; height: 272px; background-image: url('../img/shape-envelope.png?1395905135'); margin: -135px 0 0 -200px; z-index: 4; }
