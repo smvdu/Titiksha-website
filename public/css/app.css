@@ -749,7 +749,7 @@ section .content { display: table-cell; vertical-align: middle; }
 /* CONTACT */
 #contact { background: #323a3c; color: #fff; }
 #contact .wheel, #contact .robot, #contact .envelope { position: absolute; top: 50%; left: 50%; background-size: 100%; background-repeat: no-repeat; }
-#contact .map { width: 100%; height: 100%; background: url('../img/smvdumap.png') no-repeat center center; position: absolute; top: 0; opacity:0.5; z-index: 1; }
+#contact .map { width: 100%; height: 100%; background: url('../img/smvdumap.jpg') no-repeat center center; position: absolute; top: 0; opacity:0.5; z-index: 1; }
 #contact .robot { width: 140px; height: 211px; background-image: url('../img/robot-red.png?1395905132'); /*margin: -250px 0 0 -180px;*/ z-index: 2; opacity: 0; }
 #contact .wheel { width: 392px; height: 391px; background-image: url('../img/wheel-red.png?1395905174'); margin: -205px 0 0 -110px; z-index: 3; }
 #contact .envelope { width: 329px; height: 272px; background-image: url('../img/shape-envelope.png?1395905135'); margin: -135px 0 0 -200px; z-index: 4; }
