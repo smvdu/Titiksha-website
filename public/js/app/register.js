@@ -17,7 +17,7 @@ var coll=$('#college').val();
 	}
 		
 	$.ajax({
-		url :'',
+		url :'public/php/tempreg.php',
 		data:'na='+name+'&em='+email+'&pas='+pass+'&pho='+phone+'&col='+coll,
 		success:function(data){
 			$('#register_status').html(data);
