@@ -13,15 +13,25 @@ try{
 		{
             $i++;
             //checking for account already in system
-            //$checkacc="Select * from useraccount where email'".$_REQUEST["em"]."';";
-            //$checkres=mysql_query($checkacc);
-            $removi="delete from useraccount where email='".trim(urldecode($_REQUEST["em"]))."';";
-            $ref_re=mysql_query($removi);
+            $checkacc="Select * from useraccount where email='".trim(urldecode($_REQUEST["em"]))."';";
+            $checkres=mysql_query($checkacc);
+            $idc=0;
+            while($rw=mysql_fetch_array($checkres))
+            {
+                $idc=$rw["id"];
+            }
+            if($idc==0)
+            {
+                $query="Insert into useraccount (username,password,email,phone,college)values('".$row["username"]."','".$row["password"]."','".$row["email"]."','".$row["phone"]."','".$row["college"]."')";
+                $result=mysql_query($query);            
+            }
+            else
+            {            
+                $query="update useraccount  set username ='".$row["username"]."',password='".$row["password"]."',email ='".$row["email"]."',phone='".$row["phone"]."',college='".$row["college"]."' where id='".$idc."';";
+                $result=mysql_query($query);                           
+            }
             //checking end
-			$query="Insert into useraccount (username,password,email,phone,college)values('".$row["username"]."','".$row["password"]."','".$row["email"]."','".$row["phone"]."','".$row["college"]."')";
-            $result=mysql_query($query)
-            	or die("Error Occured");
-           	$removing="delete from tempaccount where email='".trim(urldecode($_REQUEST["em"]))."';";
+			$removing="delete from tempaccount where email='".trim(urldecode($_REQUEST["em"]))."';";
             $com_re=mysql_query($removing);
             echo "<input type='hidden' style='display:none' id ='first' value='success'></input>";
             break;	
