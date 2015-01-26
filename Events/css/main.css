@@ -396,23 +396,23 @@ div.bl-panel-items > div.bl-hide-current-work {	opacity: 0;
 }
 
 .bl-main > section:first-child.bl-expand {    
-	background:#4D4D4D;
+	background:#F06060;
 }
 .bl-main > section:nth-child(2).bl-expand {
-	background:#4D4D4D;
+	background:#fa987d;
 }
 .bl-main > section:nth-child(3).bl-expand {
-	background:#4D4D4D;
+	background:#10A296;
 }
 .bl-main > section:nth-child(4).bl-expand {
-	background:#4D4D4D;
+	background:#49899A;
 }
 .bl-main > section:nth-child(5).bl-expand {
-	background:#4D4D4D;
+	background:#347359;
 	
 }
 .bl-main > section:nth-child(6).bl-expand {
-	background:#4D4D4D;
+	background:#3C548F;
 	
 }
 /*.bl-main.bl-expand-item > section:not(.bl-expand),
