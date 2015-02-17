@@ -37,10 +37,15 @@ $('#button_s').click(function(){
 	});
 });
 */
-document.onload()
-{
 
-}
+$(document).ready(function() { 
+	if(Cookie('em'))
+	{
+		document.getElementById("logged_in").style.display="block";
+		document.getElementById("login_section").style.display="none";
+	}
+ });
+
 function login_new () {
 	email=document.getElementById("login_email").value;
 	pass=document.getElementById("login_password").value;
