@@ -24,3 +24,15 @@ var coll=$('#college').val();
 		}
 	});
 });
+
+$('#button_s').click(function(){
+	var email=$("#login_email").val();
+	var pass=$("#login_password").val();
+		$.ajax({
+		url :'public/php/login.php',
+		data:'email='+encodeURIComponent(email)+'&pass='+encodeURIComponent(pass),
+		success:function(data){
+			$('#login_status').html(data);
+		}
+	});
+});

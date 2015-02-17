@@ -592,7 +592,7 @@
                         <address></address>
                     </div> <!-- //#contact .info -->
 
-                    <form action="#" method="post" class="login-left in finr">
+                    <form action="/" method="post" class="login-left in finr">
                         <h1>Login      </h1>
                         <address class="vxs">SMVDU,
                             Katra,Jammu & Kashmir,
@@ -600,15 +600,16 @@
                         <div class="contents">
                             <div class="item email">
                                <i></i>
-                                <input type="email" name="email" placeholder="Email Address" required>
+                                <input type="email" name="email" id="login_email" placeholder="Email Address" required>
                             </div>
 
                             <div class="item password">
                                 <i></i>
-                                    <input name="password" id="password" type="password" autocomplete="off"                                                                 placeholder="Password" required>
+                                    <input name="password" id="login_password" type="password" autocomplete="off"                                                                 placeholder="Password" required>
                             </div>
                             <input type="hidden" value="en" name="lang">
-                            <button type="submit" id="button_r" name="send">Login</button>
+                            <button type="submit" id="button_s" name="send">Login</button>
+                            <div id="login_status" style="font-size:23em;font-style:arial;"></div>
                         </div>
                     </form> <!-- // #Login form -->
                     
@@ -650,7 +651,7 @@
 
                             <input type="hidden" value="en" name="lang">
                             <button type="submit" id="button_r" name="send">Register Now</button>
-                            <div id="register_status" style="font-size:23px;font-style:arial;"></div>
+                            <div id="register_status" style="font-size:23em;font-style:arial;"></div>
                         </div>
                     </form> <!-- // #contact form -->
  
