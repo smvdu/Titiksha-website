@@ -8,6 +8,8 @@
 		{
 			session_unset(); 
 			session_destroy();
+			setcookie("em","",time()-3600,"/");
+			setcookie("PHPSESSID","",time()-3600,"/");
 			exit ('login again');
 		}
  		$query="Select * from event_register where id='".strip_tags($_SESSION["id"])."' and event_id='".strip_tags($_REQUEST["event_id"])."';";

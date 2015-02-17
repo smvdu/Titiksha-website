@@ -5,6 +5,8 @@
 	{
 		session_unset(); 
 		session_destroy();
+		setcookie("em","",time()-3600,"/");
+		setcookie("PHPSESSID","",time()-3600,"/");
 		echo "login again";
 	}
 ?>
