@@ -351,3 +351,42 @@ transform: rotate(-2deg) scaleY(0.92);
   -o-transform: skew(30deg);
   background: #ddd;
 }
+
+#logged_in >input[type="button"]{
+  width: 20%;
+  padding: 1%;
+  margin-bottom: 1%;
+  background: #21A957;
+  font-family: 'Open Sans', sans-serif;
+  color: #ECECEC;
+  box-shadow: inset 0px 0px 10px #666464;
+  -webkit-text-shadow: 0px 0px 3px #000;
+  -moz-text-shadow: 0px 0px 3px #000;
+  -o-text-shadow: 0px 0px 3px #000;
+  -ms-text-shadow: 0px 0px 3px #000;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-weight:250;
+  border-radius: 5px;
+  transition: 0.5s;
+  -webkit-appearance:none;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+}
+#logged_in >input[type="button"]:hover{
+  background:#128A42;
+  color:#fff;
+}
+#login_section{
+  display: block;
+}
+#logged_in{
+  position: relative;
+  margin-top: 5%;
+  left: 23%;
+  display: none;
+}
