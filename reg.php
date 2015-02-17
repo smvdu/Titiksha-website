@@ -53,7 +53,7 @@ mysql_close($mysql);
 function myFunction() {
     var ty=document.getElementById("first").value;
     if(ty=="success")
-    	ty="User created successfully";
+    	ty="Registered Successfully";
     else
     	ty="Invalid Confirmation Code"	
     if (confirm(ty) == true) {
