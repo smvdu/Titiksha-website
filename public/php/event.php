@@ -1,4 +1,4 @@
-<?
+<?php
  try{
  	if(isset($_REQUEST["event_id"]))
  	{
@@ -10,16 +10,16 @@
 			session_destroy();
 			exit ('login again');
 		}
- 		$query="Select * from event_register where id='".trim(strip_tags($_REQUEST["id"]))."' and event_id='".trim(strip_tags($_REQUEST["event_id"]))."';";
+ 		$query="Select * from event_register where id='".strip_tags($_SESSION["id"])."' and event_id='".strip_tags($_REQUEST["event_id"])."';";
  		$result=mysql_query($query);
 		while($res=mysql_fetch_array($result))
 		{
-			exit ('Alredy registred');		
+			exit ('Already registred');		
 		}
-		$query="Insert into event_register (id,email,event_id)values('".trim(strip_tags($_REQUEST["id"]))."','".trim(urldecode(strip_tags($_REQUEST["email"])))."','".trim(strip_tags($_REQUEST["event_id"]))."');";
+		$query="Insert into event_register (id,email,event_id) values (".trim(strip_tags($_SESSION["id"])).",'".trim(urldecode(strip_tags($_SESSION["email"])))."',".trim(strip_tags($_REQUEST["event_id"])).");";
 		$result=mysql_query($query)
-                    or die('Invalid Entry');	
-        echo "You are registered successfully";
+                    or die(mysql_error());	
+        echo "Event Registered";
  	}
  	else{
  		echo "Something went wrong. Try again!!!";
