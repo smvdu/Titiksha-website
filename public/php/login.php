@@ -15,7 +15,7 @@
 			setcookie("em","".urldecode(strip_tags($_REQUEST["email"])),false,'/',false,false);
 			$i++;
 			//print_r($_SESSION);
-			echo "";		
+			echo "login";		
 		}
 		if($i==0)
 		echo "Incorrect Username or Password"; 

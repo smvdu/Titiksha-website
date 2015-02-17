@@ -37,6 +37,10 @@ $('#button_s').click(function(){
 	});
 });
 */
+document.onload()
+{
+
+}
 function login_new () {
 	email=document.getElementById("login_email").value;
 	pass=document.getElementById("login_password").value;
@@ -58,7 +62,15 @@ function login_new () {
 			xmlhttp.onreadystatechange=function()
 			{
 				if(xmlhttp.readyState==4 && xmlhttp.status==200)
-					alert(""+xmlhttp.responseText);		
+				{
+						if(xmlhttp.responseText=="login")
+						{
+							document.getElementById("logged_in").style.display="block";
+							document.getElementById("login_section").style.display="none";
+						}
+						else
+							alert(""+xmlhttp.responseText);	
+				}	
 			}
 			xmlhttp.send();
 		}
@@ -115,3 +127,31 @@ function disable_button()
 	}
 }
 
+function logout(){
+	var xmlhttp=false;
+	if (window.XMLHttpRequest)
+	{// code for IE7+, Firefox, Chrome, Opera, Safari
+		xmlhttp=new XMLHttpRequest();
+	}
+	else
+	{// code for IE6, IE5
+		xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+	}
+	if(xmlhttp)
+	{
+		
+		xmlhttp.open("GET",'public/php/logout.php');
+		xmlhttp.onreadystatechange=function()
+		{
+			if(xmlhttp.readyState==4 && xmlhttp.status==200)
+			{
+				if(xmlhttp.responseText=="done")
+					{
+						document.getElementById("logged_in").style.display="none";
+						document.getElementById("login_section").style.display="block";
+					}
+			}		
+		}
+		xmlhttp.send();
+	}			
+}
