@@ -356,9 +356,9 @@ transform: rotate(-2deg) scaleY(0.92);
   width: 90%;
   padding: 1%;
   margin-bottom: 1%;
-  background: white;
+  background: #21A957;
   font-family: 'Open Sans', sans-serif;
-  color: #c8482f;
+  color: #ECECEC;
   box-shadow: inset 0px 0px 10px #666464;
   -webkit-text-shadow: 0px 0px 3px #000;
   -moz-text-shadow: 0px 0px 3px #000;
@@ -378,8 +378,8 @@ transform: rotate(-2deg) scaleY(0.92);
   -ms-transition: 0.5s;
 }
 #logged_in input[type="button"]:hover{
-  background:#ede2ed;
-  color:#c8482f;
+  background:#128A42;
+ color:#fff;
 }
 #login_section{
   display: block;
