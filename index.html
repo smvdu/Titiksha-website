@@ -593,12 +593,6 @@
                         <address></address>
                     </div> <!-- //#contact .info -->
 
-                    <div id="logged_in">
-                        <input type="button" onclick="logout()" value="LogOut" >
-                        <br/>
-                        <input type="button" onclick="window.open('http://titiksha.smvdu.net.in/events/index.html');" value="Register On Events" >
-                    </div>
-
                     <form action="/" method="post" class="login-right in finr">
                         <h1>Register Here</h1>
                         <address class="vxs">SMVDU,
@@ -655,18 +649,26 @@
                     <div class="head">
                         <img src="public/img/user.png" alt=""/>
                     </div>
-                <form>
-                        <input type="text" class="text" value="USERNAME" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'USERNAME';}" >
-                        <input type="password" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}">
+                <form action="#" method="post" onsubmit="return false" id="login_section">
+                        <input type="text" class="text" id="login_email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" >
+                        <input type="password" value="Password" id="login_password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}">
                         <div class="submit">
-                            <input type="submit" onclick="myFunction()" value="LOGIN" >
+                            <input type="submit" onclick="login_new()" value="LOGIN" >
                     </div>  
                     <p><a href="#">Forgot Password ?</a></p>
                 </form>
+                <div id="logged_in_profile" style="padding-bottom:10%;">
+                    <div id="logged_in">
+                        <center><input type="button" onclick="logout()" value="LogOut" ></center>
+                        <br/>
+                        <center><input type="button" onclick="window.open('http://titiksha.smvdu.net.in/events/index.html');" value="Register On Events" ></center>
+                    </div>
+                </div>
+            <div id="login_status" style="font-size:23px;font-style:arial;"></div>
             </div>
-            <div>
+           <!-- <div>
                 Just Register Again
-            </div>
+            </div>-->
         </div>
 </div>
 </div>

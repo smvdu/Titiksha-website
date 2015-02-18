@@ -352,8 +352,8 @@ transform: rotate(-2deg) scaleY(0.92);
   background: #ddd;
 }
 
-#logged_in >input[type="button"]{
-  width: 20%;
+#logged_in input[type="button"]{
+  width: 90%;
   padding: 1%;
   margin-bottom: 1%;
   background: white;
@@ -377,7 +377,7 @@ transform: rotate(-2deg) scaleY(0.92);
   -o-transition: 0.5s;
   -ms-transition: 0.5s;
 }
-#logged_in >input[type="button"]:hover{
+#logged_in input[type="button"]:hover{
   background:#ede2ed;
   color:#c8482f;
 }
@@ -385,8 +385,8 @@ transform: rotate(-2deg) scaleY(0.92);
   display: block;
 }
 #logged_in{
-  position: relative;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 5%;
-  left: 23%;
   display: none;
 }
