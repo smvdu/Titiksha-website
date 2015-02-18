@@ -20,6 +20,7 @@ var coll=$('#college').val();
 		url :'public/php/tempreg.php',
 		data:'na='+encodeURIComponent(name)+'&em='+encodeURIComponent(email)+'&pas='+encodeURIComponent(pass)+'&pho='+encodeURIComponent(phone)+'&col='+encodeURIComponent(coll),
 		success:function(data){
+			alert("Confirmation Email Has been Sent")
 			$('#register_status').html(data);
 		}
 	});
@@ -43,6 +44,8 @@ $(document).ready(function() {
 	{
 		document.getElementById("logged_in").style.display="block";
 		document.getElementById("login_section").style.display="none";
+		document.getElementById("login_link").innerHTML="Profile";
+		document.getElementById("login_form_text_d").innerHTML=decodeURIComponent(Cookie('name')).replace('+',' ');
 	}
  });
 
@@ -72,6 +75,8 @@ function login_new () {
 						{
 							document.getElementById("logged_in").style.display="block";
 							document.getElementById("login_section").style.display="none";
+							document.getElementById("login_link").innerHTML="Profile";
+							document.getElementById("login_form_text_d").innerHTML=decodeURIComponent(Cookie('name')).replace('+',' ');
 						}
 						else
 							alert(""+xmlhttp.responseText);	
@@ -154,6 +159,8 @@ function logout(){
 					{
 						document.getElementById("logged_in").style.display="none";
 						document.getElementById("login_section").style.display="block";
+						document.getElementById("login_link").innerHTML="Login";
+						document.getElementById("login_form_text_d").innerHTML="Member Login";
 					}
 			}		
 		}

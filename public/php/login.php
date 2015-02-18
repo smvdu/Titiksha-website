@@ -13,6 +13,7 @@
 			$_SESSION["id"]=$res['id'];
 			$_SESSION["logti"]=time();			
 			setcookie("em","".urldecode(strip_tags($_REQUEST["email"])),false,'/',false,false);
+			setcookie("name","".urlencode($res["username"]),false,'/',false,false);
 			$i++;
 			//print_r($_SESSION);
 			echo "login";		
