@@ -757,7 +757,7 @@ section .content { display: table-cell; vertical-align: middle; }
 #contact .info { max-width: 380px; position: absolute; right: 50%; top: 240px; padding-right: 10px; text-align: right; font-family: 'Open Sans', Arial, sans-serif; }
 #contact .info p { font-size: 14px; font-weight: 400; line-height: 18px; }
 #contact .info address { font-style: normal; font-weight: 800; font-size: 36px; text-transform: uppercase; }
-#contact .login-left { width: 200px; max-width: 480px; position: absolute; left: 10%; top: 0; text-align: left; padding-bottom: 20px; }
+#contact .login-left { width: 350px; max-width: 480px; position: absolute; left: 10%; top: 0; text-align: left; padding-bottom: 20px; }
 #contact .login-left h1 { font-size: 120px; line-height: 104px; margin-bottom: 30px; }
 #contact .login-left .item { background: #fff; position: relative; margin-bottom: 12px; width: 100%; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; }
 #contact .login-left .item i { background: url('../img/icns-contact-form.png?1395905130') no-repeat; display: inline-block; width: 30px; height: 25px; margin: 3px 0 0 6px; border-right: 1px solid #c8482f; }
