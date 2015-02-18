@@ -160,3 +160,18 @@ function logout(){
 		xmlhttp.send();
 	}			
 }
+
+function display_form(){	
+	$("#login_section_form").show();
+}
+
+$("body").click
+(
+  function(e)
+  {
+    if(e.target.className == "main")
+    {
+      $("#login_section_form").hide();
+    }
+  }
+);

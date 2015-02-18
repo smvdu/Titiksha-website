@@ -55,6 +55,7 @@
                         <li><a href="events/index.html" target="_blank">Events</a></li>
                         <li><a href="gallery/gallery.html" target="_blank">Gallery</a></li>
                         <li><a href="#contact" class="hash">Join Us</a></li>
+                        <li onclick="display_form()"><a style="cursor:pointer;" class="hash">Login</a></li>
                         <li class="fb"><a href="https://www.facebook.com/Titksha.smvdu" rel="external"></a></li>
                     </ul>
                 </nav> <!-- // #section-nav -->
@@ -591,28 +592,7 @@
                         <p></p>
                         <address></address>
                     </div> <!-- //#contact .info -->
-                    <div id="login_section">
-                    <form action="/" method="post" class="login-left in finr">
-                        <h1>Login      </h1>
-                        <address class="vxs">SMVDU,
-                            Katra,Jammu & Kashmir,
-                            India</address>
-                        <div class="contents">
-                            <div class="item email">
-                               <i></i>
-                                <input type="email" name="email" id="login_email" placeholder="Email Address" required>
-                            </div>
 
-                            <div class="item password">
-                                <i></i>
-                                    <input name="password" id="login_password" type="password" autocomplete="off"                                                                 placeholder="Password" required>
-                            </div>
-                            <input type="hidden" value="en" name="lang">
-                            <button type="submit" onclick="login_new()" name="send">Login</button>
-                            <div id="login_status" style="font-size:23px;font-style:arial;"></div>
-                        </div>
-                    </form> <!-- // #Login form -->
-                    </div>
                     <div id="logged_in">
                         <input type="button" onclick="logout()" value="LogOut" >
                         <br/>
@@ -665,6 +645,33 @@
             </section> <!-- // #contact -->
 
         </div> <!-- // #page -->
+
+<!-- login Section and Profile-->
+<div id="login_section_form">
+<div id="profile_section">
+     <div class="main" >
+        <div class="login-form">
+            <h1>Member Login</h1>
+                    <div class="head">
+                        <img src="public/img/user.png" alt=""/>
+                    </div>
+                <form>
+                        <input type="text" class="text" value="USERNAME" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'USERNAME';}" >
+                        <input type="password" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}">
+                        <div class="submit">
+                            <input type="submit" onclick="myFunction()" value="LOGIN" >
+                    </div>  
+                    <p><a href="#">Forgot Password ?</a></p>
+                </form>
+            </div>
+            <div>
+                Just Register Again
+            </div>
+        </div>
+</div>
+</div>
+<!-- profile end -->
+
 
         <div id="projects" class="box-overlay in" data-title="Our Projects">
             <div class="head">
