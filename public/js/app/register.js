@@ -172,6 +172,11 @@ function display_form(){
 	$("#login_section_form").show();
 }
 
+function forgotPass()
+{
+	document.getElementById("forgotPass").innerHTML="Just Register Again!!"
+}
+
 $("body").click
 (
   function(e)
