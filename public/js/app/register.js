@@ -174,7 +174,7 @@ function display_form(){
 
 function forgotPass()
 {
-	document.getElementById("forgotPass").innerHTML="Just Register Again!!"
+	document.getElementById("forgotPass").innerHTML="Just Register Again!";
 }
 
 $("body").click
