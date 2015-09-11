@@ -1,0 +1,392 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/u-WUoqrET9fUeobQW7jkRT8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/MTP_ySUJH_bn48VBG8sNSha1RVmPjeKy21_GQJaLlJI.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/k3k702ZOKiLJc3WVjuplzBa1RVmPjeKy21_GQJaLlJI.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Open Sans Extrabold'), local('OpenSans-Extrabold'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/EInbV5DfGHOiMmvb1Xr-hha1RVmPjeKy21_GQJaLlJI.woff) format('woff');
+}
+
+#about
+{
+  text-align: center;
+}
+
+figure {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  width: 100px; height: 100px;
+  margin: 10px;
+}
+
+/** Hexagon Mask **/
+figure:before {
+  z-index: 3;
+  position: absolute;
+  display: block;
+  content: '';
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: url(../img/contact-bg.png) no-repeat;
+  pointer-events: none;
+}
+figure img {
+  display: block;
+  width: auto; height: 100%;
+}
+
+/** Contact Links **/
+figure .contact {
+  z-index: 2;
+  position: absolute;
+  display: block;
+  top: 0; left: 0; right: 0; bottom: 0;
+}
+.contact a {
+  background-image: url(../img/social.png);
+}
+figure .contact a {
+  position: absolute;
+  display: block;
+  width: 50%; height: 50%;
+  background-repeat: no-repeat;
+  transition: all .25s ease-in-out;
+}
+
+figure .contact .tw {
+    top: 0; left: 0;
+    background-color: rgba(0, 172, 238, .7);
+    background-position: 18px 20px;
+    transform: translate(-100%, -100%);
+  }
+   
+figure .contact .tw:hover {
+      background-color: rgba(0, 172, 238, 1);
+    }
+ 
+figure .contact .fb {
+    top: 0; right: 0;
+    background-color: rgba(59, 89, 152, .7);
+    background-position: -52px 20px;
+    transform: translate(100%, -100%);
+  }
+    
+figure .contact .fb:hover {
+      background-color: rgba(59, 89, 152, 1);
+    }
+
+figure .contact .gp {
+    bottom: 0; left: 0;
+    background-color: rgba(221, 75, 57, .7);
+    background-position: 20px -50px;
+    transform: translate(-100%, 100%);
+  }
+    
+figure .contact .gp:hover {
+      background-color: rgba(221, 75, 57, 1);
+    }
+  
+figure .contact .ma {
+    bottom: 0; right: 0;
+    background-color: rgba(153, 153, 153, .7);
+    background-position: -50px -50px;
+    transform: translate(100%, 100%);
+  }
+    
+figure .contact .ma:hover {
+      background-color: rgba(153, 153, 153, 1);
+}
+    
+figure:hover .contact a {
+      transform: translate(0, 0);
+}
+
+footer
+{
+  background-color: #323a3c;
+  height: 60px;
+}
+
+footer #github
+{
+  font-size: 15px;
+  color: #fff;
+  font-family: 'Open Sans', Arial, sans-serif;
+  padding: 10px;
+}
+
+footer span
+{
+  opacity: 0.5;
+}
+
+canvas {
+  cursor: crosshair;
+}
+
+/*------------------Rocket--------------*/
+
+#wrapper {
+  width: 300px;
+  height: 600px;
+  position: absolute;
+  margin: -100px auto 0 auto;
+  left: 10%;
+}
+#rocket {
+  background: none repeat scroll 0 0 #fff;
+  border-radius: 99% 40% 0 20%;
+  box-shadow: -12px 10px 19px -5px rgba(0, 0, 0, 0.3) inset;
+  height: 280px;
+  left: -7%;
+  top: 40%;
+  width: 100px;
+  z-index: 1;
+}
+#rocket:after {
+  background: none repeat scroll 0 0 #fff;
+  border-radius: 40% 99% 20% 0;
+  box-shadow: -19px 10px 18px -5px rgba(0, 0, 0, 0.3) inset;
+  content: "";
+  height: 280px;
+  left: 40px;
+  position: absolute;
+  width: 100px;
+  z-index: 100;
+}
+.rocket__body__part {
+  background: none repeat scroll 0 0 #fff;
+  border-bottom: 1px solid red;
+  border-top: 1px solid red;
+  box-shadow: -19px 0px 18px -8px rgba(0, 0, 0, 0.3) inset;
+  height: 40px;
+  position: relative;
+  margin: 0 auto;
+  top: 25%;
+  left:-1px;
+  width: 140px;
+  z-index: 1000;
+}
+.rocket__body__part p {
+  text-align: center;
+  font-size: 30px;
+  margin: 0 auto;
+  font-family: 'Shadows Into Light', cursive;
+  line-height: 1.2em;
+  color: red;
+}
+.container {
+  margin: 0 auto;
+  width: 60px;
+  height: 60px;
+  top: 13%;
+  transform-origin: center top;
+  animation-name: flicker;
+  animation-duration: 3ms;
+  animation-delay: 200ms;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.flame {
+  bottom: 0;
+  position: absolute;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-top-left-radius: 50%;
+  transform: rotate(135deg) scale(1.5, 1.5);
+  -moz-transform: rotate(135deg) scale(1.5, 1.5);
+  -webkit-transform: rotate(135deg) scale(1.5, 1.5);
+  -o-transform: rotate(135deg) scale(1.5, 1.5);
+}
+.yellow {
+  left: 15px;
+  width: 30px;
+  height: 30px;
+  background: gold;
+  box-shadow: 0px 0px 9px 4px gold;
+}
+.orange {
+  left: 10px;
+  width: 40px;
+  height: 40px;
+  background: orange;
+  box-shadow: 0px 0px 9px 4px orange;
+}
+.red {
+  left: 5px;
+  top: 20px;
+  width: 50px;
+  height: 50px;
+  background: OrangeRed;
+  border: 1px solid OrangeRed;
+  box-shadow: 0px 0px 5px 4px OrangeRed;
+}
+.white {
+  left: 15px;
+  top: 20px;
+  width: 30px;
+  height: 30px;
+  background: white;
+  box-shadow: 0px 0px 9px 4px white;
+}
+.circle {
+  border-radius: 50%;
+  position: absolute;
+}
+.blue1 {
+  width: 10px;
+  height: 10px;
+  left: 25px;
+  top: 5px;
+  background: SlateBlue;
+  box-shadow: 0px 0px 15px 10px #4fc1e9;
+}
+.black {
+  width: 40px;
+  height: 40px;
+  left: 10px;
+  top: -30px;
+  background: #ddd;
+  border: 1px solid #282A3A;
+  box-shadow: 0px 0px 10px 10px #282A3A;
+}
+ @keyframes flicker {
+ 0% {
+transform: rotate(-1deg);
+   -moz-transform: rotate(-1deg);
+   -webkit-transform: rotate(-1deg);
+}
+ 20% {
+transform: rotate(1deg);
+   -moz-transform: rotate(1deg);
+   -webkit-transform: rotate(1deg);
+}
+ 40% {
+transform: rotate(-1deg);
+   -moz-transform: rotate(-1deg);
+   -webkit-transform: rotate(-1deg);
+}
+ 60% {
+transform: rotate(1deg) scaleY(1.04);
+}
+ 80% {
+transform: rotate(-2deg) scaleY(0.92);
+   -moz-transform: rotate(-2deg) scaleY(0.92);
+   -webkit-transform: rotate(-2deg) scaleY(0.92);
+}
+ 100% {
+   transform: rotate(1deg);
+   -webkit-transform: rotate(1deg);
+   -moz-transform: rotate(1deg);
+   }
+}
+.circlee {
+  width: 60px;
+  height: 60px;
+  border: 4px solid grey;
+  top: 3%;
+}
+.circleee {
+  width: 40px;
+  height: 40px;
+  border: 4px solid grey;
+  top: -19%;
+}
+.circlee, .circleee {
+  border-radius: 50%;
+  position: relative;
+  z-index: 10;
+}
+#advanced, #advancedd {
+  background-image: -moz-radial-gradient(45px 45px 45deg, circle cover, #e6e9ed 0%, #aab2bd 100%, #aab2bd 95%);
+  background-image: -webkit-radial-gradient(45px 45px, circle cover, #e6e9ed, #aab2bd);
+  background-image: radial-gradient(45px 45px 45deg, circle cover, #e6e9ed 0%, #aab2bd 100%, #aab2bd 95%);
+}
+#advanced {
+  width: 60px;
+  height: 60px;
+}
+#advanced, #advancedd, .container, #rocket, .wings {
+  position: relative;
+  margin: 0 auto;
+}
+.wings {
+  width: 200px;
+  top: -15%;
+  left: -1px;
+}
+#left, #right {
+  width: 70px;
+  height: 100px;
+}
+#left {
+  float: left;
+  -webkit-transform: skew(-30deg);
+  -moz-transform: skew(-30deg);
+  -o-transform: skew(-30deg);
+  background: #ddd;
+}
+#right {
+  float: right;
+  -webkit-transform: skew(30deg);
+  -moz-transform: skew(30deg);
+  -o-transform: skew(30deg);
+  background: #ddd;
+}
+
+#logged_in input[type="button"]{
+  width: 90%;
+  padding: 1%;
+  margin-bottom: 1%;
+  background: #21A957;
+  font-family: 'Open Sans', sans-serif;
+  color: #ECECEC;
+  box-shadow: inset 0px 0px 10px #666464;
+  -webkit-text-shadow: 0px 0px 3px #000;
+  -moz-text-shadow: 0px 0px 3px #000;
+  -o-text-shadow: 0px 0px 3px #000;
+  -ms-text-shadow: 0px 0px 3px #000;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-weight:250;
+  border-radius: 5px;
+  transition: 0.5s;
+  -webkit-appearance:none;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+}
+#logged_in input[type="button"]:hover{
+  background:#128A42;
+ color:#fff;
+}
+#login_section{
+  display: block;
+}
+#logged_in{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  display: none;
+}
