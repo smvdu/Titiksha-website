@@ -1,0 +1,31 @@
+@media (max-width: 600px) {
+  body{
+  margin: 0;
+  padding: 0;
+  height:100%;
+  overflow-x:hidden;
+  color:#000;
+}
+ a{
+	color: #ffffff;
+	text-decoration: none;
+ }
+ li{
+	list-style: none;
+ }
+  #skrollr-body,.jigyasaharley,#gtc,#ribbon,#jigyasaheader,#date,#earth,#rocket,#line1,#line2,#line3,#line4,#line5,#line6,#gtcmuncontent,#gtcmunlogo,
+  #innovationcontent,#footer,#gtcmuntext,#innoregister,#clouds,#wito,#innovation
+  {
+    display: none;
+  }
+  #responsive{
+	display: block;
+  }
+}
+@media (max-width: 1600px)
+{
+.header img{
+	width: 80%;
+	height: 12%;
+}
+}
