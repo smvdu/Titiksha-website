@@ -1,0 +1,32 @@
+/* 
+  Based on Andreas Storm work
+  URL: http://codepen.io/andreasstorm/pen/duBpt
+*/
+
+
+jQuery('#registration input').change(function(){
+				var count = 0;
+				for( var i=0; i<document.forms.registration.length;i++ )
+				{
+					if( document.forms.registration[i].value )
+					{
+						count++;
+					}
+				}
+				$s = jQuery('#submit');
+
+				if( count == document.forms.registration.length-1 )
+				{
+					$s.removeClass('inactive').addClass('active');
+				}
+				else
+				{
+					$s.removeClass('active').addClass('inactive');
+
+				}
+				// alert(count);
+				// jQuery('.greyscale').height(120 - 24*count);
+				jQuery('.greyscale').animate({
+					height: 120 - 24*count
+				}, 500);
+			});

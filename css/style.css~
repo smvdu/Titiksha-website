@@ -1,0 +1,554 @@
+@font-face {
+font-family: Nova Flat;font-weight:bold;
+src: url("../fonts/NovaFlat.ttf") format("truetype");
+}
+@font-face {
+font-family: MODERNE SANS;font-weight:bold;
+src: url("../fonts/MODERNE SANS.ttf") format("truetype");
+}
+@font-face {
+font-family: Exo2-Regular;
+src: url("../fonts/Exo-2 Regular.ttf") format("truetype");
+}
+@font-face {
+font-family: Vincent-Regular;font-weight:bold;
+src: url("../fonts/Vincent-Regular.otf") format("opentype");
+}
+@font-face {
+font-family: Sertig;font-weight:bold;
+src: url("../fonts/Sertig.otf") format("opentype");
+}
+@font-face {
+font-family: Aventura-Bold;font-weight:bold;
+src: url("../fonts/Aventura-Bold.otf") format("opentype");
+}
+@font-face {
+font-family: Dense-Regular;font-weight:bold;
+src: url("../fonts/Dense-Regular.otf") format("opentype");
+}
+@font-face {
+font-family: GRAYSTROKE REGULAR;font-weight:bold;
+src: url("../fonts/GRAYSTROKE REGULAR.otf") format("opentype");
+}
+@font-face {
+font-family: Seagle;font-weight:bold;
+src: url("../fonts/seagle.otf") format("opentype");
+}
+@font-face {
+font-family: Adams;
+src: url("../fonts/ADAM.CG PRO.otf") format("opentype");
+}
+@font-face {
+font-family: Langdon;
+src: url("../fonts/Langdon.otf") format("opentype");
+}
+
+@font-face {
+font-family: Scratch Basic;font-weight:bold;
+src: url("../fonts/Scratch Basic.otf") format("opentype");
+}
+
+*{
+ margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+html {
+  height: 100%;
+}
+body {
+  width: 100%;
+  color: #FFF;
+  overflow-x: hidden;
+  overflow-y: scroll;
+ }
+ a{
+	color: #ffffff;
+	text-decoration: none;
+ }
+ li{
+	list-style: none;
+ }
+ .header img{
+   position: fixed;
+   top: 0%;
+   z-index: 10;
+ }
+ .header img{
+    left: 50%;
+	margin-left: -500px;
+ }
+ .titikshaharley img{
+	width: 240px;
+	height: 140px;
+	z-index: 30;
+ }
+ #skrollr-body{
+	height: 100%;
+ }
+
+
+#clouds{
+	padding: 100px 0;
+	padding-bottom: 0;
+	background: #c9dbe9;
+	background: -webkit-linear-gradient(top, #c9dbe9 0%, #fff 100%);
+	background: -linear-gradient(top, #c9dbe9 0%, #fff 100%);
+	background: -moz-linear-gradient(top, #c9dbe9 0%, #fff 100%);
+}
+
+/*Time to finalise the cloud shape*/
+.cloud {
+	width: 200px; height: 60px;
+	background: #fff;
+	
+	border-radius: 200px;
+	-moz-border-radius: 200px;
+	-webkit-border-radius: 200px;
+	
+	position: relative; 
+}
+
+.cloud:before, .cloud:after {
+	content: '';
+	position: absolute; 
+	background: #fff;
+	width: 100px; height: 80px;
+	position: absolute; top: -15px; left: 10px;
+	
+	border-radius: 100px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	
+	-webkit-transform: rotate(30deg);
+	transform: rotate(30deg);
+	-moz-transform: rotate(30deg);
+}
+
+.cloud:after {
+	width: 120px; height: 120px;
+	top: -55px; left: auto; right: 15px;
+}
+
+/*Time to animate*/
+.x1 {
+	-webkit-animation: moveclouds 15s linear infinite;
+	-moz-animation: moveclouds 15s linear infinite;
+	-o-animation: moveclouds 15s linear infinite;
+}
+
+/*variable speed, opacity, and position of clouds for realistic effect*/
+.x2 {
+	left: 200px;
+	
+	-webkit-transform: scale(0.6);
+	-moz-transform: scale(0.6);
+	transform: scale(0.6);
+	opacity: 0.6; /*opacity proportional to the size*/
+	
+	/*Speed will also be proportional to the size and opacity*/
+	/*More the speed. Less the time in 's' = seconds*/
+	-webkit-animation: moveclouds 25s linear infinite;
+	-moz-animation: moveclouds 25s linear infinite;
+	-o-animation: moveclouds 25s linear infinite;
+}
+
+.x3 {
+	left: -250px; top: -200px;
+	
+	-webkit-transform: scale(0.8);
+	-moz-transform: scale(0.8);
+	transform: scale(0.8);
+	opacity: 0.8; /*opacity proportional to the size*/
+	
+	-webkit-animation: moveclouds 20s linear infinite;
+	-moz-animation: moveclouds 20s linear infinite;
+	-o-animation: moveclouds 20s linear infinite;
+}
+
+.x4 {
+	left: 470px; top: -250px;
+	
+	-webkit-transform: scale(0.75);
+	-moz-transform: scale(0.75);
+	transform: scale(0.75);
+	opacity: 0.75; /*opacity proportional to the size*/
+	
+	-webkit-animation: moveclouds 18s linear infinite;
+	-moz-animation: moveclouds 18s linear infinite;
+	-o-animation: moveclouds 18s linear infinite;
+}
+
+.x5 {
+	left: -150px; top: -150px;
+	
+	-webkit-transform: scale(0.8);
+	-moz-transform: scale(0.8);
+	transform: scale(0.8);
+	opacity: 0.8; /*opacity proportional to the size*/
+	
+	-webkit-animation: moveclouds 20s linear infinite;
+	-moz-animation: moveclouds 20s linear infinite;
+	-o-animation: moveclouds 20s linear infinite;
+}
+
+@-webkit-keyframes moveclouds {
+	0% {margin-left: 1000px;}
+	100% {margin-left: -1000px;}
+}
+@-moz-keyframes moveclouds {
+	0% {margin-left: 1000px;}
+	100% {margin-left: -1000px;}
+}
+@-o-keyframes moveclouds {
+	0% {margin-left: 1000px;}
+	100% {margin-left: -1000px;}
+}
+
+/* Main CSS starts */
+
+
+#campus>a , #innoregister>a{
+	position: relative;
+    color: rgba(255,255,255,1);
+    text-decoration: none;
+    background-color: rgba(219,87,5,1);
+    font-family: Tahoma;
+    font-weight: 700;
+    font-size: 1em;
+    display: block;
+    padding: 10px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
+    -moz-box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
+    box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
+    margin: 0 auto;
+	width: 160px;
+	text-align: center;
+	
+	-webkit-transition: all .1s ease;
+	-moz-transition: all .1s ease;
+	-ms-transition: all .1s ease;
+	-o-transition: all .1s ease;
+	transition: all .1s ease;
+}
+#mpvolunteer>a{
+	position: relative;
+    color: rgba(255,255,255,1);
+    text-decoration: none;
+    background-color: rgba(219,87,5,1);
+    font-family: Tahoma;
+    font-weight: 700;
+    font-size: 1em;
+    display: block;
+    padding: 10px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 9px 0px rgba(219,31,5,1);
+    -moz-box-shadow: 0px 9px 0px rgba(219,31,5,1);
+    box-shadow: 0px 9px 0px rgba(219,31,5,1);
+    margin: 0 auto;
+	width: 160px;
+	text-align: center;
+	
+	-webkit-transition: all .1s ease;
+	-moz-transition: all .1s ease;
+	-ms-transition: all .1s ease;
+	-o-transition: all .1s ease;
+	transition: all .1s ease;
+}
+#smvduregister>a{
+	position: relative;
+    color: rgba(255,255,255,1);
+    text-decoration: none;
+    background-color: #0b1627;
+    font-family: Tahoma;
+    font-weight: 700;
+    font-size: 1em;
+    display: block;
+    padding: 10px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 9px 0px #0b1627;
+    -moz-box-shadow: 0px 9px 0px #0b1627;
+    box-shadow: 0px 9px 0px #0b1627;
+    margin: 0 auto;
+	width: 160px;
+	text-align: center;
+	
+	-webkit-transition: all .1s ease;
+	-moz-transition: all .1s ease;
+	-ms-transition: all .1s ease;
+	-o-transition: all .1s ease;
+	transition: all .1s ease;
+}
+#campus>a:active , #innoregister>a:active{
+    -webkit-box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
+    -moz-box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
+    box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
+    position: relative;
+    top: 6px;
+}
+#smvduregister>a:active
+{
+	-webkit-box-shadow: 0px 3px 0px #0b1627;
+    -moz-box-shadow: 0px 3px 0px #0b1627;
+    box-shadow: 0px 3px 0px #0b1627;
+    position: relative;
+    top: 6px;
+}
+#mpregister>a:active
+{
+	-webkit-box-shadow: 0px 3px 0px #0b1627;
+    -moz-box-shadow: 0px 3px 0px #0b1627;
+    box-shadow: 0px 3px 0px #0b1627;
+    position: relative;
+    top: 6px;
+}
+.footer{ 
+	display: block;
+	position:fixed;
+	width: 100%;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    margin-bottom:0px;
+	z-index: 1000;
+}
+
+.shyam{
+    background-image: url('../img/smvdumap.jpg');
+}
+
+
+
+#nav-trigger,#label-nav,.site-wrap,.navigation{
+	display: none;
+}
+/* Slide down */
+.slide_container {
+  width: 100%;
+    
+  /*??3???????????*/
+  position: absolute;
+  top: 0;
+  z-index: 999;
+}
+/* Responsive CSS*/
+@media (max-width: 600px) {
+#skrollr-body{display:none;}
+#nav-trigger,#label-nav,.site-wrap,.navigation{
+	display: block;
+}
+.titikshamobile{
+	width: 220px;
+	height: 120px;
+	margin: 0 auto;
+	position: relative;
+	display: block;
+}
+.titikshamobile img{
+	width: 220px;
+	height: 120px;
+}
+ .ribbonmobile,.titikshaheadermobile,.titikshamobile,.datemobile{
+	text-align: center;
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+	display: block;
+}
+.ribbonmobile img,.titikshaheadermobile img,.titikshamobile img,.datemobile img{
+	padding-top: 1em;
+	width: 90%;
+ }
+/* Navigation Menu - Background */
+.navigation {
+  /* critical sizing and position styles */
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+  
+  /* non-critical appearance styles */
+  list-style: none;
+  background: #111;
+}
+
+/* Navigation Menu - List items */
+.nav-item {
+  /* non-critical appearance styles */
+  width: 200px;
+  border-top: 1px solid #111;
+  border-bottom: 1px solid #000;
+}
+
+.nav-item a {
+  /* non-critical appearance styles */
+  display: block;
+  padding: 1em;
+  background: linear-gradient(135deg, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+  color: white;
+  font-size: 1.2em;
+  text-decoration: none;
+  transition: color 0.2s, background 0.5s;
+}
+
+.nav-item a:hover {
+  color: #c74438;
+  background: linear-gradient(135deg, rgba(0,0,0,0) 0%,rgba(75,20,20,0.65) 100%);
+}
+
+/* Site Wrapper - Everything that isn't navigation */
+.site-wrap {
+  /* Critical position and size styles */
+  min-height: 100%;
+  min-width: 100%;
+  background-color: white; /* Needs a background or else the nav will show through */
+  position: relative;
+  top: 0;
+  bottom: 100%;
+  left: 0;
+  z-index: 1;
+  
+  /* non-critical apperance styles */
+  background-image: linear-gradient(135deg, rgb(254,255,255) 0%,rgb(221,241,249) 35%,rgb(160,216,239) 100%);
+}
+
+/* Nav Trigger */
+.nav-trigger {
+  /* critical styles - hide the checkbox input */
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+}
+
+label[for="nav-trigger"] {
+  /* critical positioning styles */
+  position: fixed;
+  left: 10px;
+  top: 10px;
+  z-index: 2;
+  
+  /* non-critical apperance styles */
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' x='0px' y='0px' width='30px' height='30px' viewBox='0 0 30 30' enable-background='new 0 0 30 30' xml:space='preserve'><rect width='30' height='6'/><rect y='24' width='30' height='6'/><rect y='12' width='30' height='6'/></svg>");
+  background-size: contain;
+}
+
+/* Make the Magic Happen */
+.nav-trigger + label, .site-wrap {
+  transition: left 0.2s;
+}
+
+.nav-trigger:checked + label {
+  background-image: url(../img/x.png);
+  height: 45px;
+  width: 45px;
+  left: 215px;
+}
+
+.nav-trigger:checked ~ .site-wrap {
+  left: 200px;
+  box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);
+}
+#contactus{
+	
+}
+body {
+	/* Without this, the body has excess horizontal scroll when the menu is open */
+  overflow-x: hidden;
+}
+
+/* Additional non-critical styles */
+
+h1, h3, p {
+  max-width: 600px;
+  margin: 0 auto 1em;
+}
+
+code {
+	padding: 2px;
+	background: #ddd;
+}
+
+/* Micro reset */
+*,*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;margin:0;padding:0;}
+html, body { height: 100%; width: 100%; font-family: Helvetica, Arial, sans-serif; }
+
+  
+}
+
+
+#preloader {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#fff; /* change if the mask should have another color then white */
+    z-index:99; /* makes sure it stays on top */
+}
+#status{
+    width:200px;
+    height:200px;
+    position: fixed;
+    left:50%; /* centers the loading animation horizontally one the screen */
+    top:50%; /* centers the loading animation vertically one the screen */
+    background-image:url(../img/j.png); /* path to your loading animation */
+    background-repeat:no-repeat;
+    background-position:center;
+    margin:-100px 0 0 -100px; /* is width and height divided by two */
+}
+@-webkit-keyframes rotate /* Safari and Chrome */ {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotate {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.rotate {
+  -webkit-animation: rotate 2s linear infinite;
+  -moz-animation: rotate 2s linear infinite;
+  -ms-animation: rotate 2s linear infinite;
+  -o-animation: rotate2s linear infinite;
+  animation: rotate 2s linear infinite;
+}
+
