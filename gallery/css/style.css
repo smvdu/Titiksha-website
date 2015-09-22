@@ -784,7 +784,7 @@ img {
     display: block;
     float: none;
     z-index: 2;
-    position: relative;
+    position:center;
 }
 
 #filters ul li {
