@@ -1337,7 +1337,8 @@ p{
 font-size:14px;
 }
 .top_cont_outer { 
-height: 335px;
+height: 690px;
+ background: url('../img/main.jpg') no-repeat;
 }
 .hero_section {
 position: relative;
@@ -1353,7 +1354,7 @@ line-height: 39px;
 margin: 0 0 9px 0;
 }
 .inner_section {
-padding: 20px 0 20px;
+padding: 0px;
 }
 #aboutUs img{
 margin-bottom:20px;

@@ -162,7 +162,7 @@ body {
 	color: #333333;
 	background:url(../images/bg.png);}
 a {
-	color: #fff;
+	color:seagreen;
 	text-decoration: none;
 }
 .twitter-follow-button a {   color:#333333;}
@@ -200,6 +200,8 @@ a:hover {
 
 .span12 {
   width: 940px;
+  float:center;
+
 }
 
 .span11 {
