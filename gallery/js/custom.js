@@ -1,135 +1,98 @@
+/*global jQuery:false */
+(function ($) {
 
 
-$(window).load(function() {
-    jQuery('#all').click();
-    return false;
-});
-
-$(document).ready(function() {
-    $('#header_wrapper').scrollToFixed();
-    $('.res-nav_click').click(function() {
-        $('.main-nav').slideToggle();
-        return false
-
+	$(window).load(function(){
+      $("#navigation").sticky({ topSpacing: 0 });
     });
 	
-    function resizeText() {
-        var preferredWidth = 767;
-        var displayWidth = window.innerWidth;
-        var percentage = displayWidth / preferredWidth;
-        var fontsizetitle = 25;
-        var newFontSizeTitle = Math.floor(fontsizetitle * percentage);
-        $(".divclass").css("font-size", newFontSizeTitle)
-    }
-    if ($('#main-nav ul li:first-child').hasClass('active')) {
-        $('#main-nav').css('background', 'none');
-    }
-    $('#mainNav').onePageNav({
-        currentClass: 'active',
-        changeHash: false,
-        scrollSpeed: 950,
-        scrollThreshold: 0.2,
-        filter: '',
-        easing: 'swing',
-        begin: function() {
-        },
-        end: function() {
-            if (!$('#main-nav ul li:first-child').hasClass('active')) {
-                $('.header').addClass('addBg');
-            } else {
-                $('.header').removeClass('addBg');
-            }
 
-        },
-        scrollChange: function($currentListItem) {
-            if (!$('#main-nav ul li:first-child').hasClass('active')) {
-                $('.header').addClass('addBg');
-            } else {
-                $('.header').removeClass('addBg');
-            }
-        }
-    });
+	wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       0
+      }
+    );
+    wow.init();
 
-    var container = $('#portfolio_wrapper');
+	$('ul.nav li.dropdown').hover(function() {
+	  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+	}, function() {
+	  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+	});	
 
-
-    container.isotope({
-        animationEngine: 'best-available',
-        animationOptions: {
-            duration: 200,
-            queue: false
-        },
-        layoutMode: 'fitRows'
-    });
-
-    $('#filters a').click(function() {
-        $('#filters a').removeClass('active');
-        $(this).addClass('active');
-        var selector = $(this).attr('data-filter');
-        container.isotope({
-            filter: selector
-        });
-        setProjects();
-        return false;
-    });
-
-    function splitColumns() {
-        var winWidth = $(window).width(),
-            columnNumb = 1;
-
-
-        if (winWidth > 1024) {
-            columnNumb = 4;
-        } else if (winWidth > 900) {
-            columnNumb = 2;
-        } else if (winWidth > 479) {
-            columnNumb = 2;
-        } else if (winWidth < 479) {
-            columnNumb = 1;
-        }
-
-        return columnNumb;
-    }
 	
-    function setColumns() {
-        var winWidth = $(window).width(),
-            columnNumb = splitColumns(),
-            postWidth = Math.floor(winWidth / columnNumb);
+	//jQuery to collapse the navbar on scroll
+	$(window).scroll(function() {
+		if ($(".navbar").offset().top > 50) {
+			$(".navbar-fixed-top").addClass("top-nav-collapse");
+		} else {
+			$(".navbar-fixed-top").removeClass("top-nav-collapse");
+		}
+	});
+	
+	//jQuery for page scrolling feature - requires jQuery Easing plugin
+	$(function() {
+		$('.navbar-nav li a').bind('click', function(event) {
+			var $anchor = $(this);
+			var nav = $($anchor.attr('href'));
+			if (nav.length) {
+			$('html, body').stop().animate({				
+				scrollTop: $($anchor.attr('href')).offset().top				
+			}, 1500, 'easeInOutExpo');
+			
+			event.preventDefault();
+			}
+		});
+		$('a.totop,a#btn-scroll,a.btn-slide,.carousel-inner .item a.btn').bind('click', function(event) {
+			var $anchor = $(this);
+			$('html, body').stop().animate({
+				scrollTop: $($anchor.attr('href')).offset().top
+			}, 1500, 'easeInOutExpo');
+			event.preventDefault();
+		});
+	});
 
-        container.find('.portfolio-item').each(function() {
-            $(this).css({
-                width: postWidth + 'px'
-            });
+	
+	$('.testimonialslide').flexslider({
+	animation: "slide",
+	slideshow: false,
+	directionNav:false,
+	controlNav: true
+	});
+	
+	//owl carousel
+	$('#owl-works').owlCarousel({
+            items : 4,
+            itemsDesktop : [1199,5],
+            itemsDesktopSmall : [980,5],
+            itemsTablet: [768,5],
+            itemsTabletSmall: [550,2],
+            itemsMobile : [480,2],
         });
-    }
+	
+	//nivo lightbox
+	$('.owl-carousel .item a').nivoLightbox({
+		effect: 'fadeScale',                             // The effect to use when showing the lightbox
+		theme: 'default',                           // The lightbox theme to use
+		keyboardNav: true,                          // Enable/Disable keyboard navigation (left/right/escape)
+		clickOverlayToClose: true,                  // If false clicking the "close" button will be the only way to close the lightbox
+		onInit: function(){},                       // Callback when lightbox has loaded
+		beforeShowLightbox: function(){},           // Callback before the lightbox is shown
+		afterShowLightbox: function(lightbox){},    // Callback after the lightbox is shown
+		beforeHideLightbox: function(){},           // Callback before the lightbox is hidden
+		afterHideLightbox: function(){},            // Callback after the lightbox is hidden
+		onPrev: function(element){},                // Callback when the lightbox gallery goes to previous item
+		onNext: function(element){},                // Callback when the lightbox gallery goes to next item
+		errorMessage: 'The requested content cannot be loaded. Please try again later.' // Error message when content can't be loaded
+	});
+	
 
-    function setProjects() {
-        setColumns();
-        container.isotope('reLayout');
-    }
-
-    container.imagesLoaded(function() {
-        setColumns();
-    });
-
-
-    $(window).bind('resize', function() {
-        setProjects();
-    });
-
-   $(".fancybox").fancybox();
-});
-
-wow = new WOW({
-    animateClass: 'animated',
-    offset: 100
-});
-wow.init();
-document.getElementById('').onclick = function() {
-    var section = document.createElement('section');
-    section.className = 'wow fadeInDown';
-    section.className = 'wow shake';
-    section.className = 'wow zoomIn';
-    section.className = 'wow lightSpeedIn';
-    this.parentNode.insertBefore(section, this);
-};
+	jQuery('.appear').appear();
+	jQuery(".appear").on("appear", function(data) {
+			var id = $(this).attr("id");
+			jQuery('.nav li').removeClass('active');
+			jQuery(".nav a[href='#" + id + "']").parent().addClass("active");					
+		});
+	
+})(jQuery);
