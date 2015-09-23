@@ -19,7 +19,9 @@ body {
   color: #9e87ce;
   background-color: white;
 }
-
+iframe::-webkit-scrollbar {  
+    display: none;
+  }
 
 svg {
   max-width: 100%;
