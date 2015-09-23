@@ -1,0 +1,68 @@
+a:hover,
+a:focus {
+    color: black;
+}
+
+a,.tp-caption a.btn:hover {
+	color: black;
+}
+.top-nav-collapse {
+	background: black;
+}
+
+.carousel-indicators .active {
+    background-color: black;
+}
+
+.header-text h2 span {
+    background-color: black;
+}
+
+
+.navbar-custom ul.nav ul.dropdown-menu li a:hover {
+	color: black;
+}
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span {
+    background-color: black;
+}
+
+.widget-avatar .avatar:hover {
+    border: 5px solid black;
+}
+
+.bg-skin {
+	background: black;
+}
+
+.highlight-color {
+	background-color: black;
+}
+
+
+
+
+
+form#contact-form input:focus,form#contact-form select:focus,form#contact-form textarea:focus {
+	border-color: black;
+}
+form.search-form input:focus {
+	border-color: black;
+}
+
+/* footer */
+ul.footer-menu li a:hover {
+	color: black;
+}
+
+footer a.totop:hover {
+	color: black;
+}
+
+
+.btn-skin {
+  color: #fff;
+  background-color: black;
+  border-color: black;
+}
