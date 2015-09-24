@@ -154,15 +154,8 @@ textarea {
           box-sizing: border-box;
 }
 
-body {
-	margin: 0;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 13px;
-	line-height: 18px;
-	color: #333333;
-	background:url(../images/bg.png);}
 a {
-	color:seagreen;
+	color: #fff;
 	text-decoration: none;
 }
 .twitter-follow-button a {   color:#333333;}
@@ -198,10 +191,13 @@ a:hover {
   width: 940px;
 }
 
+.container9 {
+width:100%;
+text-align:center;
+}
 .span12 {
-  width: 940px;
-  float:center;
-
+  width: 960px;
+  
 }
 
 .span11 {
@@ -233,7 +229,7 @@ a:hover {
 }
 
 .span4 {
-  width: 300px;
+  width: 330px;
 }
 
 .span3 {
@@ -444,80 +440,6 @@ p small {
 	     url('../font/citizen_slab-webfont.svg#webfont') format('svg');
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-  font-family: inherit;
-  color: inherit;
-  text-rendering: optimizelegibility;
-}
-
-h1 small,
-h2 small,
-h3 small,
-h4 small,
-h5 small,
-h6 small {
-  font-weight: normal;
-  color: #999999;
-}
-
-h1 {
-	font-family: 'citizen_slab-webfont', Arial, sans-serif;
-  font-size: 30px;
-	line-height: 36px;
-	color:#FFF;
-}
-
-h1 small {
-  font-size: 18px;
-}
-
-h2 {
-  font-size: 24px;
-  line-height: 36px;
-}
-
-h2 small {
-  font-size: 18px;
-}
-
-h3 {
-  font-size: 18px;
-  line-height: 25px;
-}
-
-h3 small {
-  font-size: 14px;
-}
-
-h4,
-h5,
-h6 {
-  line-height: 18px;
-}
-
-h4 {
-  font-size: 14px;
-}
-
-h4 small {
-  font-size: 12px;
-}
-
-h5 {
-  font-size: 12px;
-}
-
-h6 {
-  font-size: 11px;
-  color: #999999;
-  text-transform: uppercase;
-}
 
 .page-header {
   padding-bottom: 17px;
@@ -3213,7 +3135,7 @@ input[type="submit"].btn.btn-mini {
 
 .nav {
   margin-bottom: 18px;
-  margin-left: 0px;
+  margin-left: 0;
   list-style: none;
 }
 
