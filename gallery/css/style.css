@@ -518,6 +518,13 @@ section#intro {
     color: #fff;
 }
 
+.header-text2 {
+    position: absolute;
+    left: 6%;
+    right: auto;
+    width: 96.66666666666666%;
+}
+
 .header-text h2 {
     font-size: 40px;
 }
