@@ -55,6 +55,7 @@ src: url("../fonts/Scratch Basic.otf") format("opentype");
 html,
 body {
   height: 100%;
+  
 }
 html {
   height: 100%;
@@ -486,7 +487,7 @@ code {
 
 /* Micro reset */
 *,*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;margin:0;padding:0;}
-html, body { height: 100%; width: 100%; font-family: Helvetica, Arial, sans-serif; }
+html, body { height: 100%; width: 100%; font-family: Helvetica, Arial, sans-serif;background: #ADD8E6 }
 
   
 }
