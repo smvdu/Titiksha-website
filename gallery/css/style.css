@@ -1,18 +1,18 @@
 /* ==== Google font ==== */
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,700,900);
-@import url('http://fonts.googleapis.com/css?family=Ek+Mukta:400,600,700');
+
 
 
 body {
     width: 100%;
     height: 100%;
-    font-family: 'Ek Mukta', sans-serif;
+    font-family: 'Roboto', sans-serif;
 	font-weight: 300;
-    color: #666;
-    background-color: #fff;
+    color: #ffffff;
+    background-color: #9e85d0;
 	font-size: 16px;
     line-height: 1.6em;
-	font-weight: 400;
+	
 }
 
 html {
@@ -20,9 +20,16 @@ html {
     height: 100%;
 }
 
+
 h1 {
+	margin-top: 10px;
 	font-size: 38px;
+    font-weight: 100;
+    color: #fff;
+    line-height: 50px;
+	
 }
+
 h2 {
 	font-size: 36px;
 }
@@ -40,7 +47,7 @@ h6 {
 	font-size: 20px;
 }
 
-h1,
+
 h2,
 h3,
 h4,
@@ -52,21 +59,7 @@ h6 {
 	color: #111;
 }
 
-h1.h-xlight,h2.h-xlight,h3.h-xlight ,h4.h-xlight ,h5.h-xlight ,h6.h-xlight  {
-	font-weight: 200;
-}
 
-h1.h-light,h2.h-light,h3.h-light ,h4.h-light ,h5.h-light ,h6.h-light  {
-	font-weight: 300;
-}
-
-h1.h-bold,h2.h-bold,h3.h-bold ,h4.h-bold ,h5.h-bold ,h6.h-bold  {
-	font-weight: 600;
-}
-
-h1.font-light,h2.font-light,h3.font-light,h4.font-light,h5.font-light,h6.font-light {
-	color: #fff;
-}
 
 .big-heading {
 	font-size: 48px;
@@ -519,10 +512,14 @@ section#intro {
 .header-text {
     position: absolute;
     top: 5%;
-    left: 1.8%;
-    right: auto;
+
     width: 96.66666666666666%;
     color: #fff;
+}
+
+.header-text2 {
+    position: absolute;
+    width: 100%;
 }
 
 .header-text h2 {
