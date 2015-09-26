@@ -508,7 +508,7 @@ html, body { height: 100%; width: 100%; font-family: Helvetica, Arial, sans-seri
     position: fixed;
     left:50%; /* centers the loading animation horizontally one the screen */
     top:50%; /* centers the loading animation vertically one the screen */
-    background-image:url(../img/j.png); /* path to your loading animation */
+    background-image:url(../img/1.gif); /* path to your loading animation */
     background-repeat:no-repeat;
     background-position:center;
     margin:-100px 0 0 -100px; /* is width and height divided by two */
