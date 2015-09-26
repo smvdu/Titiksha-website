@@ -392,3 +392,27 @@ input:focus, textarea:focus {
 		padding-right: 3%;
 	}
 }
+
+@media only screen and (max-width: 580px) {
+	.contact{
+	    top:800px;
+		left: 3%;
+		margin-right: 3%;
+		width: 88%;
+		margin-left: 0;
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+}
+
+@media only screen and (max-width: 580px) {
+	.line{
+	    top:620px;
+		left: 3%;
+		margin-right: 3%;
+		width: 88%;
+		margin-left: 0;
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+}

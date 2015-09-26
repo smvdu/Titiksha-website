@@ -553,6 +553,17 @@ html, body { height: 100%; width: 100%; font-family: Helvetica, Arial, sans-seri
   animation: rotate 2s linear infinite;
 }
 
+@media only screen and (max-width: 580px) {
+	#date{
+	    top:200px;
+		left: 3%;
+		margin-right: 3%;
+		width: 88%;
+		margin-left: 0;
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+}
 
 
 
