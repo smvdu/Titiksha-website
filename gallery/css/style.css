@@ -9,7 +9,7 @@ body {
     font-family: 'Roboto', sans-serif;
 	font-weight: 300;
     color: #ffffff;
-    background-color: #9e85d0;
+    background-color:#9e85d0;
 	font-size: 16px;
     line-height: 1.6em;
 	
@@ -512,10 +512,14 @@ section#intro {
 .header-text {
     position: absolute;
     top: 5%;
-    left: 1.8%;
-    right: auto;
+
     width: 96.66666666666666%;
     color: #fff;
+}
+
+.header-text2 {
+    position: absolute;
+    width: 100%;
 }
 
 .header-text h2 {

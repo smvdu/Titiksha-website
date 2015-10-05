@@ -55,6 +55,7 @@ src: url("../fonts/Scratch Basic.otf") format("opentype");
 html,
 body {
   height: 100%;
+  
 }
 html {
   height: 100%;
@@ -241,22 +242,15 @@ body {
 	position: relative;
     color: rgba(255,255,255,1);
     text-decoration: none;
-    background-color: rgba(219,87,5,1);
+    background-color: rgba(71, 181, 71,1);
     font-family: Tahoma;
     font-weight: 700;
     font-size: 1em;
     display: block;
     padding: 10px;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    border-radius: 8px;
-    -webkit-box-shadow: 0px 9px 0px rgba(219,31,5,1);
-    -moz-box-shadow: 0px 9px 0px rgba(219,31,5,1);
-    box-shadow: 0px 9px 0px rgba(219,31,5,1);
     margin: 0 auto;
-	width: 160px;
+	width: 200px;
 	text-align: center;
-	
 	-webkit-transition: all .1s ease;
 	-moz-transition: all .1s ease;
 	-ms-transition: all .1s ease;
@@ -369,6 +363,30 @@ body {
 	padding-top: 1em;
 	width: 90%;
  }
+ 
+ .tatamobile{
+	width: 220px;
+	height: 120px;
+	margin: 0 auto;
+	position: relative;
+	display: block;
+}
+.tatamobile img{
+	width: 220px;
+	height: 120px;
+}
+ .gsmobile,.iimobile,.dommobile,.simobile,.gsmobile{
+	text-align: center;
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+	display: block;
+}
+.gsmobile img,.iimobile img,.dommobile img,.simobile img,.gsmobile img{
+	padding-top: 1em;
+	width: 90%;
+ }
+ 
 /* Navigation Menu - Background */
 .navigation {
   /* critical sizing and position styles */
@@ -424,6 +442,14 @@ body {
   
   /* non-critical apperance styles */
   background-image: linear-gradient(135deg, rgb(254,255,255) 0%,rgb(221,241,249) 35%,rgb(160,216,239) 100%);
+}
+
+.site-wrap0 {
+ 
+  min-height: 100%;
+  min-width: 100%;
+  background-color: white;
+   background-image: linear-gradient(135deg, rgb(254,255,255) 0%,rgb(221,241,249) 35%,rgb(160,216,239) 100%);
 }
 
 /* Nav Trigger */
@@ -486,10 +512,11 @@ code {
 
 /* Micro reset */
 *,*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;margin:0;padding:0;}
-html, body { height: 100%; width: 100%; font-family: Helvetica, Arial, sans-serif; }
+html, body { height: 100%; width: 100%; font-family: Helvetica, Arial, sans-serif;background: #ADD8E6 }
 
   
 }
+
 
 
 #preloader {
@@ -507,7 +534,7 @@ html, body { height: 100%; width: 100%; font-family: Helvetica, Arial, sans-seri
     position: fixed;
     left:50%; /* centers the loading animation horizontally one the screen */
     top:50%; /* centers the loading animation vertically one the screen */
-    background-image:url(../img/j.png); /* path to your loading animation */
+    background-image:url(../img/1.gif); /* path to your loading animation */
     background-repeat:no-repeat;
     background-position:center;
     margin:-100px 0 0 -100px; /* is width and height divided by two */
@@ -552,6 +579,17 @@ html, body { height: 100%; width: 100%; font-family: Helvetica, Arial, sans-seri
   animation: rotate 2s linear infinite;
 }
 
+@media only screen and (max-width: 580px) {
+	#date{
+	    top:200px;
+		left: 3%;
+		margin-right: 3%;
+		width: 88%;
+		margin-left: 0;
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+}
 
 
 
