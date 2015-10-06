@@ -267,3 +267,6 @@ only screen and (                min-resolution: 2dppx) {
 	padding: 25px 25px 30px 25px;
 	text-align: center;
 }
+.error{
+	color:Red;
+}
