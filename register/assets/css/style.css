@@ -242,3 +242,28 @@ only screen and (                min-resolution: 2dppx) {
     }
 	
 }
+
+.pro {
+	
+	padding: 25px 25px 30px 25px;
+	background: #fff;
+	
+	-moz-border-radius: 0 0 4px 4px; -webkit-border-radius: 0 0 4px 4px; border-radius: 0 0 4px 4px;
+	text-align: left;
+	overflow: hidden;
+	vertical-align: middle;
+    background: #fff;
+    border: 3px solid #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 10px;
+	
+	}
+
+
+.image {
+	 
+	padding: 25px 25px 30px 25px;
+	text-align: center;
+}
