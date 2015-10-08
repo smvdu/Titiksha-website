@@ -137,13 +137,7 @@ if(isset($_POST["name"]) && isset($_POST["email"]) && isset($_POST["text"]))
 						
 						
 						 <div class="col-sm-6 ">
-                        
-                        	
-								<div><h3> OR DROP US A MAIL AT :</h3></div>
-							 
-								
-							 <div id="bg"></div>
-								
+								<div><h3> OR DROP US A MAIL AT :</h3></div>								
 								<div class="contact">
 									<div class="envelope">
 									<div class="top">
@@ -158,18 +152,12 @@ if(isset($_POST["name"]) && isset($_POST["email"]) && isset($_POST["text"]))
       								<a class="mail" href="mailto:titiksha@smvdu.ac.in"><div class="i"></div>titiksha@smvdu.ac.in</a>
     								 </div>
   									</div>
-								</div>
-                           
-			 </div>
-                    
-					
-					
-					
-					
-					</div>
-                    </div>
-                </div>
-            </div>
+								</div>                          
+			 </div>					
+		     </div>
+             </div>
+             </div>
+             </div>
             
        
 
