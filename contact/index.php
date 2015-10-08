@@ -138,7 +138,7 @@ if(isset($_POST["name"]) && isset($_POST["email"]) && isset($_POST["text"]))
 						
 						 <div class="col-sm-6 ">
 								<div><h3> OR DROP US A MAIL AT :</h3></div>								
-								<div class="contact">
+								<div class="contact" >
 									<div class="envelope">
 									<div class="top">
 									<div class="outer"><div class="inner"></div></div>
