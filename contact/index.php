@@ -84,7 +84,7 @@ In the map given below SMVDU CAMPUS can be seen as the small black box.</li></p>
 			                    
 								
   
-       <form class="form" >
+       <form class="form" id="form1" action="index.php" method="post">
       
       <p class="name">
         <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
@@ -103,6 +103,33 @@ In the map given below SMVDU CAMPUS can be seen as the small black box.</li></p>
         <input type="submit" value="SEND" id="button-blue"/>
         <div class="ease"></div>
       </div>
+
+<?php
+
+if(isset($_POST["name"]) && isset($_POST["email"]) && isset($_POST["text"]))
+{
+  require_once("../db.php");
+  $name=mysql_real_escape_string(trim($_POST["name"]));
+  $email=mysql_real_escape_string(trim($_POST["email"]));
+  
+  $text=mysql_real_escape_string(trim($_POST["text"]));
+  if(filter_var($email, FILTER_VALIDATE_EMAIL))
+  {
+    $flag=mysql_query("INSERT INTO `titiksha16`.`contact` ( `name`, `email`, `message`) VALUES ( '".$name."', '".$email."', '".$text."')");
+
+  //echo "INSERT INTO `titiksha16`.`contact` ( `name`, `email`, `message`) VALUES ( '".$_POST["name"]."', '".$_POST["email"]."', '".$_POST["text"]."')";
+  if($flag)
+  {
+    echo "<h3><div class='success'><br>We will see  you soon</div></h3>"; 
+  }
+  }
+  else
+  {
+    echo "<h3><div class='error'><br>Data that you have entered is invalid</div></h3>";
+  }   
+}
+
+?>
     </form>
   </div>
 		</div>
