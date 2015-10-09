@@ -272,11 +272,12 @@ only screen and (                min-resolution: 2dppx) {
 
 
 .contact{
-		left: 30%;
-		top: 100%;		
+		position: absolute;	
+		left: 30%;	
 		height: 250px;
 		width: 250px;
-		background: rgba(10, 0, 0, 0.1);		
+		background: rgba(10, 0, 0, 0.1);	
+			
 		border-radius: 2px;
 		-ms-border-radius: 2px;
 		-moz-border-radius: 2px;
