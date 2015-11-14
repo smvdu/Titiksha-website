@@ -39,10 +39,12 @@
         	
             <div class="inner-bg">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-sm-8 col-sm-offset-2 text">
-                            <h1><strong>TITIKSHA</strong> CONTACT US</h1></div>
+                    <div class="row" style="bottom-margin:40px;">
+                        <div class="col-sm-12  text">
+                            <h1><strong>TITIKSHA</strong> Contact Us</h1><hr style="width:100%" ></div>
+						
                     </div>
+					
                     <div class="row">
 						<div class="col-sm-12 ">
                     		<div class="form-top">
@@ -64,9 +66,20 @@ In the map given below SMVDU CAMPUS can be seen as the small black box.</li></p>
 						
 						
 						
-					<center>	<iframe src="https://www.google.com/maps/d/embed?mid=zNfj_dKxDWuU.k0roDanSsl-w&hl=en" width="840" height="380"></iframe></center>
+					<center>	<iframe src="https://www.google.com/maps/d/embed?mid=zNfj_dKxDWuU.k0roDanSsl-w&hl=en" width="840" height="380"></iframe></center><br>
+						<p id="bottom">Or You may contact us:</p>
+						<ul>
+							<li id="bottom">Shubham Sharma : 8716865896</li>
+							<li id="bottom">Guneet Singh :9086223098</li>
+							<li id="bottom">Himanshu Kasliwal : 7298244592</li>
+							<li id="bottom">Sumit Srivastava: 7298242713</li>
+						
+						
+						</ul>
 							
 							</div>
+					
+					
                     	</div>
 				</div><br><br>		
 	     <div class="row">
@@ -148,7 +161,7 @@ if(isset($_POST["name"]) && isset($_POST["email"]) && isset($_POST["text"]))
    									<div class="right"></div>
    									<div class="cover"></div>
 									<div class="paper">
-      								<a class="call" href="tel:7298245479"><div class="i"></div>+91-7298245479</a>
+      								<a class="call" href="tel: 8716865896"><div class="i"></div> +91-8716865896</a>
       								<a class="mail" href="mailto:titiksha@smvdu.ac.in"><div class="i"></div>titiksha@smvdu.ac.in</a>
     								 </div>
   									</div>
