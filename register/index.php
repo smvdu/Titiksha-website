@@ -159,6 +159,7 @@ if(empty($_SESSION["email"])||empty($_SESSION["fname"]))
                         <div class="col-sm-8 col-sm-offset-2 text">
                             <h1><strong>TITIKSHA</strong> Registration Form</h1></div>
                     </div>
+					<hr>
                     <div class="row">
 						
 						
