@@ -1,7 +1,14 @@
 /* ==== Google font ==== */
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,700,900);
 
-
+.form-bottom {
+	padding: 25px 25px 30px 25px;
+	background: #444;
+	background: rgba(0, 0, 0, 0.3);
+	-moz-border-radius: 0 0 4px 4px; -webkit-border-radius: 0 0 4px 4px; border-radius: 0 0 4px 4px;
+	text-align: left;
+}
+		
 
 body {
     width: 100%;
@@ -9,7 +16,7 @@ body {
     font-family: 'Roboto', sans-serif;
 	font-weight: 300;
     color: #ffffff;
-    background-color:#9e85d0;
+    background-color:#c86161;
     font-size: 16px;
     line-height: 1.6em;
 	
