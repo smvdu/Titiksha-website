@@ -14,7 +14,7 @@ if(!empty($_POST["register"]))
     if(!empty($_POST["form-first-name"])&&!empty($_POST["form-last-name"])&&!empty($_POST["form-email"])&&!empty($_POST["form-branch"])&&
 !empty($_POST["form-university"]))
 {
-    require_once("db.php");
+    require_once("database.php");
     $fname=mysql_real_escape_string(trim($_POST["form-first-name"]));
     $lname=mysql_real_escape_string(trim($_POST["form-last-name"]));
     $email=mysql_real_escape_string(trim($_POST["form-email"]));
@@ -194,7 +194,7 @@ else
                          <div class="error" style="font-size:17px;color:SeaGreen;" ><?php echo $err. "\xA";
 ?></div>
                         <label class="sr-only" for="form-first-name">First name</label>
-                        <input type="text" name="form-first-name" class="form-first-name form-control" id="name" required="required" placeholder="Your Name..." autocomplete="off"">   
+                        <input type="text" name="form-first-name" class="form-first-name form-control" id="name" required="required" placeholder="Your Name..." autocomplete="off">   
  <!--<div class="error"><?php echo $errf;?></div>-->
 <label class="sr-only" for="form-last-name">Last name</label>
 			                        	<input type="text" name="form-last-name" placeholder="Last name..." class="form-last-name form-control" id="form-last-name">
