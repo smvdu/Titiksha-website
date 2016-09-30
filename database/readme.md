@@ -1,1 +1,0 @@
-please run the mysql commands in your mysql in order to run the php file successfully.
