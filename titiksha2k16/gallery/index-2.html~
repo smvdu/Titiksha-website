@@ -1,0 +1,3175 @@
+		<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252"><style></style><style></style>
+  <link rel="stylesheet" href="css/base.css">  
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/vendor.css">     
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/style9.css" />
+	
+  <title>Titiksha'16</title>
+  <link rel="stylesheet" href="css/background.css">
+  <style type="text/css">
+@font-face {
+    font-family: 'caviar_dreamsbold';
+    src: url('caviar_dreams_bold-webfont.html') format('woff2'),
+         url('caviar_dreams_bold-webfont-2.html') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'caviar_dreamsregular';
+    src: url('caviardreams-webfont.html') format('woff2'),
+         url('caviardreams-webfont-2.html') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* Main stuff */
+.text {
+	fill: url("#p-fire");
+	stroke: #FFFFFF;
+	stroke-width: 2;
+	stroke-opacity: 0.5;
+	font-family:caviar_dreamsregular;
+	font-weight: bolder;
+	font-size: 95px;
+	color: #FFFFFF;
+   }
+.blink_text { 
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-name: blinker;
+    -moz-animation-duration: 1s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+    animation-name: blinker;
+    animation-duration: 1s;
+    animation-timing-function: linear; 
+    animation-iteration-count: infinite; color: white; 
+} 
+
+@-moz-keyframes blinker {
+    0% { opacity: 1.0; }
+    50% { opacity: 0.3; }
+    100% { opacity: 1.0; } 
+}
+
+@-webkit-keyframes blinker { 
+    0% { opacity: 1.0; }
+    50% { opacity: 0.3; }
+    100% { opacity: 1.0; } 
+} 
+
+@keyframes blinker { 
+    0% { opacity: 1.0; } 
+    50% { opacity: 0.3; } 
+    100% { opacity: 1.0; } 
+}
+  </style>
+</head>
+
+
+<body>
+   <!-----style="visibility:hidden"-----> 
+
+  <div id="background_container">
+      <canvas height="610" width="1349" id="background"></canvas>
+  </div>
+  <script src="js/background.js"></script>
+
+ <header>   	
+   	<div class="row">
+
+<div style="top:25px;left:15px;"><a href="../index.html"><img src="images/back.png"width="55" height="55"></a>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<img id="bgm_img"src="images/unmute.png" width="55px" height="55px" onClick="bgm_ctrl()"name="un" title="Mute Background Music." style="cursor:pointer;">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</div>
+   	<div class="top-bar">
+	<a href="registration.html"><img src="images/log_reg.png"></a>
+
+   			<a class="menu-toggle" href="#"><span>Menu</span></a>
+	<nav id="main-nav-wrap">
+					<ul class="main-navigation">
+						<li class="current"><a class="smoothscroll"  href="#intro" title="">Home</a></li>
+						<li><a class="smoothscroll"  href="#about" title="">About</a></li>
+					
+ 					<li><a class="smoothscroll" href="#events" title="">Events</a></li>	
+					<li><a class="smoothscroll" href="#gallery" title="">Gallery</a></li>
+						<li><a class="smoothscroll"href="#contact" title="">Contact</a></li>	
+					</ul>
+				</nav>    		
+   		</div>
+		 <!-- /top-bar --> 
+   	</div> 
+   	<!-- /row --> 		
+</header> 
+    <section id="intro">   
+
+   	<div class="intro-overlay">
+</div>	
+
+   	<div class="intro-content">
+   		<div class="row">
+
+   			<div class="col-twelve">
+				
+			<div class="content"> 
+<!--			<img src="images/logo1.png" style="background-color:white;">
+ -->				<svg viewBox="0 0 1750 400">
+				  
+				  <!-- Pattern -->
+				  <pattern 
+				       id="p-fire" 
+				       viewBox="10 100 186 200"
+				       patternUnits="userSpaceOnUse"
+				       width="216" height="500"
+				       x="-10" y="40">
+				    
+				    <!-- Fire -->
+				    <image xlink:href="images/fire.gif" width="300" height="300"/>
+				  </pattern>
+				  <!-- Text -->
+				  <text text-anchor="middle"
+				          x="50%"
+				          y="50%"
+				          dy=".5em"
+				          class="text" style="font-size:360px; font-family: caviar_dreamsbold;border:dotted #FFFFFF;">
+				  Titiksha'16</text></svg>
+				
+<p class="intro-position">
+	   				<span class="blink_text">knowledge runs free...</span> 
+   			  </p>
+			</div>
+
+	   			
+
+	  
+	   		</div>  
+
+   		</div>   		 		
+   	</div> <!-- /intro-content --> 
+
+   	<ul class="intro-social">        
+         <li><a target="_blank"href="https://www.facebook.com/advayaofficial/"><i class="fa fa-facebook"></i></a></li>
+        <!-- <li><a target="_blank" href=""><i class="fa fa-twitter"></i></a></li>
+         <li><a target="_blank"href="#"><i class="fa fa-dribbble"></i></a></li>
+         <li><a target="_blank"href="#"><i class="fa fa-instagram"></i></a></li>
+		 --> <li><a target="_blank"href="https://www.youtube.com/channel/UCCrtm7dNcQp1dsULnYZFj5g"><i class="fa fa-youtube-play"></i></a></li>
+      </ul> <!-- /intro-social -->      	
+<hr>
+   </section> <!-- /intro -->
+   <br><br><hr><br><br>
+  <section id="about">  
+
+   	<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>About</h5>
+   			<h1>Titiksha </h1>
+
+   			<div class="intro-info">
+
+   				<img src="images/profile-pic.jpg" alt="Profile Picture">
+
+   				<p class="lead" align="justify">Titiksha 2k16, the largest techfest in Jammu and Kashmir, is the annual technical festival of Shri Mata Vaishno Devi University. It contains various competitions, workshops, guest lectures, exhibitions and gaming events.</p>
+   			</div>   			
+
+   		</div>   		
+   	</div> <!-- /section-intro -->
+
+</section><br><br><hr><br><br> <!-- /process-->    
+<section id="events"><br><br><br>
+<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Events</h5>
+
+		  </div> 
+   	</div>
+ <link href="css/style.css" rel="stylesheet" type="text/css">  
+<script type="text/javascript" src="js/jquery.1.8.3.min.js"></script>
+  <script type="text/javascript" src="js/jquery.isotope.js"></script> 
+ 
+    <div id="filters" class="sixteen columns">
+      <ul class="clearfix">
+        <li><a id="all" href="#" data-filter="*" class="active">
+          <h5>All</h5>
+          </a></li>
+		  
+		  <li><a class="" href="#" data-filter=".general">
+          <h5>General</h5>
+          </a></li>
+		  
+		  <li><a class="" href="#" data-filter=".cultural">
+          <h5>Cultural</h5>
+          </a></li>
+		  
+		  <li><a class="" href="#" data-filter=".robo">
+          <h5>Robotics</h5>
+          </a></li>
+		  
+		  <li><a class="" href="#" data-filter=".game">
+          <h5>Games</h5>
+          </a></li>
+		  
+		  <li><a class="" href="#" data-filter=".online">
+          <h5>Online </h5>
+          </a></li>
+		  
+
+		  <br>
+		  
+		  <li><a class="" href="#" data-filter=".me">
+          <h5>ME</h5>
+          </a></li>
+		  
+		  <li><a class="" href="#" data-filter=".eee">
+          <h5>EEE</h5>
+          </a></li>
+		  
+		  <li><a class="" href="#" data-filter=".ec">
+          <h5>EC</h5>
+          </a></li>
+		  
+		  <li><a class="" href="#" data-filter=".cs">
+          <h5>CSE</h5>
+          </a></li>
+		  
+        <li><a class="" href="#" data-filter=".it">
+          <h5>IT</h5>
+          </a></li>
+
+         </ul>
+    </div>
+    <!--/Portfolio Filters --> 
+    
+    <!-- Portfolio Wrap -->
+    <div class="isotope" style="position: relative; overflow: hidden; height: 480px;" id="portfolio-wrap"> 
+      
+ 
+      <!-- Portfolio Item FullScreen Expander -->
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  general isotope-item">
+        <!------------------>
+		
+	        		<div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/general/pe.jpg" alt="Lighthouse">
+	                  <a href="#modal-g1" class="overlay">             		                  
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Project Expo</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  General event										  		     					      </span>     					   </div> 	                      	
+	                     </div>                    
+	                  </a>	               </div>
+	        		</div> 
+	        		<!-- /folio-item -->
+
+        <!------------------>
+      </div>
+      <!--/Portfolio Item FullScreen Expander --> 
+      
+      <!-- Portfolio Item Normal Expander -->
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  general isotope-item">
+        <!------------------>
+		
+	            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/general/paper_pres.jpg" alt="Salad">
+	                  <a href="#modal-g2" class="overlay">
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Paper Presentation</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  General event	     					      </span>     					   </div>	                      	
+	                     </div>                    
+	                  </a>	               </div>
+       		   </div> 
+        <!------------------>
+      </div>
+      <!--/Portfolio Item Normal Expander --> 
+      
+      <!-- Portfolio Item External Project  -->
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  general isotope-item">
+       <!------------------>
+	   	            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/general/best-minds-large.jpg" alt="Salad">
+	                  <a href="#modal-g3" class="overlay">
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Best Engineer</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  General event	     					      </span>     					   </div>	                      	
+	                     </div>                    
+	                  </a>	               </div>
+       		   </div> 
+        <!------------------></div>
+      <!--/Portfolio Item External Project  --> 
+      
+      <!-- Portfolio Item With PrettyPhoto  -->
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   general isotope-item">
+        <!------------------>
+			            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/general/icon.512x512-75.png" alt="Salad">
+	                  <a href="#modal-g4" class="overlay">
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Quickipedia</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  General event	     					      </span>     					   </div>	                      	
+	                     </div>                    
+	                  </a>	               </div>
+       		   </div> 
+        <!------------------>
+	  </div>      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  general isotope-item">
+        <!------------------>
+			            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/general/junior_pro.jpg" alt="Salad">
+	                  <a href="#modal-g5" class="overlay">
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Junior Pro</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  General event	     					      </span>     					   </div>	                      	
+	                     </div>                    
+	                  </a>	               </div>
+       		   </div> 
+        <!------------------>
+	  </div>      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   general isotope-item">
+        <!------------------>
+			            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/general/crypto.jpg" alt="Salad">
+	                  <a href="#modal-g6" class="overlay">
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Cryptography</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  General event	     					      </span>     					   </div>	                      	
+	                     </div>                    
+	                  </a>	               </div>
+       		   </div> 
+        <!------------------>
+	  </div>      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   general isotope-item">
+        <!------------------>
+			            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/general/quiz.jpg" alt="Salad">
+	                  <a href="#modal-g7" class="overlay">
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Quiz</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  General event	     					      </span>     					   </div>	                      	
+	                     </div>                    
+	                  </a>	               </div>
+       		   </div> 
+        <!------------------>
+	  </div>   
+	     <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   cultural isotope-item">
+        <!------------------>
+			            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/general/dancing.jpg" alt="Salad">
+	                  <a href="#modal-c1" class="overlay">
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Inter College Dance</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  Cultural event    					      </span>     					   </div>	                      	
+	                     </div>                    
+	                  </a>	               </div>
+       		   </div> 
+        <!------------------>
+	  </div>      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  cultural isotope-item">
+        <!------------------>
+			            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/general/dj.jpg" alt="Salad">
+	                  <a href="#modal-c2" class="overlay">
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">DJ War</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  Cultural event	     					      </span>     					   </div>	                      	
+	                     </div>                    
+	                  </a>	               </div>
+       		   </div> 
+        <!------------------>
+	  </div>      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  cultural isotope-item">
+        <!------------------>
+			            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/general/band.png" alt="Salad">
+	                  <a href="#modal-c3" class="overlay">
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Band War</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  Cultural event	     					      </span>     					   </div>	                      	
+	                     </div>                    
+	                  </a>	               </div>
+       		   </div> 
+        <!------------------>
+	  </div>      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four cultural isotope-item">
+        <!------------------>
+			            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/general/voice_of_geci.jpg" alt="Salad">
+	                  <a href="#modal-c4" class="overlay">
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Voice of GECI</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  Cultural event	     					      </span>     					   </div>	                      	
+	                     </div>                    
+	                  </a>	               </div>
+       		   </div> 
+        <!------------------>
+	  </div>      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four cultural isotope-item">
+        <!------------------>
+			            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/general/th.jpg" alt="Salad">
+	                  <a href="#modal-c5" class="overlay">
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Treassure hunt</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  Cultural event	     					      </span>     					   </div>	                      	
+	                     </div>                    
+	                  </a>	               </div>
+       		   </div> 
+        <!------------------>
+	  </div>
+	   
+	  	      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four cultural isotope-item">
+        <!------------------>
+			            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/general/spot.jpg" alt="Salad">
+	                  <a href="#modal-c6" class="overlay">
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Spot Photography</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  Cultural event	     					      </span>     					   </div>	                      	
+	                     </div>                    
+	                  </a>	               </div>
+       		   </div> 
+        <!------------------>
+	  </div>	      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four cultural isotope-item">
+        <!------------------>
+			            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/general/canyou.jpg" alt="Salad">
+	                  <a href="#modal-c7" class="overlay">
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Can You Escape</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  Cultural event	     					      </span>     					   </div>	                      	
+	                     </div>                    
+	                  </a>	               </div>
+       		   </div> 
+        <!------------------>
+	  </div>	      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four cultural isotope-item">
+        <!------------------>
+			            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/general/sherlocked.png" alt="Salad">
+	                  <a href="#modal-c8" class="overlay">
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Sherlocked</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  Cultural event	     					      </span>     					   </div>	                      	
+	                     </div>                    
+	                  </a>	               </div>
+       		   </div> 
+        <!------------------>
+	  </div>	 
+	  
+	   <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four cultural isotope-item">
+        <!------------------>
+			            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/general/120.jpg" alt="Salad">
+	                  <a href="#modal-c9" class="overlay">
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Shortfilm contest</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  Cultural event	     					      </span>     					   </div>	                      	
+	                     </div>                    
+	                  </a>	               </div>
+       		   </div> 
+        <!------------------>
+	  </div>   
+	    <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four robo isotope-item">
+        <!------------------>
+			            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/general/robowar.jpg" alt="Salad">
+	                  <a href="#modal-r1" class="overlay">
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Robowar</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  Robotics event	     					      </span>     					   </div>	                      	
+	                     </div>                    
+	                  </a>	               </div>
+       		   </div> 
+        <!------------------>
+	  </div>	      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four robo isotope-item">
+        <!------------------>
+			            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/general/roborace.jpg" alt="Salad">
+	                  <a href="#modal-r2" class="overlay">
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Roborace</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  Robotics event	     					      </span>     					   </div>	                      	
+	                     </div>                    
+	                  </a>	               </div>
+       		   </div> 
+        <!------------------>
+	  </div>	      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four robo isotope-item">
+        <!------------------>
+			            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/general/robosoccer.jpg" alt="Salad">
+	                  <a href="#modal-r3" class="overlay">
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Robosoccer</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  Cultural event	     					      </span>     					   </div>	                      	
+	                     </div>                    
+	                  </a>	               </div>
+       		   </div> 
+        <!------------------>
+	  </div>	   
+	     <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four game isotope-item">
+        <!------------------>
+			            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/general/nfs.jpg" alt="Salad">
+	                  <a href="#modal-ga1" class="overlay">
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">NFS</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  Game	     					      </span>     					   </div>	                      	
+	                     </div>                    
+	                  </a>	               </div>
+       		   </div> 
+        <!------------------>
+	  </div>	      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four game isotope-item">
+        <!------------------>
+			            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/general/fifa.jpg" alt="Salad">
+	                  <a href="#modal-ga2" class="overlay">
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">FIFA</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	 Game	     					      </span>     					   </div>	                      	
+	                     </div>                    
+	                  </a>	               </div>
+       		   </div> 
+        <!------------------>
+	  </div>	      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four game isotope-item">
+        <!------------------>
+			            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/general/counter.jpg" alt="Salad">
+	                  <a href="#modal-ga3" class="overlay">
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Counter strike</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	 Game	     					      </span>     					   </div>	                      	
+	                     </div>                    
+	                  </a>	               </div>
+       		   </div> 
+        <!------------------>
+	  </div>	   
+	    <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four online isotope-item">
+        <!------------------>
+			            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/general/th.jpg" alt="Salad">
+	                  <a href="#modal-ol1" class="overlay">
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Online Treasure hunt</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  Online event	     					      </span>     					   </div>	                      	
+	                     </div>                    
+	                  </a>	               </div>
+       		   </div> 
+        <!------------------>
+	  </div>	      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four online isotope-item">
+        <!------------------>
+			            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/general/Candid5.jpg" alt="Salad">
+	                  <a href="#modal-ol2" class="overlay">
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Online Photography</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  Online event	     					      </span>     					   </div>	                      	
+	                     </div>                    
+	                  </a>	               </div>
+       		   </div> 
+        <!------------------>
+	  </div>	      
+	
+	  <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four me isotope-item">
+        <!------------------>
+			            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/general/141107-hackathon_18_d893499f2c13fe1fa05bd46252246b1e.jpg" alt="Salad">
+	                  <a href="#modal-me1" class="overlay">
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Hackathon</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	 ME	     					      </span>     					   </div>	                      	
+	                     </div>                    
+	                  </a>	               </div>
+       		   </div> 
+        <!------------------>
+	  </div>	      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four me isotope-item">
+        <!------------------>
+			            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/general/03.jpg" alt="Salad">
+	                  <a href="#modal-me2" class="overlay">
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">State your business</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  ME	     					      </span>     					   </div>	                      	
+	                     </div>                    
+	                  </a>	               </div>
+       		   </div> 
+        <!------------------>
+	  </div>	      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four me isotope-item">
+        <!------------------>
+			            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/general/engine.jpg" alt="Salad">
+	                  <a href="#modal-me3" class="overlay">
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Engine assembly</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	ME	     					      </span>     					   </div>	                      	
+	                     </div>                    
+	                  </a>	               </div>
+       		   </div> 
+        <!------------------>
+	  </div>	      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four me isotope-item">
+        <!------------------>
+			            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/general/cad_master.jpg" alt="Salad">
+	                  <a href="#modal-me4" class="overlay">
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">CAD master</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  ME	     					      </span>     					   </div>	                      	
+	                     </div>                    
+	                  </a>	               </div>
+       		   </div> 
+        <!------------------>
+	  </div>	      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four me isotope-item">
+        <!------------------>
+			            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/general/lathe.jpg" alt="Salad">
+	                  <a href="#modal-me5" class="overlay">
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Lathe master</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       ME     					      </span>     					   </div>	                      	
+	                     </div>                    
+	                  </a>	               </div>
+       		   </div> 
+        <!------------------>
+	  </div>	      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four me isotope-item">
+        <!------------------>
+			            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/general/MITS---Concurso---logo.jpg" alt="Salad">
+	                  <a href="#modal-me6" class="overlay">
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Auto quiz </h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	 ME	     					      </span>     					   </div>	                      	
+	                     </div>                    
+	                  </a>	               </div>
+       		   </div> 
+        <!------------------>
+	  </div>	    
+	   <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four eee isotope-item">
+        <!------------------>
+			            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/general/bomb.jpg" alt="Salad">
+	                  <a href="#modal-eee1" class="overlay">
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Bomb Diffusing</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	 EEE	     					      </span>     					   </div>	                      	
+	                     </div>                    
+	                  </a>	               </div>
+       		   </div> 
+        <!------------------>
+	  </div>
+	  <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four eee isotope-item">
+        <!------------------>
+			            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/general/brain%20wiring%20map_MIT_white_matter.jpg" alt="Salad">
+	                  <a href="#modal-eee2" class="overlay">
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Wiring Competition</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	 EEE	     					      </span>     					   </div>	                      	
+	                     </div>                    
+	                  </a>	               </div>
+       		   </div> 
+        <!------------------>
+	  </div>
+	  <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four eee isotope-item">
+        <!------------------>
+			            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/general/mat.png" alt="Salad">
+	                  <a href="#modal-eee3" class="overlay">
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Mat lab</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	 EEE	     					      </span>     					   </div>	                      	
+	                     </div>                    
+	                  </a>	               </div>
+       		   </div> 
+        <!------------------>
+	  </div>
+	  <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four eee isotope-item">
+        <!------------------>
+			            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/general/crazy.jpg" alt="Salad">
+	                  <a href="#modal-eee4" class="overlay">
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Crazy bulb</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	 EEE	     					      </span>     					   </div>	                      	
+	                     </div>                    
+	                  </a>	               </div>
+       		   </div> 
+        <!------------------>
+	  </div>
+	  <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four eee isotope-item">
+        <!------------------>
+			            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/general/ckt_design.png" alt="Salad">
+	                  <a href="#modal-eee5" class="overlay">
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Circuit Design</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	 EEE	     					      </span>     					   </div>	                      	
+	                     </div>                    
+	                  </a>	               </div>
+       		   </div> 
+        <!------------------>
+	  </div>
+	 <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four ec isotope-item">
+        <!------------------>
+			            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/general/lab_hunting.jpg" alt="Salad">
+	                  <a href="#modal-ec1" class="overlay">
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Lab hunting</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	 EC	     					      </span>     					   </div>	                      	
+	                     </div>                    
+	                  </a>	               </div>
+       		   </div> 
+        <!------------------>
+	  </div>
+	   <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four ec isotope-item">
+        <!------------------>
+			            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/general/time-multiplexed-optical-waveform-generation.jpg" alt="Salad">
+	                  <a href="#modal-ec2" class="overlay">
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Waveform Genertion</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	 EC	     					      </span>     					   </div>	                      	
+	                     </div>                    
+	                  </a>	               </div>
+       		   </div> 
+        <!------------------>
+	  </div> <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four ec isotope-item">
+        <!------------------>
+			            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/general/soldering_366x210.jpg" alt="Salad">
+	                  <a href="#modal-ec3" class="overlay">
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Soldering Competition</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	 EC	     					      </span>     					   </div>	                      	
+	                     </div>                    
+	                  </a>	               </div>
+       		   </div> 
+        <!------------------>
+	  </div> <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four ec isotope-item">
+        <!------------------>
+			            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/general/circuit-debugging.jpg" alt="Salad">
+	                  <a href="#modal-ec4" class="overlay">
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Circuit Debugging</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	 EC	     					      </span>     					   </div>	                      	
+	                     </div>                    
+	                  </a>	               </div>
+       		   </div> 
+        <!------------------>
+	  </div> <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four ec isotope-item">
+        <!------------------>
+			            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/general/IC_WARS.png" alt="Salad">
+	                  <a href="#modal-ec5" class="overlay">
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">IC War</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	 EC	     					      </span>     					   </div>	                      	
+	                     </div>                    
+	                  </a>	               </div>
+       		   </div> 
+        <!------------------>
+	  </div>
+     
+	       
+	  	       <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four cs isotope-item">
+       
+	         	<div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/general/ratnamtechnologies-web-designing.jpg" alt="Blind Coding" width="800" height="801">
+	                  <a href="#modal-cs2" class="overlay">	                  	           
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+		     					       <h3 class="folio-title">Website Development</h3>	     					    
+		     					    	 <span class="folio-types">
+		     					       	  CS		     					       </span>		     					   </div>	                      	
+	                     </div>                    
+	                  </a>	               </div>	               
+   		</div> 
+      </div>
+	  	       <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four cs isotope-item">
+       
+	         	<div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/general/android-applications.png" alt="Blind Coding" width="800" height="801">
+	                  <a href="#modal-cs3" class="overlay">	                  	           
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+		     					       <h3 class="folio-title">Android App Development</h3>	     					    
+		     					    	 <span class="folio-types">
+		     					       	  CS		     					       </span>		     					   </div>	                      	
+	                     </div>                    
+	                  </a>	               </div>	               
+   		</div> 
+      </div>
+	  	       <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four cs isotope-item">
+       
+	         	<div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/general/digital_editing.jpg" alt="Blind Coding" width="800" height="801">
+	                  <a href="#modal-cs4" class="overlay">	                  	           
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+		     					       <h3 class="folio-title">Digital editing</h3>	     					    
+		     					    	 <span class="folio-types">
+		     					       	  CS		     					       </span>		     					   </div>	                      	
+	                     </div>                    
+	                  </a>	               </div>	               
+   		</div> 
+      </div>
+	  	       <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four cs isotope-item">
+       
+	         	<div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/general/googler.jpg" alt="Blind Coding" width="800" height="801">
+	                  <a href="#modal-cs5" class="overlay">	                  	           
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+		     					       <h3 class="folio-title">Googlr</h3>	     					    
+		     					    	 <span class="folio-types">
+		     					       	  CS		     					       </span>		     					   </div>	                      	
+	                     </div>                    
+	                  </a>	               </div>	               
+   		</div> 
+      </div>
+	  <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  cs isotope-item">
+       
+	         	<div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/general/c_prog.jpg" alt="Blind Coding" width="800" height="801">
+	                  <a href="#modal-cs1" class="overlay">	                  	           
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+		     					       <h3 class="folio-title">C-Coding</h3>	     					    
+		     					    	 <span class="folio-types">
+		     					       	  CS		     					       </span>		     					   </div>	                      	
+	                     </div>                    
+	                  </a>	               </div>	               
+   		</div> 
+      </div>
+	  <!-------########################################----------->
+	     <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four it isotope-item">
+       
+	         	<div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/it/bc.jpg" alt="Blind Coding" width="800" height="801">
+	                  <a href="#modal-01" class="overlay">	                  	           
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+		     					       <h3 class="folio-title">Blind Coding</h3>	     					    
+		     					    	 <span class="folio-types">
+		     					       	  Coding		     					       </span>		     					   </div>	                      	
+	                     </div>                    
+	                  </a>	               </div>	               
+   		</div> 
+      </div>
+      <!--/Portfolio Item With PrettyPhoto  --> 
+      
+      <!-- Portfolio Item Video Expander  -->
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  it isotope-item">
+        <!------------------>
+		<div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/it/rd.jpg" alt="Relay Debugging">
+	               	<a href="#modal-02" class="overlay">              		                  
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Relay Debugging</h3>	     					    
+		     					    	<span class="folio-types">
+   					       	  Coding						      </span>     					   </div> 	                      	
+	                     </div>                    
+                     </a>	               </div>
+   		</div> 
+        <!------------------>
+      </div>
+      <!--/Portfolio Item Video Expander  --> 
+      
+      <!-- Portfolio Item Normal Expander -->
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  it isotope-item">
+        <!------------------>
+		
+	            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/it/wv.jpg"alt="Website vulnerability" width="800px" height="801px">
+	                  <a href="#modal-03" class="overlay">             		                  
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Website vulnerability test</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  IT		     					      </span>     					   </div> 	                      	
+	                     </div>                    
+	                  </a>	               </div>
+       		   </div> 
+	            <!-- /folio-item -->
+
+	           
+        <!------------------>
+      </div>
+	        <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four it isotope-item">
+       
+	         	<div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/general/besttechie-logo.jpg" alt="Blind Coding" width="800" height="801">
+	                  <a href="#modal-05" class="overlay">	                  	           
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+		     					       <h3 class="folio-title">Best IT Techie</h3>	     					    
+		     					    	 <span class="folio-types">
+		     					       	  IT		     					       </span>		     					   </div>	                      	
+	                     </div>                    
+	                  </a>	               </div>	               
+   		</div> 
+      </div>
+	  <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  it isotope-item">
+        <!------------------>
+		 <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/it/cm.jpg" alt="Collage Designing" width="800px" height="801px">
+	                  <a href="#modal-04" class="overlay">                  	                 
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Collage Designing</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  Designing		     					      </span>     					   </div>  	                      	
+	                     </div>                    
+	                  </a>	               </div>
+	    </div> 
+      </div>
+      <!-- Portfolio Item FullScreen Expander --> 
+      
+    </div>
+    <!--/Portfolio Wrap --> 
+    
+  </div>
+ 
+<script type="text/javascript">
+
+   
+  jQuery(document).ready(function($){     
+// Portfolio Isotope
+	var container = $('#portfolio-wrap');	
+	
+
+	container.isotope({
+		animationEngine : 'best-available',
+	  	animationOptions: {
+	     	duration: 200,
+	     	queue: false
+	   	},
+		layoutMode: 'fitRows'
+	});	
+
+	$('#filters a').click(function(){
+		$('#filters a').removeClass('active');
+		$(this).addClass('active');
+		var selector = $(this).attr('data-filter');
+	  	container.isotope({ filter: selector });
+        setProjects();		
+	  	return false;
+	});
+		
+		
+		function splitColumns() { 
+			var winWidth = $(window).width(), 
+				columnNumb = 1;
+			
+			
+			if (winWidth > 1024) {
+				columnNumb = 4;
+			} else if (winWidth > 900) {
+				columnNumb = 2;
+			} else if (winWidth > 479) {
+				columnNumb = 2;
+			} else if (winWidth < 479) {
+				columnNumb = 1;
+			}
+			
+			return columnNumb;
+		}		
+		
+		function setColumns() { 
+			var winWidth = $(window).width(), 
+				columnNumb = splitColumns(), 
+				postWidth = Math.floor(winWidth / columnNumb);
+			
+			container.find('.portfolio-item').each(function () { 
+				$(this).css( { 
+					width : postWidth + 'px' 
+				});
+			});
+		}		
+		
+		function setProjects() { 
+			setColumns();
+			container.isotope('reLayout');
+		}		
+		
+		container.imagesLoaded(function () { 
+			setColumns();
+		});
+		
+	
+		$(window).bind('resize', function () { 
+			setProjects();			
+		});
+
+});
+$( window ).load(function() {
+	jQuery('#all').click();
+	return false;
+});
+</script>
+<!-- /section-intro-->
+<div class="row portfolio-content">
+
+   		<div class="col-twelve">
+        <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+			 
+			  <div id="modal-r1" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media" >
+				     		<img src="images/general/robowar.jpg" alt="" />
+				     	</div>      	
+<div id="modal_rw"></div>
+					   <div class="description-box">
+					     <h4>Robowar</h4>
+						 <hr>
+<ul class="tab">
+  <li><a href="#modal_rw" class="tablinks" onClick="openCity(event, 'rw_about')">About</a></li>
+  <li><a href="#modal_rw" class="tablinks" onClick="openCity(event, 'rw_rules')">Rules</a></li>
+  <li><a href="#modal_rw" class="tablinks" onClick="openCity(event, 'rw_prize')">Prize</a></li>
+  <li><a href="#modal_rw" class="tablinks" onClick="openCity(event, 'rw_contact')">Contact</a></li>
+
+</ul>
+<div id="rw_about" class="tabcontent">
+</div>
+<div id="rw_rules" class="tabcontent">
+ </div>
+<div id="rw_prize" class="tabcontent">
+</div>
+<div id="rw_contact" class="tabcontent">
+ </div>
+	   </div>
+
+			         <div class="link-box">
+			           <div id="Robowar"><a  onClick="reg('Robowar');">Register</a></div>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+			   </div> 	
+			      
+       <div id="modal-r2" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media" >
+				     		<img src="images/general/roborace.jpg" alt="" />
+				     	</div>      	
+<div id="modal_rr"/>
+					   <div class="description-box">
+					     <h4>Race race</h4>
+						 <hr>
+						 
+<ul class="tab">
+  <li><a href="#modal_rr" class="tablinks" onClick="openCity(event, 'rr_about')">About</a></li>
+  <li><a href="#modal_rr" class="tablinks" onClick="openCity(event, 'rr_rules')">Rules</a></li>
+  <li><a href="#modal_rr" class="tablinks" onClick="openCity(event, 'rr_prize')">Prize</a></li>
+  <li><a href="#modal_rr" class="tablinks" onClick="openCity(event, 'rr_contact')">Contact</a></li>
+
+</ul>
+<div id="rr_about" class="tabcontent">
+</div>
+<div id="rr_rules" class="tabcontent">
+ </div>
+<div id="rr_prize" class="tabcontent">
+</div>
+<div id="rr_contact" class="tabcontent">
+ </div>
+	   </div>
+
+			         <div class="link-box">
+			             <div id="Roborace"><a  onClick="reg('Roborace');">Register</a></div>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+			   </div> 
+			    <div id="modal-ga1" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media" >
+				     		<img src="images/general/nfs.jpg" alt="" />
+				     	</div>      	
+<div id="modal_nfs"/>
+					   <div class="description-box">
+					     <h4>NFS</h4>
+						 <hr>
+						 
+<ul class="tab">
+  <li><a href="#modal_nfs" class="tablinks" onClick="openCity(event, 'nfs_about')">About</a></li>
+  <li><a href="#modal_nfs" class="tablinks" onClick="openCity(event, 'nfs_rules')">Rules</a></li>
+  <li><a href="#modal_nfs" class="tablinks" onClick="openCity(event, 'nfs_prize')">Prize</a></li>
+  <li><a href="#modal_nfs" class="tablinks" onClick="openCity(event, 'nfs_contact')">Contact</a></li>
+
+</ul>
+<div id="nfs_about" class="tabcontent">
+</div>
+<div id="nfs_rules" class="tabcontent">
+ </div>
+<div id="nfs_prize" class="tabcontent">
+</div>
+<div id="nfs_contact" class="tabcontent">
+ </div>
+	   </div>
+
+			         <div class="link-box">
+			             <div id="NFS"><a  onClick="reg('NFS');">Register</a></div>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+			   </div> 
+			   
+					<div id="modal-r3" class="popup-modal slider mfp-hide">	
+	
+							<div class="media" >
+								<img src="images/general/robosoccer.jpg" alt="" />
+							</div>      	
+	<div id="modal_rs"/>
+						   <div class="description-box">
+							 <h4>Robo soccer</h4>
+							 <hr>
+							 
+	<ul class="tab">
+	  <li><a href="#modal_rs" class="tablinks" onClick="openCity(event, 'rs_about')">About</a></li>
+	  <li><a href="#modal_rs" class="tablinks" onClick="openCity(event, 'rs_rules')">Rules</a></li>
+	  <li><a href="#modal_rs" class="tablinks" onClick="openCity(event, 'rs_prize')">Prize</a></li>
+	  <li><a href="#modal_rs" class="tablinks" onClick="openCity(event, 'rs_contact')">Contact</a></li>
+	
+	</ul>
+	<div id="rs_about" class="tabcontent">
+	</div>
+	<div id="rs_rules" class="tabcontent">
+	 </div>
+	<div id="rs_prize" class="tabcontent">
+	</div>
+	<div id="rs_contact" class="tabcontent">
+	 </div>
+		   </div>
+	
+						 <div class="link-box">
+							 <div id="Robosoccer"><a  onClick="reg('Robosoccer');">Register</a></div>
+							  <a href="#" class="popup-modal-dismiss">Close</a>
+						 </div>		      
+	
+				   </div> 
+				   
+					 <div id="modal-g1" class="popup-modal slider mfp-hide">	
+	
+							<div class="media" >
+								<img src="images/general/pe.jpg" alt="" />
+							</div>      	
+	<div id="modal_bc"/>
+						   <div class="description-box">
+							 <h4>Project Expo</h4>
+							 <hr>
+							 
+	<ul class="tab">
+	  <li><a href="#modal_pe" class="tablinks" onClick="openCity(event, 'pe_about')">About</a></li>
+	  <li><a href="#modal_pe" class="tablinks" onClick="openCity(event, 'pe_rules')">Rules</a></li>
+	  <li><a href="#modal_pe" class="tablinks" onClick="openCity(event, 'pe_prize')">Prize</a></li>
+	  <li><a href="#modal_pe" class="tablinks" onClick="openCity(event, 'pe_contact')">Contact</a></li>
+	
+	</ul>
+	<div id="pe_about" class="tabcontent">
+	</div>
+	<div id="pe_rules" class="tabcontent">
+	 </div>
+	<div id="pe_prize" class="tabcontent">
+	</div>
+	<div id="pe_contact" class="tabcontent">
+	 </div>
+		   </div>
+	
+						 <div class="link-box">
+							 <div id="ProjectExpo"><a  onClick="reg('ProjectExpo');">Register</a></div>
+							  <a href="#" class="popup-modal-dismiss">Close</a>
+						 </div>		      
+	
+				   </div> 
+				   <div id="modal-g2" class="popup-modal slider mfp-hide">	
+	
+							<div class="media" >
+								<img src="images/general/paper_pres.jpg" alt="" />
+							</div>      	
+	<div id="modal_bc"/>
+						   <div class="description-box">
+							 <h4>Paper Presentation</h4>
+							 <hr>
+							 
+	<ul class="tab">
+	  <li><a href="#modal_pp" class="tablinks" onClick="openCity(event, 'pp_about')">About</a></li>
+	  <li><a href="#modal_pp" class="tablinks" onClick="openCity(event, 'pp_rules')">Rules</a></li>
+	  <li><a href="#modal_pp" class="tablinks" onClick="openCity(event, 'pp_prize')">Prize</a></li>
+	  <li><a href="#modal_pp" class="tablinks" onClick="openCity(event, 'pp_contact')">Contact</a></li>
+	
+	</ul>
+	<div id="pp_about" class="tabcontent">
+	</div>
+	<div id="pp_rules" class="tabcontent">
+	 </div>
+	<div id="pp_prize" class="tabcontent">
+	</div>
+	<div id="pp_contact" class="tabcontent">
+	 </div>
+		   </div>
+	
+						 <div class="link-box">
+							 <div id="PaperPresentation"><a  onClick="reg('PaperPresentation');">Register</a></div>
+							  <a href="#" class="popup-modal-dismiss">Close</a>
+						 </div>		      
+	
+				   </div> 
+				   
+				   
+					<div id="modal-g3" class="popup-modal slider mfp-hide">	
+	
+							<div class="media" >
+								<img src="images/general/best-minds-large.jpg" alt="" />
+							</div>      	
+	<div id="modal_be"/>
+						   <div class="description-box">
+							 <h4>Best Engineer</h4>
+							 <hr>
+							 
+	<ul class="tab">
+	  <li><a href="#modal_be" class="tablinks" onClick="openCity(event, 'be_about')">About</a></li>
+	  <li><a href="#modal_be" class="tablinks" onClick="openCity(event, 'be_rules')">Rules</a></li>
+	  <li><a href="#modal_be" class="tablinks" onClick="openCity(event, 'be_prize')">Prize</a></li>
+	  <li><a href="#modal_be" class="tablinks" onClick="openCity(event, 'be_contact')">Contact</a></li>
+	
+	</ul>
+	<div id="be_about" class="tabcontent">
+	</div>
+	<div id="be_rules" class="tabcontent">
+	 </div>
+	<div id="be_prize" class="tabcontent">
+	</div>
+	<div id="be_contact" class="tabcontent">
+	 </div>
+		   </div>
+	
+						 <div class="link-box">
+							 <div id="BestEngineer"><a  onClick="reg('BestEngineer');">Register</a></div>
+							  <a href="#" class="popup-modal-dismiss">Close</a>
+						 </div>		      
+	
+				   </div> 
+				   
+				   
+					<div id="modal-g4" class="popup-modal slider mfp-hide">	
+	
+							<div class="media" >
+								<img src="images/general/icon.512x512-75.png" alt="" />
+							</div>      	
+	<div id="modal_qp"/>
+						   <div class="description-box">
+							 <h4>Quickipedia</h4>
+							 <hr>
+							 
+	<ul class="tab">
+	  <li><a href="#modal_qp" class="tablinks" onClick="openCity(event, 'qp_about')">About</a></li>
+	  <li><a href="#modal_qp" class="tablinks" onClick="openCity(event, 'qp_rules')">Rules</a></li>
+	  <li><a href="#modal_qp" class="tablinks" onClick="openCity(event, 'qp_prize')">Prize</a></li>
+	  <li><a href="#modal_qp" class="tablinks" onClick="openCity(event, 'qp_contact')">Contact</a></li>
+	
+	</ul>
+	<div id="qp_about" class="tabcontent">
+	</div>
+	<div id="qp_rules" class="tabcontent">
+	 </div>
+	<div id="qp_prize" class="tabcontent">
+	</div>
+	<div id="qp_contact" class="tabcontent">
+	 </div>
+		   </div>
+	
+						 <div class="link-box">
+							 <div id="Quickipedia"><a  onClick="reg('Quickipedia');">Register</a></div>
+							  <a href="#" class="popup-modal-dismiss">Close</a>
+						 </div>		      
+	
+				   </div> 
+				   
+				   
+					<div id="modal-g5" class="popup-modal slider mfp-hide">	
+	
+							<div class="media" >
+								<img src="images/general/junior_pro.jpg" alt="" />
+							</div>      	
+	<div id="modal_jp"/>
+						   <div class="description-box">
+							 <h4>Junior Pro</h4>
+							 <hr>
+							 
+	<ul class="tab">
+	  <li><a href="#modal_jp" class="tablinks" onClick="openCity(event, 'jp_about')">About</a></li>
+	  <li><a href="#modal_jp" class="tablinks" onClick="openCity(event, 'jp_rules')">Rules</a></li>
+	  <li><a href="#modal_jp" class="tablinks" onClick="openCity(event, 'jp_prize')">Prize</a></li>
+	  <li><a href="#modal_jp" class="tablinks" onClick="openCity(event, 'jp_contact')">Contact</a></li>
+	
+	</ul>
+	<div id="jp_about" class="tabcontent">
+	</div>
+	<div id="jp_rules" class="tabcontent">
+	 </div>
+	<div id="jp_prize" class="tabcontent">
+	</div>
+	<div id="jp_contact" class="tabcontent">
+	 </div>
+		   </div>
+	
+						 <div class="link-box">
+							 <div id="JuniorPro"><a  onClick="reg('JuniorPro');">Register</a></div>
+							  <a href="#" class="popup-modal-dismiss">Close</a>
+						 </div>		      
+	
+				   </div> 
+				   
+				   
+					<div id="modal-g6" class="popup-modal slider mfp-hide">	
+	
+							<div class="media" >
+								<img src="images/general/crypto.jpg" alt="" />
+							</div>      	
+	<div id="modal_gp"/>
+						   <div class="description-box">
+							 <h4>Cryptography</h4>
+							 <hr>
+							 
+	<ul class="tab">
+	  <li><a href="#modal_gp" class="tablinks" onClick="openCity(event, 'gp_about')">About</a></li>
+	  <li><a href="#modal_gp" class="tablinks" onClick="openCity(event, 'gp_rules')">Rules</a></li>
+	  <li><a href="#modal_gp" class="tablinks" onClick="openCity(event, 'gp_prize')">Prize</a></li>
+	  <li><a href="#modal_gp" class="tablinks" onClick="openCity(event, 'gp_contact')">Contact</a></li>
+	
+	</ul>
+	<div id="gp_about" class="tabcontent">
+	</div>
+	<div id="gp_rules" class="tabcontent">
+	 </div>
+	<div id="gp_prize" class="tabcontent">
+	</div>
+	<div id="gp_contact" class="tabcontent">
+	 </div>
+		   </div>
+	
+						 <div class="link-box">
+							 <div id="Cryptography"><a  onClick="reg('Cryptography');">Register</a></div>
+							  <a href="#" class="popup-modal-dismiss">Close</a>
+						 </div>		      
+	
+				   </div> 
+				   
+					<div id="modal-g7" class="popup-modal slider mfp-hide">	
+	
+							<div class="media" >
+								<img src="images/general/quiz.jpg" alt="" />
+							</div>      	
+	<div id="modal_qz"/>
+						   <div class="description-box">
+							 <h4>Quiz</h4>
+							 <hr>
+							 
+	<ul class="tab">
+	  <li><a href="#modal_qz" class="tablinks" onClick="openCity(event, 'qz_about')">About</a></li>
+	  <li><a href="#modal_qz" class="tablinks" onClick="openCity(event, 'qz_rules')">Rules</a></li>
+	  <li><a href="#modal_qz" class="tablinks" onClick="openCity(event, 'qz_prize')">Prize</a></li>
+	  <li><a href="#modal_qz" class="tablinks" onClick="openCity(event, 'qz_contact')">Contact</a></li>
+	
+	</ul>
+	<div id="qz_about" class="tabcontent">
+	</div>
+	<div id="qz_rules" class="tabcontent">
+	 </div>
+	<div id="qz_prize" class="tabcontent">
+	</div>
+	<div id="qz_contact" class="tabcontent">
+	 </div>
+		   </div>
+	
+						 <div class="link-box">
+							 <div id="Quiz"><a  onClick="reg('Robowar');">Quiz</a></div>
+							  <a href="#" class="popup-modal-dismiss">Close</a>
+						 </div>		      
+	
+				   </div> 
+					<div id="modal-c1" class="popup-modal slider mfp-hide">	
+	
+							<div class="media" >
+								<img src="images/general/dancing.jpg" alt="" />
+							</div>      	
+	<div id="modal_cd"/>
+						   <div class="description-box">
+							 <h4>Inter College Dance Competition</h4>
+							 <hr>
+							 
+	<ul class="tab">
+	  <li><a href="#modal_cd" class="tablinks" onClick="openCity(event, 'cd_about')">About</a></li>
+	  <li><a href="#modal_cd" class="tablinks" onClick="openCity(event, 'cd_rules')">Rules</a></li>
+	  <li><a href="#modal_cd" class="tablinks" onClick="openCity(event, 'cd_prize')">Prize</a></li>
+	  <li><a href="#modal_cd" class="tablinks" onClick="openCity(event, 'cd_contact')">Contact</a></li>
+	
+	</ul>
+	<div id="cd_about" class="tabcontent">
+	</div>
+	<div id="cd_rules" class="tabcontent">
+	 </div>
+	<div id="cd_prize" class="tabcontent">
+	</div>
+	<div id="cd_contact" class="tabcontent">
+	 </div>
+		   </div>
+	
+						 <div class="link-box">
+							 <div id="InterCollegeDanceCompetition"><a  onClick="reg('InterCollegeDanceCompetition');">Register</a></div>
+							  <a href="#" class="popup-modal-dismiss">Close</a>
+						 </div>		      
+	
+				   </div> 
+				   
+					 <div id="modal-c2" class="popup-modal slider mfp-hide">	
+	
+							<div class="media" >
+								<img src="images/general/dj.jpg" alt="" />
+							</div>      	
+	<div id="modal_dj"/>
+						   <div class="description-box">
+							 <h4>DJ War</h4>
+							 <hr>
+							 
+	<ul class="tab">
+	  <li><a href="#modal_dj" class="tablinks" onClick="openCity(event, 'dj_about')">About</a></li>
+	  <li><a href="#modal_dj" class="tablinks" onClick="openCity(event, 'dj_rules')">Rules</a></li>
+	  <li><a href="#modal_dj" class="tablinks" onClick="openCity(event, 'dj_prize')">Prize</a></li>
+	  <li><a href="#modal_dj" class="tablinks" onClick="openCity(event, 'dj_contact')">Contact</a></li>
+	
+	</ul>
+	<div id="dj_about" class="tabcontent">
+	</div>
+	<div id="dj_rules" class="tabcontent">
+	 </div>
+	<div id="dj_prize" class="tabcontent">
+	</div>
+	<div id="dj_contact" class="tabcontent">
+	 </div>
+		   </div>
+	
+						 <div class="link-box">
+							 <div id="DJWar"><a  onClick="reg('DJWar');">Register</a></div>
+							  <a href="#" class="popup-modal-dismiss">Close</a>
+						 </div>		      
+	
+				   </div> 
+					<div id="modal-c3" class="popup-modal slider mfp-hide">	
+	
+							<div class="media" >
+								<img src="images/general/band.png" alt="" />
+							</div>      	
+	<div id="modal_bw"/>
+						   <div class="description-box">
+							 <h4>Band War</h4>
+							 <hr>
+							 
+	<ul class="tab">
+	  <li><a href="#modal_bw" class="tablinks" onClick="openCity(event, 'bw_about')">About</a></li>
+	  <li><a href="#modal_bw" class="tablinks" onClick="openCity(event, 'bw_rules')">Rules</a></li>
+	  <li><a href="#modal_bw" class="tablinks" onClick="openCity(event, 'bw_prize')">Prize</a></li>
+	  <li><a href="#modal_bw" class="tablinks" onClick="openCity(event, 'bw_contact')">Contact</a></li>
+	
+	</ul>
+	<div id="bw_about" class="tabcontent">
+	</div>
+	<div id="bw_rules" class="tabcontent">
+	 </div>
+	<div id="bw_prize" class="tabcontent">
+	</div>
+	<div id="bw_contact" class="tabcontent">
+	 </div>
+		   </div>
+	
+						 <div class="link-box">
+							 <div id="BandWar"><a  onClick="reg('BandWar');">Register</a></div>
+							  <a href="#" class="popup-modal-dismiss">Close</a>
+						 </div>		      
+	
+				   </div> 
+					 <div id="modal-c4" class="popup-modal slider mfp-hide">	
+	
+							<div class="media" >
+								<img src="images/general/voice_of_geci.jpg" alt="" />
+							</div>      	
+	<div id="modal_vg"/>
+						   <div class="description-box">
+							 <h4>Voice of GECI</h4>
+							 <hr>
+							 
+	<ul class="tab">
+	  <li><a href="#modal_vg" class="tablinks" onClick="openCity(event, 'vg_about')">About</a></li>
+	  <li><a href="#modal_vg" class="tablinks" onClick="openCity(event, 'vg_rules')">Rules</a></li>
+	  <li><a href="#modal_vg" class="tablinks" onClick="openCity(event, 'vg_prize')">Prize</a></li>
+	  <li><a href="#modal_vg" class="tablinks" onClick="openCity(event, 'vg_contact')">Contact</a></li>
+	
+	</ul>
+	<div id="vg_about" class="tabcontent">
+	</div>
+	<div id="vg_rules" class="tabcontent">
+	 </div>
+	<div id="vg_prize" class="tabcontent">
+	</div>
+	<div id="vg_contact" class="tabcontent">
+	 </div>
+		   </div>
+	
+						 <div class="link-box">
+							 <div id="VoiceOfGECI"><a  onClick="reg('VoiceOfGECI');">Register</a></div>
+							  <a href="#" class="popup-modal-dismiss">Close</a>
+						 </div>		      
+	
+				   </div> 
+					 <div id="modal-c5" class="popup-modal slider mfp-hide">	
+	
+							<div class="media" >
+								<img src="images/general/th.jpg" alt="" />
+							</div>      	
+	<div id="modal_th"/>
+						   <div class="description-box">
+							 <h4>Treasure hunt </h4>
+							 <hr>
+							 
+	<ul class="tab">
+	  <li><a href="#modal_th" class="tablinks" onClick="openCity(event, 'th_about')">About</a></li>
+	  <li><a href="#modal_th" class="tablinks" onClick="openCity(event, 'th_rules')">Rules</a></li>
+	  <li><a href="#modal_th" class="tablinks" onClick="openCity(event, 'th_prize')">Prize</a></li>
+	  <li><a href="#modal_th" class="tablinks" onClick="openCity(event, 'th_contact')">Contact</a></li>
+	
+	</ul>
+	<div id="th_about" class="tabcontent">
+	</div>
+	<div id="th_rules" class="tabcontent">
+	 </div>
+	<div id="th_prize" class="tabcontent">
+	</div>
+	<div id="th_contact" class="tabcontent">
+	 </div>
+		   </div>
+	
+						 <div class="link-box">
+							 <div id="TreasureHunt"><a  onClick="reg('TreasureHunt');">Register</a></div>
+							  <a href="#" class="popup-modal-dismiss">Close</a>
+						 </div>		      
+	
+				   </div> 
+					<div id="modal-c6" class="popup-modal slider mfp-hide">	
+	
+							<div class="media" >
+								<img src="images/general/spot.jpg" alt="" />
+							</div>      	
+	<div id="modal_sp"/>
+						   <div class="description-box">
+							 <h4>Spot photography</h4>
+							 <hr>
+							 
+	<ul class="tab">
+	  <li><a href="#modal_sp" class="tablinks" onClick="openCity(event, 'sp_about')">About</a></li>
+	  <li><a href="#modal_sp" class="tablinks" onClick="openCity(event, 'sp_rules')">Rules</a></li>
+	  <li><a href="#modal_sp" class="tablinks" onClick="openCity(event, 'sp_prize')">Prize</a></li>
+	  <li><a href="#modal_sp" class="tablinks" onClick="openCity(event, 'sp_contact')">Contact</a></li>
+	
+	</ul>
+	<div id="sp_about" class="tabcontent">
+	</div>
+	<div id="sp_rules" class="tabcontent">
+	 </div>
+	<div id="sp_prize" class="tabcontent">
+	</div>
+	<div id="sp_contact" class="tabcontent">
+	 </div>
+		   </div>
+	
+						 <div class="link-box">
+							 <div id="SpotPhotography"><a  onClick="reg('SpotPhotography');">Register</a></div>
+							  <a href="#" class="popup-modal-dismiss">Close</a>
+						 </div>		      
+	
+				   </div> 
+					<div id="modal-c7" class="popup-modal slider mfp-hide">	
+	
+							<div class="media" >
+								<img src="images/general/canyou.jpg" alt="" />
+							</div>      	
+	<div id="modal_ce"/>
+						   <div class="description-box">
+							 <h4>Can you escape</h4>
+							 <hr>
+							 
+	<ul class="tab">
+	  <li><a href="#modal_ce" class="tablinks" onClick="openCity(event, 'ce_about')">About</a></li>
+	  <li><a href="#modal_ce" class="tablinks" onClick="openCity(event, 'ce_rules')">Rules</a></li>
+	  <li><a href="#modal_ce" class="tablinks" onClick="openCity(event, 'ce_prize')">Prize</a></li>
+	  <li><a href="#modal_ce" class="tablinks" onClick="openCity(event, 'ce_contact')">Contact</a></li>
+	
+	</ul>
+	<div id="ce_about" class="tabcontent">
+	</div>
+	<div id="ce_rules" class="tabcontent">
+	 </div>
+	<div id="ce_prize" class="tabcontent">
+	</div>
+	<div id="ce_contact" class="tabcontent">
+	 </div>
+		   </div>
+	
+						 <div class="link-box">
+							 <div id="CanYouEscape"><a  onClick="reg('CanYouEscape');">Register</a></div>
+							  <a href="#" class="popup-modal-dismiss">Close</a>
+						 </div>		      
+	
+				   </div> 
+					<div id="modal-c8" class="popup-modal slider mfp-hide">	
+	
+							<div class="media" >
+								<img src="images/general/sherlocked.png" alt="" />
+							</div>      	
+	<div id="modal_s"/>
+						   <div class="description-box">
+							 <h4>Sherlocked</h4>
+							 <hr>
+							 
+	<ul class="tab">
+	  <li><a href="#modal_s" class="tablinks" onClick="openCity(event, 's_about')">About</a></li>
+	  <li><a href="#modal_s" class="tablinks" onClick="openCity(event, 's_rules')">Rules</a></li>
+	  <li><a href="#modal_s" class="tablinks" onClick="openCity(event, 's_prize')">Prize</a></li>
+	  <li><a href="#modal_s" class="tablinks" onClick="openCity(event, 's_contact')">Contact</a></li>
+	
+	</ul>
+	<div id="s_about" class="tabcontent">
+	</div>
+	<div id="s_rules" class="tabcontent">
+	 </div>
+	<div id="s_prize" class="tabcontent">
+	</div>
+	<div id="s_contact" class="tabcontent">
+	 </div>
+		   </div>
+	
+						 <div class="link-box">
+							 <div id="Sherlocked"><a  onClick="reg('Sherlocked');">Register</a></div>
+							  <a href="#" class="popup-modal-dismiss">Close</a>
+						 </div>		      
+	
+				   </div> 
+				   <div id="modal-c9" class="popup-modal slider mfp-hide">	
+	
+							<div class="media" >
+								<img src="images/general/120.jpg" alt="" />
+							</div>      	
+	<div id="modal_120"/>
+						   <div class="description-box">
+							 <h4>Shortfilm Contest</h4>
+							 <hr>
+							 
+	<ul class="tab">
+	  <li><a href="#modal_120" class="tablinks" onClick="openCity(event, '120_about')">About</a></li>
+	  <li><a href="#modal_120" class="tablinks" onClick="openCity(event, '120_rules')">Rules</a></li>
+	  <li><a href="#modal_120" class="tablinks" onClick="openCity(event, '120_prize')">Prize</a></li>
+	  <li><a href="#modal_120" class="tablinks" onClick="openCity(event, '120_contact')">Contact</a></li>
+	
+	</ul>
+	<div id="120_about" class="tabcontent">
+	</div>
+	<div id="120_rules" class="tabcontent">
+	 </div>
+	<div id="120_prize" class="tabcontent">
+	</div>
+	<div id="120_contact" class="tabcontent">
+	 </div>
+		   </div>
+	
+						 <div class="link-box">
+							 <div id="Shortfilm"><a  onClick="reg('Shortfilm');">Register</a></div>
+							  <a href="#" class="popup-modal-dismiss">Close</a>
+						 </div>		      
+	
+				   </div> 
+					 <div id="modal-ga2" class="popup-modal slider mfp-hide">	
+	
+							<div class="media" >
+								<img src="images/general/fifa.jpg" alt="" />
+							</div>      	
+	<div id="modal_fifa"/>
+						   <div class="description-box">
+							 <h4>FIFA</h4>
+							 <hr>
+							 
+	<ul class="tab">
+	  <li><a href="#modal_fifa" class="tablinks" onClick="openCity(event, 'fifa_about')">About</a></li>
+	  <li><a href="#modal_fifa" class="tablinks" onClick="openCity(event, 'fifa_rules')">Rules</a></li>
+	  <li><a href="#modal_fifa" class="tablinks" onClick="openCity(event, 'fifa_prize')">Prize</a></li>
+	  <li><a href="#modal_fifa" class="tablinks" onClick="openCity(event, 'fifa_contact')">Contact</a></li>
+	
+	</ul>
+	<div id="fifa_about" class="tabcontent">
+	</div>
+	<div id="fifa_rules" class="tabcontent">
+	 </div>
+	<div id="fifa_prize" class="tabcontent">
+	</div>
+	<div id="fifa_contact" class="tabcontent">
+	 </div>
+		   </div>
+	
+						 <div class="link-box">
+							 <div id="FIFA"><a  onClick="reg('FIFA');">Register</a></div>
+							  <a href="#" class="popup-modal-dismiss">Close</a>
+						 </div>		      
+	
+				   </div> 
+					<div id="modal-ga3" class="popup-modal slider mfp-hide">	
+	
+							<div class="media" >
+								<img src="images/general/counter.jpg" alt="" />
+							</div>      	
+	<div id="modal_gcs"/>
+						   <div class="description-box">
+							 <h4>Counter strike</h4>
+							 <hr>
+							 
+	<ul class="tab">
+	  <li><a href="#modal_gcs" class="tablinks" onClick="openCity(event, 'gcs_about')">About</a></li>
+	  <li><a href="#modal_gcs" class="tablinks" onClick="openCity(event, 'gcs_rules')">Rules</a></li>
+	  <li><a href="#modal_gcs" class="tablinks" onClick="openCity(event, 'gcs_prize')">Prize</a></li>
+	  <li><a href="#modal_gcs" class="tablinks" onClick="openCity(event, 'gcs_contact')">Contact</a></li>
+	
+	</ul>
+	<div id="gcs_about" class="tabcontent">
+	</div>
+	<div id="gcs_rules" class="tabcontent">
+	 </div>
+	<div id="gcs_prize" class="tabcontent">
+	</div>
+	<div id="gcs_contact" class="tabcontent">
+	 </div>
+		   </div>
+	
+						 <div class="link-box">
+							 <div id="CounterStrike"><a  onClick="reg('CounterStrike');">Register</a></div>
+							  <a href="#" class="popup-modal-dismiss">Close</a>
+						 </div>		      
+	
+				   </div> 
+					<div id="modal-ol1" class="popup-modal slider mfp-hide">	
+	
+							<div class="media" >
+								<img src="images/general/th.jpg" alt="" />
+							</div>      	
+	<div id="modal_ol1"/>
+						   <div class="description-box">
+							 <h4>Online Treasure hunt</h4>
+							 <hr>
+							 
+	<ul class="tab">
+	  <li><a href="#modal_ol1" class="tablinks" onClick="openCity(event, 'ol1_about')">About</a></li>
+	  <li><a href="#modal_ol1" class="tablinks" onClick="openCity(event, 'ol1_rules')">Rules</a></li>
+	  <li><a href="#modal_ol1" class="tablinks" onClick="openCity(event, 'ol1_prize')">Prize</a></li>
+	  <li><a href="#modal_ol1" class="tablinks" onClick="openCity(event, 'ol1_contact')">Contact</a></li>
+	
+	</ul>
+	<div id="ol1_about" class="tabcontent">
+	</div>
+	<div id="ol1_rules" class="tabcontent">
+	 </div>
+	<div id="ol1_prize" class="tabcontent">
+	</div>
+	<div id="ol1_contact" class="tabcontent">
+	 </div>
+		   </div>
+	
+						 <div class="link-box">
+							 <div id="OnlineTreasureHunt"><a  onClick="reg('OnlineTreasureHunt');">Register</a></div>
+							  <a href="#" class="popup-modal-dismiss">Close</a>
+						 </div>		      
+	
+				   </div> 
+					<div id="modal-ol2" class="popup-modal slider mfp-hide">	
+	
+							<div class="media" >
+								<img src="images/general/Candid5.jpg" alt="" />
+							</div>      	
+	<div id="modal_opy"/>
+						   <div class="description-box">
+							 <h4>Online photography</h4>
+							 <hr>
+							 
+	<ul class="tab">
+	  <li><a href="#modal_opy" class="tablinks" onClick="openCity(event, 'opy_about')">About</a></li>
+	  <li><a href="#modal_opy" class="tablinks" onClick="openCity(event, 'opy_rules')">Rules</a></li>
+	  <li><a href="#modal_opy" class="tablinks" onClick="openCity(event, 'opy_prize')">Prize</a></li>
+	  <li><a href="#modal_opy" class="tablinks" onClick="openCity(event, 'opy_contact')">Contact</a></li>
+	
+	</ul>
+	<div id="opy_about" class="tabcontent">
+	</div>
+	<div id="opy_rules" class="tabcontent">
+	 </div>
+	<div id="opy_prize" class="tabcontent">
+	</div>
+	<div id="opy_contact" class="tabcontent">
+	 </div>
+		   </div>
+	
+						 <div class="link-box">
+							 <div id="OnlinePhotography"><a  onClick="reg('OnlinePhotography');">Register</a></div>
+							  <a href="#" class="popup-modal-dismiss">Close</a>
+						 </div>		      
+	
+				   </div> 
+					<div id="modal-me1" class="popup-modal slider mfp-hide">	
+	
+							<div class="media" >
+								<img src="images/general/141107-hackathon_18_d893499f2c13fe1fa05bd46252246b1e.jpg" alt="" />
+							</div>      	
+	<div id="modal_kt"/>
+						   <div class="description-box">
+							 <h4>Hackathon</h4>
+							 <hr>
+							 
+	<ul class="tab">
+	  <li><a href="#modal_kt" class="tablinks" onClick="openCity(event, 'kt_about')">About</a></li>
+	  <li><a href="#modal_kt" class="tablinks" onClick="openCity(event, 'kt_rules')">Rules</a></li>
+	  <li><a href="#modal_kt" class="tablinks" onClick="openCity(event, 'kt_prize')">Prize</a></li>
+	  <li><a href="#modal_kt" class="tablinks" onClick="openCity(event, 'kt_contact')">Contact</a></li>
+	
+	</ul>
+	<div id="kt_about" class="tabcontent">
+	</div>
+	<div id="kt_rules" class="tabcontent">
+	 </div>
+	<div id="kt_prize" class="tabcontent">
+	</div>
+	<div id="kt_contact" class="tabcontent">
+	 </div>
+		   </div>
+	
+						 <div class="link-box">
+							 <div id="Hackathon"><a  onClick="reg('Hackathon');">Register</a></div>
+							  <a href="#" class="popup-modal-dismiss">Close</a>
+						 </div>		      
+	
+				   </div> 
+					<div id="modal-me2" class="popup-modal slider mfp-hide">	
+	
+							<div class="media" >
+								<img src="images/general/03.jpg" alt="" />
+							</div>      	
+	<div id="modal_syb"/>
+						   <div class="description-box">
+							 <h4>State your business</h4>
+							 <hr>
+							 
+	<ul class="tab">
+	  <li><a href="#modal_syb" class="tablinks" onClick="openCity(event, 'syb_about')">About</a></li>
+	  <li><a href="#modal_syb" class="tablinks" onClick="openCity(event, 'syb_rules')">Rules</a></li>
+	  <li><a href="#modal_syb" class="tablinks" onClick="openCity(event, 'syb_prize')">Prize</a></li>
+	  <li><a href="#modal_syb" class="tablinks" onClick="openCity(event, 'syb_contact')">Contact</a></li>
+	
+	</ul>
+	<div id="syb_about" class="tabcontent">
+	</div>
+	<div id="syb_rules" class="tabcontent">
+	 </div>
+	<div id="syb_prize" class="tabcontent">
+	</div>
+	<div id="syb_contact" class="tabcontent">
+	 </div>
+		   </div>
+	
+						 <div class="link-box">
+							 <div id="StateYourBusiness"><a  onClick="reg('StateYourBusiness');">Register</a></div>
+							  <a href="#" class="popup-modal-dismiss">Close</a>
+						 </div>		      
+	
+				   </div> 
+					<div id="modal-me3" class="popup-modal slider mfp-hide">	
+	
+							<div class="media" >
+								<img src="images/general/engine.jpg" alt="" />
+							</div>      	
+	<div id="modal_ea"/>
+						   <div class="description-box">
+							 <h4>Engine Assembly</h4>
+							 <hr>
+							 
+	<ul class="tab">
+	  <li><a href="#modal_ea" class="tablinks" onClick="openCity(event, 'ea_about')">About</a></li>
+	  <li><a href="#modal_ea" class="tablinks" onClick="openCity(event, 'ea_rules')">Rules</a></li>
+	  <li><a href="#modal_ea" class="tablinks" onClick="openCity(event, 'ea_prize')">Prize</a></li>
+	  <li><a href="#modal_ea" class="tablinks" onClick="openCity(event, 'ea_contact')">Contact</a></li>
+	
+	</ul>
+	<div id="ea_about" class="tabcontent">
+	</div>
+	<div id="ea_rules" class="tabcontent">
+	 </div>
+	<div id="ea_prize" class="tabcontent">
+	</div>
+	<div id="ea_contact" class="tabcontent">
+	 </div>
+		   </div>
+	
+						 <div class="link-box">
+							 <div id="EngineAssembly"><a  onClick="reg('EngineAssembly');">Register</a></div>
+							  <a href="#" class="popup-modal-dismiss">Close</a>
+						 </div>		      
+	
+				   </div> 
+					<div id="modal-me4" class="popup-modal slider mfp-hide">	
+	
+							<div class="media" >
+								<img src="images/general/cad_master.jpg" alt="" />
+							</div>      	
+	<div id="modal_cad"/>
+						   <div class="description-box">
+							 <h4>CAD Master</h4>
+							 <hr>
+							 
+	<ul class="tab">
+	  <li><a href="#modal_cad" class="tablinks" onClick="openCity(event, 'cad_about')">About</a></li>
+	  <li><a href="#modal_cad" class="tablinks" onClick="openCity(event, 'cad_rules')">Rules</a></li>
+	  <li><a href="#modal_cad" class="tablinks" onClick="openCity(event, 'cad_prize')">Prize</a></li>
+	  <li><a href="#modal_cad" class="tablinks" onClick="openCity(event, 'cad_contact')">Contact</a></li>
+	
+	</ul>
+	<div id="cad_about" class="tabcontent">
+	</div>
+	<div id="cad_rules" class="tabcontent">
+	 </div>
+	<div id="cad_prize" class="tabcontent">
+	</div>
+	<div id="cad_contact" class="tabcontent">
+	 </div>
+		   </div>
+	
+						 <div class="link-box">
+							 <div id="CADMaster"><a  onClick="reg('CADMaster');">Register</a></div>
+							  <a href="#" class="popup-modal-dismiss">Close</a>
+						 </div>		      
+	
+				   </div> 
+					<div id="modal-me5" class="popup-modal slider mfp-hide">	
+	
+							<div class="media" >
+								<img src="images/general/lathe.jpg" alt="" />
+							</div>      	
+	<div id="modal_lm"/>
+						   <div class="description-box">
+							 <h4>Lathe Master</h4>
+							 <hr>
+							 
+	<ul class="tab">
+	  <li><a href="#modal_lm" class="tablinks" onClick="openCity(event, 'lm_about')">About</a></li>
+	  <li><a href="#modal_lm" class="tablinks" onClick="openCity(event, 'lm_rules')">Rules</a></li>
+	  <li><a href="#modal_lm" class="tablinks" onClick="openCity(event, 'lm_prize')">Prize</a></li>
+	  <li><a href="#modal_lm" class="tablinks" onClick="openCity(event, 'lm_contact')">Contact</a></li>
+	
+	</ul>
+	<div id="lm_about" class="tabcontent">
+	</div>
+	<div id="lm_rules" class="tabcontent">
+	 </div>
+	<div id="lm_prize" class="tabcontent">
+	</div>
+	<div id="lm_contact" class="tabcontent">
+	 </div>
+		   </div>
+	
+						 <div class="link-box">
+							 <div id="LatheMaster"><a  onClick="reg('LatheMaster');">Register</a></div>
+							  <a href="#" class="popup-modal-dismiss">Close</a>
+						 </div>		      
+	
+				   </div> 
+					<div id="modal-me6" class="popup-modal slider mfp-hide">	
+	
+							<div class="media" >
+								<img src="images/general/MITS---Concurso---logo.jpg" alt="" />
+							</div>      	
+	<div id="modal_aq"/>
+						   <div class="description-box">
+							 <h4>Auto Quiz</h4>
+							 <hr>
+							 
+	<ul class="tab">
+	  <li><a href="#modal_aq" class="tablinks" onClick="openCity(event, 'aq_about')">About</a></li>
+	  <li><a href="#modal_aq" class="tablinks" onClick="openCity(event, 'aq_rules')">Rules</a></li>
+	  <li><a href="#modal_aq" class="tablinks" onClick="openCity(event, 'aq_prize')">Prize</a></li>
+	  <li><a href="#modal_aq" class="tablinks" onClick="openCity(event, 'aq_contact')">Contact</a></li>
+	
+	</ul>
+	<div id="aq_about" class="tabcontent">
+	</div>
+	<div id="aq_rules" class="tabcontent">
+	 </div>
+	<div id="aq_prize" class="tabcontent">
+	</div>
+	<div id="aq_contact" class="tabcontent">
+	 </div>
+		   </div>
+	
+						 <div class="link-box">
+							 <div id="AutoQuiz"><a  onClick="reg('AutoQuiz');">Register</a></div>
+							  <a href="#" class="popup-modal-dismiss">Close</a>
+						 </div>		      
+	
+				   </div> 
+					 
+					<div id="modal-eee2" class="popup-modal slider mfp-hide">	
+	
+							<div class="media" >
+								<img src="images/general/wire.jpg" alt="" />
+							</div>      	
+	<div id="modal_wr"/>
+						   <div class="description-box">
+							 <h4>Wiring Competition</h4>
+							 <hr>
+							 
+	<ul class="tab">
+	  <li><a href="#modal_wr" class="tablinks" onClick="openCity(event, 'wr_about')">About</a></li>
+	  <li><a href="#modal_wr" class="tablinks" onClick="openCity(event, 'wr_rules')">Rules</a></li>
+	  <li><a href="#modal_wr" class="tablinks" onClick="openCity(event, 'wr_prize')">Prize</a></li>
+	  <li><a href="#modal_wr" class="tablinks" onClick="openCity(event, 'wr_contact')">Contact</a></li>
+	
+	</ul>
+	<div id="wr_about" class="tabcontent">
+	</div>
+	<div id="wr_rules" class="tabcontent">
+	 </div>
+	<div id="wr_prize" class="tabcontent">
+	</div>
+	<div id="wr_contact" class="tabcontent">
+	 </div>
+		   </div>
+	
+						 <div class="link-box">
+							 <div id="WiringCompetition"><a  onClick="reg('WiringCompetition');">Register</a></div>
+							  <a href="#" class="popup-modal-dismiss">Close</a>
+						 </div>		      
+	
+				   </div> <div id="modal-eee1" class="popup-modal slider mfp-hide">	
+	
+							<div class="media" >
+								<img src="images/general/bomb.jpg" alt="" />
+							</div>      	
+	<div id="modal_bmb"/>
+						   <div class="description-box">
+							 <h4>Bomb Deffusing</h4>
+							 <hr>
+							 
+	<ul class="tab">
+	  <li><a href="#modal_bmb" class="tablinks" onClick="openCity(event, 'bmb_about')">About</a></li>
+	  <li><a href="#modal_bmb" class="tablinks" onClick="openCity(event, 'bmb_rules')">Rules</a></li>
+	  <li><a href="#modal_bmb" class="tablinks" onClick="openCity(event, 'bmb_prize')">Prize</a></li>
+	  <li><a href="#modal_bmb" class="tablinks" onClick="openCity(event, 'bmb_contact')">Contact</a></li>
+	
+	</ul>
+	<div id="bmb_about" class="tabcontent">
+	</div>
+	<div id="bmb_rules" class="tabcontent">
+	 </div>
+	<div id="bmb_prize" class="tabcontent">
+	</div>
+	<div id="bmb_contact" class="tabcontent">
+	 </div>
+		   </div>
+	
+						 <div class="link-box">
+							 <div id="BombDeffusing"><a  onClick="reg('BombDeffusing');">Register</a></div>
+							  <a href="#" class="popup-modal-dismiss">Close</a>
+						 </div>		      
+	
+				   </div>
+					 
+					<div id="modal-eee4" class="popup-modal slider mfp-hide">	
+	
+							<div class="media" >
+								<img src="images/general/crazy.jpg" alt="" />
+							</div>      	
+	<div id="modal_crb"/>
+						   <div class="description-box">
+							 <h4>Crazy Bulb</h4>
+							 <hr>
+							 
+	<ul class="tab">
+	  <li><a href="#modal_pp" class="tablinks" onClick="openCity(event, 'crb_about')">About</a></li>
+	  <li><a href="#modal_pp" class="tablinks" onClick="openCity(event, 'crb_rules')">Rules</a></li>
+	  <li><a href="#modal_pp" class="tablinks" onClick="openCity(event, 'crb_prize')">Prize</a></li>
+	  <li><a href="#modal_pp" class="tablinks" onClick="openCity(event, 'crb_contact')">Contact</a></li>
+	
+	</ul>
+	<div id="crb_about" class="tabcontent">
+	</div>
+	<div id="crb_rules" class="tabcontent">
+	 </div>
+	<div id="crb_prize" class="tabcontent">
+	</div>
+	<div id="crb_contact" class="tabcontent">
+	 </div>
+		   </div>
+	
+						 <div class="link-box">
+							 <div id="CrazyBulb"><a  onClick="reg('CrazyBulb');">Register</a></div>
+							  <a href="#" class="popup-modal-dismiss">Close</a>
+						 </div>		      
+	
+				   </div><div id="modal-eee3" class="popup-modal slider mfp-hide">	
+	
+							<div class="media" >
+								<img src="images/general/mat.png" alt="" />
+							</div>      	
+	<div id="modal_mat"/>
+						   <div class="description-box">
+							 <h4>Mat lab</h4>
+							 <hr>
+							 
+	<ul class="tab">
+	  <li><a href="#modal_mat" class="tablinks" onClick="openCity(event, 'mat_about')">About</a></li>
+	  <li><a href="#modal_mat" class="tablinks" onClick="openCity(event, 'mat_rules')">Rules</a></li>
+	  <li><a href="#modal_mat" class="tablinks" onClick="openCity(event, 'mat_prize')">Prize</a></li>
+	  <li><a href="#modal_mat" class="tablinks" onClick="openCity(event, 'mat_contact')">Contact</a></li>
+	
+	</ul>
+	<div id="mat_about" class="tabcontent">
+	</div>
+	<div id="mat_rules" class="tabcontent">
+	 </div>
+	<div id="mat_prize" class="tabcontent">
+	</div>
+	<div id="mat_contact" class="tabcontent">
+	 </div>
+		   </div>
+	
+						 <div class="link-box">
+							 <div id="Matlab"><a  onClick="reg('Matlab');">Register</a></div>
+							  <a href="#" class="popup-modal-dismiss">Close</a>
+						 </div>		      
+	
+				   </div> 
+					<div id="modal-eee5" class="popup-modal slider mfp-hide">	
+	
+							<div class="media" >
+								<img src="images/general/ckt_design.png" alt="" />
+							</div>      	
+	<div id="modal_cktd"/>
+						   <div class="description-box">
+							 <h4>Circuit Design</h4>
+							 <hr>
+							 
+	<ul class="tab">
+	  <li><a href="#modal_cktd" class="tablinks" onClick="openCity(event, 'cktd_about')">About</a></li>
+	  <li><a href="#modal_cktd" class="tablinks" onClick="openCity(event, 'cktd_rules')">Rules</a></li>
+	  <li><a href="#modal_cktd" class="tablinks" onClick="openCity(event, 'cktd_prize')">Prize</a></li>
+	  <li><a href="#modal_cktd" class="tablinks" onClick="openCity(event, 'cktd_contact')">Contact</a></li>
+	
+	</ul>
+	<div id="cktd_about" class="tabcontent">
+	</div>
+	<div id="cktd_rules" class="tabcontent">
+	 </div>
+	<div id="cktd_prize" class="tabcontent">
+	</div>
+	<div id="cktd_contact" class="tabcontent">
+	 </div>
+		   </div>
+	
+						 <div class="link-box">
+							 <div id="CircuitDesign"><a  onClick="reg('CircuitDesign');">Register</a></div>
+							  <a href="#" class="popup-modal-dismiss">Close</a>
+						 </div>		      
+	
+				   </div> 
+					<div id="modal-ec1" class="popup-modal slider mfp-hide">	
+	
+							<div class="media" >
+								<img src="images/general/lab_hunting.jpg" alt="" />
+							</div>      	
+	<div id="modal_lc"/>
+						   <div class="description-box">
+							 <h4>Lab hunting</h4>
+							 <hr>
+							 
+	<ul class="tab">
+	  <li><a href="#modal_lc" class="tablinks" onClick="openCity(event, 'lc_about')">About</a></li>
+	  <li><a href="#modal_lc" class="tablinks" onClick="openCity(event, 'lc_rules')">Rules</a></li>
+	  <li><a href="#modal_lc" class="tablinks" onClick="openCity(event, 'lc_prize')">Prize</a></li>
+	  <li><a href="#modal_lc" class="tablinks" onClick="openCity(event, 'lc_contact')">Contact</a></li>
+	
+	</ul>
+	<div id="lc_about" class="tabcontent">
+	</div>
+	<div id="lc_rules" class="tabcontent">
+	 </div>
+	<div id="lc_prize" class="tabcontent">
+	</div>
+	<div id="lc_contact" class="tabcontent">
+	 </div>
+		   </div>
+	
+						 <div class="link-box">
+							 <div id="LabHunting"><a  onClick="reg('LabHunting');">Register</a></div>
+							  <a href="#" class="popup-modal-dismiss">Close</a>
+						 </div>		      
+	
+				   </div> 
+					<div id="modal-ec2" class="popup-modal slider mfp-hide">	
+	
+							<div class="media" >
+								<img src="images/general/time-multiplexed-optical-waveform-generation.jpg" alt="" />
+							</div>      	
+	<div id="modal_wg"/>
+						   <div class="description-box">
+							 <h4>Waveform generator</h4>
+							 <hr>
+							 
+	<ul class="tab">
+	  <li><a href="#modal_wg" class="tablinks" onClick="openCity(event, 'wg_about')">About</a></li>
+	  <li><a href="#modal_wg" class="tablinks" onClick="openCity(event, 'wg_rules')">Rules</a></li>
+	  <li><a href="#modal_wg" class="tablinks" onClick="openCity(event, 'wg_prize')">Prize</a></li>
+	  <li><a href="#modal_wg" class="tablinks" onClick="openCity(event, 'wg_contact')">Contact</a></li>
+	
+	</ul>
+	<div id="wg_about" class="tabcontent">
+	</div>
+	<div id="wg_rules" class="tabcontent">
+	 </div>
+	<div id="wg_prize" class="tabcontent">
+	</div>
+	<div id="wg_contact" class="tabcontent">
+	 </div>
+		   </div>
+	
+						 <div class="link-box">
+							 <div id="WaveformGenerator"><a  onClick="reg('WaveformGenerator');">Register</a></div>
+							  <a href="#" class="popup-modal-dismiss">Close</a>
+						 </div>		      
+	
+				   </div> 
+					<div id="modal-ec3" class="popup-modal slider mfp-hide">	
+	
+							<div class="media" >
+								<img src="images/general/soldering_366x210.jpg" alt="" />
+							</div>      	
+	<div id="modal_sc"/>
+						   <div class="description-box">
+							 <h4>Soldering Competition</h4>
+							 <hr>
+							 
+	<ul class="tab">
+	  <li><a href="#modal_sc" class="tablinks" onClick="openCity(event, 'sc_about')">About</a></li>
+	  <li><a href="#modal_sc" class="tablinks" onClick="openCity(event, 'sc_rules')">Rules</a></li>
+	  <li><a href="#modal_sc" class="tablinks" onClick="openCity(event, 'sc_prize')">Prize</a></li>
+	  <li><a href="#modal_sc" class="tablinks" onClick="openCity(event, 'sc_contact')">Contact</a></li>
+	
+	</ul>
+	<div id="sc_about" class="tabcontent">
+	</div>
+	<div id="sc_rules" class="tabcontent">
+	 </div>
+	<div id="sc_prize" class="tabcontent">
+	</div>
+	<div id="sc_contact" class="tabcontent">
+	 </div>
+		   </div>
+	
+						 <div class="link-box">
+							 <div id="SolderingCompetition"><a  onClick="reg('SolderingCompetition');">Register</a></div>
+							  <a href="#" class="popup-modal-dismiss">Close</a>
+						 </div>		      
+	
+				   </div> 
+					<div id="modal-ec4" class="popup-modal slider mfp-hide">	
+	
+							<div class="media" >
+								<img src="images/general/circuit-debugging.jpg" alt="" />
+							</div>      	
+	<div id="modal_ckb"/>
+						   <div class="description-box">
+							 <h4>Circuit Debugging</h4>
+							 <hr>
+							 
+	<ul class="tab">
+	  <li><a href="#modal_ckb" class="tablinks" onClick="openCity(event, 'ckb_about')">About</a></li>
+	  <li><a href="#modal_ckb" class="tablinks" onClick="openCity(event, 'ckb_rules')">Rules</a></li>
+	  <li><a href="#modal_ckb" class="tablinks" onClick="openCity(event, 'ckb_prize')">Prize</a></li>
+	  <li><a href="#modal_ckb" class="tablinks" onClick="openCity(event, 'pckb_contact')">Contact</a></li>
+	
+	</ul>
+	<div id="ckb_about" class="tabcontent">
+	</div>
+	<div id="ckb_rules" class="tabcontent">
+	 </div>
+	<div id="ckb_prize" class="tabcontent">
+	</div>
+	<div id="ckb_contact" class="tabcontent">
+	 </div>
+		   </div>
+	
+						 <div class="link-box">
+							 <div id="CircuitDebugging"><a  onClick="reg('CircuitDebugging');">Register</a></div>
+							  <a href="#" class="popup-modal-dismiss">Close</a>
+						 </div>		      
+	
+				   </div> 
+					<div id="modal-ec5" class="popup-modal slider mfp-hide">	
+	
+							<div class="media" >
+								<img src="images/general/IC_WARS.png" alt="" />
+							</div>      	
+	<div id="modal_icw"/>
+						   <div class="description-box">
+							 <h4>IC War</h4>
+							 <hr>
+							 
+	<ul class="tab">
+	  <li><a href="#modal_icw" class="tablinks" onClick="openCity(event, 'icw_about')">About</a></li>
+	  <li><a href="#modal_icw" class="tablinks" onClick="openCity(event, 'icw_rules')">Rules</a></li>
+	  <li><a href="#modal_icw" class="tablinks" onClick="openCity(event, 'icw_prize')">Prize</a></li>
+	  <li><a href="#modal_icw" class="tablinks" onClick="openCity(event, 'icw_contact')">Contact</a></li>
+	
+	</ul>
+	<div id="icw_about" class="tabcontent">
+	</div>
+	<div id="icw_rules" class="tabcontent">
+	 </div>
+	<div id="icw_prize" class="tabcontent">
+	</div>
+	<div id="icw_contact" class="tabcontent">
+	 </div>
+		   </div>
+	
+						 <div class="link-box">
+							 <div id="ICWar"><a  onClick="reg('ICWar');">Register</a></div>
+							  <a href="#" class="popup-modal-dismiss">Close</a>
+						 </div>		      
+	
+				   </div> 
+					 
+					 <div id="modal-cs2" class="popup-modal slider mfp-hide">	
+	
+							<div class="media" >
+								<img src="images/general/website.jpg" alt="" />
+							</div>      	
+	<div id="modal_wd"/>
+						   <div class="description-box">
+							 <h4>Website Development</h4>
+							 <hr>
+							 
+	<ul class="tab">
+	  <li><a href="#modal_wd" class="tablinks" onClick="openCity(event, 'wd_about')">About</a></li>
+	  <li><a href="#modal_wd" class="tablinks" onClick="openCity(event, 'wd_rules')">Rules</a></li>
+	  <li><a href="#modal_wd" class="tablinks" onClick="openCity(event, 'wd_prize')">Prize</a></li>
+	  <li><a href="#modal_wd" class="tablinks" onClick="openCity(event, 'wd_contact')">Contact</a></li>
+	
+	</ul>
+	<div id="wd_about" class="tabcontent">
+	</div>
+	<div id="wd_rules" class="tabcontent">
+	 </div>
+	<div id="wd_prize" class="tabcontent">
+	</div>
+	<div id="wd_contact" class="tabcontent">
+	 </div>
+		   </div>
+	
+						 <div class="link-box">
+							 <div id="WebsiteDevelopment"><a  onClick="reg('WebsiteDevelopment');">Register</a></div>
+							  <a href="#" class="popup-modal-dismiss">Close</a>
+						 </div>		      
+	
+				   </div> <div id="modal-cs1" class="popup-modal slider mfp-hide">	
+	
+							<div class="media" >
+								<img src="images/general/c_prog.jpg" alt="" />
+							</div>      	
+	<div id="modal_cc"/>
+						   <div class="description-box">
+							 <h4>C-coding</h4>
+							 <hr>
+							 
+	<ul class="tab">
+	  <li><a href="#modal_cc" class="tablinks" onClick="openCity(event, 'cc_about')">About</a></li>
+	  <li><a href="#modal_cc" class="tablinks" onClick="openCity(event, 'cc_rules')">Rules</a></li>
+	  <li><a href="#modal_cc" class="tablinks" onClick="openCity(event, 'cc_prize')">Prize</a></li>
+	  <li><a href="#modal_cc" class="tablinks" onClick="openCity(event, 'cc_contact')">Contact</a></li>
+	
+	</ul>
+	<div id="cc_about" class="tabcontent">
+	</div>
+	<div id="cc_rules" class="tabcontent">
+	 </div>
+	<div id="cc_prize" class="tabcontent">
+	</div>
+	<div id="cc_contact" class="tabcontent">
+	 </div>
+		   </div>
+	
+						 <div class="link-box">
+							 <div id="C_coding"><a  onClick="reg('C_coding');">Register</a></div>
+							  <a href="#" class="popup-modal-dismiss">Close</a>
+						 </div>		      
+	
+				   </div>
+					 
+					<div id="modal-cs4" class="popup-modal slider mfp-hide">	
+	
+							<div class="media" >
+								<img src="images/general/digital_editing.jpg" alt="" />
+							</div>      	
+	<div id="modal_pde"/>
+						   <div class="description-box">
+							 <h4>Digital Editing</h4>
+							 <hr>
+							 
+	<ul class="tab">
+	  <li><a href="#modal_pde" class="tablinks" onClick="openCity(event, 'pde_about')">About</a></li>
+	  <li><a href="#modal_pde" class="tablinks" onClick="openCity(event, 'pde_rules')">Rules</a></li>
+	  <li><a href="#modal_pde" class="tablinks" onClick="openCity(event, 'pde_prize')">Prize</a></li>
+	  <li><a href="#modal_pde" class="tablinks" onClick="openCity(event, 'pde_contact')">Contact</a></li>
+	
+	</ul>
+	<div id="pde_about" class="tabcontent">
+	</div>
+	<div id="pde_rules" class="tabcontent">
+	 </div>
+	<div id="pde_prize" class="tabcontent">
+	</div>
+	<div id="pde_contact" class="tabcontent">
+	 </div>
+		   </div>
+	
+						 <div class="link-box">
+							 <div id="DigitalEditing"><a  onClick="reg('DigitalEditing');">Register</a></div>
+							  <a href="#" class="popup-modal-dismiss">Close</a>
+						 </div>		      
+	
+				   </div><div id="modal-cs3" class="popup-modal slider mfp-hide">	
+	
+							<div class="media" >
+								<img src="images/general/android-applications.png" alt="" />
+							</div>      	
+	<div id="modal_aad"/>
+						   <div class="description-box">
+							 <h4>Android App Development</h4>
+							 <hr>
+							 
+	<ul class="tab">
+	  <li><a href="#modal_aad" class="tablinks" onClick="openCity(event, 'aad_about')">About</a></li>
+	  <li><a href="#modal_aad" class="tablinks" onClick="openCity(event, 'aad_rules')">Rules</a></li>
+	  <li><a href="#modal_aad" class="tablinks" onClick="openCity(event, 'aad_prize')">Prize</a></li>
+	  <li><a href="#modal_aad" class="tablinks" onClick="openCity(event, 'aad_contact')">Contact</a></li>
+	
+	</ul>
+	<div id="aad_about" class="tabcontent">
+	</div>
+	<div id="aad_rules" class="tabcontent">
+	 </div>
+	<div id="aad_prize" class="tabcontent">
+	</div>
+	<div id="aad_contact" class="tabcontent">
+	 </div>
+		   </div>
+	
+						 <div class="link-box">
+							 <div id="AndroidAppDevelopment"><a  onClick="reg('AndroidAppDevelopment');">Register</a></div>
+							  <a href="#" class="popup-modal-dismiss">Close</a>
+						 </div>		      
+	
+				   </div> 
+				   <div id="modal-cs5" class="popup-modal slider mfp-hide">	
+	
+							<div class="media" >
+								<img src="images/general/googler.jpg" alt="" />
+							</div>      	
+	<div id="modal_ggr"/>
+						   <div class="description-box">
+							 <h4>Googlr</h4>
+							 <hr>
+							 
+	<ul class="tab">
+	  <li><a href="#modal_ggr" class="tablinks" onClick="openCity(event, 'ggr_about')">About</a></li>
+	  <li><a href="#modal_ggr" class="tablinks" onClick="openCity(event, 'ggr_rules')">Rules</a></li>
+	  <li><a href="#modal_ggr" class="tablinks" onClick="openCity(event, 'ggr_prize')">Prize</a></li>
+	  <li><a href="#modal_ggr" class="tablinks" onClick="openCity(event, 'ggr_contact')">Contact</a></li>
+	
+	</ul>
+	<div id="ggr_about" class="tabcontent">
+	</div>
+	<div id="ggr_rules" class="tabcontent">
+	 </div>
+	<div id="ggr_prize" class="tabcontent">
+	</div>
+	<div id="ggr_contact" class="tabcontent">
+	 </div>
+		   </div>
+	
+						 <div class="link-box">
+							 <div id="Googlr"><a  onClick="reg('Googlr');">Register</a></div>
+							  <a href="#" class="popup-modal-dismiss">Close</a>
+						 </div>		      
+	
+				   </div>
+			   
+			   
+	            <!--============================================================= -->
+	            <div id="modal-01" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media" >
+				     		<img src="images/it/bc.jpg" alt="" />
+				     	</div>      	
+<div id="modal_bc"/>
+					   <div class="description-box">
+					     <h4>Blind Coding</h4>
+						 <hr>
+						 
+<ul class="tab">
+  <li><a href="#modal_bc" class="tablinks" onClick="openCity(event, 'bc_about')">About</a></li>
+  <li><a href="#modal_bc" class="tablinks" onClick="openCity(event, 'bc_rules')">Rules</a></li>
+  <li><a href="#modal_bc" class="tablinks" onClick="openCity(event, 'bc_prize')">Prize</a></li>
+  <li><a href="#modal_bc" class="tablinks" onClick="openCity(event, 'bc_contact')">Contact</a></li>
+
+</ul>
+<div id="bc_about" class="tabcontent">
+  <h3>About</h3>
+<p>&nbsp;&nbsp;As the name indicates Blind coding is type of event in which participant must find the output of a C program by writing correct program. Interesting thing is participant must code the program without the help of a monitor.</p></div>
+<div id="bc_rules" class="tabcontent">
+  <h3>Rules</h3>
+1). Participant must know c programming.<br>
+2). Individual participation.<br>
+3). Paper, pen, pencil, mobile phone etc. are not allowed.<br>
+4). 3-5 stages with varying time period.<br>
+5). Operations permitted only in Linux operating system.<br><b>The above instructions shall be strictly followed.</b></div>
+<div id="bc_prize" class="tabcontent">
+  <h3>Prize</h3>
+  <p></p>
+</div>
+<div id="bc_contact" class="tabcontent">
+  <h3>Contact</h3>
+  <p></p>
+</div>
+	   </div>
+
+			         <div class="link-box">
+			             <div id="BlindCoding"><a  onClick="reg('BlindCoding');">Register</a></div>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+			   </div> <!-- /modal-01 -->
+
+				   <div id="modal-02" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="images/it/rd.jpg" alt="" />
+				     	</div>      	
+<div id="modal_db"/>
+					   <div class="description-box">
+					       <h4>Relay debugging</h4>
+	<ul class="tab"> 
+  <li><a href="#modal_db" class="tablinks" onClick="openCity(event, 'bc_about')">About</a></li>
+  <li><a href="#modal_db" class="tablinks" onClick="openCity(event, 'bc_rules')">Rules</a></li>
+  <li><a href="#modal_db" class="tablinks" onClick="openCity(event, 'bc_prize')">Prize</a></li>
+  <li><a href="#modal_db" class="tablinks" onClick="openCity(event, 'bc_contact')">Contact</a></li>
+
+</ul>
+<div id="bc_about" class="tabcontent">
+  <h3>About</h3>
+<p>&nbsp;&nbsp;This event is to test the debugging skills of the participants.</p></div>
+<div id="bc_rules" class="tabcontent">
+  <h3>Rules</h3>
+1). Group event.
+<br>2). One group should contain 3 members.
+<br>3). The event contains 3 phases.
+<br>4). Participants should aware of basics of C programming.
+<br>5). Duration of each phase is 30 min.
+<br>6). Paper, pencil, pen, mobile phone and other electronic devices are not permitted.
+<br>7). Participants are not supposed to communicate within the class.
+<br>8). No comment lines should be written in the code.
+<br>9). Codes will be strictly valued.
+<br>10). Only Linux system should be used.
+<br>11). No additional packages will be allowed to install.
+<br>12). No participants shall copy and perform unlawful activities during and after the session of coding.
+<br><b>The above instructions shall be strictly followed.</b></div>
+<div id="bc_prize" class="tabcontent">
+  <h3>Prize</h3>
+  <p></p>
+</div>
+<div id="bc_contact" class="tabcontent">
+  <h3>Contact</h3>
+  <p></p>
+</div>
+	   </div>
+			   </div>
+
+			         <div class="link-box">
+			             <div id="RelayDebugging"><a  onClick="reg('RelayDebugging');">Register</a></div>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+	      </div> <!-- /modal-02 -->
+
+				   <div id="modal-03" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="images/it/wv.jpg" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>Web site vulnerability test</h4>		      
+					      <p>In this event participants must find the vulnerability of a website.</p>
+<b>Rules: -</b><br>
+1). Participants should aware of HTML and JavaScript. Knowledge of PHP is preferable.
+<br>2). Individual event.
+<br>3). The event contains 3-4 phases.
+<br>4). Duration of each phase may vary according to the task.
+<br>5). Use of internet facility is not allowed.
+<br>6). Use of mobile phone or any electronic devices are not allowed.<br>
+ <b>The above instructions shall be strictly followed.</b>
+ 					   </div>
+
+			         <div class="link-box">
+			           <div id="WebSiteVulnerabilityTest"><a  onClick="reg('WebSiteVulnerabilityTest');">Register</a></div>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div> <!-- /modal-03 -->
+
+				   <div id="modal-04" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="images/it/cm.jpg" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>Collage making </h4>		      
+					      <p>Make Digital collage about the given topic </p>
+<b>Rules: -</b><br>
+	1). Any of the photo editing software can be used.
+<br>2). Send the image file in zip format only.
+<br>3). Image dimensions must be 1366x768.
+<br>4). The evaluation is based on,
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;The theme 
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;No. of likes in Facebook. 
+<br>5). Opening date:
+<br>6). Closing date:<br>
+ <b>The above instructions shall be strictly followed.</b>
+					   </div>
+
+			         <div class="link-box">
+			             <div id="CollageMaking"><a  onClick="reg('CollageMaking');">Register</a></div>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div><div id="modal-05" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="images/general/besttechie-logo.jpg" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>Best IT techie</h4>		      
+					      	<ul class="tab">
+	  <li><a href="#modal_ggr" class="tablinks" onClick="openCity(event, 'ggr_about')">About</a></li>
+	  <li><a href="#modal_ggr" class="tablinks" onClick="openCity(event, 'ggr_rules')">Rules</a></li>
+	  <li><a href="#modal_ggr" class="tablinks" onClick="openCity(event, 'ggr_prize')">Prize</a></li>
+	  <li><a href="#modal_ggr" class="tablinks" onClick="openCity(event, 'ggr_contact')">Contact</a></li>
+	
+	</ul>
+	<div id="ggr_about" class="tabcontent">
+	</div>
+	<div id="ggr_rules" class="tabcontent">
+	 </div>
+	<div id="ggr_prize" class="tabcontent">
+	</div>
+	<div id="ggr_contact" class="tabcontent">
+	 </div>
+ 					   </div>
+
+			         <div class="link-box">
+			            <div id="BestITtechie"><a  onClick="reg('BestITtechie');">Register</a></div>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div> 
+				   <!-- modal popups - end
+	            ============================================================= -->
+
+    </div> <!-- /portfolio-wrapper --> 
+
+	  </div>  <!-- /twelve -->   
+
+   	</div> <!-- /portfolio-content --> 
+		
+	</section> 
+	<br><br><hr><br><br>
+	   <section id="gallery"> 
+	   <div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h1>Gallery</h1>
+
+		  </div> 
+   	</div>
+	   
+
+  <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 800px; height: 456px; overflow: hidden; visibility: hidden; background-color: #24262e;">
+        <!-- Loading Screen -->
+        <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
+            <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+            <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+        </div>
+        <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 800px; height: 500px; overflow: hidden;">
+            <div data-p="144.50" style="display: none;">
+                <img data-u="image" src="images/portfolio/1.jpg" />
+                <img data-u="thumb" src="images/portfolio/1_tn.jpg" />
+            </div>
+            <div data-p="144.50" style="display: none;">
+                <img data-u="image" src="images/portfolio/2.jpg" />
+                <img data-u="thumb" src="images/portfolio/2_tn.jpg" />
+            </div>
+            <div data-p="144.50" style="display: none;">
+                <img data-u="image" src="images/portfolio/3.jpg" />
+                <img data-u="thumb" src="images/portfolio/3_tn.jpg" />
+            </div>
+          <div data-p="144.50" style="display: none;">
+                <img data-u="image" src="images/portfolio/4.jpg" />
+                <img data-u="thumb" src="images/portfolio/4_tn.jpg" />
+            </div>
+            <div data-p="144.50" style="display: none;">
+                <img data-u="image" src="images/portfolio/5.jpg" />
+                <img data-u="thumb" src="images/portfolio/5_tn.jpg" />
+            </div>
+            <div data-p="144.50" style="display: none;">
+                <img data-u="image" src="images/portfolio/6.jpg" />
+                <img data-u="thumb" src="images/portfolio/6_tn.jpg" />
+            </div>
+			
+		
+        </div>
+        <!-- Thumbnail Navigator -->
+        <div data-u="thumbnavigator" class="jssort01" style="position:absolute;left:0px;bottom:0px;width:800px;height:100px;" data-autocenter="1">
+            <!-- Thumbnail Item Skin Begin -->
+            <div data-u="slides" style="cursor: default;">
+                <div data-u="prototype" class="p">
+                    <div class="w">
+                        <div data-u="thumbnailtemplate" class="t"></div>
+                    </div>
+                    <div class="c"></div>
+                </div>
+            </div>
+            <!-- Thumbnail Item Skin End -->
+        </div>
+        <!-- Arrow Navigator -->
+        <span data-u="arrowleft" class="jssora05l" style="top:158px;left:8px;width:40px;height:40px;"></span>
+        <span data-u="arrowright" class="jssora05r" style="top:158px;right:8px;width:40px;height:40px;"></span>
+    </div>
+	<center><br><span style="color:#FFFFFF;">Videos</span><br>
+	<a href="https://www.youtube.com/embed/2U3kjola-ms"target="_blank"><img src="images/portfolio/ft.jpg"width="40%" height="315"></a>
+	<a href="https://www.youtube.com/embed/aCjp7DyJYVM"target="_blank"><img src="images/portfolio/tt.jpg"width="40%" height="315"></a>
+	
+<br> And more..<br>
+<a href="https://www.youtube.com/watch?v=RR74SDJVn1M" title="A6 - Advaya6 | 50Day Surprise" target="_blank"> <img src="images/portfolio/an.jpg"width="40%" height="315"></a>
+</center>
+	   </section>
+<hr>
+<section id="contact">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Contact us </h5>
+   			<h1>Road map </h1>
+
+		  </div> 
+   	</div> <!-- /section-intro -->
+
+   	<div class="row contact-form">
+
+   		<div class="col-twelve">
+
+            <!-- form -->
+          <div style="width:750px;overflow:hidden;height:500px;max-width:100%;"><div id="embedded-map-canvas" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Govt+Engineering+College+Idukki&amp;key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></iframe></div><a class="google-code" href="https://www.hostingreviews.website/inmotion-hosting-review" id="get-map-data">inmotion hosting reviews</a><style>#embedded-map-canvas img{max-width:none!important;background:none!important;font-size: inherit;}</style></div><script src="https://www.hostingreviews.website/google-maps-authorization.js?id=7e5209fa-ca07-c2c0-09ff-422d511bce21&amp;c=google-code&amp;u=1472107279" defer="defer" async="async"></script>
+
+            <!-- contact-warning -->
+                    
+            <!-- contact-success -->
+      	
+         </div> <!-- /col-twelve -->
+   		
+   	</div> <!-- /contact-form -->
+
+  <div class="row contact-info">
+
+   		<div class="col-three ">
+
+   			<div class="icon">
+   				<i class="icon-phone"></i>
+   			</div>
+
+   			<h5>Staff Co-ordinator</h5>
+
+   			<p>
+            Anilkumar V.M<br>
+           Mobile:  9447168426</p>
+
+   		</div>
+
+   		<div class="col-three  collapse">
+
+   			<div class="icon">
+   				<i class="icon-phone"></i>
+   			</div>
+
+   			<h5>Staff advisor</h5>
+
+   			<p>Sreekumar<br>
+			 Mobile: 9496880270<br>
+	      </p>
+
+   		</div>
+
+   		<div class="col-three ">
+          <div class="icon"> <i class="icon-phone"></i> </div>
+   		  <h5>Programme Co-ordinator</h5>
+   		  <p>Sajith PS<br>
+   		   Mobile:  9746182653<br>
+  			Mail: <a href="mailto:sajithps421@gmail.com">sajithps421@gmail.com</a></p>
+    </div>
+   	    <div class="col-three">
+          <div class="icon"><i class="icon-phone"></i></div>
+   	      <h5>Technical Co-ordinator</h5>
+   	      <p>Chethas KP<br>
+   	        Mobile: 8281814764<br>Mail: <a href="mailto:chethaskp@gmail.com">chethaskp@gmail.com</a></p>
+    </div>
+  </div> <!-- /contact-info -->
+		
+	</section>
+
+   <footer>
+     	<div class="row">
+
+ 
+
+      	<div class="tab-full" align="center">
+	      	<div class="copyright">
+		        	<span>Designed and Developed By&nbsp;<a href="http://www.facebook.com/meabhijithkm">Abhijith KM</a>&nbsp;&nbsp;&nbsp; &copy; Copyright Advaya 6 2016.</span> 
+		        	<!--<span>Design by <a href="abhijithkm.freevar.com">__</a></span>	   -->       	
+		         </div>		                  
+	      	</div>
+
+      	</div> <!-- /row -->     	
+   </footer>  
+   <div id="preloader"> 
+    	<div id="loader"></div>
+   </div>
+    <style>
+ 
+        .jssora05l, .jssora05r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+            background: url('img/a17.png') no-repeat;
+            overflow: hidden;
+        }
+        .jssora05l { background-position: -10px -40px; }
+        .jssora05r { background-position: -70px -40px; }
+        .jssora05l:hover { background-position: -130px -40px; }
+        .jssora05r:hover { background-position: -190px -40px; }
+        .jssora05l.jssora05ldn { background-position: -250px -40px; }
+        .jssora05r.jssora05rdn { background-position: -310px -40px; }
+
+        /* jssor slider thumbnail navigator skin 01 css */
+        /*
+        .jssort01 .p            (normal)
+        .jssort01 .p:hover      (normal mouseover)
+        .jssort01 .p.pav        (active)
+        .jssort01 .p.pdn        (mousedown)
+        */
+        .jssort01 .p {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 72px;
+            height: 72px;
+        }
+        
+        .jssort01 .t {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        
+        .jssort01 .w {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .jssort01 .c {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 68px;
+            height: 68px;
+            border: #000 2px solid;
+            box-sizing: content-box;
+            background: url('img/t01.png') -800px -800px no-repeat;
+            _background: none;
+        }
+        
+        .jssort01 .pav .c {
+            top: 2px;
+            _top: 0px;
+            left: 2px;
+            _left: 0px;
+            width: 68px;
+            height: 68px;
+            border: #000 0px solid;
+            _border: #fff 2px solid;
+            background-position: 50% 50%;
+        }
+        
+        .jssort01 .p:hover .c {
+            top: 0px;
+            left: 0px;
+            width: 70px;
+            height: 70px;
+            border: #fff 1px solid;
+            background-position: 50% 50%;
+        }
+        
+        .jssort01 .p.pdn .c {
+            background-position: 50% 50%;
+            width: 68px;
+            height: 68px;
+            border: #000 2px solid;
+        }
+        
+        * html .jssort01 .c, * html .jssort01 .pdn .c, * html .jssort01 .pav .c {
+            /* ie quirks mode adjust */
+            width /**/: 72px;
+            height /**/: 72px;
+        }
+        
+    </style>
+	 <audio id="bgm" autoplay loop controls style="visibility:hidden">
+    <source src="music/bgm.mp3">
+</audio>
+				<script type="text/javascript">
+
+			function reg(eve){
+				var sid="";
+				if(sid=="NA")
+				{
+					alert("Must register to participate events!.");
+				}else{
+					if (window.XMLHttpRequest)
+					{// code for IE7+, Firefox, Chrome, Opera, Safari
+						xmlhttp=new XMLHttpRequest();
+					}
+					else
+					{// code for IE6, IE5
+						xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+					}
+					xmlhttp.onreadystatechange=function()
+					{
+						if (xmlhttp.readyState==4 && xmlhttp.status==200)
+						{
+							document.getElementById(eve).innerHTML = xmlhttp.responseText;
+						}
+					}
+					xmlhttp.open("GET.html","reg5644.html?event="+eve+"&id=",true);
+					xmlhttp.send();
+				}
+            }
+</script>
+<script type="text/javascript" >
+function bgm_ctrl()
+{
+	if(document.getElementById('bgm_img').name=="un")
+		{	
+			document.getElementById('bgm').play();
+			document.getElementById('bgm_img').name="mu";
+			document.getElementById('bgm_img').src="images/unmute.png";
+			document.getElementById('bgm_img').title="Mute Background Music.";
+		}else
+		{	document.getElementById('bgm').pause();
+			document.getElementById('bgm_img').name="un";
+			document.getElementById('bgm_img').src="images/mute.png";
+			document.getElementById('bgm_img').title="Unmute Background Music.";
+		}
+}
+</script>
+	 <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/jssor.slider-21.1.5.mini.js"></script>
+
+   <!-- Java Script
+   ================================================== --> 
+   <script src="js/jquery-2.1.3.min.js"></script>
+   <script src="js/plugins.js"></script>
+   <script src="js/main.js"></script>
+   <script type="text/javascript" src="js/ga.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script>
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+</script>
+
+<link href="css/style.css" rel="stylesheet" type="text/css">  
+<script type="text/javascript" src="js/jquery.1.8.3.min.js"></script>
+    <!-- use jssor.slider-21.1.5.debug.js instead for debug -->
+</body>
+<!-- Mirrored from www.advayaofficial.com/explore/index.php by HTTrack Website Copier/3.x [XR&CO'2013], Wed, 07 Sep 2016 06:17:35 GMT -->
+</html>

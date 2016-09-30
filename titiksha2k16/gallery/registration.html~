@@ -1,0 +1,96 @@
+
+	  
+<html>
+<head> 
+   <link rel="stylesheet" href="css/main.css">
+ 
+<title>Register or Login</title></head>
+
+
+<body  style="background: fixed repeat url(images/jUONmz.gif) ;">
+
+<header>   	
+   	<div class="row">
+<div style="top:25px;left:15px;"><a href="index-2.html"><img src="images/back.png"width="55" height="55"></a>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<img id="bgm_img"src="images/unmute.png" width="55px" height="55px" onClick="bgm_ctrl()"name="un" title="Mute Background Music." style="cursor:pointer;">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</div>
+
+
+   	<!-- /row --> 		
+</header> 
+ <section id="workshop">  
+
+   	<div class="row section-intro">
+   		<div >
+
+   			
+   			<h1 style="color:#FFFFFF;">Login Here</h1>
+
+   		    <form method="post" name="reg" id="reg">
+			<input type="number" name="mob1" id="mob1"placeholder="Mobile number"style=""required="required" autocomplete="off"><br>
+                <input type="password" name="pwd" id="pwd"placeholder="Password"style=""required="required" autocomplete="off"><br>
+                    <center><input type="submit" name="Submit1" value="Login">
+					<input type="reset" value="Clear"></center>
+              
+          </form>
+		  <hr>
+			<h1  style="color:#FFFFFF;">Register Here</h1>
+
+   		    <form method="post" name="reg" id="reg">
+   		  
+                    <input type="text" name="name" id="name" required="required" placeholder="Name" autocomplete="off"><br>
+               
+                    <input type="text" name="clg" id="clg" placeholder="College"style=""required="required" autocomplete="off"><br>
+             
+                    <input type="text" name="br" id="br"placeholder="Branch"style=""required="required" autocomplete="off"><br>
+                 
+                    <input type="text" name="sem" id="sem"placeholder="Semester"style=""required="required" autocomplete="off"><br>
+                 <input type="number" name="mob" id="mob"placeholder="Mobile number"style=""required="required" autocomplete="off"><br>
+				             <input type="email" name="mail" id="mail"placeholder="Email ID"style=""required="required" autocomplete="off"><br>
+              
+                   <center> <input type="submit" name="Submit" value="Submit">
+					<input type="reset" value="Clear"></center>
+              
+          </form>
+	      <p>&nbsp;</p>
+   		    <p class="lead" align="justify"></p>
+	  </div>   			
+
+	  </div>   		
+   	</div> <!-- /section-intro -->
+
+   	<div class="row about-content"></div>
+   	<div class="row button-section"></div>
+
+</section>
+
+   
+     <audio id="bgm" autoplay loop controls style="visibility:hidden">
+    <source src="music/bgm.mp3">
+</audio>
+<script type="text/javascript" >
+function bgm_ctrl()
+{
+	if(document.getElementById('bgm_img').name=="un")
+		{	
+			document.getElementById('bgm').play();
+			document.getElementById('bgm_img').name="mu";
+			document.getElementById('bgm_img').src="images/unmute.png";
+			document.getElementById('bgm_img').title="Mute Background Music.";
+		}else
+		{	document.getElementById('bgm').pause();
+			document.getElementById('bgm_img').name="un";
+			document.getElementById('bgm_img').src="images/mute.png";
+			document.getElementById('bgm_img').title="Unmute Background Music.";
+		}
+}
+</script>
+
+   
+
+</body>
+</html>
+
+

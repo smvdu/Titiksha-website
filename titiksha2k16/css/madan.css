@@ -1,0 +1,99 @@
+body{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+}
+
+
+#particles-js {
+    /* Size */
+    height: 100% !important;
+    width: 100% !important;
+    /* position */
+    position: fixed !important;
+    top: 0px !important;
+    left: 0px !important;    
+    z-index: 1 !important;
+}
+
+
+
+/* Bevan Font Face */
+@font-face {
+    font-family: "Bevan";
+    src: url("assets/font/Bevan.html");
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@media all and (max-width: 480px) {
+  core-animated-pages {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.wine-trans {
+    background: rgba(9, 15, 14, 0.85) !important; 
+    color: white;
+}
+.green-wine {
+    color: white;
+    background: rgb(9,15,14) !important;
+}
+
+    .green-wine li {
+        color: white;
+    }
+.green-mint {
+    background: #000000;	
+    background: #000000 !important;
+}
+.green-spot{
+    background: #6ADD6C;
+}
+.green-wine-text {
+    color: rgb(9,15,14);
+}
+.green-mint-text {
+    color: rgb(41,118,81);	
+}
+.green-spot-text {
+    color: #6ADD6C;
+}
+.green-spot-text {
+    color: #6ADD6C !important;
+}
+#container {
+    position: absolute;
+    z-index: 1;
+}
+
+.top {
+    position: relative;
+    z-index: 2;
+}
+
+
+.green-spring {
+    background: #01D084;
+}
+
+.green-spring-text {
+    color: #01D084;
+}
+
+
